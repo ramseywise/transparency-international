@@ -1,0 +1,39 @@
+# Python environment and caches (all rebuilt automatically)
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Secrets and personal settings
+.env
+.env.*
+.claude/settings.local.json
+
+# Operating system and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Other publishers' documents, as downloaded (data/raw/), and everything made
+# from them (data/processed/: text, chunks, index, screening export). This repo
+# is public and we may not redistribute these. ledger.jsonl and fetch-log.jsonl
+# record the address, date and checksum of every download, so they can be
+# fetched again. See literature/README.md, "What is in git".
+literature/*/data/
+
+# Participant lists: they name individual people. The source is public and
+# named in the study's docs; the scripts rebuild the derived table from it.
+unfccc/docs/archived/
+unfccc/data/raw/
+unfccc/data/derived/delegates_*.parquet
+
+# Raw eval answers: scratch. The scores are kept in .claude/skills/run-evals/results.md.
+.claude/skills/run-evals/runs/
