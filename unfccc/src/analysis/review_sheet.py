@@ -10,10 +10,15 @@ Columns, left to right:
 
 Inferred values sit beside the original, never over it (rule 5). The reviewer's columns are
 never filled by code. The sheet names organisations beside their labels: it is a working
-file for review and stays in ``data/derived/``; it is not an output for publication.
+file for review and stays in ``data/processed/``; it is not an output for publication.
 
 Run for the feasibility test (provisional, 20 organisations):
     uv run python -I -m analysis.review_sheet
+
+The blind sheet is a different thing: for the expert who labels the pilot without seeing
+the model's answers (proposal 6.5). It holds the organisation as listed and empty columns,
+one per codebook field, and nothing the model found or decided.
+    uv run python -I -m analysis.review_sheet --blind
 """
 
 from __future__ import annotations
@@ -24,12 +29,14 @@ from pathlib import Path
 import pandas as pd
 
 STUDY = Path(__file__).resolve().parents[2]
-DERIVED = STUDY / "data" / "derived"
+DERIVED = STUDY / "data" / "processed"  # the folder was renamed from derived, 2026-11-25
 
 ORIGINAL = ["org_id", "canonical_name", "raw_spellings", "countries",
             "n_delegates", "n_delegates_party", "n_delegates_party_overflow"]
 FIELDS = ["confidence", "unknown_reason", "source_url", "page", "quote"]
 REVIEW_END = ["review_identity", "review_notes", "reviewer", "review_date"]
+BLIND_END = ["expert_entity", "expert_source", "expert_notes", "expert_minutes", "reviewer",
+             "review_date"]
 
 
 def _text(v) -> str:
@@ -104,6 +111,57 @@ def codebook_test_main(derived: Path = DERIVED) -> Path:
     return out
 
 
+def expert_fields(fields: dict) -> dict:
+    """The codebook fields an expert fills in: those with a real choice of values.
+
+    Left out: the confidence fields and the class of an unknown (set by rule from the
+    evidence, not judged), and a field whose only allowed value is "unknown".
+    """
+    return {f: v for f, v in fields.items()
+            if not f.endswith("_confidence") and f != "unknown_class" and len(v) > 1}
+
+
+def blind(orgs: pd.DataFrame, cases: pd.DataFrame, fields: dict) -> pd.DataFrame:
+    """The blind sheet: the organisation as listed, and one empty column per field.
+
+    Built from the organisation table and the draw only. It never reads an evidence
+    record or a classification, so nothing of the model's can reach the expert.
+    """
+    by_id = orgs.set_index("org_id")
+    rows = []
+    for case, org_id in zip(cases["case"], cases["org_id"]):
+        org = {"org_id": org_id, **by_id.loc[org_id].to_dict()}
+        out = {"case": case, **{c: _text(org.get(c)) for c in ORIGINAL}}
+        out.update({f"{f}_expert": "" for f in expert_fields(fields)})
+        out.update({c: "" for c in BLIND_END})
+        rows.append(out)
+    return pd.DataFrame(rows).fillna("")
+
+
+def blind_main(derived: Path = DERIVED, codebook_path: Path = STUDY / "docs" / "codebook.md") -> Path:
+    """The blind sheet for the pilot draw, with the allowed values in a second file."""
+    from lookup import codebook
+
+    cb = codebook.load(codebook_path, draft=True)
+    base = derived / "draft-codebook"
+    fields = expert_fields(cb.labels["fields"])
+    sheet = blind(pd.read_parquet(derived / "organisations_eu.parquet"),
+                  pd.read_csv(base / "pilot_draw.csv"), cb.labels["fields"])
+    out = base / "pilot_blind_sheet_DRAFT.csv"
+    sheet.to_csv(out, index=False, encoding="utf-8-sig")
+    pd.DataFrame([{"column": f"{f}_expert", "allowed_values": " | ".join(v),
+                   "codebook_version": cb.version} for f, v in fields.items()]
+                 ).to_csv(base / "pilot_blind_sheet_values_DRAFT.csv", index=False,
+                          encoding="utf-8-sig")
+    print(f"{out}: {len(sheet)} organisations, {sheet.shape[1]} columns, codebook {cb.version}")
+    return out
+
+
 if __name__ == "__main__":
     import sys
-    codebook_test_main() if "--codebook-test" in sys.argv else main()
+    if "--blind" in sys.argv:
+        blind_main()
+    elif "--codebook-test" in sys.argv:
+        codebook_test_main()
+    else:
+        main()

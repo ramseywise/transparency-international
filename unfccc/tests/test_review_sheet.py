@@ -58,3 +58,35 @@ def test_review_columns_exist_and_are_empty(tmp_path):
     review = [c for c in sheet.columns if c.endswith("_review")] + rs.REVIEW_END
     assert {"business_review", "fossil_link_review", "review_notes"} <= set(review)
     assert (sheet[review] == "").all().all()
+
+
+def _blind():
+    orgs = pd.DataFrame([{
+        "org_id": "org_1", "canonical_name": "Example Works", "raw_spellings": ["Example Works", "EW"],
+        "countries": ["Atlantis"], "n_delegates": 3, "n_delegates_party": 1,
+        "n_delegates_party_overflow": 2,
+    }])
+    fields = {"business_status": ["business", "not_business", "unknown"], "tier_3": ["unknown"],
+              "tier_1": ["met", "not_met", "unknown"], "rule_confidence": ["high", "low"],
+              "unknown_class": ["none", "technical"]}
+    return rs.blind(orgs, pd.DataFrame([{"case": "P01", "org_id": "org_1"}]), fields)
+
+
+def test_blind_sheet_keeps_the_original_and_asks_only_for_fields_with_a_choice():
+    sheet = _blind()
+    assert sheet.iloc[0]["raw_spellings"] == "Example Works | EW"
+    asked = [c for c in sheet.columns if c.endswith("_expert")]
+    assert asked == ["business_status_expert", "tier_1_expert"]
+    assert (sheet[asked + rs.BLIND_END] == "").all().all()
+
+
+def test_blind_sheet_holds_nothing_the_model_produced():
+    """Proposal 6.5: the expert labels without seeing the model's answers."""
+    cols = set(_blind().columns)
+    model_made = {"matched_entity", "evidence_status", "evidence_status_reason", "status", "reason"}
+    assert not cols & model_made
+    assert not [c for c in cols if c.endswith(("_rule", "_confidence", "_quote", "_source_url",
+                                               "_unknown_reason", "_review"))]
+    import inspect
+    src = inspect.getsource(rs.blind)
+    assert "evidence_dir" not in src and "classified" not in src
