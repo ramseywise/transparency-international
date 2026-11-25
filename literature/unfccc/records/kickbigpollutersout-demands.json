@@ -1,0 +1,77 @@
+{
+  "id": "kickbigpollutersout-demands",
+  "citation": {
+    "authors": [],
+    "year": null,
+    "title": "Our demands",
+    "venue_or_publisher": "kickbigpollutersout.org (campaign website; no named author or organisation in the extracted text)",
+    "doi_or_url": "https://kickbigpollutersout.org/demands",
+    "type": "web page (campaign demands); no publication or modification date in the page metadata; text refers to COP27 partners",
+    "peer_reviewed": "no"
+  },
+  "question": "Not a study. The page states four campaign demands about the UN climate talks: keep Big Polluters out of climate policymaking, end polluter sponsorship and partnerships, include civil society and frontline communities, and reset the economic system.",
+  "data": null,
+  "method": null,
+  "definitions": [],
+  "proxies": [
+    {
+      "concept": "Big Polluter (examples only, no general rule)",
+      "indicator": "The page gives no test for who counts. It names two COP27 partners as examples, each with a descriptive label: Coca-Cola as the largest plastics polluter, Microsoft as the largest tech partner to the oil and gas industry.",
+      "quote": "Coca-Cola, the world’s largest plastics polluter and a major political blocker of action; and Microsoft, the world’s largest tech partner to the oil and gas industry.",
+      "page": "2. No more bankrolling climate action."
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The page says two companies, Coca-Cola and Microsoft, had been named as COP27 partners. Asserted without data on the page; the page links to a Guardian article for the Coca-Cola point.",
+      "quote": "Already, two major polluters have been named as COP27 partners- Coca-Cola, the world’s largest plastics polluter and a major political blocker of action",
+      "page": "2. No more bankrolling climate action."
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Only a short campaign page (4 paragraphs, about 360 words) is in the file. It holds no data, counts, method or definitions, so it gives nothing for Q1 or Q2. It is an advocacy position, and its demands are recommendations, not findings.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The term Big Polluters is never defined and no criterion for identifying one is given. It is used for the actors the campaign wants excluded, and the page also uses broader language about corporate capture.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The page has no author, date or publisher name in the extracted text. The reference to COP27 partners suggests it was written around 2022, but the text does not give a date.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Joint civil society submission on conflict of interest, 17 Aug 2022 (corporateaccountability.org PDF)",
+      "what_it_is": "Linked from the words Accountability Framework. Not read here.",
+      "page": "1. No more writing the rules."
+    },
+    {
+      "name": "Still A Big Con factfile (corporateeurope.org PDF, 2021)",
+      "what_it_is": "Linked from the claim about Microsoft. Not read here.",
+      "page": "2. No more bankrolling climate action."
+    },
+    {
+      "name": "The Big Con (corporateaccountability.org PDF, 2021)",
+      "what_it_is": "Linked from the phrase about promoting Big Polluters profits. Not read here.",
+      "page": "3. Polluters Out- People In."
+    },
+    {
+      "name": "Systems Change, Corporate interference (systems-change.net)",
+      "what_it_is": "Linked from the word undermine. Not read here.",
+      "page": "1. No more writing the rules."
+    }
+  ],
+  "relevant_to": ["context"],
+  "pages_read": "Full text of the saved web page (4 sections, 4 paragraphs, about 363 words, 18 links). The linked documents were not read.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

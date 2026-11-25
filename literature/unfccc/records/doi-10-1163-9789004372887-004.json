@@ -1,0 +1,241 @@
+{
+  "id": "doi-10-1163-9789004372887-004",
+  "citation": {
+    "authors": [
+      "Charlotte Streck"
+    ],
+    "year": 2021,
+    "title": "From Laggards to Leaders: The Evolving Role of the Private Actors in the International Climate Regime",
+    "venue_or_publisher": "Chapter 3 in Frontiers in International Environmental Law: Oceans and Climate Challenges: Essays in Honour of David Freestone (eds Richard Barnes and Ronan Long), Brill",
+    "doi_or_url": "https://doi.org/10.1163/9789004372887_004",
+    "type": "book chapter (open access, CC BY-NC 4.0)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "How the role of private actors (businesses and other non-State actors) in the UN climate regime has changed, what the shift of responsibility to them implies, how they influence rule making, and what legitimacy and accountability problems follow.",
+  "data": "No dataset of its own. A legal and policy review of treaty texts (UNFCCC, Kyoto Protocol, Paris Agreement), UNFCCC webpage statistics on observer organisations (as of 2018; 2017 shares in a footnote) and secondary literature. No count of business or fossil-fuel people in Party delegations is given.",
+  "method": "Descriptive and analytical legal review with a summary table (Table 3.1) of actor types, interests and roles. No classification procedure, coding or counting method of its own.",
+  "definitions": [
+    {
+      "term": "business and industry NGOs (BINGOs) as the route by which businesses attend",
+      "definition": "Businesses attending UN climate talks are accredited through business and industry NGOs, and often through industry organisations.",
+      "quote": "Businesses often accredit by industry organizations",
+      "page": 6
+    },
+    {
+      "term": "private sector observer groups (constituencies)",
+      "definition": "Observer constituencies named as private sector groups include environmental NGOs (ENGOs), business and industry NGOs (BINGOs) and research NGOs (RINGOs), among others.",
+      "quote": "business and industry ngos (bingo s)",
+      "page": 7
+    },
+    {
+      "term": "businesses (as observers)",
+      "definition": "A wide range of firms, from the largest emitters to small consultancies or technical solution providers; what separates them from ENGOs is that they mainly pursue private goals.",
+      "quote": "they primarily pursue private rather than public goals",
+      "page": 10
+    },
+    {
+      "term": "businesses accredited by BINGOs",
+      "definition": "States that businesses at the talks are accredited by BINGOs and cover a wide range of interests depending on their business purpose.",
+      "quote": "They are accredited by bingo s and represent a wide range of interests depending on their business purpose.",
+      "page": 10
+    },
+    {
+      "term": "corporations negatively affected by climate action (Table 3.1)",
+      "definition": "Table 3.1 lists this type of private for-profit actor with the role 'lobbying and influencing' and the interest 'avoiding or delaying action; maintenance of the status quo'. The extracted table text does not show which example sits with which row.",
+      "quote": "Avoiding or delaying action; maintenance of the status quo",
+      "page": 9
+    },
+    {
+      "term": "fossil-fuel sourcing and dependent businesses (Table 3.1)",
+      "definition": "The phrase appears in Table 3.1 within the section on private for-profit actors; no definition or criteria are given for it.",
+      "quote": "Fossil-​fuel sourcing and dependent businesses",
+      "page": 9
+    },
+    {
+      "term": "fossil-fuel industry umbrella groups (Carbon Club)",
+      "definition": "Footnote describing, via a cited book, a network of coal, oil and other fossil-fuel-related industry umbrella groups that sought to derail climate talks.",
+      "quote": "network of coal, oil and other fossil-​fuel-​related industry umbrella groups that sought to derail interna­ tional climate talks",
+      "page": 13
+    },
+    {
+      "term": "corporations that provide climate solutions (Table 3.1)",
+      "definition": "Contrast category: for-profit firms with a stake in a strong climate regime, with renewable energy and low-carbon transport firms as examples.",
+      "quote": "Renewable energy companies; companies that promote low-​carbon transport or zero-​energy housing",
+      "page": 8
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "business presence at the talks",
+      "indicator": "Accreditation through business and industry NGOs (BINGOs) as an observer constituency; the chapter reports this as a share of non-Party observers, not of Party delegations.",
+      "quote": "research organizations 27.1 percent and business ngo s 15.8 percent",
+      "page": 7
+    },
+    {
+      "concept": "business interests that are harmed or helped by climate rules (oil or motor companies versus renewable energy companies and consultancies)",
+      "indicator": "The chapter sorts businesses by the effect of climate rules on their business model; no observable test is given.",
+      "quote": "seek to influence negotiations in a way that avoids harm (e.g. oil or motor companies) or benefits (renewable energy companies, consultancies) their respective business models",
+      "page": 10
+    },
+    {
+      "concept": "fossil-fuel influence inside a national delegation",
+      "indicator": "Close cooperation of oil-exporting nations' delegations (Saudi Arabia named) with the fossil fuel industry; the chapter cites an article for it and gives no method.",
+      "quote": "delegations of oil-​exporting nations, most notably Saudi Arabia, have closely cooperated with the fossil fuel industry to obstruct climate talks",
+      "page": 13
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Over 2,200 organisations were registered as UNFCCC observers as of 2018.",
+      "quote": "over 2,200 different interest groups and organizations were regis­ tered as official unfccc observer organizations",
+      "page": 7
+    },
+    {
+      "claim": "In 2017 business NGOs made up 15.8 percent of non-Party observers sent to the COP (environmental groups 37.6 percent, research organisations 27.1 percent), excluding international organisations; people attending side events are not in these statistics.",
+      "quote": "research organizations 27.1 percent and business ngo s 15.8 percent",
+      "page": 7
+    },
+    {
+      "claim": "The author says businesses send an increasingly large delegation of participants, without giving a figure.",
+      "quote": "Businesses send an increasingly large delegation of participants to climate negotiations.",
+      "page": 10
+    },
+    {
+      "claim": "The author says environmental NGOs seek membership of Party delegations to reach policy makers, which erodes the line between public and private delegation members. This is stated for ENGOs, not businesses.",
+      "quote": "erodes the differ­ ence between public and private delegation members",
+      "page": 10
+    },
+    {
+      "claim": "Oil-exporting nations' delegations, Saudi Arabia in particular, are said to have worked closely with the fossil fuel industry to obstruct talks (cited from another article).",
+      "quote": "delegations of oil-​exporting nations, most notably Saudi Arabia, have closely cooperated with the fossil fuel industry to obstruct climate talks",
+      "page": 13
+    },
+    {
+      "claim": "Business lobbying is described as mostly behind the scenes, while environmental groups act openly.",
+      "quote": "private sector lobbyists generally pre­ fer to act behind the scenes",
+      "page": 14
+    },
+    {
+      "claim": "Private sector participation is described as often limited to large multinational firms.",
+      "quote": "private sector participation is also often limited to larger, multinational firms",
+      "page": 27
+    }
+  ],
+  "recommendations": [
+    {
+      "point": "Balance business influence by giving environmental and other NGOs equal access to policy makers.",
+      "quote": "the role of businesses can be counterbalanced by providing environmental and other ngo s equal access to policy makers",
+      "page": 27
+    },
+    {
+      "point": "Private action should be embedded in government action and private actors held accountable.",
+      "quote": "private action is embedded into government action, private actors are held accountable for their action",
+      "page": 29
+    },
+    {
+      "point": "Non-State action under the Paris Agreement needs benchmarking, review and follow-up beyond passive registration.",
+      "quote": "incorporating benchmarking and review and follow-​up procedures beyond mere passive registration",
+      "page": 31
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The extracted file holds the whole chapter (31 pages), but the chapter is not a study of country delegations. It gives no count, share or list of business or fossil-fuel people in Party delegations; its only business figure is a share of non-Party observers in 2017 (BINGOs), taken from UNFCCC web statistics.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Table 3.1 (pages 8-9) is garbled in the extracted text (words run together, columns separated), so the rows cannot be matched to their examples with certainty; the fossil-fuel phrase cannot be tied to a specific row.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The author states that observer statistics do not capture business people at side events.",
+      "stated_by_authors": true,
+      "quote": "Not showing in these statistics are those private sector representatives attending events that are organized at the sidelines of large climate conferences.",
+      "page": 7
+    },
+    {
+      "point": "The extracted file's authors field lists the book editors (Barnes and Long); the chapter author, Charlotte Streck, is taken from the chapter's first page. Peer review status is not stated in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The Saudi Arabia and Carbon Club statements come from cited works (a 2009 article and a 1990 book) and the chapter gives no evidence of its own.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "No instructions addressed to a reader or an AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "context_rules": [
+    {
+      "point": "The Convention allows NGOs to take part as observers in meetings of the Parties.",
+      "quote": "allowing ngo s to participate as observers",
+      "page": 4
+    },
+    {
+      "point": "All private participants, including businesses, must be accredited by a non-profit entity; the chapter cites UNFCCC NGO participation guidelines (2003) in a footnote.",
+      "quote": "To attend official climate negotiations all private participants, including businesses, have to be accredited",
+      "page": 6
+    },
+    {
+      "point": "COP23 limited accreditations to a stakeholder zone with no entry to the negotiation space (footnote).",
+      "quote": "cop-​23 in Fiji/​Bonn for the first time allocated accreditations limited to a stakeholder zone that did not allow entry to the negotiation space",
+      "page": 14
+    },
+    {
+      "point": "Risk that NGOs working with corporations lose independence (conflict of interests).",
+      "quote": "ngo s get entangled in conflict of interests and lose their ability to hold businesses inde­ pendently accountable",
+      "page": 28
+    },
+    {
+      "point": "Reliance on private action can serve governments as an excuse to delay policy.",
+      "quote": "the increasing reliance on private action can also serve as an excuse for governments to delay climate policy and measures",
+      "page": 29
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC statistics on non-Party stakeholders",
+      "what_it_is": "Web page of observer organisation statistics, cited for the 2,200 count and the 2017 shares (footnotes 36 and 38); accessed 5 July 2019 by the author",
+      "page": 7
+    },
+    {
+      "name": "UNFCCC Guidelines for the participation of representatives of non-governmental organizations (2003)",
+      "what_it_is": "Guidance document cited for NGO participation at UNFCCC meetings",
+      "page": 6
+    },
+    {
+      "name": "Depledge and Yamin 2009, Striving for No: Saudi Arabia in the Climate Change Regime",
+      "what_it_is": "Article cited for oil-exporting delegations' cooperation with the fossil fuel industry",
+      "page": 13
+    },
+    {
+      "name": "Nasiritousi, Hjerpe and Linner 2016, The Roles of Non-State Actors in Climate Change Governance",
+      "what_it_is": "Article cited for business roles and the power sources of non-State actors",
+      "page": 10
+    },
+    {
+      "name": "Bohmelt 2013, Civil Society Lobbying and Countries' Climate Change Policies",
+      "what_it_is": "Article cited for NGO access to government delegations",
+      "page": 10
+    }
+  ],
+  "relevant_to": [
+    "Q1",
+    "Q2",
+    "context"
+  ],
+  "pages_read": "All 31 pages of the extracted text (the whole chapter, sections 1-7 and footnotes), plus the list of links found in it. The text is complete but Table 3.1 on pages 8-9 is garbled.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

@@ -1,0 +1,200 @@
+{
+  "id": "gogel-about-data",
+  "citation": {
+    "authors": [],
+    "year": null,
+    "title": "About the Data",
+    "venue_or_publisher": "GOGEL (Global Oil & Gas Exit List) website; the page text names Urgewald only as the source of reputational-risk project information",
+    "doi_or_url": "https://gogel.org/about-data",
+    "type": "web page (database description); no publication or modification date in the file",
+    "peer_reviewed": "no"
+  },
+  "question": "Describes what the GOGEL database covers, which companies it includes (inclusion thresholds), which expansion metrics it reports, and where its data come from. It does not ask about UN climate conference delegations.",
+  "data": "GOGEL database of oil and gas companies in upstream, midstream and gas/oil-fired power. Sources: quantitative data from Rystad Energy, company reports, government agencies and stock exchanges; Global Energy Monitor for midstream and power ownership; NGO reports, research institutions, news outlets and partner organisations for reputational-risk projects. Coverage figures are stated on the page; reference year not stated. The detailed methodology is in a separate PDF (Full Data Description) that is linked but not in the file.",
+  "method": "Companies are included if they pass activity thresholds on production, short-term expansion, exploration spending, pipeline development, LNG terminal development, or gas/oil-fired power development. Companies are then described with expansion metrics (e.g. IEA NZE expansion overshoot, exploration capex, unconventional share) and linked to reputational-risk projects in four categories. How companies are matched to other lists or how names are resolved is not stated on the page.",
+  "definitions": [
+    {
+      "term": "GOGEL inclusion thresholds",
+      "definition": "The rules that decide which companies are listed on GOGEL; they aim to capture expansion plans in upstream, midstream and gas-fired power, and upstream production with a focus on unconventionals.",
+      "quote": "The inclusion thresholds determine which companies will eventually be listed on GOGEL.",
+      "page": "GOGEL Inclusion Thresholds"
+    },
+    {
+      "term": "Upstream production threshold",
+      "definition": "Company produced at least 20 mmboe of oil and gas in the previous year, or at least 2 mmboe in one of 6 unconventional categories.",
+      "quote": "All companies that in the previous year produced ≥ 20 mmboe of oil & gas and/or ≥ 2 mmboe of oil & gas in one of 6 unconventional categories",
+      "page": "Upstream Thresholds"
+    },
+    {
+      "term": "Upstream short-term expansion threshold",
+      "definition": "Company intends to add at least 20 mmboe of oil and gas resources to its production portfolio.",
+      "quote": "All companies that intend to add ≥ 20 mmboe of oil & gas resources to their production portfolio",
+      "page": "Upstream Thresholds"
+    },
+    {
+      "term": "Upstream exploration threshold",
+      "definition": "Company spent at least USD 10 million a year on average on exploration over the last 3 years.",
+      "quote": "All companies that spent ≥ USD 10 million on average annually on exploration over the last 3 years",
+      "page": "Upstream Thresholds"
+    },
+    {
+      "term": "Midstream threshold (pipelines)",
+      "definition": "Company is developing at least 100 km of pipelines.",
+      "quote": "All companies developing ≥ 100 km of pipelines",
+      "page": "Midstream Thresholds"
+    },
+    {
+      "term": "Midstream threshold (LNG)",
+      "definition": "Company is developing at least 1 Mtpa of annual LNG terminal capacity.",
+      "quote": "All companies developing ≥ 1 Mtpa of annual LNG terminal capacity",
+      "page": "Midstream Thresholds"
+    },
+    {
+      "term": "Power threshold",
+      "definition": "Company is developing at least 100 MW of gas-fired and/or oil-fired power capacity.",
+      "quote": "All companies developing ≥ 100 MW of gas-fired power capacity and/or ≥ 100 MW of oil-fired power capacity",
+      "page": "Power Thresholds"
+    },
+    {
+      "term": "Short-Term Expansion (metric)",
+      "definition": "Resources a company is actively seeking to bring into production soon: approved for production or in the process of being approved.",
+      "quote": "It includes all oil & gas resources that either have been approved for production or are in the process of being approved.",
+      "page": "Short-Term Expansion"
+    },
+    {
+      "term": "IEA NZE Expansion Overshoot (metric)",
+      "definition": "Oil and gas resources approved for development after 31 December 2021 or in the approval process (field evaluation).",
+      "quote": "includes all oil & gas resources, which were approved for development after December 31, 2021 or are currently in the process of being approved (field evaluation).",
+      "page": "IEA NZE Expansion Overshoot"
+    },
+    {
+      "term": "Reputational risk projects",
+      "definition": "Projects falling in one or more of four categories: social harm, environmental destruction, conflict/violence, litigation.",
+      "quote": "GOGEL links companies to reputational risk projects that fall within one or more of 4 reputational risk categories: (1) social harm; (2) environmental destruction; (3) conflict/violence; and (4) litigation.",
+      "page": "Reputational Risk Projects"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Company belongs to the oil and gas industry's upstream (fossil-fuel linked, by activity)",
+      "indicator": "Production, planned additions, or exploration spending above the stated thresholds.",
+      "quote": "All companies that in the previous year produced ≥ 20 mmboe of oil & gas and/or ≥ 2 mmboe of oil & gas in one of 6 unconventional categories",
+      "page": "Upstream Thresholds"
+    },
+    {
+      "concept": "Company belongs to the midstream (by activity)",
+      "indicator": "Developing pipelines of at least 100 km or LNG terminal capacity of at least 1 Mtpa.",
+      "quote": "All companies developing ≥ 100 km of pipelines",
+      "page": "Midstream Thresholds"
+    },
+    {
+      "concept": "Company is a gas/oil-fired power developer",
+      "indicator": "Developing at least 100 MW of gas-fired and/or oil-fired power capacity.",
+      "quote": "All companies developing ≥ 100 MW of gas-fired power capacity and/or ≥ 100 MW of oil-fired power capacity",
+      "page": "Power Thresholds"
+    },
+    {
+      "concept": "Upstream production and expansion data",
+      "indicator": "Quantitative data from Rystad Energy, supplemented by company reports and government or stock exchange sources.",
+      "quote": "The information on current oil & gas production, production percentages and upstream expansion is based on quantitative data obtained from Rystad Energy.",
+      "page": "Sources"
+    },
+    {
+      "concept": "Ownership of midstream and power expansion projects",
+      "indicator": "Company and government sources plus Global Energy Monitor.",
+      "quote": "The midstream and power segments of GOGEL use company and government sources as well as information from Global Energy Monitor (GEM) to identify and attribute ownership to expansion projects.",
+      "page": "Sources"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "GOGEL covers the upstream, midstream and power subsectors of the oil and gas industry.",
+      "quote": "GOGEL contains data on the upstream, midstream and power subsectors of the oil & gas industry.",
+      "page": "Coverage"
+    },
+    {
+      "claim": "The thresholds are designed to reach more than 90% of worldwide upstream production, expansion and exploration while keeping the list manageable.",
+      "quote": "In the upstream section, the thresholds are designed to reach >90% coverage of worldwide production, expansion and exploration activities.",
+      "page": "GOGEL Inclusion Thresholds"
+    },
+    {
+      "claim": "The page states the database covers 95% of oil and gas production.",
+      "quote": "95% of oil & gas production",
+      "page": "Coverage"
+    },
+    {
+      "claim": "The page lists 912 gas- and oil-fired power developers.",
+      "quote": "912 gas- and oil-fired power developers",
+      "page": "Coverage"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The file holds the website's summary page only, not the full methodology. The full data description is a separate PDF (linked as 'Full Data Description') that is not in the file, so matching rules, parent-subsidiary handling and the list of companies are not available here. Access to the data itself requires registration (linked, not read).",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The page does not say how a company's name is matched to other lists, whether subsidiaries are rolled up to parents, or whether trade associations or non-company bodies are covered; nothing is recorded on these.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The list is deliberately limited by thresholds, so smaller oil and gas companies below them are not listed; the page states only a coverage aim, not an exhaustiveness claim.",
+      "stated_by_authors": true,
+      "quote": "At the same time, the thresholds keep the amount of companies manageable and ensure the entities in the database are relevant industry players.",
+      "page": "GOGEL Inclusion Thresholds"
+    },
+    {
+      "point": "The reputational-risk project list is not complete, and companies not listed with quantitative data can also have stakes in projects.",
+      "stated_by_authors": true,
+      "quote": "The list of reputational risk projects is not conclusive and is updated regularly.",
+      "page": "Reputational Risk Projects"
+    },
+    {
+      "point": "The database is stated to be incomplete in scope and changes over time (annual updates, subsectors may be added), so a company's presence depends on the version used. The page gives no reference year for the figures.",
+      "stated_by_authors": true,
+      "quote": "GOGEL is work in progress.",
+      "page": "Work in Progress"
+    },
+    {
+      "point": "The page is an advocacy-oriented description: it states that exploration and expansion are incompatible with a 1.5 degree pathway. This is the publisher's position, not a classification rule for companies.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "GOGEL (Global Oil & Gas Exit List)",
+      "what_it_is": "Database of oil and gas companies passing the inclusion thresholds, with expansion metrics and links to reputational-risk projects. Access requires registration; not in the file.",
+      "page": "Coverage"
+    },
+    {
+      "name": "GOGEL Full Data Description (Methodology_GOGEL_2026.pdf)",
+      "what_it_is": "Linked PDF with the full methodology. Not read here.",
+      "page": "Coverage"
+    },
+    {
+      "name": "Rystad Energy data",
+      "what_it_is": "Commercial quantitative source for oil and gas production and upstream expansion.",
+      "page": "Sources"
+    },
+    {
+      "name": "Global Energy Monitor (GEM)",
+      "what_it_is": "Source used to identify and attribute ownership of midstream and power expansion projects.",
+      "page": "Sources"
+    },
+    {
+      "name": "GOGEL Reputational Risk Projects list",
+      "what_it_is": "List of projects in four risk categories, built from Urgewald's partner network, NGO reports and news; linked, not read.",
+      "page": "Reputational Risk Projects"
+    }
+  ],
+  "relevant_to": ["Q2", "method"],
+  "pages_read": "Full text of the saved web page (36 paragraphs, about 1,100 words, all sections from Coverage to Learn more). This is a summary page: the Methodology PDF, the data itself and linked sub-pages were not in the file and were not read.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

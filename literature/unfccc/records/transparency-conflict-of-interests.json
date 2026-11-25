@@ -1,0 +1,46 @@
+{
+ "id": "transparency-conflict-of-interests",
+ "citation": {
+  "authors": [],
+  "year": 2019,
+  "title": "Conflict of interests",
+  "venue_or_publisher": "Transparency International (Corruptionary glossary entry)",
+  "doi_or_url": "https://www.transparency.org/en/corruptionary/conflict-of-interests",
+  "type": "web page (glossary entry); published 2019-12-23, modified 2020-04-25 per page metadata",
+  "peer_reviewed": "no"
+ },
+ "question": "Defines conflict of interests and says briefly why it matters for companies. It does not ask about business or fossil-fuel presence at climate conferences.",
+ "data": null,
+ "method": null,
+ "definitions": [
+  {
+   "term": "Conflict of interests",
+   "definition": "A situation where an individual, or the entity they work for (government, business, media outlet or civil society organisation), must choose between the duties of their position and their own private interests.",
+   "quote": "Situation where an individual or the entity for which they work, whether a government, business, media outlet or civil society organisation, is confronted with choosing between the duties and demands of their position and their own private interests.",
+   "page": "Definition"
+  }
+ ],
+ "proxies": [],
+ "findings": [
+  {
+   "claim": "Companies are expected to have policies and procedures to identify, monitor and manage conflicts of interest that may create a bribery risk (actual, potential or perceived). This is a statement of expectation, not an empirical finding.",
+   "quote": "Companies should establish policies and procedures to identify, monitor and manage conflicts of interest which may give rise to a risk of bribery – actual, potential or perceived.",
+   "page": "Why it matters"
+  }
+ ],
+ "limitations": [
+  {
+   "point": "The file holds only a short glossary entry (two paragraphs, about 66 words), not a full report. It has no data, method, observer rules, lobbying or fossil-fuel content, and does not mention the UNFCCC or climate negotiations.",
+   "stated_by_authors": false,
+   "quote": null,
+   "page": null
+  }
+ ],
+ "reference_lists_or_datasets": [],
+ "relevant_to": [
+  "context"
+ ],
+ "pages_read": "Full text of the saved web page (2 paragraphs, sections: Definition, Why it matters). It is a complete glossary entry, but very short.",
+ "read_on": "2026-11-24",
+ "read_by": "source-reader, sonnet"
+}

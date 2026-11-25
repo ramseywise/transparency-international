@@ -1,0 +1,164 @@
+{
+  "id": "transparency-embargoed-ti-eu-pipelines-of-power-report",
+  "citation": {
+    "authors": [
+      "Ilaria Schmoland",
+      "Pia Engelbrecht-Bogdanov",
+      "Shari Hinds",
+      "Raphael Kergueno"
+    ],
+    "year": 2024,
+    "title": "Pipelines of Power: Big Oil's lobbying footprint on EU climate policy",
+    "venue_or_publisher": "Transparency International EU",
+    "doi_or_url": "https://transparency.eu/wp-content/uploads/2024/09/embargoed_TI-EU_pipelines-of-power_report.pdf",
+    "type": "NGO report (13 pages); file metadata date 2024-09-20; the file name says 'embargoed'. The text file's author field reads 'User'; the authors here are those listed on page 2.",
+    "peer_reviewed": "no"
+  },
+  "question": "How far the seven largest fossil fuel companies, and the networks they belong to, have access to and influence on EU climate policymaking through lobbying, and how this reaches the UN climate conference (COP28). It is not about Party delegations.",
+  "data": "EU Transparency Register entries and the Commission's published high-level meetings for seven fossil fuel companies chosen by global revenue (Shell, Total, Eni, Equinor, ExxonMobil, BP, Chevron), December 2019 to May 2024; 52 networks the companies declare membership of; the boards of those networks (506 members, 383 organisations); an overlap check with COP28 attendance. Information stated to be correct as of January 2024 (page 2). The COP overlap data and method are not described in the text.",
+  "method": "Counted high-level Commission meetings and declared lobbying budgets for the seven companies, then for the networks listed in their Transparency Register entries; counted employees of the seven on network boards; compared the combined group of the seven plus their networks with COP28 attendance. The text refers to a separate methodology that is not in this file.",
+  "definitions": [
+    {
+      "term": "Big Seven (fossil fuel companies studied)",
+      "definition": "The world's top seven fossil fuel companies by global revenue, using a Statista ranking: Shell, Total, Eni, Equinor, ExxonMobil, BP, Chevron.",
+      "quote": "analysed the EU lobbying data of the world’s top seven fossil fuel companies by global revenue, namely Shell, Total, Eni, Equinor, ExxonMobil, BP and Chevron",
+      "page": 3
+    },
+    {
+      "term": "Network (fossil fuel's associated networks)",
+      "definition": "Industry or single-topic bodies that the Big Seven belong to, taken from each company's Transparency Register entry; 52 were found. Examples named include BusinessEurope, European Chemical Industry Council, IOGP, Hydrogen Europe and the Carbon Capture & Storage Association. The text does not say that every network is itself a fossil fuel body.",
+      "quote": "we found that the Big Seven belong to a total of 52 networks.",
+      "page": 5
+    },
+    {
+      "term": "Networks (purpose)",
+      "definition": "Bodies that represent a whole industry or work on a single topic.",
+      "quote": "Networks often represent the interests of an entire industry (e.g., automobiles or hydrogen energy) or conduct advocacy activities on a single topic (e.g., micro-plastics)",
+      "page": 5
+    },
+    {
+      "term": "Lobbying budget",
+      "definition": "The register's 'estimate of annual costs related to activities covered by the register': salaries, rent, communications, travel and events.",
+      "quote": "The estimated annual cost related to activities covered by the Transparency Register covers: salaries, rent, communications, travel and events.",
+      "page": 7
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Fossil fuel link of an organisation (network)",
+      "indicator": "Being named in a Big Seven company's EU Transparency Register entry as a network it belongs to. This is the only indicator the text gives; no criteria for sector or activity are stated.",
+      "quote": "In closely examining each of these companies' transparency register entries, we found that the Big Seven belong to a total of 52 networks.",
+      "page": 5
+    },
+    {
+      "concept": "Fossil fuel company influence over a network",
+      "indicator": "Big Seven employees sitting on the network's board.",
+      "quote": "Big Seven executives sit on 16 out of 45 of their Brussels-based associated networks’ boards.",
+      "page": 9
+    },
+    {
+      "concept": "Fossil fuel lobbyist at a COP (secondary count)",
+      "indicator": "Count of fossil fuel lobbyists attending, taken from the Kick Big Polluters Out coalition; the definition used by that coalition is not given in this text.",
+      "quote": "According to Kick Big Polluters Out Coalition, attendance of Fossil Fuel Lobbyists at 636 and 2456 for COP27 and 28 respectively:",
+      "page": 10
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The Big Seven declared about 16 million euros a year in lobbying budgets; with associated networks about 64 million euros.",
+      "quote": "The budgets of the top seven amount to almost 16 million euros.",
+      "page": 7
+    },
+    {
+      "claim": "Counting meetings through networks raises the Big Seven's 203 high-level Commission meetings to 1033.",
+      "quote": "meetings climbing from 203 to 1033",
+      "page": 6
+    },
+    {
+      "claim": "Big Seven executives sit on 16 of 45 Brussels-based network boards, about 35 percent.",
+      "quote": "Big Seven executives sit on 16 out of 45 of their Brussels-based associated networks’ boards.",
+      "page": 9
+    },
+    {
+      "claim": "Over a third of the Big Seven and their affiliated networks attended COP28. How attendance was matched is not stated.",
+      "quote": "We found that out of the whole network of affiliated entities and the Big Seven themselves, over a third attended COP28.",
+      "page": 10
+    },
+    {
+      "claim": "Fossil fuel lobbyist numbers at COP rose 286 percent from COP27 to COP28, citing the Kick Big Polluters Out coalition (636 to 2456).",
+      "quote": "the number of fossil fuel lobbyists increased by a staggering 286%",
+      "page": 10
+    },
+    {
+      "claim": "The authors say the COP overlap is partly expected because some EU networks represent large industries; the same sentence goes on to say the findings raise concerns about the lack of safeguards against undue influence and conflicts of interest.",
+      "quote": "While an overlap is to be expected, since some of these EU-based networks represent some of the largest industries in the world",
+      "page": 11
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The file holds the full 13-page report text. It does not contain the methodology document the report points to, so how networks were identified and how the COP28 attendance overlap was matched cannot be checked from this text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The report studies EU lobbying and the Transparency Register, not Party (country) delegations. It gives no count of business or fossil fuel people in Party delegations, and no definition of 'business'.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Lobbying seen in the data is only part of the whole: most Commission contacts are with lower-ranking officials and are not published.",
+      "stated_by_authors": true,
+      "quote": "Most Commission lobbying occurs via contacts with lowerranking Commission officials, and therefore remains in the dark.",
+      "page": 11
+    },
+    {
+      "point": "The Transparency Register is checked little, so, in the reader's inference, declared entries may be incomplete or wrong.",
+      "stated_by_authors": true,
+      "quote": "While spot checks are conducted, they are often the result of complaints rather than proactively performed",
+      "page": 8
+    },
+    {
+      "point": "The report says its information was correct as of January 2024, but it cites events from mid and late 2024 in its footnotes, and some footnote dates look wrong; the text does not explain this.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 2
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "EU Transparency Register",
+      "what_it_is": "Public register of lobbying organisations with declared budgets and memberships; main data source.",
+      "page": 3
+    },
+    {
+      "name": "Statista ranking of leading oil and gas companies by revenue, 2024",
+      "what_it_is": "Used to choose the seven companies.",
+      "page": 3
+    },
+    {
+      "name": "Kick Big Polluters Out coalition release on COP28 fossil fuel lobbyists",
+      "what_it_is": "Source of the 636 and 2456 fossil fuel lobbyist counts for COP27 and COP28.",
+      "page": 10
+    },
+    {
+      "name": "Transparency International, Conflicts of Interests and Undue Influence in Climate Action (2021 policy brief)",
+      "what_it_is": "Cited for safeguards against undue influence in UN climate policymaking. Linked in a footnote, not read here.",
+      "page": 11
+    },
+    {
+      "name": "European Court of Auditors Special Report 05/2024 on the EU Transparency Register",
+      "what_it_is": "Cited for limits of Transparency Register checks. Not read here.",
+      "page": 8
+    }
+  ],
+  "relevant_to": [
+    "Q2",
+    "context"
+  ],
+  "pages_read": "All 13 pages of the extracted text (pages 1 to 13), including footnotes.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

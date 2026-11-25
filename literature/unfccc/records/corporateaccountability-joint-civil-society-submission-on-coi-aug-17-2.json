@@ -1,0 +1,198 @@
+{
+  "id": "corporateaccountability-joint-civil-society-submission-on-coi-aug-17-2",
+  "citation": {
+    "authors": ["Rachel Rose Jackson (listed in file metadata; the document itself names the DCJ-ENGO, YOUNGO, CAN, WGC and TUNGO constituencies as submitters)"],
+    "year": 2022,
+    "title": "Joint civil society submission on establishing a UNFCCC Accountability Framework to protect against undue influence of polluting interests (August 17, 2022)",
+    "venue_or_publisher": "Submission to the UNFCCC process to strengthen observer engagement; hosted by Corporate Accountability",
+    "doi_or_url": "https://corporateaccountability.org/wp-content/uploads/2022/08/Joint-civil-society-submission-on-COI-Aug-17-2022_.pdf",
+    "type": "advocacy submission to the UNFCCC Secretariat (not a research study)",
+    "peer_reviewed": "no"
+  },
+  "question": "Not a research question. It argues that the UNFCCC should adopt an Accountability Framework to manage conflicts of interest of non-governmental (observer) representatives with private, polluting interests, and recommends a definition of conflict of interest, rules of engagement, declarations of interest and transitional steps for COP27.",
+  "data": "None. It counts nothing and presents no dataset. It cites a BBC article on the COP26 fossil fuel delegation (page 3, footnote 18) only as a reference. Annex 1 lists 126 endorsing organisations, including Transparency International (page 13).",
+  "method": "No empirical method. It makes a normative case and draws on precedents (WHO FENSA, WHO FCTC Article 5.3, OECD Guidelines) and on Dambacher, Stilwell and McGee (2019).",
+  "definitions": [
+    {
+      "term": "conflict of interest (proposed definition)",
+      "definition": "Proposed wording: a COI may arise where the UNFCCC's primary interest may be unduly influenced by the conflicting interest of any body, agency or other entity, or its representatives, so as to affect or reasonably be perceived to affect independence and objectivity. Quoted from Dambacher et al. 2019.",
+      "quote": "may be unduly influenced by the conflicting interest of any body, agency or other entity, or any representatives thereof",
+      "page": 5
+    },
+    {
+      "term": "private, polluting interest (the actors of concern)",
+      "definition": "Actors with a legal, financial, contractual or profit-seeking duty to maximise shareholder profit through activities that contribute substantially to emissions or harm the climate, as against actors with a public interest.",
+      "quote": "those with a polluting and private interest whose legal, financial, contractual, or profit-seeking duty requires them to maximize profit for shareholders",
+      "page": 6
+    },
+    {
+      "term": "trade association / industry group (as covered by the framework)",
+      "definition": "Covered as representatives of polluting interests, together with groups fronting for businesses and individuals or corporations. No separate definition of 'trade association' is given.",
+      "quote": "Such actors include individuals, corporations, trade associations or industry groups that have a duty to serve a private interest",
+      "page": 5
+    },
+    {
+      "term": "industry-linked representatives (breadth of scope)",
+      "definition": "Includes industry trade associations and groups fronting for businesses. Also includes public-interest NGOs, academic and research bodies with financial or other ties to such industries.",
+      "quote": "industry trade associations, groups with another identity that are fronting for businesses, industry groups, and other actors that represent the interests of those",
+      "page": 6
+    },
+    {
+      "term": "differentiated risk (trade union vs executive)",
+      "definition": "The document says the risk from different actors is not equal. It contrasts a trade union of workers in a fossil fuel company with an executive of a polluting corporation.",
+      "quote": "that of a trade union representing workers in the fossil fuel company that is transitioning out of energy intensive production compared to an executive from a polluting corporation",
+      "page": 6
+    },
+    {
+      "term": "business-interest NGO (BINGO-type actor)",
+      "definition": "Business-interest NGOs or actors with a 'secondary private interest' in industries affected by norms are called unacceptable participants in norm-setting. No operational test is given.",
+      "quote": "business-interest NGOs or actors and their representatives with a secondary private interest in corporations/industries that would be affected by the norms",
+      "page": 6
+    },
+    {
+      "term": "observer (admission requirement)",
+      "definition": "Current UNFCCC rule as described by the authors: legal registration as a non-profit and work on climate-related matters.",
+      "quote": "an organization is legally registered as a non-profit organization, and that it works on matters related to climate change",
+      "page": 3
+    },
+    {
+      "term": "undue influence",
+      "definition": null,
+      "quote": null,
+      "page": null
+    },
+    {
+      "term": "fossil fuel lobbyist / lobbyist",
+      "definition": null,
+      "quote": null,
+      "page": null
+    },
+    {
+      "term": "Party badge / overflow badge / delegation (country delegation)",
+      "definition": null,
+      "quote": null,
+      "page": null
+    },
+    {
+      "term": "state-owned company",
+      "definition": null,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "polluting-industry affiliation of an individual or organisation (proposed screening indicator)",
+      "indicator": "Self-declared individual and organisational declarations of interest, disclosing polluting industry affiliations (financial or non-financial) over the past 10 years. Proposed, not applied to any data.",
+      "quote": "require the disclosure of polluting industry affiliations over the past 10 years",
+      "page": 7
+    },
+    {
+      "concept": "observers representing oil company interests",
+      "indicator": "Named example only: observer organisations that directly or indirectly represent BP and Shell. The document gives no identification procedure.",
+      "quote": "directly or indirectly represent the interests of polluting corporations such as BP and Shell",
+      "page": 3
+    },
+    {
+      "concept": "industries most responsible for emissions",
+      "indicator": "Cites Ekwurzel et al. 2017 (major carbon producers) in footnote 19 as the basis. No list of industries or companies is reproduced.",
+      "quote": "other polluting corporations from the industries most responsible for the majority of global greenhouse gas emissions todate",
+      "page": 3
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The authors say fossil fuel interests are present at UNFCCC meetings. The only support is a footnote citing a BBC article headed 'COP26: Fossil fuel industry has largest delegation at climate summit'. The submission gives no count of its own, so this is a pointer to other work.",
+      "quote": "COP26: Fossil fuel industry has largest delegation at climate summit",
+      "page": 3
+    },
+    {
+      "claim": "Observer admission as described requires only non-profit registration and climate-related work. The authors say this lets in organisations representing polluting corporations.",
+      "quote": "admitted observer organizations currently include those that directly or indirectly represent the interests of polluting corporations such as BP and Shell",
+      "page": 3
+    },
+    {
+      "claim": "The authors say observers and non-governmental representatives linked to polluting interests face no duty to disclose conflicts of interest before taking part. This is their assessment of the rules, not tested.",
+      "quote": "are currently not required to disclose any potential or actual conflict of interest before engaging, participating, presenting, speaking",
+      "page": 4
+    },
+    {
+      "claim": "The authors say UNFCCC rules treat all non-Party stakeholder types alike, whether public or private interests.",
+      "quote": "Existing procedures and policies do not draw any distinction between the treatment of different types of non-Party stakeholders",
+      "page": 4
+    },
+    {
+      "claim": "Delegations: a footnote lists 'participating via state delegations and in some cases negotiating on behalf of governments' as one way private actors interact with the UNFCCC. It gives no figures and no rule for delegation membership.",
+      "quote": "participating via state delegations and in some cases negotiating on behalf of governments",
+      "page": 6
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Advocacy submission, not research. No count, no sample, no data on business or fossil fuel delegates in Party delegations. It is useful for context and for definitions of conflict of interest only.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Scope is observer organisations and NGO representatives. National (Party) delegations, Party badges and overflow badges are not discussed apart from one footnote mention of state delegations.",
+      "stated_by_authors": false,
+      "quote": "participating via state delegations and in some cases negotiating on behalf of governments",
+      "page": 6
+    },
+    {
+      "point": "'Polluting interests' is used broadly (corporations, trade associations, front groups, and NGOs or academics with financial ties) with no operational test, threshold or list. Fossil fuel, forestry and agribusiness are named together on pages 1 and 2, so it is wider than fossil fuel.",
+      "stated_by_authors": false,
+      "quote": "the fossil fuel, big forestry and agribusiness industries",
+      "page": 1
+    },
+    {
+      "point": "The authors say the framework is a foundation and not comprehensive.",
+      "stated_by_authors": true,
+      "quote": "this framework should not be looked at as comprehensive, but as a foundation to be laid that must continue to be built upon",
+      "page": 5
+    },
+    {
+      "point": "No definition of undue influence, lobbyist, state-owned company or the badge categories. Some pages carry long endorser lists (pages 10 to 13) with no analytic content. No instructions to a reader or AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "McGrath, BBC, 8 November 2021: COP26: Fossil fuel industry has largest delegation at climate summit",
+      "what_it_is": "News article cited in footnote 18 as evidence of fossil fuel presence at COP26. Candidate source for the study's method question.",
+      "page": 3
+    },
+    {
+      "name": "Dambacher, Stilwell and McGee 2019, Clearing the air: avoiding conflicts of interest within the UNFCCC, Journal of Environmental Law",
+      "what_it_is": "Academic article that is the source of the COI definition and the differentiated-approach recommendation. Candidate for retrieval.",
+      "page": 3
+    },
+    {
+      "name": "Ekwurzel et al. 2017, Climatic Change 144, 579-590",
+      "what_it_is": "Paper on emissions traced to major carbon producers, cited for the industries most responsible for emissions.",
+      "page": 3
+    },
+    {
+      "name": "CAN Position on Conflicts of Interest, April 2020",
+      "what_it_is": "Climate Action Network position paper (footnote 3); candidate for definitions of fossil fuel-linked actors.",
+      "page": 1
+    },
+    {
+      "name": "UNFCCC Guidelines for the participation of representatives of non-governmental organizations (October 2017)",
+      "what_it_is": "Official guidelines the submission asks to revise; relevant to rules and access.",
+      "page": 2
+    },
+    {
+      "name": "WHO Framework of Engagement with Non-State Actors (FENSA) and FCTC Article 5.3 guidelines",
+      "what_it_is": "Precedents for conflict-of-interest management.",
+      "page": 3
+    }
+  ],
+  "relevant_to": ["context"],
+  "pages_read": "1-16 (all)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

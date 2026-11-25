@@ -1,0 +1,261 @@
+{
+  "id": "bankingonclimatechaos-methodology-2026",
+  "citation": {
+    "authors": [],
+    "year": 2026,
+    "title": "Methodology FAQ_Banking on Climate Chaos 2026 (Research Methodology FAQ, Banking on Climate Chaos: Fossil Fuel Finance Report 2026)",
+    "venue_or_publisher": "Banking on Climate Chaos (BOCC) Coalition (Rainforest Action Network, Indigenous Environmental Network, BankTrack, Center for Energy, Ecology, and Development, Oil Change International, Reclaim Finance, Sierra Club, Urgewald)",
+    "doi_or_url": "https://www.bankingonclimatechaos.org/methodology-2026",
+    "type": "methodology FAQ / supplementary NGO report document",
+    "peer_reviewed": "no"
+  },
+  "question": "How the BOCC 2026 report measures global banks' financing of the fossil fuel industry (2021-2025), which companies count as fossil fuel companies, and how deals are adjusted and credited to banks. It does not study climate-summit delegations.",
+  "data": "Lending and underwriting (bonds, loans, share issuances) by the 65 largest banks (S&P Global Market Intelligence, April 2025) to about 2,900 fossil fuel companies, 1 Jan 2021 to 31 Dec 2025; wider 'BOCC+' dataset of about 2,000 banks. Sources named: Dealogic, Bloomberg Finance LP, IJGlobal, company reports, media archives, research by Profundo. Transaction-level data are not published (licensing).",
+  "method": "Company list built from Urgewald's GOGEL, GCEL and MCEL plus Bloomberg, Global Energy Monitor, Enerdata and own research, narrowed to companies with corporate financing in 2021-2025. Each deal is multiplied by a company-specific, year-specific 'adjuster' (share of the company's business in fossil fuels). League credit per bank is allocated by actual contribution, fee share, or the Profundo 'book ratio' method. A separate 'expansion' table tags companies on the exit lists meeting expansion criteria.",
+  "definitions": [
+    {
+      "term": "Fossil fuel company (scope of main league table)",
+      "definition": "Independent or parent companies (about 2,900 subsidiary-level companies) involved in extraction, transportation, distribution, combustion, trade or storage of any fossil fuels as a business segment, or in fossil-based electricity generation, per the Bloomberg Industry Classification Standard, or on GCEL, GOGEL or MCEL, or listed by Global Energy Monitor or Enerdata as significant fossil fuel companies, or in scope of the report's other tables.",
+      "quote": "involved in the extraction, transportation, distribution, combustion, trade, or storage of any fossil fuels as a business segment or in the generation of fossil-based electricity, globally",
+      "page": 7
+    },
+    {
+      "term": "Fossil fuel company (research scope, wider wording)",
+      "definition": "Companies involved in extraction, transportation, transmission, distribution, combustion, trade, or storage of any fossil fuels or fossil-based electricity, globally.",
+      "quote": "extraction, transportation, transmission, distribution, combustion, trade, or storage of any fossil fuels or fossil-based electricity, globally",
+      "page": 3
+    },
+    {
+      "term": "Diversified companies (inclusion rule)",
+      "definition": "Companies of any industry classification are included if there is evidence of exposure to fossil fuels; not only pure-play oil, gas and coal companies. No minimum exposure threshold is stated for inclusion; exposure is handled by weighting (adjusters).",
+      "quote": "We include companies with a variety of industry classifications if we have evidence of exposure to fossil fuels.",
+      "page": 3
+    },
+    {
+      "term": "Finance subsidiaries",
+      "definition": "Finance subsidiaries of fossil fuel companies are in scope because they are the vehicles that enable financing for the parent or related subsidiaries.",
+      "quote": "Many fossil fuel companies have finance subsidiaries, which we also consider to be in scope",
+      "page": 3
+    },
+    {
+      "term": "Removal of diversified companies",
+      "definition": "Diversified companies from earlier years are removed if new information shows fossil fuel participation is minimal or has decreased significantly. 'Minimal' is not quantified.",
+      "quote": "if new information is revealed that indicates participation in the fossil fuel industry is minimal or has decreased significantly",
+      "page": 3
+    },
+    {
+      "term": "Misleading company names and database classifications",
+      "definition": "Industry classifications in finance databases are treated as unreliable; companies with 'renewable', 'clean' or 'green' in the name may still be fossil-exposed.",
+      "quote": "industry classifications in the finance databases are not always an accurate reflection of the company’s operations",
+      "page": 4
+    },
+    {
+      "term": "Adjuster",
+      "definition": "Percentage of a company's business in fossil fuels, applied to each transaction value, calculated year by year where data allow, to account for diversified companies.",
+      "quote": "Financing in the report is adjusted by the percentage of business each given company does in fossil fuels in order to account for diversified companies.",
+      "page": 8
+    },
+    {
+      "term": "Adjuster selection order (listed on an Exit List)",
+      "definition": "For companies on GOGEL or GCEL: fossil fuel share of revenue (GOGEL) or coal share of revenue (GCEL); then fossil/coal share of power production; in a small number of cases a conservative lower-bound estimate from Exit List research.",
+      "quote": "The fossil fuel share of revenue from the GOGEL or the coal share of revenue reported on the GCEL.",
+      "page": 8
+    },
+    {
+      "term": "Adjuster selection order (not on an Exit List)",
+      "definition": "Most recent aggregated financial reporting data, in the preferential order of revenue, assets, or operating income; or the parent company's adjuster unless the subsidiary has a significantly different purpose; or a hand-researched adjuster (revenue, assets, income, capex, opex) for companies with high financing or outside typical fossil sector classifications.",
+      "quote": "The adjuster for the issuer’s parent company, unless the subsidiary is identified to have a significantly different purpose than its parent company.",
+      "page": 8
+    },
+    {
+      "term": "Subsidiaries and parents: use of parent data",
+      "definition": "When data on a company are not readily available, parent company data are used for the adjuster, if appropriate.",
+      "quote": "When data on a company is not readily available, we adjust using data on the parent company, if appropriate.",
+      "page": 4
+    },
+    {
+      "term": "Insufficient information",
+      "definition": "When information is too limited for an exact adjuster, they usually use a conservative lower bound, a smaller known segment, or exclude the company. Companies without enough information to build an adjuster are not included in the main table.",
+      "quote": "only companies for which sufficient information was available to create an adjuster were included",
+      "page": 8
+    },
+    {
+      "term": "Non-fossil business of diversified energy companies",
+      "definition": "For diversified energy companies with non-fossil revenue, assets or capex, the non-fossil business is excluded from calculations, especially for power generation and utilities.",
+      "quote": "the non-fossil fuel business was excluded from our calculations",
+      "page": 4
+    },
+    {
+      "term": "Expansion company",
+      "definition": "A company in the dataset tagged as an expansion company if listed on GOGEL, GCEL or MCEL and meeting at least one expansion criterion (e.g. bringing new upstream oil/gas into production, oil and gas exploration capex within the previous three years, new pipeline or LNG capacity, new oil- or gas-fired power plants, coal exploration or new or extended mines, coal infrastructure, new coal-fired capacity). Expansion data from the 2023, 2024 and 2025 editions are used.",
+      "quote": "we tag any company in our dataset as an expansion company if it is listed on Urgewald’s GOGEL, GCEL, or MCEL with at least one of the following criteria",
+      "page": 8
+    },
+    {
+      "term": "Expansion list: parents and subsidiaries",
+      "definition": "For the expansion and sector lists, only companies directly on GOGEL, GCEL or MCEL are included, not related subsidiaries, unless the subsidiary is a finance subsidiary of an Exit List company.",
+      "quote": "we only include companies which directly appear on GOGEL, GCEL, or MCEL not their related subsidiaries unless that subsidiary is determined to be a finance subsidiary",
+      "page": 9
+    },
+    {
+      "term": "Upstream subsidiary of expansion company",
+      "definition": "A majority-owned upstream subsidiary of a company bringing new upstream oil or gas into production counts as meeting the expansion criterion.",
+      "quote": "or are a majority-owned upstream subsidiary of one of these companies",
+      "page": 9
+    },
+    {
+      "term": "Green instruments / sustainability-linked deals",
+      "definition": "Deals flagged green by any data provider are removed. Sustainability-linked and sustainability bonds/loans are included by default, removed ad hoc only with documentation that proceeds cannot go to fossil fuels. (Deal-level rule, not company-level.)",
+      "quote": "All deals marked as “Green Instruments” were removed from the dataset.",
+      "page": 4
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Fossil fuel involvement of a company (inclusion)",
+      "indicator": "Bloomberg Industry Classification Standard sector, or listing on Urgewald's GOGEL, GCEL or MCEL, or listing by Global Energy Monitor or Enerdata as a significant fossil fuel company.",
+      "quote": "according to the Bloomberg Industry Classification Standard; or are on the Global Coal Exit List; or are on the Global Oil and Gas Exit List",
+      "page": 7
+    },
+    {
+      "concept": "Degree of fossil fuel involvement (weighting)",
+      "indicator": "Fossil fuel share of revenue and of power production from GOGEL/GCEL; otherwise revenue, assets or operating income from financial reporting data; hand research from annual reports (revenue, assets, income, capex, opex).",
+      "quote": "in the preferential order of revenue, assets, or operating income",
+      "page": 8
+    },
+    {
+      "concept": "Fossil exposure of a company with misleading name or classification",
+      "indicator": "Evidence of operations rather than database sector label or company name.",
+      "quote": "We increasingly see companies with names that include the words “renewable,” “clean,” or “green” but that are exposed to fossil fuels",
+      "page": 4
+    },
+    {
+      "concept": "Fossil fuel expansion",
+      "indicator": "Exit List company with new upstream production, exploration capex in previous three years, new pipelines, LNG, gas/oil plants, coal mines or plants.",
+      "quote": "have spent capex on oil and/or gas exploration within the previous three years of financing",
+      "page": 9
+    },
+    {
+      "concept": "Fossil exposure for subsidiary without own data",
+      "indicator": "Parent company's adjuster or parent data.",
+      "quote": "we adjust using data on the parent company, if appropriate",
+      "page": 4
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The report's company scope is about 2,900 fossil-linked companies, built from the Urgewald exit lists plus other sources and narrowed to those financed 2021-2025.",
+      "quote": "The research estimates the financing commitments from financial institutions to nearly 2,900 companies active across the fossil fuel industry.",
+      "page": 3
+    },
+    {
+      "claim": "The full list of companies is published as a downloadable online appendix.",
+      "quote": "The full list of companies included is published as an online appendix to the report, titled “Fossil Fuel Company Lists,”",
+      "page": 9
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Company-level data are an aggregate/licensing-restricted dataset: transaction-level data cannot be shared.",
+      "stated_by_authors": true,
+      "quote": "Underlying transaction-level data cannot be published or shared in order to maintain compliance with the licensing requirements of commercial data providers.",
+      "page": 3
+    },
+    {
+      "point": "Industry classifications in finance databases are not reliable for identifying fossil exposure.",
+      "stated_by_authors": true,
+      "quote": "the industry classifications in the finance databases are not always an accurate reflection of the company’s operations",
+      "page": 4
+    },
+    {
+      "point": "Limited visibility into bilateral lending; companies without enough information for an adjuster were left out.",
+      "stated_by_authors": true,
+      "quote": "our underlying datasets give less visibility into bilateral lending",
+      "page": 8
+    },
+    {
+      "point": "Authors cannot guarantee accuracy or completeness; later data changes are not reflected after publication.",
+      "stated_by_authors": true,
+      "quote": "we cannot guarantee the accuracy, completeness, or correctness of the information or analysis",
+      "page": 10
+    },
+    {
+      "point": "Company scope and adjusters change from year to year and figures are restated, so lists differ between editions.",
+      "stated_by_authors": true,
+      "quote": "The BOCC report researches and restates its figures each year.",
+      "page": 6
+    },
+    {
+      "point": "No numeric minimum fossil share is given for including a diversified company; 'minimal' is undefined here; thresholds are in the exit-list methodologies, not in this document.",
+      "stated_by_authors": false,
+      "quote": "For more details, see the respective methodology and inclusion thresholds for GOGEL, GCEL and MCEL.",
+      "page": 9
+    },
+    {
+      "point": "Source is a bank-finance methodology (NGO coalition, not peer reviewed) not designed for classifying delegation members' employers; no mention of UN climate summits or participant lists. Expansion definition differs from IEA's. No instructions to a reader or AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": "the ways that these two reports define expansion are unique",
+      "page": 9
+    },
+    {
+      "point": "Reading note: the PDF could not be rendered as page images in this session (pdftoppm missing); all 10 pages were read from the extracted text file, which includes one table (book ratio) that is partly garbled in extraction ('> 1 5 .', '> 3 0 .').",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Global Oil and Gas Exit List (GOGEL), 2025 edition",
+      "what_it_is": "Urgewald list of oil and gas companies, with fossil share of revenue; used for inclusion, adjusters and expansion tagging (gogel.org)",
+      "page": 8
+    },
+    {
+      "name": "Global Coal Exit List (GCEL), 2025 edition",
+      "what_it_is": "Urgewald list of coal companies, with coal share of revenue and power production; used for inclusion, adjusters and expansion tagging (coalexit.org)",
+      "page": 8
+    },
+    {
+      "name": "Global Metallurgical Coal Exit List (MCEL)",
+      "what_it_is": "Urgewald list of metallurgical coal companies; used for inclusion and expansion tagging (coalexit.org/MCEL)",
+      "page": 8
+    },
+    {
+      "name": "Global Energy Monitor",
+      "what_it_is": "Source of companies listed as significant fossil fuel companies (gem.wiki)",
+      "page": 8
+    },
+    {
+      "name": "Enerdata",
+      "what_it_is": "Source of companies listed as significant fossil fuel companies (enerdata.net)",
+      "page": 8
+    },
+    {
+      "name": "Bloomberg Industry Classification Standard",
+      "what_it_is": "Sector classification used to identify fossil fuel business segments",
+      "page": 7
+    },
+    {
+      "name": "BOCC 'Fossil Fuel Company Lists' online appendix",
+      "what_it_is": "Downloadable full list of companies included in the report (bankingonclimatechaos.org); not in the PDF",
+      "page": 9
+    },
+    {
+      "name": "S&P Global Market Intelligence, The World's 100 Largest Banks, 2025",
+      "what_it_is": "Bank ranking by assets used to choose the 65 banks (not relevant to company classification)",
+      "page": 2
+    },
+    {
+      "name": "Dealogic, Bloomberg Finance LP, IJGlobal, Profundo research",
+      "what_it_is": "Commercial transaction datasets and consultancy research (licensed, not public)",
+      "page": 3
+    }
+  ],
+  "relevant_to": [
+    "method",
+    "context"
+  ],
+  "pages_read": "1-10 (all pages, read from the extracted text JSON; PDF page images could not be rendered)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

@@ -1,0 +1,92 @@
+{
+  "id": "doi-10-14512-oew310112",
+  "citation": {
+    "authors": ["Syed Mahbubur Rahman", "Mokbul Morshed Ahmad"],
+    "year": 2016,
+    "title": "The size of national delegations and the need for attendance regulation at climate conferences",
+    "venue_or_publisher": "Ökologisches Wirtschaften 1.2016 (31), pp. 12-13 (section 'Aktuelle Berichte'; IÖW and oekom verlag)",
+    "doi_or_url": "https://doi.org/10.14512/oew310112",
+    "type": "Published journal version (PDF, 2 pages), short report in the 'Aktuelle Berichte' section, under a CC BY-NC-ND licence",
+    "peer_reviewed": "unknown"
+  },
+  "question": "Whether the growing size of national delegations at UNFCCC COPs, and how countries select delegates, serves climate decision-making; argues for guidelines on delegation composition and attendance.",
+  "data": "No data set or period of its own is described. It cites other studies (Schroeder et al. 2012; Schroeder/Lovell 2012; Neeff 2013) and gives one attendance figure for COP21.",
+  "method": "Short commentary. No classification, counting or coding method is described.",
+  "definitions": [],
+  "proxies": [
+    {
+      "concept": "Political selection of delegates (nepotism)",
+      "indicator": "Delegates listed in the official list of participants with no affiliation given",
+      "quote": "The official list of participants for various sessions shows some names of the delegates without any information on the affiliations.",
+      "page": 1
+    },
+    {
+      "concept": "Delegation composition by type of professional",
+      "indicator": "Share of delegation from business associations, academics, government officials or political leaders (as reported from the cited studies; the article does not give its own coding scheme)",
+      "quote": "For an instance, Brazil sends more from business associations, while Russia prefers to send more academics and researchers.",
+      "page": 1
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Countries differ in the kind of professionals they put in their delegations; Brazil is given as sending more business association delegates (attributed to Schroeder et al. 2012).",
+      "quote": "For an instance, Brazil sends more from business associations, while Russia prefers to send more academics and researchers.",
+      "page": 1
+    },
+    {
+      "claim": "G8 delegations grew while those of small developing countries declined (attributed to Schroeder et al. 2012).",
+      "quote": "The G8 countries have increased the number of delegates they send; in contrast, participation from small, developing countries has been in decline",
+      "page": 1
+    },
+    {
+      "claim": "In some countries political leaders make up about a fifth of the delegation; the authors say the share of academics and officials has been declining in some countries.",
+      "quote": "In some cases, political leaders form around 20 % of the national delegation.",
+      "page": 1
+    },
+    {
+      "claim": "The UNFCCC has limited observer organisations' nominations since 2010, but attendance still grew.",
+      "quote": "the organizer since 2010 has restricted the observer organizations to nominate representatives.",
+      "page": 1
+    },
+    {
+      "claim": "COP21 in Paris had 36,276 participants including media and observers, well above the predicted 14,000 to 28,000.",
+      "quote": "a total of 36,276 participants, including media and observer organizations, have attended the COP21 in Paris",
+      "page": 2
+    },
+    {
+      "claim": "Authors' recommendation (argument, not a finding): the UNFCCC should issue guidelines on delegation composition that include the private sector among other groups, with a competency questionnaire for delegates.",
+      "quote": "the UNFCCC may initiate guidelines on the composition to ensure a poised group of participants that would include experts from academia and research, private sector, NGOs and development organizations",
+      "page": 2
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Very short commentary with no data, method or classification scheme of its own; the 'business' and 'political leader' categories are not defined; claims on delegation composition rest on cited secondary studies and a few country examples.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "No mention of fossil fuel links, lobbying, conflict of interest or undue influence; private sector appears only as one group to be included in balanced delegations.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Page 2 contains an advertisement for a book (Nachhaltige Unternehmensentwicklung im Mittelstand); it holds no instructions to a reader or AI.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 2
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {"name": "Schroeder/Boykoff/Spiers 2012, Equity and state representations in climate negotiations, Nature Climate Change 2", "what_it_is": "Cited study on delegation composition and size by country group", "page": 2},
+    {"name": "Schroeder/Lovell 2012, The role of non-nation-state actors and side events in the international climate negotiations, Climate Policy 12/1", "what_it_is": "Cited study on non-state actors at COPs", "page": 2},
+    {"name": "Neeff 2013, How many will attend Paris? UNFCCC COP participation patterns 1995-2015, Environmental Science & Policy 31", "what_it_is": "Cited study of COP participation numbers over time", "page": 2},
+    {"name": "Official UNFCCC list of participants", "what_it_is": "Mentioned as showing delegates without stated affiliation; not analysed by the authors", "page": 1}
+  ],
+  "relevant_to": ["Q1"],
+  "pages_read": "1-2 (all)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

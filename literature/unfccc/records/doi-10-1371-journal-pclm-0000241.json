@@ -1,0 +1,145 @@
+{
+  "id": "doi-10-1371-journal-pclm-0000241",
+  "citation": {
+    "authors": [
+      "Guy Edwards",
+      "Paul K. Gellert",
+      "Omar Faruque",
+      "Kathryn Hochstetler",
+      "Pamela D. McElwee",
+      "Prakash Kaswhan",
+      "Ruth E. McKie",
+      "Carlos Milani",
+      "Timmons Roberts",
+      "Jonathan Walz"
+    ],
+    "year": 2023,
+    "title": "Climate obstruction in the Global South: Future research trajectories",
+    "venue_or_publisher": "PLOS Climate 2(7): e0000241",
+    "doi_or_url": "https://doi.org/10.1371/journal.pclm.0000241",
+    "type": "Opinion paper (research agenda)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "Where and in what form does climate obstruction appear in the Global South, given that most research has focused on the Global North, especially the United States; the paper sets out a future research agenda.",
+  "data": "No original data. A short opinion paper (5 pages) drawing on 14 cited references and a few country examples (Vietnam, India, Latin America). No period, sample or size.",
+  "method": "No classification or counting method. Argument and agenda-setting; Table 1 lists research topics and questions.",
+  "definitions": [
+    {
+      "term": "Climate obstruction",
+      "definition": "Campaigns and other policy actions by well-organised and financed networks of corporate and other actors who have sought to prevent global and/or national action on climate change over four decades.",
+      "quote": "campaigns and other policy actions led by well-organized and financed networks of corporate and other actors",
+      "page": 1
+    },
+    {
+      "term": "Climate obstruction (tactics)",
+      "definition": "Efforts include organised mainstream and social media campaigns, lobbying, funding politicians and campaigns, and spreading climate-delaying discourses and practices.",
+      "quote": "organized mainstream and social media campaigns, lobbying, funding politicians and political campaigns, and disseminating climatedelaying discourses and practices",
+      "page": 1
+    }
+  ],
+  "proxies": [],
+  "findings": [
+    {
+      "claim": "Most research on climate obstruction has focused on the Global North, especially the US.",
+      "quote": "most of the research on climate obstruction has focused on countries in the Global North, especially the United States.",
+      "page": 1
+    },
+    {
+      "claim": "In the Global South climate delay is a frequent obstruction tactic, often tied to economic growth or energy poverty justifications.",
+      "quote": "climate delay is a frequently deployed tactic of climate obstruction and is often linked to a justification for expanded economic growth",
+      "page": 2
+    },
+    {
+      "claim": "Example: in Vietnam, ties between state-owned Vinacomin, Electricity of Vietnam and a ministry slowed renewable energy progress (cited to a news article, ref 4).",
+      "quote": "these three entities to slow progress",
+      "page": 2
+    },
+    {
+      "claim": "Sector differs by region: fossil fuel industry leads obstruction in the US, while agribusiness is more prominent in Latin America (cited to ref 9).",
+      "quote": "the agribusiness sector, one of the fastest-growing contributors to emissions",
+      "page": 2
+    },
+    {
+      "claim": "There is growing evidence of ties between US, Japanese and European financial and private sector institutions and high-carbon sectors in the Global South (cited to ref 10).",
+      "quote": "ties between, for example, USA, Japanese, and",
+      "page": 2
+    },
+    {
+      "claim": "Civil society in many Global South countries is constrained by limited space and financing, and sometimes repressed (Vietnam anti-coal activists prosecuted).",
+      "quote": "the constricted space for civil society groups in many global South countries and lack of",
+      "page": 3
+    },
+    {
+      "claim": "Obstruction actors, including non-state actors, corporations and think tanks, appear to have increased influence after COP26 and COP27, in the context of the Ukraine invasion and gas and coal re-emerging.",
+      "quote": "appear to have increased their influence on climate discourse",
+      "page": 3
+    }
+  ],
+  "recommendations": [
+    {
+      "claim": "Future research should examine whether and in what form climate obstruction appears in the Global South.",
+      "quote": "a future research agenda needs to shine greater light on if and in what form climate obstruction in the Global South appears.",
+      "page": 1
+    },
+    {
+      "claim": "Research is needed on how domestic actors, including the state and corporations, respond to, and are funded by, transnational networks.",
+      "quote": "research is needed on how in-country or domestic actors (including the state, and",
+      "page": 2
+    },
+    {
+      "claim": "Common but differentiated responsibility should shape how obstruction is understood in the Global South.",
+      "quote": "the idea of",
+      "page": 3
+    },
+    {
+      "claim": "Priority research directions include developmentalism discourses, negotiating blocs at the negotiations, political leaders and coalitions, transnational links, sovereignty claims, climate nationalism, and domestic energy industries (Table 1).",
+      "quote": "negotiating blocs at the negotiations, political leaders and their coalitions, transnational links,",
+      "page": 3
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Authors state the list of research directions is not exhaustive.",
+      "stated_by_authors": true,
+      "quote": "This is not an exhaustive",
+      "page": 4
+    },
+    {
+      "point": "Authors state that theory on climate obstruction is rooted in US experience, and Global South theory is still developing.",
+      "stated_by_authors": true,
+      "quote": "conceptual and theoretical understandings of climate obstruction in the Global South are under development.",
+      "page": 3
+    },
+    {
+      "point": "Authors note the Global South is not homogeneous, so generalisation is limited.",
+      "stated_by_authors": true,
+      "quote": "The Global South is not a homogenous group",
+      "page": 3
+    },
+    {
+      "point": "Opinion paper with no original data, no sampling or classification method, and no definition of business or fossil-fuel linkage that could be operationalised. Peer-review status of this article type is not stated in the text. Its own examples rest on news articles and secondary sources. It does not address COP delegations or badges.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "The PDF text extraction (pypdf) shows hyphenation artefacts at line breaks, so some quotes contain a hyphen where the original line broke (for example 'orga-nized'). The PDF could not be rendered as images (no pdftoppm), so the text layer was read. No instructions to a reader or AI were found in the source.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Reference list (14 items)",
+      "what_it_is": "Includes Brulle and Dunlap 2021 (obstruction overview), Lamb et al. 2022 (Discourses of climate delay), Urban and Wojcik 2019 (Dirty banking), Milani and Chaves 2022 (Europe/China and Brazil), Gereke and Bruhl 2019 (North/South NGO representation in climate politics).",
+      "page": 4
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "1-5 (all 5 pages, via extracted text)",
+  "read_on": "2026-11-24",
+  "read_by": "2026-11-24 general-purpose agent (sonnet) following source-reader instructions; PDF text extracted (pdftoppm missing), page numbers are PDF page indices"
+}

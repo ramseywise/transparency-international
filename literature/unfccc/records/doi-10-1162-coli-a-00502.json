@@ -1,0 +1,109 @@
+{
+  "id": "doi-10-1162-coli-a-00502",
+  "citation": {
+    "authors": ["Ziems", "Held", "Shaikh", "Chen", "Zhang", "Yang"],
+    "year": 2024,
+    "title": "Can Large Language Models Transform Computational Social Science?",
+    "venue_or_publisher": "Computational Linguistics (MIT Press)",
+    "doi_or_url": "https://doi.org/10.1162/coli_a_00502",
+    "type": "publisher's version (MIT Press, CC BY-NC-ND 4.0, accepted 25 October 2023), 55 pages",
+    "peer_reviewed": "yes"
+  },
+  "question": "Whether zero-shot large language models can augment or replace human annotation in computational social science: how well they perform, which model to choose, in which domains they are useful, and how they can be used (four research questions).",
+  "data": "Benchmarks in English from computational social science. The abstract says 25 tasks; one place in the text says 24 (inconsistency in the source). Thirteen models: FLAN-T5 (six sizes), UL2, GPT-3 text-001/002/003, gpt-3.5-turbo and GPT-4. Each task is tested on a class-stratified sample of at most 500 instances from the dataset's test set. Fine-tuned baselines: RoBERTa-large (classification) and T5-base (generation).",
+  "method": "Zero-shot prompting with the original prompt plus 4 paraphrases (5 prompts), temperature 0. Macro F1 averaged over the 5 prompts for classification and structured parsing; Cohen's kappa against gold labels (Table 4); comparison with fine-tuned baselines; error analysis of shared errors (gold mislabels, plausible secondary labels, over-prediction of neutral categories); few-shot (3 and 5 examples) test; human evaluation for generation tasks (expert Likert scores, author ranking). Also describes Design-based Semi-supervised Learning (DSL) as a way to get unbiased estimates from LLM labels plus a small set of gold labels. Prompt design guidelines in Table 1.",
+  "definitions": [
+    {
+      "term": "computational social science (CSS)",
+      "definition": "The development and application of computational methods to the scientific analysis of behavioral and linguistic data.",
+      "quote": "the development and application of computational methods to the scientiﬁc analysis of behavioral and linguistic data",
+      "page": 4
+    }
+  ],
+  "proxies": [],
+  "findings": [
+    {
+      "claim": "On classification tasks LLMs do not beat the best fine-tuned models but reach fair agreement with humans.",
+      "quote": "On taxonomic labeling tasks (classiﬁcation), LLMs fail to outperform the best ﬁne-tuned models but still achieve fair levels of agreement with humans.",
+      "page": 2
+    },
+    {
+      "claim": "Prompted LLMs do not match fine-tuned classifiers, and the best LLM performance is often too low to replace human annotation.",
+      "quote": "prompted LLMs do not match or exceed the performance of carefully ﬁne-tuned classiﬁers, and the best LLM performance is often too low to entirely replace human annotation.",
+      "page": 4
+    },
+    {
+      "claim": "Models hedged under uncertainty, refused offensive content and generalised beyond the given labels.",
+      "quote": "we found that models would hedge in the case of uncertainty, refuse to engage with offensive language, and attempt to generalize beyond provided labels.",
+      "page": 18
+    },
+    {
+      "claim": "Authors recommend human-in-the-loop use (a recommendation, not a measured finding).",
+      "quote": "we recommend human-in-the-loop methods to mitigate bias and risk",
+      "page": 23
+    },
+    {
+      "claim": "With few gold labels, DSL gives confidence intervals with good coverage.",
+      "quote": "With only 25 gold annotations, DSL can compute conﬁdence intervals that have >86% correct coverage",
+      "page": 31
+    },
+    {
+      "claim": "Authors argue human validation is needed to avoid a replication crisis from LLM errors (argument).",
+      "quote": "Human validation is key to avoiding a replication crisis in CSS caused by LLM hallucinations and inaccuracies.",
+      "page": 32
+    },
+    {
+      "claim": "Ensembling does not fix label corruption because LLMs agree with themselves even when wrong.",
+      "quote": "Ensembling prediction does not mitigate this label corruption as LLMs demonstrate high internal agreement, even when inaccurate",
+      "page": 32
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Authors ask for caution in reading the results.",
+      "stated_by_authors": true,
+      "quote": "We urge readers to interpret the results with caution",
+      "page": 27
+    },
+    {
+      "point": "LLMs may lack representations for technical terms (domain-specific label sets).",
+      "stated_by_authors": true,
+      "quote": "may lack sufﬁcient representations for such technical terms",
+      "page": 35
+    },
+    {
+      "point": "Possible training-data leakage can inflate test performance.",
+      "stated_by_authors": true,
+      "quote": "artiﬁcially inﬂate test performances",
+      "page": 36
+    },
+    {
+      "point": "No systematic analysis of bias and performance differences across groups (quote not re-verified; see pages_read).",
+      "stated_by_authors": true,
+      "quote": "we were unable to perform a systematic analysis of biases and performance discrepancies",
+      "page": 36
+    },
+    {
+      "point": "Tested on English benchmarks of social-media, news and similar text; no test on organisation names, delegate lists or business sectors (this is a gap in the source, not stated by the authors).",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Benchmark datasets (Table 2)",
+      "what_it_is": "The CSS benchmark tasks with test-set sizes, used for the evaluation",
+      "page": 20
+    },
+    {
+      "name": "Prompt design guidelines (Table 1)",
+      "what_it_is": "Guidance for writing the zero-shot prompts",
+      "page": 19
+    }
+  ],
+  "relevant_to": ["method"],
+  "pages_read": "Pages 1-43 read, page 44 partly; pages 19-22, 26 and 30 (tables) skimmed. Pages 45-55 (end of the reference list) not read. No instructions addressed to a reader or AI found in the pages read.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

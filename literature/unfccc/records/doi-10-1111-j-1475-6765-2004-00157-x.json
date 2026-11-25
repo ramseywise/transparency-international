@@ -1,0 +1,56 @@
+{
+  "id": "doi-10-1111-j-1475-6765-2004-00157-x",
+  "citation": {
+    "authors": ["Pieter Bouwen"],
+    "year": 2004,
+    "title": "Exchanging access goods for access: A comparative study of business lobbying in the European Union institutions",
+    "venue_or_publisher": "European Journal of Political Research, Volume 43, Issue 3, pp. 337-369 (Cambridge Core page)",
+    "doi_or_url": "https://doi.org/10.1111/j.1475-6765.2004.00157.x",
+    "type": "journal article; only the Cambridge Core landing page with abstract and reference links is in the file",
+    "peer_reviewed": "unknown"
+  },
+  "question": "Tests empirically a theory of access: why business interests (companies, associations, consultants) get access to the European Commission, European Parliament and Council of Ministers, explained as supply and demand of access goods.",
+  "data": "Per the abstract: 126 exploratory and semi-structured interviews in the EU financial services sector. Nothing further on period or sampling is in the file.",
+  "method": "Per the abstract: specific hypotheses about access are checked across the three EU institutions against interview data. No further method detail is in the file.",
+  "definitions": [
+    {
+      "term": "Access goods",
+      "definition": "Information that is crucial in the EU policy-making process, which business interests must supply in return for access to an EU institution.",
+      "quote": "Access goods concern information that is crucial in the EU policy‐making process.",
+      "page": "Abstract"
+    },
+    {
+      "term": "Organizational forms of business interest representation",
+      "definition": "Three forms named in the abstract: companies, associations and consultants. No criteria for deciding what counts as business are in the file.",
+      "quote": "the access of different organizational forms of business interest representation – companies, associations and consultants – to the European Commission",
+      "page": "Abstract"
+    }
+  ],
+  "proxies": [],
+  "findings": [],
+  "limitations": [
+    {
+      "point": "The file holds only the abstract and a reference list (links); the full text is not present, and the reference list shows as loading. Nothing beyond the abstract is recorded. The access page shows article purchase as temporarily unavailable.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The extracted text has no author field; the author name is taken from a link anchor and the copyright link on the page.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Reference list (links only, about 47 items)",
+      "what_it_is": "Works cited by the article, available only as links in the file, including Bouwen 2002 'Corporate lobbying in the European Union: The logic of access' (Journal of European Public Policy). Not read.",
+      "page": null
+    }
+  ],
+  "relevant_to": ["context"],
+  "pages_read": "Abstract only (landing page, 9 paragraphs, about 180 words). Full article text not present; not read.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

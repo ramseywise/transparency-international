@@ -1,0 +1,205 @@
+{
+  "id": "doi-10-1787-9789264065239-en",
+  "citation": {
+    "authors": ["OECD"],
+    "year": 2017,
+    "title": "Preventing Policy Capture: Integrity in Public Decision Making",
+    "venue_or_publisher": "OECD Publishing, Paris (OECD Public Governance Reviews)",
+    "doi_or_url": "https://doi.org/10.1787/9789264065239-en",
+    "type": "report",
+    "peer_reviewed": "unknown"
+  },
+  "question": "How policy capture (public decisions steered away from the public interest towards a narrow interest group) can be defined, what makes it more likely, how it works in the energy and tax policy fields, and how governments can prevent it through lobbying and political-finance rules, stakeholder engagement, transparency, external oversight and organisational integrity policies.",
+  "data": "No dataset of its own on delegations, climate conferences or business classification. It draws on earlier OECD reports and surveys and on academic studies cited in boxes and tables (for example a survey of 48 regulators in 26 countries, Regulatory Indicators Survey data for 34 countries and the European Commission, and a study of 20,202 listed companies in 47 countries by another author). Case studies cover energy and tax policy.",
+  "method": "Conceptual and policy-review report. It builds a definition of capture, a map of actors, vehicles and risk factors, two policy-field case studies (energy, tax) and a set of prevention frameworks presented as tables of policy objectives and options. It does not classify organisations, validate classifications or use language models.",
+  "definitions": [
+    {
+      "term": "policy capture",
+      "definition": "The process of consistently or repeatedly directing public policy decisions away from the public interest towards the interests of a specific interest group or person.",
+      "quote": "Policy capture is the process of consistently or repeatedly directing public policy decisions away from the public interest towards the interests of a specific interest group or person.",
+      "page": 11
+    },
+    {
+      "term": "capture (three criteria)",
+      "definition": "Capture needs a defined policy goal, a captor group that intends to extract rents, and a policy process that has shifted from the public-interest goal towards the captor's interest. No particular means of influence is presupposed.",
+      "quote": "While policy capture entails clearly identifying and violating policy goals, no particular means of influence are presupposed.",
+      "page": 27
+    },
+    {
+      "term": "regulatory capture",
+      "definition": "Capture of a regulator, an industry regulatory agency or a regulatory process.",
+      "quote": "regulatory capture implies capture of a regulator, industry regulatory agency or regulatory process",
+      "page": 25
+    },
+    {
+      "term": "energy policy",
+      "definition": "Regulation, generation, transmission and purchase of energy, including fossil-fuel extraction.",
+      "quote": "Energy policy concerns the regulation, generation, transmission and purchase of energy, including fossil-fuel extraction.",
+      "page": 46
+    },
+    {
+      "term": "conflict of interest (public officials)",
+      "definition": "Situations in which the private interests and affiliations of a public official create, or could create, conflict with the proper performance of official duties. Public organisations are also responsible for defining incompatible situations and activities.",
+      "quote": "the private interests and affiliations of a public official create, or have the potential to create, conflict with the proper performance of official duties",
+      "page": 80
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "political connection of a company",
+      "indicator": "A large shareholder or top officer of the company is a member of parliament, a minister, or closely related to a top politician or party (the definition used by another author, Faccio 2006, and described in Box 1.1).",
+      "quote": "“… at least one of its large shareholders … or one of its top officers … is a member of parliament, a minister, or is closely related to a top politician or party.”",
+      "page": 18
+    },
+    {
+      "concept": "capture targets in the energy sector involving fossil fuels",
+      "indicator": "State-owned enterprises involved in fossil-fuel extraction and in energy generation or distribution are named as possible capture targets. No indicator for classifying an organisation as fossil-fuel linked is given.",
+      "quote": "Capture targets can be state-owned enterprises involved in fossil-fuel extraction and energy generation or distribution.",
+      "page": 47
+    },
+    {
+      "concept": "revolving door between industry and government",
+      "indicator": "Energy companies hiring former politicians, or regulators bringing in industry experts.",
+      "quote": "Energy companies hiring former politicians (the “revolving door”) or regulators bringing in industry experts are but a few of the frequently observed patterns of personal ties",
+      "page": 49
+    },
+    {
+      "concept": "lobbying or influence on policy that can be made visible",
+      "indicator": "Public records of who was consulted: names of organisations and people who seek to influence the legislative process, and information on meetings with external stakeholders.",
+      "quote": "Governments can choose to make public the names of organisations and people who seek to influence the legislative process",
+      "page": 69
+    },
+    {
+      "concept": "risk of revolving doors in regulators",
+      "indicator": "Whether regulators restrict pre- or post-employment of professional staff.",
+      "quote": "Over half the regulators place no restrictions on pre-or post-employment of professional staff, opening the risk of “revolving doors” and conflict of interest with industry.",
+      "page": 77
+    }
+  ],
+  "findings": [
+    {
+      "claim": "In the energy field, polluting energy companies are said to fund biased research and lobby policy makers; the report gives this as a general pattern without figures.",
+      "quote": "in many countries, polluting energy companies fund biased research to underpin their business case, and lobby policy makers",
+      "page": 48
+    },
+    {
+      "claim": "Corporate executives or lobbyists who sit in government advisory groups act as part of the policy-making process, not as outside lobbyists, and have direct access to decision-makers.",
+      "quote": "when corporate executives or lobbyists advise governments as members of an advisory group, they act not as external lobbyists, but as part of the policy-making process, with direct access to decision-makers",
+      "page": 38
+    },
+    {
+      "claim": "Stakeholder engagement processes can themselves be taken over by powerful lobby groups.",
+      "quote": "These processes can also be hijacked by powerful lobby groups, meaning that special attention should be paid to the processes, timing and modalities for stakeholder engagement",
+      "page": 64
+    },
+    {
+      "claim": "Well-organised interest groups use traditional channels of communication with government more effectively than other social groups.",
+      "quote": "well-organised interest groups use traditional channels of communication with government more effectively",
+      "page": 64
+    },
+    {
+      "claim": "Regulators sit between public and private sectors and can be subject to undue influence from government, regulated industries and consumer groups.",
+      "quote": "As they operate at the intersection between the public and private sectors, they can be subject to undue influence from government, regulated industries and powerful consumer groups.",
+      "page": 76
+    },
+    {
+      "claim": "In a survey of regulators, over half placed no restrictions on pre- or post-employment of professional staff.",
+      "quote": "Over half the regulators place no restrictions on pre-or post-employment of professional staff, opening the risk of “revolving doors” and conflict of interest with industry.",
+      "page": 77
+    },
+    {
+      "claim": "Most OECD countries make political party and candidate reports public.",
+      "quote": "A full 91% of OECD countries make public the information contained in the reports of political parties and/or candidates (OECD, 2016a).",
+      "page": 60
+    },
+    {
+      "claim": "Evidence on transparency is mixed: one cross-country study found no significant link between transparency and public-sector corruption, apart from developing countries where Freedom of Information Acts were associated with more corruption.",
+      "quote": "The authors found no significant relationship between transparency and public-sector corruption, except in developing countries",
+      "page": 68
+    },
+    {
+      "claim": "Effective competition lowers the chance that companies gain enough power to capture regulation.",
+      "quote": "Effective competition can prevent companies from gaining too much power and dominance, raising both the opportunities and incentives to capture government regulations and policies.",
+      "page": 74
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The report has no data on country delegations, climate conferences, business presence or fossil-fuel presence, and gives no method for classifying organisations. It is background on capture and integrity rules only; it bears on the study's context question and only loosely on Q1, Q2 and method.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "The extracted text has no text on PDF pages 2, 8, 14 and 86, and the table extraction is garbled on several pages (words run together). The block text was used instead.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "The report does not define 'business' or 'fossil-fuel linked'. The word fossil-fuel appears in the energy case study only as a type of energy activity and as a type of state-owned enterprise.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "The acknowledgements mention review by OECD committees. This is committee review, not journal peer review, so peer-review status is recorded as unknown.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "OECD (2016a), Financing Democracy: Funding of Political Parties and Election Campaigns and the Risk of Policy Capture",
+      "what_it_is": "OECD report on political finance rules and capture risk; source of Table 3.2.",
+      "page": 83
+    },
+    {
+      "name": "OECD (2014a), Lobbyists, Governments and Public Trust, Volume 3: Implementing the OECD Principles for Transparency and Integrity in Lobbying",
+      "what_it_is": "OECD report on lobbying rules; source for the legislative-footprint figure.",
+      "page": 83
+    },
+    {
+      "name": "OECD (2010), Recommendation of the Council on Principles for Transparency and Integrity in Lobbying",
+      "what_it_is": "OECD recommendation on lobbying transparency and integrity.",
+      "page": 84
+    },
+    {
+      "name": "OECD (2004a), OECD Guidelines for Managing Conflict of Interest in the Public Service, and OECD (2005) toolkit",
+      "what_it_is": "OECD guidance on conflict of interest; source of Table 3.6.",
+      "page": 84
+    },
+    {
+      "name": "OECD (2016b), Being an independent regulator",
+      "what_it_is": "OECD survey of 48 regulators in 26 countries on sources of undue pressure (Box 3.3).",
+      "page": 83
+    },
+    {
+      "name": "Pfeiffer and Speck (2008), Accountability and transparency in political finance, Transparency International Working Paper 1/2008",
+      "what_it_is": "Transparency International working paper on political-finance transparency, cited for the timely, reliable, accessible, intelligible principles.",
+      "page": 84
+    }
+  ],
+  "relevant_to": ["context"],
+  "pages_read": "All 87 PDF pages of the extracted text were read (pages 2, 8, 14 and 86 have no extractable text). Page numbers in this record are PDF page numbers; the printed page number is two lower on pages from about page 18.",
+  "recommendations": [
+    {
+      "claim": "Governments should require lobbying disclosure and impose cooling-off periods on former public officials.",
+      "quote": "Impose a “cooling-off” period that temporarily restricts former public officials from lobbying their past organisations, and appointing or hiring a lobbyist to fill a regulatory or advisory post",
+      "page": 59
+    },
+    {
+      "claim": "Governments should publish information on meetings between officials and external stakeholders.",
+      "quote": "Make publicly available information about meetings with external stakeholders",
+      "page": 71
+    },
+    {
+      "claim": "Public decision-makers should be able to identify and manage situations where outside interest groups try to lure them into a conflict of interest.",
+      "quote": "Public decision-makers need to be able to identify, avoid or manage situations in which outside interest groups try to lure them into a conflict of interest",
+      "page": 79
+    }
+  ],
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

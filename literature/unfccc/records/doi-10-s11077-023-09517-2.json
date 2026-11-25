@@ -1,0 +1,185 @@
+{
+  "id": "doi-10-s11077-023-09517-2",
+  "citation": {
+    "authors": [
+      "Irja Vormedal",
+      "Jonas Meckling"
+    ],
+    "year": 2024,
+    "title": "How foes become allies: the shifting role of business in climate politics",
+    "venue_or_publisher": "Policy Sciences 57, 101-124 (2024), per the page's 'Cite this article' line; published online 16 November 2023; issue date March 2024",
+    "doi_or_url": "https://doi.org/10.1007/s11077-023-09517-2",
+    "type": "journal article (web full text)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "Under what conditions firms shift from opposing to supporting costly policy reform; develops a dynamic theory of change in business policy positions (opposition, strategic support, sincere support) and applies it to US climate politics. It does not ask how large business or fossil-fuel presence is in any forum.",
+  "data": "Mainly published research on business lobbying in US climate politics (academic articles and reports), plus the authors' own primary research where published work was scarce: newspaper articles (keyword search in Factiva, national and subnational papers), Congressional hearings and position papers. Three sectors (electric utilities, oil and gas, automakers) in the USA over three periods, mid-1990s to 2020. Firm-level figures (coal share of generation, lobbying spend, fleet fuel economy) are taken from cited secondary sources.",
+  "method": "Conceptual theory building followed by a qualitative historical case analysis. A firm's material interest is judged from its assets (generation mix, fuel mix, fleet fuel economy); if the stated position matches that interest it is coded sincere, if it does not match, strategic. Consistency of positions across political venues is used as a second check. No statistical or language-model classification.",
+  "definitions": [
+    {
+      "term": "Interests (of firms)",
+      "definition": "Material interests closely linked to profitability; they shape how firms rank policy alternatives.",
+      "quote": "In the case of firms, interests are primarily material and closely linked to profitability, shaping how firms rank the desirability of different policy alternatives",
+      "page": "Defining interests, preferences, and positions"
+    },
+    {
+      "term": "Policy positions",
+      "definition": "Expressed opposition or support for a policy in a given political environment.",
+      "quote": "we define policy positions as expressed opposition or support for a policy in a given political environment.",
+      "page": "Defining interests, preferences, and positions"
+    },
+    {
+      "term": "Sincere and strategic positions",
+      "definition": "Sincere: an expressed first-order preference aligned with material interests. Strategic: an expressed second-order or lower-ranked preference misaligned with economic interests.",
+      "quote": "We define a sincere position as an expressed first-order preference aligned with material interests, and a strategic position as an expressed, second-order or lower-ranked preference misaligned with economic interests.",
+      "page": "Defining interests, preferences, and positions"
+    },
+    {
+      "term": "Business (as the unit of analysis)",
+      "definition": "The text does not define 'business' in general. It analyses individual firms in three named sectors and the industry associations they belong to.",
+      "quote": null,
+      "page": null
+    },
+    {
+      "term": "Fossil-fuel linked firms",
+      "definition": "No definition. The sectors are chosen as major emitters of greenhouse gases; individual firms are described by the share of coal, oil or gas in their assets.",
+      "quote": "Our analysis focuses on the major contributors to the emission of greenhouse gases (GHGs), including electric utilities, oil and gas firms, and automakers",
+      "page": "Introduction"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Firm interest of an electric utility",
+      "indicator": "Cleanness and carbon intensity of its power generation portfolio (for example share of coal, nuclear, hydropower, gas).",
+      "quote": "For electric utilities, we assess the relative cleanness and carbon intensity of their power generation portfolios.",
+      "page": "Research design"
+    },
+    {
+      "concept": "Firm interest of an oil and gas company",
+      "indicator": "Carbon intensity of its fuel portfolio and its interest in growing natural gas production.",
+      "quote": "For oil and gas firms, we examine the relative carbon intensity of their fuel portfolios and consider interests tied to of growth natural gas production.",
+      "page": "Research design"
+    },
+    {
+      "concept": "Sincere versus strategic position",
+      "indicator": "Whether the deduced interest matches the observed support or opposition; plus whether the position stays the same across political venues.",
+      "quote": "If the deduced interest of firms align with observed support or opposition to the reform in question, we assume that the firm's policy position is sincere, reflecting a first-order preference.",
+      "page": "Research design"
+    },
+    {
+      "concept": "Sectors expected to resist climate policy",
+      "indicator": "Sector membership (electric utilities, oil and gas, automakers), justified by their share of climate-related lobbying spending and high emissions.",
+      "quote": "Together, they accounted for at least 56 percent of climate-related lobbying expenditures in the USA between 2000 and 2016 (Brulle, 2018).",
+      "page": "Research design"
+    },
+    {
+      "concept": "Coal dependence of a utility",
+      "indicator": "Share of coal in its generation portfolio, from cited benchmarking reports.",
+      "quote": "The AEP had 84 percent and Duke nearly 70 percent coal in their generation portfolios (Atten, Curry, & Saha, 2008).",
+      "page": "Federal cap-and-trade bills"
+    },
+    {
+      "concept": "Effort a firm puts into opposing or supporting climate policy",
+      "indicator": "Climate lobbying expenditure in US dollars, taken from cited studies.",
+      "quote": "ExxonMobil, the absolute largest US emitter, spent USD 27.4 million on lobbying in 2008",
+      "page": "Federal cap-and-trade bills"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "In the cap-and-trade period, many emitting utilities and oil and gas firms moved from opposition to strategic support, driven by political pressure.",
+      "quote": "a considerable share of electric utilities and oil and gas firms shifted from opposition to strategic support for a favorably designed cap-and-trade scheme",
+      "page": "Federal cap-and-trade bills"
+    },
+    {
+      "claim": "Support by these firms was judged strategic partly because they stayed in industry associations that worked against the legislation.",
+      "quote": "This rent-seeking and inconsistencies in positioning across venues further point to their support being strategic.",
+      "page": "Federal cap-and-trade bills"
+    },
+    {
+      "claim": "In the 1990s, major utilities, oil and gas firms, automakers and their branch organisations organised together against climate policy.",
+      "quote": "Members of the GCC included all the leading firms and branch organizations",
+      "page": "Phase 1: industry unity and opposition to climate policy"
+    },
+    {
+      "claim": "In the Clean Power Plan period, most broad-based industry associations and coal-intensive firms continued to oppose the rule.",
+      "quote": "So did most of the broad-based industry associations, including the CoC and the NAM.",
+      "page": "The clean power plan"
+    },
+    {
+      "claim": "Oil and gas majors' later support for a carbon tax was judged partly sincere and partly strategic.",
+      "quote": "which suggests that the policy positions of oil and gas majors may have been partly strategic and partly sincere.",
+      "page": "Regulatory rollbacks under the trump administration"
+    },
+    {
+      "claim": "Authors conclude that political pressure produces only strategic support, while policy and market change are more likely to produce sincere support.",
+      "quote": "whereas political mechanisms are likely to result in only strategic support for reform, policy and market change are more likely to drive sincere policy support.",
+      "page": "Conclusions"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The text file holds the full running text, notes and reference list. The four tables (relationship of interests, conditions, drivers, cases) are given only as captions; their contents are not in the file, so nothing is recorded from them.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Inferring a firm's real preference from its stated position is hard, and the authors say their analysis still faces this problem.",
+      "stated_by_authors": true,
+      "quote": "the empirical analysis is still subject to the “problem of preferences” that presents a challenge to all firm-centered analyses of politics",
+      "page": "Conclusions"
+    },
+    {
+      "point": "Interests are judged from secondary assessments, which the authors accept because the article is a historical overview.",
+      "stated_by_authors": true,
+      "quote": "The use of secondary assessments is appropriate for this article, given our goal to provide a historical overview of the evolution of firm positions.",
+      "page": "Research design"
+    },
+    {
+      "point": "Evidence comes from one country only, chosen as a hard test, so it does not speak to delegations at UN climate talks.",
+      "stated_by_authors": true,
+      "quote": "We probe the plausibility of our theory in the case of the USA.",
+      "page": "Research design"
+    },
+    {
+      "point": "Part of the analysis is a review of other studies rather than new data, with the authors' own research only where published work is scarce.",
+      "stated_by_authors": true,
+      "quote": "Our empirical analysis of shifts in business positioning is written partly as a review article",
+      "page": "Research design"
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Brulle (2018) on climate lobbying expenditures",
+      "what_it_is": "Cited for the share of US climate lobbying by utilities, oil and gas, and automakers. Not read here.",
+      "page": "Research design"
+    },
+    {
+      "name": "Van Atten et al., Benchmarking air emissions of the 100 largest electric power producers in the United States (2008, 2013, 2017, 2019)",
+      "what_it_is": "Report series cited for utilities' generation mix (coal, gas, solar and wind shares). Not read here.",
+      "page": "References"
+    },
+    {
+      "name": "PointCarbon (2009)",
+      "what_it_is": "Cited for firms' emissions, expected costs and gains under cap-and-trade. Not read here.",
+      "page": "Federal cap-and-trade bills"
+    },
+    {
+      "name": "Delmas, Lim and Nairn-Birch (2016)",
+      "what_it_is": "Cited for company climate lobbying spending figures. Not read here.",
+      "page": "Federal cap-and-trade bills"
+    },
+    {
+      "name": "EPA (2021) fleet fuel economy data",
+      "what_it_is": "Cited for relative fuel economy of automakers' fleets. Not read here.",
+      "page": "Regulatory rollbacks under the trump administration"
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "Full extracted text of the web page: abstract, all body sections (Introduction to Conclusions), notes and the start of the reference list (to about the 'Blum 2015' entry; the rest of the references were not read in full). Table contents are not in the file.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

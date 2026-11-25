@@ -1,0 +1,100 @@
+{
+  "id": "ciel-united-call-to-action-thecopweneed",
+  "citation": {
+    "authors": [
+      "Climate Action Network (CAN)",
+      "Global Campaign to Demand Climate Justice (DCJ)",
+      "Children and Youth Constituency (YOUNGO)",
+      "Women and Gender Constituency (WGC)",
+      "+200 organizations"
+    ],
+    "year": 2025,
+    "title": "Reclaiming Climate Justice: United Call for an Urgent Reform of the UN Climate Talks (The COP We Need)",
+    "venue_or_publisher": "Posted on ciel.org (CIEL)",
+    "doi_or_url": "https://www.ciel.org/wp-content/uploads/2025/06/United-Call-to-Action-TheCOPWeNeed.pdf",
+    "type": "advocacy position paper / civil society call to action",
+    "peer_reviewed": "no"
+  },
+  "question": "Sets out civil society demands for reforming the UNFCCC process. These include a conflict of interest policy, removing polluting industry from official spaces and party delegations, rightsizing COPs, and greater transparency. It is a call to action, not a research study.",
+  "data": "None stated. It is a policy document of about 6,200 words and 23 pages. Pages 21 onward are a list of signatory organisations by country.",
+  "method": "None. It is an advocacy text with no empirical method for identifying or counting fossil-linked or business delegates.",
+  "definitions": [
+    {
+      "term": "conflict of interest (UNFCCC)",
+      "definition": "The paper says the UNFCCC has no agreed definition of conflict of interest. It calls for one to be formalised, drawing on best practice, and for an Accountability Framework that keeps entities with private, polluting interests from unduly influencing UNFCCC processes through their role as NGO representatives.",
+      "quote": "does not even have an agreed definition of what a “conflict of interest” is, let alone any measures on how to address one",
+      "page": 7
+    },
+    {
+      "term": "polluting interests / Big Polluters / polluting industry representatives",
+      "definition": "No operational definition is given. The text refers to 'fossil fuel and high-emitting industries' and 'industries most responsible for the climate crisis'. It also says to end their undue influence in observer organizations, party delegations and Presidency teams.",
+      "quote": "End undue influence of polluting industry representatives from official spaces, including observer organizations, party delegations, and Presidency teams.",
+      "page": 2
+    }
+  ],
+  "proxies": [],
+  "findings": [
+    {
+      "claim": "The authors argue that fossil fuel and high-emitting industries have undue influence on the climate talks. They support this with assertion, not data. They say the expansion of COPs has opened the door further to the fossil fuel industry.",
+      "quote": "it has further opened the door for the fossil fuel industry and other major emitters, allowing them to continue polluting with impunity",
+      "page": 1
+    },
+    {
+      "claim": "The UNFCCC has no meaningful conflict of interest measures and no agreed definition of the term. The authors note that mandatory disclosure requirements were institutionalised in 2023 and call them a floor, not a ceiling.",
+      "quote": "the UNFCCC has essentially no meaningful measures in place to ensure its policymaking is not undermined by those with private, vested interests",
+      "page": 7
+    },
+    {
+      "claim": "The authors say polluting interests have lobbied and spread disinformation since the 1992 Rio Summit, and describe COPs as having become a trade fair with rented pavilions used for PR and lobbying.",
+      "quote": "increasingly taken on the character of a global trade fair with an expansive commercialisation of the event space",
+      "page": 8
+    },
+    {
+      "claim": "Recommendation, not a finding: the paper calls for a conflict of interest policy. It also calls for full disclosure of funding and conflicts of interest of COP participants, and for removing polluting industry representatives from observer organisations, party delegations and Presidency teams.",
+      "quote": "Kick Big Polluters out and rightsize COPs: End undue influence of polluting industry representatives from official spaces",
+      "page": 2
+    },
+    {
+      "claim": "Recommendation: the UNFCCC should strengthen admission and accreditation of observers and require participants to disclose who funds their attendance. It should also collect conflict of interest disclosure at registration, modelled on the WHO Framework Convention on Tobacco Control.",
+      "quote": "requiring disclosure of conflicts of interest to be submitted as part of the registration process",
+      "page": 8
+    },
+    {
+      "claim": "The paper says delegation size differs between Parties, which adds to inequity. It suggests requirements for party delegations, but gives no figures.",
+      "quote": "size disparities between party delegations increase the inequity in the negotiations",
+      "page": 8
+    },
+    {
+      "claim": "The paper says COPs have been hosted by major fossil fuel-producing States and presided over by oil and gas executives.",
+      "quote": "COPs are hosted by major fossil fuel-producing States and even presided over by oil and gas executives",
+      "page": 6
+    }
+  ],
+  "limitations": [
+    {
+      "point": "It is an advocacy document with no data, counts or method. Claims about fossil industry influence are asserted without evidence in the passages read. It is not usable as a source for numbers or classification method.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Only 31 of 61 passages were read, including no reference list. The pages not covered may hold detail, such as a participants or footnote section, that was not seen.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Signatory organisations list",
+      "what_it_is": "A list of 200+ supporting organisations by country. Page 21 appears in the chunk. It is not a dataset of fossil-linked organisations.",
+      "page": 21
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "selected by code: 31 of 61 passages, 3440 of 6164 words, from pages 1-3, 5-15, 21 of 23; chosen for definitions, indicators, method, findings and limitations; the rest was not read. No additional searches of the full text were made.",
+  "read_on": "2026-11-25",
+  "read_by": "source-reader, sonnet"
+}

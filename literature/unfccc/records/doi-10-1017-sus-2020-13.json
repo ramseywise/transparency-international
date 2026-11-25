@@ -1,0 +1,160 @@
+{
+  "id": "doi-10-1017-sus-2020-13",
+  "citation": {
+    "authors": [
+      "William F. Lamb",
+      "Giulio Mattioli",
+      "Sebastian Levi",
+      "J. Timmons Roberts",
+      "Stuart Capstick",
+      "Felix Creutzig",
+      "Jan C. Minx",
+      "Finn Müller-Hansen",
+      "Trevor Culhane",
+      "Julia K. Steinberger"
+    ],
+    "year": 2020,
+    "title": "Discourses of climate delay",
+    "venue_or_publisher": "Global Sustainability, Volume 3, e17 (Cambridge University Press)",
+    "doi_or_url": "https://doi.org/10.1017/sus.2020.13",
+    "type": "journal article (typology / conceptual); saved web page of the open-access article",
+    "peer_reviewed": "unknown"
+  },
+  "question": "To identify an expansive, not necessarily exhaustive, list of climate delay discourses and to examine their common features and shared logic, condensing them into a typology of overarching strategies. It does not ask about business or fossil-fuel presence in delegations.",
+  "data": "Initial list of discourses from an expert elicitation of the study co-authors; refined with a systematically collected sample of written testimony submitted to the Massachusetts legislature on climate and clean energy legislation (2013-2018), and selected news articles and media content on climate policies in Germany, the UK, Norway and the USA. Sample sizes and the detailed method are in the Supplementary Materials, which are not in the saved text.",
+  "method": "Deductive: an initial list of discourses derived from expert elicitation, then refined from the sources above. Discourses are grouped by the underlying logic they use, as negations of at least one of four questions, giving four categories and 12 discourses. The article gives illustrative quotes, not counts.",
+  "definitions": [
+    {
+      "term": "Discourses of climate delay",
+      "definition": "Discourses that accept that climate change exists but justify inaction or inadequate efforts.",
+      "quote": "These discourses accept the existence of climate change, but justify inaction or inadequate efforts.",
+      "page": "Non-technical summary"
+    },
+    {
+      "term": "Climate delay discourses (policy-focused)",
+      "definition": "Policy-focused discourses that exploit discussions on what action should be taken, how fast, who bears responsibility and where costs and benefits fall; they often lead to deadlock.",
+      "quote": "policy-focused discourses that exploit contemporary discussions on what action should be taken, how fast, who bears responsibility and where costs and benefits should be allocated",
+      "page": "1. Introduction"
+    },
+    {
+      "term": "Fossil fuel solutionism",
+      "definition": "The claim that the fossil fuel industry is part of the solution to climate change; placed in the category 'push non-transformative solutions'.",
+      "quote": "fossil fuel solutionism, the claim that the fossil fuel industry is “part of the solution to the scourge of climate change”",
+      "page": "3. Push non-transformative solutions"
+    },
+    {
+      "term": "Whataboutism",
+      "definition": "Arguing that other countries or states emit more and so bear more responsibility; also used by industries and sectors against one another.",
+      "quote": "argues that other countries or states produce more greenhouse gas emissions and thus bear a greater responsibility for taking action. We call this whataboutism.",
+      "page": "2. Redirect responsibility"
+    },
+    {
+      "term": "Four categories of delay",
+      "definition": "Discourses are grouped by which of four questions they negate: responsibility, need for transformative change, desirability given costs, and feasibility.",
+      "quote": "we characterize discourses of delay as negations of at least one of four questions",
+      "page": "1. Introduction"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "A climate delay discourse",
+      "indicator": "A statement that negates at least one of four questions (responsibility, transformative change, desirability given costs, feasibility). The authors say they identify features of discourses and do not attribute motives to speakers.",
+      "quote": "our focus here is to identify the features of these discourses, rather than to attribute underlying motives to those who use them.",
+      "page": "1. Introduction"
+    },
+    {
+      "concept": "Source of the discourse list",
+      "indicator": "Expert elicitation among the co-authors, refined from written testimony to a legislature and news and media content.",
+      "quote": "we derive our initial list of discourses from an expert elicitation of the study co-authors, and then we refine these categories by drawing from a wide range of sources.",
+      "page": "1. Introduction"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The authors identify 12 discourses of delay in four categories: redirect responsibility, push non-transformative solutions, emphasize the downsides, surrender.",
+      "quote": "we discuss the main features of our typology and the 12 discourses of delay.",
+      "page": "1. Introduction"
+    },
+    {
+      "claim": "Fossil fuel solutionism is described as central to industry pushback against regulation.",
+      "quote": "This discourse is at the heart of industry pushback against regulation.",
+      "page": "3. Push non-transformative solutions"
+    },
+    {
+      "claim": "Example given of an industry body funding advertising for 'cleaner' fossil fuels (American Petroleum Institute, citing a secondary source).",
+      "quote": "The American Petroleum Institute funds tens of millions of dollars’ worth of advertisements that promote ‘cleaner’ fossil fuels, while emotively linking these products to everyday activities and human well-being",
+      "page": "3. Push non-transformative solutions"
+    },
+    {
+      "claim": "Industries and sectors, not only countries, use whataboutism, each pointing at another sector.",
+      "quote": "Industries and sectors can also leverage this argument.",
+      "page": "2. Redirect responsibility"
+    },
+    {
+      "claim": "The authors' concern is that in the hands of interest groups fighting regulation, delay discourses can disorient and discourage ambitious climate action.",
+      "quote": "in the hands of interest groups fighting against regulation, our concern is that discourses of delay will disorientate and discourage ambitious climate action.",
+      "page": "1. Introduction"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The list is not claimed to be exhaustive.",
+      "stated_by_authors": true,
+      "quote": "identify an expansive – albeit not necessarily exhaustive – list of climate delay discourses.",
+      "page": "1. Introduction"
+    },
+    {
+      "point": "The study does not measure how often discourses are used or by whom, or their effects.",
+      "stated_by_authors": true,
+      "quote": "Nor can we judge how often they are used in these contexts and by whom.",
+      "page": "6. Conclusion"
+    },
+    {
+      "point": "Discourses can contain partial truths and be put forward in good faith, so the typology does not by itself show intent or lobbying.",
+      "stated_by_authors": true,
+      "quote": "they indicate that discourses of delay often contain partial truths and may be put forward in good faith.",
+      "page": "1. Introduction"
+    },
+    {
+      "point": "The Supplementary Material (method detail, attributions for quotes, sample description) is linked but not in the saved text, so the sampling and coding details could not be read.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Source text is a saved web page; the figure (typology chart) and reference list entries are not in the text apart from link anchors. Nothing here concerns UNFCCC participant lists, business or fossil-fuel presence in delegations, or classifying organisations.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The author names and the article number (e17) in the citation are not in the extracted text; where the reader took them from is not recorded, so check them against the article before citing.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Lamb et al. supplementary material (docx)",
+      "what_it_is": "Detailed methods, sources, attributions for quotes and a longer list of examples. Linked from the page, not read here.",
+      "page": "Lamb et al. supplementary material"
+    },
+    {
+      "name": "Written testimony to the Massachusetts legislature, 2013-2018",
+      "what_it_is": "Systematically collected sample on climate and clean energy legislation used to refine the discourse categories. Not provided in the text.",
+      "page": "1. Introduction"
+    },
+    {
+      "name": "Skeptical Science (www.skepticalscience.com)",
+      "what_it_is": "Existing compilation of common climate denial claims, cited as a comparable effort.",
+      "page": "1. Introduction"
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "Full text of the saved web page (55 paragraphs, about 3,665 words, all sections: Non-technical summary, Introduction, the four category sections, Conclusion, notes, reference links). The typology figure and the Supplementary Material are not in the extracted text and were not read.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

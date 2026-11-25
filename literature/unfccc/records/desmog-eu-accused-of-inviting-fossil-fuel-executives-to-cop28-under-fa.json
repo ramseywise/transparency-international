@@ -1,0 +1,128 @@
+{
+  "id": "desmog-eu-accused-of-inviting-fossil-fuel-executives-to-cop28-under-fa",
+  "citation": {
+    "authors": ["Sam Bright"],
+    "year": 2024,
+    "title": "EU Accused of Inviting Fossil Fuel Executives to COP28 Under False Pretences",
+    "venue_or_publisher": "DeSmog",
+    "doi_or_url": "https://www.desmog.com/2024/11/05/eu-accused-of-inviting-fossil-fuel-executives-to-cop28-under-false-pretences/",
+    "type": "news article (web page), published 2024-11-05, modified 2024-11-25",
+    "peer_reviewed": "no"
+  },
+  "question": "Whether the European Commission gave Party Overflow badges to five fossil fuel company representatives for COP28 on the stated grounds that they were panellists at EU side events, and whether that explanation holds.",
+  "data": "Not stated as a dataset. The article rests on a letter from the EU Climate Commissioner to MEPs (described, not reproduced), the Commission's answers to the outlet's questions, a statement from Eni, quotes from campaigners and MEPs, and a figure of 2,456 fossil fuel lobbyists at COP28 that is linked to a third-party newsletter (heated.world). The page does not say which participant list or classification produced the 2,456 figure.",
+  "method": "Journalistic: questioned the Commission and companies about whether named invitees took part in EU side events (intro, paragraphs 6-8, 20). No method is given for identifying or counting fossil fuel lobbyists.",
+  "definitions": [
+    {
+      "term": "Party Overflow badge",
+      "definition": "Not defined. The page uses the term as the badge type the EU says the five company representatives received.",
+      "quote": "received a Party Overflow badge on the grounds that they were panellists in specific side-events",
+      "page": "intro, paragraph 5"
+    },
+    {
+      "term": "EU delegation (who counts as part of it)",
+      "definition": "Not defined in general. The Commission's spokesperson states that the badge holders were not considered part of the EU delegation and had no access to its offices.",
+      "quote": "do not have access to our delegation offices nor would they be considered as part of the EU delegation.",
+      "page": "intro, paragraph 19"
+    },
+    {
+      "term": "fossil fuel lobbyists",
+      "definition": "Not defined. The term is used for people from oil and gas companies and is not tied to a stated classification.",
+      "quote": "At least 2,456 fossil fuel lobbyists were granted access to the Dubai summit",
+      "page": "section 'A Fossil Fuel Frenzy', paragraph 23"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "fossil fuel presence at COP",
+      "indicator": "Employment by named oil and gas companies (BP, ExxonMobil, Eni); for the wider count, a figure taken from a linked third-party newsletter with no stated indicator.",
+      "quote": "The EU invited five representatives of fossil fuel giants, including executives from BP, ExxonMobil, and Eni",
+      "page": "intro, paragraph 3"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The Commission says the five company representatives got a Party Overflow badge because they were panellists at specific side events.",
+      "quote": "received a Party Overflow badge on the grounds that they were panellists in specific side-events",
+      "page": "intro, paragraph 5"
+    },
+    {
+      "claim": "According to the outlet, two of the five did not take part in any EU events, which it says casts doubt on the Commission's explanation.",
+      "quote": "two of the executives did not in fact participate in any EU events at COP28",
+      "page": "intro, paragraph 6"
+    },
+    {
+      "claim": "The Commission admitted, when asked, that the two invitees did not take part in events; the outlet says the claimed last-minute replacements were more junior staff.",
+      "quote": "the European Commission admitted that neither took part in events, when questioned by DeSmog",
+      "page": "intro, paragraph 7"
+    },
+    {
+      "claim": "A company confirmed that its invited executive did not speak at any COP28 event.",
+      "quote": "didn’t speak at any events at COP28",
+      "page": "intro, paragraph 20"
+    },
+    {
+      "claim": "The Commission says the badge holders were outside the EU delegation. This is the Commission's position, not an independent check.",
+      "quote": "do not have access to our delegation offices nor would they be considered as part of the EU delegation.",
+      "page": "intro, paragraph 19"
+    },
+    {
+      "claim": "Badge holders could attend open side events but not the formal negotiations.",
+      "quote": "though they could not access the formal negotiations.",
+      "page": "intro, paragraph 15"
+    },
+    {
+      "claim": "A figure of at least 2,456 fossil fuel lobbyists at COP28 is reported, said to be nearly four times any previous year. The article attributes it only by a hyperlink to heated.world.",
+      "quote": "At least 2,456 fossil fuel lobbyists were granted access to the Dubai summit – nearly four times more than any previous year.",
+      "page": "section 'A Fossil Fuel Frenzy', paragraph 23"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The text read is the full saved web page (about 1,110 words, 32 paragraphs), but it is a news article and not a study. It does not describe how badge types work, how organisations are classified, or how the 2,456 figure was counted.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The 2,456 figure is secondhand: the page only links it to heated.world. Its underlying data (for example the UNFCCC participant list) and classification rules are not stated here and must be checked at that source before use.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The Commission's letter is quoted only in part; the article does not reproduce it or give the full list of five invitees' badge details. Whether a Party Overflow badge counts as being in a delegation is stated only as the Commission's view.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The outlet is a campaigning and investigative news site and the article quotes advocates and politicians critical of the Commission. Treat the claims as reported, not verified. Exxon did not respond.",
+      "stated_by_authors": false,
+      "quote": "Exxon didn’t respond to DeSmog’s request for comment.",
+      "page": "intro, paragraph 20"
+    },
+    {
+      "point": "The saved text contains no instructions addressed to a reader or an AI (only 'Subscribe' and 'Donate' page furniture).",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "heated.world, 'It's official: COP28 has more fossil...' (linked at paragraphs 3 and 23)",
+      "what_it_is": "Third-party newsletter article linked as the source of the 'granted access' and 2,456 fossil fuel lobbyists figure. Not read here; a candidate to find and check.",
+      "page": "intro, paragraph 3; section 'A Fossil Fuel Frenzy', paragraph 23"
+    },
+    {
+      "name": "Open letter from more than 100 civil society groups (fossilfreepolitics.org)",
+      "what_it_is": "Open letter of 4 November 2024 urging the Commission not to bring fossil fuel lobbyists to COP29, linked at paragraph 12. Not read here.",
+      "page": "intro, paragraph 12"
+    }
+  ],
+  "relevant_to": ["context"],
+  "pages_read": "Full text of the saved web page (all 32 paragraphs, both sections, link list). The extracted text is the whole article, not a study report with methods annex.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

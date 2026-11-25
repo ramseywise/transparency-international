@@ -1,0 +1,195 @@
+{
+  "id": "ti-2025-trade-fair",
+  "citation": {
+    "authors": [],
+    "year": 2025,
+    "title": "Climate Summit or Industry Trade Fair?",
+    "venue_or_publisher": "Transparency International (transparency.org), news article; published 2025-10-15, modified 2026-01-06",
+    "doi_or_url": "https://www.transparency.org/en/news/climate-summit-or-industry-trade-fair",
+    "type": "web page (advocacy news article summarising an analysis with InfluenceMap)",
+    "peer_reviewed": "no"
+  },
+  "question": "How companies and industry associations that attended COP28 and COP29 engage with climate policy, and what that implies for the need to oversee business participation at COPs.",
+  "data": "466 companies and industry associations that attended COP28 (Dubai) and/or COP29 (Baku) and are listed in the LobbyMap (InfluenceMap) database; policy engagement assessed since early 2024. Underlying data and figures are not in the page text (two embedded charts); a separate InfluenceMap methodology PDF is linked but was not read.",
+  "method": "Matched COP attendees to the LobbyMap database and used LobbyMap scores of corporate climate policy engagement and position (Paris Agreement, NDCs, energy transition, deforestation and land use), broken down by sector and by level of engagement (active and strategic). Case boxes on Petrobras and JBS use the national delegation lists for COP28 and COP29 (UNFCCC documents linked). The page does not describe how attendees were identified in the participant lists or how companies were classified into sectors.",
+  "definitions": [
+    {
+      "term": "policy engagement (corporate)",
+      "definition": "Quoting the UN Guide for Responsible Corporate Engagement in Climate Policy: corporate activities that seek to inform or influence policymaking, from advertising, social media and public relations to direct contact with regulators and officials.",
+      "quote": "policy engagement encompasses a variety of corporate activities that seek to inform or influence policymaking.",
+      "page": "Are companies backing climate frameworks or just showing up at COPs?"
+    },
+    {
+      "term": "Party overflow delegate",
+      "definition": "Officially part of the state delegation but cannot speak for the country; badge does not show corporate affiliation.",
+      "quote": "While overflow delegates cannot speak on behalf of the country, they are officially part of the state delegation.",
+      "page": "JBS"
+    },
+    {
+      "term": "state-owned company",
+      "definition": "Used descriptively for Petrobras, a majority-state owned oil and gas company; no general definition given.",
+      "quote": "Petrobras is a majority-state owned oil and gas company from Brazil.",
+      "page": "Petrobras"
+    },
+    {
+      "term": "fossil fuel and other high-polluting industries / ties",
+      "definition": "Not defined as a category. For a declaration by the COP30 Presidency, ties include paid and unpaid roles in high-emitting companies, trade associations and consultancy firms contracted by such industries.",
+      "quote": "This would include both paid and unpaid roles in high-emitting companies, trade associations, consultancy firms contracted by such industries.",
+      "page": "Petrobras"
+    },
+    {
+      "term": "conflict of interest (UNFCCC)",
+      "definition": "Not defined. The article states that the UNFCCC has no conflict-of-interest policy for COP attendees.",
+      "quote": "still lacks a conflict-of-interest policy for COP attendees.",
+      "page": "Tracking business influence at COPs"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "business presence at COP",
+      "indicator": "Company or industry association attended COP28 and/or COP29 and is listed in the LobbyMap database (so only companies tracked by LobbyMap are counted).",
+      "quote": "we examined 466 companies and industry associations that attended COP28 in Dubai and/or COP29 in Baku listed in the LobbyMap database",
+      "page": "Tracking business influence at COPs"
+    },
+    {
+      "concept": "business inside a national delegation",
+      "indicator": "Company representatives appear in a country's delegation list as Party or Party overflow delegates (Petrobras, JBS for Brazil).",
+      "quote": "Its representatives have attended COP28 and COP29 as part of Brazil’s national delegation, as Party and Party overflow delegates.",
+      "page": "Petrobras"
+    },
+    {
+      "concept": "business presence through observer organisations",
+      "indicator": "Company staff attend as observers representing industry associations.",
+      "quote": "JBS representatives have also attended COPs as observers, representing industry associations",
+      "page": "JBS"
+    },
+    {
+      "concept": "high-emission sectors",
+      "indicator": "Sector grouping used in the analysis, named as energy, metals and mining (also utilities); no sector definition or classification scheme given.",
+      "quote": "nearly half of the companies actively supporting the Paris Agreement come from high-emission sectors such as energy, metals and mining.",
+      "page": "Are companies backing climate frameworks or just showing up at COPs?"
+    },
+    {
+      "concept": "opposition to energy transition (corporate stance)",
+      "indicator": "LobbyMap position scores on energy transition policies, filtered by level of engagement.",
+      "quote": "over half (54%) of companies with the highest levels of engagement actively oppose energy transition policies",
+      "page": "Are companies supporting the energy transition?"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Most attending companies and associations had not clearly supported the Paris Agreement since 2024.",
+      "quote": "88% of companies attending COP28 and COP29 have not expressed a clear position in support of the Paris Agreement since the beginning of 2024",
+      "page": "Are companies backing climate frameworks or just showing up at COPs?"
+    },
+    {
+      "claim": "Among companies most engaged on energy transition policy, over half oppose it, notably energy, utilities and mining.",
+      "quote": "over half (54%) of companies with the highest levels of engagement actively oppose energy transition policies - particularly those from energy, utilities, and mining sectors.",
+      "page": "Are companies supporting the energy transition?"
+    },
+    {
+      "claim": "Only 27% of analysed companies clearly supported the COP28 language on transitioning away from fossil fuels.",
+      "quote": "only 27% of companies analysed have expressed clear support for it.",
+      "page": "Are companies supporting the energy transition?"
+    },
+    {
+      "claim": "Large fossil fuel companies are named as publicly backing science-aligned action while opposing transition policies.",
+      "quote": "BP, Chevron, Equinor, Shell, and Brazilian Petrobras, publicly support science-aligned action on climate while opposing the very policies needed to transition away from fossil fuels.",
+      "page": "Figure 1: The position of companies and industry associations on the energy transition, filtered by the level of policy engagement (active and strategic), by sector."
+    },
+    {
+      "claim": "Only 11% of companies and associations actively engaged on deforestation or land use; 71% of those do not support such policies.",
+      "quote": "only 11% of companies and industry associations have actively engaged in deforestation or land-use policy. Among those, more than two-thirds (71%) do not support such policies.",
+      "page": "Forests at the forefront of COP30"
+    },
+    {
+      "claim": "Case evidence of a state-owned oil company and a meat company sitting in Brazil's national delegation (Party and Party overflow badges) at COP28 and COP29. No delegate counts are given.",
+      "quote": "Its representatives have attended COP28 and COP29 as part of Brazil’s national delegation, as Party and Party overflow delegates.",
+      "page": "Petrobras"
+    },
+    {
+      "claim": "Overflow badges do not show corporate affiliation, which hides whether a delegate represents corporate or national interests.",
+      "quote": "Their conference badges do not indicate their corporate affiliation, obscuring whether they are representing corporate or national interests",
+      "page": "JBS"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "No count of business or fossil fuel-linked delegates in national delegations, overall or for any EU member state or the EU; the 466 are all company and association attendees tracked in LobbyMap, not delegates by badge type. Two companies (Petrobras, JBS) are given as delegation examples.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Sample is limited to entities listed in LobbyMap, so it is not the full set of business attendees; this restriction is stated but not discussed as a limitation.",
+      "stated_by_authors": false,
+      "quote": "that attended COP28 in Dubai and/or COP29 in Baku listed in the LobbyMap database",
+      "page": "Tracking business influence at COPs"
+    },
+    {
+      "point": "The page gives no method for identifying attendees or assigning sectors; this is deferred to a linked InfluenceMap methodology PDF that was not read. Chart data (Figures 1 and 2) is embedded and not in the text, so sector breakdowns could not be read.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Measures corporate policy stance (LobbyMap scoring), not delegate affiliation; no validation of classifications is reported. Advocacy article, not peer reviewed; no named authors.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Covers COP28 and COP29 only (not COP30 or COP31); a stance since early 2024 is used for attendance at earlier COPs.",
+      "stated_by_authors": false,
+      "quote": "to assess their climate policy engagement since early 2024",
+      "page": "Tracking business influence at COPs"
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "LobbyMap (InfluenceMap)",
+      "what_it_is": "Platform tracking and scoring corporate climate lobbying; the data source for the 466 companies and associations (https://lobbymap.org).",
+      "page": "Tracking business influence at COPs"
+    },
+    {
+      "name": "InfluenceMap methodology PDF",
+      "what_it_is": "Linked methodology document (How was the data sourced?), https://images.transparencycdn.org/images/InfluenceMap-methodology.pdf. Not read; candidate for download.",
+      "page": "(introduction, no heading)"
+    },
+    {
+      "name": "Behind the Badge (Transparency International)",
+      "what_it_is": "Linked TI publication on roles, reach and risks of fossil fuel industry participation in UN climate talks. Candidate source.",
+      "page": "(introduction, no heading)"
+    },
+    {
+      "name": "COP Co-opted? How corruption and undue influence threaten multilateral climate action",
+      "what_it_is": "Linked TI publication. Candidate source.",
+      "page": "Tracking business influence at COPs"
+    },
+    {
+      "name": "UNFCCC list of participants COP28 and COP29",
+      "what_it_is": "Linked as unfccc.int/documents/636674 (COP28) and unfccc.int/documents/644763 (COP29); evidence for the Petrobras and JBS delegation claims.",
+      "page": "Petrobras"
+    },
+    {
+      "name": "TI and partners press release on COP30 and high polluters' lobby",
+      "what_it_is": "Linked TI press release; candidate source on conflict-of-interest calls.",
+      "page": "Tracking business influence at COPs"
+    },
+    {
+      "name": "Joint civil society submission on conflict of interest, Aug 2022 (Accountability Framework)",
+      "what_it_is": "Linked PDF; the Accountability Framework for a UNFCCC conflict-of-interest policy.",
+      "page": "Towards stronger oversight of business participation at COP"
+    }
+  ],
+  "relevant_to": [
+    "Q1",
+    "Q2",
+    "method",
+    "context"
+  ],
+  "pages_read": "Whole page (all 42 paragraphs, links and figure notes); linked documents not read. Charts (Figures 1 and 2) are embedded and their data is not in the text. Page contained no instructions to a reader or AI.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet",
+  "read_on_note": "Added afterwards on 2026-11-24. The reader did not write these two fields. Date taken from the creation time of this file (24 November 2026, 14:31); reader and model inferred from the two records written in the same batch in the same minute. Confidence: high for the date, medium for the model."
+}

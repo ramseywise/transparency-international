@@ -1,0 +1,165 @@
+{
+  "id": "unfccc-855rev",
+  "citation": {
+    "authors": [
+      "Corporate Accountability International",
+      "Third World Network",
+      "Asian Peoples Movement on Debt and Development",
+      "Friends of the Earth (England, Wales and Northern Ireland)",
+      "IBON International",
+      "Environmental Rights Action/Friends of the Earth-Nigeria",
+      "APWLD",
+      "SustainUS",
+      "Corporate Europe Observatory",
+      "Women in Europe for a Common Future (WECF)"
+    ],
+    "year": 2017,
+    "title": "February 28, 2017 Joint civil society submission regarding the Arrangements for Intergovernmental Meetings in-session workshop on opportunities to further enhance the effective engagement of Non-Party Stakeholders at UNFCCC SBI 46 (May 2017)",
+    "venue_or_publisher": "UNFCCC submissions portal (members of ENGO CJN!)",
+    "doi_or_url": "https://unfccc.int/files/parties_and_observers/application/pdf/855rev.pdf",
+    "type": "NGO submission to the UNFCCC SBI (advocacy document)",
+    "peer_reviewed": "no"
+  },
+  "question": "How the UNFCCC should safeguard itself against conflicts of interest and industry influence as it enhances non-Party stakeholder engagement. It recommends a conflict-of-interest definition and policy, stronger observer admission procedures, and differentiated rules for engaging non-Party stakeholders.",
+  "data": "No empirical dataset in the passages read. It cites UNFCCC documents (FCCC/SBI/2004/5, FCCC/SBI/2016/L.14), the WHO FCTC and OECD guidelines, and secondary literature. Lists of observer organisations and the corporations they represent are held on an external website, not in the text read.",
+  "method": "Policy argument and recommendations. It reviews UNFCCC documentation for any mention of conflicts of interest, compares admission rules with precedents (WHO FCTC, FENSA, OECD) and draws on academic definitions of conflict of interest. It states no classification or counting method.",
+  "definitions": [
+    {
+      "term": "conflict of interest (proposed UNFCCC definition)",
+      "definition": "Activities, relationships or situations that place a public institution and/or its representative in a real, potential or perceived conflict between public duties and personal, institutional or other interests, including business, commercial or financial interests. The conflict may be financial or may simply be diverging interests.",
+      "quote": "a conflict of interest may arise when activities, relationships or situations place a public institution, and/or an individual that represents it, in a real, potential or perceived conflict",
+      "page": 6
+    },
+    {
+      "term": "institutional conflict of interest",
+      "definition": "Arises when an institution's own secondary financial interest poses risks to the integrity of its primary interests.",
+      "quote": "If the institution's own secondary financial interest poses risks to the integrity of the institution's primary interests, a conflict of interest arises.",
+      "page": 3
+    },
+    {
+      "term": "conflicting interests",
+      "definition": "A divergence or conflict between different actors, or a situation in which a decision maker must weigh antagonistic interests of different sectors. It is distinct from a conflict of interest.",
+      "quote": "a divergence or conflict between different actors",
+      "page": 6
+    },
+    {
+      "term": "business-interest actors / entities with a profit-motive",
+      "definition": "Entities with a profit-motive and/or ties (financial or otherwise) to private sector entities whose business model contributes to climate change. They include industry trade associations, front groups and private philanthropies with interests in those industries.",
+      "quote": "These include but are not limited to industry trade associations, front groups, private philanthropies with interests in said industries, etc.",
+      "page": 8
+    },
+    {
+      "term": "observer eligibility (existing rules)",
+      "definition": "The only requirements are legal registration as a non-profit and work on climate-related matters.",
+      "quote": "the only requirements for becoming an official observer to the UNFCCC are that an organization is legally registered as non-profit organization, and that it work on matters related to climate change",
+      "page": 7
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "observer organisations with fossil fuel/industry ties",
+      "indicator": "Membership made up exclusively of fossil fuel corporations. The submission also proposes screening for public disclosure of industry affiliations and industry funding.",
+      "quote": "Some officially admitted UNFCCC observer organizations' members are made up exclusively of fossil fuel corporations.",
+      "page": 7
+    },
+    {
+      "concept": "industry affiliation (proposed due-diligence screen)",
+      "indicator": "Public disclosure of industry affiliations and industry funding.",
+      "quote": "include due diligence in screening for such things as public disclosure of industry affiliations, industry funding, etc.",
+      "page": 2
+    },
+    {
+      "concept": "observer eligibility",
+      "indicator": "Statement of competence, independent juridical personality, and non-profit or tax-exempt status, as in FCCC/SBI/2004/5.",
+      "quote": "Confirmation of non-profit and/or tax-exempt status in a State member of the United Nations",
+      "page": 7
+    },
+    {
+      "concept": "business-interest NGO / industry representation",
+      "indicator": "Represents the commercial interests of private sector members. Examples are listed on an external site, not in the text read.",
+      "quote": "an observer organization, which represents the commercial interests of its private sector members",
+      "page": 6
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The authors say UNFCCC observers include organisations whose sole purpose is to represent the fossil fuel industry. No count is given in the passages read.",
+      "quote": "The UNFCCC currently counts among its admitted observers organizations with the sole purpose of representing the interests of the fossil fuel industry",
+      "page": 4
+    },
+    {
+      "claim": "The authors say the UNFCCC has no procedure to identify conflicting interests among observers, and that the admission rules have not changed since 2004.",
+      "quote": "the UNFCCC has no procedure in place to identify, let alone rectify this type of situation",
+      "page": 8
+    },
+    {
+      "claim": "The authors say a review of UNFCCC documents found no mention of 'conflicts of interest'.",
+      "quote": "reveals no mention whatsoever of the words “conflicts of interest,”",
+      "page": 5
+    },
+    {
+      "claim": "In 2016, Parties representing nearly 70% of the world's population asked for information on safeguards against conflicts of interest.",
+      "quote": "Parties representing nearly 70% of the world’s population requested information from the Secretariat about existing procedures to protect against conflicts of interest",
+      "page": 2
+    },
+    {
+      "claim": "Recommendation (not a finding): business-interest non-Party stakeholders should not have access to or influence over norm- and standard-setting, and lobbying is listed among unacceptable interactions.",
+      "quote": "Business-interest non-Party stakeholders shall not have access to or influence over norm- and standard-setting activities of the UNFCCC",
+      "page": 11
+    }
+  ],
+  "limitations": [
+    {
+      "point": "This is an advocacy submission. Its claims about fossil fuel observers are asserted without data in the passages read, and the supporting examples are on an external website.",
+      "stated_by_authors": false,
+      "quote": "please visit: www.stopcorporateabuse.org/UNFCCCsubmissionCOIexamples",
+      "page": 6
+    },
+    {
+      "point": "The text covers observer organisations. It does not cover Party delegations or Party overflow badges, so it does not address delegates' home organisations.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Only 24 of 40 passages were read.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "FCCC/SBI/2004/5 (Promoting effective participation in the Convention process)",
+      "what_it_is": "Secretariat note setting out the observer admission procedure and criteria",
+      "page": 7
+    },
+    {
+      "name": "FCCC/SBI/2016/L.14",
+      "what_it_is": "SBI conclusions on observer participation",
+      "page": 1
+    },
+    {
+      "name": "Guidelines on a Principle-based Approach to the Cooperation between the United Nations and the Business Sector",
+      "what_it_is": "UN guidelines on business engagement",
+      "page": 5
+    },
+    {
+      "name": "OECD Guidelines for Managing Conflict of Interest in the Public Service; WHO FCTC and FENSA",
+      "what_it_is": "Precedent conflict-of-interest policies cited",
+      "page": 10
+    },
+    {
+      "name": "stopcorporateabuse.org/UNFCCCsubmission",
+      "what_it_is": "External list of admitted observers and the corporations they represent, not included in the text read",
+      "page": 1
+    }
+  ],
+  "relevant_to": [
+    "context",
+    "method"
+  ],
+  "pages_read": "selected by code: 24 of 40 passages, 3977 of 5105 words, from pages 1-12 of 12; chosen for definitions, indicators, method, findings and limitations; the rest was not read. No additional searches of the full text.",
+  "read_on": "2026-11-25",
+  "read_by": "source-reader, sonnet"
+}

@@ -1,0 +1,137 @@
+{
+  "id": "nips-d862f7f5445255090de13b825b880d59-paper-conference",
+  "citation": {
+    "authors": [
+      "Naoki Egami",
+      "Musashi Hinck",
+      "Brandon M. Stewart",
+      "Hanying Wei"
+    ],
+    "year": 2023,
+    "title": "Using Imperfect Surrogates for Downstream Inference: Design-based Supervised Learning for Social Science Applications of Large Language Models",
+    "venue_or_publisher": "37th Conference on Neural Information Processing Systems (NeurIPS 2023)",
+    "doi_or_url": "http://papers.nips.cc/paper_files/paper/2023/file/d862f7f5445255090de13b825b880d59-Paper-Conference.pdf",
+    "type": "conference paper (main text, 13 pages including references; supplement is a separate file and not in the text)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "How to use imperfect labels produced by large language models (surrogates) in later statistical analyses, such as regressions, without bias and with valid confidence intervals, by combining them with a smaller number of expert (gold-standard) labels.",
+  "data": "Simulations and tests on 18 datasets. (1) Congressional Bills Project: 10K bills drawn at random (the outcome is whether a bill is labelled Macroeconomy), GPT-3 zero-shot labels (accuracy 68% balanced, 90% imbalanced), 500 simulations per point, gold-standard samples of 100 to 1000. (2) 17 classification datasets from Ziems et al. (2023), labelled with flan-ul2, with n = 100 gold-standard labels in the reported table (9 of the 17 shown; the remaining 8 are in the supplement, which is not in the file). None of the data concern business, fossil fuels, climate or participant lists.",
+  "method": "Design-based supervised learning (DSL). Every document gets a surrogate label (for example from an LLM). A random or stratified sample, with a known and non-zero probability, is labelled by experts. A prediction model is fitted on the expert labels with K-fold cross-fitting, a bias-corrected pseudo-outcome is built, and the downstream regression uses that pseudo-outcome. Compared with surrogate-only (SO), gold-standard-only (GSO) and conventional supervised learning (SL) on bias, coverage of 95% confidence intervals and root mean squared error (RMSE).",
+  "definitions": [
+    {
+      "term": "Surrogate labels",
+      "definition": "Scalable but error-prone labels, for example produced by an LLM, used in place of expert labels.",
+      "quote": "We call these more scalable—but error-prone—labels, surrogate labels.",
+      "page": 2
+    },
+    {
+      "term": "Gold-standard labels",
+      "definition": "Labels produced by expert annotation for a subset of documents.",
+      "quote": "We assume the outcome is costly to measure and we can choose to have an expert annotate a subset of the documents to provide the gold-standard Y.",
+      "page": 4
+    },
+    {
+      "term": "Measurement error",
+      "definition": "The unknown and varying mismatch between the gold-standard label and the surrogate.",
+      "quote": "measurement error—the unknown and heterogeneous mismatch between the gold-standard label and the surrogate",
+      "page": 2
+    },
+    {
+      "term": "Design-based sampling",
+      "definition": "The researcher controls and knows the probability with which each document is sampled for gold-standard labelling, and that probability is above zero (Assumption 1).",
+      "quote": "The assumption holds when the researcher directly controls the sampling design.",
+      "page": 4
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "True class of a document (the gold standard)",
+      "indicator": "Expert annotation of a sampled subset of documents.",
+      "quote": "We assume the outcome is costly to measure and we can choose to have an expert annotate a subset of the documents to provide the gold-standard Y.",
+      "page": 4
+    },
+    {
+      "concept": "Class of every document, at scale",
+      "indicator": "LLM annotation used as a surrogate label.",
+      "quote": "Q represent surrogate labels (e.g. from an LLM).",
+      "page": 2
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Using LLM labels directly in a downstream regression gives biased estimates and invalid confidence intervals, even when the LLM is 80-90% accurate (authors' simulation).",
+      "quote": "We show that direct use of surrogate labels in downstream statistical analyses leads to substantial bias and invalid confidence intervals, even with high surrogate accuracy of 80–90%.",
+      "page": 1
+    },
+    {
+      "claim": "In a simulated example with 90% surrogate accuracy, a nominal 95% confidence interval covered the truth only 40% of the time.",
+      "quote": "even with surrogate accuracy of 90%, the bias is substantial and the coverage of a 95% confidence interval is only 40% in downstream regression.",
+      "page": 2
+    },
+    {
+      "claim": "On the Congressional Bills data, DSL had lower error than using gold-standard labels alone (14% RMSE gain in the balanced zero-shot condition).",
+      "quote": "DSL achieves a 14% gain in RMSE over GSO (balanced condition) as shown in Figure 3.",
+      "page": 8
+    },
+    {
+      "claim": "On 17 benchmark classification tasks, surrogate-only estimates of class shares were biased with poor coverage even when LLM accuracy was above 70%; DSL with 100 expert labels had low bias and near-nominal coverage.",
+      "quote": "Even for surrogate labels above 70% accuracy, the SO estimator has high bias and consequentially poor coverage for this aggregate quantity.",
+      "page": 10
+    }
+  ],
+  "limitations": [
+    {
+      "point": "DSL is built for one setting: a downstream regression (or similar estimate) on labels for a corpus that is available from the start. It does not give individual document classifications.",
+      "stated_by_authors": true,
+      "quote": "First, DSL is focused on a very specific setting: outcome variables used in a regression where researchers need to annotate a corpus of documents available from the outset.",
+      "page": 10
+    },
+    {
+      "point": "The method needs accurate gold-standard labels, which may be hard to get.",
+      "stated_by_authors": true,
+      "quote": "Like any method using gold-standard labels, DSL can be sensitive to the gold-standard being accurate",
+      "page": 10
+    },
+    {
+      "point": "DSL favours low bias and valid coverage over prediction error; where RMSE is the main goal, conventional supervised learning may be better.",
+      "stated_by_authors": true,
+      "quote": "As SL explicitly targets RMSE, it may be the better option if that is the primary consideration.",
+      "page": 10
+    },
+    {
+      "point": "The file holds the main paper only. The supplement (extra results, other sample sizes, five-shot experiments, proofs, the 8 remaining benchmark tasks) is a separate document and was not read.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The paper does not test classification of organisations, business or fossil-fuel linkage, or any list of participants. Its evidence comes from bill topics and other text benchmarks, so applicability to organisation classification is not shown in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Congressional Bills Project (Adler and Wilkerson)",
+      "what_it_is": "Database of about 400K US bills hand-coded by trained coders into 20 topics; used as a benchmark with 10K bills.",
+      "page": 8
+    },
+    {
+      "name": "Ziems et al. (2023) CSS benchmark tasks",
+      "what_it_is": "Computational social science classification tasks (emotion, hate speech, ideology, misinformation and others) used to test class prevalence estimation; 17 datasets used.",
+      "page": 8
+    },
+    {
+      "name": "DSL supplement",
+      "what_it_is": "Supplementary materials at naokiegami.com/paper/dsl_supplement.pdf; not in the extracted text.",
+      "page": 1
+    }
+  ],
+  "relevant_to": [
+    "method"
+  ],
+  "pages_read": "All 13 pages of the extracted text (main paper and references). The supplement is not part of the file and was not read.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

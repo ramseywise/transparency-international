@@ -1,0 +1,134 @@
+{
+  "id": "doi-10-1162-glep-a-00660",
+  "citation": {
+    "authors": ["Maria Jernnäs", "Eva Lövbrand"],
+    "year": 2022,
+    "title": "Accelerating Climate Action: The Politics of Nonstate Actor Engagement in the Paris Regime",
+    "venue_or_publisher": "Global Environmental Politics 22:3, August 2022 (MIT Press), pp. 38-58 (page range taken from the file's page-range string '38..58' and the PDF address)",
+    "doi_or_url": "https://doi.org/10.1162/glep_a_00660",
+    "type": "journal article",
+    "peer_reviewed": "yes"
+  },
+  "question": "What political rationality informs the pluralization of climate politics after the Paris Agreement and the turn toward cooperative modes of governing nonstate actors (businesses, cities, investors, civil society) through UNFCCC-led initiatives.",
+  "data": "Documents produced by the UNFCCC and the High-Level Champions about nonstate orchestration initiatives (Marrakech Partnership, Momentum for Change, Climate Neutral Now, Yearbooks, Climate Action Pathways, work programmes), period 2016-2021; repeated visits to the NAZCA online portal (2018-2021); and observation of the opening and closing sessions of the online Race to Zero Dialogues, 9 and 19 November 2020. The full document list is in Table 1; the number of documents is not stated in the text. No participant lists or country delegations were used.",
+  "method": "Qualitative, inductive document analysis informed by Foucauldian governmentality studies. Text segments were highlighted and coded; eleven 'dispositional techniques' were identified (for example 'report', 'create common story', 'organize events'), then grouped into three 'technologies of government': quantification, exemplification and partnering. The authors say they are more concerned with how governing works than with who governs. No counting or classification of organisations was done by the authors.",
+  "definitions": [
+    {
+      "term": "non-Party stakeholders",
+      "definition": "Term from the COP21 decision for nonstate actors (businesses, cities, regions and others) recognised as agents of change; the article does not give a further definition of who counts as business.",
+      "quote": "“non-Party stakeholders” are formally recognized as agents of change",
+      "page": 2
+    },
+    {
+      "term": "orchestration (Abbott et al. 2015, as summarised by the authors)",
+      "definition": "A soft, indirect form of rule that works through intermediary actors, including business organisations, to pursue shared policy goals.",
+      "quote": "orchestration refers to a soft and indirect form of rule that seeks to nudge intermediary actors, such as nongovernmental organizations (NGOs), business organizations, and transnational city networks",
+      "page": 5
+    },
+    {
+      "term": "good practice (as designated by the UNFCCC initiatives)",
+      "definition": "Actions promoted as good practice are those that can be replicated and scaled into business cases with high mitigation potential.",
+      "quote": "Good practices and solutions are those that can be replicated and transported to other locales and thereby turned into business cases with high mitigation potential.",
+      "page": 13
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "company (business) climate action, as counted in the NAZCA portal",
+      "indicator": "Pledges registered in NAZCA under the category 'companies' (alongside cities, investors, regions and civil society), taken from data providers such as the Carbon Disclosure Project and the UN Global Compact. This is the portal's categorisation, reported by the authors, not their own classification.",
+      "quote": "based on initiatives registered with a number of data providers, such as the Carbon Disclosure Project, the Climate Bonds initiative, and the UN Global Compact",
+      "page": 10
+    },
+    {
+      "concept": "who is in the NAZCA 'civil society' category",
+      "indicator": "Authors' reading of the portal entries: foundations, universities and faith-based associations rather than environmental NGOs or activist networks",
+      "quote": "the civil society category in NAZCA is populated by foundations, universities, and faith-based associations, many of which have pledged to divest from fossil fuels.",
+      "page": 11
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Of about 27,000 actions registered in NAZCA in February 2021, cities and companies made up the large majority: 11,915 cities, 8,740 companies, 2,348 investors, 669 regions (plus 2,293 civil society actions, stated in the next sentences). These count registered pledges, not people or delegation members.",
+      "quote": "approximately 27,000 actions registered in NAZCA in February 2021, cities accounted for 11,915, companies for 8,740, investors for 2,348, and regions for 669.",
+      "page": 11
+    },
+    {
+      "claim": "The portal only takes quantifiable pledges, so protest and grassroots action is not shown.",
+      "quote": "it does not track or display protest actions or grassroots campaigns undertaken by the broader climate movement.",
+      "page": 11
+    },
+    {
+      "claim": "The authors argue that the UNFCCC's partnering practices blur the public-private boundary and make nonstate action part of the climate regime.",
+      "quote": "effectively blurs the public–private boundary and turns transnational climate action into an integral part of the UN climate regime.",
+      "page": 15
+    },
+    {
+      "claim": "A youth activist at the Race to Zero Dialogues said the event featured big industry rather than frontline groups.",
+      "quote": "The Race to Zero Dialogues feature big industry and multinational corporations, rather than the groups on the frontlines.",
+      "page": 15
+    },
+    {
+      "claim": "A High-Level Champion defended working with big industry, saying it has power and needs to be convinced (a quoted statement by an official, not a finding of the authors).",
+      "quote": "Big industry has the capacity and power and need to be convinced in order for us to accelerate the transformation.",
+      "page": 15
+    },
+    {
+      "claim": "The authors conclude that this form of governing elevates businesses, investors and industry as partners of government and may draw attention away from the orders most in need of change.",
+      "quote": "a neoliberal and market-oriented global space that elevates businesses, investors, and industries as indispensable partners of government",
+      "page": 17
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Fit to this study: the article does not examine country (Party) delegations, UNFCCC participant lists or fossil-fuel linkage, and it gives no definition of 'business' or 'fossil-fuel linked' and no method for classifying organisations. Nothing is stated on Q1, Q2 or 'method'; it is only background for 'context'. The NAZCA counts are counts of registered pledges by non-Party actors, not of delegates.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Authors say the analysis is about how governing is done, not who does it, so it does not identify which organisations or sectors are involved.",
+      "stated_by_authors": true,
+      "quote": "our analysis is less concerned with “the who” than it is with “the how” of governing.",
+      "page": 7
+    },
+    {
+      "point": "The analysis is inductive and interpretive; the authors state the approach but do not report coding reliability or a second coder.",
+      "stated_by_authors": true,
+      "quote": "The material was approached inductively to avoid reproducing any preunderstanding of the role of nonstate actors in international politics.",
+      "page": 9
+    },
+    {
+      "point": "The article does not discuss conflicts-of-interest rules, observer accreditation or lobbying regulation, and does not use the term policy capture; its relevance to 'context' is the critical argument about business prominence in UNFCCC-led partnerships.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The extracted file has no title recorded and an empty authors field (title string 'gle00660 38..58'); title, authors and year come from page 1 of the text. Table 1 in the extraction is garbled (columns merged), so the document list is only partly legible. No instructions addressed to a reader or an AI were found.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 1
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "NAZCA / Global Climate Action Portal",
+      "what_it_is": "UNFCCC online registry of mitigation and adaptation commitments by cities, companies, investors, regions and civil society; used here as an object of analysis, not as data for delegations",
+      "page": 10
+    },
+    {
+      "name": "Table 1: Material included in the analysis",
+      "what_it_is": "List of UNFCCC and High-Level Champions documents analysed (Yearbooks of Global Climate Action 2017-2019, Climate Action Pathways 2019, Marrakech Partnership work programmes, Momentum for Change annual reports, and others)",
+      "page": 8
+    },
+    {
+      "name": "Reference list",
+      "what_it_is": "About 50 works on nonstate climate action, polycentric and transnational climate governance and governmentality, including Hale 2016 and 2020, Bäckstrand and Kuyper 2017, Chan et al. 2019 and Abbott et al. 2015",
+      "page": 18
+    }
+  ],
+  "relevant_to": ["context"],
+  "pages_read": "Whole extracted text: all 21 pages (abstract, main text, footnotes, Table 1, author notes, reference list) and the link list. The text is the full article.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

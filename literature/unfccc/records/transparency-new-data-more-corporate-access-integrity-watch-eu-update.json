@@ -1,0 +1,128 @@
+{
+  "id": "transparency-new-data-more-corporate-access-integrity-watch-eu-update",
+  "citation": {
+    "authors": ["Raphaël Kergueno"],
+    "year": 2025,
+    "title": "New data, more corporate access? Integrity Watch EU update shows Commission leaves civil society in the dark",
+    "venue_or_publisher": "Transparency International EU (web article)",
+    "doi_or_url": "https://transparency.eu/new-data-more-corporate-access-integrity-watch-eu-update-shows-commission-leaves-civil-society-in-the-dark/",
+    "type": "web article / news post (published 2025-04-10)",
+    "peer_reviewed": "no"
+  },
+  "question": "What the extended European Commission meeting-disclosure rules (December 2024) reveal about who lobbies the Commission, using the updated Integrity Watch EU platform; focus on corporate versus civil society access.",
+  "data": "Integrity Watch EU data on Commission lobby meetings published by Commissioners, Cabinet Members, Directors-General and, since December 2024, all management staff (about 1100 extra officials). Meetings since the start of the new Commission mandate in December 2024; data retrieved on Monday 8 April (as stated). 5813 meetings with EU lobby organisations; 2183 published over a similar period in the previous mandate. Organisations registered in Brussels: nearly 13,000.",
+  "method": "Descriptive counts of published meetings, disaggregated by individual lobbying organisation (an organisation counted for each meeting it attended). Climate-related meetings identified by subjects mentioning the EU climate agenda (at least a third of meetings); topic keywords counted (simplification, competitiveness, Green Deal, digital). Organisations are described as NGO or corporate stakeholders without a stated classification rule. No method for identifying fossil fuel lobbyists is given in this article.",
+  "definitions": [
+    {
+      "term": "lobbyist / lobby organisation (as counted in Integrity Watch EU)",
+      "definition": "Organisations registered in the Brussels lobby register; the platform shows each organisation's lobbying footprint, with meetings disaggregated by individual organisation, so one meeting with several organisations counts once per organisation.",
+      "quote": "Different organisations can attend the same meeting. As we are seeking to understand access to EU decision-makers, our platform disaggregates meeting data by individual lobbying organisation.",
+      "page": "untitled opening section, paragraph 13"
+    },
+    {
+      "term": "NGO (self-labelled)",
+      "definition": "The article treats an organisation's own label as the basis for counting it as an NGO; it notes this is not necessarily a genuine civil society representative.",
+      "quote": "Only one of these three was held with an organisation that labels itself an NGO: the World Economic Forum",
+      "page": "untitled opening section, paragraph 10"
+    },
+    {
+      "term": "policy capture",
+      "definition": "Described as a risk arising from unbalanced stakeholder access, where only the interests of specific organisations are catered to. Not a formal definition.",
+      "quote": "a lack of balanced stakeholder access could lead to policy capture, where only to the interests of specific organisations are catered to.",
+      "page": "untitled opening section, paragraph 12"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "corporate / business access to decision-makers",
+      "indicator": "Number of published Commission meetings held by organisation, split between NGOs and corporate stakeholders; sectors named in the top-20 ranking.",
+      "quote": "Agriculture, automobiles, chemicals, big tech and finance dominate the top ranking",
+      "page": "untitled opening section, paragraph 8"
+    },
+    {
+      "concept": "climate-related lobbying",
+      "indicator": "Meeting subjects related to the EU climate agenda, based on the subject text because the Commission abolished its portfolio categories.",
+      "quote": "In the absence of clearly defined portfolios (the Commission used to categorise meeting topics, but abolished this data point last year), the actual number could be much higher.",
+      "page": "untitled opening section, paragraph 6"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Published meetings more than doubled after the rules were extended: 5813 meetings versus 2183 in a similar period of the previous mandate.",
+      "quote": "EU lobby organisations held 5813 meetings since the beginning of the new Commission mandate in December 2024.",
+      "page": "untitled opening section, paragraph 4"
+    },
+    {
+      "claim": "At least a third of published meetings concern the EU climate agenda; the true number may be higher.",
+      "quote": "at least a third of all published meetings have subjects related to the EU’s climate agenda.",
+      "page": "untitled opening section, paragraph 5"
+    },
+    {
+      "claim": "Only three NGOs appear among the 20 organisations with the most Commission meetings; the top-20 is dominated by agriculture, automobiles, chemicals, big tech and finance.",
+      "quote": "the top 20 biggest players at the Commission only include three NGOs.",
+      "page": "untitled opening section, paragraph 8"
+    },
+    {
+      "claim": "Corporate stakeholders dominate meetings; the new Commission held 16% of all meetings with civil society representatives.",
+      "quote": "this new Commission held a mere 16% of all meetings with civil society representatives.",
+      "page": "untitled opening section, paragraph 9"
+    },
+    {
+      "claim": "The Commission President published three meetings in the new mandate, only one with a self-labelled NGO (the World Economic Forum).",
+      "quote": "Since the beginning of her new mandate, she’s published a mere three.",
+      "page": "untitled opening section, paragraph 10"
+    },
+    {
+      "claim": "Authors argue (recommendation, not finding) that the Commission should ensure a balanced approach to stakeholder meetings.",
+      "quote": "It should do the right thing and ensure a balanced approach in meeting all stakeholders.",
+      "page": "untitled opening section, paragraph 12"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Access is not impact: meetings do not show legislative influence.",
+      "stated_by_authors": true,
+      "quote": "access does not equal legislative impact.",
+      "page": "untitled opening section, paragraph 12"
+    },
+    {
+      "point": "Climate-related meeting count is a lower bound because topic categories were abolished.",
+      "stated_by_authors": true,
+      "quote": "the actual number could be much higher.",
+      "page": "untitled opening section, paragraph 6"
+    },
+    {
+      "point": "Earlier analyses covered only part of meetings under the previous, narrower disclosure rules.",
+      "stated_by_authors": true,
+      "quote": "our previous analyses could only cover the tip of the iceberg",
+      "page": "untitled opening section, paragraph 4"
+    },
+    {
+      "point": "Short news post: no classification rules for NGO versus corporate, no sector coding, no fossil fuel classification, no tables or figures. It does not cover COP, UNFCCC delegations, badges or conflict-of-interest rules. The fossil fuel link is only a pointer to an earlier TI EU report ('Pipelines of power').",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Integrity Watch EU (integritywatch.eu, Commission meetings tool)",
+      "what_it_is": "TI EU platform with daily-updated data on EU lobbying meetings and financial interests; source of all counts here.",
+      "page": "untitled opening section, paragraph 1"
+    },
+    {
+      "name": "TI EU report on fossil fuel lobbying (linked file: embargoed_TI-EU_pipelines-of-power_report.pdf)",
+      "what_it_is": "Earlier report on fossil fuel lobbying in the EU, linked in the text but not read here; candidate source for method on identifying fossil fuel lobbyists.",
+      "page": "untitled opening section, paragraph 4"
+    },
+    {
+      "name": "TI EU open letter to von der Leyen (linked PDF)",
+      "what_it_is": "Advocacy letter linked as the 'long-standing advocacy' on extending meeting disclosure.",
+      "page": "untitled opening section, paragraph 2"
+    }
+  ],
+  "relevant_to": ["method", "context"],
+  "pages_read": "Whole page read (13 paragraphs in the untitled opening section; remaining headings are related-content titles with no text). Linked documents were not opened.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

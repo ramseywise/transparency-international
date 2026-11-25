@@ -1,0 +1,165 @@
+{
+  "id": "doi-10-1017-s0007123422000242",
+  "citation": {
+    "authors": [],
+    "year": 2022,
+    "title": "(Inequality in) Interest Group Involvement and the Legitimacy of Policy Making",
+    "venue_or_publisher": "British Journal of Political Science (Cambridge University Press); online 08 July 2022. The journal name is inferred from the DOI prefix 0007123, not stated in the passages read.",
+    "doi_or_url": "https://doi.org/10.1017/S0007123422000242",
+    "type": "journal article",
+    "peer_reviewed": "unknown"
+  },
+  "question": "How does unequal participation of different types of interest groups (business groups versus cause groups) in policy consultation affect citizens' perceptions of the legitimacy of decision-making? Do policy outcomes that favour the under-represented group type change this?",
+  "data": "Survey experiments with conjoint vignettes, fielded through Qualtrics. Germany N = 3,130 (27 Sep-10 Oct 2019). UK N = 3,048 (1 Aug-30 Sep 2019). US N = 3,179 (31 Jul-30 Sep 2019). Quota samples representative by region, gender and age. Two experiments per respondent (hybrid-car tax cuts; sugar regulation for beverages). Replication data: Harvard Dataverse, doi 10.7910/DVN/GPGWKJ. No data on real delegates or hearings were used.",
+  "method": "Respondents read vignettes about a parliamentary hearing (closed consultation) in which two interest group types are invited in equal or unequal numbers. The vignettes randomly vary group numbers, policy outcome, each group's policy attainment and public opinion. The authors estimate average marginal component effects with OLS. Standard errors are clustered by respondent, with issue fixed effects. The outcome is procedural legitimacy: the mean of three five-point items (fair; views of all relevant actors taken into account; democratic), Cronbach's alpha 0.85. Moderators are perceived economic resources and perceived representativeness of each group type. Respondents who failed attention or manipulation checks were excluded. The study does not classify real organisations. Group types in the vignettes are 'business groups' and 'cause groups'. The chunks read do not contain the vignette wording or a classification rule.",
+  "definitions": [
+    {
+      "term": "interest groups",
+      "definition": "Organisations that claim to represent parts of society but lack electoral legitimacy. Forms listed: business associations, firms, NGOs, trade unions, think tanks.",
+      "quote": "They come in many forms, including business associations, firms, non-governmental organizations (NGOs), trade unions and think tanks",
+      "page": "Introduction (section 'Information')"
+    },
+    {
+      "term": "interest groups (democratic role)",
+      "definition": "'Self-appointed representatives'. They claim to represent but lack election.",
+      "quote": "interest groups, who claim to represent certain parts of society but lack the democratic legitimacy bestowed through elections",
+      "page": "Introduction (section 'Information')"
+    },
+    {
+      "term": "closed consultation strategy",
+      "definition": "A selected set of stakeholders is invited because of expertise or because they represent affected constituents.",
+      "quote": "In closed strategies, a selected set of stakeholders are invited who are considered to have expertise and/or represent the constituents affected by the issue",
+      "page": "Data and Methods"
+    },
+    {
+      "term": "open consultation strategy",
+      "definition": "Everyone who wishes to can participate.",
+      "quote": "In open strategies, everyone who wishes to can participate",
+      "page": "Data and Methods"
+    },
+    {
+      "term": "cause groups (as public interest groups)",
+      "definition": "Public interest groups form an important part of the cause group category. Business groups include business associations and firms. The chunks give no formal definition of either type.",
+      "quote": "the policy positions of public interest groups, which form an important part of the cause group category",
+      "page": "How Perceptions of Interest Groups May Drive Assessments of Unequal Representation"
+    },
+    {
+      "term": "procedural legitimacy",
+      "definition": "Perceived fairness, inclusiveness and democratic quality of the decision-making process, measured by three survey items.",
+      "quote": "The process that led to the policy decision was fair",
+      "page": "Data and Methods"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "interest group involvement / access",
+      "indicator": "The number of each group type invited to give oral evidence in a parliamentary hearing (equal versus unequal numbers), manipulated in vignettes. Hearings are a closed consultation where parliamentary committees decide access.",
+      "quote": "access to give evidence is determined by parliamentary committees",
+      "page": "Data and Methods"
+    },
+    {
+      "concept": "bias in interest representation",
+      "indicator": "Prominence of business interests is often the key component of how bias is understood and measured in the literature.",
+      "quote": "the prominence of business interests is therefore often a key component in how bias in interest representation is understood and measured",
+      "page": "How Perceptions of Interest Groups May Drive Assessments of Unequal Representation"
+    },
+    {
+      "concept": "procedural legitimacy",
+      "indicator": "Mean of three five-point agreement items (fair; views of all relevant actors taken into account; democratic).",
+      "quote": "we construct a summary measure by taking the mean of the items",
+      "page": "Data and Methods"
+    },
+    {
+      "concept": "perceived group power and representativeness",
+      "indicator": "Respondents' relative ratings of business versus cause groups on economic resources and on representativeness of society.",
+      "quote": "Positive (negative) values on the scales of relative perceived differences in economic resources and representativeness of society indicate higher levels for business groups (cause groups)",
+      "page": "Figure 4 notes"
+    },
+    {
+      "concept": "outcome favourability / policy attainment",
+      "indicator": "Whether the decision matches the respondent's own policy position, or the position of each group type.",
+      "quote": "outcome favourability is measured by this scale or its inverse to indicate respondents' agreement with the decision",
+      "page": "Independent and Control Variables"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Citizens see processes as more legitimate when interest groups are involved.",
+      "quote": "they see policy-making processes – illustrated with the example of parliamentary hearings – as more legitimate if interest groups are involved",
+      "page": "Conclusion"
+    },
+    {
+      "claim": "Unequal involvement lowers perceived legitimacy, but over-representation of cause groups is less penalised than over-representation of business groups.",
+      "quote": "Citizens tend to be less concerned when cause groups are numerically over-represented or attain their policy preferences at the expense of business interests.",
+      "page": "Conclusion"
+    },
+    {
+      "claim": "The difference is explained largely by beliefs that business groups have more economic resources and are less representative of society.",
+      "quote": "these views can be explained by citizens' beliefs that business groups have more economic resources than cause groups and are simultaneously less representative of society",
+      "page": "Conclusion"
+    },
+    {
+      "claim": "Favourable policy outcomes do not compensate for unequal involvement. Outcomes favouring the over-represented business groups worsen legitimacy.",
+      "quote": "losses in procedural legitimacy due to the unequal involvement of different types of groups cannot be compensated for by adopting decisions that reflect the preferences of under-represented groups",
+      "page": "Conclusion"
+    },
+    {
+      "claim": "Effects were similar in Germany, the US and the UK.",
+      "quote": "inequality in group involvement affects citizen perceptions in the three countries similarly",
+      "page": "Conclusion"
+    },
+    {
+      "claim": "Prior literature: public interest groups' positions align with majority opinion more often than business associations and firms.",
+      "quote": "more frequently aligned with the majority of citizens than the positions of business associations and firms",
+      "page": "How Perceptions of Interest Groups May Drive Assessments of Unequal Representation"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Only parliamentary oral hearings (a closed consultation) were studied, and the effects of other forms of involvement are not tested. The authors say implications for overall legitimacy depend on how prominent oral consultations are among the channels of influence.",
+      "stated_by_authors": true,
+      "quote": "the prominence of oral consultations in parliament among the various channels through which interest groups may influence policy",
+      "page": "Conclusion"
+    },
+    {
+      "point": "The authors say overall legitimacy effects vary by context, depending on perceptions of group resources and representativeness and on the actual degree of inequality in involvement.",
+      "stated_by_authors": true,
+      "quote": "the degree of inequality in interest group involvement in policy-making processes",
+      "page": "Conclusion"
+    },
+    {
+      "point": "The source is a vignette-based perception study. It does not count or classify real delegates, organisations or sectors, and it has no UNFCCC or climate-negotiation content. It has little direct use for Q1 or Q2 beyond context on how business is distinguished from citizen or cause groups.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Only 30 of 70 passages (3,974 of 9,784 words) were read. The vignette text, the SI and the full group-type definitions were not seen.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Replication data, Harvard Dataverse",
+      "what_it_is": "Survey experiment replication data, doi 10.7910/DVN/GPGWKJ",
+      "page": "Data Availability Statement"
+    },
+    {
+      "name": "Online Supplementary Information",
+      "what_it_is": "Appendices with vignette figure S1, robustness tables S2, S4, S9 and S10, at https://doi.org/10.1017/S0007123422000242",
+      "page": "Supplementary Material"
+    },
+    {
+      "name": "Cited literature on group typologies and bias",
+      "what_it_is": "Baroni et al. 2014; Flöthe and Rasmussen 2019; Hanegraaff and Berkhout 2019; Rasmussen and Carroll 2014; Schlozman and Tierney 1986; Lowery et al. 2015. These may hold classification schemes for interest groups.",
+      "page": "Introduction and Conclusion"
+    }
+  ],
+  "relevant_to": [
+    "context",
+    "method"
+  ],
+  "pages_read": "selected by code: 30 of 70 passages, 3974 of 9784 words, from sections listed in the passages; chosen for definitions, indicators, method, findings and limitations; the rest was not read. No additional searches of the full text were made."
+}

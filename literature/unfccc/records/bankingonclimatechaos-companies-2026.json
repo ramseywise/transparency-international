@@ -1,0 +1,99 @@
+{
+  "id": "bankingonclimatechaos-companies-2026",
+  "citation": {
+    "authors": [],
+    "year": 2026,
+    "title": "BOCC FOSSIL FUEL EXPANSION COMPANIES",
+    "venue_or_publisher": "bankingonclimatechaos.org (BOCC); Google Docs export",
+    "doi_or_url": "https://www.bankingonclimatechaos.org/companies-2026",
+    "type": "company list (reference list), web document saved as PDF",
+    "peer_reviewed": "no"
+  },
+  "question": "Not stated as a question. The document lists the companies that make up the 'expansion companies' financed by the top 65 banks analysed in BOCC 2026.",
+  "data": "A single list of 859 companies (stated on p.1), two columns (Issuer Name, Reason For Inclusion), pp.1-36. It is built from three exit lists: Global Oil & Gas Exit List 2025 (incl. archived 2024, 2023), Global Coal Exit List 2025 (incl. archived 2024, 2023), Global Metallurgical Coal Exit List 2026 (incl. archived 2025). The document gives no country, parent company, identifier or ticker column. Document metadata date: 2026-06-09.",
+  "method": "Companies with expansion plans on the three exit lists form the 'company universe' for the BOCC league table; full inclusion criteria are in a separate 'methodology FAQ' which is not part of this document. The 'Reason For Inclusion' column gives one or more activity tags per company. An asterisk marks companies dropped from the latest exit list but kept for earlier financing years.",
+  "definitions": [
+    {
+      "term": "expansion companies (company universe)",
+      "definition": "Companies with expansion plans listed on the Global Oil & Gas, Global Coal and Global Metallurgical Coal exit lists; included in the company universe for the BOCC league table.",
+      "quote": "Companies with expansion plans listed on the above exit lists are included in the company universe for this league table.",
+      "page": 1
+    },
+    {
+      "term": "asterisk (*) on a company name",
+      "definition": "Company no longer on the most recent exit list, included only for financing years before removal.",
+      "quote": "companies with an \"*\" are companies no longer listed on the most recent year's exit list",
+      "page": 1
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "fossil-fuel company (expansion)",
+      "indicator": "Listed on one of three exit lists as having expansion plans; reason tags in the list include oil & gas upstream, oil & gas midstream, oil & gas power, coal mining, coal infrastructure, coal power.",
+      "quote": "Companies with expansion plans listed on the above exit lists are included in the company universe for this league table.",
+      "page": 1
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The list holds 859 expansion companies financed by the top 65 banks analysed in BOCC 2026.",
+      "quote": "Below is a list of the 859 companies which comprise the expansion companies financed by the top 65 banks analyzed in BOCC 2026.",
+      "page": 1
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The inclusion criteria are not given here; the document refers to a separate 'methodology FAQ'.",
+      "stated_by_authors": true,
+      "quote": "See methodology FAQ for full inclusion criteria description.",
+      "page": 1
+    },
+    {
+      "point": "Names are issuer names as financed by banks, so subsidiaries, finance vehicles and parents appear as separate entries (e.g. TotalEnergies SE, TotalEnergies Capital SA); matching to delegate organisation names needs care. Observation from the list, not stated by the source.",
+      "stated_by_authors": false,
+      "quote": "TotalEnergies Capital SA oil & gas upstream",
+      "page": 32
+    },
+    {
+      "point": "The list includes firms outside the fossil core (banks, utilities, steel, ports), tagged by activity; it is a list of financed expansion companies, not of all fossil fuel companies. Observation from the list, not stated by the source.",
+      "stated_by_authors": false,
+      "quote": "Banco BTG Pactual SA* oil & gas upstream",
+      "page": 3
+    },
+    {
+      "point": "Read from the extracted text of the PDF only; page images could not be rendered in this environment. No instructions addressed to a reader or AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "BOCC Fossil Fuel Expansion Companies 2026 (this list)",
+      "what_it_is": "859 companies, columns Issuer Name and Reason For Inclusion; table runs continuously pp.1-36, alphabetical from '1876 Resources LLC' (p.1) to 'Zoucheng Urban Assets Holding Group Co Ltd' (p.36). Some long entries wrap across lines (e.g. pp.2, 14).",
+      "page": "1-36"
+    },
+    {
+      "name": "Global Oil & Gas Exit List 2025 (incl. archived 2024, 2023)",
+      "what_it_is": "Named as an underlying source list; not reproduced here.",
+      "page": 1
+    },
+    {
+      "name": "Global Coal Exit List 2025 (incl. archived 2024, 2023)",
+      "what_it_is": "Named as an underlying source list; not reproduced here.",
+      "page": 1
+    },
+    {
+      "name": "Global Metallurgical Coal Exit List 2026 (incl. archived 2025)",
+      "what_it_is": "Named as an underlying source list; not reproduced here.",
+      "page": 1
+    }
+  ],
+  "relevant_to": [
+    "method",
+    "context"
+  ],
+  "pages_read": "1-36 (all, from extracted text; scanned for headings, notes and any instructions; company rows not transcribed)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

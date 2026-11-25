@@ -1,0 +1,244 @@
+{
+  "id": "doi-10-1002-wcc-816",
+  "citation": {
+    "authors": [
+      "Harro van Asselt",
+      "Fergus Green"
+    ],
+    "year": 2023,
+    "title": "COP26 and the dynamics of anti-fossil fuel norms",
+    "venue_or_publisher": "WIREs Climate Change, 14(3), e816 (Focus Article); Wiley Periodicals LLC",
+    "doi_or_url": "https://doi.org/10.1002/wcc.816",
+    "type": "journal article (focus article, conceptual/qualitative; no new data)",
+    "peer_reviewed": "yes"
+  },
+  "question": "Whether and how anti-fossil fuel norms (AFFNs) are being adopted and institutionalized at and around COP26 (Glasgow, 2021), and what contestation between proponents and opponents reveals about the content of the norms, the role of the fossil fuel industry, fit with the wider normative context, and North-South cooperation.",
+  "data": "No new data. Data sharing statement: no new data were created or analyzed. Draws on the text of the Glasgow Climate Pact and its drafts, voluntary initiatives launched at COP26 (statements, alliances), NGO and agency reports (IEA, Production Gap Report) and press reports, interpreted with norm theory. Period: COP26 (November 2021) with some later events to mid-2022.",
+  "method": "Qualitative, interpretive case discussion using norm theory (norm adoption, institutionalization, implementation, contestation). Compares the draft and final Glasgow cover decision text, and reads signatories of voluntary initiatives as evidence of which states adopt which norms and, by omission, who resists. No counting, coding or classification procedure for actors.",
+  "definitions": [
+    {
+      "term": "norm",
+      "definition": "A standard of appropriate behavior expected of an agent with a particular identity (Finnemore & Sikkink 1998).",
+      "quote": "A norm is a standard of appropriate behavior that is expected of an agent with a particular identity",
+      "page": 2
+    },
+    {
+      "term": "global moral norm",
+      "definition": "A norm that pertains to states and globally significant non-state actors and originates from concerted attempts to change appropriate behavior in line with a conception of justice or ethics.",
+      "quote": "A global moral norm is a norm that pertains to states and globally significant non-state actors",
+      "page": 2
+    },
+    {
+      "term": "anti-fossil fuel norms (AFFNs)",
+      "definition": "A category of global moral norms conveying the (in)appropriateness of certain behavior regarding fossil fuels, typically a moral injunction against specific actions, processes or products.",
+      "quote": "Anti-fossil fuel norms are a category of global moral norms that convey the (in)appropriateness of certain behavior with regard to fossil fuels.",
+      "page": 2
+    },
+    {
+      "term": "norm implementation",
+      "definition": "The steps needed to introduce a new international norm's precepts into formal legal and policy mechanisms within a state or organization, and their subsequent use (Betts & Orchard 2014).",
+      "quote": "the steps necessary to introduce the new international norm's precepts into formal legal and policy mechanisms",
+      "page": 2
+    },
+    {
+      "term": "norm proponents (norm entrepreneurs, norm champions)",
+      "definition": "Actors, often linked in transnational advocacy networks, who push for adoption of a norm. Typically NGOs and other civil society groups, also international organizations, state leaders and subnational governments.",
+      "quote": "Campaigners from civil society, as well as international organizations, state leaders, and subnational governments, have been advocating new standards of behavior concerning fossil fuels",
+      "page": 2
+    },
+    {
+      "term": "associate member (Beyond Oil and Gas Alliance)",
+      "definition": "Members who sign the BOGA declaration and have taken one or more significant concrete steps that reduce oil and gas production.",
+      "quote": "Associate members must sign up to the BOGA declaration and have taken one or more “significant concrete steps that contribute to the reduction of oil and gas production.”",
+      "page": 9
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "adoption/institutionalization of an AFFN by states",
+      "indicator": "Inclusion of fossil fuel language in a consensus COP decision (Glasgow Climate Pact para 36) and signature of voluntary statements/alliances (Global Coal to Clean Power Transition Statement, BOGA, Statement on International Public Support for the Clean Energy Transition).",
+      "quote": "we can discern from the signatories to the above-mentioned voluntary initiatives which states are willing to adopt which norms.",
+      "page": 6
+    },
+    {
+      "concept": "sources of resistance to AFFNs",
+      "indicator": "Non-signature of voluntary initiatives (resistance inferred by omission); weakening of draft text during negotiation.",
+      "quote": "This also (by omission) provides clues as to the sources of resistance to AFFNs, which we explore in the next section.",
+      "page": 6
+    },
+    {
+      "concept": "fossil fuel industry's reduced legitimacy / social license",
+      "indicator": "UK government denying fossil fuel majors a formal role at COP26 (reported in a Guardian article).",
+      "quote": "the UK government felt compelled to deny the fossil fuel majors any formal role at the COP",
+      "page": 5
+    },
+    {
+      "concept": "industry as a legitimate decarbonization actor",
+      "indicator": "Insertion of the qualifier 'unabated' in the coal power text, read as legitimizing the fossil fuel industry's role.",
+      "quote": "it has wider significance insofar as it legitimizes the fossil fuel industry's role as an agent of decarbonization",
+      "page": 4
+    },
+    {
+      "concept": "states or businesses with fossil fuel interests that nonetheless back AFFNs",
+      "indicator": "Climate rationale coinciding with a non-climate rationale, e.g. fiscal benefits from subsidy reform, or divestment where fossil investments are less profitable.",
+      "quote": "Some states and businesses with more significant fossil fuel interests have embraced AFFNs where the climate mitigation rationale has coincided with a non-climate rationale",
+      "page": 3
+    },
+    {
+      "concept": "fossil fuel producing/dependent country interests",
+      "indicator": "Insistence that the Convention is not an energy treaty; silence of parties on fossil fuels in UNFCCC texts.",
+      "quote": "the insistence of fossil fuel-producing nations that “the Convention is not an energy treaty”",
+      "page": 3
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The Glasgow Climate Pact is the first COP decision to name fossil fuels (coal power, fossil fuel subsidies) as requiring action; two AFFNs were adopted by consensus.",
+      "quote": "it marks the first time that a COP decision mentions fossil fuels and coal as part of the climate problem and as issues that require action from parties.",
+      "page": 4
+    },
+    {
+      "claim": "The draft text was weakened in the last days: 'inefficient' added to subsidies, focus narrowed to 'unabated coal power', 'phase-out' changed to 'phasedown', and just transition language added. Oil and gas were not mentioned.",
+      "quote": "The end result is a watered-down version of the original proposal.",
+      "page": 4
+    },
+    {
+      "claim": "The 1992 Convention does not name fossil fuels as a cause of climate change, and the Paris Agreement does not mention them at all.",
+      "quote": "The Paris Agreement does not mention fossil fuels at all",
+      "page": 3
+    },
+    {
+      "claim": "Beyond the negotiations, new informal initiatives emerged on coal, oil and gas production and international public finance, though with limited participation. Initiatives named: Global Coal to Clean Power Transition Statement, South Africa Just Energy Transition Partnership, Beyond Oil and Gas Alliance, Statement on International Public Support for the Clean Energy Transition.",
+      "quote": "existing AFFNs (on coal-fired power and fossil fuel subsidies) are becoming increasingly institutionalized, whereas new AFFNs (on oil and gas production and international fossil fuel finance) are emerging.",
+      "page": 6
+    },
+    {
+      "claim": "Support is wider for norms on coal than on oil and gas, on coal power than coal mining, and on restricting new projects than phasing out existing ones.",
+      "quote": "there is clearly wider support for AFFNs pertaining to coal (compared with oil and gas) and coal-fired power generation (compared with coal mining)",
+      "page": 7
+    },
+    {
+      "claim": "Early adopters of oil and gas phase-out (BOGA core members) are states that produce relatively little and face few costs; California joined as associate member.",
+      "quote": "Though the current core members produce relatively little oil and gas, it is consistent with the theory of the diffusion of AFFNs that early adopters will be those states that identify as climate leaders",
+      "page": 6
+    },
+    {
+      "claim": "The Cambo oilfield campaign (project by Siccar Point Energy, then part-owned by Shell) politicized new fossil fuel development around COP26; Shell withdrew weeks after COP26.",
+      "quote": "The campaign succeeded in politicizing new fossil fuel developments in the United Kingdom, and ensuring that COP26 took place against a prominent backdrop of controversy over fossil fuel production.",
+      "page": 5
+    },
+    {
+      "claim": "Debates at COP26 are a site of contestation over the fossil fuel industry's social license; the fossil fuel industry and fossil fuel-dependent states contest norm content discursively where they cannot block policy outright.",
+      "quote": "the fossil fuel industry and fossil fuel-dependent states engage in discursive contestation over the content of norms in contexts where they are unable to block policy or discussion outright",
+      "page": 7
+    },
+    {
+      "claim": "Calls to phase out fossil fuels reflect partly a moral condemnation of the industry and its influence on climate politics, and a view that the industry should be disarmed as a political force.",
+      "quote": "the fossil fuel industry needs to be disarmed as a political force.",
+      "page": 7
+    },
+    {
+      "claim": "AFFNs that fit with liberal environmentalism (efficiency, free markets, stranded asset risk) gain more traction than those that fit less well, such as an oil and gas moratorium.",
+      "quote": "This may again help explain why some of AFFNs gain more traction compared to others that may be perceived to be less compatible with the norms of liberal environmentalism",
+      "page": 7
+    },
+    {
+      "claim": "Focusing on specific fossil fuels creates North-South tension (India questioned singling out coal) as well as new avenues for cooperation (South Africa JETP).",
+      "quote": "commentators in India, which is highly coal-dependent, questioned the political logic of singling out coal at COP26",
+      "page": 8
+    },
+    {
+      "claim": "Implementation lags: in the years before COP26, fossil fuel subsidies, new coal plants in China and private financial institutions' fossil fuel financing all rose. After Russia's invasion of Ukraine, some G7 members backtracked on overseas fossil finance.",
+      "quote": "the years preceding COP26 saw dramatic increases in fossil fuel subsidies globally (OECD, 2022), in new coal plants in China",
+      "page": 8
+    },
+    {
+      "claim": "Signatories to the public finance statement included major economies and financial institutions such as the European Investment Bank and several national development banks.",
+      "quote": "the statement was signed by financial institutions such as the European Investment Bank and several national development banks.",
+      "page": 6
+    }
+  ],
+  "recommendations": [
+    {
+      "claim": "Future research should examine whether international institutionalization of AFFNs changes domestic behavior in key countries (norm implementation).",
+      "quote": "Future research could usefully build on this paper by considering the extent to which the international institutionalization of AFFNs is influencing domestic behavior change in key countries",
+      "page": 8
+    },
+    {
+      "claim": "The authors argue that norm theory is indispensable for understanding COP26 energy and climate politics, alongside international political economy approaches.",
+      "quote": "an understanding of norm dynamics is indispensable to making sense of the key developments in international energy and climate politics at COP26.",
+      "page": 8
+    },
+    {
+      "claim": "The authors argue that the norm that reduction obligations should be accompanied by developed-country leadership and support remains relevant for fossil fuel phase-out.",
+      "quote": "the expectation that the developed countries should take the lead in phasing out fossil fuels and provide support to developing countries remains relevant",
+      "page": 8
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Scope restricted to norm institutionalization at COP26; implementation only briefly examined.",
+      "stated_by_authors": true,
+      "quote": "Our focus here is primarily on norm institutionalization, given that COPs are primarily venues of international institutionalization, although we will also briefly examine norm implementation.",
+      "page": 3
+    },
+    {
+      "point": "Evidence is drawn from campaigns by proponents and voluntary initiatives, which do not require consensus of all parties; this illuminates sources of new norms, not the full picture of resistance.",
+      "stated_by_authors": true,
+      "quote": "Because we have focused here on campaigns by proponents and on voluntary institutional initiatives on the side of COP26",
+      "page": 6
+    },
+    {
+      "point": "Norm evolution is contingent on security, economic and political conditions, which shifted after COP26 (Ukraine war).",
+      "stated_by_authors": true,
+      "quote": "the evolution of AFFNs is partly contingent on the conduciveness of security, economic, and political dynamics",
+      "page": 8
+    },
+    {
+      "point": "No new data and no systematic coding of actors; the study gives no counts of delegates, observers or business or fossil-linked participants and offers no method for classifying organisations. Resistance is inferred from non-signature, not measured. Not stated by the authors as a limitation.",
+      "stated_by_authors": false,
+      "quote": "Data sharing is not applicable to this article as no new data were created or analyzed in this study.",
+      "page": 9
+    },
+    {
+      "point": "Fossil fuel industry presence at COP26 (badges, lobbyists, delegations) is not analysed; the only industry-access evidence is a single press-reported UK government decision on formal roles. Not stated by the authors as a limitation.",
+      "stated_by_authors": false,
+      "quote": "the UK government felt compelled to deny the fossil fuel majors any formal role at the COP",
+      "page": 5
+    },
+    {
+      "point": "No instructions addressed to a reader or an AI were found in the PDF. Note: the PDF text layer needed extraction with PyMuPDF because the Read tool could not render pages (pdftoppm missing); text was read via a temporary extraction in the scratchpad.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Reference list",
+      "what_it_is": "About 75 references (pp. 9-12), including Green 2018a (Anti-fossil fuel norms), Blondeel et al. 2019 and 2020, Skovgaard & van Asselt 2019, Levy & Egan 2003, Newell & Paterson 1998, Brulle 2020, Oreskes & Conway 2010 (corporate influence on climate politics), Production Gap Report 2021, IEA Net Zero 2050.",
+      "page": 9
+    },
+    {
+      "name": "Banking on climate chaos: Fossil fuel finance report 2021 (RAN et al.)",
+      "what_it_is": "Cited for increases in fossil fuel financing by private financial institutions; potentially relevant to the Tier 3 financial indicator.",
+      "page": 8
+    },
+    {
+      "name": "Global Registry on Fossil Fuels (Carbon Tracker Initiative and Global Energy Monitor)",
+      "what_it_is": "Registry launched at COP26 (named in text and footnote 4); not analysed here.",
+      "page": 5
+    },
+    {
+      "name": "Statement signatory lists (ukcop26.org; beyondoilandgasalliance.com)",
+      "what_it_is": "Online lists of country and institution signatories used by the authors to read state positions; cited in footnotes 5 to 8, accessed July 10, 2022.",
+      "page": 9
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "1-12 (all 12 pages, text extracted with PyMuPDF because PDF page rendering was unavailable)",
+  "read_on": "2026-11-24",
+  "read_by": "2026-11-24 general-purpose agent (sonnet) following source-reader instructions; PDF text extracted (pdftoppm missing), page numbers are PDF page indices"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "gogel-home",
+  "citation": {
+    "authors": [],
+    "year": 2026,
+    "title": "Home (Global Oil & Gas Exit List, GOGEL)",
+    "venue_or_publisher": "gogel.org",
+    "doi_or_url": "https://gogel.org/",
+    "type": "web page (landing page)",
+    "peer_reviewed": "no"
+  },
+  "question": null,
+  "data": "The page says GOGEL 2026 covers roughly 1,900 companies in the upstream, midstream and power sectors. The page gives no period, data sources or per-company fields beyond the highlights below.",
+  "method": null,
+  "definitions": [],
+  "proxies": [],
+  "findings": [
+    {
+      "claim": "GOGEL 2026 covers about 1,900 companies in the upstream, midstream and power sectors, and the page says these account for 95% of global oil and gas production (the page's own statement; no evidence or method given on this page).",
+      "quote": "GOGEL 2026 covers roughly 1,900 companies active in the upstream, midstream and power sectors. Companies listed on GOGEL account for 95% of global oil and gas production.",
+      "page": "A New Tool to Move Finance Out of Fossil Fuels"
+    },
+    {
+      "claim": "GOGEL 2026 was published on 10 November 2026.",
+      "quote": "GOGEL 2026 was published on November 10 2026.",
+      "page": "News"
+    },
+    {
+      "claim": "The list carries company-level data on six unconventional production categories and on upstream and midstream expansion plans.",
+      "quote": "GOGEL provides exceptional company level data for 6 unconventional production categories including fracking, tar sands, Arctic, ultra deepwater, extra heavy oil and coalbed methane.",
+      "page": "Data Highlight: Unconventionals"
+    },
+    {
+      "claim": "A version with common financial identifiers is available on request, and access requires registration.",
+      "quote": "We provide a special version of GOGEL with common financial identifiers on request.",
+      "page": "For investors"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Landing page only (371 words). It does not describe how companies are identified or included, what counts as an oil and gas company, the data fields, or how to download the list. Its coverage and 95% figures are the publisher's own claims, not checked here.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The list itself and the methodology are behind other pages (about-data, publications, registration at gogel.org/user/register), which are not part of this text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Two embedded charts have no data in the page text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "No authors, publication date or modification date are given on the page, so the citation has no named author.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Global Oil & Gas Exit List (GOGEL) 2026",
+      "what_it_is": "A public database of roughly 1,900 companies in the upstream, midstream and power sectors, described on the page as covering 95% of global oil and gas production. Access is through registration.",
+      "page": "A New Tool to Move Finance Out of Fossil Fuels"
+    }
+  ],
+  "relevant_to": ["Q2", "context"],
+  "pages_read": "Landing page only: the whole extracted text (12 paragraphs, 371 words, 5 internal links, 2 charts with no data in the text). It is a landing page, not a report or methodology.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

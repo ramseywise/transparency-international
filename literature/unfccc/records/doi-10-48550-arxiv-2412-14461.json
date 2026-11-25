@@ -1,0 +1,267 @@
+{
+ "id": "doi-10-48550-arxiv-2412-14461",
+ "citation": {
+  "authors": [
+   "Cheng, Xiang",
+   "Mayya, Raveesh",
+   "Sedoc, João"
+  ],
+  "year": 2024,
+  "title": "To Err Is Human; To Annotate, SILICON? Toward Robust Reproducibility in LLM Annotation",
+  "venue_or_publisher": "arXiv:2412.14461v4 [cs.CL], 12 May 2026 (updated 2 April 2026)",
+  "doi_or_url": "https://doi.org/10.48550/arxiv.2412.14461",
+  "type": "preprint",
+  "peer_reviewed": "no"
+ },
+ "question": "How can researchers achieve and evaluate 'robust reproducibility' in LLM-based text annotation, i.e. reproduce annotation results when the original model is retired? First step: decompose and reduce measurement error from four sources (guidelines, human baselines, prompts, models).",
+ "data": "Nine annotation tasks from seven management-research cases (DAO business proposals, product review attributes, customer-service dialog intent and breakdown, product-description connectedness, language toxicity, criticism stance of tweets, sentiment). Human baselines of 109 to 200 items per task from three research assistants; the last three cases reuse guidelines and baselines from published papers. 12 LLMs (7 in the main analysis, 5 more in Appendix F). Plus Monte Carlo simulation (1,000 replicates).",
+ "method": "Analytical framework: annotation setup = (guidelines G, human baseline H, meta-prompt P, model M); error is compared by changing one component at a time and measuring Cohen's kappa between LLM and human reference. SILICON workflow: (1) iteratively refined guidelines (annotators label, discuss disagreements, relabel until an agreement threshold is met on fresh samples); (2) expert baselines vs crowd baselines by inter-annotator agreement; (3) prompt variants (base, persona, chain-of-thought; system vs user role); (4) multi-model comparison. Then a regression-based test (logistic, item-clustered errors) for whether open-weight models differ from the best closed model, and confidence-based routing of low-confidence items to a three-model majority vote.",
+ "definitions": [
+  {
+   "term": "robust reproducibility",
+   "definition": "The ability to reproduce annotation results when the original LLM becomes unavailable.",
+   "quote": "we define robust reproducibility in the LLM annotation context as the ability to reproduce annotation results when the original model becomes unavailable.",
+   "page": 2
+  },
+  {
+   "term": "measurement error (four sources)",
+   "definition": "Error split into guideline-induced, baseline-induced, prompt-induced and model-induced parts.",
+   "quote": "an analytical framework that decomposes measurement error into four sources",
+   "page": 3
+  },
+  {
+   "term": "measurement error (formal)",
+   "definition": "Shortfall of true agreement (LLM vs unobserved ground truth) from perfect agreement.",
+   "quote": "we define measurement error as the shortfall from perfect agreement",
+   "page": 9
+  },
+  {
+   "term": "reference agreement vs true agreement",
+   "definition": "True agreement = how often the LLM matches the unobserved truth; reference agreement = how often it matches the human reference labels.",
+   "quote": "the reference agreement measures how often the LLM matches the human reference",
+   "page": 9
+  },
+  {
+   "term": "co-labeling covariance",
+   "definition": "Extra LLM-human agreement because both make the same mistakes on the same items (ambiguous items, unclear guidelines); inflates observed agreement without improving accuracy.",
+   "quote": "reference agreement R can improve either because the LLM gets closer to the truth, or because it starts making the same mistakes as the human reference.",
+   "page": 9
+  },
+  {
+   "term": "prescriptive vs descriptive annotation",
+   "definition": "Descriptive approaches capture diverse perspectives; prescriptive approaches enforce one consistent interpretation. The authors say neither is inherently superior but adopt the prescriptive approach, which they call particularly valuable in management research (same page).",
+   "quote": "Researchers have addressed this inherent subjectivity by choosing between descriptive approaches that capture diverse perspectives or prescriptive approaches that enforce consistent interpretation",
+   "page": 6
+  },
+  {
+   "term": "annotation expert (as used here)",
+   "definition": "Not a subject-matter specialist: an annotator who took part in iterative guideline development and shows high inter-annotator agreement. The 'crowd' comparison group were research assistants who only received the finished guidelines.",
+   "quote": "through its iterative guideline development process",
+   "page": 13
+  },
+  {
+   "term": "Cohen's kappa agreement thresholds",
+   "definition": "Authors adopt kappa >= 0.5 as a conservative target, above the usual 'moderate agreement' threshold of 0.4.",
+   "quote": "We adopt a conservative target of κ ≥0.5, above the standard “moderate agreement” threshold of 0.4",
+   "page": 13
+  }
+ ],
+ "proxies": [
+  {
+   "concept": "quality of LLM annotation (accuracy proxy)",
+   "indicator": "Cohen's kappa between LLM labels and a human reference (majority vote of three annotators); weighted kappa for multi-label tasks. True accuracy is not observable.",
+   "quote": "the ground truth labels are unobservable. In practice, we evaluate LLM output by comparing it against human reference labels, which are themselves imperfect.",
+   "page": 8
+  },
+  {
+   "concept": "reliability of the human reference",
+   "indicator": "Mean pairwise Cohen's kappa among three annotators (inter-annotator agreement), compared between expert and crowd procedures.",
+   "quote": "the mean Cohen’s κ among expert annotators is 0.61 (indicating substantial agreement), whereas crowd workers achieve only 0.23",
+   "page": 21
+  },
+  {
+   "concept": "item-level model confidence",
+   "indicator": "First-Second Distance (FSD) between the top two label probabilities; items below a threshold are sent to auxiliary models.",
+   "quote": "Items with FSD below a threshold (τ) are sent to auxiliary models for majority voting",
+   "page": 16
+  },
+  {
+   "concept": "shared LLM-human error (co-labeling covariance)",
+   "indicator": "Estimated on items where all three expert annotators agree unanimously, taken as near-perfect ground truth.",
+   "quote": "We address this by estimating J(c) on items where all three expert annotators unanimously agree, so the majority-vote label is a near-perfect ground-truth proxy",
+   "page": 23
+  },
+  {
+   "concept": "no difference between models",
+   "indicator": "95% confidence interval of the log-odds coefficient includes zero in an item-level accuracy regression; stated as failure to reject no difference, not as proof of equivalence.",
+   "quote": "When an interval includes zero, we interpret this as insufficient evidence of a difference (i.e., we fail to reject the null of no difference).",
+   "page": 15
+  }
+ ],
+ "findings": [
+  {
+   "claim": "Iteratively refined guidelines gave higher LLM-human kappa than one-shot guidelines in all six tasks where the authors built guidelines (gain 0.1 to 0.5; largest for dialog tasks).",
+   "quote": "The improvement ranges from 0.1 to 0.5 Kappa points, with the largest gains observed in dialog intent classification and breakdown analysis tasks",
+   "page": 20
+  },
+  {
+   "claim": "Annotators who helped develop the guidelines agreed with each other more than annotators who only received them, in all six tasks.",
+   "quote": "The annotation experts consistently achieve higher consensus",
+   "page": 21
+  },
+  {
+   "claim": "Where LLM-human agreement is high enough to be useful (kappa >= 0.5 on both), LLMs usually align more closely with experts than with crowd workers; in the dialog intent task LLMs aligned more with crowd labels, consistent with shared errors.",
+   "quote": "when LLM-human agreement is high enough to be practically useful, it usually aligns more closely with experts than with crowd workers.",
+   "page": 23
+  },
+  {
+   "claim": "Estimated shared-error term was small (|J| <= 0.01) for the best model on four of six tasks and larger for the two multi-label tasks.",
+   "quote": "across all six tasks the best-performing model exhibits |J| ≤0.01 for four tasks, and the two multi-label exceptions",
+   "page": 23
+  },
+  {
+   "claim": "System-role placement of guidelines gave the best results for every model, but the difference from user-role placement was not statistically significant; persona vs chain-of-thought vs base prompts varied by model.",
+   "quote": "our regression-based statistical analysis does not provide sufficient evidence to reject the null hypothesis of performance equivalence between system and user role configurations.",
+   "page": 24
+  },
+  {
+   "claim": "No single model was best across tasks; performance leadership varied by task.",
+   "quote": "We find no universally superior model, as performance leadership varies substantially across annotation contexts (Table 2).",
+   "page": 24
+  },
+  {
+   "claim": "LLM agreement with experts depends on task structure: high for binary tasks, variable for single-label multi-class tasks, low for multi-label tasks (kappa about 0.2 to 0.4).",
+   "quote": "reliability is highly task- and model-dependent, thereby necessitating validation on the focal task.",
+   "page": 26
+  },
+  {
+   "claim": "Authors conclude LLMs should not be treated as universal replacements for human annotation; multi-label tasks are better left to humans or hybrid designs.",
+   "quote": "Together, our findings caution against viewing LLMs as universal replacements for human annotation.",
+   "page": 26
+  },
+  {
+   "claim": "In simulation, a noisier human reference (error 0.15 vs 0.02) with typical models gave much larger bias in a downstream regression and worse selection of the best model configuration.",
+   "quote": "Panel C shows that selection accuracy improves dramatically from 79.7% to 98.1%",
+   "page": 28
+  },
+  {
+   "claim": "For every task whose best model is closed, at least one open-weight model showed no statistically detectable difference.",
+   "quote": "every task whose best-performing model is closed has at least one open-weight alternative with no statistically detectable performance difference.",
+   "page": 4
+  },
+  {
+   "claim": "Adding auxiliary models helps in some tasks and hurts in others; the routing threshold should be calibrated on a validation sample.",
+   "quote": "researchers should empirically calibrate the threshold rather than defaulting to majority vote on all items.",
+   "page": 31
+  },
+  {
+   "claim": "Authors report that a sample of 100 to 200 documents is enough to assess annotation quality (a claim of the authors, shown through their own cases).",
+   "quote": "samples of 100 to 200 documents to assess annotation quality, a scale that fits within typical pilot project budgets",
+   "page": 33
+  },
+  {
+   "claim": "Guideline development raised annotator agreement over several rounds (e.g. dialog intent mean kappa from 0.128 to 0.61); pre-existing guidelines often gave unreliable human baselines.",
+   "quote": "pre-existing guidelines often fail to produce reliable human baselines due to inconsistent interpretations",
+   "page": 47
+  }
+ ],
+ "limitations": [
+  {
+   "point": "Prescriptive approach assumes high inter-annotator agreement is desirable; not suited where human variation in interpretation is itself of interest.",
+   "stated_by_authors": true,
+   "quote": "The workflow assumes that high inter-annotator agreement is a desirable standard, which may not apply in research contexts that intentionally seek to capture variability",
+   "page": 33
+  },
+  {
+   "point": "Individual annotator characteristics are not accounted for.",
+   "stated_by_authors": true,
+   "quote": "we do not account for the individual-level characteristics of annotators.",
+   "page": 33
+  },
+  {
+   "point": "Three of the seven cases use guidelines and baselines from published papers, so original agreement and baseline provenance could not be checked; treated as supplementary.",
+   "stated_by_authors": true,
+   "quote": "which limits our ability to verify the original IAA or baseline provenance.",
+   "page": 17
+  },
+  {
+   "point": "Possible training-data memorisation: a large jump for one model on a public dataset is suspected to be memorisation, not better reasoning.",
+   "stated_by_authors": true,
+   "quote": "We suspect this gain may be attributed to memorization rather than genuine advances in inference capability",
+   "page": 53
+  },
+  {
+   "point": "Key results rest on assumptions: symmetric label noise in the human reference, and that the change in shared-error term is small or negative; the shared-error term is not directly observed except on the unanimous subset, which is easier and may bias the estimate.",
+   "stated_by_authors": true,
+   "quote": "it may slightly overestimate full-sample true accuracy, biasing J downward",
+   "page": 51
+  },
+  {
+   "point": "The 'expert' baselines are undergraduate research assistants trained on the guidelines, not subject-matter experts, and the same people who developed the guidelines; agreement with them shows consistency with the authors' own interpretation, not external validity. Only the comparison group differs, and it is also made of research assistants. Sample sizes are small (109 to 200 items) and the 'no difference' open-weight result comes from non-significant confidence intervals in those small samples.",
+   "stated_by_authors": false,
+   "quote": null,
+   "page": null
+  },
+  {
+   "point": "Tasks are management-research text classification (reviews, dialogs, tweets, proposals); none concerns organisations, lobbying or climate. No tasks use documents or web pages about organisations.",
+   "stated_by_authors": false,
+   "quote": null,
+   "page": null
+  },
+  {
+   "point": "Preprint, not peer reviewed; version 4 dated May 2026; toolkit promised but not yet released; online appendix with prompts is on an external link not read.",
+   "stated_by_authors": true,
+   "quote": "An open-source toolkit will be released upon publication.",
+   "page": 1
+  },
+  {
+   "point": "No instructions addressed to a reader or an AI were found in the text.",
+   "stated_by_authors": false,
+   "quote": null,
+   "page": null
+  }
+ ],
+ "reference_lists_or_datasets": [
+  {
+   "name": "Lee et al. (2023) Common Law Annotations",
+   "what_it_is": "Protocol for iterative guideline refinement among annotators, which SILICON adopts.",
+   "page": 13
+  },
+  {
+   "name": "Pangakis, Wolken, Fasching (2023) Automated Annotation with Generative AI Requires Validation",
+   "what_it_is": "Cited as work that validates LLM outputs against human labels and proposes model selection procedures.",
+   "page": 8
+  },
+  {
+   "name": "Gilardi, Alizadeh, Kubli (2023) ChatGPT Outperforms Crowd Workers for Text-Annotation Tasks",
+   "what_it_is": "Cited as showing zero-shot ChatGPT beat crowd workers on political-science classification.",
+   "page": 7
+  },
+  {
+   "name": "Calderon, Reichart, Dror (2025) Alternative Annotator Test",
+   "what_it_is": "Cited as a statistical procedure to justify replacing human annotators with an LLM.",
+   "page": 8
+  },
+  {
+   "name": "Tornberg (2024); Carlson and Burbano (2025); de Kok (2025)",
+   "what_it_is": "Cited implementation guidelines or frameworks for LLM annotation in social science and management research.",
+   "page": 8
+  },
+  {
+   "name": "Landis and Koch (1977)",
+   "what_it_is": "Source for the kappa agreement thresholds the authors use.",
+   "page": 13
+  },
+  {
+   "name": "Public datasets reused: Saha et al. 2023 (toxicity), Peng et al. 2022 (criticism stance), Sen et al. 2020 (sentiment), Liu et al. 2019 (review attributes)",
+   "what_it_is": "Annotated datasets used with their original guidelines and human baselines.",
+   "page": 19
+  }
+ ],
+ "relevant_to": [
+  "method"
+ ],
+ "pages_read": "1-33 (main text and limitations), 34 (start of references), 40 (A.2), 44-59 (appendices D-G). Not read: reference list pages 35-39 and appendix pages 41-43 (regression and routing details). Figures are not readable from the text.",
+ "read_on": "2026-11-24",
+ "read_by": "source-reader, sonnet"
+}

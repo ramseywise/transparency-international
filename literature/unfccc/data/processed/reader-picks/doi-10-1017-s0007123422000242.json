@@ -1,0 +1,331 @@
+{
+ "id": "doi-10-1017-s0007123422000242",
+ "title": "(Inequality in) Interest Group Involvement and the Legitimacy of Policy Making",
+ "kind": "html",
+ "url": "https://doi.org/10.1017/S0007123422000242",
+ "coverage": {
+  "mode": "selected",
+  "passages_given": 30,
+  "passages_total": 70,
+  "words_given": 3974,
+  "words_total": 9784,
+  "pages_given": [],
+  "pages_total": null,
+  "note": "selected by code: 30 of 70 passages, 3974 of 9784 words, from sections listed in the passages; chosen for definitions, indicators, method, findings and limitations; the rest was not read"
+ },
+ "passages": [
+  {
+   "chunk": 0,
+   "loc": "paras 1-25",
+   "section": "Article contents",
+   "why": [
+    "findings",
+    "lists_and_datasets",
+    "method",
+    "opening"
+   ],
+   "text": "Abstract (Unequal) Interest Group Participation and Legitimacy Perceptions Data and Methods Results Conclusion Data Availability Statement Author Contributions Financial Support Competing Interests Footnotes References Published online by Cambridge University Press: 08 July 2022 Article Figures Supplementary materials Metrics Abstract (Unequal) Interest Group Participation and Legitimacy Perceptions Data and Methods Results Conclusion Data Availability Statement Author Contributions Financial Support Competing Interests"
+  },
+  {
+   "chunk": 2,
+   "loc": "para 28",
+   "section": "Abstract",
+   "why": [
+    "findings",
+    "limitations",
+    "opening"
+   ],
+   "text": "While interest groups are consulted at different stages of policy making to provide expertise and legitimacy, their influence is often criticized as being undemocratic. Yet, we know little about how their participation in policy making affects citizen perceptions of the legitimacy of governance. Based on survey experiments conducted in the UK, the United States and Germany, our study shows that unequal participation between group types reduces the benefits of interest group consultation for citizens' perceived legitimacy of decision-making processes. Importantly, these legitimacy losses cannot be compensated for by policies that represent the opinion of the under-represented groups and are even greater when policy decisions favour the over-represented groups. Moreover, we show that citizen perceptions of how economically powerful and representative of society different types of interest groups are act as important drivers of legitimacy evaluations. Our results provide important new theoretical and empirical insights into when and why interest groups affect democratic legitimacy."
+  },
+  {
+   "chunk": 3,
+   "loc": "para 29",
+   "section": "Information",
+   "why": [
+    "limitations",
+    "opening"
+   ],
+   "text": "In democratic systems, the key actors who shape policy are elected as representatives of the people. However, interest groups, who claim to represent certain parts of society but lack the democratic legitimacy bestowed through elections, also participate in it. They come in many forms, including business associations, firms, non-governmental organizations (NGOs), trade unions and think tanks (see, for example, Baroni et al. Reference Baroni2014). The fact that interest groups act as ‘self-appointed representatives’ (Montanaro Reference Montanaro2012) makes their role in democratic governance ambiguous. On the one hand, they offer valuable technical expertise and can bring attention to constituency interests that might otherwise be overlooked (see, for example, Bouwen Reference Bouwen2004; Flöthe Reference Flöthe2020; Klüver Reference Klüver2013b). On the other hand, the interest group system is frequently argued to be biased and dominated by representatives of powerful business or smaller sections of society, rather than representing the public good or the majority of citizens (Flöthe and Rasmussen Reference Flöthe and Rasmussen2019; Schattschneider Reference Schattschneider1948). This creates the risk that interest groups affect democratic representation by pulling policy not only towards, but also away from, the popular will (see, for example, Becher and Stegmueller Reference Becher and Stegmueller2021; Giger and Klüver Reference Giger and Klüver2016; Lax and Phillips Reference Lax and Phillips2012; Rasmussen, Binderkrantz and Klüver Reference Rasmussen, Binderkrantz and Klüver2021)."
+  },
+  {
+   "chunk": 11,
+   "loc": "para 37",
+   "section": "(Unequal) Interest Group Participation and Legitimacy Perceptions",
+   "why": [
+    "definitions",
+    "limitations"
+   ],
+   "text": "The ways in which interest groups participate in policy-making processes is likely to play an important role in how legitimate citizens perceive these processes too. After all, the rationale for involving interest groups is precisely their assumed potential to improve the policy-making process and its outcomes. In the European Union (EU), for example, they are often seen as a means to help citizens exert influence on decision making and legitimize policies (Héritier Reference Héritier1999). However, in national contexts too, group involvement in policy making is commonly assumed to boost legitimacy. The literature on public consultations has even argued that, in some respects, interest groups can serve as a surrogate for the public in the policy process (Lundberg and Hysing Reference Lundberg and Hysing2016). According to Mikuli and Kuca (Reference Mikuli and Kuca2016: 5): ‘the role of interest groups is sometimes perceived as being even more important for the concept of a participatory democracy than that of individual citizens’. We therefore hypothesize:"
+  },
+  {
+   "chunk": 19,
+   "loc": "para 47",
+   "section": "How Perceptions of Interest Groups May Drive Assessments of Unequal Representation",
+   "why": [
+    "definitions",
+    "findings",
+    "limitations",
+    "proxies"
+   ],
+   "text": "This concern is supported by empirical evidence. First, the policy positions of public interest groups, which form an important part of the cause group category, have been shown to be more frequently aligned with the majority of citizens than the positions of business associations and firms (Flöthe and Rasmussen Reference Flöthe and Rasmussen2019). Secondly, Hertel-Fernandez, Mildenberger and Stokes (Reference Hertel-Fernandez, Mildenberger and Stokes2019) found that more contact with mass-based interest groups relative to corporate groups is associated with more accurate perceptions of public opinion among congressional staffers. Not surprisingly, the prominence of business interests is therefore often a key component in how bias in interest representation is understood and measured (see, for example, Hanegraaff and Berkhout Reference Hanegraaff and Berkhout2019; Rasmussen and Carroll Reference Rasmussen and Carroll2014; Schattschneider Reference Schattschneider1960; Schlozman and Tierney Reference Schlozman and Tierney1986)."
+  },
+  {
+   "chunk": 24,
+   "loc": "para 53",
+   "section": "How Policy Attainment of Interest Groups May Moderate Assessments of Unequal Representation",
+   "why": [
+    "limitations"
+   ],
+   "text": "As explained earlier, we expect that citizens generally consider policy-making processes with unequal participation of the key types of interest groups on an issue as less legitimate than those with equal participation. However, citizens might judge the fairness of the process based on not only the presence of different interest groups, but also the policy decision resulting from the process. A key reason for consulting interest groups in policy making is not only to send a signal that those with a stake in a policy issue have been heard, but also to ensure that the particular needs and concerns of those whom they represent are taken into account and reflected in the policy outcome (see, for example, Mikuli and Kuca Reference Mikuli and Kuca2016; Saurugger Reference Saurugger2008). Primarily hearing one type of group might therefore not be regarded as particularly problematic in cases where the different types of groups hold the same opinion on an issue, as the views of the less-well-represented group type may still be ‘coincidentally’ represented if the dominating groups persuade policy makers to follow their position."
+  },
+  {
+   "chunk": 27,
+   "loc": "para 57",
+   "section": "Data and Methods",
+   "why": [
+    "definitions",
+    "findings",
+    "limitations",
+    "method"
+   ],
+   "text": "We test our hypotheses through survey experiments with conjoint designs, where respondents are shown vignettes with descriptions of policy-making scenarios. The survey was fielded through Qualtrics in Germany (N = 3,130; 27 September–10 October 2019), the UK (N = 3,048; 1 August–30 September 2019) and the United States (N = 3,179; 31 July–30 September 2019). The quota samples are representative of the populations in terms of region, gender and age. We conducted two separate experiments with different policy issues to increase our confidence that the findings are generalizable to different policy areas. Each respondent participated in both experiments in a randomized order.Footnote 4 In each experiment, respondents are presented with a short text explaining a realistic scenario where a new policy has been debated and either passed or rejected by parliament. The text identifies two different types of interest groups as the main stakeholders on the policy issue and states whether they were invited to participate in a consultation process and whether or not they were invited in equal numbers. Before seeing the vignettes, respondents are provided with background information about the consultation process (see Figure S1 in the Online Supplementary Information [SI])."
+  },
+  {
+   "chunk": 28,
+   "loc": "para 58",
+   "section": "Data and Methods",
+   "why": [
+    "findings",
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "Governments or parliaments can consult stakeholders in different ways in the policy-making process (Bishop and Davis Reference Bishop and Davis2002; Fraussen, Albareda and Braun Reference Fraussen, Albareda and Braun2020; Helboe Pedersen, Halpin and Rasmussen Reference Helboe Pedersen, Halpin and Rasmussen2015). In open strategies, everyone who wishes to can participate, for instance, in online consultations where all interested stakeholders can submit written input (see, for example, Rasmussen and Carroll Reference Rasmussen and Carroll2014). In closed strategies, a selected set of stakeholders are invited who are considered to have expertise and/or represent the constituents affected by the issue, for example, as members of government advisory committees (see, for example, Gornitzka and Sverdrup Reference Gornitzka and Sverdrup2008). We focus on closed strategies, more specifically, on procedures through which parliaments can ask specific stakeholders to provide oral evidence (Eising and Spohr Reference Eising and Spohr2017; Helboe Pedersen, Halpin and Rasmussen Reference Helboe Pedersen, Halpin and Rasmussen2015; Leyden Reference Leyden1995; Mikuli and Kuca Reference Mikuli and Kuca2016). These procedures play a key role for legislators to obtain technical information about potential new policies, as well as information about public preferences and the views of affected parties. As Eising and Spohr (Reference Eising and Spohr2017: 319) explain in the German context: ‘committee hearings are the most established and visible form of obtaining such policy advice and are also meant to enhance the legitimacy and transparency of decisions’. Such procedures are also regarded as more effective for stakeholders to influence policy makers than open procedures for submitting written evidence (Beswick and Elstub Reference Beswick and Elstub2019). This focus allows us to study how citizens evaluate interest group involvement in political processes when policy makers have control over whom they include and exclude from the consultation."
+  },
+  {
+   "chunk": 29,
+   "loc": "para 59",
+   "section": "Data and Methods",
+   "why": [
+    "findings",
+    "lists_and_datasets",
+    "method",
+    "proxies"
+   ],
+   "text": "In the United States, we refer to congressional hearings, which are used in both the House of Representatives and Senate, where most bill discussions start with a hearing. In the UK, we refer to oral evidence provided to Parliament, and in Germany, we refer to public hearings in the Bundestag, which are generally used on important pieces of legislation. The legal basis for the hearing is typically laid out in the rules of procedures of the relevant parliament (Mikuli and Kuca Reference Mikuli and Kuca2016). While they are adapted to their political systems, they share commonalities critical to our design (Beswick and Elstub Reference Beswick and Elstub2019; Eising and Spohr Reference Eising and Spohr2017; Loewenberg Reference Loewenberg, Power and Rae2006; Mikuli and Kuca Reference Mikuli and Kuca2016). First, they represent closed forms of consultation, where access to give evidence is determined by parliamentary committees. Secondly, they can all be used in the lawmaking process to collect evidence from interest groups, as well as other stakeholders, such as (academic) experts and citizens."
+  },
+  {
+   "chunk": 30,
+   "loc": "para 60",
+   "section": "Data and Methods",
+   "why": [
+    "findings",
+    "lists_and_datasets",
+    "method",
+    "proxies"
+   ],
+   "text": "The hearings regularly get coverage in the media, meaning that it is reasonable to expect that citizens have heard of them. In some cases, the focus is precisely the selection of actors who are invited to give evidence. For example, the UK Parliament's Transport Committee was criticized in The Guardian for inviting an interest group whose ‘membership is “tiny” as a proportion of drivers’ and that denies human-created global warming to give oral evidence on road safety.Footnote 5 The Washington Post published a critique of a hearing by the US Senate Committee on Commerce, Science and Transportation on college athletes' right to monetize their ‘name, image and likeness’, stating ‘[t]his is a witness list outrageously stacked with pro-NCAA [National Collegiate Athletic Association] advocates’, with the athletes themselves being left out.Footnote 6"
+  },
+  {
+   "chunk": 34,
+   "loc": "para 64",
+   "section": "Data and Methods",
+   "why": [
+    "limitations",
+    "method",
+    "proxies"
+   ],
+   "text": "In conjoint experiments, the values of each attribute – in this study, the inclusion of representatives belonging to the two group types, the outcome, groups' policy attainment and public opinion (see Figure 1) – are randomly assigned to respondents. In our design, the assignment of values of each attribute is independent from the values of the other attributes, allowing us to treat each attribute as a random variable. A key advantage of this approach over simpler factorial designs where fewer dimensions are varied is that we can identify the effect of one attribute averaged over the values of the other attributes: this is the average marginal component effect (AMCE). For example, the policy positions of the group types are assigned independently from the public majority opinion to ensure that citizens do not rely on assumptions about public opinion and how the group types align with it, since they might otherwise assume public opinion to be more likely to correspond to the positions of cause groups. In addition, we can compare the strength of the AMCEs of the different attributes. Finally, we can estimate the effects of one attribute at specific values of another, that is, conditional AMCEs, to test our hypotheses positing interaction effects (see Hainmueller, Hopkins and Yamamoto Reference Hainmueller, Hopkins and Yamamoto2014)."
+  },
+  {
+   "chunk": 36,
+   "loc": "para 67",
+   "section": "Data and Methods",
+   "why": [
+    "method",
+    "proxies"
+   ],
+   "text": "Our outcome of interest is individuals' perception of the procedural legitimacy of the decisions (see Clayton, O'Brien and Piscopo Reference Clayton, O'Brien and Piscopo2019), measured by respondents' agreement with three statements: ‘The process that led to the policy decision was fair’; ‘When making the decision, policy makers took the views of all relevant actors into account’; and ‘The process that led to the decision was democratic.’ Agreement with each statement is measured on a five-point scale, and we construct a summary measure by taking the mean of the items.Footnote 8"
+  },
+  {
+   "chunk": 38,
+   "loc": "para 69",
+   "section": "Independent and Control Variables",
+   "why": [
+    "proxies"
+   ],
+   "text": "We also include the other manipulated attributes of the scenarios in the models, including the degree of public support for the policy indicated in the vignette. Citizens might prefer decisions aligned with the public majority if they expect collective choices to be superior to choices made by individuals or out of a social desire to conform (Arnesen et al. Reference Arnesen2019). We also include a measure of outcome favourability, that is, whether the policy decision is aligned with the respondent's policy preference (see De Fine Licht et al. Reference De Fine Licht2014), which is an important factor in individuals' perceptions of legitimacy (Arnesen et al. Reference Arnesen2019; Esaiasson et al. Reference Esaiasson2019). We asked respondents before the experiment what their position is on giving tax cuts to companies that produce hybrid cars and on state regulation of the amount of sugar that beverages may contain, measuring their views on five-point scales from ‘strongly oppose’ to ‘strongly in favour’. Depending on the decision outcome that was randomly assigned to the respondent in the respective vignette, outcome favourability is measured by this scale or its inverse to indicate respondents' agreement with the decision."
+  },
+  {
+   "chunk": 39,
+   "loc": "para 70",
+   "section": "Results",
+   "why": [
+    "definitions",
+    "findings",
+    "method"
+   ],
+   "text": "We merge the data from both experiments into a stacked format so that the unit of analysis is the respondent-policy issue (two observations per respondent). We cluster the standard errors by respondent and include issue fixed effects.Footnote 9 We start by investigating whether the composition of the set of interest groups that are invited to provide oral evidence and the extent to which the policy outcome aligns with the preferences of the different group types influence how legitimate individuals perceive the decision-making process. Figure 2 shows the coefficients of unequal representation and policy attainment from Model 1 in Table 1. Equal representation and policy attainment of both group types are the respective reference categories."
+  },
+  {
+   "chunk": 40,
+   "loc": "paras 71-74",
+   "section": "Results",
+   "why": [
+    "findings"
+   ],
+   "text": "Effects of unequal representation and policy attainment on legitimacy. Notes: Coefficients with 95 per cent confidence intervals from Model 1 of Table 1. Ordinary least squares regressions of legitimacy on representation and moderating variables Notes: Models include fixed effects for experimental group (1: hybrid cars, beverages; 2: beverages, hybrid cars). Standard errors are clustered by respondent. Abbreviations: econ. diff. = economic resources; repres. = representativeness; diff. = difference. * p < 0.05; ** p < 0.01; *** p < 0.001."
+  },
+  {
+   "chunk": 44,
+   "loc": "paras 78-79",
+   "section": "Sources of Differential Legitimacy of Cause and Business Groups",
+   "why": [
+    "findings",
+    "proxies"
+   ],
+   "text": "Perceived resources and representativeness of interest group types. To find out whether these differences explain why citizens tend to perceive the over-representation of business groups as less legitimate than a dominance of cause groups, we interact numerical representation with the indicators of perceived group characteristics (see Models 2 and 3 of Table 1). Figure 4 shows the predicted levels of legitimacy for the different scenarios of interest group involvement along the scales of relative perceived economic resources (on the left) and representativeness (on the right)."
+  },
+  {
+   "chunk": 49,
+   "loc": "paras 86-88",
+   "section": "Moderating Effects of Policy Attainment",
+   "why": [
+    "definitions",
+    "findings",
+    "limitations"
+   ],
+   "text": "Effects on legitimacy by numerical representation moderated by policy attainment. Notes: The figure shows selected coefficients (with 95 per cent CIs) of unequal representation (equal representation as reference category) at selected values of policy attainment from estimated interactions of these variables. The full sets of estimates are reported in Table 1, Model 4. We find that the effect of an over-representation of cause groups versus equal representation on legitimacy perceptions does not differ statistically significantly between the three policy attainment scenarios, even though the coefficients change slightly in line with our expectation. This means that the negative effect of more cause groups being present is neither mitigated (Hypothesis 4b) when the preferences of the numerically under-represented business groups are implemented in policy nor aggravated (Hypothesis 4a) in cases where the outcome is in line with the dominating cause groups."
+  },
+  {
+   "chunk": 51,
+   "loc": "para 90",
+   "section": "Conclusion",
+   "why": [
+    "findings",
+    "limitations"
+   ],
+   "text": "One of the key rationales for including interest groups in policy making is the assumption that it increases the legitimacy of the process (see, for example, Bouwen Reference Bouwen2004; Flöthe Reference Flöthe2020; Klüver Reference Klüver2013b). At the same time, there is a long-standing concern that interest representation is biased in favour of narrow and powerful interests, posing a risk to the representation of wider society (Lowery et al. Reference Lowery2015; Schattschneider Reference Schattschneider1960). A substantial amount of empirical research focuses on whether such bias exists and what explains it (see, for example, Hanegraaff and Berkhout Reference Hanegraaff and Berkhout2019; Rasmussen and Carroll Reference Rasmussen and Carroll2014; Schlozman and Tierney Reference Schlozman and Tierney1986). Yet, there have been few attempts to analyse citizens' views on these issues, specifically, when and why (unequal) interest group involvement affects their perceptions of the legitimacy of policy making."
+  },
+  {
+   "chunk": 53,
+   "loc": "para 92",
+   "section": "Conclusion",
+   "why": [
+    "findings",
+    "limitations"
+   ],
+   "text": "We used realistic scenarios of policy-making processes and policy issues to conduct experiments with large representative samples of the population in three countries. Our findings clearly show that citizens consider interest groups as important actors in the democratic system: they see policy-making processes – illustrated with the example of parliamentary hearings – as more legitimate if interest groups are involved. This suggests that citizens value the benefits that interest groups can provide to the process, including the expertise and voices of those affected by the policy, and are not necessarily sceptical of organized interests and their role in politics per se."
+  },
+  {
+   "chunk": 54,
+   "loc": "para 93",
+   "section": "Conclusion",
+   "why": [
+    "findings",
+    "limitations",
+    "proxies"
+   ],
+   "text": "However, in line with our expectations, we show that citizens care strongly about (in)equality in interest representation. They perceive policy-making processes as less legitimate if some key stakeholders are prioritized over others in consultations. At the same time, not all types of biases are equally problematic. Citizens tend to be less concerned when cause groups are numerically over-represented or attain their policy preferences at the expense of business interests. We show that, to a large degree, these views can be explained by citizens' beliefs that business groups have more economic resources than cause groups and are simultaneously less representative of society. Thus, citizens generally share the notion of the interest group literature that cause groups defend broader societal interests, while business groups speak for narrower constituencies (Flöthe and Rasmussen Reference Flöthe and Rasmussen2019)."
+  },
+  {
+   "chunk": 55,
+   "loc": "para 94",
+   "section": "Conclusion",
+   "why": [
+    "findings",
+    "limitations"
+   ],
+   "text": "At the same time, there is also considerable variation in how individual citizens rate the resources and representativeness of the two types of groups. Individuals who perceive their levels to be equal assessed the legitimacy of processes favouring either of the group types very similarly. Overall, these findings indicate that judgements of bias are primarily related to how citizens perceive the resources and representativeness of different groups, rather than group type per se. For some interest groups this might be good news, as it suggests that they should ultimately be able to shape how citizens judge their involvement in policy making if they manage to engage in image building and increase their representativeness in the eyes of citizens. At the same time, groups might use such framing strategies to not only boost their own image, but also weaken that of their opponents, for example, by questioning their representativeness or underlining their resource advantages."
+  },
+  {
+   "chunk": 56,
+   "loc": "para 95",
+   "section": "Conclusion",
+   "why": [
+    "findings",
+    "limitations"
+   ],
+   "text": "Finally, we show that losses in procedural legitimacy due to the unequal involvement of different types of groups cannot be compensated for by adopting decisions that reflect the preferences of under-represented groups. On the other hand, policy makers can actually exacerbate negative assessments of unequal representation by ignoring the views of excluded types of interests. If one group type has more opportunities to make its views heard – in this case, business groups – citizens' perceived legitimacy of the process further decreases if the decision reflects the views of that group only."
+  },
+  {
+   "chunk": 57,
+   "loc": "para 96",
+   "section": "Conclusion",
+   "why": [
+    "findings",
+    "limitations"
+   ],
+   "text": "The implications of this finding reach beyond the realm of interest groups and concern citizens' justice beliefs more generally. Clayton, O'Brien and Piscopo (Reference Clayton, O'Brien and Piscopo2019: 127) concluded that ‘[e]ven in cases in which all-male panels advance feminist policies, citizens report lower average levels of procedural fairness, institutional trust, and acquiescence’. Hayes and Hibbing (Reference Hayes and Hibbing2017) observe a similar pattern when black people are numerically under-represented in the process but the decision is in their favour. Our study provides concurring evidence from a different context, suggesting that citizens generally believe that denying a constituency their seat at the decision-making table cannot be remedied by outcomes that satisfy the group's demands. In other words, citizens value descriptive representation independently from substantive representation – also when it comes to interest groups. These findings suggests that decision makers should be cautious when considering whom to involve in the process, as inequalities might reduce citizens' respect for the process and, ultimately, their willingness to accept the decision. Given that the outcome of the process, which may not be clear a priori, can further decrease citizens' acceptance of it, designing the process in a way that is most likely to be considered legitimate by citizens from the start seems all the more crucial."
+  },
+  {
+   "chunk": 58,
+   "loc": "para 97",
+   "section": "Conclusion",
+   "why": [
+    "findings"
+   ],
+   "text": "Our main findings hold in three settings where different cultures and institutions shape the involvement of interest groups in policy making: Germany, the United States and the UK. By studying a process that exists in similar forms across the three countries – oral consultations in parliament – we are able to show that inequality in group involvement affects citizen perceptions in the three countries similarly. Yet, these similar effects might have different implications for the overall levels of public perceptions of the legitimacy of governance across contexts. This will depend on at least three factors, which can vary between contexts: (1) public perceptions of the economic resources and societal representativeness of different group types; (2) the degree of inequality in interest group involvement in policy-making processes; and (3) the prominence of oral consultations in parliament among the various channels through which interest groups may influence policy."
+  },
+  {
+   "chunk": 60,
+   "loc": "para 99",
+   "section": "Supplementary Material",
+   "why": [
+    "lists_and_datasets"
+   ],
+   "text": "Online appendices are available at: https://doi.org/10.1017/S0007123422000242"
+  },
+  {
+   "chunk": 61,
+   "loc": "para 100",
+   "section": "Data Availability Statement",
+   "why": [
+    "findings",
+    "method"
+   ],
+   "text": "Replication data for this article can be found in Harvard Dataverse at: https://doi.org/10.7910/DVN/GPGWKJ."
+  },
+  {
+   "chunk": 63,
+   "loc": "para 102",
+   "section": "Author Contributions",
+   "why": [
+    "proxies"
+   ],
+   "text": "The authors are listed alphabetically; they contributed in equal amounts to the study."
+  },
+  {
+   "chunk": 67,
+   "loc": "para 112",
+   "section": "Footnotes",
+   "why": [
+    "findings",
+    "limitations",
+    "method"
+   ],
+   "text": "8 The three items are presented to the respondents in a battery of questions alongside three items measuring substantive legitimacy, that is, legitimacy of the outcome, where items measuring the two types of legitimacy alternate. The scale reliability is high in both cases, with Cronbach's alpha = 0.85 for procedural legitimacy and 0.90 for substantive legitimacy. In the SI (Table S2, p. 6), we also show the results of an exploratory factor analysis, showing that the items load on two factors in line with our indices. If a respondent has a missing value on one item, the remaining items are used to calculate the scale value. As a robustness check, we also estimated Model 1 separately for each of the three components of the legitimacy scale, which yielded estimates in line with the results for the scale (see Table S9, p. 16)."
+  },
+  {
+   "chunk": 68,
+   "loc": "paras 113-114",
+   "section": "Footnotes",
+   "why": [
+    "definitions",
+    "findings",
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "9 We exclude respondents who failed an attention check or incorrectly answered more than half of the manipulation check questions, which asked about the key pieces of information in the vignettes. Analyses run on the full dataset in the SI (Table S4, pp. 10–11) find very similar effects to those presented here. 10 We estimated equivalent models that control for interaction terms between citizens' ideological position and group representation, as ideological views might be associated with perceptions of economic resources and the representativeness of groups. The moderating effects presented here remain statistically significant when including these controls (see Table S10 in the SI, pp. 17–18)."
+  },
+  {
+   "chunk": 70,
+   "loc": "paras 119-120",
+   "section": "References",
+   "why": [
+    "definitions",
+    "findings"
+   ],
+   "text": "Figure 4.Moderating effects of perceptions of group resources on effects of unequal representation on legitimacy perceptions.Notes: Positive (negative) values on the scales of relative perceived differences in economic resources and representativeness of society indicate higher levels for business groups (cause groups); 0 indicates equal levels. Predictions are based on Models 2 and 3 of Table 1. Figure 5.Effects on legitimacy by numerical representation moderated by policy attainment.Notes: The figure shows selected coefficients (with 95 per cent CIs) of unequal representation (equal representation as reference category) at selected values of policy attainment from estimated interactions of these variables. The full sets of estimates are reported in Table 1, Model 4."
+  }
+ ]
+}

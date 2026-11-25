@@ -1,0 +1,596 @@
+{
+ "id": "gupta-allan-2023-on-behalf-of-my-delegation",
+ "title": "“On Behalf of My Delegation…” | A survival guide for new and lonely climate change negotiators - Second Edition",
+ "kind": "pdf",
+ "url": null,
+ "coverage": {
+  "mode": "selected",
+  "passages_given": 54,
+  "passages_total": 412,
+  "words_given": 3997,
+  "words_total": 33965,
+  "pages_given": [
+   1,
+   2,
+   3,
+   4,
+   6,
+   7,
+   16,
+   17,
+   25,
+   31,
+   32,
+   40,
+   41,
+   43,
+   53,
+   56,
+   61,
+   65,
+   71,
+   74,
+   76,
+   79,
+   85,
+   94,
+   100,
+   102,
+   103,
+   105,
+   106,
+   107,
+   109,
+   112,
+   115,
+   121,
+   122,
+   124,
+   125,
+   126,
+   127,
+   129,
+   130,
+   131,
+   132,
+   137,
+   145
+  ],
+  "pages_total": 158,
+  "note": "selected by code: 54 of 412 passages, 3997 of 33965 words, from pages 1-4, 6-7, 16-17, 25, 31-32, 40-41, 43, 53, 56, 61, 65, 71, 74, 76, 79, 85, 94, 100, 102-103, 105-107, 109, 112, 115, 121-122, 124-127, 129-132, 137, 145 of 158; chosen for definitions, indicators, method, findings and limitations; the rest was not read"
+ },
+ "passages": [
+  {
+   "chunk": 0,
+   "loc": "p.1",
+   "section": null,
+   "why": [
+    "opening"
+   ],
+   "text": "On Behalf of My Delegation … A survival guide for new and lonely climate change negotiators SECOND EDITION Joyeeta Gupta and Jennifer Allan"
+  },
+  {
+   "chunk": 1,
+   "loc": "p.2",
+   "section": null,
+   "why": [
+    "opening"
+   ],
+   "text": "“On Behalf of My Delegation…” A survival guide for new and lonely climate change negotiators SECOND EDITION By Joyeeta Gupta and Jennifer Allan"
+  },
+  {
+   "chunk": 2,
+   "loc": "p.3",
+   "section": null,
+   "why": [
+    "lists_and_datasets",
+    "opening"
+   ],
+   "text": "© 2023 International Institute for Sustainable Development ISBN 978-1-894784-86-3 Published by the International Institute for Sustainable Development This publication is licensed under a Creative Commons AttributionNonCommercial-ShareAlike 4.0 International License. IISD Head Office 111 Lombard Avenue, Suite 325 Winnipeg, Manitoba, Canada R3B 0T4 Earth Negotiations Bulletin (ENB) is a balanced, timely, and independent reporting service on United Nations environment and development negotiations founded in 1992. The ENB team provides daily coverage at sustainable development negotiations and events around the world, documenting global efforts to tackle climate change, biodiversity loss, sustainable land use, safe chemicals management, deep sea mining, and other global challenges. We distribute our free daily reports and summaries at meeting venues as well as by email to our subscribers, increasing transparency, engagement, and accountability in these vital processes. With tens of thousands of subscribers—including government ministers and officials, UN delegates, NGOs, the business community, academics, and the media—and an unmatched team of environmental negotiation specialists, ENB is an essential actor in the world’s journey toward a more just, sustainable planet."
+  },
+  {
+   "chunk": 7,
+   "loc": "p.4",
+   "section": null,
+   "why": [
+    "method"
+   ],
+   "text": "Hence, this “Survival Guide” provides, on the one hand, a backpacker’s guide to the negotiating context and, on the other hand, sums up the key problems faced by negotiators and ways to deal with these problems. This combines descriptions of substance and procedure; simplicity with detail, theory with practical tips, ideas with material for further research and words with figures. It is a manual to assist the negotiators in general, and Southern negotiators in particular, in dealing with the negotiations."
+  },
+  {
+   "chunk": 12,
+   "loc": "p.6",
+   "section": null,
+   "why": [
+    "lists_and_datasets"
+   ],
+   "text": "Foreword I am delighted that IISD has decided to update this book, originally published in 2000. Its purpose then and now is to contribute to the onboarding of new climate change negotiators, especially from developing countries. There is seldom any capacity building available to them, and the responsibilities they assume are daunting even with due preparation, overwhelming without any induction."
+  },
+  {
+   "chunk": 18,
+   "loc": "p.7",
+   "section": null,
+   "why": [
+    "findings"
+   ],
+   "text": "There are some rays of hope. Alongside the mounting impacts of climate change, there is clear evidence that some of the energy solutions are beginning to flourish in industrialised as well as in developing countries. As this book goes to print, extraordinary technological transformations are happening faster than we had predicted, exponentially accelerating toward a number of positive tipping points that could combine into cascades of positive change."
+  },
+  {
+   "chunk": 41,
+   "loc": "p.16",
+   "section": null,
+   "why": [
+    "definitions",
+    "lists_and_datasets",
+    "proxies"
+   ],
+   "text": "List of Figures Figure 1. Impacts at different temperature levels.............................................................................. 6 Figure 2. Six top substantive categories of issues over time..................................................... 7 Figure 3. Limiting warming to 1.5°C is increasingly difficult without large-scale negative emissions reductions........................................................................................................................... 9 Figure 4. Multiple pathways to achieve (net-) zero emissions............................................... 10 Figure 5. Decreasing climate budget increases conflict and calls for justice.......... 10 Figure 6. The spectrum of approaches to responding to loss and damage.................12"
+  },
+  {
+   "chunk": 44,
+   "loc": "p.17",
+   "section": null,
+   "why": [
+    "lists_and_datasets",
+    "proxies"
+   ],
+   "text": "List of Tables Table 1. The decisions of the key COPs.....................................................................................................21 Table 2. The Paris Agreement.............................................................................................................................26 Table 3. The nomenclature of documents...............................................................................................46 Table 4. List of Parties and non-Parties as of September 2023...........................................52 Table 5. List of countries in the Annexes................................................................................................. 58 Table 6. Divisions within Annex I (40 + EC) countries...................................................................59 Table 7. G-77 members and non-G-77, non-Annex I countries...............................................66"
+  },
+  {
+   "chunk": 69,
+   "loc": "p.25",
+   "section": null,
+   "why": [
+    "method"
+   ],
+   "text": "Source: Andrews, 2022; Adapted from Gupta, 2014."
+  },
+  {
+   "chunk": 85,
+   "loc": "p.31",
+   "section": null,
+   "why": [
+    "method"
+   ],
+   "text": "Figure 7. Measures targeted at different parts of the climate system Climate process Measures Sustainable development, green economy, Address system System inclusive development, green society Production, distribution, consumption, trade, investment, demographic patterns Address drivers Drivers Address GHG Energy, transport, buildings, GHG sources sources industry, land use Address GHG concentrations Concentrations Enhance sinks through geo-engineering Minimize warming Minimize warming through Warming"
+  },
+  {
+   "chunk": 87,
+   "loc": "p.32",
+   "section": null,
+   "why": [
+    "limitations"
+   ],
+   "text": "THE NEGOTIATING CONTEXT 1.9 Tips and Tricks • Familiarise yourself with the reports of the IPCC and other scientific bodies to know the areas of scientific agreement and uncertainty. Read the policy-makers’ summary of the latest IPCC reports of Working Groups 1-3. • Separate the main from peripheral issues for you. Understand the links between mitigation, adaptation, loss and damage, and development."
+  },
+  {
+   "chunk": 88,
+   "loc": "p.32",
+   "section": null,
+   "why": [
+    "limitations",
+    "proxies"
+   ],
+   "text": "• Master the technical vocabulary related to climate change. • Familiarise yourself with the human and environmental impacts associated with different global temperature trajectories. Identify the key impacts already felt in your country. Identify the key mitigation trajectories that are relevant for your country. • Learn to navigate the UNFCCC website. • Do not underestimate the time needed to prepare for negotiations."
+  },
+  {
+   "chunk": 108,
+   "loc": "p.40",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "limitations"
+   ],
+   "text": "In terms of the Kyoto Protocol’s successes, several European countries and Japan largely met their specified reduction targets by 2012. However, the United States, a major global emitter, signed but never ratified the treaty, significantly weakening its potential impact. Canada, after initially ratifying it, later withdrew. The rich countries were unable to set an example in terms of phasing out fossil fuels. Global CO2 emissions have continued to increase, undermining the Protocol’s reach and impact (Almer & Winkler 2017)."
+  },
+  {
+   "chunk": 109,
+   "loc": "p.41",
+   "section": null,
+   "why": [
+    "method"
+   ],
+   "text": "Figure 10. The Kyoto Protocol2 Preamble Deﬁnitions (1) Methods (5) Substantive provisions Policies and QUELRC measures (3) (2) Joint fulﬁlment Joint implementation Communication (7) (4) (6) Review of information Implement existing Review of protocol obligations (9) (8) (10) Financial mechanism Multilateral consultative CDM (12) (11) process (16) Emission trading Non-compliance (17) (18) Procedural provisions COP/MOP Secretariat (13) (14) Subsidiary Other issues including entry into"
+  },
+  {
+   "chunk": 110,
+   "loc": "p.41",
+   "section": null,
+   "why": [
+    "limitations",
+    "method"
+   ],
+   "text": "Dispute settlement bodies (19) (15) force (20–28) Source: Authors. 2 Note: Quantified Emission Limitation and Reduction Commitment (QUELRC); Meeting of the Parties (MOP)."
+  },
+  {
+   "chunk": 117,
+   "loc": "p.43",
+   "section": null,
+   "why": [
+    "limitations",
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "• Implementation and compliance mechanism (Art. 15) Organisations • COP (Art. 16) • Secretariat (Art.17) • Subsidiary Body for Scientific and Technological Advice, Subsidiary Body for Implementation (Art. 18) • Other subsidiary bodies (Art. 19) Source: Authors. The Paris Agreement calls on Parties to submit NDCs, in which each country states what it is willing to do to mitigate and adapt to climate change. NDCs are to be updated or resubmitted every 5 years. Each NDC can last for 10 years. There is a legally binding commitment to submit and maintain an NDC in the NDC registry (a publicly available repository of all NDCs). However, the"
+  },
+  {
+   "chunk": 140,
+   "loc": "p.53",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "lists_and_datasets"
+   ],
+   "text": "• Mandated Events: There are many meetings, round tables, panels, workshops, and other formats established through the Paris Agreement and other COP or CMA decisions. These take place during intersessional meetings and the COPs. 3.5 The Formal and the Informal The formal sessions are governed by rules of procedure, are transparent, generally in all UN languages, and accessible for all Parties and accredited observers. Plenaries are now often webcast and available on demand. Contact groups, informal consultations, and other informal settings are in English and take place simultaneously with a number of other similar sessions. Observer access is not guaranteed and may be limited to a few people. However, these sessions are where many of the compromises are found and where decisions are prepared"
+  },
+  {
+   "chunk": 144,
+   "loc": "p.56",
+   "section": null,
+   "why": [
+    "findings",
+    "method"
+   ],
+   "text": "THE NEGOTIATING CONTEXT 3.6 Tips and Tricks • If you are alone in your delegation, you should focus on one or two critical issues for your country and choose the most appropriate plenary session. • Collaborate with other national delegates so that you have representation in different parallel sessions. • Seek ways of finding out what happened in the sessions you missed. The Earth Negotiations Bulletin reports are a good source. See https://enb.iisd. org or sign up to receive each report at https://enb.iisd.org/get-updates."
+  },
+  {
+   "chunk": 158,
+   "loc": "p.61",
+   "section": null,
+   "why": [
+    "definitions",
+    "limitations"
+   ],
+   "text": "4.4 Outstanding Issues in the Draft Rules of Procedure The voting arrangements remain unagreed. Theoretically, decisions can be adopted by consensus or by voting arrangements. Consensus calls for agreement from all Parties. Voting calls for an agreement from many Parties depending on the definition of the voting rules. Rule 42 talks about the voting procedures. As yet, there is no agreement on this rule, and it is not being applied."
+  },
+  {
+   "chunk": 169,
+   "loc": "p.65",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations"
+   ],
+   "text": "4.9 Tips and Tricks • Keep a copy of the Rules of Procedure handy, and if possible, memorise the key elements. • Speak through a single spokesperson when possible. • Learn to master the use of “Points of Order.” • One voiced objection to a consensus is, theoretically, enough to stop the consensus. Some countries have used this power in the negotiations. However, it is not wise to misuse the power of objection. Most countries are extremely diplomatic and cautious in exercising this right."
+  },
+  {
+   "chunk": 181,
+   "loc": "p.71",
+   "section": null,
+   "why": [
+    "method"
+   ],
+   "text": "At least one NGO provides detailed neutral reports of the daily negotiation process (see the Earth Negotiations Bulletin of the International Institute for Sustainable Development). Other environmental NGOs provide critical perspectives and analysis of the issues being covered in the negotiations (see the newsletter ECO, the Third World Network’s Updates, Carbon Brief, and Climate Change News). Many environmental NGOs write scientific and position papers to influence the negotiations."
+  },
+  {
+   "chunk": 185,
+   "loc": "p.74",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings"
+   ],
+   "text": "Coalitions in the Climate Change Regime 6.1 The Importance of Coalitions The climate change negotiations take place among 198 countries. It is impossible to negotiate with each country individually. This means that countries try to develop coalitions with other countries. Such coalitions are necessary to effectively reduce the number of groups engaged in negotiations. Further, such coalitions can reduce transaction costs for countries by helping them pool their resources and increase their negotiation leverage. Coalitions can show solidarity and strong support that can help put issues on the agenda, put forward a position, and modify or break a consensus. In some settings, such as Presidency or minister-led consultations, a few representatives may be asked to represent the coalition."
+  },
+  {
+   "chunk": 192,
+   "loc": "p.76",
+   "section": null,
+   "why": [
+    "limitations",
+    "method",
+    "proxies"
+   ],
+   "text": "Australia, Canada, Japan, New Zealand, Kazakhstan, Norway, the Russian Federation,** Ukraine, and the United States Source: Authors. * The United Kingdom ceased to be a member of the EU after Brexit in 2020. ** The Russian Federation has not been coordinating with the group since the invasion of Ukraine. 6.4 The Divisions Across the Groups in Non-Annex I The non-Annex I countries also have diverse groupings. These groupings are groups of convenience; they are based on historical, economic, and geographical associations. Others have shared concerns, such as climate vulnerability. Membership often overlaps and can change (Parties opting in or out). Non-Annex I coalitions include:"
+  },
+  {
+   "chunk": 199,
+   "loc": "p.79",
+   "section": null,
+   "why": [
+    "proxies"
+   ],
+   "text": "6.5 Tips and Tricks • Identify the coalition(s) to which you belong. • If your country is a G-77 member, attend the G-77 meetings, which normally begin at 9:00 a.m. during the sessions. • Identify the other coalitions to which you belong and attend their meetings. Other coalition meetings are on the live schedule. • Attend the pre-meetings for coalitions in the days before a session."
+  },
+  {
+   "chunk": 201,
+   "loc": "p.79",
+   "section": null,
+   "why": [
+    "method"
+   ],
+   "text": "• Make a critical analysis of each text, with an eye for underlying policies or “traps.”"
+  },
+  {
+   "chunk": 210,
+   "loc": "p.85",
+   "section": null,
+   "why": [
+    "findings",
+    "lists_and_datasets",
+    "proxies"
+   ],
+   "text": "The Group includes countries that are highly vulnerable to climate change and some with economies dependent on fossil fuels. It is increasingly rare that the Group can find a common position. Often, the opening and closing statements read as a list of priorities among the various members of the Group. When the Group can hold a shared position, it can be very powerful. Recently, the call for a loss and damage fund was successful in part because the G-77/ China maintained a cohesive stance. Loss and damage and agriculture are two areas in the climate negotiations where the G-77 tends to be unified. The Group often has shared objectives in finance negotiations, although individual coalitions will add their own more detailed views at the negotiation table."
+  },
+  {
+   "chunk": 230,
+   "loc": "p.94",
+   "section": null,
+   "why": [
+    "limitations",
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "NEGOTIATING SKILLS Figure 16. Zone of possible disagreement Aspiration Reserve position position Reserve position Aspiration position Country 1 Country 2 Impossible to reach agreement Source: Authors. In integrative bargaining, Parties can enlarge the space of agreement by identifying and discussing a range of alternatives, by improving the quality and quantity of information that is made available to the other Parties, and by trying to influence the perception of the other party (Saner, 2000). However, if only some Parties are engaging in integrative bargaining while others merely react, the negotiations may not be favourable for the reactive party. It is essential for all negotiators, regardless of their perceived strength of position, to develop proactive integrative strategies."
+  },
+  {
+   "chunk": 232,
+   "loc": "p.94",
+   "section": null,
+   "why": [
+    "proxies"
+   ],
+   "text": "• To better understand the background of negotiations, acquaint yourself with historical concepts and phrases, code words, and the workload of your"
+  },
+  {
+   "chunk": 250,
+   "loc": "p.100",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "limitations"
+   ],
+   "text": "NEGOTIATING SKILLS 6. Diverse Voices and Perspectives: Developing countries are not a monolithic entity. They encompass a vast array of cultures, economies, and ecosystems. This diversity means that negotiators often carry the weight of representing varied and sometimes conflicting interests. Given these multifaceted challenges, some country negotiators can sometimes find themselves in positions where the breadth of issues they need to address and the complexities they face can overshadow their core mandates. The term “hollow mandate” emerges from this context. It is not a reflection of the negotiator’s capability or intent but rather an outcome of the overwhelming confluence of challenges."
+  },
+  {
+   "chunk": 257,
+   "loc": "p.102",
+   "section": null,
+   "why": [
+    "method"
+   ],
+   "text": "NEGOTIATING SKILLS Characteristics Explanation Implications for negotiators Qualitative, elitist, and diplomatic determination of national interests National interests might sometimes be determined based on abstract political or moral grounds rather than concrete scientific and economic data. Emphasise the importance of data-driven decision making. Collaborate with experts to ensure a balance between moral, political, scientific, and economic considerations. Total impact: Potential for a hollow mandate"
+  },
+  {
+   "chunk": 264,
+   "loc": "p.103",
+   "section": null,
+   "why": [
+    "definitions",
+    "method"
+   ],
+   "text": "Financial and institutional constraints impede inter-sessional meetings. Distrust of each other’s capability in negotiating on behalf of one’s government; many governments are in crises Abstract and vague national interests Unifying abstract interests leads to even more vague definitions of interests Total impact: “Disadvantaged coalition-forming power” Source: Authors."
+  },
+  {
+   "chunk": 270,
+   "loc": "p.105",
+   "section": null,
+   "why": [
+    "definitions",
+    "limitations",
+    "method",
+    "proxies"
+   ],
+   "text": "9.4 Negotiating Strategy The hollow negotiating mandate leads to a defensive negotiating strategy, which has the following characteristics: • Negotiators tend to improvise on issues that are deemed a lower priority. This method is legal but lacks legitimacy since it is not necessarily based on ideas and views prevalent in the country. In such situations, many negotiators use proxy indicators of legitimacy. This means that they re-use"
+  },
+  {
+   "chunk": 274,
+   "loc": "p.106",
+   "section": null,
+   "why": [
+    "method"
+   ],
+   "text": "The disadvantaged coalition-forming power leads to a brittle, defensive strategy that is characterised by (Gupta 2000a, 2000b): • Confusion between the coalition of like-minded country approach and the G-77 and China approach: While some developing countries feel that they are more advanced than the rest of the developing countries and should try to develop coalitions with other developed countries, other developing countries (e.g., AOSIS and the Arab Group) feel the need to adopt the G-77 approach."
+  },
+  {
+   "chunk": 276,
+   "loc": "p.107",
+   "section": null,
+   "why": [
+    "definitions",
+    "lists_and_datasets"
+   ],
+   "text": "Box 11. The use of the word “voluntary” The word “voluntary” has been strategically used in the negotiations. For example, the word was introduced in the article on Activities Implemented Jointly (AIJ) at COP 1, suggesting respect for the position of the majority of the developing countries who were opposed to Joint Implementation in 1995 while allowing a minority to participate in such a programme. Clearly once AIJ became voluntary, all countries would compete to participate in it rather than lose access to the resources and technologies that could become available through AIJ. Here, the term “voluntary” was a slippery slope toward compulsory."
+  },
+  {
+   "chunk": 284,
+   "loc": "p.109",
+   "section": null,
+   "why": [
+    "definitions",
+    "proxies"
+   ],
+   "text": "• If you use proxy indicators of legitimacy, try to see if the position and principles borrowed are relevant to the issue being negotiated, and check if you can make the position more substantial in terms of content, targets, and timetables. • Be aware of the potential weaknesses in your preparation and seek ways to minimise the vulnerability in the negotiations."
+  },
+  {
+   "chunk": 287,
+   "loc": "p.112",
+   "section": null,
+   "why": [
+    "proxies"
+   ],
+   "text": "Sometimes, there is no real mandate on a specific issue; it is difficult to prepare for the negotiations. In such circumstances, the negotiator may wish to use the position of national and/or regional non-governmental organisations (NGOs) as the aspiration position and the conventional position taken by the foreign office as the reserve position. The negotiator will need to use some proxy indicators of legitimacy to ensure that there is some backup and support for the chosen position. The negotiator will also need to try to bargain internally for support for the position developed."
+  },
+  {
+   "chunk": 294,
+   "loc": "p.115",
+   "section": null,
+   "why": [
+    "findings"
+   ],
+   "text": "to increase the number of alternatives, to maintain a series of fallback positions, to communicate clearly, and to improve the negotiations through the quality and quantity of information and thereby to influence the perception of the others. Figure 19. The coalition position Actor position Actor position Country Country position position Actor position Actor position Regional Regional position position Regional position"
+  },
+  {
+   "chunk": 313,
+   "loc": "p.121",
+   "section": null,
+   "why": [
+    "findings",
+    "lists_and_datasets",
+    "method",
+    "proxies"
+   ],
+   "text": "10.8 Tips and Tricks • Explore opportunities domestically to increase the size of the delegation; domestic industry might be willing to finance its own participation, and NGOs and academics could also try to raise some resources for joining the delegation. For an overview of climate scientists from the Global South see: https://www.carbonbrief.org/global-south-climate-database/ • Make coalitions with other disadvantaged negotiators and share the task of participation in the informal processes. Familiarise yourself with the other countries’ positions to understand what to expect. Find out on which issues you can agree with individual countries, and on which issues you differ."
+  },
+  {
+   "chunk": 314,
+   "loc": "p.121",
+   "section": null,
+   "why": [
+    "findings",
+    "lists_and_datasets"
+   ],
+   "text": "• Use the advantages as a smaller country vis-à-vis a larger country. You can increase your impact on the negotiations by adopting the role of a bridge, creating alliances, embracing a leadership position during the process, raising your voice, and thinking creatively (Gaudiosi et al., 2019). • Know what backup resources exist and what channels are open for reinforcement. • Seek ways of finding out what happened in the sessions you missed."
+  },
+  {
+   "chunk": 320,
+   "loc": "p.122",
+   "section": null,
+   "why": [
+    "definitions"
+   ],
+   "text": "• Define a strategy of your own and be proactive. • Use NGO publications to test your position, ideas, suggestions, etc. • Keep a diary during the negotiations and record the proceedings: in particular, keep a detailed record of how you have negotiated. This will be extremely valuable information for your successor in future negotiation rounds. • Be aware that difficult and uncomfortable situations of a cultural or social nature or with respect to your gender might arise. Try to react diplomatically and remember what you are hoping to achieve (Gaudiosi et al., 2019)."
+  },
+  {
+   "chunk": 321,
+   "loc": "p.124",
+   "section": null,
+   "why": [
+    "limitations"
+   ],
+   "text": "Tips and Tricks for the Lonely Diplomat Managing, not surviving, the chaos is the key goal. This chapter collates all the tips and tricks from the chapters in this book, as well as widens the scope with some additional suggestions. 11.1 The Climate Change Problem • Familiarise yourself with reports of the Intergovernmental Panel on Climate Change (IPCC) and other scientific bodies to know the areas of scientific agreement and uncertainty. Read the policy-makers’ summary of the latest IPCC reports of Working Groups 1-3."
+  },
+  {
+   "chunk": 323,
+   "loc": "p.124",
+   "section": null,
+   "why": [
+    "limitations"
+   ],
+   "text": "• Learn to navigate the UNFCCC website. • Do not underestimate the time needed to prepare for negotiations. • Try to understand the relation between development and climate change for your country. 11.2 The Evolution of the International Climate Regime • Understand the main and peripheral issues in the debate and in the environment of the negotiations."
+  },
+  {
+   "chunk": 326,
+   "loc": "p.125",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "method"
+   ],
+   "text": "• Seek ways of finding out what happened in the sessions you missed. The Earth Negotiations Bulletin reports are a good source. See https://enb.iisd. org or sign up to receive each report at https://enb.iisd.org/get-updates • If you cannot make sense of all the informal processes, find someone from an NGO from your region and ask them for a briefing. • Attend the daily coordination meetings of your coalition(s) to hear updates from the various negotiation rooms."
+  },
+  {
+   "chunk": 327,
+   "loc": "p.125",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations"
+   ],
+   "text": "11.4 The Rules of Procedure • Keep a copy of the Rules of Procedure handy, and, if possible, memorise the key elements. • Speak through a single spokesperson when possible. • Learn to master the use of “Points of Order.” • One voiced objection to a consensus is, theoretically, enough to stop the consensus. Some countries have used this power in the negotiations. However, it is not wise to misuse the power of objection. Most countries are extremely diplomatic and cautious in exercising this right."
+  },
+  {
+   "chunk": 328,
+   "loc": "p.125",
+   "section": null,
+   "why": [
+    "proxies"
+   ],
+   "text": "• Familiarise yourself with the nomenclature of the documents listed in Table 2."
+  },
+  {
+   "chunk": 331,
+   "loc": "p.126",
+   "section": null,
+   "why": [
+    "proxies"
+   ],
+   "text": "11.6 Coalitions in the Climate Change Regime • Identify the coalition(s) to which you belong. • If your country is a G-77 member, attend the G-77 meetings, which normally begin at 9:00 a.m. during the sessions. • Identify the other coalitions to which you belong and attend their meetings. Other coalition meetings are on the live schedule. • Attend the pre-meetings for coalitions in the days before a session."
+  },
+  {
+   "chunk": 336,
+   "loc": "p.127",
+   "section": null,
+   "why": [
+    "proxies"
+   ],
+   "text": "• To better understand the background of negotiations, acquaint yourself with historical concepts and phrases, code words, and the workload of your counterparts. This can help you formulate a promising strategy (Gaudiosi et al., 2019). • Discuss key issues among your negotiation team and contact others in your government who may have an interest. • Actively look for allies: discuss the agenda issues with representatives from other countries and NGOs and seek to identify like-minded countries before you go to the negotiations."
+  },
+  {
+   "chunk": 349,
+   "loc": "p.129",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "proxies"
+   ],
+   "text": "• Try to find creative means to develop a negotiating position prior to departure from the capital. • If you use proxy indicators of legitimacy, try to see if the position and principles borrowed are relevant for the issue being negotiated and check if"
+  },
+  {
+   "chunk": 350,
+   "loc": "p.130",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings"
+   ],
+   "text": "NEGOTIATING SKILLS you can make the position more substantial in terms of content, targets, and timetables. • Be aware of the potential weaknesses in your preparation and seek ways to minimise the vulnerability in the negotiations. • Try to find creative means of increasing the number of participants in the negotiation team (e.g., invite NGOs, industry, and scientists to participate in your delegation) and try to team up with other countries."
+  },
+  {
+   "chunk": 352,
+   "loc": "p.130",
+   "section": null,
+   "why": [
+    "findings",
+    "proxies"
+   ],
+   "text": "• Participate in coalitions with other disadvantaged negotiators and share the task of participation in the informal processes. Familiarise yourself with the other countries’ positions to understand what to expect. Find out on which issues you can agree with individual countries, and on which issues you differ. • Use the advantages as a smaller country vis-à-vis a larger country. You can increase your impact on the negotiations by adopting the role of a bridge, creating alliances, embracing a leadership position during the process, raising your voice, and thinking creatively (Gaudiosi et al., 2019)."
+  },
+  {
+   "chunk": 358,
+   "loc": "p.131",
+   "section": null,
+   "why": [
+    "definitions"
+   ],
+   "text": "• Define a strategy of your own and be proactive. • Use NGO publications to test your position, ideas, suggestions, etc. • Keep a diary during the negotiations and record the proceedings and in particular keep a detailed record of how you have negotiated. This will be extremely valuable information for your successor in future negotiation rounds. • Be aware that difficult and uncomfortable situations of cultural or social nature or with respect to your gender might arise. Try to react diplomatically and remember what you are hoping to achieve (Gaudiosi et al., 2019)."
+  },
+  {
+   "chunk": 361,
+   "loc": "p.132",
+   "section": null,
+   "why": [
+    "limitations",
+    "lists_and_datasets"
+   ],
+   "text": "• Plug in your devices when you can. Not all rooms will have outlets. Consider bringing a portable charging device. • Download the conference app. It will have a map of the venue and the daily programme (at least). On X/Twitter, @UNFCCCDocuments alerts when new documents, including draft decision texts, are available, with a link to the document. 11.12 Final Suggestions"
+  },
+  {
+   "chunk": 372,
+   "loc": "p.137",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "proxies"
+   ],
+   "text": "nothing about the current and committed impacts of extreme weather events and sea level rise (Rockström et al., 2023). All this means that problems like climate change need negotiators to go beyond the narrow and short-term interests of the politicians in power to think about the consequences of inaction on themselves and others, on nature, and on the climate system itself. Current negotiations are based on maximising short-term self-interest rather than maximising long-term shared interest and revisiting development paradigms. An interesting lesson can be drawn from the 2030 Agenda negotiations. Chasek and Wagner (2016) argued that “seat sharing”— the process of asking different governments, often from different parts of the world to share a “seat” in the negotiating process—enabled a more collaborative negotiating process to reach the 17 SDGs. Seat sharing can enable countries to understand each other’s position and come up with joint positions. Gellers (2016) shows that the crowdsourcing of global governance used in the 2030 Agenda negotiations enabled the youth and many other stakeholders to make their views clear regarding the goals of the 2030 Agenda."
+  },
+  {
+   "chunk": 391,
+   "loc": "p.145",
+   "section": null,
+   "why": [
+    "lists_and_datasets",
+    "method",
+    "proxies"
+   ],
+   "text": "Wiegand, J. (2021). Global climate change mitigation, fossil-fuel driven development, and the role of financial and technology transfers: A simple framework. IMF. https:// www.imf.org/en/Publications/WP/Issues/2021/11/19/Global-Climate-Change-Mitigation-Fossil-Fuel-Driven-Development-and-the-Role-of-Financial-509679 World Bank Development Indicators Database. (2023). Gross domestic product 2022. World Bank. https://databankfiles.worldbank.org/public/ddpext_ download/GDP.pdf"
+  }
+ ]
+}

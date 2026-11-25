@@ -1,0 +1,270 @@
+{
+  "id": "doi-10-1093-oso-9780197762042-003-0013",
+  "citation": {
+    "authors": ["Dieter Plehwe", "Moritz Neujeffski", "Tobias Haas"],
+    "year": 2024,
+    "title": "Climate Obstruction in the European Union: Business Coalitions and the Technocracy of Delay",
+    "venue_or_publisher": "Chapter 13 in: Climate Obstruction across Europe, edited by Robert J. Brulle, J. Timmons Roberts and Miranda C. Spencer. Oxford University Press",
+    "doi_or_url": "https://doi.org/10.1093/oso/9780197762042.003.0013",
+    "type": "book chapter",
+    "peer_reviewed": "unknown"
+  },
+  "question": "How business coalitions obstruct and delay ambitious climate policy in the European Union (EU): who the main obstructing actors are, how their lobbying resources compare with those of the pro-climate side, and which strategies and discourses they use, illustrated by the EU Emissions Trading System (ETS) with the carbon border adjustment mechanism (CBAM) and by the EU Green Taxonomy.",
+  "data": "Mainly secondary: published studies and reports, position papers, press. Quantitative parts rest on InfluenceMap ratings (April 2022 report) of business associations and companies engaged in EU climate policy, and on 2019 lobbying expenditure from lobbyfacts.eu (which archives the EU Transparency Register); the authors say they obtained expenditure for 77 of 83 companies and for all associations, using 2018 or 2020 where 2019 was missing. Also figures from a Reclaim Finance study and a Corporate Europe Observatory report, both read at second hand. No data on UN climate conference delegations.",
+  "method": "Qualitative discussion of EU institutions and lobbying, plus a descriptive comparison of lobbying spending between a 'grey' coalition (organisations not fully supporting the Paris Agreement) and a 'green' coalition (Paris-aligned), using third-party ratings and register data. Two case studies (EU ETS and CBAM; Green Taxonomy) and a discussion of three obstruction narratives. No classification procedure of the authors' own is described, no validation, and no use of language models.",
+  "definitions": [
+    {
+      "term": "grey energy coalition (fossil-linked side)",
+      "definition": "Firms and their business associations invested in fossil industries as producers or as (large) energy consumers.",
+      "quote": "Firms and their business associations invested in fossil industries as producers or (large) energy consumers comprise the grey energy faction",
+      "page": 9
+    },
+    {
+      "term": "grey energy coalition: members named",
+      "definition": "The authors name oil, gas and coal companies, utilities and related services, car manufacturers and their infrastructure providers; in agriculture and food, corporate interests tied to traditional energy and the subsidy regime.",
+      "quote": "oil, gas, and coal companies as well as utilities and related services but also car manufacturers",
+      "page": 9
+    },
+    {
+      "term": "green energy coalition",
+      "definition": "Supporters of renewables and their allies, representing industry groups and social forces that advocate an energy transition.",
+      "quote": "the green energy coalition, which comprises supporters of renewables and their allies and represents industry groups and social forces advocating an energy transition",
+      "page": 9
+    },
+    {
+      "term": "climate obstruction",
+      "definition": "Actors trying to delay or shape climate policy so that it undermines keeping warming below 1.5 degrees C; includes shirking responsibility, non-transformative solutions, defending the fossil fuel status quo and climate policy nihilism.",
+      "quote": "We count it as obstruction when actors attempt to delay or otherwise shape climate policy in ways that undermine efforts to keep global warming below 1.5°C.",
+      "page": 2
+    },
+    {
+      "term": "secondary obstruction",
+      "definition": "Taken from Ekberg and colleagues: calls that do not deny human-induced climate change but still delay or forestall meaningful action. Authors say it is the dominant form in the EU.",
+      "quote": "This is what Ekberg and colleagues refer to as ‘secondary obstruction’",
+      "page": 2
+    },
+    {
+      "term": "Paris-alignment rating (InfluenceMap)",
+      "definition": "Third-party grading of corporations and industry associations from A (supporting the Paris Agreement) to F (not supporting it); the chapter treats C and D as 'not fully' supporting.",
+      "quote": "classifies them from A (supporting the Paris Agreement) to F (not supporting the Paris Agreement)",
+      "page": 10
+    },
+    {
+      "term": "European Transparency Register",
+      "definition": "An official database of organisations that try to influence EU institutions' policy process; the chapter says (footnote 18) it is voluntary, with some restrictions for those who do not register.",
+      "quote": "by 2021, more than 13,300 organizations had been recorded in the European Transparency Register",
+      "page": 8
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "business actors among lobbyists",
+      "indicator": "Register category: 'business organizations and professional service firms' counted against trade unions, NGOs, and think tanks and academic institutions, in the EU Transparency Register",
+      "quote": "Of these groups, 7,000 are business",
+      "page": 8
+    },
+    {
+      "concept": "fossil-linked / obstructing actor (grey coalition)",
+      "indicator": "InfluenceMap grade C or D (not fully supporting Paris goals) for companies and business associations engaged in EU climate policy",
+      "quote": "(87.9%) classified as C or D, which do not support many of the policies that aim to achieve the Paris goals",
+      "page": 10
+    },
+    {
+      "concept": "sector as marker of the grey side",
+      "indicator": "Sector membership: all companies in the automotive and mining and metal sectors, and most energy companies, fall into the not-fully-supportive group in InfluenceMap's ratings",
+      "quote": "all companies from the automotive and mining and metal sector fall into this category, as do the bulk of energy companies",
+      "page": 10
+    },
+    {
+      "concept": "lobbying resources",
+      "indicator": "Reported lobbying expenditure for 2019 taken from lobbyfacts.eu, which archives Transparency Register data",
+      "quote": "Data retrieved from lobbyfacts.eu, which archives information from the EU Transparency Register.",
+      "page": 11
+    },
+    {
+      "concept": "nuclear and gas lobby actors",
+      "indicator": "Entries in the Transparency Register (study by Reclaim Finance, cited by the authors)",
+      "quote": "Based on the entries in the Transparency Register, a study by Reclaim Finance identified no fewer than 189 nuclear and gas lobby actors employing 825 lobbyists.",
+      "page": 17
+    },
+    {
+      "concept": "types of organisation engaged on one policy (CBAM)",
+      "indicator": "Register self-declared categories (companies, trade and business associations, consultancies, NGOs, think tanks, trade unions, law firms), reported in footnote 54",
+      "quote": "According to the European Transparency Register, 178 organizations engage in CBAM policy discussions.",
+      "page": 25
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Business organisations are by far the largest group in the EU Transparency Register.",
+      "quote": "compared with about 1,000 trade union organizations, about 3,500 NGOs, and nearly 1,000 think tanks and academic institutions.",
+      "page": 8
+    },
+    {
+      "claim": "The main EU obstructors are large companies and business associations with a stake in the fossil economy, plus think tanks; open climate denial is rare.",
+      "quote": "the main policy obstructors in the European Union are large companies and business associations with a strong vested interest in the fossil economy",
+      "page": 2
+    },
+    {
+      "claim": "Of the business associations InfluenceMap rated, only four fully supported the Paris goals.",
+      "quote": "Only four business associations (12.1%), including WindEurope and SolarPower Europe, were classified as fully supporting the Paris climate goals",
+      "page": 10
+    },
+    {
+      "claim": "Among rated companies, 60 (71.4%) were not fully supportive of the Paris Agreement.",
+      "quote": "These firms face 60 companies (71.4%) that are not fully in support of the Paris Agreement (rated C or D).",
+      "page": 10
+    },
+    {
+      "claim": "Associations not fully aligned with Paris spent far more on EU lobbying in 2019 than Paris-aligned ones (EUR 43.5 million against EUR 2.4 million).",
+      "quote": "This figure contrasts with the €43.5 million spent by",
+      "page": 10
+    },
+    {
+      "claim": "The Paris-aligned associations spent EUR 2.4 million in total (2019).",
+      "quote": "spent a total of €2.4 million to lobby EU institutions",
+      "page": 10
+    },
+    {
+      "claim": "The less supportive companies spent almost four times as much on lobbying in 2019 as the more supportive ones.",
+      "quote": "spent almost four times as much on lobbying in 2019 (€55.6 million) as the more supportive firms (€14.6 million)",
+      "page": 11
+    },
+    {
+      "claim": "Authors conclude the not-fully-aligned side outnumbers and outspends the green coalition.",
+      "quote": "the corporations and associations not fully aligned with the Paris goals outnumber and outspend the green coalition by far",
+      "page": 10
+    },
+    {
+      "claim": "Business actors dominate many EU expert groups (asserted by the authors, with a Corporate Europe Observatory source in a footnote).",
+      "quote": "And they dominate the work in many of the European expert groups",
+      "page": 12
+    },
+    {
+      "claim": "A study of nuclear and gas lobbying found spending of EUR 71.4 to 86.6 million a year.",
+      "quote": "The groups were found to spend between €71.4 million and €86.6 million a year to influence European policymaking.",
+      "page": 17
+    },
+    {
+      "claim": "Fossil-linked firms are not uniform: utilities and manufacturers differ on carbon pricing, and fossil firms can move towards renewables.",
+      "quote": "utilities have come out in support of emissions trading because they can pass higher prices on to consumers",
+      "page": 10
+    },
+    {
+      "claim": "Think tanks act as allies who generalise the arguments of lobby groups.",
+      "quote": "Think tanks generalize the arguments of lobby groups",
+      "page": 18
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Authors say the lobbying spending comparison rests on incomplete register information.",
+      "stated_by_authors": true,
+      "quote": "incomplete information provided in the EU Transparency Register",
+      "page": 10
+    },
+    {
+      "point": "Authors say InfluenceMap data cover only the very large emitters and their main associations.",
+      "stated_by_authors": true,
+      "quote": "The data compiled by InfluenceMap cover only the very large emitters and their most important associations.",
+      "page": 12
+    },
+    {
+      "point": "Spending figures leave out companies rated E and F, for which no EU lobbying expenditure could be found (footnote 29).",
+      "stated_by_authors": true,
+      "quote": "The two figures do not include the group of companies that are completely opposed",
+      "page": 24
+    },
+    {
+      "point": "Authors cite a watchdog report that the Transparency Register misses actors: most companies in the Trans-European gas projects were not registered (seen at second hand).",
+      "stated_by_authors": true,
+      "quote": "documented the limits of the Transparency Register",
+      "page": 13
+    },
+    {
+      "point": "The EU register is voluntary, so register-based counts only cover organisations that chose to register (footnote 18).",
+      "stated_by_authors": true,
+      "quote": "Unlike the US register, the European register is voluntary, though some restrictions apply",
+      "page": 23
+    },
+    {
+      "point": "Authors call for more research on how green and grey alliances form and fare; the chapter does not claim to have settled this.",
+      "stated_by_authors": true,
+      "quote": "more work needs to be done on the ways in which green and grey alliances form and fare in key climate policy conflicts",
+      "page": 21
+    },
+    {
+      "point": "The chapter is about lobbying of EU institutions, not UN climate conference (COP) delegations; it counts no delegation members and gives no rule for deciding whether a person or organisation on a participant list is business or fossil-linked.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The 'grey' side is defined by InfluenceMap's Paris-alignment grades (C and D) and by broad sector membership (including car makers, utilities, agriculture); the authors give no rule for borderline firms beyond saying firms can move between coalitions. Fossil fuel linkage is therefore wide and graded, not a yes/no test.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Most claims rest on secondary sources (InfluenceMap, Reclaim Finance, Corporate Europe Observatory, Carbon Market Watch); none of those underlying reports was read here, and the chapter does not describe how InfluenceMap assigns grades.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Figure 13.2 text is garbled in the extraction (some values show as '€.4M'); only the figures stated in the prose are used in this record. Figure 13.1 values are not in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 11
+    },
+    {
+      "point": "The extracted file has an empty authors field and a messy title field; the author names and chapter subtitle come from the chapter's first page. The extracted text is stated to have been downloaded 'by guest' from the publisher site. No instructions addressed to a reader or an AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 1
+    }
+  ],
+  "recommendations": [
+    {
+      "point": "Further research on how green and grey alliances form and fare in key EU climate policy conflicts.",
+      "quote": "more work needs to be done on the ways in which green and grey alliances form and fare in key climate policy conflicts",
+      "page": 21
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "European Transparency Register / lobbyfacts.eu",
+      "what_it_is": "Official voluntary EU lobby register; lobbyfacts.eu archives it; source of 2019 lobbying expenditure and organisation categories",
+      "page": 11
+    },
+    {
+      "name": "InfluenceMap (2022), 'Europe: Does Corporate Europe Support Climate Policy?'",
+      "what_it_is": "Think tank report grading companies and industry associations A to F for Paris alignment of their EU climate lobbying",
+      "page": 24
+    },
+    {
+      "name": "Transparency Register Management Board (2022), Annual Report on the Functioning of the Transparency Register 2021",
+      "what_it_is": "Source of the counts of registered organisations by type",
+      "page": 23
+    },
+    {
+      "name": "Reclaim Finance (2020), 'Insuring Our Future: 2020 Scorecard on Insurance, Fossil Fuels and Climate Change'",
+      "what_it_is": "Study of nuclear and gas lobby actors in the Transparency Register",
+      "page": 26
+    },
+    {
+      "name": "Corporate Europe Observatory (2017), 'Corporate Interests Continue to Dominate Key Expert Groups'; Sabido and Balanya (2017), 'The Great Gas Lock-In'",
+      "what_it_is": "Watchdog reports on expert groups and gas lobbying, including gaps in the Transparency Register",
+      "page": 24
+    },
+    {
+      "name": "Reference list (81 endnotes)",
+      "what_it_is": "Endnotes with scholarly works (Lamb et al. 2020 on discourses of delay, Ekberg et al. 2022, Haas 2019, Klüver 2013) and NGO and industry reports",
+      "page": 22
+    }
+  ],
+  "relevant_to": ["Q1", "Q2", "context"],
+  "pages_read": "All 27 pages of the extracted text (chapter text pages 1-22, endnotes pages 22-27); the full chapter, with figures and Table 13.1 only as far as they appear in the text.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

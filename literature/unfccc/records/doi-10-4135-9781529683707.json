@@ -1,0 +1,215 @@
+{
+  "id": "doi-10-4135-9781529683707",
+  "citation": {
+    "authors": [
+      "Petter Törnberg"
+    ],
+    "year": 2023,
+    "title": "How to use Large Language Models for Text Analysis",
+    "venue_or_publisher": "arXiv preprint (cs.CL), University of Amsterdam, ILLC; dated 2023-07-25",
+    "doi_or_url": "arXiv:2307.13106v1",
+    "type": "how-to guide (preprint)",
+    "peer_reviewed": "no"
+  },
+  "question": "How can social scientists with limited programming experience use LLMs (ChatGPT/GPT-4 via API) for text analysis such as annotation and classification, and how should the results be validated? Illustrated with measuring populism in political speeches.",
+  "data": "Illustrative example only: speeches from the Global Populism Database (human-coded levels of populism, CSV plus .txt speech files), analysed with GPT-4 32K. The number of speeches and the period are not stated in the text.",
+  "method": "Step-by-step guide: (1) API access, (2) load data and fit texts in the context window, (3) prompt engineering (instruction built from existing human coder instructions, output format requested as a number then a short motivation, parsed by splitting on a semicolon), (4) call the LLM at temperature 0.2 in a loop, (5) validate against human codes with Krippendorff's alpha, then inspect disagreements and iterate on prompt and concept.",
+  "definitions": [
+    {
+      "term": "Prompt engineering",
+      "definition": "The formulation of instructions to LLMs for specific tasks or objectives; the instruction is described as the way a social scientific concept is encoded.",
+      "quote": "The instruction to the model can be understood as the way in which a particular social scientiﬁc concept is encoded.",
+      "page": 3
+    },
+    {
+      "term": "Populism (coding concept used in the example)",
+      "definition": "Mudde's definition: an ideology separating society into 'the pure people' versus 'the corrupt elite', with politics as the general will; operationalised in the prompt as people-centrism plus anti-elitism, both required.",
+      "quote": "A populist text is characterized by BOTH of the following elements: 1. Peoplecentrism",
+      "page": 4
+    },
+    {
+      "term": "Krippendorff's alpha",
+      "definition": "A measure of inter-rater agreement that accounts for observed agreement and agreement expected by chance; usable for nominal, ordinal or interval data; ranges 0 to 1.",
+      "quote": "The Krippendorﬀ's alpha gives a measure of interrater agreement, and is used to assess the extent to which multiple raters or coders agree",
+      "page": 5
+    },
+    {
+      "term": "Context window",
+      "definition": "The range of tokens the model can consider when generating responses; a token is roughly 2/3 of a word.",
+      "quote": "the range of \"tokens\" that the model can consider when generating responses. A token corresponds to roughly 2/3 of a word.",
+      "page": 2
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Level of populism in a political text",
+      "indicator": "LLM score on a 0-2 scale plus a brief motivation, from an instruction based on human coder guidelines (people-centrism and anti-elitism).",
+      "quote": "[Answer with a number in the 0-2 range, followed by a semi-colon, and then a brief motivation.",
+      "page": 4
+    },
+    {
+      "concept": "Validity of the LLM annotation",
+      "indicator": "Krippendorff's alpha between LLM scores and the existing human-coded Global Populism Database scores; examination of the largest disagreements.",
+      "quote": "we instead use the existing populism database to validate our data.",
+      "page": 5
+    }
+  ],
+  "findings": [
+    {
+      "claim": "In the populism example, the LLM's agreement with the database's human coders was alpha 0.635, even though the LLM was not given the original coders' instructions.",
+      "quote": "The resulting a Krippendorﬀ's alpha of 0.635.",
+      "page": 5
+    },
+    {
+      "claim": "The original human coders had alpha 0.827 (interval level), but they worked together and resolved disagreements, so the authors expect higher agreement for them than for an independent LLM run.",
+      "quote": "The human coders of the initial data have a Krippendorﬀ's alpha (interval-level) of 0.827",
+      "page": 5
+    },
+    {
+      "claim": "In one of the largest disagreements (a Berlusconi speech coded 1.0 by humans, 0.0 by the LLM), the author judges the LLM's classification reasonable on manual reading.",
+      "quote": "it thus seems the LLM may have been reasonable in classifying it as non-populist.",
+      "page": 5
+    },
+    {
+      "claim": "The author states that LLMs can be sensitive to prompt design and that the exact instructions are the key conceptual task of LLM-supported text analysis (stated as a caveat, without own test data).",
+      "quote": "Formulating the exact instructions for the model should thus be understood as the key conceptual task within LLM-supported text analysis.",
+      "page": 2
+    },
+    {
+      "claim": "The guide cites earlier work (reference 17) as showing LLMs can outperform humans at interpretive annotation; this is reported from a cited study, not tested here.",
+      "quote": "the models can even outperform humans when it comes to interpretive textual analysis",
+      "page": 2
+    }
+  ],
+  "recommendations": [
+    {
+      "claim": "Validate LLM output against other methods, benchmarks, ground truth or expert evaluation; do not trust it unchecked.",
+      "quote": "Careful validation is essential to make sure that the models are measuring what we intend",
+      "page": 5
+    },
+    {
+      "claim": "A simple validation route: draw a sample and have human coders classify it, then compare with the model.",
+      "quote": "extract a sample of the data, and have human coders manually classifying the items.",
+      "page": 5
+    },
+    {
+      "claim": "Start the prompt from the instructions given to human coders for similar tasks.",
+      "quote": "A good starting point for a prompt is often to look at the instructions given to human coders",
+      "page": 4
+    },
+    {
+      "claim": "Make the output parseable by requesting a fixed answer format.",
+      "quote": "Make results parseable: You will need to programmatically parse the output of the model.",
+      "page": 4
+    },
+    {
+      "claim": "Develop prompt and concept iteratively, studying disagreements between LLM and coders; human coding is not an unquestioned gold standard.",
+      "quote": "it is recommended to use an iterative process of simultaneous prompt and concept development.",
+      "page": 5
+    },
+    {
+      "claim": "Treat the LLM like a student assistant and validate; treat its output like data from human coders, with perspectives and biases, not objectivity.",
+      "quote": "must be treated in similar ways as data from human coders",
+      "page": 2
+    },
+    {
+      "claim": "Do not send sensitive or confidential material to the LLM API, and report limitations and biases transparently.",
+      "quote": "The API should therefore never be used with sensitive or conﬁdential material.",
+      "page": 2
+    },
+    {
+      "claim": "Use a low temperature for more focused, deterministic output (the example uses 0.2).",
+      "quote": "lower values (e.g., 0.2) make it more focused and deterministic.",
+      "page": 3
+    },
+    {
+      "claim": "Split or truncate texts that exceed the context window and reassemble results afterwards.",
+      "quote": "be necessary to split texts into several smaller chunks to be analyzed part by part",
+      "page": 2
+    }
+  ],
+  "limitations": [
+    {
+      "point": "LLMs embody biases of their training texts and may fail in unexpected ways; their scope and limits are not fully understood.",
+      "stated_by_authors": true,
+      "quote": "they may fail in unexpected ways on speciﬁc tasks or challenges.",
+      "page": 2
+    },
+    {
+      "point": "LLMs are slower than traditional NLP classifiers, and very large datasets may need sampling; context window limits text length.",
+      "stated_by_authors": true,
+      "quote": "Datasets that involve millions or tens of millions of datapoints can therefore be prohibitively time-consuming to analyze",
+      "page": 2
+    },
+    {
+      "point": "The data sent to the API provider is accessible to that provider.",
+      "stated_by_authors": true,
+      "quote": "the platform running the LLM ... will receive access to any data that you send to their API.",
+      "page": 2
+    },
+    {
+      "point": "The validation is a single run on one task (populism) with one model (GPT-4) and one prompt; alpha 0.635 is described as relatively high but no sample size, repeat runs, or per-class error rates are reported in the text. This is a limit I observed, not stated by the author.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": 5
+    },
+    {
+      "point": "The original coders' instructions were not available, so the LLM prompt differs from the human coding guide; agreement is therefore not a clean test.",
+      "stated_by_authors": true,
+      "quote": "the LLM was not even given the same coding instructions as the original coders.",
+      "page": 5
+    },
+    {
+      "point": "No test of reproducibility across model versions or repeated runs is reported; the example calls a proprietary model with randomness (temperature 0.2). Observed by the reader, not stated.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": 4
+    },
+    {
+      "point": "Source file mismatch: the id is a SAGE-style DOI (10.4135/9781529683707), but the PDF is the arXiv preprint 2307.13106v1 (not peer reviewed), a 6-page guide with code on GitHub. The DOI is not printed in the PDF. Cited claims should be checked against the published version if one is used.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": 1
+    },
+    {
+      "point": "Text extraction showed no instructions addressed to a reader or AI beyond the how-to steps of the guide itself; none acted on.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "Library copy is the arXiv preprint 2307.13106v1 (2023), not the SAGE publication the id names; quotes and pages refer to the preprint.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Global Populism Database (Hawkins et al. 2019), populism.byu.edu",
+      "what_it_is": "Human-coded levels of populism for leaders' speeches, used as validation data.",
+      "page": 3
+    },
+    {
+      "name": "Populism coding guide (TeamPopulism, 2017)",
+      "what_it_is": "Human coder instruction file used as the starting point for the LLM prompt.",
+      "page": 4
+    },
+    {
+      "name": "github.com/cssmodels/howtousellms",
+      "what_it_is": "Jupyter Notebook and example code accompanying the guide.",
+      "page": 2
+    },
+    {
+      "name": "Reference list (22 items)",
+      "what_it_is": "Includes Törnberg 2023 (ChatGPT-4 outperforms experts and crowd workers in annotating political Twitter messages with zero-shot learning), Gilardi et al. 2023 (ChatGPT outperforms crowd-workers for text-annotation tasks), De Swert 2012 (Krippendorff's alpha).",
+      "page": 6
+    }
+  ],
+  "relevant_to": [
+    "method"
+  ],
+  "pages_read": "1-6 (all 6 pages; text extracted with PyMuPDF because the PDF image renderer was unavailable)",
+  "read_on": "2026-11-24",
+  "read_by": "2026-11-24 general-purpose agent (sonnet) following source-reader instructions; PDF text extracted (pdftoppm missing), page numbers are PDF page indices"
+}

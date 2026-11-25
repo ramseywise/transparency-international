@@ -1,0 +1,211 @@
+{
+  "id": "doi-10-1111-reel-12620",
+  "citation": {
+    "authors": ["Tuula Honkonen"],
+    "year": 2025,
+    "title": "Civil society participation in EU preparation for UN climate negotiations: Questions of openness and transparency",
+    "venue_or_publisher": "Review of European, Comparative & International Environmental Law (RECIEL), 2025, 34(2), 379-393; John Wiley & Sons Ltd",
+    "doi_or_url": "https://doi.org/10.1111/reel.12620",
+    "type": "Publisher's version (Wiley Online Library open access PDF, with journal header, volume and page numbers, and Creative Commons licence statement)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "Whether civil society can access information on the policymakers and documents involved in the EU's preparation of its position for UN climate negotiations, whether civil society organisations (CSOs) have opportunities to take part in that preparation, and how far the EU position is open to public scrutiny before the negotiation sessions.",
+  "data": "Three parts: (1) literature; (2) legal and policy sources (treaties, Regulation 1049/2001, Council rules and guidelines, openly available policy documents); (3) semi-structured expert interviews, N = 8, with stakeholders (CSO representatives) and EU Commission officials, carried out August to November 2023. Interviewees are not named. No dataset was generated or analysed. The study covers the EU-level preparatory process, not the delegation at the conference and not the Member States' national processes.",
+  "method": "Doctrinal legal analysis and qualitative policy analysis of legal sources and policy documents, plus interviews analysed for experiences and key insights, without a formal coding procedure. No classification of organisations, no counting, no language model, no sampling.",
+  "definitions": [
+    {
+      "term": "civil society",
+      "definition": "Citizens as represented by their organised groups (CSOs), such as non-governmental organisations and workers' and employers' organisations. Defined for this study; so in this paper employers' organisations count as civil society.",
+      "quote": "refers to citizens, as represented in practice by their organised groups, that is, CSOs, such as non-governmental organisations and workers'",
+      "page": 2
+    },
+    {
+      "term": "civil society organisation (EU definition, footnote)",
+      "definition": "The EU's own definition of a CSO, quoted in a footnote from EUR-Lex.",
+      "quote": "The EU defines a CSO as ‘an organisational structure whose members serve the general interest through a democratic process and which plays the role of mediator between public",
+      "page": 3
+    },
+    {
+      "term": "transparency",
+      "definition": "No clear-cut definition; broadly, a culture or scheme in which relevant information on law and politics is available.",
+      "quote": "The term ‘transparency’ does not have a clear-cut definition15 In broad terms, transparency could be characterised as a ‘culture or scheme in which relevant information (on law and politics) is avail-",
+      "page": 3
+    },
+    {
+      "term": "transparency versus openness",
+      "definition": "Strictly, transparency may only mean making documents public, whereas openness also includes participation; in the EU the two terms are close to synonymous.",
+      "quote": "In strict terms, transparency is distinguished from openness in that it may only mean making documents available to the public, whereas openness also encompasses participation.17",
+      "page": 3
+    },
+    {
+      "term": "transparency in process / transparency in rationale",
+      "definition": "Process: availability of information on deliberations, negotiations and votes. Rationale: availability of information on the substance of a decision and the facts and reasons behind it.",
+      "quote": "Transparency is the counterforce to secrecy. In general terms, it can be divided into transparency in process, on the one hand, and transparency in rationale, on the other.128",
+      "page": 11
+    },
+    {
+      "term": "composition of the Council's working parties and expert groups (who is admitted)",
+      "definition": "Members are mainly civil servants from Member State ministries and permanent representation offices, with selected Commission officials attending some meetings. Not a delegation to the UN conference.",
+      "quote": "The members of the Council's WPs and expert groups are mainly civil servants from the Member State ministries and the EU permanent representation offices, although the WPIEI meetings are attended by selected Commission officials as well.69",
+      "page": 7
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "business or industry access to EU preparatory meetings (as alleged)",
+      "indicator": "Criticism that business representatives were given privileged access to Council working party meetings, via invitation of external experts by the presidency (the paper cites a Corporate Europe Observatory report in a footnote; it does not test the claim).",
+      "quote": "Not surprisingly, the practice has given rise to criticism and an argument that industry or business representatives have at times been given privileged access to WP meetings.89",
+      "page": 8
+    },
+    {
+      "concept": "third parties admitted to Council meetings (transparency indicator)",
+      "indicator": "Whether an invited third party is named on the meeting agenda, as the 2021 Council guidelines require.",
+      "quote": "The third-party should be mentioned and identified on the meeting agenda,87",
+      "page": 8
+    },
+    {
+      "concept": "business interest representation at EU level",
+      "indicator": "Business Europe named in a footnote as the body that advances the European business sector's interests.",
+      "quote": "Interests of the European business sector are advanced in a concerted manner by Business",
+      "page": 9
+    },
+    {
+      "concept": "business and employer share of a EU advisory body (EESC)",
+      "indicator": "Membership split of the European Economic and Social Committee: about one third traditional CSOs, the rest workers and employers.",
+      "quote": "Approximately one-third of EESC's 329 members are traditional civil society organisations; the rest represent workers and employers, that is, national trade unions and entrepreneurs and representatives of business associations respectively.",
+      "page": 11
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The EU's preparation of its position for UN climate negotiations is not particularly transparent or open to civil society.",
+      "quote": "Despite the European Union's strong commitment to transparent and participatory governance, the preparation of its position for international climate negotiations is",
+      "page": 1
+    },
+    {
+      "claim": "The composition of the Council's preparatory bodies is not made public, in part because members represent their governments and the discussions are political.",
+      "quote": "In part, for this reason, the Council does not make public the composition of its preparatory bodies.70",
+      "page": 7
+    },
+    {
+      "claim": "It is not public who the external experts invited to the climate working party are, how they are chosen, or what is asked of them.",
+      "quote": "Information is not available as to who these experts are, how much consistency there is in their selection, or what kind of information is sought from them.",
+      "page": 8
+    },
+    {
+      "claim": "Since the 2021 guidelines, the climate working party agendas have very rarely named invited third parties, so the rule on identifying third parties is hardly applied in practice.",
+      "quote": "mate meeting agendas of the WPIEI issued since the adoption of the guidelines have very rarely included mention of invited third parties.",
+      "page": 8
+    },
+    {
+      "claim": "Members of the European Economic and Social Committee have been observer delegates in the EU climate negotiations delegation since 2014 (the only statement in the paper on who joins the EU delegation at the conference).",
+      "quote": "EESC members have participated as observer delegates in the EU climate negotiations delegation since 2014.118",
+      "page": 11
+    },
+    {
+      "claim": "Participation rights apply equally to civil society, private sector and academia; the author sees a risk that business interests gain prominence and seek to lower EU ambition, and notes this has been observed in international climate negotiations (no data given).",
+      "quote": "This could, in principle, pose a risk whereby business interests are given more prominence and seek to lower the EU level of climate ambition.",
+      "page": 11
+    },
+    {
+      "claim": "At EU level there is no legal basis for giving environmental NGOs a better position than corporate actors such as the fossil fuel industry lobby (author's view).",
+      "quote": "how the legal status of stakeholder groups could be changed to give environmental NGOs a more favorable position than that given to corporate actors such as the fossil fuel industry lobby, for instance.",
+      "page": 11
+    },
+    {
+      "claim": "The EU says it is the most open UNFCCC party about its position ahead of negotiations (the study asserts this; no comparison with other Parties is shown).",
+      "quote": "ferent positions. Yet, the fact is that the EU is today quite unique among the UNFCCC parties in the degree of openness it affords citi-",
+      "page": 12
+    },
+    {
+      "claim": "Council working party composition, minutes and the content of external expert visits are not public.",
+      "quote": "tion of the bodies, the minutes or summaries of their meetings, or the substantive content of external expert visits are not public informa-",
+      "page": 15
+    },
+    {
+      "claim": "Recommendation by the author (not a finding): publish the composition of working parties and expert groups and report third-party involvement more openly.",
+      "quote": "lished, as well as the composition of the WP and expert groups.149 In the same vein, official third-party involvement in the WP work could be more openly reported.",
+      "page": 13
+    },
+    {
+      "claim": "Context point: the size of annual climate conferences is under pressure to shrink; the paper cites a source on the size of national delegations in a footnote but gives no figures.",
+      "quote": "increasing pressure to reduce the size of these annual climate conferences,10 which have essentially become unwieldy climate expos.",
+      "page": 2
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Only the EU-level preparatory process is studied. Delegation composition at the conference and the Member States' own processes are outside the scope.",
+      "stated_by_authors": true,
+      "quote": "EU representation and action during the negotiation sessions are not addressed.",
+      "page": 2
+    },
+    {
+      "point": "Member State processes are excluded, so nothing is said on how individual Member States compose delegations or who they admit.",
+      "stated_by_authors": true,
+      "quote": "Moreover, the analysis centres on the EU-level processes, not those ongoing in the Member",
+      "page": 2
+    },
+    {
+      "point": "Small interview base (8), interviewees selected for experience and availability, not coded formally.",
+      "stated_by_authors": true,
+      "quote": "The semi-structured interviews (N = 8) were carried out by the author in person and online between August and November 2023,",
+      "page": 3
+    },
+    {
+      "point": "No dataset was generated or analysed, so the paper gives no counts of business or fossil fuel delegates and no classification method.",
+      "stated_by_authors": true,
+      "quote": "Data sharing is not applicable to this article as no datasets were gen-",
+      "page": 15
+    },
+    {
+      "point": "The claim of privileged business access is reported as criticism from a third-party source (footnote), not tested by the author.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 8
+    },
+    {
+      "point": "The extracted file's metadata lists four unrelated author names (Lindner, Steenmans, Scotford, Malcolm); the article's first page names Tuula Honkonen as the author. Record uses the first-page name. Page numbers are those of the file (1-15), not the journal (379-393).",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 1
+    },
+    {
+      "point": "No instructions addressed to a reader or an AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Hoffmann-Axthelm, The Backroom Legislator: Transparency, Integrity and Accountability at the Council of the EU (Transparency International 2021)",
+      "what_it_is": "Cited in footnote 70 for the non-publication of Council preparatory body composition; a TI publication, candidate source on Council transparency. Not read here.",
+      "page": 7
+    },
+    {
+      "name": "Corporate Europe Observatory, 'Business Lobbies Dominate Secret Channel to Influence Council' (2021)",
+      "what_it_is": "Cited in footnote 89 for the claim of privileged business access to Council working parties. Not read here.",
+      "page": 8
+    },
+    {
+      "name": "Council General Secretariat, 'Guidelines on the occasional attendance of third parties, including interest representatives, at meetings of the Council or its preparatory bodies' (22 July 2021)",
+      "what_it_is": "Internal Council rules on admitting third parties, including interest representatives, to Council and working party meetings (footnote 84). Not read here.",
+      "page": 8
+    },
+    {
+      "name": "Rahman and Ahmad (2016), 'The size of national delegations and the need for attendance regulation at climate conferences', Okologisches Wirtschaften 31",
+      "what_it_is": "Listed in footnote 10 on delegation size; a candidate source for Q1 on delegation size and attendance regulation. Not read here.",
+      "page": 2
+    },
+    {
+      "name": "Register of Commission Expert Groups and Other Similar Entities",
+      "what_it_is": "Named in footnote 68 as promoting transparency of Commission expert group composition.",
+      "page": 7
+    }
+  ],
+  "relevant_to": ["Q1"],
+  "pages_read": "1-15 (all pages of the file)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

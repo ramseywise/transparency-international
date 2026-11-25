@@ -1,0 +1,182 @@
+{
+  "id": "unfccc-how-to-obtain-observer-status",
+  "citation": {
+    "authors": [
+      "UNFCCC secretariat"
+    ],
+    "year": null,
+    "title": "How to obtain observer status",
+    "venue_or_publisher": "UNFCCC website",
+    "doi_or_url": "https://unfccc.int/process-and-meetings/parties-non-party-stakeholders/non-party-stakeholders/overview/how-to-obtain-observer-status",
+    "type": "web page (official procedure page)",
+    "peer_reviewed": "no"
+  },
+  "question": "How organizations (NGOs and IGOs) are admitted as observers to the UNFCCC process: the steps, eligibility criteria and required documents.",
+  "data": "No data. It is a procedural web page of about 2,130 words. It cites FCCC/SBI/2004/5, FCCC/SBI/2004/10, FCCC/SBI/2025/6, FCCC/SBI/2020/INF.8, FCCC/SBI/2022/10, FCCC/SBI/2024/13, FCCC/CP/1995/7, Decision 36/CMP.1 and Decision 2/CMA.1. The page has no date.",
+  "method": "Not applicable. The page describes a four-step admission process. (1) Application through the Online Admission System (OAS). (2) Assessment of eligibility by the secretariat. (3) Provisional admittance by the COP Bureau. (4) Formal admission by the COP.",
+  "definitions": [
+    {
+      "term": "Observer organization (who may be admitted)",
+      "definition": "NGOs and IGOs must be admitted by the COP to send representatives to any UNFCCC session or meeting.",
+      "quote": "Organizations (non-governmental organizations (NGOs) and intergovernmental organizations (IGOs)) must be admitted by the Conference of the Parties (COP) as observer organizations",
+      "page": "Admission as an observer organization"
+    },
+    {
+      "term": "Eligible observer (Convention Art. 7.6)",
+      "definition": "Any body or agency, national or international, governmental or non-governmental, that is qualified in matters covered by the Convention and has told the secretariat it wishes to be represented, may be admitted unless at least one third of Parties present object.",
+      "quote": "Any body or agency, whether national or international, governmental or non-governmental, which is qualified in matters covered by the Convention",
+      "page": "Observer Admission"
+    },
+    {
+      "term": "Eligibility criteria (documents required)",
+      "definition": "Applicants must provide a statement of competence in Convention matters, confirmation of independent juridical personality, and confirmation of non-profit status in a UN member state (or a state of a specialized agency, the IAEA or the ICJ).",
+      "quote": "Confirmation of non-profit status in a State member of the United Nations",
+      "page": "Eligibility"
+    },
+    {
+      "term": "Not eligible: government-created bodies",
+      "definition": "Organizations established by and reporting to governments, and unable to show independence from government, are not eligible. They are encouraged to take part in government delegations.",
+      "quote": "They are encouraged to participate as part of government delegations",
+      "page": "Eligibility"
+    },
+    {
+      "term": "Not eligible: multilateral agreements",
+      "definition": "Multilateral agreements that do not create an independent juridical entity are not eligible.",
+      "quote": "Multilateral agreements that do not establish an independent juridical entity are not considered eligible for admission",
+      "page": "Eligibility"
+    },
+    {
+      "term": "Organizations acting for governments",
+      "definition": "These are eligible if they meet the criteria and their governance is independent of governments.",
+      "quote": "their governance structure is independent of governments, are considered eligible for admission",
+      "page": "Eligibility"
+    },
+    {
+      "term": "For-profit companies",
+      "definition": "These are not eligible. The page's FAQ answer says so and points to the standard admission process document. The question it answers is not shown in the extract.",
+      "quote": "No, for-profit companies are not eligible for admission",
+      "page": "FAQ (under Prioritization of admission applications)"
+    },
+    {
+      "term": "Coalitions of companies or initiatives",
+      "definition": "Entities classified as coalitions of companies or initiatives are referred to the Marrakech Partnership for Global Climate Action, not to observer admission.",
+      "quote": "For entities classified as coalitions of companies or initiatives wishing to engage in the UNFCCC process, please refer to the Marrakech Partnership for Global Climate Action.",
+      "page": "FAQ"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Not-for-profit (eligibility)",
+      "indicator": "A certificate of the organization's non-profit status issued by a government authority in the country of its headquarters.",
+      "quote": "a certificate of the non-profit status of the organization issued by a government authority in the country where your organization headquarters are located",
+      "page": "FAQ"
+    },
+    {
+      "concept": "Legal existence of the organization",
+      "indicator": "A certificate of incorporation, registration or establishment issued by a government authority in the headquarters country.",
+      "quote": "a certificate of incorporation/registration/establishment of the organization issued by a government authority",
+      "page": "FAQ"
+    },
+    {
+      "concept": "Independence from government",
+      "indicator": "Evidence of independence from government, and a governance structure independent of governments.",
+      "quote": "cannot provide evidence of independence from government",
+      "page": "Eligibility"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "For-profit companies cannot be admitted as observers. Business and industry takes part through non-profit organizations (NGOs).",
+      "quote": "No, for-profit companies are not eligible for admission",
+      "page": "FAQ"
+    },
+    {
+      "claim": "Staff of an organization without observer status can be nominated for attendance through already admitted NGOs.",
+      "quote": "An organization's representatives can be nominated through already admitted NGOs to engage at UNFCCC sessions.",
+      "page": "FAQ"
+    },
+    {
+      "claim": "Admitted observers must register their delegates for every session through the Online Registration System. Only registered delegates can enter the Blue Zone.",
+      "quote": "Access to the conference venue, the so-called Blue Zone, is limited to duly registered delegates.",
+      "page": "Admission process overview"
+    },
+    {
+      "claim": "Admission is a one-off process. Admitted organizations do not reapply.",
+      "quote": "Admission as an observer organization to the UNFCCC is a one-off process.",
+      "page": "Single admission process for COP, CMP and CMA"
+    },
+    {
+      "claim": "Assessment takes a long time, in some cases 6-7 years from application.",
+      "quote": "in some cases 6-7 years, from the date of application until the conclusion of the assessment can be communicated",
+      "page": "NOTE"
+    },
+    {
+      "claim": "The UNFCCC admission process is independent of ECOSOC or other UN status.",
+      "quote": "the UNFCCC admission process is independent from any status of an organization with United Nations Economic and Social Council (ECOSOC)",
+      "page": "Admission as an observer organization"
+    },
+    {
+      "claim": "Provisional admittance by the COP Bureau lets organizations register delegates before the COP formally admits them. The page says there has been no precedent of the COP refusing.",
+      "quote": "there has been no precedent for the COP not to grant observer status to recommended organizations",
+      "page": "Admission process overview"
+    },
+    {
+      "claim": "The page says applications are kept confidential. Documents must be certified or notarized translations if not in a UN language.",
+      "quote": "All documents and information submitted are kept confidential, and are only accessible to reviewers in the Observer Relations Team",
+      "page": "FAQ"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The page does not mention constituencies, the 'business and industry NGOs (BINGO)' category, badges or conflict-of-interest rules. It gives no counts or sector breakdown of delegates. It has no information on party-delegation (government) invitations. 'Constituency' and 'BINGO' were not found in the passages read.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The FAQ answers appear in the extract without their questions, because of how the page was extracted. The 'for-profit' and 'coalitions' answers are therefore read from context.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The page does not define 'for-profit'. The test is the non-profit certificate. Trade associations and industry NGOs that hold non-profit status can therefore be admitted. The page does not say this, and it is an inference.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The page is undated and says resources limit assessment.",
+      "stated_by_authors": true,
+      "quote": "subject to the availability of resources",
+      "page": "NOTE"
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "List of admitted NGOs / List of admitted IGOs",
+      "what_it_is": "UNFCCC lists of admitted observer organizations, linked from the page but not reproduced.",
+      "page": "Admission as an observer organization"
+    },
+    {
+      "name": "Standard admission process for NGOs and for IGOs",
+      "what_it_is": "Documents setting out the process, eligibility and required documents. They are linked but not reproduced.",
+      "page": "Admission process overview"
+    },
+    {
+      "name": "FCCC/SBI/2004/5, FCCC/SBI/2004/10, FCCC/SBI/2025/6 para 38(e)",
+      "what_it_is": "Documents of the Subsidiary Body for Implementation that set the eligibility procedures. The 2025 document clarifies the non-profit requirement.",
+      "page": "Eligibility"
+    },
+    {
+      "name": "Online Admission System (OAS) and Online Registration System (ORS)",
+      "what_it_is": "The secretariat's systems for admission applications and for delegate registration.",
+      "page": "Admission process overview"
+    }
+  ],
+  "relevant_to": [
+    "context",
+    "Q1"
+  ],
+  "pages_read": "whole source (2130 words). I read all 28 passages of the chunk file. I did not search the full text."
+}

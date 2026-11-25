@@ -1,0 +1,138 @@
+{
+  "id": "doi-10-1080-13501763-2015-1008549",
+  "citation": {
+    "authors": ["Joost Berkhout", "Brendan J. Carroll", "Caelesta Braun", "Adam W. Chalmers", "Tine Destrooper", "David Lowery", "Simon Otjes", "Anne Rasmussen"],
+    "year": 2015,
+    "title": "Interest organizations across economic sectors: explaining interest group density in the European Union",
+    "venue_or_publisher": "Journal of European Public Policy 22(4): 462-480 (file is a University of Groningen repository copy; cover sheet states: Publisher's PDF, version of record)",
+    "doi_or_url": "https://doi.org/10.1080/13501763.2015.1008549",
+    "type": "journal article",
+    "peer_reviewed": "yes"
+  },
+  "question": "Why the number of interest organizations (density) differs between economic sectors in the EU, tested with supply-side (number of firms, wealth, market integration, share of individual institutions, umbrella groups) and demand-side (EU legislation, DG budgets, DG staff) factors.",
+  "data": "Interest organizations holding a European Parliament door pass, registered in 2009 (a snapshot; 2005-10 data exist, 2008-10 used as a robustness check). 1,425 of 2,070 organizations classified by economic sector, giving 88 sectors; 57 sectors (694 organizations) in the regression. Sector-level market data from Eurostat Structural Business Statistics 2009; EU legislation counted from Eurlex; DG spending and staff from 2009 Commission documents.",
+  "method": "Organizations were classified into economic sectors, and by organizational type, from information on their websites. Sectors follow the ISIC scheme (UN standard). Density per sector was counted and explained with negative binomial regression (57 sectors). Legislative acts per sector were found by Boolean search in Eurlex using the ISIC sector descriptions. How individual organizations were assigned to sectors in detail, and any coder agreement, is not stated in the main text (the coding procedure is in a Supplemental Data appendix that is not in this file).",
+  "definitions": [
+    {
+      "term": "density (of interest organizations)",
+      "definition": "The number of interest organizations in a given sector, issue or policy domain.",
+      "quote": "The number of interest organizations (density) varies across policy domains, political issues and economic sectors.",
+      "page": 2
+    },
+    {
+      "term": "institutions (individual organizations that lobby for themselves)",
+      "definition": "Following Salisbury (1984): individual corporations, governments, universities, think tanks and other non-membership organizations, as opposed to associations.",
+      "quote": "we use the term ‘institutions’ in the same manner as Salisbury (1984), including among others ‘individual corporations, state and local governments, universities, think tanks’",
+      "page": 17
+    },
+    {
+      "term": "economic sector (unit of analysis)",
+      "definition": "Chosen because it is the most tightly defined sub-population in which competition for resources among organizations can be assumed.",
+      "quote": "economic sectors most closely match the tightly deﬁned sub-population required to plausibly assume (critical resource) competition among organizations",
+      "page": 4
+    },
+    {
+      "term": "ISIC",
+      "definition": "International Standard Industrial Classification of All Economic Activities, the UN statistical standard; ISIC rev. 4 is stated to be consistent with the EU's NACE rev. 2.",
+      "quote": "ISIC stands for International Standard Industrial Classiﬁcation of All Economic Activities and is the statistical standard proposed by the United Nations.",
+      "page": 17
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "organization is politically active (counts as an interest organization)",
+      "indicator": "Being on the European Parliament door-pass register in 2009; authors argue this shows at least minimal political activity, unlike other directories or the Transparency Register.",
+      "quote": "A beneﬁt of the Parliament register is that we know that actors in the list have demonstrated at least a minimal level of political activity",
+      "page": 9
+    },
+    {
+      "concept": "economic sector of an organization",
+      "indicator": "Classification by the authors from website information into ISIC categories; organizations outside ISIC (social or public sectors) are excluded.",
+      "quote": "we only include organizations that can be classiﬁed in one of the categories of the ISIC classiﬁcation of economic activities (i.e., this excludes ‘social’ or ‘public’ sectors).",
+      "page": 9
+    },
+    {
+      "concept": "type of organization (umbrella group, individual institution)",
+      "indicator": "Classification by organizational type from website information.",
+      "quote": "Based on website information, we classify these organizations into economic sectors for the density measure and by organizational type to measure the presence of European-level umbrella groups and of individual institutions.",
+      "page": 9
+    },
+    {
+      "concept": "number of potential constituents and sector wealth",
+      "indicator": "Number of enterprises per sector (constituents); turnover per enterprise (wealth), from Eurostat Structural Business Statistics.",
+      "quote": "The size of the constituency is measured by the number of enterprises in a given sector. Wealth is operationalized by turnover per enterprise.",
+      "page": 10
+    },
+    {
+      "concept": "sector-level EU regulation",
+      "indicator": "Count of EU legislative acts found by Boolean search in Eurlex using the ISIC sector descriptions.",
+      "quote": "The Boolean search logic uses the full descriptions of each economic sector as outlined by the ISIC classiﬁcation scheme.",
+      "page": 10
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Economic structure (number of enterprises, wealth, market integration) shapes how many interest organizations a sector has; EU policy-activity measures showed no consistent effect.",
+      "quote": "economic institutions structure the ‘supply’ of interest organizations by affecting the number of potential constituents, the resources available for lobbying and the geographical level of collective action of businesses.",
+      "page": 2
+    },
+    {
+      "claim": "Density is very uneven across sectors: many sectors have few organizations, a few have many.",
+      "quote": "with a large number of sectors having only a few lobbyists in the European Parliament and a smaller number of sectors having a high number",
+      "page": 11
+    },
+    {
+      "claim": "Sectors with a higher share of individual institutions (firms and similar) and with an umbrella group have more organizations.",
+      "quote": "Both the share of institutions and the presence of umbrella groups remain signiﬁcant at p , 0.01.",
+      "page": 13
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Only business sectors that fit ISIC are covered; roughly half the interest group population.",
+      "stated_by_authors": true,
+      "quote": "This means that our ﬁndings apply to only about half of the EU interest group population.",
+      "page": 15
+    },
+    {
+      "point": "Sectors where in-house and client lobbying cannot be told apart (legal, consultancy, information services) were left out; financial services also dropped for lack of Eurostat data.",
+      "stated_by_authors": true,
+      "quote": "We also leave out the ISIC sectors for which we cannot differentiate between ‘inhouse’ and ‘client’ lobbying.",
+      "page": 9
+    },
+    {
+      "point": "Sector data come from Eurostat's business economy only; agriculture, forestry, fishing and public administration have no such data.",
+      "stated_by_authors": true,
+      "quote": "Data on ﬁnancial services are also missing; however, this is owing to a general ‘lack of standard business statistics’ for this sector",
+      "page": 9
+    },
+    {
+      "point": "Linking policy areas to economic sectors is imperfect.",
+      "stated_by_authors": true,
+      "quote": "policy sectors, economic sectors and interest guilds can only be linked in an imperfect manner",
+      "page": 15
+    },
+    {
+      "point": "The detailed coding procedure and the full sector list are in a Supplemental Data appendix not included in this file; no coder-agreement figure, double coding or validation of the sector classification appears in the main text. About 31 percent of the register (645 of 2,070 organizations) was not classified by sector, and the text does not say why.",
+      "stated_by_authors": false,
+      "quote": "Our Appendix (see Supplemental Data) provides a full list of the 57 sectors included and further information on the coding procedure.",
+      "page": 10
+    },
+    {
+      "point": "No instructions addressed to a reader or an AI were found in the file; the cover sheet only advises citing the publisher's version.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 1
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {"name": "European Parliament door pass register, 2009", "what_it_is": "List of registered interest representatives with a door pass, used as the population of interest organizations (1,425 of 2,070 classified by sector).", "page": 4},
+    {"name": "ISIC rev. 4 (UN) / NACE rev. 2", "what_it_is": "Statistical classification of economic activities used for the sector scheme; links to Eurostat data.", "page": 17},
+    {"name": "Eurostat Structural Business Statistics (European Business: Facts and Figures 2009)", "what_it_is": "Source of enterprise counts and turnover per sector for the business economy.", "page": 10},
+    {"name": "Supplemental Data appendix (full list of 57 sectors, coding procedure, Eurlex search terms)", "what_it_is": "Published on the journal website; not part of this file.", "page": 10}
+  ],
+  "relevant_to": ["Q1", "method"],
+  "pages_read": "1-20 (all)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

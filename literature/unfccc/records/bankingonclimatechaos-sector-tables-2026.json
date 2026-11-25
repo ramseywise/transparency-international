@@ -1,0 +1,101 @@
+{
+  "id": "bankingonclimatechaos-sector-tables-2026",
+  "citation": {
+    "authors": [
+      "Banking on Climate Chaos Coalition (Rainforest Action Network, Indigenous Environmental Network, BankTrack, Center for Energy, Ecology, and Development, Oil Change International, Reclaim Finance, Sierra Club, Urgewald)"
+    ],
+    "year": 2026,
+    "title": "Banking on Climate Chaos: Fossil Fuel Finance Report 2026, Oil & Gas Expansion - Expansion Sector League Tables",
+    "venue_or_publisher": "Banking on Climate Chaos Coalition",
+    "doi_or_url": "http://www.bankingonclimatechaos.org/sector-tables-2026",
+    "type": "supplementary data tables (PDF) to an NGO report",
+    "peer_reviewed": "no"
+  },
+  "question": "Supplementary league tables showing how much the world's 65 largest banks financed companies actively expanding oil and gas projects, in upstream, midstream and gas power, 2021-2025. Taken from the document's own description.",
+  "data": "Bank financing figures for 2021 to 2025 for 65 banks. Three tables: upstream oil and gas expansion companies (grand total $983.1B), midstream (grand total $932.5B) and gas power (grand total $695.3B). The values are in billions of US dollars. Many bank rows have blank values in the text extraction. The tables hold no list of the expanding companies themselves.",
+  "method": "Not described in this document. It refers to the main report for the methodology. It says the research covers 'global banks' financial flows to the fossil fuel industry'. Banks are ranked by 2025 financing, with 2024-25 change in dollars and in percent. Banks can review their attributed financing before publication.",
+  "definitions": [
+    {
+      "term": "Expansion companies (oil and gas)",
+      "definition": "Only a loose description: companies 'actively expanding oil and gas projects in the upstream, midstream and power sectors'. There is no criterion for 'expanding'.",
+      "quote": "financing to companies actively expanding oil and gas projects in the upstream, midstream and power sectors by the world’s largest 65 banks",
+      "page": 1
+    },
+    {
+      "term": "Upstream",
+      "definition": "Exploration & Production",
+      "quote": "Financing to Upstream Oil & Gas Expansion Companies (Exploration & Production)",
+      "page": 2
+    },
+    {
+      "term": "Midstream",
+      "definition": "Pipelines and LNG infrastructure",
+      "quote": "Financing to Midstream Oil & Gas Expansion Companies (Pipelines and LNG Infrastructure)",
+      "page": 5
+    },
+    {
+      "term": "Gas power",
+      "definition": "Label only, with no definition",
+      "quote": "Financing to Gas Power Expansion Companies",
+      "page": 8
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Fossil-linked sector split (upstream, midstream, gas power)",
+      "indicator": "Companies are grouped by value-chain segment: E&P; pipelines and LNG infrastructure; gas power. The tables do not say how a company is assigned to a segment.",
+      "quote": "Exploration & Production",
+      "page": 2
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Upstream expansion financing totalled $983.1B over 2021-2025, up $25.2B (13%) from 2024 to 2025. JPMorgan Chase ranked first.",
+      "quote": "Grand Total $243.3 $201.7 $129.0 $192.0 $217.1 $983.1 +$25.2 B 13%",
+      "page": 5
+    },
+    {
+      "claim": "Midstream expansion financing totalled $932.5B, up $116.1B (84%) from 2024 to 2025.",
+      "quote": "Grand Total $185.3 $177.1 $176.7 $138.6 $254.8 $932.5 +$116.1 B 84%",
+      "page": 8
+    },
+    {
+      "claim": "Gas power expansion financing totalled $695.3B, up $45.2B (29%) from 2024 to 2025.",
+      "quote": "Grand Total $141.0 $106.4 $94.3 $154.2 $199.4 $695.3 +$45.2 B 29%",
+      "page": 11
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The authors do not guarantee accuracy or completeness. Data may be open to interpretation.",
+      "stated_by_authors": true,
+      "quote": "we do not guarantee the accuracy, completeness, or reliability of the content",
+      "page": 1
+    },
+    {
+      "point": "The text extraction is incomplete. Many bank rows lack figures, and the column headers are garbled.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The document covers bank financing, not delegates or UNFCCC participation. It names no fossil companies and gives no company list or classification method.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Banking on Climate Chaos: Fossil Fuel Finance Report 2026 (main report)",
+      "what_it_is": "The main report with the methodology and the full dataset. It is not included here and is linked at bankingonclimatechaos.org.",
+      "page": 1
+    }
+  ],
+  "relevant_to": [
+    "method"
+  ],
+  "pages_read": "whole source (2152 words)",
+  "read_on": "2026-11-25",
+  "read_by": "source-reader, sonnet"
+}

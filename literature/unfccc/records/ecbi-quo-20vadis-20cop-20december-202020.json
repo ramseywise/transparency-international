@@ -1,0 +1,141 @@
+{
+  "id": "ecbi-quo-20vadis-20cop-20december-202020",
+  "citation": {
+    "authors": [
+      "Benito Müller",
+      "Jen Allan",
+      "Matthias Roesti",
+      "Luis Gomez-Echeverri"
+    ],
+    "year": 2020,
+    "title": "Quo Vadis COP? Future Arrangements for Intergovernmental Meetings under the UNFCCC – Settled and Fit for Purpose",
+    "venue_or_publisher": "ecbi (European Capacity Building Initiative) Policy Report; pre-publication copy, November 2020, embargoed until January 2021; foreword by Marianne Karlsen, Chair of the SBI",
+    "doi_or_url": "https://ecbi.org/sites/default/files/Quo%20Vadis%20COP%20December%202020.pdf",
+    "type": "policy report",
+    "peer_reviewed": "no"
+  },
+  "question": "Whether COP sessions after 2020, which will focus on implementation, could return to 'small COPs' of up to 5,000 participants (the capacity of the Bonn World Conference Center). The report looks at the drivers of participant numbers and proposes a default location in Geneva. It would move High-Level Segments and non-Party 'climate action' events to a separate annual Global Climate Action Week event.",
+  "data": "UNFCCC registration numbers for COP and mid-year SB sessions, 1995-2019, used as proxy attendance figures. Lists of named Party participants at COP23 (Bonn, 2017; 194 delegations) and SB46 (194 delegations). GDP and population data from the World Bank, with some from the CIA World Factbook. The German Government's COP23 environmental report (BMU 2017).",
+  "method": "Time-series description of registrations. Regressions on delegation size at COP23 and SB46, controlling for LDC status, log GDP, European country and AOSIS membership. The authors classified every named individual on the Party lists by hierarchical status and by the type of agency the delegate represents. A scenario then estimates how far participant numbers would fall.",
+  "definitions": [
+    {
+      "term": "High-level participant",
+      "definition": "Participant with 'H.E.' as a listed title in the official participant list. This includes ministers, state secretaries and Heads of State.",
+      "quote": "High-level participants are defined as participants with ‘H.E.’ (His/Her Excellency) as a listed title, in the official participant list.",
+      "page": 28
+    },
+    {
+      "term": "Delegation overflow badge",
+      "definition": "A badge, introduced at COP3, that lets Parties nominate individuals without their names appearing on the official list of participants.",
+      "quote": "These badges were first introduced at COP3 and allow Parties to nominate individuals without their name appearing on the official list of participants.",
+      "page": 27
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Attendance",
+      "indicator": "UNFCCC registration numbers, excluding the host-managed 'Green Zone'",
+      "quote": "based on UNFCCC registration numbers used as proxy attendance figures. As such, it also excludes registration figures regarding what has become known as the ‘Green Zone’",
+      "page": 16
+    },
+    {
+      "concept": "Delegate hierarchy and agency type",
+      "indicator": "Each named individual on the Party participant lists was classified by hierarchical status and by the type of agency represented. The categories visible in the text are high-level, regular, senior, 'overflow' and 'other (such as NGO and academia)'. The full category scheme is in Table 3 and Figure 8, which are not in the extracted text. No business or fossil-fuel category is visible.",
+      "quote": "we classified every named individual according to hierarchical status and the type of agency the delegate represents.",
+      "page": 26
+    },
+    {
+      "concept": "Number of agencies in a delegation",
+      "indicator": "Count of ministries/agencies represented on the named list",
+      "quote": "The single best predictor of delegation size is the number of ministries/agencies represented in a delegation.",
+      "page": 28
+    }
+  ],
+  "findings": [
+    {
+      "claim": "'Delegation overflow' badges made up 27% of Party participants at COP23 and 6% at SB46.",
+      "quote": "The ‘delegation overflow’ participants represented 27 per cent of Party participants at COP23, compared to only 6 per cent at SB46.",
+      "page": 27
+    },
+    {
+      "claim": "The 'other' category on Party lists includes NGO and academia delegates. Without the overflow group, the shares of regular and senior officials at the two events would be very similar.",
+      "quote": "there are more participants from the ‘high-level’ and ‘other’ (such as NGO and academia) categories at the COP",
+      "page": 27
+    },
+    {
+      "claim": "At COP23, delegations with at least one high-level participant were about 57% larger than average. 136 delegations had one and 58 had none.",
+      "quote": "the presence of one or more high-level participants increases delegation size by 57 per cent relative to the average at COP23.",
+      "page": 28
+    },
+    {
+      "claim": "The number of ministries/agencies is the best predictor of delegation size. The average delegation at COP23 represented 11 agencies.",
+      "quote": "Having one more ministry/agency present is associated with an increase in delegation size of about 9 per cent at COP 23",
+      "page": 28
+    },
+    {
+      "claim": "The authors judge that post-2020 COPs could return to small-COP size (up to 5,000 participants) if High-Level Segments and non-Party Green Zone events are moved elsewhere.",
+      "quote": "We find that the expected post-2020 workload could be managed in small COP sessions",
+      "page": 7
+    },
+    {
+      "claim": "Private-sector and NGO participants tend to attend the 'enormous COPs' when major outcomes are expected. The report discusses observers whose main aim is to lobby national governments.",
+      "quote": "Participants representing the private sector, NGOs, cities, and others tend to arrive at the ‘enormous COPs’ when major outcomes are expected",
+      "page": null
+    },
+    {
+      "claim": "After Copenhagen, the Secretariat rationed NGO observer registration spaces, so observer numbers do not reflect demand.",
+      "quote": "After the outlier of Copenhagen, the Secretariat introduced a rationing of available registration spaces.",
+      "page": 19
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The authors say they lack proper data on overflow delegates, who are absent from any named list. Overflow delegates are excluded from the scenario analysis.",
+      "stated_by_authors": true,
+      "quote": "Delegation overflow (see II.2.1) is an issue for which we lack proper data to analyse.",
+      "page": 29
+    },
+    {
+      "point": "Registration numbers are only a proxy for attendance and exclude the Green Zone.",
+      "stated_by_authors": true,
+      "quote": "UNFCCC registration numbers used as proxy attendance figures.",
+      "page": 16
+    },
+    {
+      "point": "The report is a policy report of the authors' personal views and is not peer reviewed. It is not about business or fossil-fuel affiliation. It gives no count of business delegates and no sector classification, at least in the passages read.",
+      "stated_by_authors": false,
+      "quote": "The contents of this paper are the sole responsibility of the authors.",
+      "page": 2
+    },
+    {
+      "point": "Table 3 and Figure 8 (composition by category) are not in the extracted text, so the exact category definitions and counts are not visible. The page numbers for the private-sector and lobbying quotes were not pinned down.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC lists of participants, COP23 and SB46",
+      "what_it_is": "Official named participant lists, used by the authors to classify delegates by hierarchy and agency type. The overflow badge holders are not named on them.",
+      "page": 26
+    },
+    {
+      "name": "BMU (2017) German Government Environmental Report for COP23",
+      "what_it_is": "Report on host-country involvement at COP23",
+      "page": 24
+    },
+    {
+      "name": "AIM 2014/2015 documents",
+      "what_it_is": "UNFCCC documents on arrangements for intergovernmental meetings, cited for the scale and 'small COP' scenarios",
+      "page": 21
+    }
+  ],
+  "relevant_to": [
+    "method",
+    "context"
+  ],
+  "pages_read": "selected by code: 48 of 218 passages, 3992 of 18079 words, from pages 1-2, 7-8, 11, 14, 16, 18-19, 21-31, 33-36, 38, 45, 48-49, 52 of 55; chosen for definitions, indicators, method, findings and limitations; the rest was not read. I also searched the full text for business, private sector, industry, lobby, fossil, conflict of interest, overflow and Table 3, and read only the passages those searches returned (for example Part IV, around pp. 44-50).",
+  "read_on": "2026-11-25",
+  "read_by": "source-reader, sonnet"
+}

@@ -1,0 +1,391 @@
+{
+ "id": "doi-10-1093-ser-mwad002",
+ "title": "Downloaded from https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwad002/7030814 by University of Wisconsin-Madison Libraries user on 09 February 2023 Socio-Economic Review, 2023, Vol. 00,",
+ "kind": "pdf",
+ "url": "https://doi.org/10.1093/ser/mwad002",
+ "coverage": {
+  "mode": "selected",
+  "passages_given": 35,
+  "passages_total": 141,
+  "words_given": 3983,
+  "words_total": 14590,
+  "pages_given": [
+   1,
+   2,
+   3,
+   4,
+   6,
+   7,
+   8,
+   9,
+   10,
+   12,
+   14,
+   15,
+   16,
+   18,
+   23,
+   24,
+   25,
+   26,
+   27
+  ],
+  "pages_total": 29,
+  "note": "selected by code: 35 of 141 passages, 3983 of 14590 words, from pages 1-4, 6-10, 12, 14-16, 18, 23-27 of 29; chosen for definitions, indicators, method, findings and limitations; the rest was not read"
+ },
+ "passages": [
+  {
+   "chunk": 0,
+   "loc": "p.1",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "limitations",
+    "opening",
+    "proxies"
+   ],
+   "text": "Downloaded from https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwad002/7030814 by University of Wisconsin-Madison Libraries user on 09 February 2023 Socio-Economic Review, 2023, Vol. 00, No. 0, 1–29 https://doi.org/10.1093/ser/mwad002 Article Article Regulatory capture’s third face of power Wendy Y. Li * Department of Sociology, University of Wisconsin-Madison, Madison, WI, USA *Correspondence: wyli@wisc.edu Abstract The term ‘regulatory capture’ is frequently invoked to describe dysfunctional government institutions. In its casual use, it refers to a phenomenon in which regulations benefit regulated industries, rather than public interests. However, as an analytical concept, social scientists have struggled to empirically identify and define the processes in which capture emerges and sustains. In this article, I outline a cultural framework for regulatory capture by linking cultural sociology and the faces of power to existing capture theory. Through an ethnographic case study of digital trade provisions in international trade agreements, I show how capture occurs through the construction and manipulation of ‘public interests’. I trace how capture (a) emerges when industry lobbyists extend existing schemas of a policy network into new frames and (b) is institutionalized into regulatory agencies when policymakers adopt and enact these frames into knowledge production and law. Thus, capture appears through a veneer of consensus, which suppresses alternative interests and policy outcomes."
+  },
+  {
+   "chunk": 1,
+   "loc": "p.1",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "opening",
+    "proxies"
+   ],
+   "text": "Key words: regulation, culture, networks, power, elites, trade, interest groups JEL classiﬁcation: K2 regulation and business law 1. Introduction Over the past century, alongside the growth of the administrative state, scholars have focused on the concept of regulatory capture to understand why public policies often favor the industries they are tasked to regulate. At the least, capture can produce biases favoring industry interests at the expense of broader public interests. At its worst, regulatory capture can result in crises, disasters and signiﬁcant failures of governance, ranging from the 2008 ﬁnancial crisis (Johnson and Kwak, 2011) to the BP oil spill (Whitehouse, 2010) and the Boeing 737 Max disasters (U.S. House Committee on Transportation and Infrastructure, 2020). With these implications in mind, scholars have endeavored to identify, measure and provide solutions for regulatory capture. However, capture remains a slippery concept and is"
+  },
+  {
+   "chunk": 2,
+   "loc": "p.1",
+   "section": null,
+   "why": [
+    "lists_and_datasets",
+    "opening"
+   ],
+   "text": "C The Author(s) 2023. Published by Oxford University Press and the Society for the Advancement of Socio-Economics. V All rights reserved. For permissions, please email: journals.permissions@oup.com"
+  },
+  {
+   "chunk": 5,
+   "loc": "p.2",
+   "section": null,
+   "why": [
+    "limitations",
+    "lists_and_datasets"
+   ],
+   "text": "I deﬁne regulatory capture as a process through which corporate lobbyists suppress alternative interests not merely through overt, measurable impositions of will, but also through the shaping of the cultural understandings that give rise to durable policies and regulatory agencies over time. I conceptualize regulatory capture in two stages. In its ﬁrst stage, emergence, industry lobbyists1 pursue a dual strategy of network embedding and schema extension to inﬂuence policy outcomes. Network embedding is a process in which corporations mobilize lobbyists to gain access to policy networks and the policymaking process. Schema extension occurs when these lobbyists seize upon the existing cultural schemas of a policy network and extend these schemas into frames that incorporate industry interests. In the second stage of regulatory capture, lobbyists and public ofﬁcials institutionalize capture through channels such as knowledge production and reproduction of policy outcomes in various legal institutions. These actions not only constrain future policy outcomes but also further incorporate industry-favored cultural frames into underlying cultural schemas."
+  },
+  {
+   "chunk": 6,
+   "loc": "p.2",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "proxies"
+   ],
+   "text": "This article advances research on regulatory capture on several fronts. First, it gives further analytical rigor to the term ‘regulatory capture’ by specifying its cultural dimensions. I show that contemporary debates about regulatory capture parallel the longstanding debate regarding the ‘faces of power’ and how researchers should operationalize and measure interest group power. I argue that the capture literature typically relies on the ﬁrst and second faces of power to detect capture (Dahl, 1961; Bachrach and Baratz, 1962). I build on recent cultural approaches to capture (Kwak, 2014; Rilinger, 2023) to specify the mechanisms through which the third face of power operates (Lukes, 2005)."
+  },
+  {
+   "chunk": 7,
+   "loc": "p.2",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "limitations",
+    "lists_and_datasets"
+   ],
+   "text": "1 I use the term lobbyist to refer to any individual whose job responsibility involves policy support for a non-state organization’s interests (e.g. private company, trade association, non-proﬁt) before government entities. This deﬁnition is more expansive than the legal deﬁnition of a registered lobbyist in the Lobbying Disclosure Act of 1995, which focuses on interaction with elected and appointed ofﬁcials, and stipulates thresholds for lobbying expenditures and time spent lobbying. Many individuals I have interviewed describe their job as doing the work of lobbying but do not register as lobbyists based on subjective judgments of time use, or because they only interact with non-appointed ofﬁcials in federal agencies, that is civil servants. In the study of regulatory agencies, most government ofﬁcials are ‘non-covered’ ofﬁcials, with whom lobbyists do not have to report their interactions. This obviously poses signiﬁcant methodological problems for those who rely on lobbying registrations to study regulatory processes."
+  },
+  {
+   "chunk": 11,
+   "loc": "p.3",
+   "section": null,
+   "why": [
+    "limitations"
+   ],
+   "text": "2. Culture, power and capture In recent years, scholars have debated how capture emerges, how capture should be diagnosed and its potential policy solutions. While early models of regulatory capture framed policy outcomes and political spending as ‘goods’ demanded and supplied by industries and self-interested legislators (Olson, 1965; Posner, 1969, 1974; Stigler, 1971), more recent work has instead focused on empirically measuring the behavior of lobbyists and regulators on the ground. As the administrative state has grown in size and authority, scholars have expanded capture to not only include those prior materialist accounts of protectionist, rent-seeking behavior, but also broader conceptions of regulatory bias."
+  },
+  {
+   "chunk": 12,
+   "loc": "p.3",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "lists_and_datasets",
+    "proxies"
+   ],
+   "text": "As a result, deﬁnitions of capture vary greatly. Carpenter and Moss observe in their edited volume on the subject that scholars are ‘quick to see capture as the explanation for almost any regulatory problem’, (2014, p. 3) and rely on either coincidence and correlation to deﬁne capture, or high-proﬁle disasters, rather than demonstrating the mechanisms through which policymakers come to favor corporate interests. Similarly, Rex (2020, p. 272) notes that ‘there are rival deﬁnitions, the public interest is often undeﬁned, capture is treated dichotomously, and industry inﬂuence is often assumed without being proven’. Carpenter and Moss (2014) propose a set of conditions that must be satisﬁed to claim capture: agencies are said to be captured when there exists an identiﬁable ‘public interest’, ‘industry interest’ or ‘special interest’, and agencies consistently choose the industry/special interest over others, despite available evidence or statutes that would favor other interests (Yackee, 2014). Therefore, many scholars identify regulatory capture through policy outcomes, for example, accidents, governance failures and consistent decisions favoring regulated industries. However, this focus on observable outcomes limits our ability to detect and measure instances of regulatory capture. ‘Public’ interests are not necessarily easily identiﬁed or stated, and"
+  },
+  {
+   "chunk": 15,
+   "loc": "p.4",
+   "section": null,
+   "why": [
+    "definitions",
+    "method"
+   ],
+   "text": "For the purposes of identifying regulatory capture, the third face of power differs from the ﬁrst two faces of power on the issue of the ‘public interest’. Carpenter and Moss’ (2014) approach to regulatory capture, in its focus on identiﬁable and opposing interests, adopts a behavioralist approach. For a regulatory agency to be captured, some type of alternative interest or grievance aligning with ‘public interests’ must be both identiﬁable and intentionally overlooked. Industry interests are self-serving and driven by private proﬁt-maximization, while ‘public interests’ are clearly contrasting, defeasible value claims relating to the ‘common good’ in a democratic society (Carpenter and Moss, 2014, p. 14). The ‘winners’ can be clearly seen and deﬁned. The ﬁrst-face struggles for power are typically short-term conﬂicts with discrete boundaries, for example, industry participation in rulemaking processes (Coglianese and Walters, 2016; Potter, 2019; Yackee, 2019). The second-face struggles are medium-term episodes that deﬁne political agendas, such as when interest groups pursue ex parte meetings (Libgober, 2020), coalitions form and crowd out dissenting interest groups (Nelson and Yackee, 2012; Heaney, 2014; Hojnacki et al., 2015) or business interests control information (Shaffer, 2003; Woll and Artigas, 2007; Kerwin and Furlong, 2011). In these formulations, agencies adopt agendas that set aside the concerns of alternative, but observable, interest groups, making decisions resulting in the ‘suppression or thwarting of"
+  },
+  {
+   "chunk": 21,
+   "loc": "p.6",
+   "section": null,
+   "why": [
+    "limitations",
+    "proxies"
+   ],
+   "text": "Downloaded from https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwad002/7030814 by University of Wisconsin-Madison Libraries user on 09 February 2023 trade associations, advocacy groups and think tanks (Laumann and Knoke 1987; Knoke, 1994). Policy domains form around speciﬁc issue areas in which actors ‘take each other into account in their actions’ (Laumann and Knoke, 1987, p. 11). In practice, we often recognize policy domains by substantive focus, for example healthcare policy, tax policy, foreign policy, and as detailed in this article, trade policy. To embed oneself in a policy domain, one must establish a ‘criterion of mutual relevance’ (Laumann and Knoke, 1987, p. 11). Actors are deemed non-members of a domain if their actions are ‘inconsequential’ for shaping collective decisions within the domain. This does not mean that ‘losers’ or actors who are less inﬂuential or unsuccessful in their advocacy efforts are excluded. In fact, the actions of these actors are likely important for shaping others’ behavior during the policymaking process. Instead, non-members are those whose actions are not even registered, whose presence is completely suppressed, in policymaking processes. Importantly, the criterion of relevance is constructed by cultural understandings of policy problems, including narratives about causal stories, target populations, expertise, legitimacy and the public interest (Stone, 1989), and can change over time."
+  },
+  {
+   "chunk": 24,
+   "loc": "p.6",
+   "section": null,
+   "why": [
+    "limitations",
+    "method"
+   ],
+   "text": "While some approaches to capture have distinguished between material and cultural sources of capture (see Rex, 2020), this approach views the two as mutually dependent. Material sources of power are relevant here not because they are determinative of ‘who wins’ but because they afford economically dominant actors the ability to mobilize resources that can be"
+  },
+  {
+   "chunk": 25,
+   "loc": "p.7",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "lists_and_datasets",
+    "proxies"
+   ],
+   "text": "Downloaded from https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwad002/7030814 by University of Wisconsin-Madison Libraries user on 09 February 2023 converted into social and cultural capital (Bourdieu, 1986). Well-resourced actors overcome collective action problems (Olson, 1965) to establish new lobbying groups, fund public relations campaigns, hire well-connected lobbyists and open ofﬁces in Washington so that their government relations ofﬁces can mobilize cultural frames and logics, which construct their economic power and market share as critical to US ‘public interests’. It is not always the case that this conversion is done successfully. As several studies have shown, lobbying expenditures do not correlate with favorable policy change (Baumgartner et al., 2009), and well-resourced groups are successful when working in coalition with groups that are able to mobilize cultural resources (Smith, 2000). Thus, the third face of regulatory capture cannot be reduced to material power alone—for capture to emerge, lobbyists must be able to mobilize cultural and relational resources to their advantage."
+  },
+  {
+   "chunk": 27,
+   "loc": "p.7",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations"
+   ],
+   "text": "Through these processes, we see regulatory capture’s third face of power. Whereas the ﬁrst face of power leaves traces through observable outcomes, and the second face of power can be found in the ability of the industry to directly shape policy agendas, the third face of power shows itself as consensus and through taken-for-granted understandings of public policy. The third face of power underlies the other two faces and struggles in each dimension can operate simultaneously and on different time horizons. Thus, even when the third face of power operates, this does not mean a regulatory domain is completely free of observable conﬂict. There will still be competing interest groups and struggles around agenda setting, but these actors, together with regulators, will have a shared vocabulary and deﬁnition around what constitutes public interests. The extent to which ideas around public interests are inﬂexible and narrow, or adaptive and expansive, is shaped by struggles over the third face of power. That said, the third face of power is not autonomous from the ﬁrst and second faces. First- and second-face struggles can impact how we conceive of public interests. But these struggles are not determinative of this broader cultural terrain in which ideas around the public interest are shaped, framed and manifested in regulation."
+  },
+  {
+   "chunk": 33,
+   "loc": "p.8",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings"
+   ],
+   "text": "Yet 10 years ago, the term ‘digital trade’ was nowhere to be found in the trade policy lexicon, and the US negotiators pursued policies that contradicted the objectives of the digital trade agenda, to the satisfaction of inﬂuential copyright interests. These groups included trade associations representing the ﬁlm industry, the music recording industry, the software industry and publishers. In 2010, USTR led international negotiations on the Anti-Counterfeiting Trade Agreement (ACTA), while Congress considered domestic legislation which would make online platforms such as Facebook and Google legally liable for copyright infringements on their websites.2 If enacted, these laws would require Internet"
+  },
+  {
+   "chunk": 38,
+   "loc": "p.9",
+   "section": null,
+   "why": [
+    "limitations",
+    "method"
+   ],
+   "text": "4. Data and methods To investigate this digital trade consensus, I relied on a combination of data sources and analysis methods, including participant observation and interviewing, and content analysis of the government records obtained through the Freedom of Information Act (FOIA) request. Capture can be misattributed unless one temporally locates when inﬂuence was exerted by speciﬁc actors (Rilinger, 2023). Therefore, my ethnographic inquiry included not only data collected in the period during the consolidation of consensus in the trade policy domain, but also in periods when this consensus was not yet established. Doing so required going back to trade policymaking before Internet companies entered the scene, prior to 2010. I triangulated these data sources not only to establish factual reliability (Duneier, 2011) but also to investigate the ‘problematics’ of the ﬁeld (Smith, 1987) such as policy outcomes and economic analysis."
+  },
+  {
+   "chunk": 41,
+   "loc": "p.10",
+   "section": null,
+   "why": [
+    "findings",
+    "proxies"
+   ],
+   "text": "I entered the ﬁeld as a member of the trade policy network, having been employed at USTR from 2015 to 2017. During my prior employment, I worked closely with public ofﬁcials across political parties and established ties across the trade policy network with professionals in corporate lobbying, trade associations, law ﬁrms and think tanks. During the time between departure from the USTR and re-entry into the ﬁeld as a researcher, I employed ‘alternative casing’ using sociological literature to increase my sensitivity to different concepts and defamiliarize myself with my ﬁeld site (Tavory and Timmermans, 2012)."
+  },
+  {
+   "chunk": 43,
+   "loc": "p.10",
+   "section": null,
+   "why": [
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "While my observations and interviews were limited to speciﬁc time periods of the policy formation process, I supplemented this ﬁeldwork with documentation of events, interactions and communications outside the scope of my observations. I collected public comments ﬁled in the Federal Register on copyright and digital trade-related measures, including comments on trade negotiations, USITC investigations and annual trade reports. I also collected press releases and reports produced by several prominent technology trade associations. In 2018, I ﬁled a FOIA request to USTR for records of communication between technology lobbyists and USTR personnel. I also collected FOIA requests ﬁled by other entities related to digital trade policy, yielding a total of over 900 pages of emails between lobbyists and USTR ofﬁcials from 2013 to 2019.4 Documents, interview transcripts, ﬁeldnotes and memos were analyzed and coded in MaxQDA. I used constructivist grounded methods (Charmaz, 2000) to map cultural schemas, trace cultural arguments and conceptualize different forms of interaction within the trade policy network."
+  },
+  {
+   "chunk": 56,
+   "loc": "p.12",
+   "section": null,
+   "why": [
+    "findings"
+   ],
+   "text": "Ben: For the most part over the past year, we would go to a substantive meeting in Geneva, and then in the weeks afterwards, we’d get requests from mostly industry associations for an update on what has happened, and what the path is, going forward [. . .] Author: [. . .] When these groups are coming in and talking to you [. . .] are they giving you draft text?"
+  },
+  {
+   "chunk": 57,
+   "loc": "p.12",
+   "section": null,
+   "why": [
+    "lists_and_datasets"
+   ],
+   "text": "5 Robert Holleyman’s calendar, obtained via FOIA request, is available on the author’s website."
+  },
+  {
+   "chunk": 64,
+   "loc": "p.14",
+   "section": null,
+   "why": [
+    "lists_and_datasets"
+   ],
+   "text": "Downloaded from https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwad002/7030814 by University of Wisconsin-Madison Libraries user on 09 February 2023 Table 1 Comparison of Libertarian and Rule of Law Schemas Schema attributes Libertarian schema Rule of law schema Advocated by Internet-based tech companies Copyright holders (ﬁlm, music, etc.) Policies for growth and Free and open markets Enforceable laws and penalties innovation Imagined beneﬁciaries Internet users Artists and creators State–market relationship Impose as few barriers as"
+  },
+  {
+   "chunk": 67,
+   "loc": "p.14",
+   "section": null,
+   "why": [
+    "definitions",
+    "limitations"
+   ],
+   "text": "I think the key is doing this all in a way that is as least trade restrictive as necessary and that permits the digital economy to function because there is a real opportunity here. [. . .] We’ve been thinking through how to apply concepts that have governed trade in goods for decades. (Brookings Institution, 2013) Similar talking points and policy proposals circulated through other means, from public comments and hearings to private emails between lobbyists and public ofﬁcials. From 2012 to 2015, FOIA requests to USTR on technology issues yielded 516 pages of emails between lobbyists and public ofﬁcials.6 When I interviewed Mike in 2019, his view of trade and the Internet no longer reﬂected the uncertainty of USTR’s public position in 2013, but of the"
+  },
+  {
+   "chunk": 73,
+   "loc": "p.15",
+   "section": null,
+   "why": [
+    "proxies"
+   ],
+   "text": "In the process of drafting legal text for USMCA, trade negotiators and technology lobbyists collaborated a great deal on the actual text itself. In a series of emails, the USTR negotiators and lobbyists for Facebook, Google, Microsoft and Amazon exchange questions and suggestions for the proposed USMCA text (Figure 2). The majority of the emails are redacted with codes indicating that the email records contain negotiating text. Records also indicate that these lobbyists held several in-person meetings with the USTR negotiators."
+  },
+  {
+   "chunk": 74,
+   "loc": "p.15",
+   "section": null,
+   "why": [
+    "method",
+    "proxies"
+   ],
+   "text": "When USMCA was concluded in November 2018, it contained the digital trade provisions in TPP, plus stronger enforcement standards and additional protections for companies’ source code and data (Lester, 2021). Furthermore, the chapter containing these provisions 7 Email from Sean Heather, Vice President of the U.S. Chamber of Commerce, to Jamieson Greer, Chief of Staff at USTR. August 9, 2017."
+  },
+  {
+   "chunk": 76,
+   "loc": "p.16",
+   "section": null,
+   "why": [
+    "limitations"
+   ],
+   "text": "Through the mutual reinforcement of cultural schemas and network ties among lobbyists and career trade negotiators, the digital trade agenda remained durable despite the uncertainty of the Trump Administration’s trade agenda. However, this single occurrence of policy adoption is insufﬁcient to prove regulatory capture itself. Rather, as I demonstrate in the next section, the adoption of this policy, with the networks and schemas that supported it, allowed public ofﬁcials to institutionalize the interests of Internet companies into the trade policymaking process, giving rise to a new legal order to reproduce and advance the digital trade agenda."
+  },
+  {
+   "chunk": 78,
+   "loc": "p.16",
+   "section": null,
+   "why": [
+    "limitations"
+   ],
+   "text": "In this email, the USCIB lobbyist highlights their priorities. Although the ﬁrst bullet point acknowledges the uncertainty of the digital trade agenda during the Trump Administration"
+  },
+  {
+   "chunk": 83,
+   "loc": "p.18",
+   "section": null,
+   "why": [
+    "method"
+   ],
+   "text": "Cited heavily in USITC’s reports, technology companies were seen as legitimate sources of both scientiﬁc and practical knowledge. Trade professionals had difﬁculty quantifying the gains from trade resulting from data transfers. Unlike trade in goods and services which could be quantiﬁed through economic transactions, the monetary value of trafﬁc on social media sites and search engine activity, for example, were harder to estimate. To support its methodology, USITC relied heavily on testimony from and interviews with technology lobbyists."
+  },
+  {
+   "chunk": 84,
+   "loc": "p.18",
+   "section": null,
+   "why": [
+    "limitations",
+    "proxies"
+   ],
+   "text": "Their assumption that policy certainty would lead to economic growth only applied to the technology sector, and USITC neglected to produce similar measures for other industries. Lobbyists for other industries, especially in response to Trump Administration threats, had also cited policy uncertainty as a major barrier to economic growth (U.S. International Trade Commission, 2018). Additionally, others noted that the adoption of USMCA would present greater uncertainty to some sectors.9 Furthermore, the importance of reducing uncertainty in USMCA was potentially overstated. In the previous testimony to USITC, lobbyists acknowledged that countries such as Canada and Mexico, where TPP rules were already in effect, were reliable allies (U.S. International Trade Commission, 2017). The USITC’s measure for digital trade thus relied on an assumption that markets would grow if the status quo was codiﬁed into international law. Yet by applying this metric only to technology"
+  },
+  {
+   "chunk": 103,
+   "loc": "p.23",
+   "section": null,
+   "why": [
+    "limitations",
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "Downloaded from https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwad002/7030814 by University of Wisconsin-Madison Libraries user on 09 February 2023 For those inside the US trade policy network, the development of the digital trade agenda seems natural and undisputable. Interviews with policy professionals reﬂect this taken-for-granted-ness. Thus, to question this consensus, we cannot observe alternative interests in the current moment, but instead must trace historical shifts and look outside the regulatory domain to imagine counterfactual scenarios. The USA, following ACTA, could have continued its hard line on copyright enforcement at the expense of Internet companies. The USTR could have also maintained relationships with consumer groups who now advocate for stronger domestic privacy regulations. The digital trade policies of other countries also suggest alternative models: for example, the European Union’s policies on privacy, taxation and competition stand in stark contrast to the US pro-business, anti-regulatory approach, while Chinese digital policies emphasize state control and surveillance. Although some of these alternatives are more likely possibilities than others in the USA, that these roads are not taken suggests that the current US digital trade agenda is not the only natural way forward."
+  },
+  {
+   "chunk": 107,
+   "loc": "p.24",
+   "section": null,
+   "why": [
+    "limitations"
+   ],
+   "text": "Downloaded from https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwad002/7030814 by University of Wisconsin-Madison Libraries user on 09 February 2023 legitimate area of trade policy under a libertarian schema. As public skepticism of ‘big tech’ grows, new regulators and advocacy groups gain hold in Washington, and the consensus around liberalization in free trade continues to erode, the possibility of decline remains possible for the current period of digital trade regulatory capture as well."
+  },
+  {
+   "chunk": 110,
+   "loc": "p.24",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "method",
+    "proxies"
+   ],
+   "text": "The basic crux of the framework—that capture is fostered through underlying social networks and cultural schemas—can be applied widely and is supported by research in other policy domains. For example, Fligstein et al. (2017) show how by relying on the macroeconomic frames to make sense of economic indicators, ﬁnancial regulators failed to anticipate the 2008 ﬁnancial crisis. Suryanarayanan and Kleinman (2013) argue that agro-industrial expertise has dominated the U.S. Environmental Protection Agency’s criteria for evaluating insecticides. While each of these examples has been characterized as regulatory capture, unearthing the third face of capture in these cases would require that we examine the structure of a policy domain’s cultural schemas, when frames were introduced, who introduced them and whether they were broadly shared across a policy network. With tools from cultural sociology and network analysis, future research on regulatory capture can more pre-cisely identify and measure instances of regulatory capture across agencies and policy domains."
+  },
+  {
+   "chunk": 112,
+   "loc": "p.25",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations"
+   ],
+   "text": "Downloaded from https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwad002/7030814 by University of Wisconsin-Madison Libraries user on 09 February 2023 characteristics and economic determinants, or more recently, examine agenda setting and the coincidence of agency decisions with industry interests. Linking these frameworks to longstanding debates on the faces of power, I demonstrate how regulatory capture can be studied in its third face using concepts from cultural and relational sociology. Through an ethnographic study of trade policy professionals, I show that the development of digital trade policy in the USA is one such instance of regulatory capture. Over the past decade, technology lobbyists have employed cultural inﬂuence to not only secure their policy objectives but also to institutionalize their interests into domestic and international trade laws. Through knowledge production regimes and recursive institutional reproduction, the US technology companies captured the US trade policy. The result is a consensus over the digital trade agenda, but the suppression of alternative interests and frameworks for unanticipated and new policy challenges ahead."
+  },
+  {
+   "chunk": 116,
+   "loc": "p.25",
+   "section": null,
+   "why": [
+    "findings"
+   ],
+   "text": "www.cato.org/commentary/key-concepts-libertarianism. Bourdieu, P. (1986) ‘The Forms of Capital’. In Richardson, J. (ed.) Handbook of Theory and Research for the Sociology of Education, New York, Greenwood, pp. 241–258. Boutyline, A. and Soter, L. K. (2021) ‘Cultural Schemas: What They Are, How to Find Them, and What to Do Once You’ve Caught One’, American Sociological Review, 86, 728–758."
+  },
+  {
+   "chunk": 118,
+   "loc": "p.26",
+   "section": null,
+   "why": [
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "Introducing a New Dataset’, Journal of International Economic Law, 23, 187–220. Claussen, K. 2021. ‘Trade Administration’. Virginia Law Review 107(4). doi:10.2139/ ssrn.3602190. Carpenter, D. and Moss, D. A. (2014). Preventing Regulatory Capture: Special Interest Inﬂuence and How to Limit It, New York, Cambridge University Press. Charmaz, K. (2000) ‘Grounded Theory: Objectivist and Constructivist Methods’. In Denzin, N. K. and Lincoln, Y. S. (eds) Handbook of Qualitative Research, Thousand Oaks, Calif, Sage Publications. Chorev, N. (2007) Remaking U.S. Trade Policy: From Protectionism to Globalization, Ithaca,"
+  },
+  {
+   "chunk": 119,
+   "loc": "p.26",
+   "section": null,
+   "why": [
+    "findings"
+   ],
+   "text": "NY, Cornell University Press. Coglianese, C. and Walters, D. E. (2016) ‘Agenda-Setting in the Regulatory State: Theory and Evidence’, Administrative Law Review, 68, 93–118. Conti, J. A. (2011) Between Law and Diplomacy: The Social Contexts of Disputing at the World Trade Organization, Stanford, Calif., Stanford University Press. Conti, J. A. (2016) ‘Legitimacy Chains: Legitimation of Compliance with International Courts across Social Fields’, Law & Society Review, 50, 154–188. Cousin, B., Khan, S. and Mears, A. (2018) ‘Theoretical and Methodological Pathways for"
+  },
+  {
+   "chunk": 130,
+   "loc": "p.27",
+   "section": null,
+   "why": [
+    "method"
+   ],
+   "text": "Analysis of Federal Agency Rulemaking’, The Journal of Politics, 74, 339–353."
+  }
+ ]
+}

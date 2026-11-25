@@ -1,0 +1,294 @@
+{
+  "id": "doi-10-31235-osf-io-sthwk",
+  "citation": {
+    "authors": [
+      "Youngjin Chae",
+      "Thomas Davidson"
+    ],
+    "year": 2025,
+    "title": "Large Language Models for Text Classification: From Zero-Shot Learning to Instruction-Tuning",
+    "venue_or_publisher": "Preprint (OSF/SocArXiv); stated as forthcoming at Sociological Methods & Research",
+    "doi_or_url": "https://doi.org/10.31235/osf.io/sthwk",
+    "type": "preprint of journal article",
+    "peer_reviewed": "unknown"
+  },
+  "question": "How well do large language models classify text (stance detection as case study) across model architectures, sizes and learning regimes (zero-shot, few-shot, fine-tuning, instruction-tuning), and what should social scientists do in practice?",
+  "data": "Three English-language datasets on stance toward Trump and Clinton in the 2016 US election: 1,691 SemEval tweets (339 held out for testing); 2,400 Facebook top-level comments (2,000 train, 400 test; single expert annotator); Facebook comment-reply threads (1,200 train, 300 test; first 36 threads double-coded). Ten models compared, from BERT (110M parameters) to GPT-4o.",
+  "method": "Compared zero-shot and few-shot prompting (three prompt variants; 100 random example draws), fine-tuning on 10/100/1000/all examples, and instruction-tuning of Llama3 on JSON threads, against SVM and CNN baselines and a random baseline. Scored on held-out test data with weighted and joint F1 and 10,000-draw bootstrap 95% intervals. GPT temperature set to 0.",
+  "definitions": [
+    {
+      "term": "zero-shot learning",
+      "definition": "zero-shot learning",
+      "quote": "LLMs can generalize to new tasks without any additional task-specific training, known as zero-shot learning",
+      "page": 8
+    },
+    {
+      "term": "few-shot learning",
+      "definition": "few-shot / in-context learning",
+      "quote": "One can also provide models with more guidance by including labeled examples along with the prompt, known as few-shot or in-context learning",
+      "page": 9
+    },
+    {
+      "term": "instruction-tuning",
+      "definition": "instruction-tuning",
+      "quote": "pre-trained models can be fine-tuned using large quantities of instruction and output pairs (Wei et al., 2022), known as instruction-tuning",
+      "page": 9
+    },
+    {
+      "term": "stance detection",
+      "definition": "stance detection",
+      "quote": "The goal of stance detection is to identify attitudes, beliefs, or opinions expressed toward a target, such as a person, institution, or policy.",
+      "page": 12
+    },
+    {
+      "term": "text classification",
+      "definition": "text classification",
+      "quote": "an application of supervised machine learning used to categorize texts into pre-determined classes",
+      "page": 10
+    },
+    {
+      "term": "joint F1 (strictest metric)",
+      "definition": "A prediction counts as correct only when it exactly matches the original annotation (both target and stance on Twitter; stances for both targets on Facebook); aggregated as a class-weighted F1.",
+      "quote": "count a prediction as correct when it exactly matches the original annotation",
+      "page": 25
+    },
+    {
+      "term": "precision and recall",
+      "definition": "Precision is true positives over true plus false positives; recall is true positives over true plus false negatives.",
+      "quote": "precision is the number of true positives divided by the number of true positives and false positives",
+      "page": 24
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "stance toward a target (as a measurable attitude)",
+      "indicator": "Human label (Favor/Against/None) for each target, assigned by crowd majority (SemEval, 8+ workers) or by a single expert annotator (Facebook); LLM output compared to these labels",
+      "quote": "Each comment was annotated by a single author with expertise in the topic.",
+      "page": 14
+    },
+    {
+      "concept": "annotation reliability",
+      "indicator": "Share of stance labels that agreed between two annotators on an initial set of 36 threads (90%); disagreements were mostly about whether a stance was present, not its direction. No kappa reported.",
+      "quote": "In this initial evaluation, 90% of the stance labels were consistent across the two annotators.",
+      "page": 16
+    },
+    {
+      "concept": "classifier accuracy / validity",
+      "indicator": "F1 on held-out human-labelled test data, with bootstrap confidence intervals",
+      "quote": "All models are scored by calculating predictive performance on the held-out test data.",
+      "page": 24
+    },
+    {
+      "concept": "sentiment as proxy for stance (criticised)",
+      "indicator": "Sentiment polarity used in prior sociology work as a stand-in for attitude toward a group",
+      "quote": "Using sentiment as a proxy for stance can result in substantial measurement error, particularly when the correlation between sentiment and stance is weak.",
+      "page": 13
+    },
+    {
+      "concept": "valid model output",
+      "indicator": "Whether the model returned a correctly formatted label; invalid or partial outputs counted as failures",
+      "quote": "these models generally failed to return valid output, sometimes yielding only one portion of the answer or irrelevant text sequences",
+      "page": 31
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Largest models do well with a detailed prompt and no training data; zero-shot GPT-4o scored joint F1 0.84 on Facebook comments, above all fine-tuned models.",
+      "quote": "One-shot GPT-4o performs better than all of the fine-tuned models at predicting stances in Facebook comments, with a joint F1 score of 0.84",
+      "page": 31
+    },
+    {
+      "claim": "Prompt wording changed accuracy; the more informative prompts generally scored highest.",
+      "quote": "Overall, the more informative prompts tended to achieve the highest joint F1 score across both tasks.",
+      "page": 26
+    },
+    {
+      "claim": "Few-shot results are sensitive to which examples are chosen (F1 ranged 0.33 to 0.69 on Twitter, 0.50 to 0.84 on Facebook), and one or two examples did not reliably beat zero-shot.",
+      "quote": "As such, it is not apparent that few-shot is superior to zero-shot learning using the prompt alone, at least when only one or two examples are included.",
+      "page": 31
+    },
+    {
+      "claim": "Fine-tuning on 10 examples performed near random; accuracy rose roughly linearly with the log of training size, with diminishing returns from 1,000 to 2,000.",
+      "quote": "The models fine-tuned on 10 examples perform uniformly poorly across both tasks, far below the simple baselines",
+      "page": 31
+    },
+    {
+      "claim": "Small models (GPT-3 Ada, FLAN-T5 XXL) often failed to return valid labels when prompted and scored below random.",
+      "quote": "the smaller GPT-3 Ada and the encoder-decoder FLAN-T5 XXL perform poorly for these prompt-based learning regimes, with lower accuracy than random guessing.",
+      "page": 29
+    },
+    {
+      "claim": "Instruction-tuning raised thread-level performance; Llama3-70B reached joint F1 0.82 and Llama3-8B rose from 0.48 to 0.75.",
+      "quote": "The joint F1 score from Llama3-8B jumps from 0.48 to 0.75, marginally higher than the zero-shot scores of the larger models.",
+      "page": 36
+    },
+    {
+      "claim": "Context mattered: classifying comments in isolation scored 0.64 versus 0.84 when labels had been made in context.",
+      "quote": "The baseline model performs considerably worse than in the previous stance detection task (F1 0.64 versus 0.84).",
+      "page": 35
+    },
+    {
+      "claim": "Dataset label errors depressed measured accuracy on the Twitter benchmark; fine-tuned models often gave the apparently correct answer that the label marked wrong.",
+      "quote": "the Twitter task scores may be an underestimate of the predictive accuracy of these models due to flaws in the evaluation metrics.",
+      "page": 33
+    },
+    {
+      "claim": "Models sometimes refused to classify offensive political text; an explicit prompt instruction removed refusals in the thread task.",
+      "quote": "we found that zero- and few-shot classifiers sometimes refused to evaluate inputs containing contentious political claims.",
+      "page": 45
+    },
+    {
+      "claim": "Human raters are themselves inconsistent, so perfect agreement with human labels is not a ceiling to assume.",
+      "quote": "human raters can be inaccurate and inconsistent at detecting stances (Joseph et al., 2021)",
+      "page": 43
+    }
+  ],
+  "recommendations": [
+    {
+      "claim": "Always annotate a human sample to test and validate any classifier.",
+      "quote": "it is critical to annotate a sample of documents for testing and validating the performance of any classification model.",
+      "page": 41
+    },
+    {
+      "claim": "For small corpora, use zero- or few-shot with an advanced model and experiment with prompts and examples.",
+      "quote": "We recommend experimenting with different prompts and examples to optimize these approaches",
+      "page": 41
+    },
+    {
+      "claim": "Use LLM classification alongside hand-coding, for example to validate or extend it.",
+      "quote": "we expect these techniques will increasingly complement qualitative approaches (e.g., to validate or extend hand-coding)",
+      "page": 41
+    },
+    {
+      "claim": "Correct for classifier error with annotated data when using outputs as variables.",
+      "quote": "We recommend using bias-correction procedures when using output from classifiers as either dependent or independent variables.",
+      "page": 43
+    },
+    {
+      "claim": "For reproducibility prefer open-weights models stored on disk over commercial APIs that can change.",
+      "quote": "researchers use open-weight models that can be stored on disk and re-used rather than relying on commercial APIs that are subject to change.",
+      "page": 46
+    },
+    {
+      "claim": "Set temperature to zero for classification (stated in the appendix).",
+      "quote": "we set the temperature to zero so the model returns the highest probability sequence of tokens, avoiding random variation in the predicted classes.",
+      "page": 62
+    },
+    {
+      "claim": "Check models for bias by comparing several models and auditing subgroup differences.",
+      "quote": "We also encourage researchers to compare multiple models to see how they fare on the same task",
+      "page": 45
+    },
+    {
+      "claim": "Use open-weights models on secure servers for sensitive or personal data.",
+      "quote": "we recommend using open-weights models on secure servers to minimize the risk of data leakage.",
+      "page": 46
+    },
+    {
+      "claim": "Consider writing a small new evaluation set if test data may have leaked into training.",
+      "quote": "it may be worthwhile creating a small set of new evaluation data to verify out-of-sample performance.",
+      "page": 46
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Closed commercial models can be changed or withdrawn without notice, so results may not be reproducible; the two GPT-3 versions used were already replaced.",
+      "stated_by_authors": true,
+      "quote": "commercial models can be modified or deprecated without notice, making it impossible for other researchers to reproduce results",
+      "page": 46
+    },
+    {
+      "point": "Even at temperature zero, identical output is not guaranteed.",
+      "stated_by_authors": true,
+      "quote": "there is no guarantee that the results will always be identical.",
+      "page": 46
+    },
+    {
+      "point": "Confidence intervals reflect test-set sampling only, not training-set composition or model randomness.",
+      "stated_by_authors": true,
+      "quote": "they do not capture other sources of uncertainty, such as the composition of the training data or stochastic variation in the models",
+      "page": 25
+    },
+    {
+      "point": "Only a few prompts were tried; no exhaustive prompt search, so results may understate achievable performance.",
+      "stated_by_authors": true,
+      "quote": "we only tested a handful of prompts, so better performance may have been obtained",
+      "page": 38
+    },
+    {
+      "point": "Facebook test labels come from a single annotator (no inter-coder agreement beyond a 36-thread check); thread prompt was developed on the evaluation data.",
+      "stated_by_authors": true,
+      "quote": "These evaluation data were also used for prompt development to avoid overfitting the prompt to the training data during development.",
+      "page": 16
+    },
+    {
+      "point": "Possible contamination: test data may have been seen in pre-training or via API data reuse.",
+      "stated_by_authors": true,
+      "quote": "it is unclear whether the data we input into GPT-3 was used to train GPT-4, potentially compromising our Facebook comment test data.",
+      "page": 46
+    },
+    {
+      "point": "Hyperparameters were not systematically tuned; no cross-validation; results may differ for other tasks, domains, longer texts or expert-knowledge labels.",
+      "stated_by_authors": true,
+      "quote": "there may be substantial variation in performance depending on factors such as the type of inputs, the complexity of the labeling scheme",
+      "page": 39
+    },
+    {
+      "point": "Single case study (US election stance, English social media posts); nothing on organisational or web-page classification or on a multi-category codebook with evidence retrieval. Not stated by the authors; reader's note.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "Models are hard to interpret and may hallucinate; authors caution against use where explanation matters.",
+      "stated_by_authors": true,
+      "quote": "We thus caution researchers against using these tools in domains where interpretability or explainability are important",
+      "page": 44
+    },
+    {
+      "point": "Pages 50-59 (reference list) and 65-69 (full results tables) were not read in detail. No instructions aimed at a reader or AI were found in the text read.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "The PDF could not be rendered (pdftoppm missing); the reading used the library's stored text extraction of this PDF (literature/text), so figures and layout were not seen and tables are garbled.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "SemEval-2016 Task 6 stance dataset (Mohammad et al., 2016)",
+      "what_it_is": "1,691 tweets labelled Favor/Against/None toward Trump or Clinton",
+      "page": 13
+    },
+    {
+      "name": "Facebook comments dataset (authors', new)",
+      "what_it_is": "2,400 top-level comments from Trump and Clinton Facebook pages, 2016, labelled by stance toward both",
+      "page": 14
+    },
+    {
+      "name": "Facebook comment-reply threads (authors', new)",
+      "what_it_is": "1,500 annotated threads with zero to five replies",
+      "page": 15
+    },
+    {
+      "name": "Replication code and data",
+      "what_it_is": "github.com/yjin-chae/LLMs-for-text-classification (per Author's Note)",
+      "page": 49
+    },
+    {
+      "name": "Reference list",
+      "what_it_is": "Bibliography on LLM text classification (Ziems et al. 2024; Do et al. 2022; Wankmuller 2022; Spirling 2023; Egami et al. 2023)",
+      "page": 50
+    }
+  ],
+  "relevant_to": [
+    "method"
+  ],
+  "pages_read": "1-49 and 60-65 read in full via stored text extraction; 50-59 (references) and 66-69 (appendix results tables) not read in detail; PDF rendering failed",
+  "read_on": "2026-11-24",
+  "read_by": "2026-11-24 general-purpose agent (sonnet) following source-reader instructions; PDF text extracted (pdftoppm missing), page numbers are PDF page indices"
+}

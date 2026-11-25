@@ -1,0 +1,194 @@
+{
+ "id": "kickbigpollutersout-cop29fossilfuellobbyists",
+ "citation": {
+  "authors": [
+   "Kick Big Polluters Out (KBPO) coalition"
+  ],
+  "year": 2024,
+  "title": "RELEASE: Fossil fuel lobbyists eclipse delegations from most climate vulnerable nations at COP29 climate talks",
+  "venue_or_publisher": "Kick Big Polluters Out (campaign coalition website)",
+  "doi_or_url": "https://kickbigpollutersout.org/COP29FossilFuelLobbyists",
+  "type": "press release (web page) with short methodology note; NGO campaign material",
+  "peer_reviewed": "no"
+ },
+ "question": "How many fossil fuel lobbyists were granted access to COP29 (Baku), how this compares with country delegations, and how many came via trade associations or inside Party delegations.",
+ "data": "UNFCCC provisional list of participants for COP29, published 11 November 2024; matched against KBPO lists from COP26, COP27, COP28 and external lobbyist registers. Release dated 15 November 2024; over 52,000 participants in total.",
+ "method": "List downloaded, cleaned and deduplicated with automated tools and manual processing; organisations matched against earlier KBPO lists and external registers; for COP29 a web search for each organisation and delegation was fed to a Large Language Model (retrieval-augmented generation) that judged whether it was a fossil fuel lobbyist and gave an explanation and references; all results then manually fact-checked and cross-checked with earlier years. Anonymised list available on request (not published here).",
+ "definitions": [
+  {
+   "term": "fossil fuel lobbyist",
+   "definition": "Any individual delegate who represents an organisation, or is a member of a delegation, that can reasonably be assumed to aim to influence policy or legislation in the interests of the fossil fuel industry or a particular fossil fuel company and its shareholders. Applies to delegations as well as organisations.",
+   "quote": "we consider a fossil fuel lobbyist any individual delegate that represents an organisation or is a member of a delegation that can be reasonably assumed to have the objective of influencing",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (Methodology, para 31)"
+  },
+  {
+   "term": "fossil fuel lobbyist (scope)",
+   "definition": "Counted only if reasonable assumption of intent to influence policy in the interests of a fossil fuel corporation and its shareholders. Other industries (finance, agribusiness, transport) are noted as present but excluded.",
+   "quote": "Other polluting industries deeply implicated in the climate crisis such as finance, agribusiness, and transportation are also present, although they are not included in this analysis.",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (para 12)"
+  },
+  {
+   "term": "delegation (and Party overflow)",
+   "definition": "Registrants declare their delegation, which can be an official country delegation (or party overflow), a UN body, an intergovernmental organisation, an NGO or a media institution. Badge types are not otherwise defined.",
+   "quote": "an official country delegation (or party overflow), a UN body, an intergovernmental organisation, a non-government organisation, or a media institution",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (Methodology, para 28)"
+  },
+  {
+   "term": "conflict of interest (policy)",
+   "definition": "Not defined. The release refers to calls for clear conflict of interest policies and accountability measures.",
+   "quote": "establishing clear conflict of interest policies and accountability measures",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (para 13)"
+  }
+ ],
+ "proxies": [
+  {
+   "concept": "fossil fuel lobbyist (individual)",
+   "indicator": "The organisation the participant declared at registration, and the delegation they are part of (organisation affiliation, role and relationship to organisation are mandatory fields from COP28).",
+   "quote": "must declare the organisation they work for, the nature of their relationship to this organisation, their role, and the delegation they’re part of",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (Methodology, para 28)"
+  },
+  {
+   "concept": "fossil fuel link of an organisation or delegation",
+   "indicator": "Identifiable connections found by programmatic web search: company websites, social media profiles, news articles, other public information; judged by an LLM and fact-checked by people.",
+   "quote": "looked for identifiable connections to the fossil fuel industry. These sources usually consist of company websites, their social media profiles, news articles, and other publicly available information.",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (Methodology, para 33)"
+  },
+  {
+   "concept": "fossil fuel lobbyist (prior knowledge)",
+   "indicator": "Match against KBPO lists from COP26, COP27, COP28 and external lobbyist registers.",
+   "quote": "matched the organisations at this year's COP against lists of fossil fuel lobbyists we have identified at COP26, COP27 and COP28, as well as external registers of lobbyists.",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (Methodology, para 30)"
+  },
+  {
+   "concept": "trade association with fossil fuel representation",
+   "indicator": "Listed as top ten 'trade associations ... representing the fossil fuel industry' with delegate counts; the list includes cross-sector business bodies, a development fund and a research centre, so the label is broad.",
+   "quote": "The top ten biggest trade associations in attendance representing the fossil fuel industry are the International Emissions Trading Association (43 delegates)",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (Notes to the editor, para 25)"
+  }
+ ],
+ "findings": [
+  {
+   "claim": "At least 1773 fossil fuel lobbyists registered for COP29.",
+   "quote": "At least 1773 fossil fuel lobbyists have been granted access to the COP29 summit in Baku",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (para 1)"
+  },
+  {
+   "claim": "Only three country delegations were larger than the lobbyist total: Azerbaijan 2229, Brazil 1914, Türkiye 1862.",
+   "quote": "only outnumbered by delegations sent by host Azerbaijan (2229), COP30 host Brazil (1914), and Türkiye (1862)",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (para 2)"
+  },
+  {
+   "claim": "Lobbyists outnumbered all delegates of the ten most climate vulnerable nations combined (1033).",
+   "quote": "more passes to COP29 than all the delegates from the 10 most climate vulnerable nations combined (1033)",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (para 4)"
+  },
+  {
+   "claim": "Fossil-linked people sat inside national delegations: examples named for Japan (Sumitomo), Canada (Suncor, Tourmaline), UK (20 lobbyists), Italy (Eni, Enel). No total for fossil-linked delegates inside Party delegations is given.",
+   "quote": "Japan brought coal giant Sumitomo as part of its delegation; Canada bought oil producers Suncor and Tourmaline; the United Kingdom brought 20 lobbyists",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (para 6)"
+  },
+  {
+   "claim": "Many lobbyists came through trade associations; eight of the top ten groups were from the Global North; the largest, IETA, brought 43 people including TotalEnergies and Glencore representatives.",
+   "quote": "Eight of the top 10 trade groups with the most lobbyists came from the Global North.",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (para 5)"
+  },
+  {
+   "claim": "Time series reported by KBPO: 636 at COP27, more than 2,450 at COP28, 1773 at COP29; total participants fell from over 84,000 to over 52,000.",
+   "quote": "more than 2,450 fossil fuel lobbyists were granted access to the COP28 climate talks in Dubai, up from 636 the year before that in Egypt.",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (para 15)"
+  },
+  {
+   "claim": "Mandatory declaration of who participants represent began at COP28, which the authors say reveals people who would earlier have attended undeclared (so comparisons across years are affected).",
+   "quote": "COP28 was the first time COP attendees were required to disclose who they represent, revealing many lobbyists who would likely have attended previous COPs incognito.",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (para 14)"
+  }
+ ],
+ "limitations": [
+  {
+   "point": "Advocacy press release, not a peer-reviewed study; no author names; methodology is five short paragraphs with no codebook, no classification examples and no accuracy or error rate for the LLM step.",
+   "stated_by_authors": false,
+   "quote": null,
+   "page": null
+  },
+  {
+   "point": "The authors state that other sectors (finance, agribusiness, transport) are excluded, so business presence overall is not counted; no sector breakdown of business delegates is given.",
+   "stated_by_authors": true,
+   "quote": "they are not included in this analysis",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (para 12)"
+  },
+  {
+   "point": "Counts are of whole delegations/organisations judged to be fossil-linked, so every member of a flagged delegation counts as a lobbyist; the inference rests on 'reasonably assumed' intent. The release does not separate Party badge, overflow badge and observer holders in its totals.",
+   "stated_by_authors": true,
+   "quote": "can be reasonably assumed to have the objective of influencing",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (para 31)"
+  },
+  {
+   "point": "Count is 'at least' and comes from the provisional list published 11 November 2024, before the final list; the count of 1773 and the per-country delegation sizes may differ from the final list.",
+   "stated_by_authors": false,
+   "quote": "The UNFCCC published a provisional list of the participants on 11th November 2024.",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (Methodology, para 29)"
+  },
+  {
+   "point": "The list of top trade associations mixes bodies with different roles (e.g. a chamber of commerce, OPEC Fund, a research centre) under one label, and how each was judged fossil-linked is not shown.",
+   "stated_by_authors": false,
+   "quote": null,
+   "page": null
+  },
+  {
+   "point": "Underlying list of lobbyists is not public, only anonymised on request; results cannot be reproduced from the page. Page also carries advocacy and political statements (Palestine, US politics) that are outside the counting method.",
+   "stated_by_authors": true,
+   "quote": "An anonymised list of the 1773 fossil fuel lobbyists is available on request",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (Methodology, para 27)"
+  }
+ ],
+ "reference_lists_or_datasets": [
+  {
+   "name": "UNFCCC provisional list of participants, COP29",
+   "what_it_is": "Public registration list published 11 November 2024; the data source.",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (para 29)"
+  },
+  {
+   "name": "KBPO lists of fossil fuel lobbyists at COP26, COP27, COP28",
+   "what_it_is": "Earlier KBPO classifications used as match lists (not published here).",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (para 30)"
+  },
+  {
+   "name": "External registers of lobbyists",
+   "what_it_is": "Unnamed external registers used for matching.",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (para 30)"
+  },
+  {
+   "name": "KBPO release on COP28 (record number of fossil fuel lobbyists)",
+   "what_it_is": "Linked earlier release: https://kickbigpollutersout.org/articles/release-record-number-fossil-fuel-lobbyists-attend-cop28",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (para 2)"
+  },
+  {
+   "name": "Joint civil society submission on conflicts of interest (Aug 2022)",
+   "what_it_is": "Linked PDF on conflict of interest policy: https://corporateaccountability.org/wp-content/uploads/2022/08/Joint-civil-society-submission-on-COI-Aug-17-2022_.pdf",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (para 13)"
+  },
+  {
+   "name": "UNFCCC document 855rev",
+   "what_it_is": "Linked PDF cited for countries requesting conflicts of interest be addressed: https://unfccc.int/files/parties_and_observers/application/pdf/855rev.pdf",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (para 13)"
+  },
+  {
+   "name": "KBPO joint civil society submission to UNFCCC on undue influence of polluters",
+   "what_it_is": "Linked resource: https://kickbigpollutersout.org/resources/joint-civil-society-submission-unfccc-undue-influence-polluters",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (para 15)"
+  },
+  {
+   "name": "ND-GAIN country index rankings",
+   "what_it_is": "Linked source behind the 'most climate vulnerable' list: https://gain.nd.edu/our-work/country-index/rankings/ (the page itself does not name the index in text)",
+   "page": "Industry influx escalates call to protect talks from Big Polluters (para 4)"
+  }
+ ],
+ "relevant_to": [
+  "Q2",
+  "method",
+  "context"
+ ],
+ "pages_read": "Whole web page (all 35 paragraphs, notes to the editor and methodology, link list). Not read: linked documents.",
+ "read_on": "2026-11-24",
+ "read_by": "source-reader, sonnet"
+}

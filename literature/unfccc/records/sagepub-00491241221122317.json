@@ -1,0 +1,264 @@
+{
+  "id": "sagepub-00491241221122317",
+  "citation": {
+    "authors": [
+      "Bart Bonikowski",
+      "Yuchen Luo",
+      "Oscar Stuhler"
+    ],
+    "year": null,
+    "title": "Politics as Usual? Measuring Populism, Nationalism, and Authoritarianism in U.S. Presidential Campaigns (1952-2020) with Deep Neural Language Models",
+    "venue_or_publisher": "",
+    "doi_or_url": "",
+    "type": "manuscript (APSR Submission Template, 70 pages)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "Whether populist, nationalist (exclusionary/inclusive, low/high pride) and authoritarian frames, the components of radical-right discourse, were already used by mainstream Democratic and Republican presidential nominees before Trump's 2016 and 2020 campaigns; methodologically, whether a fine-tuned RoBERTa model with active learning can measure such rare, polysemic frames better than other methods.",
+  "data": "Corpus of 2,956 general-election campaign speeches (71,808 paragraphs) by Democratic and Republican nominees, 1952-2020, from the Annenberg/Pew Archive of Presidential Campaign Discourse (1952-1996) and the UC Santa Barbara American Presidency Project (2000-2020). Goldwater 1964 and G. W. Bush 2000 are missing. Hand-coded training sample: 2,224 random paragraphs, plus two active-learning rounds of 200 paragraphs per frame.",
+  "method": "Paragraphs as units of analysis. Six non-mutually-exclusive frames (populism, exclusionary nationalism, inclusive nationalism, low national pride, high national pride, authoritarianism) hand-coded by two coders per paragraph with a third adjudicating, using labeling guidelines. RoBERTa (12 layers, about 125M parameters) fine-tuned with a classification layer; 25 random 80/20 train-test splits; best model chosen by PR-AUC; two rounds of hybrid active learning (160 high-entropy plus 40 random paragraphs per round, as stated in the text; Table 2 gives 80/20 percent); final labels from the average of 25 models' predicted probabilities with a .5 cutoff. Compared against four random forest baselines (tf-idf, locally trained word2vec, doc2vec, pretrained word2vec). Substantive analysis by campaign time series, PCA, correlations and negative binomial regressions.",
+  "definitions": [
+    {
+      "term": "populism",
+      "definition": "A form of moral claims-making that juxtaposes a corrupt elite with the virtuous people and promises to restore political power to the people.",
+      "quote": "a form of moral claims-making that juxtaposes a fundamentally corrupt elite with the virtuous people and promises to restore political power to the latter",
+      "page": 7
+    },
+    {
+      "term": "nationalism",
+      "definition": "The articulation of distinct conceptions of nationhood, either highlighting the nation's present virtues or critiquing its decline. Multidimensional: criteria of membership plus aspects of heritage worthy of pride or shame. The study codes exclusionary and inclusive membership criteria and low and high national pride.",
+      "quote": "Nationalism, in our use of the term, involves the articulation of distinct conceptions of nationhood",
+      "page": 8
+    },
+    {
+      "term": "authoritarianism",
+      "definition": "Targeted use of state power against alleged domestic enemies in a manner that undermines liberal rights regimes and democratic norms and institutions.",
+      "quote": "the targeted use of state power against alleged domestic enemies",
+      "page": 8
+    },
+    {
+      "term": "authoritarianism (as coded in the results)",
+      "definition": "Discourse that threatens state power against domestic enemies, advocates punitive law-and-order policies, or violates liberal democratic norms.",
+      "quote": "discourse that threatens the use of state power against domestic “enemies,” advocates for punitive law-and-order policies, or violates liberal democratic norms",
+      "page": 37
+    },
+    {
+      "term": "radical right vs mainstream",
+      "definition": "Trump's 2016 and 2020 campaigns are classed as radical-right and all other Democratic and Republican post-war campaigns as mainstream. The authors call these binary categories ideal types.",
+      "quote": "these binary categories should be understood as ideal types",
+      "page": 2
+    },
+    {
+      "term": "unit of analysis (paragraph)",
+      "definition": "Paragraphs are the unit for hand-coding and classification. Short one- or two-sentence paragraphs were merged with adjacent paragraphs.",
+      "quote": "We merged shorter paragraphs consisting of one or two sentences with adjacent paragraphs.",
+      "page": 29
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "populism, nationalism (four sub-frames), authoritarianism in speeches",
+      "indicator": "Paragraph labeled positive for a frame by human coders (training) or by the RoBERTa ensemble (probability of at least .5); prevalence measured as the share of such paragraphs per speech or campaign.",
+      "quote": "Average these predictions for each paragraph and assign a label according to a .5 probability cutoff.",
+      "page": 30
+    },
+    {
+      "concept": "implicit exclusionary nationalism in mainstream campaigns",
+      "indicator": "Authoritarian (law-and-order) paragraphs and the absence of inclusive-nationalism paragraphs, treated as suggestive evidence of coded appeals.",
+      "quote": "mainstream candidates’ reliance on authoritarian claims and their failure to invoke inclusive conceptions of American identity",
+      "page": 37
+    },
+    {
+      "concept": "classifier performance on imbalanced classes",
+      "indicator": "Area under the precision-recall curve (PR-AUC), preferred over ROC-AUC because ROC-AUC counts the numerous true negatives.",
+      "quote": "We evaluate model performance using the area under the precision-recall curve (PR-AUC) rather than the more common area under the receiver operator characteristics curve",
+      "page": 32
+    },
+    {
+      "concept": "reliability of human coding",
+      "indicator": "Cohen's kappa between coders: .66 populism, .81 nationalism, .82 high pride, .83 low pride, .9 authoritarianism.",
+      "quote": "inter-coder reliability analyses yielded Cohen’s kappa values of .66, .81, .82, .83, and .9 for populism, nationalism, high pride, low pride, and authoritarianism, respectively",
+      "page": 29
+    },
+    {
+      "concept": "uncertain boundary cases for active learning",
+      "indicator": "Paragraphs with highest classification entropy (predicted probability closest to 0.5).",
+      "quote": "paragraphs with classification probability closest to 0.5",
+      "page": 30
+    }
+  ],
+  "findings": [
+    {
+      "claim": "RoBERTa far outperforms all four random forest baselines on PR-AUC for five of six frames. Example: for inclusion, the best random forest (tf-idf) averaged 0.36 against 0.71 for initial RoBERTa.",
+      "quote": "the best RF approach—based on tf-idf—generates an average PR-AUC of 0.36, compared to 0.71 for the initial iteration of the RoBERTa models",
+      "page": 33
+    },
+    {
+      "claim": "Active learning improved RoBERTa for all six frames, most for exclusion and authoritarianism, and little for inclusion and high pride.",
+      "quote": "For all six dimensions, the iterative labeling of high-entropy paragraphs results in performance improvements of the RoBERTa classifier",
+      "page": 33
+    },
+    {
+      "claim": "Final classifier precision/recall by frame (Table 3): inclusion .71/.76, exclusion .85/.78, authoritarianism .66/.72, populism .68/.61, high pride .63/.72, low pride .64/.55. Predicted corpus prevalence ranges from 0.5 percent (exclusion) to 8.8 percent (high pride).",
+      "quote": "range from 0.5 percent of paragraphs for exclusionary nationalism to 8.8 percent for high national pride",
+      "page": 33
+    },
+    {
+      "claim": "Human coders agreed substantially but imperfectly; the authors treat this as showing the frames are inherently ambiguous and as an upper bound on classifier performance.",
+      "quote": "the realistic goal is not to achieve perfect performance, but a balance between precision and recall that does not fare much worse than humans",
+      "page": 29
+    },
+    {
+      "claim": "Active learning surfaced variants of a frame that the first random training sample had missed, so it improved the analysts' understanding of the concepts as well as the classifier.",
+      "quote": "the high-entropy cases identified by the algorithm revealed empirical patterns that the human coders had not accounted for in the first round of training",
+      "page": 31
+    },
+    {
+      "claim": "Validation across corpus subsets: recall (not precision) is lower for campaigns from the late 1950s and early 1960s, with no general trend of worse performance on older texts. Longer paragraphs show non-significant higher recall and precision.",
+      "quote": "the pretrained and fine-tuned models do not fare more poorly when applied to historical data in general, but rather that their recall was lower specifically for campaigns from the late 1950s and early 1960s",
+      "page": 66
+    },
+    {
+      "claim": "Substantive: populism, low national pride and authoritarianism were commonplace in mainstream campaigns; explicit exclusionary nationalism appeared only in the 2016 and 2020 Trump campaigns.",
+      "quote": "Exclusionary nationalism, however, was not—its presence in the corpus was limited to the 2016 and 2020 Trump campaigns.",
+      "page": 46
+    },
+    {
+      "claim": "Substantive: populism and low pride are used more by challengers; high pride by incumbent-party candidates; authoritarianism more by Republicans than Democrats.",
+      "quote": "populism and low pride tend to be employed by challengers, whereas high pride is more typical of candidates representing the incumbent party",
+      "page": 46
+    },
+    {
+      "claim": "Binarizing populism at the speech level brings the results closer to an earlier dictionary-based analysis of the same 1952-1996 data; the paragraph-level pattern differs from that earlier study, which the authors attribute mainly to the different unit of analysis.",
+      "quote": "The overall patterns in the populism time series are strikingly similar.",
+      "page": 62
+    }
+  ],
+  "recommendations": [
+    {
+      "claim": "Scholars should be more cautious in drawing sharp analytical boundaries between radical-right and mainstream political actors.",
+      "quote": "scholars should be more cautious in drawing sharp analytical boundaries between radical-right and mainstream political actors",
+      "page": 4
+    },
+    {
+      "claim": "Supervised machine learning, with neural language models, should have a central place in sociologists' text-analysis toolkit; transformer models are preferable to topic models or exploratory embeddings when the frames are known in advance.",
+      "quote": "the high accuracy of neural language models makes them a preferable method for measuring known frames",
+      "page": 47
+    },
+    {
+      "claim": "Populism scholars could use this approach to extend work to larger document collections without losing measurement accuracy.",
+      "quote": "a useful alternative to these approaches for populism scholars interested in extending their investigations to larger document collections without sacrificing measurement accuracy",
+      "page": 48
+    },
+    {
+      "claim": "Future research could extend the framework to other countries and discourse domains.",
+      "quote": "Future research could extend our framework to other country cases and domains of political discourse",
+      "page": 49
+    },
+    {
+      "claim": "Caution is advised when interpreting findings for the late 1950s and early 1960s, because the classifier may under-count positive cases there.",
+      "quote": "we should be cautious in interpreting the substantive findings for that time period",
+      "page": 66
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Human coding is not a perfect ground truth; kappa for populism is only .66, which caps classifier performance.",
+      "stated_by_authors": true,
+      "quote": "likely to result in an upper bound for classifier performance that is well below the theoretical maximum of 1",
+      "page": 33
+    },
+    {
+      "point": "The gain from averaging 25 models (ensemble) could not be tested directly, because annotating an additional sufficiently sized test set for such imbalanced frames is too costly. Reported PR-AUC is for single models, not the final ensemble.",
+      "stated_by_authors": true,
+      "quote": "precluding us from directly estimating improvements in classification performance added by this additional step",
+      "page": 34
+    },
+    {
+      "point": "Pretrained models may not cover linguistic variation in historical or specialized text. Recall is lower for some early campaigns (late 1950s to early 1960s), so the classifier may undercount positives.",
+      "stated_by_authors": true,
+      "quote": "our classifier may ... underestimate the number of positive cases in this particular subset of the corpus",
+      "page": 66
+    },
+    {
+      "point": "Trump speeches may have disproportionately shaped the fine-tuning, so less extreme variants in mainstream campaigns may be missed. The authors say this makes results more conservative.",
+      "stated_by_authors": true,
+      "quote": "we may be underestimating the presence of less extreme variants of the frames in the campaigns of mainstream candidates",
+      "page": 35
+    },
+    {
+      "point": "2020 speeches were added after the initial analyses and were labeled by classifiers fine-tuned on 1952-2016 data, so they were not in the training and test sets.",
+      "stated_by_authors": true,
+      "quote": "those speeches were not included in the training and test sets",
+      "page": 29
+    },
+    {
+      "point": "Scope limited to general-election presidential speeches; no claims about primaries, local elections, media or policy debates. Chauvinist frames not coded.",
+      "stated_by_authors": true,
+      "quote": "we make no claims about how presidential primaries, state or local elections, media content, or policy debates have used and legitimated populist, nationalist, or authoritarian frames",
+      "page": 46
+    },
+    {
+      "point": "Implicit or coded exclusionary discourse is difficult to measure with automated methods; the study relies on indirect proxies for it.",
+      "stated_by_authors": true,
+      "quote": "Given the highly coded nature of such discourse, its measurement using automated methods is difficult.",
+      "page": 37
+    },
+    {
+      "point": "Two Republican campaigns (Goldwater 1964, G. W. Bush 2000) are missing from the corpus, and two archives with different coverage were harmonized.",
+      "stated_by_authors": true,
+      "quote": "Two Republican campaigns are missing from the data: Barry Goldwater’s 1964 campaign and George W. Bush’s 2000 campaign.",
+      "page": 18
+    },
+    {
+      "point": "The deep-learning classification process is hard to inspect.",
+      "stated_by_authors": true,
+      "quote": "the classification process employed by supervised deep learning models is largely inscrutable due to these models’ architecture",
+      "page": 47
+    },
+    {
+      "point": "The domain (US presidential speeches, English) and the six frames have no substantive overlap with the study's Q1/Q2; the transferability of the method to classifying organisations is not tested. No paper-level prompt/LLM or zero-shot method is used. No venue, DOI or publication year is stated in the text read, and peer-review status is unknown.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "No instructions addressed to a reader or an AI were found in the text. Every page carries a repeated 'APSR Submission Template' watermark, which was ignored.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Annenberg/Pew Archive of Presidential Campaign Discourse",
+      "what_it_is": "Speeches of Democratic and Republican nominees, 1952-1996 elections (nomination acceptance speeches and campaign speeches from September 1 to Election Day).",
+      "page": 18
+    },
+    {
+      "name": "UC Santa Barbara American Presidency Project",
+      "what_it_is": "Speeches for the 2000-2020 elections, restricted to the date range covered by the Annenberg archive.",
+      "page": 18
+    },
+    {
+      "name": "Replication package",
+      "what_it_is": "Stated to include all data and code used in the study, at https://bit.ly/3OoVd7K.",
+      "page": 50
+    },
+    {
+      "name": "Hand-coded training set",
+      "what_it_is": "2,224 randomly drawn paragraphs labeled for six frames, plus two 200-paragraph active-learning batches per frame; labeling guidelines were generated per dimension (guidelines themselves not reproduced in the text read).",
+      "page": 29
+    },
+    {
+      "name": "Appendices A-F",
+      "what_it_is": "ROC-AUC comparison (A), speech-level frame prevalence (B), PCA fit (C), descriptive statistics (D), precision and recall across corpus subsets (E), alternative specifications including the Trump campaigns (F).",
+      "page": 61
+    }
+  ],
+  "relevant_to": [
+    "method"
+  ],
+  "pages_read": "1-70",
+  "read_on": "2026-11-24",
+  "read_by": "2026-11-24 general-purpose agent (sonnet) following source-reader instructions; PDF text extracted (pdftoppm missing), page numbers are PDF page indices"
+}

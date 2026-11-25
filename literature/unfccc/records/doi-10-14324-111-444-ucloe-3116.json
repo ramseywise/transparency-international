@@ -1,0 +1,122 @@
+{
+  "id": "doi-10-14324-111-444-ucloe-3116",
+  "citation": {
+    "authors": ["Carola Klöck", "Christian Baatz", "Nils Wendler"],
+    "year": 2025,
+    "title": "Procedural justice and (in)equitable participation in climate negotiations",
+    "venue_or_publisher": "UCL Open Environment 7(1)",
+    "doi_or_url": "https://doi.org/10.14324/111.444/ucloe.3116",
+    "type": "journal article (web version, with appendix table and two open peer reviews); published 2025-02-05",
+    "peer_reviewed": "yes"
+  },
+  "question": "Whether small Party delegations are disadvantaged in UN climate negotiations from a procedural justice view: what delegation size is sufficient (about 15), how many Parties send fewer, and how to make the negotiations more equitable. It does not set out to measure business or fossil-fuel presence.",
+  "data": "Official UNFCCC lists of participants for the eight COPs from COP21 (2015) to COP28 (2023); delegation size per Party per COP (Table A1 in the page, numeric, only its start was viewed). Income and population figures are used for the correlations; their sources are not named in the text read.",
+  "method": "Descriptive analysis of delegation size (number of people listed under each Party): averages, frequencies, count of Parties at or below 15, Spearman rank correlations with income and population. The threshold of 15 comes from a normative argument and earlier literature (survey of AOSIS negotiators, a least-developed-country negotiator's view, UNFairplay report), and the authors call it a rough estimate. No classification of delegates by employer or sector.",
+  "definitions": [
+    {
+      "term": "Sufficient delegation size",
+      "definition": "About 15 delegates, the number below which a delegation is very likely to struggle; the authors say it is a rough, somewhat arbitrary estimate.",
+      "quote": "we chose 15 delegates as a threshold below which it becomes very likely that the respective delegation will struggle in the negotiations.",
+      "page": "Procedural justice in the climate negotiations"
+    },
+    {
+      "term": "Delegation size (as a measure)",
+      "definition": "The number of people listed for a Party in the official lists of participants, used as a proxy for negotiation capacity, not as a count of negotiators.",
+      "quote": "we maintain that delegation size is a widely used and useful proxy",
+      "page": "Delegation size at COPs since 2015"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Party negotiation capacity",
+      "indicator": "Number of delegates listed under the Party in the official UNFCCC lists of participants.",
+      "quote": "we use the official lists of participants, focusing on the last eight COPs since 2015.",
+      "page": "Delegation size at COPs since 2015"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Average delegation size rose from six to seven in 1995-1999 to 61 over 2015-2023.",
+      "quote": "Delegations comprised on average six to seven delegates in the first years of the negotiations (1995–1999).",
+      "page": "Delegation size at COPs since 2015"
+    },
+    {
+      "claim": "Some Party delegations include private-sector representatives, including fossil fuel companies and other carbon-intensive industries. This is stated in one sentence, with two cited sources (Kick Big Polluters Out web pages on COP27 and COP28), and is not measured in the article.",
+      "quote": "Some government delegations also include representatives from the private sector, including fossil fuel companies and other carbon-intensive industries",
+      "page": "Delegation size at COPs since 2015"
+    },
+    {
+      "claim": "Official lists include people who are not negotiators: security or logistics staff and civil society members accredited through the government.",
+      "quote": "not all delegates listed in the official lists of participants are technical negotiators.",
+      "page": "Delegation size at COPs since 2015"
+    },
+    {
+      "claim": "31 Parties had average delegations below 15 over COP21 to COP28.",
+      "quote": "Here, 31 parties have delegations that are on average below 15.",
+      "page": "Delegation size at COPs since 2015"
+    },
+    {
+      "claim": "Mega-delegations are rising: delegations of 300 or more went from three at COP21 to ten at COP28.",
+      "quote": "while three countries had sent more than 300 delegates to COP21 in Paris (2015), the number of such delegations increased to 10 at the most recent COP.",
+      "page": "Delegation size at COPs since 2015"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Full article text and appendix table are present in the file, but the article contains no data or method on business or fossil-fuel presence; only the one sentence above and a peer reviewer's remark mention it. Nothing here answers Q1 or Q2 with numbers.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Delegation size is a crude measure and the lists mix negotiators with other people, including NGO members.",
+      "stated_by_authors": true,
+      "quote": "Admittedly, delegation size is a crude measure of negotiation capacity.",
+      "page": "Introduction"
+    },
+    {
+      "point": "The analysis is illustrative, not systematic.",
+      "stated_by_authors": true,
+      "quote": "The above analysis serves mainly illustrative purposes; our aim here is not a comprehensive and systematic analysis of delegation size and its drivers.",
+      "page": "Delegation size at COPs since 2015"
+    },
+    {
+      "point": "A peer reviewer asked whether data on the composition of delegations exist; the article does not provide a composition breakdown.",
+      "stated_by_authors": false,
+      "quote": "Do you have data on the compositions of delegations?",
+      "page": "Open peer review from Kilian de Ridder"
+    },
+    {
+      "point": "A peer reviewer suggested the paper note non-governmental delegates inside country delegations and the fossil fuel delegation. This is the reviewer's assertion, not a finding of the article, and the authors' response is not in the file.",
+      "stated_by_authors": false,
+      "quote": "the presence of non-governmental delegates as part of country delegation.",
+      "page": "Open peer review from Dan Osborn"
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC official lists of participants, COP21 to COP28",
+      "what_it_is": "Source of delegation sizes per Party; the per-Party numbers are given in Table A1 of the page.",
+      "page": "Delegation size at COPs since 2015"
+    },
+    {
+      "name": "Kick Big Polluters Out, 'Big polluters at COP27' and 'Release: record number of fossil fuel lobbyists at COP28'",
+      "what_it_is": "Web pages cited as the support for fossil-fuel presence in government delegations (references 42 and 43); not read here.",
+      "page": "References"
+    },
+    {
+      "name": "Chan (2021), Beyond delegation size: developing country negotiating capacity and NGO support",
+      "what_it_is": "Cited for non-negotiators in delegations (reference 11); not read here.",
+      "page": "References"
+    },
+    {
+      "name": "Müller et al. (2021), Quo vadis COP?, European Capacity Building Initiative",
+      "what_it_is": "Cited for the rise in delegation size since Paris and for COP size (reference 41); not read here.",
+      "page": "References"
+    }
+  ],
+  "relevant_to": ["context"],
+  "pages_read": "Whole of the article body (introduction to conclusion), notes, the reference list, both open peer reviews, and the start of Table A1 (per-Party delegation counts, numeric). Later rows of Table A1 and the extracted link records at the end of the file were not read in full.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

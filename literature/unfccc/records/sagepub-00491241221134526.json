@@ -1,0 +1,236 @@
+{
+  "id": "sagepub-00491241221134526",
+  "citation": {
+    "authors": [
+      "Salomé Do",
+      "Étienne Ollion",
+      "Rubing Shen"
+    ],
+    "year": null,
+    "title": "The Augmented Social Scientist: Using Sequential Transfer Learning to Annotate Millions of Texts with Human-Level Accuracy",
+    "venue_or_publisher": "Sociological Methods and Research (stated as forthcoming on the file's first page)",
+    "doi_or_url": "https://github.com/rubingshen/Replication_Augmented (replication code and data; no DOI stated in the file)",
+    "type": "journal article (pre-publication manuscript)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "Can a social scientist, in a reasonable time, train an algorithm (a pre-trained language model fine-tuned on their own labels) to carry out complex text annotation, and can annotation be outsourced to research assistants or microworkers, or does expertise matter for training?",
+  "data": "Articles on politics from the French daily Le Monde, 1945 to 2018: over 60,000 articles, close to 39 million words. Training sets: 2,357 sentences from 63 articles (policy/politics task); 6,274 three-sentence excerpts (off-the-record task). Test sets: 377 sentences from 11 articles; 639 excerpts. Annotators: 1 expert per task (two of the authors), 3 research assistants (Master's students), 34 Bachelor students acting as microworkers.",
+  "method": "Supervised text classification (sentence level: Policy / Politics / Other) and sequence labelling (token level: off the record or not). A pre-trained French BERT (CamemBERT) was fine-tuned on training labels from each of the three annotator groups. Performance compared with F1 against a hold-out test set annotated by one author and consolidated against a second author's independent hand-coding. Human annotators were scored against the same test set. Baselines: linear SVM with TF-IDF and an LSTM without pre-training. Sample-efficiency curves, random-seed repeats with 95% confidence intervals, manual review of off-the-record predictions, and a prevalence estimate corrected with precision and false omission rate.",
+  "definitions": [
+    {
+      "term": "Policy (sentence category)",
+      "definition": "Sentence evokes the content of a measure, its effects, or more broadly any action outside the political sphere.",
+      "quote": "it evokes the content of a measure, its effects, and more broadly any action outside of the political sphere (“policy”)",
+      "page": 8
+    },
+    {
+      "term": "Politics (sentence category)",
+      "definition": "Sentence is only about the action of politicians, their strategy, or the inner workings of the political field. A residual 'other' category holds all remaining sentences.",
+      "quote": "the sentence is only about the action of politicians, the strategy they use, the inner workings of the political field (“politics”)",
+      "page": 8
+    },
+    {
+      "term": "Off the record (token label)",
+      "definition": "Parts of a sentence that introduce unattributed comments. Each token is labelled 1 if part of a segment introducing off the record, 0 if not.",
+      "quote": "identify the parts of a sentence that introduce unattributed comments",
+      "page": 8
+    },
+    {
+      "term": "Sequential transfer learning",
+      "definition": "Pre-training a large neural network, generally on a self-supervised task, then fine-tuning it on a different downstream task.",
+      "quote": "pre-training a large neural network, generally on a “self-supervised” task, and then to fine tune the neural network on a so-called “downstream” task",
+      "page": 15
+    },
+    {
+      "term": "Test set / gold standard / ground truth",
+      "definition": "Data never shown to the algorithm in training, used as the benchmark for quality of predictions.",
+      "quote": "This dataset (sometimes also called “gold standard” or “ground truth”) was never shown to the algorithm during the training phase.",
+      "page": 17
+    },
+    {
+      "term": "F1-score",
+      "definition": "Harmonic mean of precision and recall for a given label; ranges 0 to 1, with 1 identical to the consolidated test set. Averaged over labels it is not affected by unbalanced data.",
+      "quote": "F1-score is the harmonic mean of the precision (the positive predictive value",
+      "page": 17
+    },
+    {
+      "term": "Correct prediction (off-the-record task)",
+      "definition": "Model counted as correct when at least 50% of the tokens annotated in the test set overlap with its prediction. Authors call this an idiosyncratic measure.",
+      "quote": "we considered that the model was predicting correctly when there was an overlap of at least 50% of the tokens annotated in the test set",
+      "page": 20
+    },
+    {
+      "term": "Social scientist / research assistants / microworkers (annotator types)",
+      "definition": "Expert with topic knowledge who may have designed the indicators; skilled but not expert Master's-level assistants given guidelines and Q&A; low-training annotators with no contact with the researcher (here 34 Bachelor students given written guidance only).",
+      "quote": "Skilled, but not expert, individuals. They are often hired by the researcher who wants to do the analysis and may get to know her and her research.",
+      "page": 9
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Horse-race / strategic political reporting (backstage politics)",
+      "indicator": "Share of sentences labelled 'politics' (strategy and actions of politicians) versus 'policy'.",
+      "quote": "Taking cues from the literature in the sociology of journalism, we designed two indicators.",
+      "page": 8
+    },
+    {
+      "concept": "Journalists revealing backstage politics",
+      "indicator": "Unattributed 'off the record' prompts, e.g. 'a source close to power expressed that'.",
+      "quote": "These “off the record quotes” are conventionally seen as a possible proxy for measuring the extent to which journalists reveal backstage politics",
+      "page": 8
+    }
+  ],
+  "findings": [
+    {
+      "claim": "On the policy/politics task the pre-trained model trained by the expert nearly matched research assistants (F1 0.78 vs 0.80), and beat microworkers (0.65) and a model without pre-training (0.67).",
+      "quote": "the model trained by the expert almost equals the score reached by the research assistants (78% vs. 80%)",
+      "page": 19
+    },
+    {
+      "claim": "On the off-the-record task the expert-trained model scored 0.82, against 0.86 for research assistants, 0.70 for microworkers and 0.41 for the model without pre-training.",
+      "quote": "The model trained by the social scientist reached 82%, a score slightly lower than that of the research assistants",
+      "page": 20
+    },
+    {
+      "claim": "Microworker annotation was markedly worse than research-assistant annotation on the complex task (0.65 vs 0.80 F1 against the expert test set).",
+      "quote": "the research assistants concurred with the test set in 80% of the cases, but the microworkers reached only an agreement score of 65%.",
+      "page": 18
+    },
+    {
+      "claim": "Model performance plateaued with a fraction of the training data. For policy/politics about one-third to half of the examples sufficed (under 4 hours of expert annotation). Off-the-record needed at least 50%, about 18 hours.",
+      "quote": "we could have reduced the annotation time for all three groups, since the curves reach a plateau",
+      "page": 21
+    },
+    {
+      "claim": "On the simple but tedious off-the-record task, models trained by all three groups converged to similar performance with enough data. The expert's labels missed instances, which the authors attribute to annotation fatigue.",
+      "quote": "the expert missed prompts introducing off the record more than just a few times.",
+      "page": 22
+    },
+    {
+      "claim": "On manual review, 8% of off-the-record annotations were correct model predictions that the two expert annotators had missed, so the F1 figures are conservative. The model was right in 86% of cases, matching research assistants.",
+      "quote": "the two expert annotators had missed these prompts effectively introducing “off the record”.",
+      "page": 28
+    },
+    {
+      "claim": "The classifier reproduced a known historical pattern: the share of 'politics' sentences rose from 27% to 45% between the 1960s and 1980s, with local peaks in presidential election years.",
+      "quote": "the share of sentences only focusing on “politics” rose sharply - from 27% to 45%.",
+      "page": 26
+    },
+    {
+      "claim": "Without pre-training, models did much worse, especially on the rare off-the-record label (F1 0.41; 0.09 for the 'other' class). The model was weakest on the residual 'other' class (F1 0.34).",
+      "quote": "The results are not catastrophic, since the model is right in 67% of the cases for policy/politics, but only in 41% for off-the-record",
+      "page": 20
+    }
+  ],
+  "recommendations": [
+    {
+      "claim": "Researchers should have the model trained on expert annotation, and encourage social scientists to do the annotation themselves because it is now not very time-consuming.",
+      "quote": "would encourage social scientists to carry out the annotation phase themselves - especially now that it is not so time-consuming.",
+      "page": 31
+    },
+    {
+      "claim": "For long, simple, tedious annotation tasks, some annotation can be outsourced; for complex tasks, expertise matters and microworker labels are a degraded second-best.",
+      "quote": "it may be worth outsourcing the annotation job to other persons, or at least part of it.",
+      "page": 23
+    },
+    {
+      "claim": "Even if annotation is outsourced, using a trained model improves annotation quality; a supervised model fine-tuned from a pre-trained language model is argued to be the cheapest and best option for large corpora.",
+      "quote": "the quality of the annotation is often increased, rather than decreased, by resorting to a model.",
+      "page": 33
+    },
+    {
+      "claim": "Use a single hold-out test set so humans and models are compared on the same benchmark, and use F1 rather than accuracy when labels are rare.",
+      "quote": "using a basic accuracy measure would be misleading as a model predicting no off-the-record at all would yield a 97.25% accuracy.",
+      "page": 17
+    },
+    {
+      "claim": "Replicate data production, not only data analysis, by letting other researchers re-annotate with a different coding scheme.",
+      "quote": "more comprehensive scientific replication standard in which the mandate is to replicate data production, not just data analysis",
+      "page": 30
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Time estimates exclude the preparation work (accessing and checking the corpus, finding and operationalising the indicator).",
+      "stated_by_authors": true,
+      "quote": "our estimates of time do not take into account the countless hours (and, in some cases, days) spent preparing for the annotation.",
+      "page": 31
+    },
+    {
+      "point": "The method needs programming skills, an annotation interface and sometimes costly GPU computing with environmental impact.",
+      "stated_by_authors": true,
+      "quote": "requires a good knowledge in at least one computer programming language",
+      "page": 31
+    },
+    {
+      "point": "Supervised models only automate tasks already defined and rely on statistical correlation, not communicative intent; they may fail at tasks needing high textual understanding.",
+      "stated_by_authors": true,
+      "quote": "Supervised learning models based on pre-trained language models can thus only automate tasks that were already defined",
+      "page": 32
+    },
+    {
+      "point": "Naive classify-and-count does not always give the best prevalence estimate compared with quantification-specific methods. The prevalence correction also assumes constant precision and false omission rate over time.",
+      "stated_by_authors": true,
+      "quote": "Supervised learning models based on pre-trained language models can thus only automate tasks that were already defined",
+      "page": 32
+    },
+    {
+      "point": "Test set sampled at article level, so test sentences within an article may be correlated. Authors argue the bias is the same for all actors.",
+      "stated_by_authors": true,
+      "quote": "this choice might introduce a correlation between the sentences in the test set within each article.",
+      "page": 11
+    },
+    {
+      "point": "The test set was labelled by one author and consolidated against a second author's independent coding, but no inter-coder agreement statistic (e.g. kappa) is reported for it. The authors found the test set itself had missed true positives.",
+      "stated_by_authors": false,
+      "quote": "The test set was first annotated with care by one of the authors, and then consolidated by contrasting these results with those of an independent hand-coding made by a second author.",
+      "page": 9
+    },
+    {
+      "point": "Microworkers were Bachelor students from the authors' class, not platform gig workers, and the experts were the authors themselves. Generalisation to real crowd platforms and to other languages and topics is untested. Single corpus (Le Monde), two tasks. The model is a fine-tuned BERT, not a zero-shot or prompted LLM, so findings do not directly address prompt-based classification.",
+      "stated_by_authors": false,
+      "quote": "we asked 34 French-speaking Bachelor students from one of our classes to participate in an experiment.",
+      "page": 9
+    },
+    {
+      "point": "Expert annotation fatigue on the large off-the-record task lowered the expert-trained model's performance.",
+      "stated_by_authors": true,
+      "quote": "she likely experienced a classic “fatigue effect”",
+      "page": 22
+    },
+    {
+      "point": "No instructions addressed to a reader or an AI were found in the source. The document is a pre-publication manuscript, so its published form may differ.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Replication code and data",
+      "what_it_is": "GitHub repository rubingshen/Replication_Augmented plus a Colab tutorial for the package",
+      "page": 1
+    },
+    {
+      "name": "Le Monde political-article corpus, 1945-2018",
+      "what_it_is": "Over 60,000 articles, about 39 million words; training and test sub-corpora drawn from it",
+      "page": 7
+    },
+    {
+      "name": "Reference list",
+      "what_it_is": "Bibliography of about 70 works on text-as-data, supervised learning, BERT and transfer learning, and the sociology of journalism (e.g. Nelson et al. 2021; Grimmer and Stewart 2013; Benoit et al. 2016; Luo, Card and Jurafsky 2020)",
+      "page": 34
+    },
+    {
+      "name": "Doccano",
+      "what_it_is": "Open-source annotation interface used for labelling",
+      "page": 31
+    }
+  ],
+  "relevant_to": [
+    "method"
+  ],
+  "pages_read": "1-41 (all 41 pages, including references and Appendices A-C)",
+  "read_on": "2026-11-24",
+  "read_by": "2026-11-24 general-purpose agent (sonnet) following source-reader instructions; PDF text extracted (pdftoppm missing), page numbers are PDF page indices"
+}

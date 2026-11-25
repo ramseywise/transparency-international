@@ -1,0 +1,260 @@
+{
+  "id": "doi-10-2139-ssrn-7389359",
+  "citation": {
+    "authors": [
+      "Kentaro Nakamura",
+      "Jing Ling Tan",
+      "George Yean"
+    ],
+    "year": 2026,
+    "title": "Observational Equivalence of LLM and Human Annotation",
+    "venue_or_publisher": "Preprint, arXiv:2609.22133v2 [cs.CL] (last updated October 30, 2026), as printed on page 1",
+    "doi_or_url": "arXiv:2609.22133v2",
+    "type": "working paper / preprint",
+    "peer_reviewed": "unknown"
+  },
+  "question": "Whether LLMs and attentive human coders are observationally equivalent when applying the same codebook to text classification, whether disagreement among coders (human and LLM) concentrates on the same ambiguous texts, and how researchers should handle residual ambiguity in downstream inference.",
+  "data": "Replications of binary text-classification tasks from 14 peer-reviewed political science studies (texts sampled per study). Annotators: 13 LLMs (10 original plus 3 Claude models added after the crowd experiment), three human coders (Ph.D. students), and 165 crowd coders (CloudResearch Connect, June 2026, 20 texts each, 280 unique texts, 10 highest and 10 lowest cross-LLM-Gini texts per paper). Extra analyses: 64-variant prompt ablation on 7 open-source LLMs; repeated stochastic runs (temperature 1.0, 10 runs); BFRS Pakistan dataset (28,731 incidents 1988-2011, 100 summaries sampled, one reference label per event); Arias (2022) climate securitization corpus (4,525 segments, 200 human-reviewed, 24 ambiguous).",
+  "method": "Each study's codebook is applied identically by LLMs, three humans and crowd workers. Agreement measured with Krippendorff's alpha (including leave-one-human-out) and majority-vote references. Text ambiguity is operationalised as human disagreement (clear vs ambiguous); cross-LLM disagreement measured by Gini impurity (and normalized Shannon entropy as robustness). Prompts built from a codebook template (role, definition, classification rules, label wording, paper summary, data summary, reasoning cue). A preregistered crowd experiment (hypotheses H1-H6, Benjamini-Hochberg correction, CR1/CR2 clustered errors) tests whether crowd disagreement tracks LLM disagreement, whether LLM-human agreement exceeds crowd-human agreement, and whether an improved codebook reduces disagreement. Ambiguity-aware bounds for downstream estimates use cross-LLM disagreement as a proxy for ambiguity, a random human-review subsample and a design-adjusted estimator; illustrated on Arias (2022) against naive LLM regression and DSL/PPI correction.",
+  "definitions": [
+    {
+      "term": "clear vs ambiguous text",
+      "definition": "A text is clear when two humans agree on its label and ambiguous when they disagree (the working operationalisation used for the empirical comparisons).",
+      "quote": "we classify it as clear when two humans agree and as ambiguous when they disagree.",
+      "page": 8
+    },
+    {
+      "term": "observational equivalence (of LLM and human coders)",
+      "definition": "LLMs and attentive human coders are assessed as equivalent when applying a common coding framework, judged by agreement rates and by where disagreement concentrates.",
+      "quote": "we assess whether LLMs and attentive human coders are observationally equivalent under a common coding framework",
+      "page": 4
+    },
+    {
+      "term": "ambiguity indicator A_i (for the bounds)",
+      "definition": "Binary researcher-annotated indicator equal to one if text i is ambiguous, in which case the true value Y_i is undefined.",
+      "quote": "equals one if text i is ambiguous and the value of Yi is therefore undefined",
+      "page": 78
+    },
+    {
+      "term": "climate securitization (Arias 2022, as quoted by the authors)",
+      "definition": "Emphasizing the security dimensions of an issue, specifically existential-threat language, and indicating UN Security Council jurisdiction over an issue; used as the concept coded in the S5.2 application.",
+      "quote": "emphasizing the security dimensions of an issue, specifically the language of existential threat",
+      "page": 81
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "text ambiguity (human-based)",
+      "indicator": "Disagreement between two human coders on a text.",
+      "quote": "we classify it as clear when two humans agree and as ambiguous when they disagree.",
+      "page": 8
+    },
+    {
+      "concept": "text ambiguity (scalable, LLM-based)",
+      "indicator": "Cross-LLM disagreement measured by Gini impurity of the LLM labels for a text (majority vote used as the label); used to build the estimated ambiguity indicator in the bounds.",
+      "quote": "from cross-model disagreement, measured by Gini impurity",
+      "page": 80
+    },
+    {
+      "concept": "within-text disagreement (robustness measure)",
+      "indicator": "Normalized Shannon entropy of the share of Yes codes per text, used as an alternative to Gini impurity (for LLM and crowd codings).",
+      "quote": "mean normalized Shannon entropy",
+      "page": 77
+    },
+    {
+      "concept": "within-model ambiguity (instability under repeated runs)",
+      "indicator": "Disagreement across repeated stochastic runs of one LLM; authors report partial support (significant for GPT-OSS-20B, Llama 3.1-8B, Qwen2.5-14B only).",
+      "quote": null,
+      "page": 64
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Headline claim: LLMs and humans are observationally equivalent in coding texts; recent LLMs agree with attentive humans at rates comparable to human-human agreement, and cross-LLM disagreement concentrates on texts that also divide humans.",
+      "quote": "humans and large language models (LLMs) are observationally equivalent in coding texts.",
+      "page": 1
+    },
+    {
+      "claim": "Crowd disagreement (Gini) rises with LLM disagreement (H1 slope 0.339, 95% CI [0.256, 0.422]); crowd Gini is 0.242 on LLM-agree texts vs 0.379 on LLM-disagree texts, and 0.272 when humans are unanimous vs 0.373 when split. [from a table on this page; no quotable sentence]",
+      "quote": "",
+      "page": 71
+    },
+    {
+      "claim": "Mean LLM-human alpha (0.329) exceeds crowd-human alpha (0.199), a gap of 0.129 (95% CI [0.033, 0.226], one-sided p=0.006); LLMs are closer to humans in 11 of 14 papers. [from a table on this page; no quotable sentence]",
+      "quote": "",
+      "page": 71
+    },
+    {
+      "claim": "Under entropy, crowd disagreement also rises where humans disagree (0.593 to 0.789), reproducing the Gini result.",
+      "quote": "crowd entropy rises from 0.593 where the humans agree to 0.789 where they disagree (H6b).",
+      "page": 76
+    },
+    {
+      "claim": "Improving the Schub codebook lowered crowd Gini from 0.418 to 0.288 (p=0.005); crowd-human agreement rose 0.603 to 0.658 but was not significant (p=0.167). Under entropy crowd disagreement fell 0.862 to 0.631 (p=0.011).",
+      "quote": "crowd entropy falls from 0.862 under the original codebook to 0.631 under the improved one",
+      "page": 76
+    },
+    {
+      "claim": "Crowd coder characteristics (knowledge, news consumption, education, coursework, survey duration) and text length do not predict annotation quality once task fixed effects are added; joint F-test p=0.907.",
+      "quote": "Every association is indistinguishable from zero once task fixed effects are added.",
+      "page": 74
+    },
+    {
+      "claim": "Headline crowd results are robust to respondent exclusions: H3a effect ranges from -0.131 to -0.117 and H3b stays non-significant across specifications; H1 slope 0.339 vs 0.343 after dropping straight-liners; H2 gap 0.129 vs 0.120.",
+      "quote": "ranges from −0.131 to −0.117",
+      "page": 76
+    },
+    {
+      "claim": "Majority-vote references raise alpha by 0.07 across LLMs and 0.08 across humans; the authors caution that higher agreement is not the same as accuracy.",
+      "quote": "greater agreement does not necessarily imply more accurate annotations",
+      "page": 62
+    },
+    {
+      "claim": "In the 64-prompt ablation, classification rules had the largest positive OLS effect on prompt-variant disagreement (+0.031), then label wording (+0.016) and role (+0.013); log text length -0.041. Prompt disagreement is generally higher where humans disagree (Mistral 7B the exception). [from a table on this page; no quotable sentence]",
+      "quote": "",
+      "page": 62
+    },
+    {
+      "claim": "Six text features (length, lexical rarity, hedging, referential ambiguity, negation, imperfection) do not reliably predict human disagreement; only log text length is significant, evidence called inconclusive. [from a table on this page; no quotable sentence]",
+      "quote": "",
+      "page": 68
+    },
+    {
+      "claim": "In the Arias (2022) application, 24 of 200 reviewed segments were classified as ambiguous; naive LLM regression and DSL give far more precise estimates than the ambiguity-aware bounds, and alternative defensible classifications of ambiguous segments can reverse the sign of an estimated coefficient.",
+      "quote": "alternative defensible classifications of the ambiguous texts can even reverse the sign of the",
+      "page": 81
+    }
+  ],
+  "recommendations": [
+    {
+      "claim": "Resolve avoidable ambiguity by refining the codebook before applying statistical adjustment; use the bounds only for the ambiguity that remains.",
+      "quote": "Researchers should resolve avoidable ambiguity through substantive refinement of the coding rules before turning to statistical adjustment.",
+      "page": 82
+    },
+    {
+      "claim": "When ambiguity predictors are inconclusive, refine the codebook and account for residual ambiguity.",
+      "quote": "generally recommend that researchers address these issues by refining the codebook and accounting for residual ambiguity",
+      "page": 67
+    },
+    {
+      "claim": "Use cross-LLM disagreement to identify difficult cases, guide human review and refine codebooks; develop ambiguity-aware bounds for downstream inference without ground truth for every text. The introduction proposes a workflow: clear codebook, manual coding of a small random sample, verify LLMs can apply it, targeted review of cross-LLM disagreements, then annotate the full corpus.",
+      "quote": "we propose using cross-LLM disagreement to identify difficult cases, guide human review, and refine codebooks",
+      "page": 1
+    },
+    {
+      "claim": "Validation should ask whether text and coding rule yield a stable classification, not only whether an LLM reproduces a human label; LLM-human disagreement should not automatically be treated as model error.",
+      "quote": null,
+      "page": 2
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Codebook quality is a limitation of the research design.",
+      "stated_by_authors": true,
+      "quote": "One limitation of our research design is the codebook quality.",
+      "page": 6
+    },
+    {
+      "point": "Human coders received no training, pilot coding or reconciliation, which may depress human-human agreement.",
+      "stated_by_authors": true,
+      "quote": "our coders received no training, pilot coding, or reconciliation",
+      "page": 7
+    },
+    {
+      "point": "Cross-LLM disagreement is an imperfect proxy for ambiguity.",
+      "stated_by_authors": true,
+      "quote": "informative but imperfect proxy for ambiguity",
+      "page": 14
+    },
+    {
+      "point": "When ambiguity is widespread the bounds can be too wide to be informative.",
+      "stated_by_authors": true,
+      "quote": "When ambiguity is widespread, the bounds may be uninformative",
+      "page": 15
+    },
+    {
+      "point": "The crowd survey deliberately oversamples contested texts (10 highest and 10 lowest cross-LLM-Gini per paper), so agreement levels are lower than in the full corpus and not representative; crowd texts were chosen using only the original 10 LLMs.",
+      "stated_by_authors": true,
+      "quote": null,
+      "page": 69
+    },
+    {
+      "point": "For the BFRS Pakistan dataset only one reference label exists per event, so human-human agreement cannot be measured.",
+      "stated_by_authors": true,
+      "quote": null,
+      "page": 34
+    },
+    {
+      "point": "H1 and H2 could not be re-estimated for the strict exclusion sample because the de-identified data omit reCAPTCHA flags.",
+      "stated_by_authors": true,
+      "quote": "H1 and H2 cannot be updated for the strict sample because the de-identified data omit reCAPTCHA flags",
+      "page": 75
+    },
+    {
+      "point": "Reader note, not stated by the authors: I could not render the PDF (no PDF renderer available) and read the repository's pre-extracted text of it instead (82 pages, flat text; figures lost and tables garbled in places). Page numbers are the extraction's page markers, assumed equal to PDF pages.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Source is a preprint with no stated journal peer review; the paper thanks a Harvard pre-review program reviewer. It is political-science text classification, not about COP31 delegates or corporate/fossil-fuel classification, so findings transfer only as method evidence.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 1
+    },
+    {
+      "point": "No instructions addressed to a reader or an AI were found in the source. The prompts and codebooks in Appendix S2 are the authors' own study materials and were not acted on.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Replication set of 14 peer-reviewed political science text-classification studies (Table 2)",
+      "what_it_is": "Source studies and codebooks replicated; alphas reported per study",
+      "page": 8
+    },
+    {
+      "name": "Table 1: the 13 LLMs",
+      "what_it_is": "List of LLMs used (10 original, plus 3 Claude models added after the crowd experiment)",
+      "page": 5
+    },
+    {
+      "name": "Table S4 and S5 prompt components",
+      "what_it_is": "Fixed (S4, p.35) and paper-specific (S5, pp.36-42) codebook/prompt components",
+      "page": 35
+    },
+    {
+      "name": "Updated codebook prompts for Arias and Schub",
+      "what_it_is": "Refined prompts used for refinement-before-scaling",
+      "page": 43
+    },
+    {
+      "name": "BFRS Pakistan dataset (Bueno de Mesquita et al. 2015; Halterman and Keith 2026)",
+      "what_it_is": "28,731 incidents, 1988-2011, 12-category single-label task; 100 summaries re-analysed",
+      "page": 34
+    },
+    {
+      "name": "Crowd experiment, CloudResearch Connect, preregistered at https://osf.io/5wp2k",
+      "what_it_is": "165 coders, 280 unique texts, preregistered hypotheses H1-H6 (Table S15)",
+      "page": 53
+    },
+    {
+      "name": "Arias (2022) climate securitization corpus",
+      "what_it_is": "4,525 UN speech segments; 200 reviewed by authors; used for the bounds application",
+      "page": 80
+    },
+    {
+      "name": "Reference list",
+      "what_it_is": "Bibliography of the paper",
+      "page": 16
+    }
+  ],
+  "relevant_to": [
+    "method"
+  ],
+  "pages_read": "Pages 1-82 of the repository's pre-extracted text of the PDF (/Users/ramsey-wise/workspace/transparency-international/literature/unfccc/data/processed/text/doi-10-2139-ssrn-7389359.json, flattened to a scratch file). The PDF itself could not be rendered (pdftoppm missing). Pages 16-22 are references only and were skimmed; figures are not available in the extraction.",
+  "read_on": "2026-11-24",
+  "read_by": "2026-11-24 general-purpose agent (sonnet) following source-reader instructions; PDF text extracted (pdftoppm missing), page numbers are PDF page indices"
+}

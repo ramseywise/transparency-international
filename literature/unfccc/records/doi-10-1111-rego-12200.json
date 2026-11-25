@@ -1,0 +1,200 @@
+{
+  "id": "doi-10-1111-rego-12200",
+  "citation": {
+    "authors": [
+      "Andreea Nastase",
+      "Claire Muurmans"
+    ],
+    "year": 2020,
+    "title": "Regulating lobbying activities in the European Union: A voluntary club perspective",
+    "venue_or_publisher": "Regulation & Governance 14, 238-255 (accepted 2018)",
+    "doi_or_url": "https://doi.org/10.1111/rego.12200",
+    "type": "journal article",
+    "peer_reviewed": "yes"
+  },
+  "question": "Why interest groups sign up to the EU Transparency Register, a non-binding lobby regulation scheme, using instrumental (incentive) and normative (values) explanations of compliance.",
+  "data": "19 in-depth interviews (Nov 2014 to Dec 2015, Brussels) with public affairs managers in climate policy and tobacco control; statistics from a 2012 European Commission public consultation on the TR (252 valid answers, 19 from non-registrants excluded); Transparency Register database counts as of December 2015 (6,674 registrants in the general population cited in Tables 2 and 3).",
+  "method": "Maximum variation sampling of interviewees across the TR's registrant categories; interviews recorded, transcribed and coded inductively in ATLAS.ti; arguments then mapped to instrumental and normative compliance as a heuristic. Descriptive TR database searches by declared interest (climate action; public health used as a proxy for tobacco). The study does not assess the TR's effectiveness.",
+  "definitions": [
+    {
+      "term": "Lobbying",
+      "definition": "Activities undertaken with the objective of influencing decisions made by public authorities (Hardacre 2011).",
+      "quote": "activities undertaken with the objective of influencing decisions made by public authorities (Hardacre 2011, p. 3)",
+      "page": 1
+    },
+    {
+      "term": "Who the TR is addressed to",
+      "definition": "Any organisation or self-employed individual practising activities designed to influence EU policymaking, directly or indirectly, by any channel.",
+      "quote": "activities designed to influence – directly or indirectly – policymaking, policy implementation and decision-making in the EU institutions, no matter where they are carried out",
+      "page": 2
+    },
+    {
+      "term": "EU Transparency Register (TR)",
+      "definition": "Non-binding register launched in 2011 by interinstitutional agreement, jointly run by the Commission and Parliament. It succeeded the EP accreditation system (1996) and the Commission's ROIR (2008).",
+      "quote": "is not legally binding",
+      "page": 2
+    },
+    {
+      "term": "Registration categories (types of registrant)",
+      "definition": "The TR has six categories (I to VI). The extracted Table 3 labels include: professional consultancies/law firms/self-employed consultants; in-house lobbyists and trade/professional associations; non-governmental organisations; think tanks, research and academic institutions; organisations representing churches and religious communities; organisations representing local, regional and municipal authorities or other public or mixed entities. The text extraction of the table is scrambled, so numbering and labels may not align.",
+      "quote": "to select participants from each category of registrant listed in the TR",
+      "page": 7
+    },
+    {
+      "term": "Voluntary club",
+      "definition": "The TR is read as a voluntary club sponsored by the EU institutions. Credibility depends on club standards (joining requirements) and on monitoring and enforcement.",
+      "quote": "the club standards (i.e. the requirements for joining the club) signal the costs incurred by members to go above the minimum that is legally required",
+      "page": 14
+    },
+    {
+      "term": "Instrumental vs normative compliance",
+      "definition": "Joining as a function of incentives versus a function of values and social norms. Reputation-based compliance is treated as a hybrid category.",
+      "quote": "a function of incentives, and, on the other, as a function of values and social norms",
+      "page": 2
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Registrants active in climate policy",
+      "indicator": "TR search for groups that declared 'climate action' among their interests",
+      "quote": "groups that declared “climate action” among their interests",
+      "page": 7
+    },
+    {
+      "concept": "Registrants active in tobacco policy",
+      "indicator": "Keyword searches ('tobacco', 'cigarettes', 'smoking'); the TR has no tobacco item, so counts use the 'public health' interest field",
+      "quote": "The TR unfortunately does not include tobacco policy as a separate item of interest",
+      "page": 15
+    },
+    {
+      "concept": "Lobbying intensity",
+      "indicator": "Brussels office; annual lobbying expenditure of 500,000 EUR or more; three or more EP access passes",
+      "quote": "Registrants with high lobbying expenditure (≥500,000 EUR per year)",
+      "page": 6
+    },
+    {
+      "concept": "Instrumental motivation for registering",
+      "indicator": "Survey answer items: eligibility for EP badges; alerts on public consultations and roadmaps",
+      "quote": "to be eligible for EP badges; to be alerted of upcoming public consultations and roadmaps",
+      "page": 10
+    },
+    {
+      "concept": "Principled motivation for registering",
+      "indicator": "Survey answer items: wish to be open/public about participation in EU decision-making; wish to conduct activities in a transparent, ethical manner",
+      "quote": "desire to be open/public about one’s participation in the European policy process",
+      "page": 10
+    },
+    {
+      "concept": "Unreliable register entries",
+      "indicator": "Share of entries checked by the Joint Transparency Register Secretariat in 2015 found non-conformant",
+      "quote": "almost 78 percent of the entries verified in 2015 were found to be non-conformant",
+      "page": 14
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Concern for reputation is the most important driver of registration. Normative language dominates in the interviews, and access and information incentives play a smaller role.",
+      "quote": "actors are more inclined to evoke normative language when describing their participation in the scheme",
+      "page": 9
+    },
+    {
+      "claim": "Registration was said to bring benefits including EP access badges (long-term passes to EP premises) and meetings with Commission and EP officials. Since December 2014 senior Commission staff are not to meet unregistered actors.",
+      "quote": "Long-term access passes to EP premises.",
+      "page": 4
+    },
+    {
+      "claim": "The TR's coverage of the target population was estimated in 2013 at 75% for business organisations and 60% for NGOs.",
+      "quote": "75 percent for business organizations and 60 percent for non-governmental organizations (NGOs)",
+      "page": 2
+    },
+    {
+      "claim": "The register has about 11,000 entries (at the time of writing). In December 2015 the general population was 6,674 registrants, of whom 40% had a Brussels office, 9% reported high lobbying spending and 13% had three or more EP passes. Climate action had 2,479 registrants (46%, 14%, 18%) and public health 2,077 (51%, 13%, 19%).",
+      "quote": "Climate action 2,479 1,152 (46%) 336 (14%) 437 (18%) Public health 2,077 1,053 (51%) 270 (13%) 390 (19%) TR general population 6,674 2,656 (40%) 600 (9%) 881 (13%)",
+      "page": 6
+    },
+    {
+      "claim": "Table 3 reports registrants by category. The general population shares are about 54% (3,582) and 25% (1,680) for the two largest categories, which are probably in-house lobbyists/trade associations and NGOs. For climate action, the largest category is 1,319 (53%). The category-to-number mapping in the extracted text is scrambled and was not verified against the original table. Business is not given as a single category.",
+      "quote": "279 (4%) 43 (%) 426 (6%) 1,680 (25%) 3,582 (54%) 673 (10%) 6,674",
+      "page": 8
+    },
+    {
+      "claim": "The register's credibility is weakened by weak monitoring (the secretariat is understaffed) and by the institutions policing themselves. The authors judge the TR of limited use as a model for other jurisdictions.",
+      "quote": "the TR remains of limited usefulness as a model to emulate in other jurisdictions",
+      "page": 13
+    },
+    {
+      "claim": "Reported by the authors: business actors feel unfairly portrayed as 'the bad guys', and institutions may nurture a bias against industry.",
+      "quote": "business actors feel they are (unfairly) portrayed as “the bad guys.”",
+      "page": 12
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Small sample of 19 interviews. The authors cannot say whether being a business or an NGO lobbyist changes motives for joining. Findings are less relevant to actors not fully engaged in Brussels or active in less contested fields.",
+      "stated_by_authors": true,
+      "quote": "it is not possible to say whether being a business or an NGO lobbyist differently shapes one’s motives for joining the TR",
+      "page": 7
+    },
+    {
+      "point": "The study does not examine whether the TR changes lobbyist behaviour (effectiveness).",
+      "stated_by_authors": true,
+      "quote": "we do not deal here with the question of effectiveness of the TR",
+      "page": 3
+    },
+    {
+      "point": "Tobacco policy is not a separate interest item in the TR, so public health is used as a stand-in.",
+      "stated_by_authors": true,
+      "quote": "we provide data for “public health,”",
+      "page": 15
+    },
+    {
+      "point": "Register data are unreliable (about 78% of entries checked in 2015 were non-conformant), which affects any count taken from the TR.",
+      "stated_by_authors": true,
+      "quote": "the TR is notorious for containing unreliable information",
+      "page": 14
+    },
+    {
+      "point": "The source says nothing about UNFCCC delegates, fossil fuel links, conflicts of interest or undue influence. It covers only the EU Transparency Register.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Only 33 of 126 passages were read, and the Table 3 text is scrambled. No source instruction to a reader was found.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "EU Transparency Register database",
+      "what_it_is": "Public searchable database of registrants (interests, expenditure, staff, EP passes), searched in December 2015 for Tables 2 and 3",
+      "page": 15
+    },
+    {
+      "name": "2012 European Commission public consultation on the TR",
+      "what_it_is": "Survey data on reasons for registering (Table 4)",
+      "page": 10
+    },
+    {
+      "name": "JTRS 2015b monitoring data",
+      "what_it_is": "Joint Transparency Register Secretariat check of entries, 2015",
+      "page": 14
+    },
+    {
+      "name": "Greenwood and Dreger 2013",
+      "what_it_is": "Assessment of the TR cited for coverage estimates",
+      "page": 2
+    },
+    {
+      "name": "Holman 2009; Holman and Susman 2009; OECD 2014",
+      "what_it_is": "Surveys of lobbyists' support for regulation",
+      "page": 2
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "selected by code: 33 of 126 passages, 3999 of 12901 words, from pages 1-7, 9-16, 18 of 18; chosen for definitions, indicators, method, findings and limitations; the rest was not read. I also read page 6-9 text (Tables 2 and 3, sampling and interview sections) from literature/unfccc/data/processed/text/doi-10-1111-rego-12200.json."
+}

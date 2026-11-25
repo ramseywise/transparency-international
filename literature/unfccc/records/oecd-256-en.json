@@ -1,0 +1,40 @@
+{
+  "id": "oecd-256-en",
+  "citation": {"authors": ["OECD"], "year": 2025, "title": "Recommendation of the Council on Transparency and Integrity in Lobbying and Influence (OECD/LEGAL/0379)", "venue_or_publisher": "OECD Legal Instruments (revised by Council 3 May 2024; original adopted 18 February 2010; this edition dated 2025-04-03 in file metadata)", "doi_or_url": "https://legalinstruments.oecd.org/public/doc/256/256.en.pdf", "type": "intergovernmental legal instrument (non-binding Council Recommendation)", "peer_reviewed": "no"},
+  "question": "Sets out principles for governments on transparency and integrity in the interactions between government and lobbying and influence actors, to restrict undue influence and increase equity in stakeholder participation. It does not study delegates or COP lists.",
+  "data": null,
+  "method": null,
+  "definitions": [
+    {"term": "lobbying and influence actors (lobbyist)", "definition": "Legal persons, domestic or foreign, lobbying on their own behalf, plus natural or legal persons lobbying for or under the control of others or of foreign state interest actors. Excludes diplomatic and consular officials, public officials acting officially, journalists, and private individuals acting alone.", "quote": "Lobbying and influence actors refers to legal persons, domestic or foreign, that engage in lobbying and influence activities on their own behalf", "page": 7},
+    {"term": "lobbying and influence activities", "definition": "Actions, direct or through others, aimed at public officials, stakeholders, media or the public, to promote the actor's interests in public decision-making and elections.", "quote": "aimed at promoting the interests of lobbying and influence actors with reference to public decision-making and electoral processes.", "page": 7},
+    {"term": "foreign state interest actors (state-owned company)", "definition": "Foreign governments and related entities or individuals, foreign political organisations, or foreign state-owned and controlled entities representing commercial and political interests. Not a definition of state-owned company as such.", "quote": "foreign state-owned and controlled entities, representing foreign commercial and political interests", "page": 7},
+    {"term": "advisory and expert group (includes delegation to an international forum)", "definition": "Any committee, panel, task force or similar group, including a delegation to an international forum, that advises government and in which non-governmental actors take part.", "quote": "delegation to an international forum, or any subcommittee or other subgroup thereof, that provides governments with advice, expertise or recommendations", "page": 8},
+    {"term": "undue influence", "definition": "Not defined formally. The text says influence without transparency and integrity can produce inequity in influence, undue influence or foreign interference, for example through covert, deceptive or misleading evidence.", "quote": "can result in situations of inequity in influence, undue influence or foreign interference", "page": 6},
+    {"term": "business / private sector actors in scope", "definition": "Not defined. The Recommendation lists the kinds of organisation it treats as lobbying and influence actors.", "quote": "notably companies, business and trade associations, non-governmental organisations, think tanks, research bodies, trade unions and other organisations", "page": 9},
+    {"term": "conflict of interest", "definition": "Not defined. The Recommendation asks for rules on conflict of interest for advisory groups, advisers and public officials moving in and out of office.", "quote": "Provide rules that promote transparency, integrity and inclusiveness in advisory and expert groups, such as procedural rules, standards of conduct and rules on conflict of interest", "page": 8}
+  ],
+  "proxies": [],
+  "findings": [
+    {"claim": "Recommends that governments publicly disclose the members of advisory and expert groups, including those on delegations to intergovernmental fora, with their private interests and professional affiliations. This is a normative standard relevant to delegation transparency, not a finding about COP.", "quote": "including information on their members and other persons who participate in providing advice to government, such as their private interests and their current and past professional affiliations", "page": 8},
+    {"claim": "Recommends frameworks covering advice to government by advisory groups, external consultants, and delegations to intergovernmental fora.", "quote": "notably advisory and expert groups, persons or external consultancy organisations acting as advisors or experts, or delegations to intergovernmental fora", "page": 8},
+    {"claim": "Recommends that board members and senior executives of lobbying actors disclose memberships and interests in other companies, state agencies and business or trade associations.", "quote": "disclose membership and interests with other companies, state agencies, and outside organisations such as business and trade associations", "page": 9},
+    {"claim": "Recommends disclosure that lobbying through third parties, including trade associations, think tanks and hired persons, is made public.", "quote": "either directly or through third parties, e.g. through trade associations, grassroots movements, think tanks", "page": 9},
+    {"claim": "Recommends rules on cooling-off periods and conflict-of-interest management for people moving between regulated sectors and public office.", "quote": "cooling-off periods, subject-matter limits, time limits, disclosure of post-term engagements by holders of at-risk positions", "page": 10},
+    {"claim": "Background text states that evidence shows policy-making is not always inclusive and may be dominated by the financially and politically powerful.", "quote": "there may be monopoly of influence by those that are financially and politically powerful, at the expense of those with fewer resources", "page": 3}
+  ],
+  "limitations": [
+    {"point": "Policy standard, not empirical research. It contains no data, counts, sectors or method for identifying business or fossil fuel delegates, and does not mention fossil fuels, climate, COP, UNFCCC, badges or overflow.", "stated_by_authors": false, "quote": null, "page": null},
+    {"point": "Recommendations are not legally binding and are addressed to governments (Adherents), not to treaty bodies such as the UNFCCC.", "stated_by_authors": true, "quote": "Recommendations are adopted by Council and are not legally binding.", "page": 12},
+    {"point": "Scope excludes diplomatic channels and communication between public authorities, so Party delegates from governments are largely outside its definition of lobbying actors.", "stated_by_authors": true, "quote": "It does not cover influence activities exercised by foreign governments through formal diplomatic channels, communications between public authorities", "page": 7},
+    {"point": "Does not define business, private sector, trade association, state-owned company, observer or conflict of interest. Terms are used without a classification rule.", "stated_by_authors": false, "quote": null, "page": null},
+    {"point": "Author field in file metadata names an individual, but the document itself cites the OECD as author (page 2). The cited authorship is therefore the OECD.", "stated_by_authors": false, "quote": null, "page": 2}
+  ],
+  "reference_lists_or_datasets": [
+    {"name": "OECD (2014), Lobbyists, Governments and Public Trust, Volume 3", "what_it_is": "2014 Report to Council on implementation of the 2010 Recommendation (doi 10.1787/9789264214224-en)", "page": 4},
+    {"name": "OECD (2021), Lobbying in the 21st Century: Transparency, Integrity and Access", "what_it_is": "2021 Report to Council on implementation, basis for the 2024 revision (doi 10.1787/c6d8eff8-en)", "page": 5}
+  ],
+  "relevant_to": ["context"],
+  "pages_read": "1-12 (all)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

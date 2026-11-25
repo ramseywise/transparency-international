@@ -1,0 +1,229 @@
+{
+  "id": "doi-10-1080-07075332-2025-2583948",
+  "citation": {
+    "authors": [
+      "Fabienne Jouty",
+      "Christophe Bonneuil"
+    ],
+    "year": 2025,
+    "title": "Undermining Climate Action: The Fight by European Oil Companies Against the European Carbon Tax",
+    "venue_or_publisher": "International History Review (this copy is the HAL deposit halshs-05547651, submitted 11 Mar 2026; the manuscript text reads 'submitted to The International History Review')",
+    "doi_or_url": "10.1080/07075332.2025.2583948; https://shs.hal.science/halshs-05547651v1",
+    "type": "journal article (historical case study, archival)",
+    "peer_reviewed": "yes"
+  },
+  "question": "How five European oil companies (BP, Shell, ENI, Total, Elf) cooperated with each other and with business associations to defeat the European Commission's carbon and energy tax proposal before the 1992 Rio Earth Summit, and what this shows about climate obstruction in Europe.",
+  "data": "Private business archives (Elf and Total, TotalEnergies Archives), leaked internal documents from IPIECA and oil companies, public EU archives (Commission, Parliament, Council), French and British national archives, printed documents, and oral history interviews. Period 1985-1992, focus 1989-1992. Archives of ENI, Shell, BP, IPIECA and EUROPIA were not accessible. No sample size or counts stated.",
+  "method": "Qualitative historical analysis of archival documents, public position papers, correspondence and interviews. Identifies four discursive themes in documents sent to authorities by oil companies or by EUROPIA, CEFIC and UNICE. No coding scheme, inter-coder procedure or quantitative classification described.",
+  "definitions": [
+    {
+      "term": "climate obstruction",
+      "definition": null,
+      "quote": "what recent sociological analyses have conceptualised as global ‘climate obstruction’",
+      "page": 2
+    },
+    {
+      "term": "ecotax (environmental tax on fossil fuels)",
+      "definition": "A gentler, more flexible instrument with an educational component, set low and raised gradually.",
+      "quote": "an ecotax, or an environmental tax on fossil fuels, was a gentler and more flexible instrument, with an educational component as well.",
+      "page": 11
+    },
+    {
+      "term": "no-regret policy",
+      "definition": "Measures that provide benefits regardless of their environmental impact; the oil industry disputed which measures met this standard.",
+      "quote": "measures that provide benefits ‘regardless of their environmental impact’",
+      "page": 18
+    },
+    {
+      "term": "ENI and Elf (state-owned) versus Total (private with state share)",
+      "definition": "ENI and Elf described as state-owned at the time; Total as private with a third of capital held by the state.",
+      "quote": "Total (a private company with a third of its capital owned by the state)",
+      "page": 3
+    },
+    {
+      "term": "IPIECA",
+      "definition": "An oil sector business organisation, established in 1974 as a stakeholder in the UN Environment Programme.",
+      "quote": "an oil sector business organisation established in 1974 as a stakeholder in the UN Environment Programme",
+      "page": 10
+    },
+    {
+      "term": "Global Climate Coalition (GCC)",
+      "definition": "A coalition of over 40 corporations and business associations that promoted climate scepticism and a 'no tax no target' line.",
+      "quote": "formed by over 40 corporations and business associations, promoted climate scepticism and defended a hard ‘no tax no target’ line.",
+      "page": 16
+    },
+    {
+      "term": "meta-organisations / business associations used by oil companies",
+      "definition": "Named as IPIECA, EUROPIA and the ICC; also cross-sectoral UNICE and sector body CEFIC.",
+      "quote": "meta-organisations such as the International Petroleum Industry Environmental Conservation Association (IPIECA), the European Petroleum Industry Association (EUROPIA), and the International Chamber of Commerce (ICC)",
+      "page": 4
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "oil company engaged in climate obstruction",
+      "indicator": "Public position papers, letters to EU and national authorities, speeches and internal memos arguing against the carbon tax, grouped into four discursive themes (uncertain science, further economic studies, 'market knows best', 'clean fossils').",
+      "quote": "revealed four main discursive themes: the uncertain state of science, the need for further economic studies, the market knows best argument for ‘non-tax-based’ instruments, and the promise of ‘clean fossils’.",
+      "page": 16
+    },
+    {
+      "concept": "strategic fabrication of doubt",
+      "indicator": "Gap between internal acknowledgement of warming (internal reports, executive recollections) and public statements stressing scientific uncertainty.",
+      "quote": "BP’s 1989 position paper, submitted to the UK House of Commons Select Committee on Energy, stands out as a textbook example of such strategic fabrication of doubt",
+      "page": 16
+    },
+    {
+      "concept": "coordinated obstruction through business associations",
+      "indicator": "Membership and working-group roles in IPIECA (Working Group on Global Climate Change), EUROPIA, UNICE (Greenhouse Effect/EC CO2 Policy Working Group), ICC committees, CEFIC and the GCC.",
+      "quote": "IPIECA established an Ad Hoc Group on the Greenhouse Effect (later renamed Working Group on Global Climate Change)",
+      "page": 10
+    },
+    {
+      "concept": "personnel overlap between oil companies and business associations",
+      "indicator": "Careers of executives who became association heads (UNICE Secretary-General a former BP and Shell executive; ICC Secretary-General formerly General Secretary of Total).",
+      "quote": "this position was occupied by the British-Polish oil executive Zygmunt Tyszkiewicz, who was the former managing director for BP in Tanzania, for Shell in Greece",
+      "page": 15
+    },
+    {
+      "concept": "lobbying presence in Brussels",
+      "indicator": "Permanent representative offices, full-time lobbyists, and creation of EUROPIA in 1990.",
+      "quote": "the oil industry established the European Oil Industry Association (EUROPIA) in 1990.",
+      "page": 14
+    },
+    {
+      "concept": "access to UN climate process for industry",
+      "indicator": "IPIECA's UNEP stakeholder status allowing oil executives to attend IPCC and INC meetings.",
+      "quote": "with IPIECA holding UNEP stakeholder status, European oil executives could participate in meetings of the IPCC and the International Negotiating Committee",
+      "page": 15
+    },
+    {
+      "concept": "sectors affected by the carbon tax (broader than oil)",
+      "indicator": "Macroeconomic studies commissioned by DG XI named sectors potentially affected.",
+      "quote": "including the coal sector and energy-intensive industries such as cement, chemistry, electricity, steel, automobiles, and transport.",
+      "page": 13
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Five European oil companies (ENI, BP, Elf, Total, Shell) had knowledge of the greenhouse effect well before it became an EC policy issue in the late 1980s.",
+      "quote": "Elf, ENI, BP, Shell, and Total had fairly up-to-date knowledge of the greenhouse effect and its potential impact well before the problem became an EC policy issue in the late 1980s.",
+      "page": 27
+    },
+    {
+      "claim": "The companies shared information, expertise, arguments and strategies; IPIECA and EUROPIA were key arenas, and IPIECA channelled a US-originated 'merchant of doubt' strategy to Europe.",
+      "quote": "IPIECA’s key role as a channel for transferring a ‘merchant of doubt strategy’ from the US to Europe.",
+      "page": 27
+    },
+    {
+      "claim": "A 1990 IPIECA briefing set out a three-pronged strategy: exaggerate scientific uncertainty, promote only measures benefiting the industry, and cast industry-friendly responses as solutions.",
+      "quote": "to strategically exaggerate the scientific uncertainties surrounding ongoing warming— in short to manufacture doubt",
+      "page": 11
+    },
+    {
+      "claim": "ICC and UNICE became strategic organisations through which oil companies aligned wider business positions with their obstruction strategy; oil companies worked to align the ICC with the 'no tax no target' line.",
+      "quote": "oil companies worked to align the ICC’s climate position with the ‘no tax no target’ line first elaborated by Exxon, the API, the GCC, and IPIECA.",
+      "page": 15
+    },
+    {
+      "claim": "The campaign ran on three fronts: international arenas, Brussels (Commission divisions), and national governments.",
+      "quote": "i) international arenas (far beyond Europe’s boundaries); ii) the offices and corridors of Brussels (to leverage differences between Commissioners and DGs); and iii) national governments",
+      "page": 27
+    },
+    {
+      "claim": "Business associations formed a common front with energy-intensive industries (steel, chemicals, cement etc.) representing two-thirds of industrial CO2 emissions in Europe; CEFIC's Vice President headed an Elf subsidiary.",
+      "quote": "which together represented two-thirds of industrial CO2 emissions in Europe.",
+      "page": 19
+    },
+    {
+      "claim": "State-owned oil companies (ENI, Elf) also publicly opposed the tax; Elf was described as a key lobbying player because of its intermediary position between private sector and state.",
+      "quote": "In Italy, even a state-owned company such as ENI publicly denounced the proposed carbon tax",
+      "page": 24
+    },
+    {
+      "claim": "The tax was blocked at the 21 May 1992 Energy Council after France reversed from support to opposition, following lobbying by EUROPIA, Elf, Total and French business federations (CNPF).",
+      "quote": "France’s about-face from vigorous support in 1988-1991 to opposition in May 1992 that ultimately proved to be a turning point.",
+      "page": 26
+    },
+    {
+      "claim": "Differences existed among the five companies; from accessible sources Shell leaned most towards denial, ENI was more moderate, BP, Elf and Total in a middle ground.",
+      "quote": "Shell was more radically inclined towards promoting the denial of anthropogenic climate change, while ENI adopted a somewhat more moderate approach",
+      "page": 27
+    },
+    {
+      "claim": "The article documents that the European oil industry's strategy was not simply a milder version of US denial: US and European companies formed a common front in 1985-1992.",
+      "quote": "document how US and European companies formed a common front in the crucial formative years of climate governance, 1985-1992.",
+      "page": 4
+    },
+    {
+      "claim": "Shell and BP joined the GCC in 1989 (BP until 1996, Shell until 1998); Shell funded a Dutch climate denier from 1989.",
+      "quote": "BP joined Shell (and many US-based oil companies) as full members of the GCC in 1989, the former until 1996, and the latter until 1998.",
+      "page": 16
+    }
+  ],
+  "recommendations": [],
+  "limitations": [
+    {
+      "point": "Archives of several key companies and associations (ENI, Shell, BP, IPIECA, EUROPIA) are inaccessible, making strategies harder to reconstruct.",
+      "stated_by_authors": true,
+      "quote": "the archives of several oil companies and organisations remain inaccessible, including ENI, Shell, BP, IPIECA, and EUROPIA.",
+      "page": 4
+    },
+    {
+      "point": "The exact impact of the oil industry on the outcome is hard to determine, since other sectors, the US and OPEC also opposed the tax.",
+      "stated_by_authors": true,
+      "quote": "Determining the oil industry’s exact impact in the battle over carbon taxation is challenging, because it was not the only sector fighting for a non-tax-based alternative",
+      "page": 27
+    },
+    {
+      "point": "Conclusions on differences between companies rest only on accessible sources.",
+      "stated_by_authors": true,
+      "quote": "Based on the sources we were able to access, it appears that from 1989 to 1992",
+      "page": 27
+    },
+    {
+      "point": "Historical scope (1985-1992, five companies, EC carbon tax); not about UNFCCC COP delegations or badge data. No quantitative classification, coding rules or validation.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "Reading was done from text extracted with a PDF tool; this is a HAL manuscript version (not the typeset journal article), so page numbers are PDF page numbers of that file, not journal pagination. The manuscript contains a placeholder 'PLEASE INSERT FIG. 1 HERE'; no figure content was available. No instructions addressed to readers or AI were found.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Climate Investigations Center, DeSmog, Fossil Fuel Industry Documents (UCSF)",
+      "what_it_is": "Websites holding key oil industry documents on climate knowledge, cited as sources of industry documents.",
+      "page": 7
+    },
+    {
+      "name": "Climatefiles (climatefiles.com)",
+      "what_it_is": "Archive of original industry documents (e.g. Exxon memos, 1988 Shell Confidential Report 'The Greenhouse effect').",
+      "page": 8
+    },
+    {
+      "name": "Brulle, Roberts and Spencer (eds), Climate Obstruction across Europe (OUP, 2024)",
+      "what_it_is": "Cited as the first systematic book on climate obstruction in Europe, mostly covering the last two decades.",
+      "page": 4
+    },
+    {
+      "name": "Ekberg, Forchtner, Hultman and Jylhä, Climate Obstruction (Routledge, 2022)",
+      "what_it_is": "Cited source for the concept of climate obstruction.",
+      "page": 2
+    },
+    {
+      "name": "Brulle, 'Advocating Inaction: A Historical Analysis of the Global Climate Coalition' (2022)",
+      "what_it_is": "Cited study of the GCC, an obstruction coalition of over 40 corporations and business associations.",
+      "page": 3
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "1-27 (all 27 pages, via text extraction)",
+  "read_on": "2026-11-24",
+  "read_by": "2026-11-24 general-purpose agent (sonnet) following source-reader instructions; PDF text extracted (pdftoppm missing), page numbers are PDF page indices"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "transparencycdn-influencemap-methodology",
+  "citation": {
+    "authors": ["InfluenceMap"],
+    "year": 2025,
+    "title": "Methodology Note for Transparency International",
+    "venue_or_publisher": "InfluenceMap, for Transparency International (file hosted at images.transparencycdn.org)",
+    "doi_or_url": "https://images.transparencycdn.org/images/InfluenceMap-methodology.pdf",
+    "type": "methodology note (2-page PDF), dated October 2025",
+    "peer_reviewed": "no"
+  },
+  "question": "Not stated as a question. The note explains where InfluenceMap's data for TI's report comes from and how the 'COP30 trends' database was built.",
+  "data": "LobbyMap, InfluenceMap's platform. The 'COP30 trends' dataset covers 466 companies and industry associations in the LobbyMap database that attended COP28 and/or COP29. Evidence taken from the start of 2024.",
+  "method": "LobbyMap collects public evidence (websites, management statements, consultation comments, financial disclosures, media reports) and scores positions against external benchmarks. For the COP30 trends dataset, scores on COP30 priority issues were pulled by keyword search, evidence since the start of 2024 was aggregated into an overall position and engagement level per entity, across five policy areas. How an organisation is matched to a COP attendee list is not stated.",
+  "definitions": [
+    {
+      "term": "Policy engagement",
+      "definition": "Defined using the UN Guide for Responsible Corporate Engagement in Climate Policy (2013).",
+      "quote": "InfluenceMap defines “policy engagement” using the UN Guide for Responsible Corporate Engagement",
+      "page": 1
+    },
+    {
+      "term": "Policy engagement (range of activities)",
+      "definition": "The guide treats advertising, social media, public relations and direct contact with regulators and officials as engagement.",
+      "quote": "which defines a range of corporate activities as engagement, such as advertising, social media, public relations, and direct contact with regulators and elected officials.",
+      "page": 1
+    },
+    {
+      "term": "Policy neutral",
+      "definition": "InfluenceMap takes no position on the best climate policy; companies are scored against external benchmarks drawn from IPCC science and government-mandated bodies tied to the Paris Agreement.",
+      "quote": "The methodology is designed to be “policy neutral,” and InfluenceMap does not take internal positions",
+      "page": 1
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Corporate policy engagement",
+      "indicator": "Evidence from public sources: organisational websites, senior management statements, regulatory consultation comments, financial disclosures, reports from reliable media outlets.",
+      "quote": "These include organizational websites, senior management statements, regulatory consultation comments, financial disclosures, and reports from reliable media outlets.",
+      "page": 1
+    },
+    {
+      "concept": "Engagement on COP30 priority issues",
+      "indicator": "Keyword searches in LobbyMap for evidence since the start of 2024, aggregated per entity into an overall position and engagement level.",
+      "quote": "Identified evidence since the start of 2024 was aggregated to provide an indication of overall position and engagement level for each entity.",
+      "page": 2
+    },
+    {
+      "concept": "Key policy areas for COP30",
+      "indicator": "Five areas: Paris Agreement; Response to Climate Science; Nationally Determined Contributions; Energy Transition; Deforestation and Land Use.",
+      "quote": "Determined Contributions; (4) Energy Transition; (5) Deforestation and Land Use",
+      "page": 2
+    }
+  ],
+  "findings": [
+    {
+      "claim": "LobbyMap covers over 1,000 companies and 330 industry associations.",
+      "quote": "Covering over 1,000 companies and 330 industry associations worldwide",
+      "page": 1
+    },
+    {
+      "claim": "The COP30 trends dataset covers 466 companies and industry associations in LobbyMap that attended COP28 and/or COP29.",
+      "quote": "The dataset covers the 466 companies and industry associations in the LobbyMap database that",
+      "page": 1
+    },
+    {
+      "claim": "The note states the evidence indicates what engagement could entail at COP30, not what happened there.",
+      "quote": "This illustrates what policy engagement could entail at COP30.",
+      "page": 2
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The note gives no criteria for deciding whether an entity is fossil fuel-linked or which tier it falls in; it covers only policy-engagement scoring of entities already in LobbyMap. Only entities already in LobbyMap are covered, which is a subset of all COP attendees.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "How the 466 entities were matched to attendee lists, and the scoring scale, are not given here; the note refers to a separate LobbyMap methodology page and a COP30 attendee database platform (links, not read).",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The scores are for COP28 and/or COP29 attendees, not COP30 delegates, and the note says only that they indicate what engagement could entail.",
+      "stated_by_authors": true,
+      "quote": "This illustrates what policy engagement could entail at COP30.",
+      "page": 2
+    },
+    {
+      "point": "No instructions addressed to a reader or an AI were found. Two links invite the reader to read more or access the platform.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "LobbyMap",
+      "what_it_is": "InfluenceMap's platform tracking and scoring companies and industry associations on climate policy engagement; over 1,000 companies and 330 industry associations.",
+      "page": 1
+    },
+    {
+      "name": "InfluenceMap COP30 platform (attendee database and entity profiles)",
+      "what_it_is": "Linked at cop.influencemap.org; the note says it holds the attendee database and entity profiles. Not read.",
+      "page": 2
+    },
+    {
+      "name": "UN Guide for Responsible Corporate Engagement in Climate Policy (2013)",
+      "what_it_is": "Source of the definition of policy engagement used by InfluenceMap. Not read.",
+      "page": 1
+    }
+  ],
+  "relevant_to": ["Q2"],
+  "pages_read": "1-2 (whole document)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

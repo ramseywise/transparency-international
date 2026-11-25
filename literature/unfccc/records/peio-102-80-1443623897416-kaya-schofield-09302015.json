@@ -1,0 +1,151 @@
+{
+  "id": "peio-102-80-1443623897416-kaya-schofield-09302015",
+  "citation": {
+    "authors": [
+      "Ayse Kaya",
+      "Lynne Steuerle Schofield"
+    ],
+    "year": 2015,
+    "title": "The Determinants and Importance of States’ Attendance at Conferences of the United Nations Framework Convention on Climate Change (UNFCCC)",
+    "venue_or_publisher": "Paper submitted to the 9th Annual Conference on the Political Economy of International Organizations (PEIO), September 30, 2015",
+    "doi_or_url": "http://wp.peio.me/wp-content/uploads/PEIO9/102_80_1443623897416_Kaya_Schofield_09302015.pdf",
+    "type": "conference paper, draft (title page: \"Draft. Please do not cite without permission.\")",
+    "peer_reviewed": "no"
+  },
+  "question": "What explains variation in member states' delegation sizes at the UNFCCC COPs in 1995-2014, and does delegation size affect a state's access to Global Environmental Facility (GEF) funds? Quote p2: \"analyzes the variation in member states’ attendance at the UNFCCC’s Conferences of the Parties (COPs) in 1995-2014\". It does not ask about business or fossil-fuel presence in delegations.",
+  "data": "An original dataset of the number of delegates each state sent to each COP, 1995-2014 (COP1 to COP20), collated from the UNFCCC 'lists of participants' (p5 fn5). Regressions use N = 3820 country-year observations (Table 2, p40). Table 1 (p39) gives total, average, median and standard deviation of delegation size per COP. Country covariates (GDP per capita, population, CO2 per capita, democracy, regulatory quality, distance, regions, EU/OPEC/AOSIS membership) come from other sources; GEF data: funds approved per country (N = 2700, Table 5).",
+  "method": "Counts delegates per Party per COP; the dependent variable is log(delegates+1) by country (p16 fn12). Mixed-effects regression with a random country intercept and fixed year effects (p19). Missing covariates imputed with Amelia II (p20). A second model regresses the log of GEF funds on delegation size lagged 1-3 years (p27, p30-32). The text does not describe how names on the lists were counted or checked: it does not mention badge types, overflow, observer organisations or how organisations were classified.",
+  "definitions": [
+    {
+      "term": "delegation (Party delegation)",
+      "definition": "Per the UNFCCC Rules of Procedure as cited by the authors: a head of delegation plus other accredited representatives, alternate representatives and advisers as the Party requires.",
+      "quote": "Each Party participating in a session shall be represented by a delegation consisting of a head of delegation and such other accredited representatives, alternate representatives and advisers as it may require",
+      "page": 4
+    },
+    {
+      "term": "Party",
+      "definition": "A country that is a member of the UNFCCC; each has one formal vote.",
+      "quote": "the UNFCCC formally bestows a single vote on each country (Party)",
+      "page": 6
+    },
+    {
+      "term": "attendance / delegation size",
+      "definition": "The number of delegates each state sent to a COP, taken from the lists of participants.",
+      "quote": "an original dataset of the number of delegates each state sent to every COP in 1995-2014",
+      "page": 5
+    },
+    {
+      "term": "developing countries",
+      "definition": "Countries below a World Bank Gross National per capita Income threshold (as stated in the footnote).",
+      "quote": "developing countries are those with a Gross National per capita Income of less than 12,736 USD",
+      "page": 24
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "state attendance at a COP",
+      "indicator": "count of delegates listed under the state in the UNFCCC lists of participants",
+      "quote": "State-by-state attendance numbers need to be collated from “lists of participants”",
+      "page": 5
+    },
+    {
+      "concept": "fossil-fuel interest of a country (country level, not organisation level)",
+      "indicator": "membership of OPEC",
+      "quote": "Since OPEC members have a vested economic interest in continued reliance on fossil fuels",
+      "page": 22
+    },
+    {
+      "concept": "mitigation pressure on a country",
+      "indicator": "CO2 emissions per capita",
+      "quote": "CO2 per capita emissions provide a prominent indicator of mitigation pressures that face a country",
+      "page": 21
+    }
+  ],
+  "findings": [
+    {
+      "claim": "OPEC members send larger delegations, controlling for income, population, distance and other factors.",
+      "quote": "OPEC membership boosts the number of delegates a member sends to the COPs",
+      "page": 22
+    },
+    {
+      "claim": "Countries with higher CO2 emissions per capita send more delegates.",
+      "quote": "as the country’s average citizen’s contribution to CO2 emissions goes up, so does that country’s presence in COPs",
+      "page": 21
+    },
+    {
+      "claim": "Delegation size varies widely and rose sharply over time; Copenhagen 2009 had the largest total in Table 1.",
+      "quote": "COP15 2009 Copenhagen WEOG 10257 53.70 29 76.53",
+      "page": 39
+    },
+    {
+      "claim": "Larger delegations in the previous year are linked to larger GEF funds.",
+      "quote": "an increase in one individual in the COP delegation in the year prior to the GEF funds results in an increase of about 2 percent of the GEF fund given to a member state",
+      "page": 30
+    },
+    {
+      "claim": "Per-state attendance numbers are not published by UNFCCC and must be collated from the lists of participants.",
+      "quote": "UNFCCC releases only aggregate attendance numbers for each COP.",
+      "page": 5
+    },
+    {
+      "claim": "Delegations include non-governmental actors, and earlier work has studied them as a sub-group (civil society, women).",
+      "quote": "Böhmelt (2013a), which analyzes non-state actors within state delegations",
+      "page": 4
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The paper counts total delegation size only. Composition (official versus non-official, including non-governmental actors) is left to future work.",
+      "stated_by_authors": true,
+      "quote": "differentiating the different official, such as ministerial representatives, and non-official",
+      "page": 35
+    },
+    {
+      "point": "Authors warn that comparing delegation composition across countries is open to misinterpretation.",
+      "stated_by_authors": true,
+      "quote": "cross-country comparison for that kind of an analysis could be prone to pitfalls in interpretation",
+      "page": 35
+    },
+    {
+      "point": "This is a draft conference paper, marked not to be cited without permission; not peer reviewed as published.",
+      "stated_by_authors": true,
+      "quote": "Draft. Please do not cite without permission.",
+      "page": 1
+    },
+    {
+      "point": "The paper does not say how people on the lists were counted: whether Party overflow, observers, or business and industry NGOs were included or excluded, how duplicates were handled, or whether the dataset is released. Nothing on business or fossil-fuel organisations is classified.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC lists of participants, COP1-COP20 (1995-2014)",
+      "what_it_is": "Source of the per-state delegate counts; names of delegates by state released during each COP",
+      "page": 5
+    },
+    {
+      "name": "Authors' original dataset of delegates per state per COP",
+      "what_it_is": "Country-year counts, N = 3820; not stated whether published",
+      "page": 5
+    },
+    {
+      "name": "Böhmelt (2013a) supplementary files",
+      "what_it_is": "Per-state COP attendance numbers up to 2004; authors say their numbers are very similar",
+      "page": 5
+    },
+    {
+      "name": "Kruse (2014); Schroeder et al (2012); Neff (2013); Böhmelt (2013a, 2013b)",
+      "what_it_is": "Earlier quantitative studies of COP delegations (women, overall attendance, civil society in delegations); listed in the references on pp45-46, not read",
+      "page": 4
+    }
+  ],
+  "relevant_to": [
+    "method",
+    "context"
+  ],
+  "pages_read": "Full text of the 47-page draft (pp1-47), read from the extracted text in literature/unfccc/data/processed/text/ (the PDF itself was not opened). Tables and figures on pp38-44 were read as extracted text, which is partly garbled; Figures 1 and 2 are charts and were not viewed. The paper is a conference draft, not the final published work. The reference list (pp45-47) was skimmed, not read entry by entry. The text contained no instructions addressed to a reader or an AI.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

@@ -1,0 +1,286 @@
+{
+  "id": "doi-10-1609-icwsm-v19i1-35807",
+  "citation": {
+    "authors": [
+      "Shubham Atreja",
+      "Joshua Ashkinaze",
+      "Lingyao Li",
+      "Julia Mendelsohn",
+      "Libby Hemphill"
+    ],
+    "year": 2025,
+    "title": "What's in a Prompt?: A Large-Scale Experiment to Assess the Impact of Prompt Design on the Compliance and Accuracy of LLM-Generated Text Annotations",
+    "venue_or_publisher": "Proceedings of the Nineteenth International AAAI Conference on Web and Social Media (ICWSM 2025), pp. 122-145 (printed pagination)",
+    "doi_or_url": "10.1609/icwsm.v19i1.35807 (taken from the source id given to the reader; the DOI is not printed in the extracted text)",
+    "type": "conference paper (experimental study)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "How do model choice (GPT-4o, GPT-3.5, PaLM2, Falcon7b) and four prompt design features (definition inclusion, output type label vs numerical score, asking for an explanation, standard vs concise prompt length) affect the compliance and accuracy of zero-shot LLM-generated text annotations on four computational social science tasks (toxicity, sentiment, rumor stance, news frames)?",
+  "data": "Four existing human-annotated datasets: HOT toxicity (3,480 social media comments, 2 labels), SST5 sentiment test set (2,210 movie reviews, 5 labels), RumourEval rumor stance (1,675 tweet pairs, 4 labels), GVFC news frames (1,301 headlines, 9 classes, labelled by expert scholars). 16 prompts per task (8 for sentiment) x 4 LLMs; 483,904 annotations in total as stated in Table 2. Study began June 2023; GPT-4o added later. Temperature 0.",
+  "method": "Complete factorial design (2x2x2x2) of single-step zero-shot prompts, run through API endpoints on each model and dataset. Output parsed by simple string matching against the provided label list (first label if several; floats in [0,1] extracted for score prompts). Compliance = share of outputs from which a valid label (and, for scores, scores summing to 0.99-1.01) could be extracted. Accuracy and macro F1 computed against the human labels, on compliant outputs only. Effects reported one prompt feature at a time, differences flagged where delta > 2%. Concise prompts were GPT-3 paraphrases of the standard prompts, manually checked.",
+  "definitions": [
+    {
+      "term": "zero-shot annotation",
+      "definition": "Annotation by an LLM through prompts that contain instructions on how to annotate, with no labelled examples.",
+      "quote": "i.e., through prompts containing instructions on how to annotate the data.",
+      "page": 1
+    },
+    {
+      "term": "prompt",
+      "definition": "A set of instructions that guides LLM behaviour; typically made of instruction, context (for example concept definitions), input data and output indicator.",
+      "quote": "Prompts are a set of instructions designed to engage and guide the behavior of LLMs",
+      "page": 2
+    },
+    {
+      "term": "compliance (label output)",
+      "definition": "An output counts as compliant when exactly one label from the supplied label list can be extracted from it.",
+      "quote": "the LLM’s output was considered compliant if a unique label matching the input labels was extracted from the output.",
+      "page": 5
+    },
+    {
+      "term": "compliance (score output)",
+      "definition": "When numerical scores are requested, the output is compliant if at least one valid label is extracted and the scores for the extracted labels sum to between 0.99 and 1.01.",
+      "quote": "the sum of scores assigned to the extracted labels belonged to [0.99, 1.01].",
+      "page": 5
+    },
+    {
+      "term": "accuracy",
+      "definition": "Agreement of LLM labels with the human annotations provided with each dataset, reported as macro F1 and percentage accuracy, using compliant outputs only.",
+      "quote": "We included only compliant outputs when measuring accuracy.",
+      "page": 5
+    },
+    {
+      "term": "definition inclusion (prompt feature)",
+      "definition": "Prompting with or without output class definitions; the definitions used were those given to the human raters when each dataset was first annotated. Not tested for sentiment because no definitions existed.",
+      "quote": "we used the same definitions provided to human raters when the datasets were first annotated in prior work.",
+      "page": 4
+    },
+    {
+      "term": "concise prompt",
+      "definition": "A paraphrase of the standard prompt with about 53% fewer words, generated with GPT-3 and manually checked to keep all the information.",
+      "quote": "Concise prompts were paraphrased versions (∼53% less words) of the standard prompt generated using GPT-3",
+      "page": 4
+    },
+    {
+      "term": "toxicity (as defined in the definition-inclusion prompts)",
+      "definition": "Definition given to the LLM in the toxicity prompts.",
+      "quote": "A rude, disrespectful, or unreasonable comment that is likely to make individuals leave a discussion.",
+      "page": 14
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "LLM annotation accuracy",
+      "indicator": "Match between the LLM label and the human (crowdworker or expert) label supplied with each benchmark dataset; macro F1 and percentage accuracy.",
+      "quote": "To calculate accuracy, we compared the LLM-generated labels with the human annotations provided for each dataset.",
+      "page": 5
+    },
+    {
+      "concept": "LLM label extracted from free-text output",
+      "indicator": "String matching of the model output against the list of labels given in the prompt; first label by order of appearance if several match; text after the keyword 'explanation' excluded.",
+      "quote": "We used simple string matching to extract potential labels from the LLM’s raw output by matching against the list of labels provided in the input.",
+      "page": 5
+    },
+    {
+      "concept": "Prompt cost",
+      "indicator": "Change in number of words (fixed cost per annotation) of each prompt variant.",
+      "quote": "Table 1 shows the change in the number of words due to each prompt variation, which is indicative of the change in annotation costs.",
+      "page": 4
+    },
+    {
+      "concept": "Non-compliance",
+      "indicator": "Outputs with missing, invented or multiple labels, refusals, or score sums outside 0.99-1.01 (examples shown in Figure 3, an image not read in text).",
+      "quote": "Noncompliance is often due to LLMs assigning the same score to each label, or providing scores with sum greater than 1",
+      "page": 6
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Compliance and accuracy depend on the prompt, especially for multi-class tasks.",
+      "quote": "LLM compliance and accuracy are highly prompt-dependent, especially for multi-class tasks.",
+      "page": 2
+    },
+    {
+      "claim": "Asking for numerical scores instead of labels lowers compliance and accuracy for most models and tasks.",
+      "quote": "Prompting for numerical scores instead of labels reduces both compliance and accuracy for most LLMs and tasks.",
+      "page": 2
+    },
+    {
+      "claim": "Including class definitions raised accuracy for GPT-3.5 and GPT-4o without lowering compliance; it lowered compliance for PaLM2 and Falcon7b. The detailed text ties the accuracy gain to news frames.",
+      "quote": "Prompting with definitions improves the accuracy of GPT-3.5 and GPT-4o without reducing their compliance.",
+      "page": 2
+    },
+    {
+      "claim": "More class definitions make instructions harder for the weaker models to follow, lowering their compliance on 4-class and 9-class tasks.",
+      "quote": "Multiple class definitions make input instructions more complex and difficult to follow.",
+      "page": 6
+    },
+    {
+      "claim": "Concise prompts help or hurt depending on task and model: no accuracy loss for sentiment, lower accuracy for toxicity.",
+      "quote": "for toxicity annotations, concise prompts lead to lower accuracy for all LLMs, highlighting a tradeoff between cost and quality.",
+      "page": 6
+    },
+    {
+      "claim": "Concise prompts had little effect on GPT-3.5 and GPT-4o compliance while using on average about 40% fewer tokens.",
+      "quote": "Prompting GPT-3.5 and GPT-4o with concise prompts has little impact on their compliance.",
+      "page": 6
+    },
+    {
+      "claim": "Asking for an explanation raises compliance in some model-task combinations but shifts the distribution of labels the model produces (GPT-3.5 labelled 34% more content neutral on sentiment).",
+      "quote": "GPT-3.5 annotates 34% more content as neutral when prompted to explain its output.",
+      "page": 2
+    },
+    {
+      "claim": "GPT-4o was the most accurate model on three of four tasks; PaLM2 was best on toxicity; Falcon7b was far less accurate.",
+      "quote": "GPT-4o is the best-performing model on all tasks but toxicity, for which PaLM2 is the best performing model.",
+      "page": 5
+    },
+    {
+      "claim": "The two GPT models were the most compliant and the most consistent across prompts; PaLM2 refused the news-frame task often.",
+      "quote": "We find the two GPT models, GPT-3.5 and GPT-4o, are most compliant for all tasks",
+      "page": 5
+    },
+    {
+      "claim": "Compliance falls as the number of output classes rises from two to nine.",
+      "quote": "we find that LLM compliance decreases as the number of output classes increases from two (toxicity) to nine (news frames).",
+      "page": 8
+    },
+    {
+      "claim": "Larger models are also sensitive to prompt wording, with smaller effect sizes.",
+      "quote": "even larger and advanced models like GPT-4o are susceptible to prompt-induced variations although the effect size is smaller compared to GPT-3.5.",
+      "page": 8
+    },
+    {
+      "claim": "Conclusions drawn from LLM-annotated data can change with the prompt.",
+      "quote": "Our results indicate that conclusions drawn from such research are highly dependent on the prompt design.",
+      "page": 8
+    }
+  ],
+  "recommendations": [
+    {
+      "claim": "Test several prompting strategies and use more than one prompt for robustness instead of relying on a single prompt.",
+      "quote": "researchers should carefully evaluate several prompting strategies within their domain of interest, and potentially use several prompts for robustness when making claims.",
+      "page": 8
+    },
+    {
+      "claim": "Where categories are subjective or can be defined in several ways, supply the researcher's own definitions in the prompt.",
+      "quote": "practitioners may prefer to prompt LLMs using their own definitions to produce more accurate annotations.",
+      "page": 7
+    },
+    {
+      "claim": "For tasks with many classes, split into binary tasks with one prompt per class to keep compliance high.",
+      "quote": "practitioners may want to model the task as a binary annotation task and use separate prompts for each output class to achieve high LLM compliance.",
+      "page": 8
+    },
+    {
+      "claim": "Shorten prompts to cut cost for advanced models, but keep detailed prompts for complex tasks.",
+      "quote": "for more complex tasks, such as implicit hate or misinformation detection, detailed and descriptive prompts may still be necessary to achieve high accuracy.",
+      "page": 8
+    },
+    {
+      "claim": "Future work could combine results across several prompts, as crowdsourcing combines independent raters.",
+      "quote": "One potential approach is to combine results across several prompts, similar to how crowdsourcing involves independent raters annotating the same content",
+      "page": 8
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Possible exposure of the LLMs to the benchmark datasets during training (data leakage) cannot be ruled out.",
+      "stated_by_authors": true,
+      "quote": "we cannot determine whether these models have been exposed to our chosen datasets during their training phases",
+      "page": 8
+    },
+    {
+      "point": "Results are model-specific and should not be generalised to other LLMs; only models available as of June 2023 plus GPT-4o were tested.",
+      "stated_by_authors": true,
+      "quote": "we caution readers from generalizing our findings to other LLMs.",
+      "page": 9
+    },
+    {
+      "point": "Prompt features were analysed one at a time, so interactions between features were not examined.",
+      "stated_by_authors": true,
+      "quote": "Our results analyzed one prompt variation at a time, leaving open the possibility that different prompt variations may interact",
+      "page": 9
+    },
+    {
+      "point": "Only single-step zero-shot prompts were tested; few-shot and chain-of-thought prompting were not.",
+      "stated_by_authors": true,
+      "quote": "our study also uses single-step prompts which are the most scalable and cost-effective for annotating large datasets.",
+      "page": 3
+    },
+    {
+      "point": "The four tasks are social-media, movie-review, tweet and news-headline classification with 2 to 9 classes. No task involves classifying organisations or documents about organisations, so transfer to this study is untested. This is the reader's note, not the authors'.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "Accuracy was computed on compliant outputs only, so accuracy figures cover different subsets per model and prompt. For PaLM2 on news frames with definitions it covers under 1% of the data.",
+      "stated_by_authors": true,
+      "quote": "Although PaLM2’s accuracy is measured on a very small sub-set of the complete data (<1%) on which the model is compliant",
+      "page": 6
+    },
+    {
+      "point": "Each prompt was run once at temperature 0; no repeated runs, error bars or agreement between runs are reported. The authors answer 'NA' to the error-bars checklist item. The human labels come from crowdworkers (experts for news frames) and no inter-coder agreement for them is reported in this paper.",
+      "stated_by_authors": false,
+      "quote": "Did you report error bars (e.g., with respect to the ran- dom seed after running experiments multiple times",
+      "page": 11
+    },
+    {
+      "point": "Internal inconsistencies in the paper's counts: the abstract and text use four LLMs while the Limitations section says three; Table 2 gives 4 LLMs and 483,904 annotations, while appendix Table 7 lists 3 LLMs and totals 362,928. Compliance and accuracy tables (4, 5) are partly garbled in text extraction, so cell values were not recorded here.",
+      "stated_by_authors": false,
+      "quote": "we restricted our study to three LLMs.",
+      "page": 8
+    },
+    {
+      "point": "The code URL is masked in this version, so the experiment cannot be reproduced from the paper alone.",
+      "stated_by_authors": true,
+      "quote": "A URL to the code is masked and will be included in the camera-ready version",
+      "page": 11
+    },
+    {
+      "point": "Figures 1-4 are images and could not be read through text extraction; their content was not used. The PDF contains no instructions addressed to a reader or an AI.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "HOT dataset (Wu et al. 2023)",
+      "what_it_is": "3,480 social media comments annotated toxic or not by crowdworkers; toxicity task",
+      "page": 3
+    },
+    {
+      "name": "SST5 (Socher et al. 2013)",
+      "what_it_is": "Fine-grained sentiment, 5 labels; test set of 2,210 movie reviews annotated by crowdworkers",
+      "page": 3
+    },
+    {
+      "name": "RumourEval (Gorrell et al. 2019)",
+      "what_it_is": "1,675 tweet pairs labelled support, query, comment or deny by crowdworkers",
+      "page": 3
+    },
+    {
+      "name": "GVFC (Liu et al. 2019)",
+      "what_it_is": "1,301 gun-violence news headlines labelled with one of 9 frame classes by expert scholars",
+      "page": 4
+    },
+    {
+      "name": "Appendix Table 10, full list of the 56 prompts used",
+      "what_it_is": "Verbatim prompt texts for each task, with and without definitions, explanation, scores and concise versions; a template for zero-shot annotation prompt wording",
+      "page": 14
+    },
+    {
+      "name": "Reference list (Akin 2023; DAIR 2023; Gilardi, Alizadeh and Kubli 2023; Ziems et al. 2024; Li et al. 2024)",
+      "what_it_is": "Prompting guides and prior work on LLM text annotation versus human annotators, cited in the paper",
+      "page": 9
+    }
+  ],
+  "relevant_to": [
+    "method"
+  ],
+  "pages_read": "1-24 of 24 (all). The Read tool could not render the PDF (pdftoppm missing), so text was extracted with pypdf into the scratchpad and read from there. Page numbers in this record are PDF page numbers 1-24 (printed pages 122-145). Figures (images) were not visible; tables 4, 5 and 9 are partly scrambled in extraction and cell values were not used.",
+  "read_on": "2026-11-24",
+  "read_by": "2026-11-24 general-purpose agent (sonnet) following source-reader instructions; PDF text extracted (pdftoppm missing), page numbers are PDF page indices"
+}

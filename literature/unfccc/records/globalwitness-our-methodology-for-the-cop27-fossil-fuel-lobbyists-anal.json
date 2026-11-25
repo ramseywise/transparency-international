@@ -1,0 +1,157 @@
+{
+  "id": "globalwitness-our-methodology-for-the-cop27-fossil-fuel-lobbyists-anal",
+  "citation": {
+    "authors": [],
+    "year": null,
+    "title": "Our methodology for the COP27 fossil fuel lobbyists analysis",
+    "venue_or_publisher": "Global Witness",
+    "doi_or_url": "https://globalwitness.org/en/campaigns/fossil-fuels/our-methodology-for-the-cop27-fossil-fuel-lobbyists-analysis/",
+    "type": "web page (methodology note, tagged 'Methodology')",
+    "peer_reviewed": "no"
+  },
+  "question": "How Global Witness used the UNFCCC list of provisional participants for COP27 to identify delegates it classes as fossil fuel lobbyists.",
+  "data": "UNFCCC list of provisional participants for COP27, published 8 November on the UNFCCC website; 33,449 individuals. Fields used: the delegation the person attends through, and any further affiliation the delegate chose to disclose. Three other lists of potential fossil fuel lobbyist attendees, prepared before COP, were used for an automated cross-check (not named on the page). Data shared by InfluenceMap was consulted. Publication date and year are not stated on the page.",
+  "method": "Scraped the UNFCCC list; a script compared it with three other lists of potential fossil fuel lobbyists; the team then checked the whole list line by line, first confirming or correcting the auto-suggested classifications, then classifying delegates with no automatic match. Only information in the UNFCCC list was considered. Each classification was justified from open sources (company and trade group websites, lobbying registers, credible news reports). Only organisations, not individual names, are published.",
+  "definitions": [
+    {
+      "term": "delegation",
+      "definition": "Official groups through which individuals gain access to COP27, divided into government, UN bodies, intergovernmental organisations, non-government organisations and media; this information is on the list.",
+      "quote": "These groups, called delegations, are divided into government, UN bodies, intergovernmental organisations, non-government organisations, and media",
+      "page": "Topics (body text, para 4)"
+    },
+    {
+      "term": "fossil fuel lobbyist",
+      "definition": "Any individual delegate who can reasonably be assumed to aim to influence policy or legislation in the interests of a fossil fuel company and its shareholders. Applied on the basis of self-declared ties (see proxies).",
+      "quote": "any individual delegate that can be reasonably assumed to have the objective of influencing the formulation or implementation of policy or legislation in the interests of a fossil fuel company and its shareholders",
+      "page": "Topics (body text, para 5)"
+    },
+    {
+      "term": "fossil fuel company",
+      "definition": "A company with significant business activities in exploration, extraction, refining, trading, specialised transportation of fossil fuels, or sale of electricity derived from them.",
+      "quote": "any company that has significant business activities in the exploration, extraction, refining, trading, specialised transportation of fossil fuels or sale of electricity derived from them",
+      "page": "Definitions (para 11)"
+    },
+    {
+      "term": "significant business activities in fossil fuels",
+      "definition": "The company publicly declares it is commercially involved in handling a fossil fuel (exploration, extraction, refining, trading, processing, distribution to consumers), or publicly promotes that it has significant investments in such companies.",
+      "quote": "publicly declares that it is involved commercially in the handling of a fossil fuel (exploration, extraction, refining, trading, processing, distribution to consumers) OR who promotes publicly that is has significant investments in such companies",
+      "page": "Definitions (para 12)"
+    },
+    {
+      "term": "fossil fuel foundation",
+      "definition": "A foundation directly associated by ownership or control with a fossil fuel company.",
+      "quote": "a foundation directly associated by ownership or control with a fossil fuel company as a fossil fuel foundation",
+      "page": "Definitions (para 13)"
+    },
+    {
+      "term": "organisation representing fossil fuel interests",
+      "definition": "A trade association or other organisation representing the interests of a fossil fuel company's management and/or shareholders. It qualifies if it meets at least one of three tests: significant involvement of fossil fuel companies or their senior employees in governance (board or corporate members); public statement that its purpose is to represent a fossil fuel industry; or a recent track record of lobbying for pro-fossil fuel positions. Includes UNFCCC-classified 'international governmental organisations' focused on promoting member countries' fossil fuel industries.",
+      "quote": "must have significant involvement of fossil fuel companies or their senior employees in their governance structure (either board of directors or corporate members) OR promote publicly that its purpose is to represent a fossil fuel industry OR have a recent track record of lobbying for pro-fossil fuel positions",
+      "page": "Definitions (para 14)"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "fossil fuel lobbyist (classification trigger)",
+      "indicator": "The delegate self-declared, in the UNFCCC list, a tie to a fossil fuel company, an organisation with fossil fuel interests, or a foundation directly associated by ownership or control with a fossil fuel company.",
+      "quote": "the delegate had self-declared its ties to either a fossil fuel company, an organisation with fossil fuel interests, or any foundation directly associated by ownership or control with a fossil fuel company",
+      "page": "Topics (body text, para 6)"
+    },
+    {
+      "concept": "evidence base for the tie",
+      "indicator": "Only the UNFCCC list: the delegation the person attends through plus any further affiliation the delegate chose to disclose.",
+      "quote": "This includes both the delegation through which the individual is attending COP, and any further affiliation the delegate opted to disclose.",
+      "page": "Topics (body text, para 8)"
+    },
+    {
+      "concept": "exclusion: no stated affiliation",
+      "indicator": "A delegate who did not explicitly state an affiliation to a fossil fuel company or fossil fuel-affiliated organisation could not be classified as a fossil fuel lobbyist (so they are not counted; the page does not call them negative).",
+      "quote": "we were unable to classify them as a fossil fuel lobbyist",
+      "page": "Topics (body text, para 8)"
+    },
+    {
+      "concept": "evidence used to justify a classification",
+      "indicator": "Open, verifiable sources: websites of companies and trade groups, lobbying registers, media reports by credible news outlets; also InfluenceMap data.",
+      "quote": "including the websites of companies and trade groups, lobbying registers, and media reports by credible news outlets",
+      "page": "Topics (body text, para 9)"
+    },
+    {
+      "concept": "automated pre-screening",
+      "indicator": "Script cross-check of the scraped list against three other lists of potential fossil fuel lobbyist attendees, followed by line-by-line manual verification of the whole list.",
+      "quote": "our team then verified the entire list line by line",
+      "page": "Topics (body text, para 7)"
+    },
+    {
+      "concept": "intent to influence policy (assumption)",
+      "indicator": "Applying to attend COP is taken as evidence of attempting to influence the climate policy debate.",
+      "quote": "anyone who applied to attend COP is attempting to influence the policy debate around climate change",
+      "page": "Topics (body text, para 5)"
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "point": "Conservative estimate: strict method gives a floor, not a complete figure; more lobbyists would be found with more time and resources.",
+      "stated_by_authors": true,
+      "quote": "The strict nature of our methodology results in a conservative estimate rather than a complete figure.",
+      "page": "Topics (body text, para 10)"
+    },
+    {
+      "point": "Depends on self-disclosure: affiliation fields on the list are optional, and a delegate who did not state a fossil fuel link could not be classified as a lobbyist.",
+      "stated_by_authors": true,
+      "quote": "this is not a mandatory field",
+      "page": "Topics (body text, para 4)"
+    },
+    {
+      "point": "Only information in the UNFCCC list was considered; no outside evidence of undisclosed ties was used to classify.",
+      "stated_by_authors": true,
+      "quote": "we only considered the information provided in the UNFCCC's list",
+      "page": "Topics (body text, para 8)"
+    },
+    {
+      "point": "Analysis was done 'as quickly as possible' using a script plus manual classification; no accuracy check, inter-coder check or error rate is reported on the page.",
+      "stated_by_authors": false,
+      "quote": "To analyse the UNFCCC's delegates list as quickly as possible",
+      "page": "Topics (body text, para 7)"
+    },
+    {
+      "point": "The page is a short methodology note, not the full work. It gives no results, no counts of lobbyists, no named lists, and does not name the three cross-check lists. It does not describe Party badge, Party overflow, observer or BINGO categories, nor how business (non-fossil) presence was identified. Only the delegation groups in para 4 are mentioned, and these are not the same as Party/overflow/observer.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": "whole page"
+    },
+    {
+      "point": "Authors and publication date are not stated on the page (two Global Witness staff are listed as contacts only). The definitions of 'significant' are tied to what a company or group publicly declares or promotes, and 'recent track record' is not defined further.",
+      "stated_by_authors": false,
+      "quote": "OR have a recent track record of lobbying for pro-fossil fuel positions",
+      "page": "Definitions (para 14)"
+    },
+    {
+      "point": "The page is by an advocacy organisation and is not peer reviewed. The last sections (Verdict on COP27, Join Global Witness, Loss and damage) are teasers for other pages and were not used. No instructions to a reader or AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": "whole page"
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC list of provisional participants, COP27",
+      "what_it_is": "Public record of everyone granted access to COP27; 33,449 individuals; published 8 November on the UNFCCC website.",
+      "page": "Topics (body text, paras 3-4)"
+    },
+    {
+      "name": "Three other lists of potential fossil fuel lobbyist attendees",
+      "what_it_is": "Lists prepared in the months before COP and used for an automated cross-check; not named or described further on the page.",
+      "page": "Topics (body text, para 7)"
+    },
+    {
+      "name": "InfluenceMap data",
+      "what_it_is": "Data shared by InfluenceMap, an independent think tank producing data-driven analysis on how business and finance affect the climate crisis; consulted for classification.",
+      "page": "Topics (body text, para 9)"
+    }
+  ],
+  "relevant_to": ["method", "Q2"],
+  "pages_read": "Full text of the saved web page (23 paragraphs, about 849 words, all sections). Note the extraction puts the body text under the heading 'Topics'. This is a single methodology page, not the full Global Witness analysis or its data.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

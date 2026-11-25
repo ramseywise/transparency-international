@@ -1,0 +1,128 @@
+{
+  "id": "transparencycdn-fossil-fuel-linked-entities",
+  "citation": {
+    "authors": [],
+    "year": 2026,
+    "title": "FOSSIL FUEL-LINKED ENTITIES ACROSS THREE TIERS",
+    "venue_or_publisher": "Transparency International (file hosted at images.transparencycdn.org; publisher and author not named in the page text; file metadata date 2026-09-11)",
+    "doi_or_url": "https://images.transparencycdn.org/images/Fossil-Fuel-Linked-entities.pdf",
+    "type": "annex list (2-page PDF table of organisations), behind TI's COP30 analysis",
+    "peer_reviewed": "no"
+  },
+  "question": "Not stated. The page gives no question; it is a list of organisations sorted into three tiers of fossil fuel exposure, with the number of delegates each had and the country delegation they sat in.",
+  "data": "Seven entities in each of three tiers (21 entities). Total delegates per tier: Tier 1 = 17, Tier 2 = 26, Tier 3 = 20 (63 in all). Each entity is given with a country delegation and a delegate count in brackets. No date, COP, source list or period is stated on the pages. The COP is not named in the text; link to COP30 comes from the brief only.",
+  "method": "Not stated. The list does not say how entities were chosen, how the three tiers were defined, or what 'exposure' means. The only method hint is an asterisk marking entities 'assessed by LobbyMap'. Entity counts per tier (7 each) are counted by the reader from the rows; the page prints only the delegate totals.",
+  "definitions": [
+    {
+      "term": "Tier 1 - Direct Exposure",
+      "definition": "Label only. No definition or criterion given. Entities listed under it: ENGIE, Edison, Fluxys, Indorama Ventures, Redes Energeticas Nacionais (REN), St1 Nordic Oy, TotalEnergies SE.",
+      "quote": "Tier 1 – Direct Exposure",
+      "page": 1
+    },
+    {
+      "term": "Tier 2 - Partial Exposure",
+      "definition": "Label only. No definition or criterion given. Entities under it include APIP, E.ON, EDP, Enel, Globoplast, Siemens Energy, Topsoe. The list does not state their sectors.",
+      "quote": "Tier 2 – Partial Exposure",
+      "page": 1
+    },
+    {
+      "term": "Tier 3 - Financial Exposure",
+      "definition": "Label only. No definition or criterion given. Entities under it: AXA, BNP Paribas, Credit Agricole, Danske Bank, ING, JPMorgan Chase, Rabobank. The list does not state their sectors.",
+      "quote": "Tier 3 – Financial Exposure",
+      "page": 1
+    },
+    {
+      "term": "Asterisk (*)",
+      "definition": "Marks entities that are in the LobbyMap database (assessed by LobbyMap). Entities without an asterisk (for example Indorama Ventures, St1 Nordic Oy, Topsoe, ING Bank, Rabobank) were not assessed by LobbyMap. The page does not say whether the asterisk bears on the tier.",
+      "quote": "* indicates entities assessed by LobbyMap.",
+      "page": 1
+    },
+    {
+      "term": "Table columns",
+      "definition": "Four columns: total delegates (printed once per tier), entity, delegation (country, with the number of delegates from that entity in brackets) and notes. The page does not define 'delegation' or say whether it means a Party delegation or badge type.",
+      "quote": "Total delegates Entities Delegation Notes",
+      "page": 1
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Fossil fuel-linked entity (tier assignment)",
+      "indicator": "Not stated. The list gives the assignment but no observable indicator or rule for it. Only an asterisk for LobbyMap assessment is given.",
+      "quote": "* indicates entities assessed by LobbyMap.",
+      "page": 1
+    },
+    {
+      "concept": "Subsidiaries and related companies counted under one entity",
+      "indicator": "The notes column records which subsidiaries were included in an entity's count (for example ENGIE Brasil, Tractebel; EDP South America; Enel Brazil; AXA Brazil; Amundi under Credit Agricole).",
+      "quote": "Includes subsidiary Amundi",
+      "page": 2
+    },
+    {
+      "concept": "Parent and subsidiary assessed together",
+      "indicator": "For Edison, LobbyMap assesses the policy engagement jointly with its parent company.",
+      "quote": "LobbyMap assesses the policy engagement of Edison and its parent company, EDF, jointly.",
+      "page": 1
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Tier 1 (Direct Exposure) totals 17 delegates; the first listed entity is ENGIE with France (5) and Belgium (1).",
+      "quote": "17 ENGIE* France (5), Belgium (1)",
+      "page": 1
+    },
+    {
+      "claim": "Tier 2 (Partial Exposure) totals 26 delegates; includes APIP (named in the list as a Portuguese plastics industry association) and Globoplast among others; the list does not state sectors.",
+      "quote": "26 Associação Portuguesa da Indústria de Plásticos (APIP)",
+      "page": 1
+    },
+    {
+      "claim": "Tier 3 (Financial Exposure) totals 20 delegates, starting with AXA (France, 4) and BNP Paribas (France, 5).",
+      "quote": "20 AXA* France (4) Includes AXA Brazil and AXA International Markets",
+      "page": 1
+    },
+    {
+      "claim": "The Tier 3 list continues on page 2 with Credit Agricole (France 6), Danske Bank (Denmark 1), ING Bank (Netherlands 1), JPMorgan Chase (France 1), Rabobank (Netherlands 2).",
+      "quote": "JPMorgan Chase & Co.* France (1) Rabobank Netherlands (2)",
+      "page": 2
+    }
+  ],
+  "limitations": [
+    {
+      "point": "No criteria: the list does not say how an entity was judged fossil fuel-linked, what each tier means, why an entity sits in one tier and not another, or which source list it came from. The tier names are the only description.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Does not name the conference, the date of the participant list, the badge types counted (Party, overflow), or whether the counts cover all delegates of each entity. Delegate totals per tier are printed; entity counts are not.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Only some entities are assessed by LobbyMap; the others have no stated basis. Table text is extracted out of order and some cell text is jumbled, so entity-to-delegation pairs were read from the page blocks, not the table cells.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "No instructions to a reader or AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "LobbyMap (InfluenceMap) assessments",
+      "what_it_is": "The asterisk marks entities assessed by LobbyMap. The list itself is a published list of 21 organisations in three tiers, with delegates per entity and country delegation.",
+      "page": 1
+    }
+  ],
+  "relevant_to": [
+    "Q2"
+  ],
+  "pages_read": "1-2 (whole document)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

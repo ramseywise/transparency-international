@@ -1,0 +1,115 @@
+{
+  "id": "doi-10-1371-journal-pclm-0000370",
+  "citation": {
+    "authors": [
+      "Kinol A",
+      "Si Y",
+      "Kinol J",
+      "Stephens JC"
+    ],
+    "year": 2025,
+    "title": "Networks of climate obstruction: Discourses of denial and delay in US fossil energy, plastic, and agrichemical industries",
+    "venue_or_publisher": "PLOS Climate 4(1): e0000370",
+    "doi_or_url": "https://doi.org/10.1371/journal.pclm.0000370",
+    "type": "journal article (web page of the full text)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "How the fossil fuel energy, plastics and agrichemicals industries interact on Twitter, how far their messaging is coordinated, and what this means for climate policy. It does not study UN climate conference delegations or participant lists.",
+  "data": "Tweets from the primary Twitter account of nine US organisations (the two largest companies and one trade association in each of three sectors), downloaded January and February 2023, from each account's first tweet (as early as 2008) to January 2023, English only, replies excluded. Section 3.1 gives 125,340 tweets; section 4.1 gives 122,710 tweets (58,100 fossil energy, 42,931 plastics, 21,679 agrichemicals) and a network of 3,407 nodes and 3,762 edges.",
+  "method": "Network analysis of the handles mentioned in the tweets (Python, Gephi), and thematic text analysis: the most frequent terms were counted, five terms were chosen by hand (economy, EPA, pipeline, sustainability, water), tweets with them were coded in NVivo with an inductively built codebook, and the codes were read against a framework the authors call discourses of climate obstruction, combining Lamb et al.'s discourses of delay and Cook's climate myths. Mentioned accounts were grouped by the sector of the mentioning organisation, and the mentioned accounts were given industry codes (Table 5). The text does not say how those codes were assigned.",
+  "definitions": [
+    {
+      "term": "Discourses of climate obstruction (authors' framework)",
+      "definition": "A hybrid of the discourses of climate delay and four discourses of climate denial adapted from Cook's taxonomy of climate myths: it is not real, it is not bad, it is not us, it is taken care of.",
+      "quote": "we synthesized four discourses of climate denial based on existing research and adapted from Cook’s taxonomy of climate myths [90].",
+      "page": "3.3 Text analysis"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Fossil energy, plastics and agrichemical sectors (which organisations stand for each)",
+      "indicator": "The two largest US companies by production quantity in each sector, plus one trade association per sector: American Petroleum Institute (oil and gas), American Chemistry Council (plastics), American Farm Bureau (agrichemical producers). The text names ExxonMobil and Chevron for oil and gas, Dow and DuPont for plastics, Corteva and FMC for agrichemicals.",
+      "quote": "For industry associations, we selected the American Petroleum Institute, which represents the oil and gas industry, the American Chemistry Council, which represents plastics, and the American Farm Bureau, which represents agrichemical producers.",
+      "page": "2.2 Organization selection"
+    },
+    {
+      "concept": "Sector of a mentioned Twitter account",
+      "indicator": "Mentioned accounts were grouped by the sector of the organisation that mentioned them, not by what the mentioned account is.",
+      "quote": "We then manually sorted the nodes in the graphic to group them by the sector of the mentioning organization.",
+      "page": "4.2 Network analysis results"
+    },
+    {
+      "concept": "Type of organisation behind a mentioned account (for example hydrocarbon organisations, news media, politicians)",
+      "indicator": "Industry codes attached to the mentioned handles (Table 5). The extracted text gives the counts but not the coding rule, and the table itself is not in the text.",
+      "quote": "The most frequently mentioned type of account is news media accounts, of which 112 handles were mentioned, followed by organizations that produce or process hydrocarbons, 63, and politicians, 43.",
+      "page": "4.2 Network analysis results"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Each pair of sectors shares mentioned accounts: at least 14 (agrichemicals and fossil energy) and up to 152 (fossil energy and plastics). These counts are for a filtered set of 407 handles: those connected to at least two of the nine organisations and mentioned at least 3 times.",
+      "quote": "We found that each pair of sectors shares at least fourteen mentioned Twitter handles (agrichemicals and fossil energy), and up to 152 shared mentions (fossil energy and plastics).",
+      "page": "4.2 Network analysis results"
+    },
+    {
+      "claim": "The authors conclude the climate-policy messaging of the three sectors is aligned and coordinated.",
+      "quote": "Our analysis suggests that discourses to deny and delay climate policy are aligned and coordinated across the three sectors to reinforce existing infrastructure and inhibit change.",
+      "page": "Abstract"
+    },
+    {
+      "claim": "Reported lobbying and campaign spending of the American Chemistry Council, whose members include chemical manufacturers and consulting firms. The figures come from the authors' cited source, not from this study's data.",
+      "quote": "ACC spends enormous amounts of money on US lobbying and campaign contributions; in the 2022 cycle alone the organization spent nearly $700,000 on campaign contributions and nearly $20mil on lobbying",
+      "page": "2.2 Organization selection"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Only one US-based account per organisation was analysed, which the authors say probably overstates US communications.",
+      "stated_by_authors": true,
+      "quote": "This analysis is also limited by our examination of messages tweeted by a single, US-based twitter account per organization",
+      "page": "5. Discussion"
+    },
+    {
+      "point": "Tweet counts differ greatly between accounts, so agrichemicals are under-represented and fossil energy over-represented. The authors say they handled this by analysing by sector.",
+      "stated_by_authors": true,
+      "quote": "Because of the difference in number of tweets, agrichemicals are relatively underrepresented in the dataset and fossil energy organizations are overrepresented.",
+      "page": "5. Discussion"
+    },
+    {
+      "point": "Sector boundaries are blurred by mergers and overlapping business lines, so assigning a company to one sector was hard.",
+      "stated_by_authors": true,
+      "quote": "It was challenging to select two discrete companies within each sector because oil and gas, plastics, and agrichemicals are deeply interlinked, having merged and unmerged with other companies across sectors over time.",
+      "page": "2.2 Organization selection"
+    },
+    {
+      "point": "The article gives two different tweet totals (125,340 in section 3.1, 122,710 in section 4.1) and does not explain the difference.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The extracted text has no table or figure contents (Tables 1 to 5, Figures 1 to 7), so the organisation list in Table 1 and the industry codes in Table 5 could not be read. The study covers nine US organisations on Twitter, not delegations or participant lists, so it gives no figure on business or fossil-fuel presence at a UN climate conference.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Twitter API v2 tweets from nine accounts",
+      "what_it_is": "The underlying data, 2008 to January 2023; the article says it is available through the Twitter API v2. S1 Data (DOCX) lists the tweets quoted in the article.",
+      "page": "Abstract"
+    },
+    {
+      "name": "Lamb et al. (2020) discourses of climate delay; Cook climate myths taxonomy",
+      "what_it_is": "The two frameworks combined into the authors' discourses of climate obstruction framework (cited as refs 35 and 90). Not read here.",
+      "page": "3.3 Text analysis"
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "Full text of the saved web page (all sections from Abstract to Conclusions, Supporting information, and the start and end of the reference list); the rest of the file is reference-list entries, link lists and page furniture. Tables and figures are not in the extracted text and were not read.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

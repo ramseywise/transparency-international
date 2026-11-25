@@ -1,0 +1,68 @@
+{
+  "id": "github-unfccc-cop-analysis",
+  "citation": {
+    "authors": [],
+    "year": null,
+    "title": "Tracing inclusivity at UNFCCC conferences through side events and interest group dynamics",
+    "venue_or_publisher": "GitHub (repository judyjwxie/unfccc-cop-analysis)",
+    "doi_or_url": "https://github.com/judyjwxie/unfccc-cop-analysis",
+    "type": "code repository landing page (README); no author list or date in the page metadata; the README names Judy Xie as the contact for correspondence",
+    "peer_reviewed": "unknown"
+  },
+  "question": "The README says the repository holds source code for tracing UNFCCC COP side event topics and the network relationships of their organisers. The page does not state a research question.",
+  "data": "Per the README: the UNFCCC List of participants (on-site participation, accessed 31 Jan 2024); an anonymised list of fossil fuel lobbyists from the Kick Big Polluters Out coalition (accessed 30 Jul 2024); the UNFCCC admitted IGO database (accessed 13 Feb 2024) and admitted NGO database (accessed 31 Jan 2024); the UNFCCC SEORS database (accessed 14 Mar 2024). The README does not say which COP or COPs, or how many records.",
+  "method": "Not stated in the file. The README says the data sources are described in the Methods section of a manuscript that is not in the file. It says the scripts use Python, R and Gephi, and that four networks were visualised.",
+  "definitions": [],
+  "proxies": [
+    {
+      "concept": "Fossil-fuel presence among participants",
+      "indicator": "Use of an anonymised list of fossil fuel lobbyists developed by the Kick Big Polluters Out coalition, set beside the UNFCCC list of participants. How names or organisations were matched is not stated in the file.",
+      "quote": "the main data sources are the UNFCCC List of participants: on-site participation (accessed 31 Jan 2024) and the anonymised list of fossil fuel lobbyist developed by the Kick Big Polluters Out coalition (accessed 30 Jul 2024).",
+      "page": "Overview"
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "point": "The file holds only the landing page of a GitHub repository (README plus a file listing), not the manuscript, code or data. It contains no definitions of business or fossil-fuel linked, no method detail and no results. Only what the README text states is recorded.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The README points to a Methods section of a manuscript for the data sources; that manuscript is not in the file.",
+      "stated_by_authors": true,
+      "quote": "This work uses open-source secondary data and the data sources can be found in the Methods section of the manuscript.",
+      "page": "Repository files navigation"
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC List of participants: on-site participation",
+      "what_it_is": "Participant list, accessed 31 Jan 2024 per the README; linked at https://unfccc.int/documents/636674. The COP is not stated in the file.",
+      "page": "Overview"
+    },
+    {
+      "name": "Kick Big Polluters Out anonymised list of fossil fuel lobbyists",
+      "what_it_is": "List developed by the Kick Big Polluters Out coalition, accessed 30 Jul 2024; linked as a Google spreadsheet from the README.",
+      "page": "Overview"
+    },
+    {
+      "name": "UNFCCC admitted IGO and NGO databases",
+      "what_it_is": "UNFCCC lists of admitted observer organisations (IGOs accessed 13 Feb 2024, NGOs accessed 31 Jan 2024).",
+      "page": "Overview"
+    },
+    {
+      "name": "UNFCCC SEORS database",
+      "what_it_is": "UNFCCC side events and exhibits registration system, source of side-event data, accessed 14 Mar 2024.",
+      "page": "Overview"
+    }
+  ],
+  "relevant_to": [
+    "Q2",
+    "method"
+  ],
+  "pages_read": "Whole extracted file (27 paragraphs, about 229 words, 25 links). Landing page only: README overview and file listing. The full text of the manuscript, the code and the data are not in the file.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

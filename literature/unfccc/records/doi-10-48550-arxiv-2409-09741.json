@@ -1,0 +1,200 @@
+{
+  "id": "doi-10-48550-arxiv-2409-09741",
+  "citation": {
+    "authors": [
+      "Bastián González-Bustamante"
+    ],
+    "year": 2024,
+    "title": "Benchmarking LLMs in Political Content Text-Annotation: Proof-of-Concept with Toxicity and Incivility Data",
+    "venue_or_publisher": "arXiv preprint (cs.CL), prepared for the 8th Monash-Warwick-Zurich Text-as-Data Workshop, 16-17 September 2024",
+    "doi_or_url": "arXiv:2409.09741v1 (doi 10.48550/arXiv.2409.09741)",
+    "type": "preprint / workshop paper",
+    "peer_reviewed": "no"
+  },
+  "question": "How well do Google's Perspective API, OpenAI GPT models and locally deployed open-source LLMs perform zero-shot annotation of toxicity in political social media content, measured against a human-coded gold standard, and how do they compare on speed and reproducibility (including under different temperature settings)?",
+  "data": "More than 3.5 million Twitter/X messages about protest events: Argentina (n = 551,761; August 2020) and Chile (n = 3,125,254; October 2019), collected by hashtags that exceeded 50,000 posts. Gold standard: balanced random sample of 1,000 messages (500 per country), stratified by Perspective toxicity quintiles, each hand-coded by two of five human coders in Labelbox (7.2 hours of annotation, 1.2 hours of revision). Brazilian (Portuguese) messages were excluded.",
+  "method": "Binary toxicity labelling (TOXIC / NONTOXIC). Perspective API run on the full corpus (thresholds 0.55 and 0.70). Zero-shot classification with 5 GPT models and 10 open-source LLMs (deployed locally with Ollama at minimum temperature), using the human coders' instruction as the system message plus a restricted-output instruction. Compared with accuracy, precision, recall, F1, Jaccard distance, computing time. A preliminary benchmark (pre-PoC, in the Appendix) used Perspective scores as proxy labels with tenfold cross-validation to select models. Temperature experiments (minimum, 0.25, 1.00, same seed) assessed with bootstrapped Krippendorff's alpha (1,000 iterations).",
+  "definitions": [
+    {
+      "term": "TOXIC (toxicity, as coded)",
+      "definition": "Rude, disrespectful, or unreasonable comments likely to make someone leave the discussion or stop sharing their perspective; taken from the core definitions of Perspective.",
+      "quote": "TOXIC: Rude, disrespectful, or unreasonable comments that are likely to make someone leave the discussion or stop sharing their perspective.",
+      "page": 3
+    },
+    {
+      "term": "NONTOXIC",
+      "definition": "Civil or nice comments unlikely to discourage conversation.",
+      "quote": "NONTOXIC: Civil or nice comments that are unlikely to discourage conversation",
+      "page": 3
+    },
+    {
+      "term": "Small Language Models (SLMs)",
+      "definition": "Open-source models with seven or fewer billion parameters.",
+      "quote": "some open-source so-called Small Language Models (SLMs), which have seven or fewer billion parameters",
+      "page": 3
+    },
+    {
+      "term": "Incivility / toxicity (conceptual)",
+      "definition": "No single definition adopted; the paper notes the literature uses a variety of conceptualisations (vulgarity, profanity, identity-based attacks, hate speech). Incivility is not separately defined or coded in this paper despite the title.",
+      "quote": "there are a variety of conceptualisations that could include vulgarity, profanity, identity-based attacks, and hate speech, among others",
+      "page": 2
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Toxicity (ground truth)",
+      "indicator": "Binary label from two human coders per message, using the Perspective-derived TOXIC/NONTOXIC definition",
+      "quote": "Each message was hand-coded by two different coders of the team, therefore, we have two ground-truth labels for each sample observation.",
+      "page": 3
+    },
+    {
+      "concept": "Toxicity (automated)",
+      "indicator": "Perspective API score (predicted probability) with a cut-off; 0.55 ('laxer') and 0.70 ('standard') thresholds compared",
+      "quote": "we used Perspective score with a laxer threshold of 0.55 and a standard of 0.70",
+      "page": 4
+    },
+    {
+      "concept": "Toxicity (preliminary proxy label)",
+      "indicator": "Perspective score used in place of human labels in the pre-PoC benchmark for model selection",
+      "quote": "we ran a preliminary benchmark using Perspective API as a proxy of ground-truth labels instead of the gold standard elaborated by human annotators",
+      "page": 4
+    },
+    {
+      "concept": "Reliable annotation (reproducibility)",
+      "indicator": "Lower bound of bootstrapped Krippendorff's alpha 95% CI above 0.80 across re-runs and temperature settings",
+      "quote": "test if the lower confidence interval is above the 0.80 threshold considered reliable",
+      "page": 5
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Perspective API with the laxer 0.55 threshold had the highest F1 against the human gold standard, outperforming all GPTs and open-source LLMs; the same model at 0.70 ranked last (F1 about 0.70).",
+      "quote": "Perspective API, Google's model distilled from BERT family models, with a laxer cut-off threshold of Perspective score at 0.55, outperforms the GPTs and open-source LLMs we have tested",
+      "page": 5
+    },
+    {
+      "claim": "GPT-4o and Nous Hermes 2 Mixtral (47B) were the best LLM zero-shot classifiers, with F1 around 0.84 and 0.835 (Table 1); GPT-3.5 Turbo was lowest (F1 0.762). All models exceeded F1 0.70.",
+      "quote": "all the models tested showed F1-scores above 0.70, even some outdated versions such as GPT-3.5 Turbo",
+      "page": 8
+    },
+    {
+      "claim": "Most GPTs and several open models had high recall but lower precision (over-predicting toxic); Table 1 shows recall of 0.95-0.99 with precision of 0.62-0.74 for many models. [from a table on this page; no quotable sentence]",
+      "quote": "",
+      "page": 5
+    },
+    {
+      "claim": "Small locally deployed models (Nous Hermes 2, Mistral OpenOrca) reached good performance at about 2.35 seconds per message; larger parameter count was associated with higher performance, computing time was not.",
+      "quote": "the number of billions of parameters is significant (p = 0.003)",
+      "page": 7
+    },
+    {
+      "claim": "Speed: GPTs were fastest (0.511 to 0.852 s per observation); open-source LLMs about 6x faster than human coders (average human time 15.125 s per message), Perspective about 13x, GPTs about 24x.",
+      "quote": "open-source LLMs are almost 6x faster than human coders",
+      "page": 7
+    },
+    {
+      "claim": "GPTs could not guarantee full reproducibility even with fixed seed, though reliability was relatively high; GPT-4 showed marked fluctuation across temperature levels. Open-source models run locally at minimum temperature were fully reproducible.",
+      "quote": "only through open-source models deployed locally at a minimum level of temperature is possible to ensure reproducibility in the annotation output",
+      "page": 8
+    },
+    {
+      "claim": "Human coders agreed very strongly on the gold standard.",
+      "quote": "The inter-coder reliability was excellent: Cohen's κ 0.944",
+      "page": 3
+    },
+    {
+      "claim": "Model clusters in Jaccard distance: a high-performance group (GPT-4o, Aya, GPT-4, Gemma 2 27B, GPT-4o mini, GPT-4 Turbo) and a lower-performance group (Llama 3.1, Gemma 2 9B, Mistral NeMo); some models were dissimilar to others, suggesting scope for ensembles.",
+      "quote": "which could open avenues for ensemble annotations and the use of stacking classifiers",
+      "page": 7
+    }
+  ],
+  "recommendations": [
+    {
+      "claim": "Treat Perspective scores as a probability measure that is too stringent at the standard threshold; use a laxer threshold and consider thresholds carefully when classifying messages.",
+      "quote": "the Perspective score as a probability measure tends to be too stringent and should be considered carefully when classifying messages.",
+      "page": 5
+    },
+    {
+      "claim": "GPT-4 should not be used for this kind of annotation because of its instability across temperature settings.",
+      "quote": "except for the case of GPT-4, which suggests that this model should not be used for this type of task",
+      "page": 7
+    },
+    {
+      "claim": "Small models deployed locally are a low-cost, reproducible option for classification.",
+      "quote": "This confirms the possibilities that some small models deployed locally with low costs for classification tasks could offer.",
+      "page": 8
+    },
+    {
+      "claim": "Future work could add context and prompt variation to improve performance, and try few-shot or chain-of-thought approaches.",
+      "quote": "a potential avenue is incorporating additional context information and prompt variation in the pipeline to improve the classification's performance",
+      "page": 8
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Only zero-shot classification with a single short prompt was tested; few-shot, chain-of-thought and prompt variation were not explored.",
+      "stated_by_authors": true,
+      "quote": "exploring some applications beyond zero-shot classification, such as classification tasks involving few-shot ontologies or chain-of-thought, is possible",
+      "page": 8
+    },
+    {
+      "point": "Larger open-source models (Llama 3.1 70B/405B, Hermes 3 70B/405B and others) could not be run on the authors' hardware, so the open-source comparison is of smaller versions.",
+      "stated_by_authors": true,
+      "quote": "are beyond of our infrastructure's RAM possibilities",
+      "page": 4
+    },
+    {
+      "point": "OpenAI o1-preview and o1-mini were not tested because they were not yet fully available through the API.",
+      "stated_by_authors": true,
+      "quote": "since they are not fully available to all API users at the moment of writing this paper",
+      "page": 4
+    },
+    {
+      "point": "Gold standard covers one task (binary toxicity), one platform (Twitter/X), Spanish-language protest messages from two countries, and 1,000 messages; results may not transfer to other classification tasks such as organisation classification. Not stated as a limitation by the authors.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": 3
+    },
+    {
+      "point": "The gold-standard sample was stratified using Perspective score quintiles, so the evaluation set is not drawn independently of one of the compared classifiers (possible bias in Perspective's favour). Not stated as a limitation by the authors.",
+      "stated_by_authors": false,
+      "quote": "Therefore, we balanced the sample by splitting it by country, considering 500 messages from Argentina and 500 from Chile, and then used quintiles of toxicity",
+      "page": 3
+    },
+    {
+      "point": "Single run per configuration for main benchmark; no confidence intervals on Table 1 metrics; pre-print not peer reviewed. The title mentions incivility but only toxicity is annotated.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": 5
+    },
+    {
+      "point": "Dependence on proprietary models is acknowledged as a risk to reproducibility and openness.",
+      "stated_by_authors": true,
+      "quote": "concerns about dependency on property models owned by for-profit companies, which could jeopardise the reproducibility and openness of research",
+      "page": 2
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "González-Bustamante and Rivera (2024) protest dataset and gold standard",
+      "what_it_is": "Dataset and metadata for the human-coded 1,000-message toxicity gold standard; said to be available for replication or reuse (footnote 7).",
+      "page": 4
+    },
+    {
+      "name": "Reference list",
+      "what_it_is": "Bibliography of cited work on LLM annotation (e.g. Gilardi et al. 2023, Alizadeh et al. 2024, Gruber and Weber 2024, Bucher and Martini 2024, Roy et al. 2023, Reiss 2023, Krippendorff 2019); candidates for follow-up.",
+      "page": 9
+    },
+    {
+      "name": "Appendix pre-PoC benchmark",
+      "what_it_is": "Table of preliminary model performance using Perspective-score proxy labels (Nous Hermes 2 Mixtral F1 0.831 top), plus computing infrastructure description.",
+      "page": 11
+    }
+  ],
+  "relevant_to": [
+    "method"
+  ],
+  "pages_read": "1-11 (all 11 pages; read as extracted text via pypdf because the PDF page renderer was not installed; figures 1-3 not seen as images, only their captions and the surrounding text)",
+  "read_on": "2026-11-24",
+  "read_by": "2026-11-24 general-purpose agent (sonnet) following source-reader instructions; PDF text extracted (pdftoppm missing), page numbers are PDF page indices"
+}

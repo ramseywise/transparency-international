@@ -1,0 +1,114 @@
+{
+  "id": "unfccc-cop24-observer-guide",
+  "citation": {
+    "authors": [
+      "UNFCCC secretariat"
+    ],
+    "year": 2018,
+    "title": "COP 24 observer guide",
+    "venue_or_publisher": "UNFCCC",
+    "doi_or_url": "https://unfccc.int/sites/default/files/resource/COP24_observer_guide.pdf",
+    "type": "practical guide for observers",
+    "peer_reviewed": "no"
+  },
+  "question": "Practical guide to help observer organizations, especially first-timers, take part in COP 24 (Katowice, Dec 2018). It did not set out to measure anything.",
+  "data": null,
+  "method": null,
+  "definitions": [
+    {
+      "term": "Observer organizations",
+      "definition": "Organizations with observer status. There are three categories: UN system and specialized agencies, IGOs, and NGOs. IGOs and NGOs are reviewed before the COP admits them.",
+      "quote": "Organizations with observer status are called Observer Organizations. There are three categories of observer organizations - a) United Nations System and its Specialized Agencies b) intergovernmental organizations (IGOs) and c) non-governmental organizations (NGOs).",
+      "page": 3
+    },
+    {
+      "term": "Constituencies",
+      "definition": "Self-organized loose groups of NGOs that mirror the 9 Major Groups. Membership is neither official nor binding.",
+      "quote": "They are self-organized loose groups of NGOs with diverse but broadly clustered interests",
+      "page": 3
+    },
+    {
+      "term": "BINGO (business constituency)",
+      "definition": "Business and industry NGOs, one of the UNFCCC constituencies.",
+      "quote": "BINGO Business and industry NGOs",
+      "page": 3
+    },
+    {
+      "term": "Informal NGO groups",
+      "definition": "Faith Based Organizations, ECONGO and Parliamentarians have been recognized informally since 2016. They do not have all the privileges of an official constituency.",
+      "quote": "These informal NGO groups do not enjoy all privileges of an official constituency.",
+      "page": 3
+    },
+    {
+      "term": "Registration / who may attend",
+      "definition": "Parties, UN and related bodies, media and non-profit observer organizations with observer status may attend. Everyone entering must have a badge.",
+      "quote": "Parties to the Convention, United Nations and related organizations and agencies, media and non-profit observer organizations with observer status may attend the sessions of the Convention.",
+      "page": 7
+    }
+  ],
+  "proxies": [],
+  "findings": [
+    {
+      "claim": "The COP decides on admitting new observer organizations as a standing agenda item, usually on day one.",
+      "quote": "One of the standing agenda items is the admission of new observer organizations. The COP usually takes a decision on this item at the first day of the conference.",
+      "page": 2
+    },
+    {
+      "claim": "Observer access to closed informal meetings is limited.",
+      "quote": "Open unless one-third of Parties present at the session object, and the presiding officer may determine at any time to close.",
+      "page": 4
+    },
+    {
+      "claim": "Constituency membership brings benefits such as plenary floor access, office space and bilateral meetings with officials.",
+      "quote": "access to bilateral meetings with officials; tickets for limited access meetings.",
+      "page": 3
+    },
+    {
+      "claim": "Observers are expected to engage through bilaterals with government delegates to advocate policy perspectives.",
+      "quote": "Holding bilaterals with government delegates to share position papers and submissions, and advocate policy perspectives.",
+      "page": 5
+    },
+    {
+      "claim": "The guide says UN meetings aim to be open, transparent and inclusive, and participants must follow a code of conduct. The excerpt gives no conflict-of-interest or undue-influence rule.",
+      "quote": "UN meetings operate on the principles of being open, transparent and inclusive",
+      "page": 8
+    },
+    {
+      "claim": "The list of participants is published as an information document (INF).",
+      "quote": "Information document Practical data (e.g. list of participants), workshop reports, background documents English INF",
+      "page": 6
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The guide covers observers, not Party delegations or Party overflow badges. It has no counts, sector classification, fossil-link definition, or conflict-of-interest or lobbying rules. The only code-of-conduct material is links to harassment, recording and security guidelines, and the guidelines were not in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 8
+    },
+    {
+      "point": "The text is flattened from a visual layout, so table and constituency structure is partly garbled. Some constituency rows (e.g. the full list of focal points) may be missing.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 3
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "List of participants (INF document)",
+      "what_it_is": "Official conference document type holding the participant list",
+      "page": 6
+    },
+    {
+      "name": "Guidelines for the participation of representatives of non-governmental organizations at meetings of the bodies of the UNFCCC",
+      "what_it_is": "Referenced by title only; contents not in the guide",
+      "page": 8
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "whole source (1991 words)",
+  "read_on": "2026-11-25",
+  "read_by": "source-reader, sonnet"
+}

@@ -1,0 +1,122 @@
+{
+  "id": "kickbigpollutersout-polluter-free-cop30",
+  "citation": {
+    "authors": [],
+    "year": 2025,
+    "title": "LETTER: 225+ Organizations demand COP30 center people, not polluters",
+    "venue_or_publisher": "Kick Big Polluters Out (kickbigpollutersout.org)",
+    "doi_or_url": "https://kickbigpollutersout.org/Polluter-Free-COP30",
+    "type": "advocacy open letter (web page), endorsed by 225+ organisations",
+    "peer_reviewed": "no"
+  },
+  "question": "Argues that the COP30 Presidency should not invite corporations, especially fossil fuel and other high-emitting industries, into the climate talks without safeguards, and asks for a polluter-free COP, a polluter-free Presidency and an Accountability Framework. It does not study delegations.",
+  "data": null,
+  "method": null,
+  "definitions": [
+    {
+      "term": "conflict of interest",
+      "definition": "Not defined. The letter states that the UNFCCC has no agreed definition.",
+      "quote": "It does not even have an agreed definition of what a “conflict of interest” is, let alone any measures on how to address one.",
+      "page": "In his 7th letter to the international community (para 4)"
+    },
+    {
+      "term": "polluters / polluting businesses",
+      "definition": "Used as a broad label for fossil fuel and other big polluting industries and their enablers. No criteria are given for which firms count.",
+      "quote": "polluting businesses, and their enablers, are directly responsible for the climate crisis",
+      "page": "In his 7th letter to the international community (para 2)"
+    },
+    {
+      "term": "polluter-free Presidency",
+      "definition": "A Presidency where people with close ties to or affiliations with polluters hold no leadership role.",
+      "quote": "Committing to a polluter-free Presidency where those with close ties to or affiliations with polluters have no role in the leadership of the climate talks.",
+      "page": "In his 7th letter to the international community (para 7)"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "fossil fuel link of a PR firm",
+      "indicator": "The firm is said to have fossil fuel clients (Edelman, the COP30 media partner).",
+      "quote": "a PR firm that actively has fossil fuel clientele",
+      "page": "In his 7th letter to the international community (para 7)"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The letter says corporate interests, particularly fossil fuel and other big polluting industries, have undermined climate action through lobbying and disinformation (assertion, no data given in the text).",
+      "quote": "corporate interests – particularly from the fossil fuel and other big polluting industries – have sabotaged climate progress through aggressive lobbying, disinformation, and glossy PR campaigns",
+      "page": "In his 7th letter to the international community (para 1)"
+    },
+    {
+      "claim": "The COP30 team's PR contractor is said to also promote major oil and gas companies.",
+      "quote": "the COP30 team has made a deal with a PR company that is simultaneously promoting the interests of major oil and gas companies",
+      "page": "In his 7th letter to the international community (para 1)"
+    },
+    {
+      "claim": "The UNFCCC is said to have no meaningful measures against private, vested interests; transparency requirements were strengthened from COP30 but are said not to amount to accountability.",
+      "quote": "transparency is a far cry from accountability.",
+      "page": "In his 7th letter to the international community (para 4)"
+    },
+    {
+      "claim": "Recommendation (not a finding): establish an Accountability Framework against corporate interference, especially from fossil fuel and high-emitting industries.",
+      "quote": "must prioritize the establishment of a strong Accountability Framework to protect against corporate interference and those with vested interests",
+      "page": "In his 7th letter to the international community (para 5)"
+    },
+    {
+      "claim": "Transparency International is listed among the endorsing organisations (the list is also headed by 225+ organisations; the Conflict of Interest Working Group of YOUNGO is also listed).",
+      "quote": "Endorsed by the following 225+ organizations and networks:",
+      "page": "In his 7th letter to the international community (para 11)"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Advocacy letter: no data, no counts of business or fossil fuel delegates, no method for identifying or classifying them, no delegation or badge analysis.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Terms such as polluter, enabler, fossil fuel insider and corporate capture are used without operational definitions or criteria.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "No author names or publication date on the extracted page; year 2025 inferred from the COP30 context and linked 2025 URLs, not stated in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Claims rest on linked sources (news articles, UN documents) that were not read here.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Joint civil society submission on conflict of interest, 17 Aug 2022 (corporateaccountability.org PDF)",
+      "what_it_is": "Linked from the passages on rule-writing by polluters and on the Accountability Framework; likely relevant to conflict-of-interest context",
+      "page": null
+    },
+    {
+      "name": "United Call to Action: The COP We Need (CIEL PDF, June 2025)",
+      "what_it_is": "Joint call by over 200 organisations to reform the UN climate talks",
+      "page": null
+    },
+    {
+      "name": "Climate Change News, 30 Jul 2025: PR firm working for Shell wins COP30 media contract",
+      "what_it_is": "News article linked for the PR contract claim",
+      "page": null
+    },
+    {
+      "name": "UN document g2507022 (documents.un.org PDF)",
+      "what_it_is": "UN document linked from the claim about sabotage of climate progress; content not read",
+      "page": null
+    }
+  ],
+  "relevant_to": ["context"],
+  "pages_read": "whole page (all 12 paragraphs and the link list)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

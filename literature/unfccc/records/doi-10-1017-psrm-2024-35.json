@@ -1,0 +1,292 @@
+{
+  "id": "doi-10-1017-psrm-2024-35",
+  "citation": {
+    "authors": [
+      "Michael Burnham"
+    ],
+    "year": 2025,
+    "title": "Stance detection: a practical guide to classifying political beliefs in text",
+    "venue_or_publisher": "Political Science Research and Methods, 13, 611-628 (Cambridge University Press; online 2024)",
+    "doi_or_url": "https://doi.org/10.1017/psrm.2024.35",
+    "type": "journal article (methods guide)",
+    "peer_reviewed": "yes"
+  },
+  "question": "How should political scientists define stance detection and choose, apply and validate a method (supervised classifier, natural language inference classifier, or in-context LLM prompting) to classify the beliefs a text expresses?",
+  "data": "Test set labelled for approval of President Trump: 1135 public tweets (compiled from several stance detection projects) plus 1000 random sentences containing 'Trump' from congressional newsletters of the 117th Congress (DC Inbox project); total 2135 short documents, coded twice by human annotators with a third adjudicating. Replication: 862,923 COVID-19 tweets, 1 Sep 2020 to 28 Feb 2021, 23,476 users (Block et al. 2022 data), with 2,000 hand-labelled training tweets.",
+  "method": "Conceptual definition of stance and stance detection as textual entailment, then empirical comparison on the Trump test set of bag-of-words classifiers, fine-tuned language models (RoBERTa, BERTweet, PoliBERTweet, DeBERTaV3), zero-shot NLI classifiers (DeBERTaV3 Small/Base/Large) and in-context classifiers (GPT-4, GPT-3.5 Turbo, Mistral 7B) with standard, chain-of-thought and logit-bias prompts. Performance measured mainly with Matthew's Correlation Coefficient (MCC), plus F1 and accuracy, against human labels. Ends with a replication of Block et al. (2022) using a zero-shot NLI classifier. Coding tutorials and appendices (glossary, hypotheses lists) are in supplementary material, not in the PDF.",
+  "definitions": [
+    {
+      "term": "Stance",
+      "definition": "How an individual would answer a proposition.",
+      "quote": "Definition 1 Stance: How an individual would answer a proposition.",
+      "page": 2
+    },
+    {
+      "term": "Sentiment",
+      "definition": "Positive or negative emotional valence; treated as distinct from stance.",
+      "quote": "Definition 2 Sentiment: Positive or negative emotional valence.",
+      "page": 2
+    },
+    {
+      "term": "Textual entailment",
+      "definition": "Text T entails hypothesis H when a human reading T would infer H is most likely true (not that H is necessarily true).",
+      "quote": "Text sample T entails hypothesis H when a human reading T would infer that H is most likely true.",
+      "page": 2
+    },
+    {
+      "term": "Stance detection",
+      "definition": "Text T entails stance S to author A when a human reading T with context C would infer that T expresses support for S. Limited to the stance a document actually expresses.",
+      "quote": "Text sample T entails stance S to author A when a human reading T with context C would infer that T expresses support for S.",
+      "page": 3
+    },
+    {
+      "term": "Context",
+      "definition": "Information relevant to the stance of interest, made up of what the document contains and what the classifier knows. Missing context raises ambiguity.",
+      "quote": "Available context consists of information the document contains, and what the classifier knows.",
+      "page": 3
+    },
+    {
+      "term": "Zero-shot classification",
+      "definition": "Labelling documents without task-specific training; possible with NLI and in-context classifiers.",
+      "quote": "NLI and in-context classifiers, however, can label documents without training—an ability known as \"zero-shot\" classification.",
+      "page": 5
+    },
+    {
+      "term": "NLI classifier",
+      "definition": "A language model pre-trained to recognise textual entailment; documents are paired with hypothesis statements and labelled by whether they entail them.",
+      "quote": "NLI classifiers are language models pre-trained for recognizing textual entailment.",
+      "page": 9
+    },
+    {
+      "term": "In-context learning",
+      "definition": "Ability of generative models to learn tasks from plain-language prompts; classification means prompting with task description, document and a request for a label.",
+      "quote": "In-context learning refers to the capability of generative language models, such as GPT-4, to learn tasks via plain language prompts describing the task",
+      "page": 10
+    },
+    {
+      "term": "Ambiguous document (operational)",
+      "definition": "In the author's test set, documents on which human coders gave conflicting assessments.",
+      "quote": "I categorized \"ambiguous\" documents in my test set as those with conflicting human coder assessments.",
+      "page": 6
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Document relevance to a stance target",
+      "indicator": "Keyword matching (presence of the term 'Trump'), topic classification, or content labels from an API.",
+      "quote": "Methods for determining document relevancy include keyword matching, topic classification, or using content labels from an API.",
+      "page": 4
+    },
+    {
+      "concept": "Document ambiguity",
+      "indicator": "Conflicting assessments between human coders.",
+      "quote": "I categorized \"ambiguous\" documents in my test set as those with conflicting human coder assessments.",
+      "page": 6
+    },
+    {
+      "concept": "Stance 'supports Trump' (NLI)",
+      "indicator": "Entailment of the hypothesis 'The author of this text supports Trump' by the document.",
+      "quote": "I pair each document in my data with the hypothesis \"The author of this text supports Trump\" and the model returns a true or false classification.",
+      "page": 9
+    },
+    {
+      "concept": "COVID-19 threat-minimizing (non-compliant) stance",
+      "indicator": "Tweet entails any of a set of hand-written threat-minimizing hypotheses (e.g. anti-mask, anti-vaccine), matched to tweets by keywords; hypotheses derived from the original coding rules.",
+      "quote": "If a tweet entails any of the threat-minimizing hypotheses it is considered threat-minimizing.",
+      "page": 14
+    },
+    {
+      "concept": "Classifier agreement with humans / between classifiers",
+      "indicator": "MCC, F1 and accuracy against human labels; MCC between two models called 'intercoder reliability'.",
+      "quote": "Between the models there was a high degree of intercoder reliability (MCC = 0.75).",
+      "page": 15
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Sentiment and stance are distinct; sentiment is often uncorrelated with opinion, so sentiment analysis is a poor stance measure.",
+      "quote": "recent research shows sentiment is often uncorrelated with opinion",
+      "page": 1
+    },
+    {
+      "claim": "Ambiguity was higher in documents lacking the key term: 19 percent of documents mentioning Trump were ambiguous versus 34 percent of those not mentioning him.",
+      "quote": "Among documents mentioning Trump, 19 percent were ambiguous. Conversely, 34 percent of documents not mentioning Trump were ambiguous.",
+      "page": 6
+    },
+    {
+      "claim": "The NLI classifier degrades most when the target is not mentioned; supervised and in-context classifiers adapt better to low context.",
+      "quote": "the NLI classifier suffers the most performance degradation when Trump is not mentioned.",
+      "page": 6
+    },
+    {
+      "claim": "Fine-tuned language models beat bag-of-words classifiers; domain adaptation helps (RoBERTa MCC 0.60, BERTweet 0.63, PoliBERTweet 0.68; logistic regression 0.51).",
+      "quote": "PoliBERTweet (adapted for political speech on Twitter) preforms the best (MCC = 0.68).",
+      "page": 8
+    },
+    {
+      "claim": "Zero-shot NLI performance depends on model size: DeBERTaV3 Large reached MCC 0.65, Base 0.40, Small 0.15 (Table 4).",
+      "quote": "performance comparable to supervised classifiers only emerges in larger models.",
+      "page": 9
+    },
+    {
+      "claim": "Across nine synonymous hypotheses the NLI classifier's MCC averaged 0.64 (min 0.62, max 0.66), i.e. low sensitivity to hypothesis wording.",
+      "quote": "Across all hypotheses, the average MCC was 0.64, with a minimum value of 0.62 and a maximum value of 0.66.",
+      "page": 10
+    },
+    {
+      "claim": "GPT-4 was the best in-context model (MCC 0.78 standard, 0.80 with logit bias), well above GPT-3.5 Turbo (0.58) and Mistral 7B (0.56); GPT-4 outperformed humans at identifying true labels in the test set.",
+      "quote": "GPT-4 out-preforms humans in identifying true labels.",
+      "page": 10
+    },
+    {
+      "claim": "Labelling the 2135-document test set with GPT-4 cost $12.52; chain-of-thought prompting gave no perceivable accuracy benefit but tripled GPT-4 cost; compliance with the response template was 100% (GPT-4), 98.8% (GPT-3.5), 87% (Mistral 7B).",
+      "quote": "I found it offered no perceivable benefit in accuracy, but tripled the cost of GPT-4.",
+      "page": 13
+    },
+    {
+      "claim": "Logit biasing generally improved classification at no extra cost and reduced non-compliant responses.",
+      "quote": "Table 5 shows that logit biasing generally has a positive effect on classification.",
+      "page": 13
+    },
+    {
+      "claim": "In the COVID-19 replication, zero-shot NLI labels reproduced the supervised classifier's regression results in direction and size (hypothesis sets MCC 0.67 and 0.74 on 300 hand-labelled tweets vs 0.66 for the original classifier).",
+      "quote": "The three models show consistency in both the direction and size of the effect.",
+      "page": 15
+    },
+    {
+      "claim": "NLI classifiers disagreed slightly more with the supervised model when the tweet author was more conservative.",
+      "quote": "the NLI classifiers are slightly more likely to disagree with the supervised model when the author is more conservative.",
+      "page": 15
+    }
+  ],
+  "recommendations": [
+    {
+      "claim": "Use NLI classifiers as a default, low-commitment starting point when documents contain sufficient context.",
+      "quote": "NLI classifiers are a good default approach for their accuracy, scalability, and reproducibility",
+      "page": 5
+    },
+    {
+      "claim": "When documents lack the context needed (coded language, unnamed targets), use supervised or in-context classifiers instead.",
+      "quote": "When context outside of the document is necessary for classification, supervised and in-context classifiers are a better choice.",
+      "page": 15
+    },
+    {
+      "claim": "Define the proposition, how relevance is decided, and what counts as support or opposition before classifying.",
+      "quote": "Researchers must define what the proposal is, how to determine if a document is relevant to a proposal, and what constitutes support or opposition to that proposal.",
+      "page": 3
+    },
+    {
+      "claim": "Do not use non-reproducible (proprietary, unarchivable) models as the primary source of labels; use them for small datasets, expanding training data, or as a second validation point.",
+      "quote": "using non-reproducible models as the primary source of labels should be discouraged (Spirling, 2023).",
+      "page": 11
+    },
+    {
+      "claim": "Validate any classifier on a human-labelled test set sized for the desired confidence interval; run sensitivity analysis with synonymous hypotheses or prompts; use a second model with different architecture as an additional check.",
+      "quote": "Researchers should demonstrate that results are robust to synonymous prompts and not sensitive to arbitrary changes.",
+      "page": 13
+    },
+    {
+      "claim": "Test multiple prompts and validate on a small labelled set; set temperature to zero for deterministic output; use few-shot prompts with caution.",
+      "quote": "Thus, I recommend setting temperature to zero.",
+      "page": 13
+    },
+    {
+      "claim": "Give human coders the context needed (examples or a context prompt), and train expert coders where the needed context is large.",
+      "quote": "provide coders examples of correctly labeled text (Kawintiranon and Singh, 2021) or a prompt that provides necessary context",
+      "page": 9
+    },
+    {
+      "claim": "Use language models rather than bag-of-words classifiers for supervised stance detection.",
+      "quote": "Thus, I recommend using language models for stance detection.",
+      "page": 8
+    }
+  ],
+  "limitations": [
+    {
+      "point": "No empirical rule exists for how much context is sufficient or how many ambiguous documents warrant switching method; the researcher must judge qualitatively.",
+      "stated_by_authors": true,
+      "quote": "There is no empirical definition of sufficient context or how prominent ambiguous documents must be to warrant a different approach.",
+      "page": 6
+    },
+    {
+      "point": "Human labels themselves are inconsistent when labellers lack context, so a human gold standard can be noisy.",
+      "stated_by_authors": true,
+      "quote": "Unless the person or algorithm assigning labels has this information, accurate inference may be impossible.",
+      "page": 3
+    },
+    {
+      "point": "Proprietary in-context models cannot be archived for replication and are costly at scale.",
+      "stated_by_authors": true,
+      "quote": "Researchers cannot archive model versions for replication.",
+      "page": 11
+    },
+    {
+      "point": "NLI classifiers are unaware of context outside the text, so they treat documents about an unnamed target as irrelevant or neutral.",
+      "stated_by_authors": true,
+      "quote": "they make inferences from a straightforward interpretation of documents and are unaware of context outside the text.",
+      "page": 5
+    },
+    {
+      "point": "There are no NLI datasets or benchmarks built for political stance detection; models are trained on computer-science data.",
+      "stated_by_authors": true,
+      "quote": "There are no NLI datasets specifically for stance detection, or stance detection benchmarks.",
+      "page": 15
+    },
+    {
+      "point": "Stance detection as defined covers support or opposition toward a proposition, not intensity; scaling stance intensity is left to future work.",
+      "stated_by_authors": true,
+      "quote": "stance detection methods can be advanced by moving beyond classification and toward scaling the intensity of a stance.",
+      "page": 16
+    },
+    {
+      "point": "Evidence is from English-language, US political text (Twitter and congressional newsletters) on two topics; the guide does not test organisation-level or web-page classification, and generalisation to other domains is not shown. This is the reader's observation, not stated by the author.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "Model comparisons depend on 2022-2023 model versions; the author notes the field is moving (for example, 'This technology will hopefully become more reproducible as it matures'). Appendices (glossary, hypotheses) are supplementary and were not in the PDF read.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Replication materials (Harvard Dataverse)",
+      "what_it_is": "Replication data for the article, doi 10.7910/DVN/XS0ULP",
+      "page": 16
+    },
+    {
+      "name": "Coding tutorials",
+      "what_it_is": "github.com/MLBurnham/stance_detection_tutorials",
+      "page": 1
+    },
+    {
+      "name": "SemEval 2016 Task 6 stance dataset (Mohammad et al. 2016)",
+      "what_it_is": "Benchmark of tweets labelled supporting, opposing or neutral toward Donald Trump, used to illustrate missing-context labelling inconsistencies.",
+      "page": 3
+    },
+    {
+      "name": "DC Inbox (Cormack 2017)",
+      "what_it_is": "Archive of congressional constituent e-newsletters; source of sampled sentences.",
+      "page": 4
+    },
+    {
+      "name": "Block et al. (2022) COVID-19 Twitter data",
+      "what_it_is": "862,923 tweets with 2,000 hand-labelled training tweets and coding rules, used for the replication.",
+      "page": 14
+    },
+    {
+      "name": "Reference list",
+      "what_it_is": "About 70 references on stance detection, NLI, supervised text classification and LLM annotation (e.g. Laurer et al. 2024; Barbera et al. 2021; Gilardi et al. 2023; Tornberg 2023a; Spirling 2023).",
+      "page": 16
+    }
+  ],
+  "relevant_to": [
+    "method"
+  ],
+  "pages_read": "PDF pages 1-18 of 18 (printed pages 611-628); all read. Page numbers in this record are PDF page indices (PDF page 1 = printed 611). Text extracted with PyMuPDF because the Read tool's PDF rendering was unavailable; figures and Listing 1 (prompt example) are images and their content was not read. No instructions to a reader or AI were found in the text.",
+  "read_on": "2026-11-24",
+  "read_by": "2026-11-24 general-purpose agent (sonnet) following source-reader instructions; PDF text extracted (pdftoppm missing), page numbers are PDF page indices"
+}

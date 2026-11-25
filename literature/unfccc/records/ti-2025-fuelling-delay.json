@@ -1,0 +1,290 @@
+{
+  "id": "ti-2025-fuelling-delay",
+  "citation": {
+    "authors": [
+      "Gvantsa Gverdtsiteli"
+    ],
+    "year": 2025,
+    "title": "Fuelling Delay: How fossil fuel interests shape global climate negotiations",
+    "venue_or_publisher": "Transparency International (ISBN 978-3-96076-282-9)",
+    "doi_or_url": "https://files.transparencycdn.org/images/TI_FuellingDelay_FINAL.pdf",
+    "type": "NGO research report (interview-based, qualitative)",
+    "peer_reviewed": "no"
+  },
+  "question": "How fossil fuel interests have shaped, and continue to shape, UN climate negotiations (UNFCCC), through four channels: early influence on the UNFCCC, influence over Party positions, influence inside the negotiation rooms, and influence in non-negotiation spaces at COPs.",
+  "data": "39 semi-structured interviews in spring and summer 2025 (19 country negotiators: 10 Annex I, 9 non-Annex I; 14 civil society observers, 4 of whom formerly held Party badges; 6 academic researchers), plus direct observation at COP29 (Baku, Nov 2024) and the SB62 session (Bonn, June 2025), plus literature and UNFCCC documents. Participant-list figures (COP29 List of Participants, on-site Excel file dated 5 Dec 2024, endnote 29) are not computed here: they are taken from the authors' earlier working paper 'Behind the Badge' (June 2025; endnotes 37, 63, 66, 67, 73, 85). Information stated as correct as of September 2025.",
+  "method": "Qualitative thematic analysis of interviews; interviewees cited as Negotiator (N), Observer (O), Researcher (R) with a number. The report does not itself identify, classify or count delegates on the participant list. Its counts of badge holders and 'fossil fuel lobbyists' are quoted from Behind the Badge, whose method is not described in this report. The report gives no definition or identification rule for 'fossil fuel lobbyist'. It says detailed analysis of individual actors is in the working paper.",
+  "definitions": [
+    {
+      "term": "fossil fuel interests (scope of the analysis)",
+      "definition": "People, organisations and companies, whether private, state-owned or mixed-ownership, connected to the fossil fuel industry and seeking to protect or promote continued extraction, production and use of fossil fuels.",
+      "quote": "people, organisations, and companies (including private, state-owned, or mixed- ownership entities) that are connected to the fossil fuel industry",
+      "page": 8
+    },
+    {
+      "term": "undue influence",
+      "definition": "Distortion of public policymaking by powerful interest groups pursuing their agendas at the expense of the public good. Influence becomes undue when actors with resources and privileged access use covert, misleading or deceptive means. Not all influence or lobbying is undue.",
+      "quote": "Undue influence refers to the distortion of public policymaking by powerful interest groups advancing their agendas at the expense of the public good.",
+      "page": 9
+    },
+    {
+      "term": "undue influence (second statement)",
+      "definition": "Disproportionate and opaque pressure over policymaking by special interest groups, producing decisions that favour them against the public interest.",
+      "quote": "Undue influence describes situations in which special interest groups exert disproportionate and opaque pressure over policymaking processes",
+      "page": 7
+    },
+    {
+      "term": "conflict of interest",
+      "definition": "TI definition (endnote 12): competing obligations between official responsibilities and private interests that could compromise impartiality. The report says the UNFCCC has no such definition for Party delegates, accredited observers or COP Presidency teams.",
+      "quote": "Transparency International defines a conflict of interest as a situation in which an individual or entity faces competing obligations between their official responsibilities and private interests",
+      "page": 31
+    },
+    {
+      "term": "conflict of interest (UNFCCC gap)",
+      "definition": "Absence of a UNFCCC definition; example given is Party delegates undermining outcomes in defence of state-owned or multinational fossil fuel companies based in their countries.",
+      "quote": "the UNFCCC still lacks clear definition of conflicts of interest applicable to Party delegates, accredited observers, and COP Presidency teams.",
+      "page": 10
+    },
+    {
+      "term": "Party overflow delegate",
+      "definition": "Government-listed observer who cannot speak on behalf of the country. Only wealthy countries send large teams, sometimes with hundreds of overflow delegates; there is no cap on delegation size.",
+      "quote": "government listed observers who cannot speak",
+      "page": 9
+    },
+    {
+      "term": "Party badge (as used)",
+      "definition": "A badge held by a member of a national delegation (negotiators and advisers). Not formally defined; described through use. Four of the observers interviewed had previously held Party badges as advisers to negotiators.",
+      "quote": "were part of a national delegation as advisers to",
+      "page": 8
+    },
+    {
+      "term": "Party badge (used for non-state members)",
+      "definition": "Negotiators explain that delegations give Party badges to civil society, youth groups and the private sector, and acknowledge the awkwardness of non-state people representing the state.",
+      "quote": "giving Party badges to non-governmental groups, such as civil society, youth groups, and the private sector, is often justified as a way to promote transparency",
+      "page": 21
+    },
+    {
+      "term": "observer (admission)",
+      "definition": "Observer accreditation is open to any legally registered non-profit organisation working on climate-related issues, per the report's critique of weak admission criteria. Not defined further.",
+      "quote": "any legally registered non-profit organisation working vaguely on climate-related issues can be accredited as an observer.",
+      "page": 26
+    },
+    {
+      "term": "fossil fuel lobbyists",
+      "definition": "Used in quotation marks throughout, referring to the Behind the Badge working paper (endnotes 67, 85). No definition or identification rule is given in this report.",
+      "quote": "the majority of “fossil fuel lobbyists” attending COPs also hold observers, Party overflow, or other badges.",
+      "page": 26
+    },
+    {
+      "term": "policy capture",
+      "definition": "Systematic undue influence escalating into public institutions and decision-making being consistently steered to serve vested interests.",
+      "quote": "When undue influence becomes systematic, it can escalate into policy or institutional capture.",
+      "page": 9
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "state-owned company link of fossil fuel lobbyists with Party badges",
+      "indicator": "Affiliation of the badge holder (from the Behind the Badge classification) to a state-owned or partially state-owned company. The report does not state how affiliation or 'fossil fuel lobbyist' status was determined.",
+      "quote": "74 per cent of “fossil fuel lobbyists” who held Party badges were affiliated with state-owned or partially state-owned companies.",
+      "page": 21
+    },
+    {
+      "concept": "unpaid advisers in Party delegations",
+      "indicator": "Self-declaration on the COP29 List of Participants.",
+      "quote": "around 10 per cent of delegates holding Party badges declared themselves to be unpaid advisers to negotiating teams.",
+      "page": 21
+    },
+    {
+      "concept": "business or private sector member of a national delegation",
+      "indicator": "Employer shown on the UNFCCC List of Participants (example: a Nestlé employee registered as adviser to the Swiss delegation).",
+      "quote": "a Nestlé employee was registered as an adviser for the Swiss delegation at COP29",
+      "page": 21
+    },
+    {
+      "concept": "undisclosed affiliation",
+      "indicator": "Participants who chose not to disclose an affiliation at registration.",
+      "quote": "nearly 15 per cent of all participants (over 6,200 individuals) chose not to disclose their affiliations",
+      "page": 10
+    },
+    {
+      "concept": "state-owned enterprise (as emitter)",
+      "indicator": "InfluenceMap Carbon Majors ranking of highest-emitting entities in 2023 (endnote 62).",
+      "quote": "16 of the top 20 highest emitting entities in 2023 are state-owned enterprises.",
+      "page": 17
+    }
+  ],
+  "findings": [
+    {
+      "claim": "At COP29, a large share of participants did not disclose affiliation, and over 90 per cent of those held Party or Party overflow badges (figure from Behind the Badge).",
+      "quote": "more than 90 per cent of these held official national badges as Party or Party overflow delegates.",
+      "page": 10
+    },
+    {
+      "claim": "Around 10 per cent of Party badge holders at COP29 declared themselves unpaid advisers.",
+      "quote": "around 10 per cent of delegates holding Party badges declared themselves to be unpaid advisers to negotiating teams.",
+      "page": 21
+    },
+    {
+      "claim": "Of the 'fossil fuel lobbyists' with Party badges at COP29, 74 per cent were linked to state-owned or partly state-owned companies (cited from Behind the Badge; absolute number not given here).",
+      "quote": "74 per cent of “fossil fuel lobbyists” who held Party badges were affiliated with state-owned or partially state-owned companies.",
+      "page": 21
+    },
+    {
+      "claim": "Most 'fossil fuel lobbyists' at COPs hold observer, Party overflow or other badges rather than negotiator badges (cited).",
+      "quote": "the majority of “fossil fuel lobbyists” attending COPs also hold observers, Party overflow, or other badges.",
+      "page": 26
+    },
+    {
+      "claim": "Individuals with direct or indirect fossil fuel ties are sometimes included in official state delegations (cited from Behind the Badge).",
+      "quote": "individuals with direct or indirect ties to fossil fuel interests are sometimes included in official state delegations attending COPs.",
+      "page": 20
+    },
+    {
+      "claim": "Business and private sector representatives, including from energy industries, appear in delegations as Party or overflow delegates (interview reports from four negotiators). One negotiator described business delegations of up to about 20.",
+      "quote": "their country delegation includes a range of private sector representatives, either as Party or overflow delegates",
+      "page": 27
+    },
+    {
+      "claim": "Inclusion of non-oil-producing countries' business members is also reported (Swiss delegation example from the List of Participants).",
+      "quote": "Many national delegations involve business representatives in advisory roles.",
+      "page": 21
+    },
+    {
+      "claim": "Party delegates with business affiliations are bound to follow the Party line; some delegations require external members to sign non-disclosure agreements (interview evidence from negotiators).",
+      "quote": "some delegations even obliging external members to sign non-disclosure agreements (N6).",
+      "page": 21
+    },
+    {
+      "claim": "Negotiators and observers perceive industry-linked influence differently; negotiators tend to attribute obstruction to state interests, not lobbyists.",
+      "quote": "Observers frequently condemn fossil fuel lobbyists for shaping COP outcomes,71 but negotiators often perceive the same interventions as Party positions driven by domestic political interests",
+      "page": 22
+    },
+    {
+      "claim": "Business representation has diversified beyond fossil fuel companies (renewables, WBCSD, We Mean Business), though fossil fuel companies remain influential.",
+      "quote": "a broader range of industries are now interested in the negotiations, including renewable energy companies",
+      "page": 14
+    },
+    {
+      "claim": "Delegation size is unequal and uncapped; only wealthier countries send large teams.",
+      "quote": "Only wealthy countries can afford",
+      "page": 9
+    },
+    {
+      "claim": "Negotiators are only a fraction of COP participants (COP28).",
+      "quote": "only about one-quarter of participants were negotiators",
+      "page": 26
+    },
+    {
+      "claim": "The report argues (not a finding from counting) that registration categories obscure industry links, and recommends rules excluding fossil fuel representatives from delegations and limiting overflow badge use.",
+      "quote": "creating rules not to include their representatives in state delegations and by limiting these industries’ use of Party overflow badges.",
+      "page": 29
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Report is deliberately limited to fossil fuel interests; other polluting sectors (agribusiness, pesticides, forestry, other extractives) are excluded.",
+      "stated_by_authors": true,
+      "quote": "To reduce complexity, the analysis focuses solely on fossil fuel interests",
+      "page": 8
+    },
+    {
+      "point": "The report does not analyse individual actors or count delegates itself; for that it refers to the working paper Behind the Badge, so the identification and counting method for 'fossil fuel lobbyist' is not in this source.",
+      "stated_by_authors": true,
+      "quote": "it does not present a detailed analysis of individual actors representing fossil fuel interests.",
+      "page": 8
+    },
+    {
+      "point": "Undue influence is hard to observe; much of the evidence is perception from interviews, not documented outcomes.",
+      "stated_by_authors": true,
+      "quote": "Undue influence is notoriously difficult to research and identify, as it takes place in secrecy",
+      "page": 7
+    },
+    {
+      "point": "Affiliation data on the participant list are self-declared and unverified; no equivalent disclosure requirement for Party delegates.",
+      "stated_by_authors": true,
+      "quote": "there is still no systematic monitoring of their accuracy, and no equivalent requirements for Party delegates.",
+      "page": 10
+    },
+    {
+      "point": "Observer industry presence is hard to trace because it is low-profile; a researcher asked who the fossil fuel observers are.",
+      "stated_by_authors": true,
+      "quote": "“I believe there are fossil fuel folks at COP, but who are they?” (R5).",
+      "page": 22
+    },
+    {
+      "point": "No methods limitations section: interview sample selection, anonymity-driven opacity, coding approach and the 39-person sample size are not discussed. Figures cited from the working paper are given without denominators (for example the number of fossil fuel lobbyists with Party badges is not stated here).",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The report concerns COP28 and COP29 lists and COP30 context, not COP31; no EU-specific figures are reported. It does not give counts of business delegates by sector for any national delegation.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Text blocks of pages 11, 15, 19 and 25 were empty in the extraction (apparently illustration pages); pages 36 and 37 are back matter. No instructions addressed to a reader or AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC List of Participants: On-Site Participation (Excel file), COP29",
+      "what_it_is": "Official public participant list, dated 5 December 2024, used for the Swiss delegation example and for the sizes of Party delegations (endnote 29, 70).",
+      "page": 32
+    },
+    {
+      "name": "Gverdtsiteli, Behind the Badge: Understanding the Roles, Reach, and Risks of Fossil Fuel Industry Participation in UN Climate Talks (TI working paper, June 2025)",
+      "what_it_is": "The authors' own earlier paper; source of the counts and shares on non-disclosure, Party badge advisers and 'fossil fuel lobbyists' by badge and state ownership (endnotes 37, 63, 66, 67, 73, 85).",
+      "page": 32
+    },
+    {
+      "name": "Kick Big Polluters Out releases on fossil fuel lobbyists at COP28 and COP29",
+      "what_it_is": "Civil society counts of fossil fuel lobbyists at COPs (endnote 18).",
+      "page": 32
+    },
+    {
+      "name": "Goddard et al., COP Co-Opted? How Corruption and Undue Influence Threaten Multilateral Climate Action (TI, 2024)",
+      "what_it_is": "Earlier TI report on COP integrity; also cited for the COP Presidency and SOCAR links (endnotes 4, 77).",
+      "page": 31
+    },
+    {
+      "name": "Joint civil society submission on a UNFCCC Accountability Framework (Corporate Accountability, 17 Aug 2022)",
+      "what_it_is": "Submission endorsed by 126 observer organisations; basis for the Accountability Framework proposal on conflicts of interest (endnotes 5, 97).",
+      "page": 31
+    },
+    {
+      "name": "McSweeney and Viisainen, Carbon Brief analysis of delegates at COP29",
+      "what_it_is": "Source of participant totals and the negotiator share (endnotes 81, 83, 84).",
+      "page": 34
+    },
+    {
+      "name": "InfluenceMap Carbon Majors Database 2023 data update",
+      "what_it_is": "Source of the state-owned share among the highest-emitting entities (endnote 62).",
+      "page": 34
+    },
+    {
+      "name": "Xie et al. 2025, Tracing Inclusivity at UNFCCC Conferences through Side Events and Interest Group Dynamics (Nature Climate Change)",
+      "what_it_is": "Study of interest groups in side events, including industry-linked NGOs (endnotes 17, 87, 92).",
+      "page": 32
+    },
+    {
+      "name": "UNFCCC, Changes to the Registration System and Process",
+      "what_it_is": "Secretariat page on new voluntary disclosure measures for observers (September 2025) (endnote 38).",
+      "page": 33
+    }
+  ],
+  "relevant_to": [
+    "Q1",
+    "Q2",
+    "method",
+    "context"
+  ],
+  "pages_read": "1-37 (all). Pages 11, 15, 19 and 25 had no extracted text.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

@@ -1,0 +1,160 @@
+{
+  "id": "doi-10-1177-1369148118819695",
+  "citation": {
+    "authors": ["Michal Onderco"],
+    "year": 2019,
+    "title": "Variation in delegation size in multilateral diplomacy",
+    "venue_or_publisher": "The British Journal of Politics and International Relations 21(2): 421-438 (SAGE)",
+    "doi_or_url": "https://doi.org/10.1177/1369148118819695",
+    "type": "publisher's version (SAGE journal layout with running headers and article reuse notice)",
+    "peer_reviewed": "yes"
+  },
+  "question": "Why some countries send big delegations to multilateral negotiations and others very small ones; what causes the variation and what are its consequences, tested on the Review Conferences of the Treaty on the Non-Proliferation of Nuclear Weapons (NPT RevCons).",
+  "data": "Delegation counts per country for each NPT Review Conference (1975 to 2015, quinquennial), taken from the Final Documents of each conference; panel of 1,372 country-conference observations in Model 1 and 1,171 in Model 2. Independent variable: nuclear programme intensity (4 levels). Controls: GDP per capita, Polity IV democracy score. Re-estimation of Getmansky (2017) models on IAEA technical cooperation (1,032 observations in most models).",
+  "method": "Delegation size is the count of people listed per country in the conference Final Document; countries sending no delegation are coded zero. Delegation size is modelled as a count with a random effects Poisson estimator, country-clustered standard errors and year fixed effects (a zero-inflated negative binomial was used as a robustness check). Separate per-conference models give predicted delegation sizes. Consequences are tested by adding delegation size to Getmansky's IAEA models and by a t-test of delegation size between countries that did and did not take part in the nuclear ban treaty negotiations. Not a language model or classification study.",
+  "definitions": [
+    {
+      "term": "delegation size (how counted)",
+      "definition": "Number of attendees of a country listed in the Final Document of the conference, which lists all attendees who requested accreditation. No separate definition of the term is given; the count is whatever the list shows.",
+      "quote": "lists all the attendees who requested accreditation in association with the conference.",
+      "page": 5
+    },
+    {
+      "term": "delegation composition (who is in a delegation besides officials)",
+      "definition": "Countries decide the composition of their delegations. Some include independent experts, NGO representatives or members of parliament, and all of these are counted in delegation size. No breakdown by type is given.",
+      "quote": "Countries can also determine the composition of their delegations – some of them include independent experts, non-governmental organisation (NGO) representatives, or members of parliament.",
+      "page": 15
+    },
+    {
+      "term": "Nuclear Weapon States (NWS)",
+      "definition": "Coded as the United States, United Kingdom, France, Russia (USSR) and China (the study's own coding of the highest category of programme intensity).",
+      "quote": "the United States, the United Kingdom, France, Russia (USSR), and China have been coded as NWS.",
+      "page": 7
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "a country's presence or ability to influence in negotiations",
+      "indicator": "size of the country's delegation (count of listed attendees)",
+      "quote": "States’ ability to influence outcomes depends on how strong their presence is in a conference, to which size of the delegation is relevant.",
+      "page": 1
+    },
+    {
+      "concept": "a country's stake in the regime",
+      "indicator": "ordered four-level scale of nuclear programme intensity: none (0), peaceful energy programme (1), past military programme (2), treaty-recognised nuclear weapon state (3)",
+      "quote": "I look at four levels of the variable: having no programme (0), having peaceful energy programme (1), having a past military programme (2), and being a treaty-recognised NWS (3).",
+      "page": 7
+    },
+    {
+      "concept": "size of a country's diplomatic corps (capacity to send delegates)",
+      "indicator": "GDP per capita, used because cross-national data on the size of national diplomatic services are not available",
+      "quote": "In the absence of available cross-national data on size of national diplomatic service, capturing national gross domestic product (GDP) offers a possible solution.",
+      "page": 7
+    },
+    {
+      "concept": "delegation size and success (analogy to lobbying)",
+      "indicator": "the author treats national delegations as similar to lobbies, which succeed more often when they are bigger",
+      "quote": "lobbies (similar to national delegations in this article) are more likely to be successful if they are bigger",
+      "page": 3
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Delegation size varies enormously: median two to four members depending on the year, some delegations above 20.",
+      "quote": "While the median size of delegation is between two and four members (depending on the year), some countries send delegations with more than 20 members.",
+      "page": 5
+    },
+    {
+      "claim": "Largest delegation recorded was the US delegation in 1995 (58 members).",
+      "quote": "The absolute record is the US delegation to the 1995 NPT RevCon, which included 58 members.",
+      "page": 5
+    },
+    {
+      "claim": "Countries with more intensive nuclear programmes send larger delegations; treaty-recognised nuclear weapon states send the largest.",
+      "quote": "which send 426% larger delegations to the RevCons compared to the countries with no nuclear programme",
+      "page": 8
+    },
+    {
+      "claim": "Richer countries tend to be better represented.",
+      "quote": "Richer countries tend to be better represented in the NPT negotiations.",
+      "page": 10
+    },
+    {
+      "claim": "Larger delegations at the NPT RevCons did not bring more IAEA technical cooperation funding.",
+      "quote": "These results suggest that countries with larger delegations do not tend to get more from international organisations.",
+      "page": 11
+    },
+    {
+      "claim": "Authors cite earlier climate-conference work linking higher presence at UNFCCC conferences to more funding from the Global Environment Facility (not tested by this article).",
+      "quote": "countries with higher presence in the United Nations (UN) Framework Convention on Climate Change conferences are better able to draw funds from the Global Environment Facility",
+      "page": 11
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Predicted delegation sizes from the model understate actual sizes because of factors not controlled for.",
+      "stated_by_authors": true,
+      "quote": "It is important to note that due to various stochastic factors, not controlled for here",
+      "page": 15
+    },
+    {
+      "point": "Single regime studied; results may be particular to the NPT review process.",
+      "stated_by_authors": true,
+      "quote": "comparison with other regimes or settings might show particularities of the politics of the NPT Review Process.",
+      "page": 15
+    },
+    {
+      "point": "Delegation members who are not officials (experts, NGO representatives, parliamentarians) are counted but not separated or analysed, so the source gives no figures on the non-official share of delegations. Business representatives are not mentioned.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "Subject is nuclear non-proliferation, not climate; no fossil fuel or business content. No instructions addressed to a reader or AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Final Documents of the NPT Review Conferences",
+      "what_it_is": "Conference documents that list all attendees who requested accreditation; the source of delegation counts.",
+      "page": 5
+    },
+    {
+      "name": "Neeff (2013), 'How many will attend Paris? UNFCCC COP participation patterns 1995-2015', Environmental Science and Policy 31",
+      "what_it_is": "Cited work on delegation size at UNFCCC COPs (not read here; a lead for the study).",
+      "page": 17
+    },
+    {
+      "name": "Kaya and Schofield (2015), conference paper on the determinants and importance of states' attendance at UNFCCC conferences",
+      "what_it_is": "Cited work on attendance at UNFCCC conferences (not read here; a lead).",
+      "page": 16
+    },
+    {
+      "name": "Schroeder, Boykoff and Spiers (2012), 'Equity and state representations in climate negotiations', Nature Climate Change",
+      "what_it_is": "Cited work on delegation size and equity in climate negotiations (a lead).",
+      "page": 17
+    },
+    {
+      "name": "Bailer and Weiler (2015); Weiler (2012)",
+      "what_it_is": "Cited work on bargaining success in climate negotiations and delegation size (a lead).",
+      "page": 2
+    },
+    {
+      "name": "Getmansky (2017) data on IAEA technical cooperation",
+      "what_it_is": "Dataset re-analysed with a delegation-size control.",
+      "page": 11
+    },
+    {
+      "name": "Gleditsch (2014) expanded GDP data; World Bank GDP growth; Polity IV (Marshall et al., 2016); Brown and Kaplow (2014); Jo and Gartzke (2007)",
+      "what_it_is": "Sources for control variables and nuclear programme coding.",
+      "page": 7
+    }
+  ],
+  "relevant_to": ["Q1", "method"],
+  "pages_read": "1-18 (all)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

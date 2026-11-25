@@ -1,0 +1,124 @@
+{
+  "id": "influencemap-european-industry-and-the-european-union-s-climate-policy",
+  "citation": {
+    "authors": ["InfluenceMap"],
+    "year": 2025,
+    "title": "European Industry and the EU's Climate Policy 2024-29",
+    "venue_or_publisher": "InfluenceMap (LobbyMap platform briefing), web page; Executive Summary dated May 2025",
+    "doi_or_url": "https://influencemap.org/briefing/European-Industry-and-the-European-Union-s-Climate-Policy-in-2024-29-32272",
+    "type": "NGO/think tank briefing (web page)",
+    "peer_reviewed": "no"
+  },
+  "question": "How corporate and industry-association climate policy engagement in the EU shifted between 2019 and 2025, and how industry advocacy (competitiveness narratives) is shaping the EU climate agenda for 2024-2029.",
+  "data": "LobbyMap platform: nearly 200 non-financial companies domiciled in 'EU plus' and 80 industry associations (platform covers over 1000 companies and 330 associations); a review of over 20 industry-association pre-election policy papers (July 2023 to May 2024); scores for 25 key associations, 2019 and 2025. Does not use participant lists or COP delegations.",
+  "method": "Evidence of policy engagement is tracked in near real time from public sources and scored against government policy benchmarks and IPCC-based science benchmarks for 1.5C; entities get performance bands (A to E) and a share 'science-aligned' or 'misaligned'. Narratives in association policy papers are coded into three common arguments and compared with IPCC guidance. Detailed scoring rules are on external LobbyMap methodology pages, not in this page.",
+  "definitions": [
+    {
+      "term": "science-aligned climate policy engagement",
+      "definition": "An entity's positions on and efforts to influence climate policy align with the scientific consensus needed for the Paris temperature goals.",
+      "quote": "Science-Aligned Climate Policy Engagement is where an entity's positions on and efforts to influence climate-related government policy align with the global scientific consensus",
+      "page": "Executive Summary (footnote 2)"
+    },
+    {
+      "term": "policy engagement (lobbying scope)",
+      "definition": "Based on the 2013 UN Guide for Responsible Corporate Engagement in Climate Policy; covers engagement with measures issued by mandated bodies to cut GHG emissions; excludes financial-system rules such as CSRD.",
+      "quote": "The LobbyMap methodology uses a definition of policy engagement based on the 2013 UN Guide for Responsible Corporate Engagement in Climate Policy.",
+      "page": "Introduction"
+    },
+    {
+      "term": "companies covered (business)",
+      "definition": "Non-financial entities with legal domicile in EU plus; excludes US companies with large European operations and 'reverse headquarters' companies.",
+      "quote": "The companies covered are non-financial entities with legal domicile in \"EU plus\" (EU Members and the UK, Norway, Iceland, Switzerland, and Liechtenstein).",
+      "page": "Introduction"
+    },
+    {
+      "term": "lowest common denominator effect (trade association)",
+      "definition": "Industry associations adopt the positions of a small, most vocal share of members, often from the fossil fuel value chain.",
+      "quote": "industry associations are drawn towards the positions of a small proportion of their members (often from the fossil fuel value chain)",
+      "page": "Executive Summary (European Union Platform)"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "company/association stance on climate policy",
+      "indicator": "LobbyMap score against government and IPCC-based benchmarks, from publicly available data sources; banded A to E",
+      "quote": "Evidence of corporate and industry association policy engagement is tracked in near real time across a range of publicly available data sources and scored against authoritative and external benchmarks",
+      "page": "Introduction"
+    },
+    {
+      "concept": "association sector (trade association classification)",
+      "indicator": "Each of 25 key associations is labelled with a sector (e.g. Energy, Chemicals, Cross-sector, Metals & Mining, Utilities); how sectors were assigned is not explained",
+      "quote": "Eurogas",
+      "page": "How Europe's Key Industry Associations Compare on Climate Policy Engagement (table)"
+    },
+    {
+      "concept": "association resistance to climate policy",
+      "indicator": "Content of pre-election policy papers coded for three tactics: competitiveness framing, carrots over regulation, vague terminology",
+      "quote": "Analysis of over 20 pre-election policy papers from industry associations previously found to be resistant to EU climate policy ambition identified three common arguments or tactics",
+      "page": "Industry's Efforts to Shape the Climate Policy Narrative in Europe"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Share of European companies with science-aligned or partially aligned engagement rose from 24% to 52%; misaligned fell from 34% to 13%.",
+      "quote": "52% of European companies tracked by the platform now demonstrate science-aligned or partially science-aligned climate policy engagement",
+      "page": "Executive Summary"
+    },
+    {
+      "claim": "Cross-sector business federations (BusinessEurope, MEDEF, CEOE, Confindustria, BDI) are among the most negative voices, despite members that are more supportive.",
+      "quote": "are some of the most negative voices on climate policy in the region",
+      "page": "Corporate Climate Policy Engagement in the EU from 2019-2025"
+    },
+    {
+      "claim": "Aligned industry associations rose from 2% to 12% (2019 to 2025), slower than companies.",
+      "quote": "aligned entities increasing from 2% to 12% between 2019 and 2025",
+      "page": "Corporate Climate Policy Engagement in the EU from 2019-2025"
+    },
+    {
+      "claim": "Energy-sector associations Eurogas and FuelsEurope are scored D+ and D in 2025 in the key-association table (fossil-linked associations are not labelled as such by the source).",
+      "quote": "FuelsEurope",
+      "page": "How Europe's Key Industry Associations Compare on Climate Policy Engagement (table)"
+    },
+    {
+      "claim": "Industry narratives are judged to have influenced the Commission's Competitiveness Compass and Clean Industrial Deal.",
+      "quote": "the industry narratives identified in this briefing are playing a significant role in shaping the climate policy agenda for the next EU legislative cycle",
+      "page": "The Impact on the EU's Climate Policy Agenda So Far"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Sample limited to non-financial companies domiciled in EU plus; excludes US companies with big European operations and reverse-headquarters firms; financial-sector and CSRD-type engagement excluded.",
+      "stated_by_authors": true,
+      "quote": "It does not include US companies with significant European operations nor does it include \"reverse headquarters\" companies",
+      "page": "Introduction"
+    },
+    {
+      "point": "No definition of 'fossil fuel' company or fossil-linked association; fossil link is mentioned only in passing. Nothing on delegations, badges, COP participant lists, conflicts of interest or undue influence.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Scoring methodology and sector assignment are on external LobbyMap pages (not in this text); no validation or error rate is reported here.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Author is an advocacy-oriented think tank; the page is a briefing, not peer reviewed. Several charts/figures and the tactic lists appear not to have been extracted (e.g. 'identified three common arguments or tactics:' is followed by no list in the text).",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {"name": "LobbyMap platform", "what_it_is": "InfluenceMap database scoring over 1000 companies and 330 industry associations on climate policy engagement", "page": "Introduction"},
+    {"name": "LobbyMap methodology portal", "what_it_is": "External page with scoring methodology (lobbymap.org/Methodology-Portal), linked not reproduced", "page": "Introduction"},
+    {"name": "UN Guide for Responsible Corporate Engagement in Climate Policy (2013)", "what_it_is": "Basis for the definition of policy engagement", "page": "Introduction"},
+    {"name": "Table of 25 key European industry associations with sector and 2019/2025 bands", "what_it_is": "Association, sector label, InfluenceMap performance band", "page": "How Europe's Key Industry Associations Compare on Climate Policy Engagement (table)"}
+  ],
+  "relevant_to": ["method", "context"],
+  "pages_read": "Whole web page text (all sections and paragraphs 1-169); the trailing links list was only skimmed past the first ~25 entries (link metadata, not content).",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

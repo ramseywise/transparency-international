@@ -1,0 +1,484 @@
+{
+ "id": "climateaccountability-mrr-9-1-apr14r",
+ "title": "MRR 9.1 Apr14",
+ "kind": "pdf",
+ "url": "https://climateaccountability.org/wp-content/uploads/2020/12/MRR-9.1-Apr14R.pdf",
+ "coverage": {
+  "mode": "selected",
+  "passages_given": 41,
+  "passages_total": 560,
+  "words_given": 3983,
+  "words_total": 47848,
+  "pages_given": [
+   1,
+   2,
+   3,
+   5,
+   7,
+   8,
+   9,
+   10,
+   16,
+   34,
+   35,
+   39,
+   45,
+   49,
+   50,
+   51,
+   53,
+   55,
+   56,
+   61,
+   62,
+   64,
+   70,
+   72,
+   76,
+   77,
+   84,
+   88,
+   92,
+   94,
+   96,
+   97
+  ],
+  "pages_total": 104,
+  "note": "selected by code: 41 of 560 passages, 3983 of 47848 words, from pages 1-3, 5, 7-10, 16, 34-35, 39, 45, 49-51, 53, 55-56, 61-62, 64, 70, 72, 76-77, 84, 88, 92, 94, 96-97 of 104; chosen for definitions, indicators, method, findings and limitations; the rest was not read"
+ },
+ "passages": [
+  {
+   "chunk": 0,
+   "loc": "p.1",
+   "section": null,
+   "why": [
+    "findings",
+    "method",
+    "opening"
+   ],
+   "text": "Carbon Majors: Accounting for carbon and methane emissions 1854-­2010 Methods & Results Report By Richard Heede Climate Mitigation Services 7 April 2014"
+  },
+  {
+   "chunk": 1,
+   "loc": "p.2",
+   "section": null,
+   "why": [
+    "opening"
+   ],
+   "text": "Climate Mitigation Services Principal Investigator: Richard Heede heede@climatemitigation.com 1626 Gateway Road Snowmass, CO 81654 USA 970-­‐927-­‐9511 office 970-­‐343-­‐0707 mobile Copyright © 2014 CMS Dedicated to my friend and mentor Peter Roderick Report commissioned by: Climate Justice Programme Sydney www.climatejustice.org Project coordinator: Keely Boom, Executive Director CJP, keely@climatejustice.org.au & Greenpeace International Amsterdam www.greenpeace.org Project coordinator: Martina Krueger, martina.krueger@greenpeace.org The author is grateful for the careful technical reviews provided by Kornelis Blok, Paul Noothout,"
+  },
+  {
+   "chunk": 2,
+   "loc": "p.2",
+   "section": null,
+   "why": [
+    "definitions",
+    "opening"
+   ],
+   "text": "Heleen Groenenberg (Ecofys), David Santillo (GPI), Kristin Casper (GPI), and Nina Schulz (GPI). Any remaining errors and shortcomings are the author’s. Note on units: International SI units are used throughout, except where reporting is in bbl of oil, cubic feet of natural gas, or (short) tons of coal. Emissions of methane are expressed in CH4 or in CO2-­‐equivalent terms (CO2e; SAR: 100-­‐y, 21xCO2)."
+  },
+  {
+   "chunk": 6,
+   "loc": "p.3",
+   "section": null,
+   "why": [
+    "lists_and_datasets",
+    "method",
+    "proxies"
+   ],
+   "text": "10. Annex A: References 37 11. Annex B: Methodology 53 53 a. Table of contents 56 b. Methodology i. The procedure and methodology: an overview 56 ii. The accounting protocol and rules 59 iii. Uncertainties 63 iv. Methodological details 73 12. Annex C: List of entity worksheets 99 13. Annex D: List of summary & supporting worksheets 101 14. Annex E: Other materials 103"
+  },
+  {
+   "chunk": 15,
+   "loc": "p.5",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "proxies"
+   ],
+   "text": "1. Introduction This project was undertaken to trace the origin of anthropogenic carbon dioxide (CO2) and methane to the world’s largest extant producers of carbon fuels and cement. The primary driver of climate change is not current emissions, but cumulative (historic) emissions. This project quantifies and traces for the first time the lion’s share of cumulative global CO2 and methane emissions since the industrial revolution began to the largest multinational and state-­‐owned producers of crude oil, natural gas, coal, and cement. These fuels, used as intended by billions of consumers, has lead to the most rapid increase in atmospheric CO2 of the last 3 million years and the highest concentration of CO2 of the last 800,000 years.1"
+  },
+  {
+   "chunk": 24,
+   "loc": "p.7",
+   "section": null,
+   "why": [
+    "proxies"
+   ],
+   "text": "Great economic expansion and the general rise in comfort, shelter, food, and clothing have flowed from human ingenuity, in large measure driven by ubiquitous use of convenient, storable, transportable, and powerful carbon fuels. Some of the greatest technological Richard Heede Climate Mitigation Services Snowmass, Colorado, 81654, 970-927-9511 7 heede@climatemitigation.com"
+  },
+  {
+   "chunk": 25,
+   "loc": "p.8",
+   "section": null,
+   "why": [
+    "findings"
+   ],
+   "text": "achievements continue to be found in the extraordinary ways in which carbon fuels are brought to the surface from increasingly remote and hostile environments. The world’s most massive ground and marine vehicles and facilities are built to find, extract, process, and transport our fuels and derivative petrochemical products to billions of consumers. The extraction, delivery, and final combustion of carbon fuels in one billion vehicles, millions of buildings, and tens of thousands of aircraft and ships has relieved the world of much human drudgery, helped feed the hungry, and made the average citizen richer and far more comfortable than in centuries past."
+  },
+  {
+   "chunk": 32,
+   "loc": "p.9",
+   "section": null,
+   "why": [
+    "findings",
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "No starting year was set for fossil fuel production; this is determined by the availability of production data for each entity. The earliest data are for 1854 (Westmoreland Coal). The largest multinational oil companies were established prior to World War I, and most state-­‐ owned oil companies were formed in the 1970s.6 Production data are often unavailable for the early years of an entity’s existence, but most production data are relatively complete from the 1930s forward. According to the global emissions database maintained by the Carbon Dioxide Information Analysis Center (CDIAC), of cumulative emissions over the 1751-­‐2010 period, only 0.4 percent had been emitted by 1854, 3.4 percent by 1900, and 10.4 percent by 1930.7 (See Figure 8 for global emissions 1810-­‐2010.)"
+  },
+  {
+   "chunk": 33,
+   "loc": "p.9",
+   "section": null,
+   "why": [
+    "findings",
+    "proxies"
+   ],
+   "text": "A threshold for inclusion in this study was set at the production of ≥8 million tonnes of carbon (MtC) in a recent year. While some entities are below this threshold — coal mining operations by large oil companies, for example, or companies whose production met the threshold in 2005 (when this project started) but has since declined, or a smaller company acquired by a larger one — the rule still applies in order to have a manageable number of total entities. The total number of entities also varies through mergers and acquisitions."
+  },
+  {
+   "chunk": 38,
+   "loc": "p.10",
+   "section": null,
+   "why": [
+    "limitations",
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "worksheets, and carefully annotated with data sources, units, information on net or gross production, and caveats, limitations, data gaps, and ambiguities. The available fossil fuel production datasets are sought from the earliest dates available; for some entities this extends to the establishment of the company (in the 1890s or 1900s for the oil majors). The production records are not always complete from the early years of an entity’s existence — either from missing data early in the entity’s history or gaps in production data (the latter are interpolated, the former are not estimated).14"
+  },
+  {
+   "chunk": 67,
+   "loc": "p.16",
+   "section": null,
+   "why": [
+    "findings"
+   ],
+   "text": "Assessment Report).26 The basic unit is kgCO2e per tonne of CO2 (kgCO2e/tCO2) released from combustion of petroleum, natural gas, and coal, and the total column shows additional emissions per tCO2 for each fuel type, and easily converted to percent. Additional emissions from venting and flaring and methane are 6.02 percent for petroleum, 23.8 percent for natural gas, and 8.47 percent for coal. These factors include deductions for non-­‐energy uses of each carbon fuel, but exclude the factor for entities’ use of own fuel."
+  },
+  {
+   "chunk": 138,
+   "loc": "p.34",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "A few general observations can be made, however. In 2010 this author estimated potential emissions of total world proven fossil fuel reserves based on 2009 data for published by BP, Oil & Gas Journal, and the U.S. Energy Information Administration.38 In my analysis I accounted for non-­‐energy uses of each fuel (based on Carbon Major methodologies), and estimated that world proven reserves equated to 2,585 GtCO2 of potential emissions. (Note: the fraction of petroleum used for non-­‐energy uses may rise over the next several decades, reducing actual emissions.) World reserve estimates, especially unconventional petroleum (oil sands, tight shales) and natural gas, are increasing. A recent re-­‐estimation of proven reserves suggests a ten percent increase over the last three years to 2,824 GtCO2, based on 2012 data.39 Some observers (e.g., Heinberg, Simmons) urge a cautious interpretation of published reserve estimates from the perspective of technological constraints, reserve-­‐ inflation, opaque reporting, and limited market access.40 Ultimately recoverable carbon resources range from 4,000 GtC (14,670 GtCO2) to nearly 16,000 GtC (58,570 GtCO2).41"
+  },
+  {
+   "chunk": 142,
+   "loc": "p.35",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "method",
+    "proxies"
+   ],
+   "text": "Figure 18 compares the potential emissions embodied in proven recoverable reserves to the cumulative emissions from global fossil fuel combustion from the beginning of the industrial revolution through 2010: proven reserves (accounting for non-­‐energy carbon storage) are 2.1 times larger than all historic emissions to date. A recent report by the CarbonTracker Initiative estimated the carbon content and potential emissions of the proven reserves of the largest 100 oil and natural gas and largest 100 coal companies listed on world stock exchanges.42 While there is a significant overlap between the Carbon Tracker entities and those included in the Carbon Major analysis, not all holders of significant reserves are also large annual producers, and some entities do not meet this project’s threshold of ≥8 MtC/yr. Carbon Tracker also estimated potential emissions from total world reserves — i.e., adding proven reserves held by state-­‐owned companies and by nation-­‐states totaling 2,795 GtCO2 (including the top 200 investor-­‐owned companies). The Carbon Tracker analysis did not account for non-­‐energy uses."
+  },
+  {
+   "chunk": 143,
+   "loc": "p.35",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "method",
+    "proxies"
+   ],
+   "text": "9. A note on future research. The Carbon Major analysis has been a thorough, eight-­‐year investigation of the carbon dioxide and methane emissions traceable to an identified set of 90 of the world’s largest producers of crude oil and NGLs, natural gas, coal, and cement. The methodology and the results have been peer-­‐reviewed by several experts with knowledge of GHG inventories, fossil fuel production, non-­‐energy uses, fugitive emissions, and international and national inventory protocols. Nonetheless, the statements in this report, as well as the methodology, the implementation of the methodology, the error detection protocols, and the final results are all by the author, and any oversights and errors are solely the author’s. The analysis has been thoroughly vetted, and numerous sources of uncertainty, data incompleteness and data quality have been noted throughout. My high degree of confidence in the methodology and the results notwithstanding, there are several ways in which the methodology and results can be improved. Certainly, the fossil fuel and cement companies themselves — whose self-­‐reported data is preferably used — can help correct any errors or oversights in reporting, interpretation, or completeness. My colleagues and I look forward to working with industry to improve the analysis and results in future editions of the work."
+  },
+  {
+   "chunk": 173,
+   "loc": "p.39",
+   "section": null,
+   "why": [
+    "definitions"
+   ],
+   "text": "Non-­Fuel Uses of Fossil Fuels in an Upstream Carbon Trading System, Washington, DC, 11 pp. Center for Energy Economics (2007) Commercial Frameworks for National Oil Companies: Working Paper, revised draft, Univ. Texas, Austin, 34 pp., beg.utexas.edu/energyecon/nocs /CEE%20National_Oil_Company_Mar%2007.pdf Chandra, Vivek (2006) Fundamentals of Natural Gas: An International Perspective, Pennwell, Tulsa, 250 pp. Chen P. (1998) “Study on Classification System for Chinese Coal,” J. of Coal Science & Engineering, vol. 4(2):78–84. Chikkatur, Ananth P. (2008) A Resource and"
+  },
+  {
+   "chunk": 242,
+   "loc": "p.45",
+   "section": null,
+   "why": [
+    "definitions"
+   ],
+   "text": "Methane Emissions from Gassy Coals in Storage Silos, U.S. Bur. of Mines Rpt of Invest. #8269. Matthews, W. H., W. W. Kellogg, & G. D. Robinson (1971) Inadvertent Climate Modification: Study of Man's Impact on Climate, SMIC, MIT, 594 pp. Maugeri, Leonardo (2012) Oil: The Next Revolution; the unprecedented upsurge of oil production capacity and what it means for the world, Belfer Center for Science and International Affairs, Harvard Kennedy School, June 2012, 70 pp."
+  },
+  {
+   "chunk": 274,
+   "loc": "p.49",
+   "section": null,
+   "why": [
+    "proxies"
+   ],
+   "text": "The GHG Indicator: UNEP Guidelines for Calculating Greenhouse Gas Emissions for Businesses & Non-­Commercial Organisations, United Nations Environment Programme, UNEP Economics and Trade Unit, Geneva. Thompson, Eric V. (undated) A Brief History of Major Oil Companies in the Gulf Region, Petroleum Archives Project, Arabian Peninsula & Gulf Studies Program, University of Virginia, virginia.edu/igpr/APAG/apagoilhistory.html Thurber, Mark C., & Benedicte Tangen Istad (2012)"
+  },
+  {
+   "chunk": 276,
+   "loc": "p.49",
+   "section": null,
+   "why": [
+    "definitions",
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "Database of Carbon Dioxide Emissions from Power Plants Worldwide, Center for Global Dev., 26 pp., www.cgdev.org. United Nations (2012) Energy Statistics Yearbook 2009, UN Statistics Division, New York, Jun12; unstats.un.org/unsd/energy/yearbook/default.htm. United Nations (2011) International Recommenda-­ tions for Energy Statistics (IRES), Draft version, UN Statistics Division, 194 pp. unstats.un.org/unsd/statcom/doc11/BG-­‐IRES.pdf United Nations Development Programme / World Bank (2001) Africa Gas Initiative: Main Report, vol. 1, 55 pp. United Nations (1987) Energy Statistics: Definitions,"
+  },
+  {
+   "chunk": 290,
+   "loc": "p.50",
+   "section": null,
+   "why": [
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "Industries of Jordan, Lebanon, and Syria,” Thomas R. Yager, USGS Minerals Yearbook, minerals.usgs.gov/minerals/pubs/country/2003/jolesymy b03.pdf U.S. Geological Survey (1997) Maps Showing Geol-­ ogy, Oil and Gas Fields, and Geologic Provinces of the South America Region, Compiled by Christopher J. Schenk, Roland J. Viger, & Christopher P. Anderson, USGS Open File Rpt 97-­‐470D, Denver, pubs.usgs.gov/of/ 1997/ofr-­‐97-­‐ 470/OF97-­‐470D/index.html#TOP U.S. Geological Survey (1997) Maps Showing Geol-­"
+  },
+  {
+   "chunk": 292,
+   "loc": "p.51",
+   "section": null,
+   "why": [
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "of the Asia Pacific Region; compiled by Douglas Steinshouer, Jin Qiang, Peter McCabe, & Robert Ryder, Open File Rpt 97-­‐470F, U.S. Dept of In-­‐ terior, Reston. pubs.usgs.gov/of/1997/ ofr-­‐97-­‐ 470/OF97-­‐470F/aspac.PDF U.S. Geological Survey (2004) China's Growing Appetite for Minerals, by David Menzie, Pui-­‐ Kwan Tse, Mike Fenton, John Jorgenson, and Hendrik van Oss Open-­‐File Report 2004-­‐1374. U.S. Government Accountability Office (2010)"
+  },
+  {
+   "chunk": 312,
+   "loc": "p.53",
+   "section": null,
+   "why": [
+    "findings",
+    "lists_and_datasets",
+    "proxies"
+   ],
+   "text": "LIST OF FIGURES Figure B-­‐1. Chevron and Texaco mergers and acquisitions, detail 1926-­‐2001 59 Figure B-­‐2. Chevron and its predecessors' production of oil & NGLs 1912-­‐2010 60 Figure B-­‐3. Standard Oil Trust descendants' tree 61 Figure B-­‐4. National Oil Company oil production as share of total country production 65 Figure B-­‐5. Petroleum products non-­‐energy uses & net carbon storage worksheet 75"
+  },
+  {
+   "chunk": 320,
+   "loc": "p.55",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "1. The procedure and methodology: an overview The procedure starts with company or entity net fossil fuel production data published in publicly available sources (typically annual reports), estimation of the carbon content of each fuel type, subtraction for non-­‐energy uses of produced fuels (which determine carbon storage rates but also accounts for emissions from non-­‐energy uses, such as short-­‐term oxidation of lubricants, petrochemicals, and petroleum products), and emission factors for each fuel, for each entity, and for every year for which production data has been found."
+  },
+  {
+   "chunk": 321,
+   "loc": "p.55",
+   "section": null,
+   "why": [
+    "limitations",
+    "method",
+    "proxies"
+   ],
+   "text": "In sequence, the steps are as follows: Identify the fossil fuel and cement production entities meeting the ≥8 MtC/year threshold;43 • Create worksheet templates for coal, oil, natural gas, and cement entities; • Gather company annual reports, company histories, SEC filings, ministry bulletins or • operation reviews, entity website datasets on production (e.g., National Iranian Oil Company), and data from U.S. Energy Information Administration, International Energy Agency, the United Nations Statistics Division, and similar sources. Phone calls or emails directly to producers were occasionally made in search for missing data (e.g., Sasol);"
+  },
+  {
+   "chunk": 325,
+   "loc": "p.56",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "method",
+    "proxies"
+   ],
+   "text": "Enter production data in a dedicated worksheet for each entity, noting data sources, units, • incomplete reporting, and uncertainties; While historically complete production records were sought for investor-­‐owned fossil fuel • producers, the research is not complete in every instance, corporate reporting to share-­‐ holders is often incomplete or non-­‐existent prior to the U.S. Securities Acts of 1933 and 1934 (establishing the SEC and requiring quarterly and annual reporting of financial and operational information, as well as a “management discussion and analysis”);"
+  },
+  {
+   "chunk": 355,
+   "loc": "p.61",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "method"
+   ],
+   "text": "9. Gaps in production data reporting are interpolated. For BHP Billiton, for example, annual reports covering 1996-­‐1999 were not found, and the gap is interpolated. Numerous such data gaps exist, and are all noted on entity production worksheets as well as on the summary production worksheets (SumOil, SumGas, SumCoal); 10. Emissions of carbon dioxide from cement production are process-­‐emissions from the calcining of limestone and thus excludes CO2 from energy inputs. Most cement producers report production capacity rather than annual cement production. This project is thus limited to estimating process emissions for the six largest global cement producers based on data reported to WBCSD’s Cement Sustainability Initiative. The estimation protocol is discussed in Section 4: Methodological Details."
+  },
+  {
+   "chunk": 360,
+   "loc": "p.62",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "method"
+   ],
+   "text": "reports; such revisions are typically minor, and we make a concerted effort to reflect the revised data in entity production worksheets; o This project has tracked most significant mergers & acquisitions (prior production and emissions are attributed the to the acquiring entity); the uncertainty arises from missing the acquisition of minor companies or production assets, and not, therefore, adding all of the historic carbon production from acquired assets. This tends to under-­‐estimate total attributed emissions, and is likely below 5 percent; o Occasionally the reporting units are ambiguous (short tons, long tons, Imperial tons, or metric tonnes). Final reporting is consistently in metric tonnes;59 o While an omission rather than an uncertainty, it is not always possible to track production back to an entity’s incorporation (e.g., missing Phillips Petroleum natural gas production prior to 1937, then 265 Bcf; Phillips was established 1917). These missing data thus underestimate actual attributable production, but insofar as production in early years is small compared to later production, the effect is relatively small; in the case of Phillips gas production, the company’s oil production from 1927 to 1936 is only 1.19 percent of total production 1927 to 2010 and the picture is probably similar for the missing data on natural gas production; o Some companies report only gross production and not net production. Many multi-­‐"
+  },
+  {
+   "chunk": 370,
+   "loc": "p.64",
+   "section": null,
+   "why": [
+    "findings",
+    "method",
+    "proxies"
+   ],
+   "text": "Figure B-­4. National Oil Company oil production as share of total country production. Company BOE Production as % of Country BOE Production. Source: World Bank, 2008, Figure 5. • Use of own fuels: are added to coal companies from own fuel use; o We analyzed Scope 1 emission sources reported by eleven oil and gas company GHG inventories submitted to the Carbon Disclosure Project (CDP). These include BP, Chevron, ConocoPhillips, ENI, ExxonMobil, Hess, Pemex, Petrobras, Royal Dutch Shell, Statoil, and Total. This analysis, based on self-­‐reported data to CDP, indicates"
+  },
+  {
+   "chunk": 406,
+   "loc": "p.70",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "method"
+   ],
+   "text": "TABLE OF UNCERTAINTIES AND EXCLUDED EMISSIONS Given the numerous variables applied to ninety entities with widely differing production histories, geographies, and geologic provinces of producing different fuels with variable carbon contents and highly variable (and poorly reported) direct emissions of vented CO2, flaring, own fuel use, and fugitive or vented methane, it is not practicable to provide a bottom-­‐up calculated estimate of uncertainty for each and every entity. Whereas as the Global Carbon Project estimates an uncertainty of ±5 percent for combustion emissions,84 this analysis conservatively estimates an uncertainty of ±10 percent for the overall historic emissions attributed to Carbon Major entities."
+  },
+  {
+   "chunk": 408,
+   "loc": "p.70",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "method"
+   ],
+   "text": "Table B-­2. Summary of uncertainties, excluded emissions, and alternative calculations Overall results 1. The Global Carbon Project cites uncertainty for fuel combustion estimates as ±5 percent (one standard deviation); if applied to this project’s total combustion of 833,430 MtCO2 then: ±41,672 MtCO2 2. Other estimated uncertainty ranges include IPCC Tier 1 methodology for methane from natural gas systems, for which uncertainties range from ±17 % (flaring in processing, developing countries) to ±97 % (fugitive methane, production, developing countries). Fugitive methane in developed countries range from ±72 % (production) to ±76 % (transmission). This uncertainty is globally minor, but pertinent to companies: “not applicable” (na)"
+  },
+  {
+   "chunk": 411,
+   "loc": "p.70",
+   "section": null,
+   "why": [
+    "limitations",
+    "method"
+   ],
+   "text": "Data (missing, gaps, etc) 7. Investor-­‐owned company reporting of gross rather than net oil and gas production ~1960-­‐1970. This has been corrected in all cases where producers specify gross vs net. na 8. Missing production datasets (eg Phillips natgas prior to 1937, StatOil prior to 1984, Total prior to 1933). Since early production pales in quantity produced, the undercount is probably quite small; “not estimable” (ne)"
+  },
+  {
+   "chunk": 425,
+   "loc": "p.72",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "method",
+    "proxies"
+   ],
+   "text": "Most of the alternative calculation methods, factors, uncertainties, and excluded sources listed in Table B-­‐2 indicate undercounts and reinforce our conclusion that the factors and methods used in this analysis are reasonable and at or below international factors and protocols. However, these are not additive (some are annual or periodic or cover years or decades, others are cumulative, some are uncertainty ranges, others are simply alternative calculation options), and the individual components cannot be summed."
+  },
+  {
+   "chunk": 446,
+   "loc": "p.76",
+   "section": null,
+   "why": [
+    "findings",
+    "method"
+   ],
+   "text": "90 We have shifted to the IPCC/UN carbon content factors at the recommendation of reviewers. My previous use of U.S. EPA factors was based on consistency in the calculation of kgC/bbl; the IPCC approach is based on carbon content per unit of heat content (kgC/GJ) and required applying factors from other sources, such as the UN value of specific oil gravity. The IPCC/UN methodology gives a value of 115.67 kgC/bbl as discussed above, whereas the EPA/IEA methodology gives 117.33 kgC/bbl. The IPCC-­‐derived factor is 1.42 percent lower. Environmental Protection Agency (2011) Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990-­2009, Annex 2: Methodology and Data for Estimating CO2 Emissions from Fossil Fuel Combustion, Table A-­‐34: Annually Variable C Content Coefficients by Year (TgC/QBtu), shows US crude oils from 1990 through 2009 with values ranging from 20.15 to 20.31 TgC/QBtu (= kgC per million Btu). The EPA/EIA calculation was 20.23 kgC/million Btu times 5.80 million Btu/bbl (EIA’s default factor), or 117.33 kgC/bbl. 91 C = 12.0107 + O = 15.9994 x 2 = 44.0095/12.0107 = 3.664191. This is 99.84 percent of the typical 3.67 value."
+  },
+  {
+   "chunk": 451,
+   "loc": "p.77",
+   "section": null,
+   "why": [
+    "findings",
+    "method"
+   ],
+   "text": "The result, shown in Fig. 7 (and in the appended PDF of the “Flaring & Venting” worksheet), is 15.94 kg CO2 from flaring per tonne CO2 from petroleum combustion, or 1.594 percent. This factor is applied to each crude oil & NGL producing entity’s cumulative emissions, and consequently raises the attributed emissions by 1.594 percent for each entity. (308.70 kgCO2/bbl) averages to 250.32 kg CO2/gallon. Crude oil’s emission factor is 431.76 kg CO2/gallon; the unweighted average NGL emission factor is thus 42 percent lower than crude oil. (data: U.S. Environmental Protection Agency (2011b) Emission Factors for Greenhouse Gas Inventories, epa.gov/climateleaders/ guidance/ghg-­‐emissions.html); EIA world production data for 1980-­‐2012 show that Natural Gas Plant Liquids (NGPLs) comprise an average of 8.16 percent of total crude oil, lease condensate, and NGPLs for 1980-­‐2012. The formula for the adjustment to crude oil emission factor (115.67 kgC/bbl) is as follows: 0.0816 * (1-­‐0.42044), which lowers the emission factor for combined crude oil and NGL to 110.20 kgC/bbl, or 403.80 kgCO2/bbl."
+  },
+  {
+   "chunk": 483,
+   "loc": "p.84",
+   "section": null,
+   "why": [
+    "limitations",
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "105 Computed from EDGAR methane emissions 1970-­‐2008 from natural gas systems. According to this database, global energy-­‐related methane emissions have risen from 59.7 TgCH4 in 1970 to 121.5 TgCH4 in 2008, including 52.1 TgCH4 from natural gas systems. European Commission's Joint Research Centre (2011) Global Emissions EDGAR v4.2: Methane Emissions, Emission Database for Global Atmospheric Research, Nov11; edgar.jrc.ec.europa.eu/overview.php?v=42. This data is from the “General Non-­‐CO2 data” worksheet in the “AncillaryCH4&CO2.xls” workbook. 106 The percentages are from the EPA estimates (2012) of U.S. gas-­‐system emissions, since the EDGAR global data does not provide a breakdown of natural gas methane emissions by source."
+  },
+  {
+   "chunk": 500,
+   "loc": "p.88",
+   "section": null,
+   "why": [
+    "definitions",
+    "lists_and_datasets",
+    "method",
+    "proxies"
+   ],
+   "text": "• Note, to the extent reported by each entity, coal rank and heating values; the ranking is typically generic categories such as “thermal” or “steam” and “metallurgical” or “coking” coal, or “hard coal;” • List additional information on specific coal rank and heating values for each mine or production asset, if published by the company;117 • Categorize coal production by coal rank where company data allows it, or research typical coal ranks of important producing regions and assign likely rank;"
+  },
+  {
+   "chunk": 505,
+   "loc": "p.88",
+   "section": null,
+   "why": [
+    "definitions",
+    "limitations",
+    "method"
+   ],
+   "text": "117 While heating values are documented on the production worksheets, we have not applied them: no producer has provided sufficient data for all its operations over its mining history to make such an approach feasible; and the work of making use of differing heating values for each of its 40 mines provided by Peabody Energy for 2006, for example, is beyond the scope of this project. Where heating values are provided they are used to inform the classification of coal rank."
+  },
+  {
+   "chunk": 524,
+   "loc": "p.92",
+   "section": null,
+   "why": [
+    "limitations",
+    "method"
+   ],
+   "text": "by CDIAC). This project estimates only process emissions from calcining and excludes emissions from fuel and electricity inputs (which are accounted for primary production already included in carbon major’s fuel production). METHODOLOGY. The cement producers127 included in Carbon Majors by and large do not report cement production data, which are needed to use the IPCC and national inventory approaches. A search of each company’s annual reports and/or sustainability reports reveals reporting of cement production capacity rather than actual cement production. We devised another method to estimate each company’s calcining emissions."
+  },
+  {
+   "chunk": 533,
+   "loc": "p.94",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "China’s cement emissions totals 9.2 GtCO2, though from a longer time series (1928-­‐2010) than the six investor-­‐owned cement companies.132 Caveats: • Cement producers typically do not publish cement production statistics; • The most comprehensive data is that submitted to the WBCSD CSI database (often also published in entity sustainability reports), but which typically only state gross and net CO2 emissions for 1990 and 2000-­‐2010;133 1991-­‐1999 are interpolated, which introduces varying errors for each manufacturer, though not likely large;"
+  },
+  {
+   "chunk": 535,
+   "loc": "p.94",
+   "section": null,
+   "why": [
+    "definitions",
+    "method"
+   ],
+   "text": "Figure B-­26. Process emission estimates for cement entities See Annex D for PDF of “Process emissions” in SumCement.pdf workbook for details. National Annual CO2 Emissions from Fossil-­Fuel Burning, Hydraulic Cement Production, and Gas Flaring: 1950-­1992, cdiac.ornl.gov/epubs/ndp/ndp030/ndp0301.htm#co2man 132 Based on U.S. Bureau of Minerals (1933-­‐) Minerals Yearbook. Data is corroborated by CDIAC data for China 1928-­‐2008. 133 The WBCSD terminology is unclear. Their “gross emissions” account for total direct CO2 emissions and differs from “net emissions” in terms of alternative fossil fuels, biomass inputs, emissions reduction credits, and alternative raw material inputs — and includes calcining emissions. See Cement Sustainability Initiative (2011) page 25 for definitions. This study uses the term “process emissions” to include only the CO2 emitted from the calcination of limestone in cement production, inasmuch as we need to exclude emissions from electricity and fuel inputs, which are accounted for by primary carbon producers. The WBCSD provides little data on calcining emissions."
+  },
+  {
+   "chunk": 541,
+   "loc": "p.96",
+   "section": null,
+   "why": [
+    "findings"
+   ],
+   "text": "Summary of flaring, venting, and fugitive emission factors Emission from flaring, fugitive, and vented carbon dioxide and from fugitive and vented methane from oil and gas operations and coal mining are shown in table 9. Since the basis is kgCO2e per tonne CO2 released from combustion of petroleum, natural gas, and coal, the total column shows additional emissions per tCO2, easily converted to percent. That is, additional emissions from venting and flaring and methane are 6.02 percent for petroleum, 23.77 percent for natural gas, and 8.47 percent for coal."
+  },
+  {
+   "chunk": 545,
+   "loc": "p.97",
+   "section": null,
+   "why": [
+    "definitions",
+    "method"
+   ],
+   "text": "Figure B-­27. IPCC 2006 Guidelines, overview of emission source categories Intergovernmental Panel on Climate Change (2006) Draft 2006 IPCC Guidelines for National Greenhouse Gas Inventories: Overview Chapter, 12 pp.; www.ipcc.ch/meetings/session25/doc4a4b/doc4a.pdf. Richard Heede Climate Mitigation Services Snowmass, Colorado, 81654, 970-927-9511 97 heede@climatemitigation.com"
+  }
+ ]
+}

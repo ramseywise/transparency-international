@@ -1,0 +1,76 @@
+{
+  "id": "europa-overview-2",
+  "citation": {
+    "authors": [],
+    "year": null,
+    "title": "Overview (NACE section)",
+    "venue_or_publisher": "ec.europa.eu (Eurostat web pages, per the URL)",
+    "doi_or_url": "https://ec.europa.eu/eurostat/web/nace/overview",
+    "type": "web page (landing page)",
+    "peer_reviewed": "unknown"
+  },
+  "question": null,
+  "data": null,
+  "method": null,
+  "definitions": [
+    {
+      "term": "NACE",
+      "definition": "The classification of economic activities in the European Union; abbreviation of 'statistical classification of economic activities' in the European Community.",
+      "quote": "is the classification of economic activities in the European Union (EU)",
+      "page": "NACE section > Overview REVAMP EN, paragraph 1"
+    }
+  ],
+  "proxies": [],
+  "findings": [],
+  "limitations": [
+    {
+      "point": "The extracted text is a short landing page (about 306 words). It names the classification, its versions and links to other documents. It does not say how an organisation is assigned to a category, and it has no category list, codes or worked examples.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The page says which version applies to which period, but the guidance on how activities are classified is in linked documents that were not read.",
+      "stated_by_authors": false,
+      "quote": "describe the overall logic of how activities are classified in NACE Rev. 2.1",
+      "page": "Roll-out of NACE Rev. 2.1, paragraph 8"
+    },
+    {
+      "point": "No author, publication date or modified date is given for the page. The only date in the text, 17 September 2026, belongs to a linked publication entry.",
+      "stated_by_authors": false,
+      "quote": "17 September 2026",
+      "page": "NACE section > Overview link publication REVAMP EN, paragraph 13"
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "NACE Rev. 2.1 introductory guidelines",
+      "what_it_is": "Linked PDF (https://ec.europa.eu/eurostat/documents/3859598/21633320/KS-GQ-24-007-EN-N.pdf). The page says it describes the overall logic of classification and summarises main changes in its section 4. Not read. Section: Roll-out of NACE Rev. 2.1.",
+      "page": null
+    },
+    {
+      "name": "Correspondence tables",
+      "what_it_is": "Linked page (https://ec.europa.eu/eurostat/web/nace/correspondence-tables). The page says they show classes where activities move between NACE Rev. 2 and Rev. 2.1. Not read. Section: Changes introduced by the update.",
+      "page": null
+    },
+    {
+      "name": "NACE Rev. 2.1 – Statistical classification of economic activities in the European Union – 2026 edition",
+      "what_it_is": "Linked publication (https://ec.europa.eu/eurostat/web/products-manuals-and-guidelines/w/ks-01-26-047), described in the link text as guidance for producers of statistics. Not read. Section: NACE section > Overview link publication REVAMP EN.",
+      "page": null
+    },
+    {
+      "name": "EU regulation 1893/2006",
+      "what_it_is": "Linked legislation (https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32006R1893), described on the page as establishing NACE Rev. 2. Not read. Section: Legislation.",
+      "page": null
+    },
+    {
+      "name": "Commission delegated regulation 2023/137",
+      "what_it_is": "Linked legislation (https://eur-lex.europa.eu/eli/reg_del/2023/137/oj), described on the page as establishing NACE Rev. 2.1. Not read. Section: Legislation.",
+      "page": null
+    }
+  ],
+  "relevant_to": ["context"],
+  "pages_read": "Landing page only: the full extracted text (13 paragraphs, about 306 words) was read. It is a short overview page with links to other documents. None of the linked documents were read.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

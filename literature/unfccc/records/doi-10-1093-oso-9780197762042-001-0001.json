@@ -1,0 +1,172 @@
+{
+  "id": "doi-10-1093-oso-9780197762042-001-0001",
+  "citation": {
+    "authors": ["Robert J. Brulle (ed.)", "J. Timmons Roberts (ed.)", "Miranda C. Spencer (ed.)"],
+    "year": 2024,
+    "title": "Climate Obstruction across Europe",
+    "venue_or_publisher": "Oxford University Press",
+    "doi_or_url": "https://doi.org/10.1093/oso/9780197762042.001.0001",
+    "type": "edited book (eleven national case studies plus the European Union, with an introduction and a conclusion)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "The book asks how climate obstruction works in Europe: who the actors and institutions are, and what strategies, tactics and discourses they use, country by country. Research so far has focused mainly on the United States. The chapters follow four common parts: a historical narrative, major actors and institutions, strategies and tactics, and discursive framings. Nothing in the pages read concerns COP participant lists, party delegations or the share of business or fossil-fuel representatives in them.",
+  "data": "Not stated as one dataset. Each chapter is a case study by its own author team (eleven countries and the EU). This record covers only the introduction, front matter, conclusion and index; the country chapters were not read.",
+  "method": "No single method. The introduction says each team chose its own approach and no overriding theoretical framework was used. The conclusion draws ten lessons by comparing the case studies. The pages read describe no method for classifying organisations, no validation of classifications, and no use of language models.",
+  "definitions": [
+    {
+      "term": "climate obstruction",
+      "definition": "Intentional actions and efforts to slow or block policies on climate change that match what the scientific consensus says is needed to avoid dangerous interference with the climate system (the editors' definition for this volume).",
+      "quote": "to slow or block policies on climate change that are commensurate with the current scientific consensus of what is necessary to avoid dangerous anthropogenic interference with the climate system",
+      "page": 21
+    },
+    {
+      "term": "climate change countermovement (CCCM), as described for the US",
+      "definition": "A loosely coordinated network of groups; the network starts with wealthy individuals, foundations and corporations that fund advocacy groups, PR agencies, trade associations, think tanks and university centres. The introduction lists eleven actor types, among them corporations, trade associations, lobbying firms and think tanks.",
+      "quote": "an amalgam of loosely coordinated groups",
+      "page": 21
+    },
+    {
+      "term": "climate change countermovement, interests behind it",
+      "definition": "The introduction describes the countermovement as grounded in corporate interests that want to keep a fossil-fuel based energy system, and as strengthened by neoliberal interests opposed to regulation.",
+      "quote": "grounded in corporate interests seeking to maintain a fossil fuel",
+      "page": 24
+    },
+    {
+      "term": "trade associations (role in the countermovement)",
+      "definition": "Trade associations are described as bodies that let firms in one sector pursue shared political strategies.",
+      "quote": "acting as command centres that help individual corporations pool resources, share information, and act as a collective political force",
+      "page": 29
+    },
+    {
+      "term": "network of obstruction organizations / 'denial machine'",
+      "definition": "The conclusion says the network pushes three main ideas: climate change is not a major problem, industry efforts are already dealing with it, and governments should stay out of the way.",
+      "quote": "that climate change is not a major problem, that current industry efforts are taking care of the problem, and that governments should stay out of the way",
+      "page": 363
+    }
+  ],
+  "proxies": [],
+  "findings": [
+    {
+      "claim": "Research on obstruction before this book was concentrated on the United States (introduction).",
+      "quote": "research into systematic efforts to obstruct climate action has focused primarily on the United States",
+      "page": 17
+    },
+    {
+      "claim": "In the US, fossil-fuel interests outspend renewable-energy firms and environmental groups on lobbying by about 10 to 1 (introduction, citing US research; not a European figure).",
+      "quote": "fossil fuel interests outspend renewable energy corporations and environmental groups by a ratio of 10 to 1",
+      "page": 30
+    },
+    {
+      "claim": "Introduction, on the EU in UN climate negotiations: the editors say the EU has brought leading pledges and policy ideas over more than thirty years of UN talks. This is a one-line summary of a chapter I did not read.",
+      "quote": "in the over thirty years of UN negotiations on the issue, the European Union has brought leading pledges and policy ideas to the table",
+      "page": 32
+    },
+    {
+      "claim": "Introduction: the 1990 baseline year of the UNFCCC meant little external pressure on emissions in the three Eastern European countries it discusses. Summary of unread chapters.",
+      "quote": "the UNFCCC baseline year by which national reductions would be measured was set at 1990",
+      "page": 35
+    },
+    {
+      "claim": "Introduction, summarising the EU chapter (not read): EU-level obstruction is lobbying to reduce ambition rather than denial.",
+      "quote": "The opposition to ambitious climate action at the EU level is not based on climate denial.",
+      "page": 36
+    },
+    {
+      "claim": "Introduction, summarising the EU chapter (not read): fossil-fuel interests have a lobbying advantage in the EU.",
+      "quote": "fossil fuel interests exercise a significant advantage in lobbying capacity",
+      "page": 36
+    },
+    {
+      "claim": "Lesson 1 of the conclusion: countries with strong fossil-fuel industries are harder places to advance climate action.",
+      "quote": "Countries with powerful fossil fuel industries prove much more difficult terrain on which to mount climate action than those whose economies are dominated by service jobs.",
+      "page": 366
+    },
+    {
+      "claim": "Lesson 3: the actors in obstruction are many and vary by country; the editors say the cases show more than oil majors are involved.",
+      "quote": "a much wider range of actors is engaged in climate obstruction efforts",
+      "page": 369
+    },
+    {
+      "claim": "Lesson 5: in Brussels, grey-industry lobbyists far outnumber green lobbyists (figure repeated from the EU chapter, which I did not read).",
+      "quote": "25,000 lobbyists ply the halls of Brussels ministries on behalf of grey industries, about twenty times more than those working for ‘green’ interest groups.",
+      "page": 372
+    },
+    {
+      "claim": "Lesson 5: lobbying is judged effective and the field unequal.",
+      "quote": "Lobbying works, and the field is vastly unequal.",
+      "page": 372
+    },
+    {
+      "claim": "Conclusion: no outright climate denial at EU level, but plenty of obstruction.",
+      "quote": "Denial of the reality of climate change has never existed at the level of the European Union, but there has still been plenty of obstruction there.",
+      "page": 368
+    }
+  ],
+  "recommendations": [
+    {
+      "point": "The editors list policy ideas drawn from the UK and Ireland chapters: rules on the 'revolving door' between industry and government agencies (and, in the same passage, transparency laws on lobbying and political contributions). The editors say the chapter authors were not asked to develop detailed recommendations.",
+      "quote": "rules to stop or regulate the ‘revolving door’ between industry and government agencies",
+      "page": 378
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The country chapters were not read for this record. Only PDF pages 1-40 (front matter, contents, tables, contributors, introduction) and 362-401 (conclusion, notes, index) were read; the Germany and EU chapters in particular were not read. Statements about countries and the EU above come from the introduction and conclusion only.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "The analyses are national in focus and do not centre on multinational corporations, international agreements, or cross-border think tanks.",
+      "stated_by_authors": true,
+      "quote": "they do not focus on the larger dynamics at play, such as the roles of multinational corporations, international agreements, or think tanks across international boundaries",
+      "page": 33
+    },
+    {
+      "point": "No common theoretical framework or common method was used across chapters.",
+      "stated_by_authors": true,
+      "quote": "No overriding theoretical framework was promulgated to guide development of the manuscript",
+      "page": 33
+    },
+    {
+      "point": "The editors call the volume an initial set of snapshots, limited by time and by little available research on many countries. They also note that some countries (France and Norway are named in the conclusion) are not covered.",
+      "stated_by_authors": true,
+      "quote": "this volume represents an initial set of snapshots of a complex and shifting situation",
+      "page": 377
+    },
+    {
+      "point": "The book does not address COP participant lists, party delegations, observer rules, conflict-of-interest rules, classification of organisations as business or fossil-fuel linked, or language models in the pages read. Its definition of obstruction is about intent to slow or block policy and concerns national policy arenas, so it does not give a rule for classifying individual delegation members.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "The extracted text has a download banner as its title and an empty author field, so the editors' names were taken from the book's own chapter citation line. The book's printed page numbers differ from the PDF page numbers used here. The text of Table 1.1 (PDF p.23) is garbled in the extraction and was not used. Whether the book was peer reviewed is not stated in the pages read.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "No instructions addressed to a reader or an AI were found in the pages read.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Chapter notes (conclusion, notes 1-17)",
+      "what_it_is": "Reference list for the conclusion, citing among others Brulle on US lobbying spending and Lamb et al. on discourses of climate delay.",
+      "page": 378
+    },
+    {
+      "name": "Index",
+      "what_it_is": "Subject and name index to the whole volume, which includes entries for business lobby groups and for actors in each country chapter.",
+      "page": 380
+    }
+  ],
+  "relevant_to": ["context"],
+  "pages_read": "PDF pages 1-40 and 362-401 of 401 (front matter, contents, tables, contributors, Chapter 1 Introduction; Chapter 14 Conclusion, notes, index). PDF pages 41-361, including all country chapters, were not read.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

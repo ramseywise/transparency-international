@@ -1,0 +1,172 @@
+{
+  "id": "europa-0b39bbcf-231b-4d77-87d1-15b676343daf-en-4f180f",
+  "citation": {
+    "authors": [
+      "Transparency Register Management Board"
+    ],
+    "year": 2024,
+    "title": "Annual report on the functioning of the Transparency Register 2023",
+    "venue_or_publisher": "Presented to the European Parliament, the Council of the European Union and the European Commission",
+    "doi_or_url": "https://transparency-register.europa.eu/document/download/0b39bbcf-231b-4d77-87d1-15b676343daf_en?filename=TR+Annual+Report+2023.pdf",
+    "type": "official report (EU institutional annual report)",
+    "peer_reviewed": "no"
+  },
+  "question": "Sets out factual information on the EU Transparency Register in 2023: its content, changes, and the conditionality and complementary transparency measures in the signatory institutions (Article 13(3) of the Interinstitutional Agreement). It does not address the UNFCCC.",
+  "data": "The EU Transparency Register for calendar year 2023. Secretariat checks on 7,705 entities, 3,404 applications, 4,301 targeted checks, 35 complaints, 12,469 registrants at end 2023. The year 2024 is not stated in the chunks. The report year is 2023.",
+  "method": "Descriptive administrative reporting. The Secretariat screens applications for eligibility and data quality, runs targeted quality checks, handles complaints and own-initiative investigations, and counts registrants by self-selected section. No research classification method is described.",
+  "definitions": [
+    {
+      "term": "Complaint",
+      "definition": "Allegations brought to the Secretariat about a registrant's non-observance of the code of conduct.",
+      "quote": "‘Complaint’ refers to a procedure that concerns allegations brought to the attention of the Secretariat about a registrant’s non-observance of the code of conduct.",
+      "page": 10
+    },
+    {
+      "term": "Own-initiative investigation",
+      "definition": "The Secretariat examines whether a registrant is eligible to remain on the register.",
+      "quote": "‘Own-initiative investigation’ refers to a procedure whereby the Secretariat examines whether a given registrant is eligible to remain on the register",
+      "page": 11
+    },
+    {
+      "term": "Conditionality measures",
+      "definition": "Registration in the register is a precondition for interest representatives to carry out certain activities.",
+      "quote": "conditionality measures whereby registration in the Transparency register is a precondition for interest representatives to be able to carry out certain key interest representation activities",
+      "page": 4
+    },
+    {
+      "term": "Meetings covered by the Parliament disclosure rule",
+      "definition": "Meetings held to influence the policy or decision-making process of the EU institutions.",
+      "quote": "any meeting relating to parliamentary business (report, opinion, resolution, plenary debate or urgency) held with the purpose of influencing the policy or decision-making process of the European institutions",
+      "page": 6
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Types of interests represented (sector or type of lobbying organisation)",
+      "indicator": "Registrants choose a section. The sections are: professional consultancies, law firms, self-employed consultants, companies and groups, trade and business associations, trade unions and professional associations, NGOs/platforms/networks and similar. The chunks list only some of the counts and have no sector (industry) breakdown.",
+      "quote": "Companies and groups 3 172 Trade and business associations 2 599",
+      "page": 15
+    },
+    {
+      "concept": "Lobbying access to Parliament",
+      "indicator": "Registered entities with at least one accredited representative permitted to access Parliament's premises.",
+      "quote": "of the 12 425 entities registered in the Transparency register 2 030 had at least one accredited representative permitted to access Parliament’s premises",
+      "page": 6
+    },
+    {
+      "concept": "Interests promoted by an organisation (client or member declaration)",
+      "indicator": "Registrants must specify clients or members under point (b) of the code of conduct. In a client-intermediary relationship, both parties must be registered and declare consistently.",
+      "quote": "both parties in such a relationship must be entered in the register and the corresponding declarations must be consistent",
+      "page": 11
+    },
+    {
+      "concept": "Data quality problem (budget declared as zero)",
+      "indicator": "Targeted checks on non-commercial entities declaring a budget of 0 EUR.",
+      "quote": "targeted quality checks on non-commercial entities declaring to have a budget of 0 EUR",
+      "page": 10
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The register had 12,469 registered interest representatives at the end of 2023, stable compared with 2022.",
+      "quote": "There were 12 469 registered interest representatives at the end of 2023.",
+      "page": 13
+    },
+    {
+      "claim": "Of 3,404 applications in 2023, 66% were accepted and activated after screening.",
+      "quote": "Of the 3 404 applications received in 2023 (+/- 9 a day and an increase of 14% of applications compared with the previous year), 2 255 (66 %) were accepted",
+      "page": 9
+    },
+    {
+      "claim": "Of 4,301 targeted quality checks, 83% of registrants provided satisfactory data, 10.6% were removed and 6.4% were pending.",
+      "quote": "453 were removed from the register following the contact with the Secretariat, for ineligibility or failure to update (10.6%)",
+      "page": 10
+    },
+    {
+      "claim": "The Commission published meetings with 1,980 registrants in 2023, covering 2,891 meetings with Members or Cabinets and 718 with Directors-General.",
+      "quote": "held with 1 980 registrants. Those registrants held 2 891 meetings",
+      "page": 7
+    },
+    {
+      "claim": "Members of the European Parliament declared 20,301 meetings with interest representatives in 2023. There were 7,904 active access badges.",
+      "quote": "Members had declared 20 301 meetings for the calendar year 2023",
+      "page": 6
+    },
+    {
+      "claim": "Of 35 new complaints, 22 were inadmissible and 13 admissible. Over half of the admissible ones concerned the accuracy and completeness of registrations (code point f).",
+      "quote": "Of these, 22 were found to be inadmissible",
+      "page": 11
+    },
+    {
+      "claim": "Parliament introduced a six-month cooling-off period for former Members before they engage in interest representation with sitting Members.",
+      "quote": "requiring Members to observe a sixmonth cooling-off period after the end of their mandate before they may engage in interest representation activities with sitting Members",
+      "page": 6
+    },
+    {
+      "claim": "Only registered interest representatives may apply for long-term access to Parliament's premises. Commission Members, Cabinet members and Directors-General may only meet registered representatives.",
+      "quote": "only registered interest representatives may apply for long-term access to Parliament’s premises",
+      "page": 6
+    },
+    {
+      "claim": "The register's consolidated datasets (organisations, and individuals accredited to Parliament) can be downloaded in XML or Excel from Data.europa.eu.",
+      "quote": "The datasets allow users to download (in xml or Excel format) the list of individuals accredited for access to the European Parliament premises and the list of organisations",
+      "page": 16
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The register is a snapshot, so the data change continuously and some registrants join only for a limited period.",
+      "stated_by_authors": true,
+      "quote": "This explains why the data is continuously changing, and why some interest representatives register only for a limited period",
+      "page": 9
+    },
+    {
+      "point": "Registrants are responsible for the accuracy of their own data, and the Secretariat checks only a share of entries (7,705 entities checked, about one third of registrants targeted).",
+      "stated_by_authors": true,
+      "quote": "are ultimately responsible for the accuracy of their registration data",
+      "page": 9
+    },
+    {
+      "point": "The register is not limited to EU-established entities and has global reach.",
+      "stated_by_authors": true,
+      "quote": "Registration on the Transparency register is not limited to interest representatives established in the EU",
+      "page": 16
+    },
+    {
+      "point": "Section choice is self-declared and the chunks give no sector breakdown. The ECA audit and Ombudsman maladministration finding are mentioned, but their detail is not in the passages given.",
+      "stated_by_authors": false,
+      "quote": "The European Ombudsman adopted a decision finding maladministration",
+      "page": 13
+    },
+    {
+      "point": "Only 33 of 51 passages were read. The 'Interests represented' section appears partial in the chunks, with some section counts and any charts missing.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "EU Transparency Register consolidated dataset (Data.europa.eu)",
+      "what_it_is": "Downloadable (XML or Excel) lists of registered organisations and of individuals accredited for access to the European Parliament premises, going back several years.",
+      "page": 16
+    },
+    {
+      "name": "Commission datasets of meetings with registered interest representatives (Data.europa.eu)",
+      "what_it_is": "Consolidated machine-readable and Excel lists of meetings of Commission Members, Cabinets and Directors-General with registrants.",
+      "page": 7
+    },
+    {
+      "name": "Transparency Register list of conditionality and transparency measures",
+      "what_it_is": "A page on the register website listing the measures in force in EU institutions.",
+      "page": 5
+    }
+  ],
+  "relevant_to": [
+    "method",
+    "context"
+  ],
+  "pages_read": "selected by code: 33 of 51 passages, 3993 of 5899 words, from pages 1-17 of 17; chosen for definitions, indicators, method, findings and limitations; the rest was not read. No additional pages searched.",
+  "read_on": "2026-11-25",
+  "read_by": "source-reader, sonnet"
+}

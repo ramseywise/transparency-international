@@ -1,0 +1,517 @@
+{
+ "id": "europa-ks-gq-24-007-en-n",
+ "title": "NACE Rev. 2.1 - Statistical classification of economic activities in the European Union",
+ "kind": "pdf",
+ "url": "https://ec.europa.eu/eurostat/documents/3859598/21633320/KS-GQ-24-007-EN-N.pdf",
+ "coverage": {
+  "mode": "selected",
+  "passages_given": 44,
+  "passages_total": 1827,
+  "words_given": 3990,
+  "words_total": 134133,
+  "pages_given": [
+   1,
+   3,
+   4,
+   14,
+   15,
+   16,
+   18,
+   19,
+   21,
+   22,
+   23,
+   24,
+   34,
+   40,
+   42,
+   48,
+   76,
+   237,
+   255,
+   297,
+   299,
+   300,
+   304,
+   349,
+   362,
+   372,
+   405,
+   408,
+   417,
+   418,
+   419
+  ],
+  "pages_total": 420,
+  "note": "selected by code: 44 of 1827 passages, 3990 of 134133 words, from pages 1, 3-4, 14-16, 18-19, 21-24, 34, 40, 42, 48, 76, 237, 255, 297, 299-300, 304, 349, 362, 372, 405, 408, 417-419 of 420; chosen for definitions, indicators, method, findings and limitations; the rest was not read"
+ },
+ "passages": [
+  {
+   "chunk": 0,
+   "loc": "p.1",
+   "section": null,
+   "why": [
+    "definitions",
+    "opening"
+   ],
+   "text": "NACE Rev. 2.1 – Statistical classification of economic activities in the European Union 2025 edition MANUALS AND GUIDELINES"
+  },
+  {
+   "chunk": 1,
+   "loc": "p.3",
+   "section": null,
+   "why": [
+    "definitions",
+    "opening"
+   ],
+   "text": "NACE Rev. 2.1 – Statistical classification of economic activities in the European Union 2025 edition"
+  },
+  {
+   "chunk": 2,
+   "loc": "p.4",
+   "section": null,
+   "why": [
+    "definitions",
+    "limitations",
+    "method",
+    "opening"
+   ],
+   "text": "Manuscript completed in April 2025 This document should not be considered as representative of the European Commission’s official position. Luxembourg: Publications Office of the European Union, 2025 © European Union, 2025 The Commission’s reuse policy is implemented under Commission Decision 2011/833/EU of 12 December 2011 on the reuse of Commission documents (OJ L 330, 14.12.2011, p. 39, ELI: http://data.europa.eu/eli/dec/2011/833/oj). Unless otherwise noted, the reuse of this document is authorised under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence (https://creativecommons.org/licenses/by/4.0/). This means that reuse is allowed, provided appropriate credit is given and any changes are indicated."
+  },
+  {
+   "chunk": 32,
+   "loc": "p.14",
+   "section": null,
+   "why": [
+    "definitions"
+   ],
+   "text": "Introductory guidelines 1.2. NACE: scope and characteristics 1.2.1. Statistical classifications 8. Statistical classifications group and organise information meaningfully and systematically, in exhaustive and structured sets of categories that are defined according to a set of criteria for similarity. These sets of categories may be assigned to variables registered in statistical surveys or administrative files and used in the production and dissemination of statistics. The categories are defined in terms of one or more characteristics of a particular population of units of observation (see Best Practice Guidelines for Developing International Statistical Classifications, UNSD, p. 5)."
+  },
+  {
+   "chunk": 33,
+   "loc": "p.14",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings"
+   ],
+   "text": "9. Statistical classifications are characterised by: a. exhaustive coverage of the observed universe; b. mutually exclusive categories – each element must be classified in only one category of the classification; c. methodological principles, which support the consistent allocation of the elements to the various categories of the classification. 10. A classification may be flat (built on only one level, in other words a listing of categories) or hierarchical, structured by more than one level of aggregation/disaggregation. Hierarchical classifications are structured with the most aggregated or broadest categories at the top and the most detailed categories at the bottom. The categories at each level of the classification structure must be mutually exclusive and collectively exhaustive of all objects in the population of interest. Depending on the descriptive and analytical needs, each level can be used when recording a value for a variable, for example, in a survey response or an administrative record (see Best Practice Guidelines for Developing International Statistical Classifications, UNSD, pp. 5–8)."
+  },
+  {
+   "chunk": 42,
+   "loc": "p.15",
+   "section": null,
+   "why": [
+    "limitations",
+    "proxies"
+   ],
+   "text": "a. a first level consisting of headings identified by an alphabetical code (sections); b. a second level consisting of headings identified by a two-digit numerical code (divisions); c. a third level consisting of headings identified by a three-digit numerical code (groups); d. a fourth level consisting of headings identified by a four-digit numerical code (classes). The code for the section level is not integrated in the NACE code that identifies the division, the group and the class describing a specific activity. For example, the activity ‘Manufacture of liquid biofuels’ is identified by the code 20.51, where 20 is the code for the division, 20.5 is the code for the group and 20.51 is the code of the class; section C, to which this class belongs, does not appear in the code itself."
+  },
+  {
+   "chunk": 43,
+   "loc": "p.15",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "method",
+    "proxies"
+   ],
+   "text": "23. The divisions are coded consecutively. However, some gaps have been provided to allow the introduction of additional divisions without a complete change of the NACE coding. These gaps have been introduced in sections that are most likely to prompt the need for additional divisions. For this purpose, the following division code numbers have been left unused in NACE Rev. 2.1: 04, 34, 40, 44, 45 (vacated; see paragraph 158), 48, 54, 57, 67, 76, 83 and 89."
+  },
+  {
+   "chunk": 52,
+   "loc": "p.16",
+   "section": null,
+   "why": [
+    "definitions",
+    "limitations",
+    "method"
+   ],
+   "text": "29. This first version of NACE suffered from two major drawbacks: • as it had not been established as part of Community legislation, data were often collected according to existing national classifications and then transformed into NACE categories by means of conversion tables, which did not produce satisfactorily comparable data; • as NACE 1970 had not been developed within a recognised international framework, it offered poor comparability"
+  },
+  {
+   "chunk": 62,
+   "loc": "p.18",
+   "section": null,
+   "why": [
+    "definitions",
+    "lists_and_datasets",
+    "proxies"
+   ],
+   "text": "Introductory guidelines 40. NACE Rev. 2.1 is available as a static PDF publication containing: • these introductory guidelines; • the structure of the classification; • the general note/include/includes also/parts of the explanatory notes; • the legal basis for NACE Rev. 2.1 (Annex I); • a list of selected economic classifications beyond Europe (Annex II). 41. NACE Rev. 2.1 is also available in a dynamic electronic format, which is the only format wherein the online index is available. This index is an integral part of the explanatory notes and assists stakeholders and producers of statistics to use and implement NACE Rev. 2.1."
+  },
+  {
+   "chunk": 65,
+   "loc": "p.19",
+   "section": null,
+   "why": [
+    "definitions",
+    "method"
+   ],
+   "text": "Introductory guidelines 2. NACE: definitions and principles 2.1. Criteria adopted for developing NACE 44. The principles and criteria that have been used to define and delineate NACE categories are based on the inputs of goods, services and factors of production, the process and technique of production, the characteristics of outputs, the use to which outputs are put as well as on the use of the classification for statistical purposes and the availability of data. These criteria are applied differently at different levels of the classification: the criteria for lower levels consider similarities in the actual production process, while this is largely irrelevant at more aggregated levels of the classification. Economic activities that are similar with respect to these criteria have been grouped together in the categories of NACE. At the lowest level of the classification, preference has been given to the process and technique of production to define individual NACE classes, particularly in classes related to services. At higher levels, characteristics of outputs and the use to which outputs are put are more important for creating analytically useful aggregations."
+  },
+  {
+   "chunk": 66,
+   "loc": "p.19",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "limitations"
+   ],
+   "text": "45. However, a strict application of these criteria has not proven useful. The weight that has been applied to each of these criteria therefore changes throughout the classification. In addition, practical considerations such as the organisation of economic production in most countries and the need for stability of the classification, are factors that have also influenced the way categories have been defined at different levels of the classification."
+  },
+  {
+   "chunk": 69,
+   "loc": "p.19",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "proxies"
+   ],
+   "text": "2.1.1. Criteria for classes 49. The criteria concerning the way activities are combined in, and allocated among, production units are central to the definition of classes (the most disaggregated categories) of NACE. They are intended to ensure that NACE classes will be relevant for the classification of the activity of the unit and that units whose activity is classified in the same class will be similar, with respect to the activities in which they engage. In general, this means that activities are grouped together when they share a common process for producing goods or services."
+  },
+  {
+   "chunk": 70,
+   "loc": "p.19",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings"
+   ],
+   "text": "50. In addition, the classes of NACE are defined so that the following two conditions are fulfilled: a. the output of the category of goods and services characterising the activities of a given class represents a major part of the output of the units whose principal activity is classified in that class; b. the class contains the units that produce most of the category of goods and services that characterise it."
+  },
+  {
+   "chunk": 81,
+   "loc": "p.21",
+   "section": null,
+   "why": [
+    "definitions",
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "64. In all these cases, separate units should, whenever separate data are available, be distinguished and recognised as independent and then classified according to their activity. 2.3. Definitions of statistical units 65. To draw a complete statistical picture of the economy, a wide range of information is required, and the organisational level at which it is feasible to collect the information varies depending on the type of data. For example, data for an enterprise may be available from only one geographically central location referring to several different locations, whereas product sales data may be available for each of the separate locations. To observe and analyse the data satisfactorily, it is therefore necessary to define a system of types of statistical units, that are suitable for data collection, compilation and aggregation. These form the reference building blocks with respect to which data can be collected and classified according to NACE."
+  },
+  {
+   "chunk": 88,
+   "loc": "p.22",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "limitations",
+    "proxies"
+   ],
+   "text": "3.2. Value added substitutes 72. To determine the principal activity of a unit, the activities carried out by the unit and the corresponding share of value added must be known. Sometimes it is not possible to obtain information on the value added associated with the different activities carried out, and the activity classification must be determined by using substitute criteria. Such criteria could be the following."
+  },
+  {
+   "chunk": 90,
+   "loc": "p.22",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "limitations",
+    "method"
+   ],
+   "text": "◦time worked by staff attributable to the different activities of the unit. 73. Such substitute criteria should be used as proxies for the unknown value-added data to obtain the best approximation possible to the result which would have been obtained based on the value-added data. The use of substitute criteria does not change the methods used to determine the principal activity as they are only operational approximations of value-added data."
+  },
+  {
+   "chunk": 93,
+   "loc": "p.23",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "limitations",
+    "method",
+    "proxies"
+   ],
+   "text": "Introductory guidelines 74. However, the simple use of the substitute criteria listed above may be misleading. This is always the case when the structure of the substitute criteria is not directly proportional to the (unknown) value added. 75. When using sales (turnover) as a proxy for value added, it should be considered that in certain cases turnover and value added are not proportional. For example, turnover in trade usually has a much lower share of value added than turnover in manufacturing. Even within manufacturing, the relation between sales and the resulting value added may vary between activities. For some activities (for example, financial intermediation activities or insurance activities), turnover is defined in a specific way which makes comparisons with other activities misleading. When using gross output data as substitute criteria, the same considerations should be kept in mind."
+  },
+  {
+   "chunk": 94,
+   "loc": "p.23",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "proxies"
+   ],
+   "text": "76. Many units perform both trade and other activities. In such cases, trade turnover figures are highly unsuitable indicators for the unknown value-added share of the trade activity. A much better indicator is the gross margin (difference between the trade turnover and purchases of goods for resale adjusted by changes in stocks). The trade margins (4) may vary within a single wholesale or retail trade activity and may also vary between different trade activities. In addition, consideration must be given to the specific classification rules for trade as set out in paragraphs 90–95."
+  },
+  {
+   "chunk": 100,
+   "loc": "p.23",
+   "section": null,
+   "why": [
+    "definitions",
+    "method"
+   ],
+   "text": "(4) The concept ‘trade margin’ is defined in the Glossary of macroeconomic terms and definitions for the development of the SNA 2025 and Balance of Payments and International Investment Position Manual 7. 21 NACE Rev. 2.1 – Statistical classification of economic activities in the European Union"
+  },
+  {
+   "chunk": 103,
+   "loc": "p.24",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "limitations",
+    "lists_and_datasets",
+    "method",
+    "proxies"
+   ],
+   "text": "84. When applying NACE, vertical integration should be treated like any other form of multiple activities, which means that the principal activity of the unit is the activity accounting for the largest share of value added, as determined according to the top-down method. 85. If value added or value-added substitutes cannot be determined for the individual steps in a vertically integrated process directly from accounts compiled by the unit itself, comparisons with similar units (for example, based on market prices for intermediate and final products) could be used. The same precautions for using substitutes as listed in paragraphs 72–77 apply here. If it is still impossible to determine the share of value added (or its substitutes) for the different stages in the chain of production activities, default assignments for typical forms of vertical integration can be applied. A negative consequence of assigning one NACE code for the principal activity of a unit engaged in vertical integration (instead of splitting this unit into more statistical units for which different principal activities would be identified) is that the production chain as represented in the input-output framework becomes less clear."
+  },
+  {
+   "chunk": 106,
+   "loc": "p.24",
+   "section": null,
+   "why": [
+    "findings",
+    "proxies"
+   ],
+   "text": "1. identify the section which has the highest share of the value added; 2. within this section, identify the division which has the highest share of the value added; 3. within this division, identify the group which has the highest share of the valued added; 4. within this group, identify the class which has the highest share of value added."
+  },
+  {
+   "chunk": 160,
+   "loc": "p.34",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings"
+   ],
+   "text": "Introductory guidelines 133. Table 5 presents the changes, in numerical terms, between NACE Rev. 2 and NACE Rev. 2.1. For example, the increase in the number of sections is caused by the split of NACE Rev. 2 section J illustrated in Table 4 and is presented in the first row of Table 5. The smaller number of divisions in NACE Rev. 2.1 results from the suppression of NACE Rev. 2 division 45 and is shown in the second row. The differences in the number of groups and classes shown in the third and fourth rows of Table 5 result from the net difference between the number of new categories created in NACE Rev. 2.1 and the number of NACE Rev. 2 categories that have been removed."
+  },
+  {
+   "chunk": 201,
+   "loc": "p.40",
+   "section": null,
+   "why": [
+    "definitions",
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "204. Whenever available, the information is presented in all official EU languages. Details about the classifications used for the production of European statistics are available at the Eurostat website on statistical classifications. 4.4. Correspondence tables 205. Correspondence tables are important tools for comparing statistical data collected and presented using different classifications. There are two types of correspondence tables: • correspondence tables between different versions of the same classification describe the detailed changes that have"
+  },
+  {
+   "chunk": 209,
+   "loc": "p.42",
+   "section": null,
+   "why": [
+    "lists_and_datasets",
+    "method",
+    "proxies"
+   ],
+   "text": "5.2. European production statistics for mining and quarrying, manufacturing, and materials recovery – PRODCOM 210. The abbreviation for the EU system of production statistics for CPA divisions 05–33 and 38 (in other words, excluding services, other than ‘industrial services’) is PRODCOM (which stems from the French expression Production Communautaire). It is updated every two to three years by the PRODCOM committee. PRODCOM headings are coded using an eight-digit numerical code, the first six digits of which are identical to those of the CPA code. The PRODCOM list is therefore directly linked to and consistent with the CPA. Through the structural link with the CPA, PRODCOM is also structurally linked with NACE, with the first four digits of each PRODCOM code corresponding to a NACE code. The link with the CPA emphasises the link with NACE, enabling the enterprises producing the products to be identified."
+  },
+  {
+   "chunk": 210,
+   "loc": "p.42",
+   "section": null,
+   "why": [
+    "definitions",
+    "lists_and_datasets",
+    "proxies"
+   ],
+   "text": "5.3. Combined Nomenclature – CN 211. The classification used within the EU for the purposes of foreign trade custom tariffs and statistics is the CN, which was introduced in 1988 and provides a degree of detail going beyond that in the corresponding international classification (the HS). Headings in the CN are identified by means of an eight-digit numerical code, adding two digits to the relevant HS code. The headings of the PRODCOM list are derived from the CN; this link allows comparisons between production statistics and foreign trade statistics (and provides an indirect link between the CN and NACE). The CN is revised annually."
+  },
+  {
+   "chunk": 226,
+   "loc": "p.48",
+   "section": null,
+   "why": [
+    "definitions",
+    "limitations"
+   ],
+   "text": "n.e.c.: not elsewhere classified 46 NACE Rev. 2.1 – Statistical classification of economic activities in the European Union"
+  },
+  {
+   "chunk": 354,
+   "loc": "p.76",
+   "section": null,
+   "why": [
+    "limitations",
+    "lists_and_datasets",
+    "proxies"
+   ],
+   "text": "The NACE Rev. 2.1 explanatory notes consist of: 1. descriptions of NACE positions and annotations defining ‘includes’, ‘includes also’ and ‘excludes’; 2. index entries which list detailed activities. The descriptions and annotations (1) are presented in this publication, whereas the index (2) is designed to evolve and be regularly revised, and is therefore online disseminated via ShowVoc (7). The NACE index (2) is a newly added feature of the NACE explanatory notes; it was not available in previous versions of NACE."
+  },
+  {
+   "chunk": 1031,
+   "loc": "p.237",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "limitations",
+    "method",
+    "proxies"
+   ],
+   "text": "NACE does not make any distinction at group and class level between in-store and online retail sale. Most of the retail sale activities operate both in-store and online (as well other distribution channels) and it is difficult to differentiate between the two distribution/sales channels based on the primary sales method. The share of in-store and online sales can vary over time affecting the stability of the classification. The main classification criteria for retail sale in NACE is based on what is sold and not the sales channel."
+  },
+  {
+   "chunk": 1108,
+   "loc": "p.255",
+   "section": null,
+   "why": [
+    "definitions",
+    "limitations"
+   ],
+   "text": "The goods sold in this division are limited to goods usually referred to as consumer goods or retail goods. Therefore, goods not normally entering retail sale (for example, cereal grains, ores, industrial machinery) are excluded. Downloads (for example, books, videos) are also excluded. 253 NACE Rev. 2.1 – Statistical classification of economic activities in the European Union"
+  },
+  {
+   "chunk": 1282,
+   "loc": "p.297",
+   "section": null,
+   "why": [
+    "limitations",
+    "lists_and_datasets"
+   ],
+   "text": "The programming may be of a general or specialised nature (for example, narrowcast formats such as news, sport, education, youth-oriented programming), may be made freely available to users or may be available only on a subscription basis. – programming of video-on-demand channels – video streaming and download service activities not associated with its publishing – broadcasting of live performances and events – operation of video game streaming sites"
+  },
+  {
+   "chunk": 1292,
+   "loc": "p.299",
+   "section": null,
+   "why": [
+    "lists_and_datasets"
+   ],
+   "text": "– publishing, broadcasting and content production, including software publishing, post-production services to convert audio and video content into streaming formats and independent third-party provision of on-demand audio and video streaming or download distribution services, see section J – provision of financial and insurance services using published financial and insurance technologies software, see section L – activities of gambling sites, see 92.00 – repair and maintenance of computers and communication equipment, see 95.10"
+  },
+  {
+   "chunk": 1299,
+   "loc": "p.300",
+   "section": null,
+   "why": [
+    "definitions",
+    "lists_and_datasets"
+   ],
+   "text": "• selling mobile telephone service plans on an agent basis • wireless telephone service plan sales agent activities, selling on behalf of wireless telecommunication carriers • agent activities for mobile virtual network operators (MVNOs) • provision of telephone and internet access in facilities open to the public – provision of telecommunication services by operators of telecommunication infrastructure, see 61.10 298 NACE Rev. 2.1 – Statistical classification of economic activities in the European Union"
+  },
+  {
+   "chunk": 1314,
+   "loc": "p.304",
+   "section": null,
+   "why": [
+    "definitions",
+    "limitations",
+    "lists_and_datasets"
+   ],
+   "text": "– software publishing, see 58.2 – provision of applications by downloads or by streaming, see 58.2 – post-production services to convert video content into streaming formats, see 59.12 – post-production services to convert audio content into streaming formats, see 59.20 – audio streaming and download distribution service activities not associated with publishing, see 60.10 – video streaming and download distribution service activities not associated with publishing, see 60.20 – computer systems design, see 62.20 – electronic storage of archival material for access by the general public, see 91.12 – repair and maintenance of computers and communication equipment, see 95.10 – activities where the service provider uses computers only as a tool are classified according to the nature of the services rendered"
+  },
+  {
+   "chunk": 1520,
+   "loc": "p.349",
+   "section": null,
+   "why": [
+    "findings"
+   ],
+   "text": "82.3 Organisation of conventions and trade shows 82.30 Organisation of conventions and trade shows This class includes the organisation, promotion and/or management of events, for example: – business and trade shows – company events – general or specialised exhibitions – conferences and conventions – seminars, symposiums and workshops – farmers’ markets and craft fairs This class also includes the management and provision of the staff to operate the facilities in which the aforementioned events take place but only if the management and provision of staff are performed in association with the organisation, promotion and/or management of such events."
+  },
+  {
+   "chunk": 1576,
+   "loc": "p.362",
+   "section": null,
+   "why": [
+    "limitations"
+   ],
+   "text": "relationships) that are specially designed for education and learning. However, it does not lead to qualifications at primary through to tertiary levels. – sports instruction in camps or schools – gymnastics instruction – riding instruction – swimming instruction – martial arts instruction – card game instruction (e.g. bridge) – board game courses – yoga or Pilates instruction – e-sports instruction"
+  },
+  {
+   "chunk": 1617,
+   "loc": "p.372",
+   "section": null,
+   "why": [
+    "limitations"
+   ],
+   "text": "87.3 Residential care activities for older persons or persons with physical disabilities 87.30 Residential care activities for older persons or persons with physical disabilities This class includes the provision of residential and personal care services for older persons or persons with physical disabilities who are unable to fully care for themselves and/or who choose not to live independently. The care typically includes room, board, supervision and assistance in daily living (for example, housekeeping activities). Nursing care is sometimes provided for residents in separate on-site facilities."
+  },
+  {
+   "chunk": 1620,
+   "loc": "p.372",
+   "section": null,
+   "why": [
+    "definitions",
+    "limitations"
+   ],
+   "text": "– intermediation service activities for medical, dental and other human health services, see 86.97 87.99 Other residential care activities n.e.c. This class includes the provision of residential care and assistance services for persons, except older persons and persons with disabilities, who are unable to fully care for themselves or who do not wish to live on their own. – residential and social assistance activities provided on a round-the-clock basis to special categories of persons, but where medical treatment or education are not essential elements:"
+  },
+  {
+   "chunk": 1742,
+   "loc": "p.405",
+   "section": null,
+   "why": [
+    "proxies"
+   ],
+   "text": "Article 2 NACE Rev. 2 1. NACE Rev. 2 shall include: (a) a first level consisting of headings identified by an alphabetical code (sections); (b) a second level consisting of headings identified by a two-digit numerical code (divisions); (c) a third level consisting of headings identified by a three-digit numerical code (groups); and (d) a fourth level consisting of headings identified by a four-digit numerical code (classes)."
+  },
+  {
+   "chunk": 1768,
+   "loc": "p.408",
+   "section": null,
+   "why": [
+    "lists_and_datasets",
+    "method",
+    "proxies"
+   ],
+   "text": "(3) Article 5 shall be replaced by the following: ‘Article 5 Frequency and back data 1. The data for the LCI shall first be compiled according to NACE Rev. 2 for the first quarter of 2009, and thereafter for each quarter (ending on 31 March, 30 June, 30 September and 31 December of each year). 2. Back data from the first quarter of 2000 to the fourth quarter of 2008 shall be made available by the Member States. The back data shall be provided for each of the NACE Rev. 2 sections B to N and for the labour cost items mentioned in Article 4(1).’."
+  },
+  {
+   "chunk": 1817,
+   "loc": "p.417",
+   "section": null,
+   "why": [
+    "definitions",
+    "limitations",
+    "method"
+   ],
+   "text": "The UN Central Product Classification (CPC) consists of a classification structure for products (goods and services) based on a set of internationally agreed concepts, definitions, principles and classification rules. It serves as an international standard for assembling and tabulating all kinds of data requiring product detail, including statistics on industrial production, domestic and foreign commodity trade, international trade in services, balance of payments, consumption and price statistics, as well as other data used within the national accounts. As the CPC is a product classification that does not depend on the classification of economic activities, the CPC coding system is independent of ISIC."
+  },
+  {
+   "chunk": 1818,
+   "loc": "p.417",
+   "section": null,
+   "why": [
+    "definitions",
+    "limitations",
+    "method",
+    "proxies"
+   ],
+   "text": "8. Despite this specific approach, however, the CPC has also taken into consideration the criterion of economic origin. According to this criterion (adopted in the EU for NACE and the CPA), a product classification combines in one category goods or services that are the output of only one economic activity. Thus, efforts were made to define headings at the lowest level of the CPC in such a way that as many products as possible, at this level, can be allocated to a single category of ISIC. The CPC publications include the correspondences between CPC subclasses and the relevant ISIC class."
+  },
+  {
+   "chunk": 1823,
+   "loc": "p.418",
+   "section": null,
+   "why": [
+    "limitations",
+    "lists_and_datasets"
+   ],
+   "text": "12. NAICS can also be used for classifying companies and enterprises. However, when NAICS is used in this way, the following caveat applies: NAICS has not been specially designed to take account of the wide range of vertically or horizontally integrated activities of large and complex, multi-establishment companies and enterprises. 13. In the development and subsequent revision of NAICS industries, the statistical agencies of the three countries strove to create industries that did not cross ISIC two-digit boundaries. The 2007 revision of NAICS and revision 4 of ISIC increased comparability beyond previous levels. The 2012, 2017 and 2022 NAICS revisions maintains the same level of comparability with ISIC Rev.4. The NAICS classifications, as well as detailed correspondence tables between the NAICS and ISIC, are published on the NAICS websites: NAICS-USA and NAICS-Canada."
+  },
+  {
+   "chunk": 1827,
+   "loc": "p.419",
+   "section": null,
+   "why": [
+    "findings",
+    "lists_and_datasets"
+   ],
+   "text": "— at the following standard number: +32 22999696; — via the following form: european-union.europa.eu/contact-eu/write-us_en. FINDING INFORMATION ABOUT THE EU Online Information about the European Union in all the official languages of the EU is available on the Europa website (european-union.europa.eu). EU publications You can view or order EU publications at op.europa.eu/en/publications. Multiple copies of free publications can be obtained by contacting Europe Direct or your local documentation centre (european-union.europa.eu/contact-eu/meet-us_en)."
+  },
+  {
+   "chunk": 1828,
+   "loc": "p.419",
+   "section": null,
+   "why": [
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "EU law and related documents For access to legal information from the EU, including all EU law since 1951 in all the official language versions, go to EUR-Lex (eur-lex.europa.eu). Open data from the EU The portal data.europa.eu provides access to open datasets from the EU institutions, bodies and agencies. These can be downloaded and reused for free, for both commercial and non-commercial purposes. The portal also provides access to a wealth of datasets from European countries."
+  }
+ ]
+}

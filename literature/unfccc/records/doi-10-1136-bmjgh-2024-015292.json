@@ -1,0 +1,179 @@
+{
+  "id": "doi-10-1136-bmjgh-2024-015292",
+  "citation": {
+    "authors": [
+      "Kim Robin van Daalen",
+      "Nanine Wyma",
+      "Johanna Schauer-Berg",
+      "Juliette Mattijsen",
+      "Razan Othman",
+      "Iris M Blom",
+      "Robbie M Parks",
+      "Arthur Wyns",
+      "Mohamed Eissa",
+      "Muha Hassan",
+      "Tarek Ezzine",
+      "Ahmed Taha Aboushady",
+      "Menna-Allah Elsayed Zayed",
+      "Sarah Neggazi",
+      "Salman Khan",
+      "Rachel Lowe",
+      "Lujain Alqodmani"
+    ],
+    "year": 2024,
+    "title": "The global health community at international climate change negotiations",
+    "venue_or_publisher": "BMJ Global Health 2024;9:e015292 (BMJ), published 18 April 2024",
+    "doi_or_url": "https://doi.org/10.1136/bmjgh-2024-015292",
+    "type": "commentary (journal)",
+    "peer_reviewed": "yes"
+  },
+  "question": "How many health actors attended UN climate conferences (COP1 to COP28, 1995-2023), and how has their share of all participants changed. The fossil-fuel and business side is only a side remark, not a research question.",
+  "data": "Participants of UNFCCC COPs 1995-2023 among representatives of Parties, Observer States and Observer Organisations (the participant lists are not named in the commentary text itself). Overall participation is given as about 2000 at COP1 and 80 000 at COP28. The count of health actors is 1612 at COP28 and 17 at COP1. The data are said to be in a public repository (https://earth.bsc.es/gitlab/ghr/health-community-unfccc-cop).",
+  "method": "The commentary states only that a broad definition of 'health actor' was applied to attendees, and sends the detailed methodology, limitations and data to online supplemental material, which is not in the extracted text. How affiliations were read from the participant lists, how they were coded, and what the validation consisted of are therefore not stated in the text read. The only statement about validation is that several authors contributed to data collection and validation; the extent and method are not given.",
+  "definitions": [
+    {
+      "term": "health community / health actor",
+      "definition": "A broad definition: anyone who provides healthcare or treatment, represents a government on health matters, or works for an organisation primarily focused on human health (the sentence goes on to add organisations representing patients or people with disabilities).",
+      "quote": "including any person who provides healthcare or treatment, represents a government on matters related to health, works for an organisation or institution primarily focused on human health",
+      "page": 2
+    },
+    {
+      "term": "Parties",
+      "definition": "Countries that have ratified the Convention and take full part in negotiations.",
+      "quote": "Parties are those that have ratified the Convention and fully engage in negotiations.",
+      "page": 3
+    },
+    {
+      "term": "Observer Organisations",
+      "definition": "Groups without a vote and with narrower access to meetings than Parties (the caption says they can reach plenary sessions but not smaller Party discussions).",
+      "quote": "Observer Organisations do not have the right to vote on decisions and have more limited access to the convening",
+      "page": 3
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "health actor identified from participant data",
+      "indicator": "Organisation or role of the attendee: health ministry representatives (including combined Health and Environment ministries), and observers from NGOs, IGOs and UN agencies, counted by group. How the role or organisation was read from the lists is not stated in the main text.",
+      "quote": "Participation of government representatives from Ministries of Health has likewise steadily increased in absolute numbers",
+      "page": 2
+    },
+    {
+      "concept": "fossil-fuel linked organisation (as used for the 87 participants with health functions)",
+      "indicator": "Organisation involved in exploration, production, refining, distribution, marketing or import/export of oil, coal, petroleum or gas. The text does not say how organisations were matched to this description.",
+      "quote": "such as the exploration, production, refining, distribution, marketing or import/ export of oil, coal, petroleum or gas",
+      "page": 5
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Health actors' attendance grew from 17 at COP1 to 1612 at COP28.",
+      "quote": "with the highest attendance of health actors at COP28 (n=1612), compared with the lowest attendance at COP1 (n=17)",
+      "page": 2
+    },
+    {
+      "claim": "The share of health delegates in all attendees stayed roughly constant over time, so the rise in numbers followed the rise in total participation.",
+      "quote": "The percentage of health delegates in relation to the overall number of attendees remained largely constant over time",
+      "page": 2
+    },
+    {
+      "claim": "Fossil-fuel representatives at COP28 are given as 2500, a fivefold rise since COP26. This number is cited from the Kick Big Polluters Out coalition (reference 22), not produced by the authors' own data; the text does not say whether these were in Party delegations or among observers.",
+      "quote": "including 2500 fossil fuel representatives at COP28",
+      "page": 5
+    },
+    {
+      "claim": "In their own 1995-2023 dataset the authors found 87 participants with health functions working in organisations involved in fossil-fuel activities.",
+      "quote": "identified 87 participants with health functions (eg, Health & Safety Officers) in organisations",
+      "page": 5
+    },
+    {
+      "claim": "Overall participation rose from about 2000 at COP1 to 80 000 at COP28.",
+      "quote": "overall participation has grown considerably, from around 2000 participants during COP1",
+      "page": 5
+    },
+    {
+      "claim": "Observer Organisation representatives have no country attached in the UNFCCC documentation, so country breakdowns exclude them.",
+      "quote": "This figure excludes representatives from Observer Organisations as no information for their country is provided in UNFCCC documentation.",
+      "page": 4
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The extracted file holds the whole 7-page commentary, but not the online supplemental material, which is where the authors put the detailed methodology, limitations and data. The classification method and its checking are therefore not available from this text, and no business or fossil-fuel classification method can be taken from this record.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The authors say the methodology and limitations are in the supplement.",
+      "stated_by_authors": true,
+      "quote": "The detailed methodology, limitations and data can be found in the online supplemental materials.",
+      "page": 2
+    },
+    {
+      "point": "The authors say the subgroup analyses could not go beyond absolute numbers, for lack of summary data (sentence continues on the next block of the page).",
+      "stated_by_authors": true,
+      "quote": "due to a lack of summary data, we could",
+      "page": 4
+    },
+    {
+      "point": "The authors say qualitative research is needed to learn whether health actors' presence has any influence on outcomes.",
+      "stated_by_authors": true,
+      "quote": "further (qualitative) research is needed to assess the direct influence health actors have on climate change",
+      "page": 5
+    },
+    {
+      "point": "The commentary is about health actors, not business. It does not define 'business' or measure business presence in Party delegations, so it gives nothing for Q1. Its fossil-fuel figures are a side remark.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "One author declares a link to the COP28 Presidency.",
+      "stated_by_authors": true,
+      "quote": "AW is an advisor to the office of the COP28 Presidency.",
+      "page": 6
+    },
+    {
+      "point": "The extracted file has an empty authors field; the author names come from the page 1 text. The text contains soft hyphens inside hyphenated words. No instructions addressed to a reader or an AI were found.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 1
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC COP participant lists, COP1-COP28 (1995-2023)",
+      "what_it_is": "The attendance data analysed. The commentary text does not name the document itself; it refers to UNFCCC documentation and to Parties, Observer States and Observer Organisations.",
+      "page": 2
+    },
+    {
+      "name": "Authors' repository, https://earth.bsc.es/gitlab/ghr/health-community-unfccc-cop",
+      "what_it_is": "Public repository said to hold the data",
+      "page": 6
+    },
+    {
+      "name": "Online supplemental material (BMJ Global Health)",
+      "what_it_is": "Detailed methodology, limitations and data; not in the extracted text",
+      "page": 2
+    },
+    {
+      "name": "Kick Big Polluters Out coalition, 'Record number of fossil fuel lobbyists at COP28'",
+      "what_it_is": "Source of the figure of 2500 fossil fuel representatives at COP28 (reference 22)",
+      "page": 7
+    },
+    {
+      "name": "Kaya and Schofield 2020, 'Which countries send more delegates to climate change conferences? Analysis of UNFCCC COPs, 1995-2015', Foreign Policy Analysis",
+      "what_it_is": "Earlier analysis of delegation size by country (reference 12), listed as a possible further source; not read",
+      "page": 7
+    }
+  ],
+  "relevant_to": [
+    "Q2",
+    "method",
+    "context"
+  ],
+  "pages_read": "Whole extracted text, pages 1-7 of the commentary (main text, summary box, figure captions, declarations and reference list). The online supplemental material, where the methodology is, is not in the file, so it was not read. The figures themselves are not in the text."
+  ,
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "influencemap-corporate-capture-of-the-imo-902bf81c05a0591c551f96502062",
+  "citation": {
+    "authors": ["InfluenceMap"],
+    "year": 2017,
+    "title": "Corporate Capture of the IMO",
+    "venue_or_publisher": "InfluenceMap",
+    "doi_or_url": "https://influencemap.org/report/Corporate-capture-of-the-IMO-902bf81c05a0591c551f965020623fda",
+    "type": "web landing page summarising a report",
+    "peer_reviewed": "unknown"
+  },
+  "question": "How the shipping industry has lobbied the UN (International Maritime Organization) to obstruct climate action for shipping.",
+  "data": null,
+  "method": null,
+  "definitions": [],
+  "proxies": [],
+  "findings": [
+    {
+      "claim": "At the most recent IMO environmental committee meeting, 31% of nations were represented in part by direct business interests (industry representatives inside national delegations). Which meeting, the count, the denominator and the source list are not stated on the page.",
+      "quote": "at the most recent IMO environmental committee meeting 31% of nations were represented in part by direct business interests",
+      "page": "2017-10-01 (report summary section)"
+    },
+    {
+      "claim": "The authors state that the IMO is the only UN agency to allow such extensive corporate representation. This is the authors' claim; the page gives no comparison data.",
+      "quote": "The IMO appears to be the only UN agency to allow such extensive corporate representation in the policy-making process.",
+      "page": "2017-10-01 (report summary section)"
+    },
+    {
+      "claim": "Shipping trade associations (ICS, BIMCO, World Shipping Council) are reported to have lobbied to delay climate regulation until 2023 and to support only voluntary measures.",
+      "quote": "collectively lobbied to delay implementation of any climate regulations until 2023",
+      "page": "2017-10-01 (report summary section)"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "This is a summary web page, not the full report. The full report and graphic are behind a registration or login download, and were not read.",
+      "stated_by_authors": true,
+      "quote": "You will be required to register or login to our site to download these files.",
+      "page": "Downloads"
+    },
+    {
+      "point": "The page does not say how the 31% was measured: no data source, meeting, number of delegations, definition of 'direct business interests', or classification rule is given. It cannot be compared with a count from UNFCCC participant lists without the full report.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The 31% is a share of nations with at least some business representation ('in part'), not a share of delegation members. It is also not specific to fossil-fuel industries (it covers shipping and related business).",
+      "stated_by_authors": false,
+      "quote": "31% of nations were represented in part by direct business interests",
+      "page": "2017-10-01 (report summary section)"
+    },
+    {
+      "point": "The page is a campaign-style summary and mixes findings with advocacy and recommendations (for example, that investors should question shipping companies). Only the findings above are recorded as findings.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Publication date is taken from the section heading '2017-10-01'; the page metadata gives no published or modified date.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Downloads: report, graphic, and trade association press release",
+      "what_it_is": "Links to the full report, a graphic and a press release; they require registration and were not read. No dataset or reference list is named on the page.",
+      "page": "Downloads"
+    }
+  ],
+  "relevant_to": ["context"],
+  "pages_read": "Full text of the saved web page (about 730 words, one section of report summary plus an 'About InfluenceMap' section). This is a summary page only, not the full report.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

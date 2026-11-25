@@ -1,0 +1,205 @@
+{
+  "id": "doi-10-1093-oso-9780197787144-001-0001",
+  "citation": {
+    "authors": [
+      "J. Timmons Roberts",
+      "Carlos R. S. Milani",
+      "Jennifer Jacquet",
+      "Christian Downie"
+    ],
+    "year": 2025,
+    "title": "Climate Obstruction: A Global Assessment",
+    "venue_or_publisher": "Oxford University Press",
+    "doi_or_url": "https://doi.org/10.1093/oso/9780197787144.001.0001",
+    "type": "Edited volume, open-access web version (CC BY-NC-ND 4.0); 13 chapters, 110 scholars; authors listed are the four editors; chapter 10 lead authors are Kari De Pryck and Eduardo Viola",
+    "peer_reviewed": "yes"
+  },
+  "question": "Who is impeding action on climate change, and how: a first global assessment of what is known about obstruction of climate action (Introduction, PDF 23: 'the volume summarizes the current state of knowledge on who is impeding action on climate change, and how'). Ch. 10 asks about obstruction by states and non-state actors inside the UNFCCC and the IPCC.",
+  "data": "Review of existing scholarship and civil-society reports. Ch. 10: 'This chapter assessed the available literature' (PDF 315). Counts of fossil fuel lobbyists at COP26 to COP28 are taken from an NGO analysis (note 140, PDF 324), not produced by the chapter. Period focus 2015 to 2024 (PDF 23).",
+  "method": "Literature assessment, with each chapter peer reviewed and reviewed by the four coeditors (PDF 23). Ch. 10 sorts obstruction into procedural and substantial obstruction, by states and by non-state actors. It does not classify delegates or organisations itself, gives no coding scheme and no accuracy or agreement figures.",
+  "definitions": [
+    {
+      "term": "Climate obstruction",
+      "definition": "Intentional actions and efforts to slow or block climate policies that match the scientific consensus, as summarised by the IPCC. Restated in Ch. 13 (PDF 385).",
+      "quote": "We define climate obstruction as intentional actions and efforts to slow or block policies on climate change that are commensurate with the current scientific consensus",
+      "page": 23
+    },
+    {
+      "term": "Ch. 10: substantial obstruction (versus procedural obstruction)",
+      "definition": "Ch. 10 splits obstruction into procedural (aimed at slowing or derailing the negotiation process) and substantial (aimed at the substance of the negotiations). Only the end of the sentence is quoted, because line-break hyphens in the extracted text split the words before it ('tar- gets', 'sub- stance').",
+      "quote": "of the negotiations by, for example, preventing an issue from being placed on the agenda or manipulating the way it is framed, scoped, and defined",
+      "page": 294
+    },
+    {
+      "term": "Ch. 10: vested interests (domestic level)",
+      "definition": "People or organisations with a financial or personal advantage in delaying or blocking climate action; Ch. 10 names fossil fuel industry groups and related sectors as the main example.",
+      "quote": "people or organizations with a financial or personal advantage in delaying or blocking climate action",
+      "page": 300
+    },
+    {
+      "term": "Ch. 10: BINGO and the other UNFCCC non-state constituencies",
+      "definition": "The UNFCCC groups observer NGOs into nine constituencies, one of which is business and industry NGOs (BINGO). The full list (ENGO, Farmers, IPO, LGMA, RINGO, TUNGO, WGC, YUNGO) runs onto PDF 312. The chapter gives no further definition of 'business'.",
+      "quote": "The UNFCCC clusters NGOs into nine constituencies: business and industry NGOs (BINGO), environmental NGOs (ENGO)",
+      "page": 311
+    },
+    {
+      "term": "Actor categories the volume treats as obstructors (scope list, not a formal definition)",
+      "definition": "Fossil fuel industries, utilities, agribusiness, media and PR firms, and far-right organisations; state-owned oil and gas companies are not given a separate definition in the pages read.",
+      "quote": "The assessment reviews obstruction efforts by the fossil fuel industries (Chapters 2 and 3), as well as by utilities (Chapter 3), agribusiness (Chapter 4)",
+      "page": 23
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Ch. 10: fossil fuel presence at COP (all registered participants)",
+      "indicator": "Number of 'fossil fuel lobbyists' registered per COP, taken from an NGO analysis (Corporate Accountability, Corporate Europe Observatory, Global Witness). How a person was judged to be a fossil fuel lobbyist is not described in the chapter.",
+      "quote": "503 fossil fuel lobbyists were registered at COP26, 636 at COP27, and 2,456 at COP28",
+      "page": 314
+    },
+    {
+      "concept": "Ch. 10: fossil fuel linkage inside Party delegations",
+      "indicator": "Countries with fossil fuel lobbyists listed in their national delegations at COP27 (NGO analysis; 29 countries). Delegation membership is the observable; the test for 'fossil fuel lobbyist' is not given.",
+      "quote": "twenty-nine countries attending COP27 in 2022 had fossil fuel lobbyists within their national delegations",
+      "page": 312
+    },
+    {
+      "concept": "Ch. 10: state-owned company link of a delegate",
+      "indicator": "Close ties of negotiators to the national oil company (one reported case, Saudi Arabia and Saudi Aramco).",
+      "quote": "several negotiators from Saudi Arabia had close ties to Saudi Aramco, its national oil company",
+      "page": 312
+    },
+    {
+      "concept": "Ch. 10: business and industry presence among observers",
+      "indicator": "Observer organisations in the BINGO constituency, mainly trade associations, because only NGOs can be observers.",
+      "quote": "are active mainly through the BINGO constituency, such as trade associations, because observer organizations must be NGOs",
+      "page": 312
+    },
+    {
+      "concept": "Ch. 10: sector breadth of business at COP21",
+      "indicator": "Number of registered delegates of multisectoral business associations (WBCSD and IETA, more than 100 each). The sectors listed on PDF 314 are extraction, manufacturing, electricity and gas, transportation, and finance and insurance (cited to Benabou et al., note 162); no sector scheme is defined.",
+      "quote": "registered more than one hundred delegates each",
+      "page": 314
+    },
+    {
+      "concept": "Ch. 13: business lobbying stance on climate",
+      "indicator": "InfluenceMap ranks businesses on whether their lobbying aligns with the Paris Agreement goals (a ranking by a civil-society organisation, described, not tested).",
+      "quote": "and ranking businesses based on whether their lobbying efforts align with the goals of the Paris Agreement",
+      "page": 395
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Ch. 10: Industry groups take part in negotiations either inside a country delegation or as representatives of an observer organisation.",
+      "quote": "as part of a country delegation or as representatives of an observer organization",
+      "page": 312
+    },
+    {
+      "claim": "Ch. 10: The authors write that carbon majors sometimes join official delegations and that this access can reinforce a country's position (authors' argument, drawn from the cited literature).",
+      "quote": "The privileged access that some non–state actors (particularly the carbon majors) gain in these countries—sometimes even joining official delegations—can also contribute to reinforcing these positions.",
+      "page": 316
+    },
+    {
+      "claim": "Ch. 10: Delegation size is unequal, with high-stakes countries sending more people (cited to Kaya and Schofield, note 20); UNFCCC does not cap delegation size.",
+      "quote": "Countries with high stakes in climate change mitigation often have larger delegations, and are hence better prepared to exert influence on the negotiations.",
+      "page": 296
+    },
+    {
+      "claim": "Ch. 10: Business engagement at COP21 widened from fossil fuel groups to many sectors, with large multisectoral associations (WBCSD, IETA).",
+      "quote": "Multisectoral business associations, especially the World Business Council for Sustainable Development (WBCSD) and the International Emissions Trading Association (IETA) registered more than one hundred delegates each.",
+      "page": 314
+    },
+    {
+      "claim": "Ch. 10: Evidence on obstruction is much stronger for fossil fuel groups than for other sectors.",
+      "quote": "The obstructive strategies of industry groups (especially the carbon majors) have been more thoroughly documented than those of other sectors.",
+      "page": 312
+    },
+    {
+      "claim": "Intro: Fossil fuel and allied corporations are said to use many channels, which the authors list (lobbying firms, trade organisations, think tanks and others).",
+      "quote": "lobbying firms, campaign donations and organizations, advocacy groups in national capitals and across countries, trade organizations, think tanks",
+      "page": 25
+    },
+    {
+      "claim": "Intro: The editors single out fossil fuel producers as a main source of obstruction, citing researchers who argue that investor-owned producers carry a unique liability (an argument, not a measurement).",
+      "quote": "we recognize that fossil fuel producers are one of the most significant generators of climate obstruction.",
+      "page": 26
+    },
+    {
+      "claim": "Ch. 10: Recommendation by cited scholars, not a finding: conflict-of-interest rules for UNFCCC participation, modelled on other international bodies. The chapter also reports calls for more transparency on who participates.",
+      "quote": "suggest establishing conflict-of-interest rules, drawing on best practices from other international forums including the OECD and the World Health Organization.",
+      "page": 316
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Ch. 10: Non-state actor obstruction is harder to trace than that of Parties, because non-Party stakeholders cannot take part directly in formal negotiations.",
+      "stated_by_authors": true,
+      "quote": "The obstruction strategies of non–state actors are more difficult to trace because, as non-Party stakeholders, they cannot properly engage in formal climate negotiations.",
+      "page": 311
+    },
+    {
+      "point": "Intro: Intent is hard to prove, so labelling an actor as an obstructor is not a simple count.",
+      "stated_by_authors": true,
+      "quote": "We recognize the difficulty in proving that climate obstruction efforts are intentional.",
+      "page": 25
+    },
+    {
+      "point": "Ch. 13: Lobbying is often hidden, so a link between lobbying and a policy outcome is hard to show.",
+      "stated_by_authors": true,
+      "quote": "Lobbying efforts are often covert, so establishing a causal connection between lobbying and policies can be arduous.",
+      "page": 394
+    },
+    {
+      "point": "Ch. 10: The lobbyist counts (COP26 to COP28) and the 29-country figure come from an NGO analysis cited only in note 140. The chapter does not say how a person was judged a fossil fuel lobbyist, which companies counted, or how affiliations were matched to the participant list. Treat them as reported figures, not as a method to copy.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 324
+    },
+    {
+      "point": "The pages read give no scheme for sorting delegates by sector, no tiers or thresholds for fossil fuel linkage, and nothing on classification by a language model, coder agreement, sampling, accuracy or name matching.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Table 3.1 (actors by industry) is garbled in the text extraction, so it could not be used or quoted. No instructions addressed to a reader or an AI were found in the pages read.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 87
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Corporate Europe Observatory, Corporate Accountability and Global Witness, 'COP27: 100 More Fossil Fuel Lobbyists Than Last Year' (November 2022)",
+      "what_it_is": "NGO analysis cited in Ch. 10 as the source of the 29-country figure and of the lobbyist counts for COP26, COP27 and COP28. Only the citation is in the book (notes 140 and 170); the analysis itself was not read.",
+      "page": 324
+    },
+    {
+      "name": "Business and industry groups named in Ch. 10",
+      "what_it_is": "Names of business and trade bodies (GCC, Climate Council, ICCP, World Coal Institute, IPIECA, ICC, WBCSD, IETA, OGCI, WEF), described as observers or business initiatives. A list of examples, not a classification list. OGCI is described as a club of twelve of the largest firms.",
+      "page": 312
+    },
+    {
+      "name": "InfluenceMap, Center for Climate Integrity, Climate Investigations Center",
+      "what_it_is": "Organisations the Introduction says track corporate influence on climate politics and funding. Named as sources, content not shown in the book.",
+      "page": 40
+    },
+    {
+      "name": "Ch. 10 Table 10.1: Climate Action Network 'Fossil of the Day' and 'Colossal Fossil' awards by COP",
+      "what_it_is": "A list of countries and blocs given the awards at COPs. It covers Parties, not business delegates.",
+      "page": 292
+    },
+    {
+      "name": "Ch. 3 Table 3.1: examples of actors, organisations and coalitions in various industries and sectors (printed p. 66)",
+      "what_it_is": "Title only seen; table text is scrambled in the extraction. Possibly relevant to a business sector scheme but not usable as read.",
+      "page": 87
+    }
+  ],
+  "relevant_to": [
+    "Q1",
+    "Q2",
+    "method"
+  ],
+  "pages_read": "Read in full: front matter and table of contents (PDF 1-21); Introduction, chapter 1 (PDF 22-49, printed p. 1-28); chapter 10 text and notes (PDF 291-326, printed p. 270-305); chapter 13 (PDF 385-402, printed p. 364-381). Sampled only: chapter 3 (PDF 83-87, printed p. 62-66), the actor typology and the title of Table 3.1. Not read: chapters 2 and 3 apart from the sample above, and chapters 4 to 9, 11 and 12 (PDF 50-82, 88-290, 327-384); the end of chapter 13 and the index (PDF 403-433). Printed page is PDF page minus 21.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

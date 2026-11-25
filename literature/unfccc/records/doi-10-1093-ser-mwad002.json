@@ -1,0 +1,218 @@
+{
+  "id": "doi-10-1093-ser-mwad002",
+  "citation": {
+    "authors": [
+      "Wendy Y. Li"
+    ],
+    "year": 2023,
+    "title": "Regulatory capture's third face of power",
+    "venue_or_publisher": "Socio-Economic Review, Vol. 00, No. 0, pp. 1-29 (advance article; the file held is a preprint, submitted version)",
+    "doi_or_url": "https://doi.org/10.1093/ser/mwad002",
+    "type": "journal article (ethnographic case study with theory)",
+    "peer_reviewed": "yes"
+  },
+  "question": "How can regulatory capture be defined and identified as an analytical concept? The author links cultural sociology and the 'faces of power' to capture theory. She applies this to US digital trade provisions in trade agreements.",
+  "data": "Participant observation and interviews in the US trade policy network. Content analysis of government records from FOIA requests: over 900 pages of emails between lobbyists and USTR officials, 2013-2019, plus 516 pages from 2012-2015 (the 516 pages appear to be part of the 900). Also public comments filed in the Federal Register, trade association press releases and reports, and a calendar of the USTR head obtained by FOIA. Interviews are cited from 2019. The author worked at USTR 2015-2017. The number of interviews is not stated in the passages given.",
+  "method": "Ethnographic case study. Documents, interview transcripts, fieldnotes and memos were coded in MaxQDA with constructivist grounded methods, to map cultural schemas, trace cultural arguments and conceptualize forms of interaction. Sources were triangulated. The study covers periods before and after the consensus formed (back to before 2010), so that influence can be located in time. No counting or classification of delegates or organisations.",
+  "definitions": [
+    {
+      "term": "regulatory capture",
+      "definition": "A process in which corporate lobbyists suppress alternative interests through overt impositions of will and also by shaping the cultural understandings that give rise to durable policies. It has two stages: emergence, then institutionalization.",
+      "quote": "I deﬁne regulatory capture as a process through which corporate lobbyists suppress alternative interests not merely through overt, measurable impositions of will",
+      "page": 2
+    },
+    {
+      "term": "regulatory capture (Carpenter and Moss conditions, as reported)",
+      "definition": "Agencies are captured when an identifiable public, industry or special interest exists and agencies consistently choose the industry or special interest despite evidence or statutes favouring others.",
+      "quote": "agencies consistently choose the industry/special interest over others, despite available evidence or statutes that would favor other interests",
+      "page": 3
+    },
+    {
+      "term": "network embedding",
+      "definition": "Corporations mobilize lobbyists to gain access to policy networks and the policymaking process.",
+      "quote": "Network embedding is a process in which corporations mobilize lobbyists to gain access to policy networks and the policymaking process.",
+      "page": 2
+    },
+    {
+      "term": "schema extension",
+      "definition": "Lobbyists take the existing cultural schemas of a policy network and extend them into frames that incorporate industry interests.",
+      "quote": "Schema extension occurs when these lobbyists seize upon the existing cultural schemas of a policy network and extend these schemas into frames that incorporate industry interests.",
+      "page": 2
+    },
+    {
+      "term": "lobbyist",
+      "definition": "Any individual whose job involves policy support for a non-state organization's interests before government. This is broader than the legal definition of a registered lobbyist.",
+      "quote": "I use the term lobbyist to refer to any individual whose job responsibility involves policy support for a non-state organization’s interests",
+      "page": 2
+    },
+    {
+      "term": "first face of power",
+      "definition": "Short-term conflicts with discrete boundaries, such as industry participation in rulemaking. It leaves traces as observable outcomes.",
+      "quote": "The ﬁrst-face struggles for power are typically short-term conﬂicts with discrete boundaries, for example, industry participation in rulemaking processes",
+      "page": 4
+    },
+    {
+      "term": "second face of power (agenda setting)",
+      "definition": "Medium-term episodes that define political agendas, for example ex parte meetings, coalitions crowding out dissent, and business control of information.",
+      "quote": "The second-face struggles are medium-term episodes that deﬁne political agendas",
+      "page": 4
+    },
+    {
+      "term": "third face of power",
+      "definition": "Shows itself as consensus and taken-for-granted understandings of public policy. It underlies the other two faces.",
+      "quote": "the third face of power shows itself as consensus and through taken-for-granted understandings of public policy",
+      "page": 7
+    },
+    {
+      "term": "policy domain non-member (presence)",
+      "definition": "Non-members are actors whose actions are not registered, whose presence is completely suppressed. Losers are not excluded.",
+      "quote": "non-members are those whose actions are not even registered, whose presence is completely suppressed, in policymaking processes",
+      "page": 6
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "capture, in the existing literature (first face)",
+      "indicator": "Policy outcomes: accidents, governance failures, consistent decisions favouring regulated industries. The author says this limits detection.",
+      "quote": "many scholars identify regulatory capture through policy outcomes, for example, accidents, governance failures and consistent decisions favoring regulated industries",
+      "page": 3
+    },
+    {
+      "concept": "industry access and influence in regulation (second face)",
+      "indicator": "Ex parte meetings, coalitions, business control of information (as described in the literature)",
+      "quote": "such as when interest groups pursue ex parte meetings (Libgober, 2020)",
+      "page": 4
+    },
+    {
+      "concept": "industry access and agenda-shaping in the case study",
+      "indicator": "FOIA emails and meeting records between lobbyists (Facebook, Google, Microsoft, Amazon) and USTR negotiators, and exchange of proposed treaty text",
+      "quote": "Records also indicate that these lobbyists held several in-person meetings with the USTR negotiators.",
+      "page": 15
+    },
+    {
+      "concept": "institutionalized capture (knowledge production)",
+      "indicator": "The regulator's reliance on industry testimony and interviews for its methodology",
+      "quote": "To support its methodology, USITC relied heavily on testimony from and interviews with technology lobbyists.",
+      "page": 18
+    },
+    {
+      "concept": "capture (third face)",
+      "indicator": "To detect it, examine the structure of a domain's cultural schemas, when frames were introduced, who introduced them and whether they are broadly shared across the network.",
+      "quote": "when frames were introduced, who introduced them and whether they were broadly shared across a policy network",
+      "page": 24
+    },
+    {
+      "concept": "lobbying, by registration (critiqued as a proxy)",
+      "indicator": "Lobbying registrations miss much lobbying, because many officials are 'non-covered' and many lobbyists do not register.",
+      "quote": "This obviously poses signiﬁcant methodological problems for those who rely on lobbying registrations to study regulatory processes.",
+      "page": 2
+    },
+    {
+      "concept": "material power (lobbying spending)",
+      "indicator": "Lobbying expenditure. The author notes it does not reliably correlate with favourable policy change.",
+      "quote": "lobbying expenditures do not correlate with favorable policy change (Baumgartner et al., 2009)",
+      "page": 7
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The author argues that the capture literature mostly relies on the first and second faces of power, and that a third, cultural face is needed.",
+      "quote": "I argue that the capture literature typically relies on the ﬁrst and second faces of power to detect capture",
+      "page": 2
+    },
+    {
+      "claim": "US digital trade policy is presented as a case of capture: technology lobbyists used cultural influence and institutionalized their interests in trade law.",
+      "quote": "Through knowledge production regimes and recursive institutional reproduction, the US technology companies captured the US trade policy.",
+      "page": 25
+    },
+    {
+      "claim": "Capture can coexist with visible conflict. Competing groups remain, but they share a vocabulary of the 'public interest'.",
+      "quote": "this does not mean a regulatory domain is completely free of observable conﬂict",
+      "page": 7
+    },
+    {
+      "claim": "Capture cannot be reduced to material resources. Lobbyists must also mobilize cultural and relational resources.",
+      "quote": "the third face of regulatory capture cannot be reduced to material power alone",
+      "page": 7
+    },
+    {
+      "claim": "A single policy adoption is not enough to prove capture. The evidence is the institutionalization that follows.",
+      "quote": "this single occurrence of policy adoption is insufﬁcient to prove regulatory capture itself",
+      "page": 16
+    },
+    {
+      "claim": "The consensus appears natural to insiders. Alternatives can be seen only by tracing history and comparing other jurisdictions, for example EU policy.",
+      "quote": "we cannot observe alternative interests in the current moment, but instead must trace historical shifts and look outside the regulatory domain",
+      "page": 23
+    },
+    {
+      "claim": "The regulator's economic measure (the benefit of policy certainty) was applied only to the technology sector.",
+      "quote": "Their assumption that policy certainty would lead to economic growth only applied to the technology sector",
+      "page": 18
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Capture is hard to define and measure. Definitions vary, and capture is often assumed without proof.",
+      "stated_by_authors": true,
+      "quote": "capture is treated dichotomously, and industry inﬂuence is often assumed without being proven",
+      "page": 3
+    },
+    {
+      "point": "Capture can be misattributed unless the timing of actors' influence is established.",
+      "stated_by_authors": true,
+      "quote": "Capture can be misattributed unless one temporally locates when inﬂuence was exerted by speciﬁc actors",
+      "page": 9
+    },
+    {
+      "point": "The author's own prior employment at USTR is a positionality point. She used 'alternative casing' to defamiliarize herself.",
+      "stated_by_authors": true,
+      "quote": "having been employed at USTR from 2015 to 2017",
+      "page": 10
+    },
+    {
+      "point": "Observations and interviews covered only specific periods, so documents were added to fill gaps.",
+      "stated_by_authors": true,
+      "quote": "my observations and interviews were limited to speciﬁc time periods of the policy formation process",
+      "page": 10
+    },
+    {
+      "point": "The single case is a US trade policy case, not UNFCCC. The author says the framework could be applied widely but has not tested this.",
+      "stated_by_authors": true,
+      "quote": "can be applied widely and is supported by research in other policy domains",
+      "page": 24
+    },
+    {
+      "point": "Only 35 of 141 passages were read, and the passages on findings pages 11-13, 17 and 19-22 were mostly not given. No instructions to a reader or AI were seen in the passages read.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "FOIA records from USTR",
+      "what_it_is": "Over 900 pages of emails between technology lobbyists and USTR officials, 2013-2019. The author's calendar of the USTR head is on her website.",
+      "page": 10
+    },
+    {
+      "name": "Federal Register public comments and trade association reports",
+      "what_it_is": "Public comments on copyright and digital-trade measures, USITC investigations and annual trade reports, plus tech trade association press releases",
+      "page": 10
+    },
+    {
+      "name": "Carpenter and Moss (2014), Preventing Regulatory Capture",
+      "what_it_is": "Edited volume cited for conditions defining capture",
+      "page": 26
+    },
+    {
+      "name": "Rex (2020)",
+      "what_it_is": "Cited for the critique of capture definitions and for the split between material and cultural sources of capture. Full reference not in the passages read.",
+      "page": 3
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "selected by code: 35 of 141 passages, 3983 of 14590 words, from pages 1-4, 6-10, 12, 14-16, 18, 23-27 of 29; chosen for definitions, indicators, method, findings and limitations; the rest was not read. No extra pages searched. The file is a preprint (submitted version)."
+}

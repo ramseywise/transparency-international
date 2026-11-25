@@ -1,0 +1,128 @@
+{
+  "id": "fossilfreepolitics-europe-brings-gas-lobbyists-to-cop29-to-strike-deal",
+  "citation": {
+    "authors": [],
+    "year": 2024,
+    "title": "Europe brings gas lobbyists to COP29 to strike deals",
+    "venue_or_publisher": "Fossil Free Politics (press release, dated Brussels, 18 November 2024; research attributed to the Kick Big Polluters Out coalition)",
+    "doi_or_url": "https://fossilfreepolitics.org/news/europe-brings-gas-lobbyists-to-cop29-to-strike-deals/",
+    "type": "campaign press release (web page)",
+    "peer_reviewed": "no"
+  },
+  "question": "How many fossil fuel lobbyists did EU member state governments bring into their official COP29 delegations, and from which companies. The page does not state a formal research question.",
+  "data": "Not described on this page beyond 'new research by the Kick Polluters Out Coalition' on COP29 (Baku). The page does not name the underlying list (for example the UNFCCC participant list), the date it was downloaded or the number of delegates screened. A full list of delegates is 'available upon request'. The page links to a separate page (kickbigpollutersout.org/COP29FossilFuelLobbyists) that was not read.",
+  "method": "Only a definition of 'fossil fuel lobbyist' is given on this page (see definitions). How individual delegates were matched to organisations, which sources were used to judge an organisation as fossil fuel-linked, and how the delegation (Party badge or overflow) was determined are not stated.",
+  "definitions": [
+    {
+      "term": "fossil fuel lobbyist",
+      "definition": "Any individual delegate who represents an organisation, or is a member of a delegation, that can reasonably be assumed to aim to influence policy or legislation in the interests of the fossil fuel industry or a particular fossil fuel company and its shareholders.",
+      "quote": "any individual delegate that represents an organisation or is a member of a delegation that can be reasonably assumed to have the objective of influencing the formulation or implementation of policy or legislation in the interests of the fossil fuel industry",
+      "page": "Notes to the editor, para 17"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "lobbyist inside a European government delegation",
+      "indicator": "Individual delegate registered as part of an EU national government's official delegation who represents a fossil fuel company (examples given at organisation level: gas utilities, a pipeline operator, a national oil company, oil majors). The page does not say which field of the participant list was used.",
+      "quote": "The lobbyists have entered the UN climate talks in Baku as part of the official delegations of the EU national governments",
+      "page": "Main text, para 1"
+    },
+    {
+      "concept": "fossil fuel lobbyist (general)",
+      "indicator": "Reasonable assumption about the objective of the delegate's organisation or delegation; the test is an assumed objective, not a stated affiliation list or a fixed classification of organisations.",
+      "quote": "can be reasonably assumed to have the objective of influencing the formulation or implementation of policy or legislation",
+      "page": "Notes to the editor, para 17"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "EU national governments brought 113 fossil fuel lobbyists in their COP29 delegations.",
+      "quote": "EU governments brought 113 fossil fuel lobbyists to COP29, according to new research by the Kick Polluters Out Coalition.",
+      "page": "Main text, para 1"
+    },
+    {
+      "claim": "Country counts: Greece 24, Italy 22, Sweden 17, Belgium 13, Denmark 10, Bulgaria 9, Romania 7, Hungary 5, Portugal 5, Netherlands 1. These ten counts add up to 113 (checked by the reader).",
+      "quote": "Greece (24), Italy (22), Sweden (17), Belgium (13), Denmark (10), Bulgaria (9), Romania (7), Hungary (5), Portugal (5), Netherlands (1).",
+      "page": "Notes to the editor, para 18"
+    },
+    {
+      "claim": "Greece and Italy had the largest fossil fuel delegations among EU member states, mostly from gas companies.",
+      "quote": "Greece and Italy had the largest fossil fuel delegations among EU member states, bringing 24 and 22 lobbyists respectively, the vast majority from gas companies.",
+      "page": "Main text, para 2"
+    },
+    {
+      "claim": "Organisation-level examples inside government delegations: Italy brought seven from Italgas (the largest single-company group from an EU state); Belgium brought six from Fluxys; both Greece and Italy brought people from SOCAR; Greece brought two from Trans Adriatic Pipeline; Sweden's group included staff from E.ON.",
+      "quote": "Italy for instance brought seven lobbyists from Italgas, which was the single biggest fossil fuel delegation brought by an EU member state.",
+      "page": "Main text, para 5"
+    },
+    {
+      "claim": "The European Commission brought no fossil fuel lobbyists to COP29, unlike COP28.",
+      "quote": "The European Commission did not bring any fossil fuel lobbyists this year",
+      "page": "Main text, para 7"
+    },
+    {
+      "claim": "Across all of COP29 the coalition identified 1773 fossil fuel lobbyists; the page says COP29 was about half the size of COP28 but fossil fuel lobbyists were a larger share of participants.",
+      "quote": "Kick Big Polluters Out identified 1773 fossil fuel lobbyists at COP29",
+      "page": "Notes to the editor, para 16"
+    },
+    {
+      "claim": "The page says COP29 had about half the participants of COP28 and that the fossil fuel share rose (no figures given for either share).",
+      "quote": "this year's COP is fifty percent smaller than last year's talks in Dubai– but fossil fuel lobbyists make up an even larger share of total participants this year.",
+      "page": "Main text, para 9"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "This is a short press release, not the full research output. The counting method, data source, download date, handling of badge type (Party badge vs overflow) and of organisations judged fossil fuel-linked are not described, so the 113 cannot be reproduced from this page alone.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The definition rests on what can be 'reasonably assumed' about an organisation's objective, a judgement test with no stated criteria or list of organisations. Several of the named organisations (for example gas distribution and pipeline operators) show the category includes gas, not only oil and coal.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The underlying delegate list is not published on the page; it is given only on request.",
+      "stated_by_authors": true,
+      "quote": "A full list of delegates is available upon request",
+      "page": "Main text, para 10"
+    },
+    {
+      "point": "Authors are campaign groups with an advocacy aim (limits on fossil fuel lobbyists); the page mixes findings with argument and calls to action. The 'Italgas' 'biggest delegation' statement refers to the largest single-company group, not to Italy's total.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Not clear whether the 113 includes only people on Party badges inside delegations or also overflow badges; the page says only 'official delegations'.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Only the saved page text was read; the linked coalition page that may hold the method (kickbigpollutersout.org/COP29FossilFuelLobbyists) was not read. The page contains no instructions to a reader or an AI.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Kick Big Polluters Out COP29 fossil fuel lobbyist list",
+      "what_it_is": "Coalition analysis of COP29 delegates linked from the page (kickbigpollutersout.org/COP29FossilFuelLobbyists); a full delegate list is said to be available on request from the Corporate Europe Observatory contact. Not read.",
+      "page": "Notes to the editor, paras 16-17; Main text, para 10"
+    },
+    {
+      "name": "Earlier Fossil Free Politics release on COP28",
+      "what_it_is": "Linked page 'EU floods COP28 climate talks with fossil fuel lobbyists' on the previous year's EU delegation. Not read.",
+      "page": "Main text, para 7"
+    }
+  ],
+  "relevant_to": ["Q2", "method", "context"],
+  "pages_read": "Full saved text of the web page (20 paragraphs, about 800 words), read from the extracted JSON. It is a press release, not the full research or method; linked pages were not read.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

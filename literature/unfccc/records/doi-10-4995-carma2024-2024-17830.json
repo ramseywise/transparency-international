@@ -1,0 +1,119 @@
+{
+  "id": "doi-10-4995-carma2024-2024-17830",
+  "citation": {
+    "authors": ["Carlo Bottai", "Francesco Trentini", "Anna Velyka"],
+    "year": 2024,
+    "title": "Augmenting the Italian Third Sector registry using non-profit organisations' websites",
+    "venue_or_publisher": "6th International Conference on Advanced Research Methods and Analytics (CARMA 2024), Universitat Politecnica de Valencia, Valencia, 26-28 June 2024",
+    "doi_or_url": "https://doi.org/10.4995/carma2024.2024.17830",
+    "type": "conference paper, published proceedings version (8 pages, with conference header and how-to-cite line)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "How to enrich the Italian Third Sector register (RUNTS) by finding a website for each registered non-profit organisation and using the website text to classify its areas of activity (ICNPO categories) and other dimensions.",
+  "data": "RUNTS register: 123,221 Third Sector Entities (ETS), with tax code, business name, legal type, headquarter municipality, enrolment date, legal representative (data set retrieved 2024-03-14). Web search results from Bing (up to ten per entity) and scraped pages of the matched websites. Quality check on a random sample of 119 ETS.",
+  "method": "Matching: clean the register's business name, tax code and legal form, query Bing combining them, keep up to ten results, keep only web domains and drop domains linked to several ETS. Loop over the remaining domains, giving priority to high textual similarity with the business name and to high search rank; scrape the home page and pages such as 'about us' or 'contacts'; accept a domain as a match if the page names the tax code, the county of the headquarters or the full name of the legal person; stop at the first positive match. Quality check: 119 random ETS (representative by NUTS 2 area and legal type); first Bing result only; an automatic classifier labelled each of 81 retrieved websites as match or no match, and the authors checked the same cases manually. Classification (planned, not yet reported as done): clean website text, turn it into numeric features (bag-of-words, word embeddings), parse ICNPO category descriptions for keywords, train supervised classifiers (Naive Bayes, SVM, decision trees, CNN, BERT) on the ETS that already declare an ICNPO category in RUNTS, test on a held-out stratified split with accuracy, precision, recall and F1. Other dimensions (beneficiaries, projects, stakeholders, funding) are being tested.",
+  "definitions": [
+    {
+      "term": "Third Sector Entity (ETS)",
+      "definition": "Legal status under the 2017 Italian Third Sector Code, listed in the national register RUNTS; the Code sets seven categories of ETS.",
+      "quote": "The Code institutes seven main categories of Third Sector Entities",
+      "page": 2
+    },
+    {
+      "term": "Non-profit entity",
+      "definition": "Entity that operates on market principles and efficient use of production factors but does not pursue profit; keeps the surplus within the entity.",
+      "quote": "operate following market principles and an efficient use of production factors, while not pursuing profit",
+      "page": 2
+    },
+    {
+      "term": "ICNPO (International Classification of Non-Profit Organisations)",
+      "definition": "United Nations classification of non-profit organisations by activity, primary purpose and mission; 12 macro and 39 subcategories, each with a short description.",
+      "quote": "the ICNPO classification has 12 macro and 39 subcategories",
+      "page": 4
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "An organisation's own website (organisation matched to website)",
+      "indicator": "A web domain from the search results whose home, 'about us' or contact pages name the organisation's tax code, headquarter county or full legal name.",
+      "quote": "we scrape a few pages of this domain hoping to find at least one information piece that can verify the matching between the web domain detected and the ETS under scrutiny",
+      "page": 3
+    },
+    {
+      "concept": "Candidate ordering when several domains are found",
+      "indicator": "Textual similarity between domain and business name, and rank in the search results; first positive match ends the search.",
+      "quote": "While looping over the domains retrieved on Bing, we give priority to those with high textual similarity to the ETS",
+      "page": 3
+    },
+    {
+      "concept": "Actual field of activity of a non-profit",
+      "indicator": "Text of the organisation's website, used instead of the self-declared ICNPO field in the register.",
+      "quote": "ETS’ web pages are a rich source of information on the actual activities put in place by the ETSs.",
+      "page": 4
+    }
+  ],
+  "findings": [
+    {
+      "claim": "In a random sample of 119 ETS, a web domain was found by Bing for 103 (86.6%).",
+      "quote": "we detected at least a web domain for 103 of them (86.6%)",
+      "page": 3
+    },
+    {
+      "claim": "Scraping the first result retrieved a website for 81 of those 103 (78.6%).",
+      "quote": "The scraper has been able to retrieve the website of 81 ETSs (78.6%).",
+      "page": 3
+    },
+    {
+      "claim": "Automatic match/no-match classifier against manual inspection of 81 cases: 31 true positives, 39 true negatives; sensitivity 81.6%, specificity 90.7%.",
+      "quote": "Therefore, the classifier shows high sensitivity (81.6%) and specificity (90.7%).",
+      "page": 4
+    },
+    {
+      "claim": "The register's own activity field is self-declared and optional, so it may understate real activity; this motivates the website-based classification.",
+      "quote": "Nonetheless, the information is self-declared and not compulsory.",
+      "page": 4
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The matching results are preliminary and the search-engine step is the main weakness; only the first result was used in the test.",
+      "stated_by_authors": true,
+      "quote": "Even though further development is needed, we believe that these preliminary results are encouraging.",
+      "page": 4
+    },
+    {
+      "point": "The matching test rests on one small sample (119 entities, 81 checked cases); no confidence intervals given. The manual check was by the authors, with no second coder or agreement figure stated.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The activity classifier is described as a plan; no accuracy, precision, recall or F1 results for ICNPO classification are reported.",
+      "stated_by_authors": false,
+      "quote": "Several metrics will be calculated to demonstrate the effectiveness of the suggested classification model.",
+      "page": 5
+    },
+    {
+      "point": "Web data are heterogeneous and need care to judge what they represent.",
+      "stated_by_authors": true,
+      "quote": "a lot of attention is needed to understand the veracity of these data",
+      "page": 6
+    },
+    {
+      "point": "Covers Italian non-profit organisations only; no for-profit, sector scheme, delegation or fossil fuel content. Text was Italian-language web pages. No large language model is used. No instructions addressed to a reader or AI were found in the file.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {"name": "RUNTS (Registro Unico Nazionale del Terzo Settore)", "what_it_is": "Italian national register of Third Sector Entities, run by the Ministry of Labour and Social Policies; 123,221 entities; retrieved 2024-03-14.", "page": 3},
+    {"name": "ICNPO (UN, 2018)", "what_it_is": "Classification of non-profit organisations used as the target categories.", "page": 4},
+    {"name": "ATECO / NACE", "what_it_is": "Italian version of the EU economic activity classification; the authors say it has too few categories for non-profits (12 ICNPO macro categories correspond to 5 ATECO macro categories).", "page": 4},
+    {"name": "Related matching and classification work cited", "what_it_is": "van Delden et al. (2019) on searching for business websites; Barcaroli et al. (2016) and Bottai et al. (2022) on identifying enterprises on the web; Litofcenko et al. (2020), Ma (2021), Damm and Kane (2022) on classifying non-profits from text. Listed in the references, not read.", "page": 7}
+  ],
+  "relevant_to": ["method"],
+  "pages_read": "1-8 (all)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

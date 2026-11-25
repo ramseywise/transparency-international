@@ -1,0 +1,273 @@
+{
+  "id": "doi-10-1080-09644016-2022-2087353",
+  "citation": {
+    "authors": ["Marcel Hanegraaff"],
+    "year": 2023,
+    "title": "When does the structural power of business fade? assessing business privileged access at global climate negotiations",
+    "venue_or_publisher": "Environmental Politics, 32(3), 427-451 (Taylor & Francis); published online 27 June 2022",
+    "doi_or_url": "https://doi.org/10.1080/09644016.2022.2087353",
+    "type": "journal article",
+    "peer_reviewed": "yes"
+  },
+  "question": "Which non-state actors, business groups or NGOs, gain privileged access to policymakers at UN climate conferences, measured as being included in a country (Party) delegation rather than attending only as an observer, and how this varies with a country's wealth, fossil-fuel dependency, democracy and climate vulnerability.",
+  "data": "Organisations that attended UN climate conferences (COPs) 1997-2012 either as observers or as members of official country delegations, taken from UNFCCC participant information and coded from organisations' websites. Stated sizes are not consistent across the text: abstract n = 3,734 business groups and NGOs (804 in delegations, 2,930 observers, 136 countries); research design 6,665 observer organisations and 1,231 delegation organisations before coding; the regression uses 3,552 organisations (text also says 3,666 with 806 in delegations). Country data from the World Bank, Polity IV and a UNEP-linked environmental vulnerability index. Appendix 1 describes a wider coded dataset of over 6,300 organisations at COPs 1997-2015.",
+  "method": "Research assistants coded each organisation from its website (region or country, issue areas, constituency base, organisation type); doubtful cases were flagged and the author decided. Group type was coded business versus NGO. Dependent variable: in a country delegation (1) or observer only (0). Mixed-effects logit regressions with country random intercepts, interactions of group type with GDP per capita, a World Bank clean-energy indicator (used for fossil-fuel dependency), Polity IV democracy and environmental vulnerability. Descriptive step: per country, share of business among delegation organisations minus share of business among observers. Only national interest groups (those aiming at their own country's politics) are analysed. No language model was used.",
+  "definitions": [
+    {
+      "term": "business organizations",
+      "definition": "Business associations (including peak-level business organisations) and individual firms; they seek economic benefits.",
+      "quote": "Business organizations include business associations (sometimes referred to as peak-level business organizations) as well as individual firms.",
+      "page": 11
+    },
+    {
+      "term": "business organizations (as contrasted with NGOs)",
+      "definition": "Groups that seek economic benefits, such as business associations and firms.",
+      "quote": "Business organizations seek economic benefits, such as business associations and firms.",
+      "page": 3
+    },
+    {
+      "term": "NGOs",
+      "definition": "Groups that rely directly or indirectly on individual citizens' support and/or defend interests beyond the economic interests of their own constituency.",
+      "quote": "NGOs include all organizations that rely, either directly or indirectly, on support from individual citizens and/or defend interests that transcend the individual economic interests of the supporting constituency.",
+      "page": 11
+    },
+    {
+      "term": "privileged access",
+      "definition": "Regular access to policymakers at the meetings, as opposed to situational or no access. In the empirical work it is operationalised as inclusion in a country delegation.",
+      "quote": "Privileged access refers to a situation in which non-state actors have regular access to policymakers at the meetings",
+      "page": 3
+    },
+    {
+      "term": "national interest groups",
+      "definition": "Groups that explicitly stated that their objective was to influence the politics of their own country of origin; organisations with members and aims across countries are excluded.",
+      "quote": "This is coded as groups which explicitly stated that their objective was to influence the political processes of their country of origin, not other countries.",
+      "page": 26
+    },
+    {
+      "term": "clean energy (basis of the fossil-fuel dependency measure)",
+      "definition": "Non-carbohydrate energy that does not produce carbon dioxide when generated (hydropower, nuclear, geothermal, solar and others); the indicator is its share of total energy use in a country.",
+      "quote": "Clean energy is ‘noncarbohydrate energy that does not produce carbon dioxide when generated.",
+      "page": 12
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "inclusion of an organisation in a country (Party) delegation",
+      "indicator": "Appearing on the official country delegation lists at the COPs (from UNFCCC information); the dependent variable is delegation (1) versus observer only (0).",
+      "quote": "The dependent variable in my study is being active at a conference as an observer (=0) or being active in a country delegation (=1).",
+      "page": 10
+    },
+    {
+      "concept": "who selects delegation members",
+      "indicator": "National politicians approve the delegation and send names to the UNFCCC secretariat, so delegation membership is taken to show which organisations national policymakers choose to give access.",
+      "quote": "The selection of organizations to participate in country delegations is made within countries by national politicians who need to approve the formal delegations and send these names to the UNFCCC secretariat.",
+      "page": 10
+    },
+    {
+      "concept": "source of the delegation list",
+      "indicator": "The same UNFCCC source used for observers; 1,231 organisations mapped before coding.",
+      "quote": "Second, based on the same source, I mapped all organizations that were included in the official country delegations at the COPs (n = 1,231).",
+      "page": 10
+    },
+    {
+      "concept": "organisation type (business, NGO, other)",
+      "indicator": "Manual coding by research assistants from each organisation's own website (or secondary sources); the coded fields include organisation type (business, NGO, labor union, etc.).",
+      "quote": "what type of organization they are (business, NGO, labor union, etc.)",
+      "page": 26
+    },
+    {
+      "concept": "coding source for organisations",
+      "indicator": "Individual organisation websites.",
+      "quote": "All identified organizations were coded based on their individual websites.",
+      "page": 26
+    },
+    {
+      "concept": "handling of doubtful cases",
+      "indicator": "Assistant flags the organisation and the author makes the final decision (no second coder or agreement statistic is stated in the text).",
+      "quote": "In case of doubt, the assistant flagged the organization and I made the final decision.",
+      "page": 10
+    },
+    {
+      "concept": "business delegates hidden behind non-profit observer organisations",
+      "indicator": "Both individual participants and their affiliated organisations were coded, so firms that attend as part of a non-profit organisation's delegation are counted as business.",
+      "quote": "This is because both participants and their affiliated organizations are coded, while former studies have coded official observers only.",
+      "page": 25
+    },
+    {
+      "concept": "firms attending as observers",
+      "indicator": "Firms register as members of an official observer delegation to get round the non-profit rule.",
+      "quote": "firms cope with these official requirements by registering as a member of an official observer delegation (see Appendix 1)",
+      "page": 9
+    },
+    {
+      "concept": "fossil-fuel dependency (country level only)",
+      "indicator": "World Bank alternative and nuclear energy indicator: the percentage of clean energy in total energy use in the country. Lower clean-energy share is read as higher fossil-fuel dependency. It describes the country, not any organisation.",
+      "quote": "I rely on the World Bank alternative and nuclear energy indicator, which is measured as the percentage of ‘clan energy’ of total energy use in a country.",
+      "page": 12
+    },
+    {
+      "concept": "business bias in a country's delegation",
+      "indicator": "Percentage of business groups in the country's delegations minus the percentage of business groups among the country's observers.",
+      "quote": "the percentage of businesses as observers from a country is subtracted from the percentage of businesses in the delegation.",
+      "page": 12
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Business organisations make up a much larger share of delegation organisations than of observers (26% of observers, 58% of delegation organisations).",
+      "quote": "In the observer community only 26% is a business group; in the delegations this figure is 58%.",
+      "page": 14
+    },
+    {
+      "claim": "On average, delegations contain 29 percentage points more business than the observer community (the text writes '29% more').",
+      "quote": "More precisely, on average delegations contain 29% more business groups than the observer community.",
+      "page": 14
+    },
+    {
+      "claim": "Predicted chance of being in a delegation is higher for business (almost a quarter) than for NGOs (17%).",
+      "quote": "Here, one can see that almost a quarter of all business organizations are part of the country delegations, whereas only 17% of the NGOs has been able to gain such privileged access.",
+      "page": 15
+    },
+    {
+      "claim": "Business has nearly double the chance of being in a country delegation compared with an NGO.",
+      "quote": "a business organization has almost double the chance of being part of a country delegation as an NGO",
+      "page": 20
+    },
+    {
+      "claim": "Business advantage differs by country: some countries' delegations contain only business groups, others favour NGOs. (Individual countries are named in the paper.)",
+      "quote": "Some countries only host business groups in their delegation; other countries distribute access quite evenly",
+      "page": 14
+    },
+    {
+      "claim": "Business advantage is largest in poor countries (about 50% chance for business versus about 15% for NGOs at low development) and fades in the richest.",
+      "quote": "at low levels of development, the chance of a business group being included is almost 50%, whereas the chance of an NGO being included in a delegation is around 15%",
+      "page": 16
+    },
+    {
+      "claim": "In countries that depend mostly on fossil fuels, business gains more access; where 25% or more of energy is clean, NGOs gain more. This is a country-level result, not a share of fossil-fuel organisations in delegations.",
+      "quote": "In countries which are for the most part dependent on fossil fuels (up to 15% of their energy supply is not provided by fossil fuels), we see that business actors gain more privileged access to policymakers.",
+      "page": 17
+    },
+    {
+      "claim": "Even at the highest climate vulnerability business is not overtaken by NGOs in delegations.",
+      "quote": "there is no climate threat high enough to favor NGOs over businesses",
+      "page": 19
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The classification is only business versus NGO; it does not separate sectors. Fossil-fuel linkage of any organisation is not identified or counted anywhere; fossil fuel enters only as a country-level energy indicator. The paper gives no figure for fossil-fuel organisations in delegations.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The author calls the business/NGO distinction crude, and says the data did not allow finer analysis (for example by sector or by climate position).",
+      "stated_by_authors": true,
+      "quote": "Second, in this paper, I made a rather crude distinction between business groups and NGOs.",
+      "page": 21
+    },
+    {
+      "point": "Business groups differ in their stance on climate regulation, which the study cannot show.",
+      "stated_by_authors": true,
+      "quote": "not all business groups stand on the same side of the political debate",
+      "page": 21
+    },
+    {
+      "point": "The large-scale coding could not support more specific analysis.",
+      "stated_by_authors": true,
+      "quote": "The large-scale nature of the data unfortunately did not allow for more specified analysis",
+      "page": 22
+    },
+    {
+      "point": "Being in a delegation shows access, not influence.",
+      "stated_by_authors": true,
+      "quote": "A first limitation is that there is obviously no guarantee that policymakers will listen to non-state actors being included in the delegation each and every time.",
+      "page": 21
+    },
+    {
+      "point": "Organisations with no information found were left out; the share is given inconsistently (under 1% in the main text, about 5% in Appendix 1).",
+      "stated_by_authors": true,
+      "quote": "Only for about 5%, no information at all was found regarding the organization.",
+      "page": 26
+    },
+    {
+      "point": "Organisations active across many countries (such as Greenpeace and Oxfam) are excluded, so the sample is national groups only; the result is not a count of all delegation members.",
+      "stated_by_authors": true,
+      "quote": "This excludes organizations such as Greenpeace and Oxfam, because they have members across the globe",
+      "page": 26
+    },
+    {
+      "point": "Sample sizes are inconsistent in the text (3,734 versus 3,666 versus 3,552 organisations; 804 versus 806 in delegations; 6,665 and 1,231 raw counts; periods 1997-2012 versus 1997-2015 in the appendix). The 58% and 26% shares are from a 72-country descriptive figure, not stated for the full sample.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "No intercoder agreement, validation sample or accuracy figure for the website coding is reported in the extracted text. The wording of the coding rules for assigning business versus NGO is brief, and Appendix 1 gives no further rules.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Data cover COPs 1997-2012 only, not recent conferences, and the unit is an organisation recorded in delegation lists, not a count of individual delegates. Conclusions about the 2020s cannot be drawn from it.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The extracted text has garbled tables and figures (Table 2 coefficients are readable only roughly; figures are axis labels only), so only numbers given in the prose are used. The author field in the extracted file is empty; the author name is taken from the article text. The extracted file's 'published' date (2023-04-26) differs from the print citation (2023, vol. 32) and online date (27 Jun 2022). No instructions addressed to a reader or an AI were found.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "context_notes": [
+    {
+      "point": "UNFCCC formally requires observers to be non-profit; firms get around it via observer delegations.",
+      "quote": "as one formal prerequisite to attend the conferences is that an organization is a non-profit establishment.",
+      "page": 9
+    },
+    {
+      "point": "Country delegation membership brings closed-meeting access (country badges) and regular contact with negotiators.",
+      "quote": "These organizations acquire country badges, which allow them to attend closed meetings at the conferences.",
+      "page": 10
+    },
+    {
+      "point": "Observer admission is wide open, so almost any organisation can attend.",
+      "quote": "This means that almost all organizations that want to participate, can participate as an observer.",
+      "page": 9
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC participant lists (observers and country delegations), COPs 1997-2012",
+      "what_it_is": "Public lists of observer organisations and organisations in official country delegations, used as the base and coded from websites by the author's team. The coded dataset itself is not stated to be published in the text.",
+      "page": 10
+    },
+    {
+      "name": "World Bank alternative and nuclear energy indicator (EG.USE.COMM.CL.ZS)",
+      "what_it_is": "Country share of clean energy in total energy use; used as the inverse measure of fossil-fuel dependency",
+      "page": 12
+    },
+    {
+      "name": "Polity IV index",
+      "what_it_is": "Country democracy score from -10 to 10",
+      "page": 12
+    },
+    {
+      "name": "Environmental vulnerability index (South Pacific Applied Geoscience Commission and UNEP)",
+      "what_it_is": "Country vulnerability to climate change",
+      "page": 12
+    },
+    {
+      "name": "Reference list (about 45 works)",
+      "what_it_is": "Includes Falkner 2017 (business power in international environmental politics), Bohmelt 2013 (civil society in UNFCCC delegations), Nordang-Uhre 2014, Hanegraaff 2015a/b, Fisher 2010",
+      "page": 23
+    }
+  ],
+  "relevant_to": ["Q1", "Q2", "method", "context"],
+  "pages_read": "All 26 pages of the extracted text (the full article, references and Appendices 1 and 2, plus the link list). Tables and figures are only partly legible in the text; no part of the document is missing.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

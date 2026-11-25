@@ -1,0 +1,174 @@
+{
+  "id": "doi-10-3384-diss-diva-123295",
+  "citation": {
+    "authors": [
+      "Naghmeh Nasiritousi"
+    ],
+    "year": 2016,
+    "title": "Shapers, Brokers and Doers: The Dynamic Roles of Non-State Actors in Global Climate Change Governance",
+    "venue_or_publisher": "Linköping Studies in Arts and Science No. 667, Linköping University, Department of Thematic Studies – Environmental Change",
+    "doi_or_url": "https://doi.org/10.3384/diss.diva-123295",
+    "type": "doctoral thesis (compilation thesis with five appended papers)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "How non-state actors (including business groups) are involved in UNFCCC climate governance. The thesis asks why states open up space for them (RQ1) and what governance activities and roles they carry out (RQ2). It does not count delegates or classify fossil-linked organisations.",
+  "data": "International Negotiations Survey: about 8000 responses from COP delegates since COP 13 (2007). The thesis does not give the sample size used for each paper. 18 semi-structured interviews (May 2011-May 2012) and 5 interviews (Dec 2014-Oct 2015; four senior staff of major oil and gas companies, one from the climate change division of another organisation). Content analysis of 959 side-event abstracts from COP 15-18 (2009-2012). Document analysis and observations. Figure 1 uses UNFCCC data on participation at COPs 1997-2014.",
+  "method": "Mixed methods. Questionnaire results are analysed with t-tests and chi-square tests in SPSS. The interviews are semi-structured. Side-event abstracts are coded with iteratively chosen keywords. 'Governance profiles' measure how often each category of non-state actor is recognised for particular governance activities.",
+  "definitions": [
+    {
+      "term": "non-state actor",
+      "definition": "Any group involved in international relations that is not a sovereign state, excluding armed groups. The term is broad, loosely used and poorly defined in the literature, and the state/non-state boundary is blurred.",
+      "quote": "generally defined as any group involved in international relations that is not a sovereign state, while excluding armed groups (Büthe 2004)",
+      "page": 20
+    },
+    {
+      "term": "pink badge (non-state actors in Party delegations)",
+      "definition": "Several state Parties include non-state actors in their delegations. These people receive a pink badge and are restricted in what they can say and do.",
+      "quote": "several state parties include non-state actors in their delegations, whereby they receive a pink badge",
+      "page": 21
+    },
+    {
+      "term": "for-profit organisations at the UNFCCC (observer admission)",
+      "definition": "Footnote 8: for-profit organisations cannot be accredited as observers and must join trade organisations and similar bodies.",
+      "quote": "For-profit organisations cannot be accredited but must join trade organisations etc.",
+      "page": 21
+    },
+    {
+      "term": "observer constituencies / badge colours",
+      "definition": "Observer organisations are grouped into constituencies, including ENGOs, RINGOs and BINGOs. Intergovernmental organisations wear green badges and UN organisations blue. Yellow badges were changed from 'Non-governmental' to 'Observer' in 2014.",
+      "quote": "Intergovernmental organisations wear green badges and UN organisations blue.",
+      "page": 21
+    },
+    {
+      "term": "shapers / brokers / doers",
+      "definition": "Brokers of knowledge, norms and initiatives influence actors in positions of power, for example through lobbying or partnerships. Shapers share information and ideas, for example through reports. Doers change outcomes through their own actions, for example company investment decisions.",
+      "quote": "Brokers of knowledge, norms and initiatives refers to activities aimed at directly influencing actors in positions of power to act in certain ways, for example through lobbying",
+      "page": 55
+    },
+    {
+      "term": "governance profile",
+      "definition": "A systematic measure of the roles a category of non-state actor is attributed in climate governance. It is the combination of governance activities for which that category has gained recognition.",
+      "quote": "A governance profile refers to a systematic measure of the roles a category of non-state actor is attributed in (climate) governance.",
+      "page": 51
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "state/non-state status of a delegate",
+      "indicator": "Badge colour. Non-state actors inside Party delegations receive a pink badge, and observers hold yellow badges.",
+      "quote": "several state parties include non-state actors in their delegations, whereby they receive a pink badge",
+      "page": 21
+    },
+    {
+      "concept": "business / industry observers",
+      "indicator": "Membership of the BINGO constituency. For-profit firms are not accredited directly but go through trade organisations.",
+      "quote": "For-profit organisations cannot be accredited but must join trade organisations etc.",
+      "page": 21
+    },
+    {
+      "concept": "oil and gas company influence",
+      "indicator": "Company outlook reports on the energy mix, which present the companies' views on policy. Oil and gas companies were studied through interviews with senior staff (Paper IV).",
+      "quote": "outlook reports about the world’s energy mix that some oil and gas companies issue",
+      "page": 56
+    },
+    {
+      "concept": "agency of non-state actor categories",
+      "indicator": "Share of survey respondents who attribute governance activities to a category, for example raising awareness (ENGOs 73%).",
+      "quote": "raising awareness (ENGOs 73%), providing expertise (RINGOs 67%) and representing marginalised voices (IPO 60%)",
+      "page": 51
+    }
+  ],
+  "findings": [
+    {
+      "claim": "BINGOs (business and industry NGOs), ENGOs and RINGOs were the largest observer constituencies at COP 20 (Lima, 2014).",
+      "quote": "ENGOs, RINGOs and BINGOs constituted the largest groups attending the Lima conference in 2014",
+      "page": 21
+    },
+    {
+      "claim": "Observer interest has grown so much that the UNFCCC introduced a quota system for observer access.",
+      "quote": "the UNFCCC introduced a quota system for observer access to the conferences",
+      "page": 21
+    },
+    {
+      "claim": "Business groups, together with IGOs and to some extent local government and municipal associations, are recognised mainly for influence and action. No single category is strong across all governance activities.",
+      "quote": "i) influence and action (largely BINGOs and IGOs, and to some extent LGMAs)",
+      "page": 51
+    },
+    {
+      "claim": "The state/non-state distinction is blurred, because non-state actors sitting in Party delegations lose independence. The author suggests a continuum.",
+      "quote": "it may be useful to speak of a continuum of these two categories",
+      "page": 22
+    },
+    {
+      "claim": "Authority is shared between states and non-state actors in climate governance, and states are most willing to share it to benefit from expertise.",
+      "quote": "authority is shared between states and non-state actors in global climate change governance",
+      "page": 60
+    }
+  ],
+  "limitations": [
+    {
+      "point": "There is little data on less visible non-state actor types (indigenous peoples, women and gender, faith groups).",
+      "stated_by_authors": true,
+      "quote": "the lack of data for some types of non-state actors that are relatively less visible at the international level",
+      "page": 62
+    },
+    {
+      "point": "The side-event survey sample under-represents negotiators and over-represents observers.",
+      "stated_by_authors": true,
+      "quote": "this sample underrepresents negotiators compared to the COP sample and over-represents observers",
+      "page": 39
+    },
+    {
+      "point": "Side-event abstracts are short (an average of 45 words), which limits content analysis.",
+      "stated_by_authors": true,
+      "quote": "the limited number of words (average 45 per abstract) delimits the possibilities of a more elaborate content analysis",
+      "page": 45
+    },
+    {
+      "point": "Non-state actor is a loosely defined term, and the boundary with state actors is blurred.",
+      "stated_by_authors": true,
+      "quote": "the term is relatively loosely used and poorly defined",
+      "page": 20
+    },
+    {
+      "point": "Reader coverage: only 43 of 254 passages were given. Appended papers I-V, which hold the detailed data, are not in the text read. The thesis has no delegate counts, no sector breakdown and no fossil-fuel classification. My searches of the full text for BINGO and badge terms returned only unreadable matches, so I checked nothing further.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "International Negotiations Survey (Linköping University)",
+      "what_it_is": "Annual survey of COP delegates since 2007, about 8000 responses, in a conference-venue quota sample and a side-event sample",
+      "page": 39
+    },
+    {
+      "name": "NAZCA portal",
+      "what_it_is": "Database of non-state climate commitments. 10,773 commitments were registered as of 1 December 2015, mostly energy efficiency, renewable energy and private finance.",
+      "page": 12
+    },
+    {
+      "name": "UNFCCC constituency list (constituency_2011_english.pdf)",
+      "what_it_is": "UNFCCC document on observer constituencies (footnote 9)",
+      "page": 21
+    },
+    {
+      "name": "UNFCCC participation statistics, COPs 1997-2014",
+      "what_it_is": "Source of Figure 1 and of the observer admission figures",
+      "page": 19
+    },
+    {
+      "name": "Side-event abstracts, COP 15-18",
+      "what_it_is": "959 abstracts from the UNFCCC website, coded by keyword (following Hjerpe and Buhr 2014)",
+      "page": 44
+    }
+  ],
+  "relevant_to": [
+    "context",
+    "method"
+  ],
+  "pages_read": "selected by code: 43 of 254 passages, 3987 of 23030 words, from pages 1-3, 5-6, 12, 14, 19-22, 27, 30, 34, 37-45, 51, 54-57, 59-60, 62, 69 of 73; chosen for definitions, indicators, method, findings and limitations; the rest was not read. I also ran two keyword searches of the full text (BINGO, lobby, pink badge, trade association). They gave no usable additional passages.",
+  "read_on": "2026-11-25",
+  "read_by": "source-reader, sonnet"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "doi-10-1017-s0003055401003100",
+  "citation": {
+    "authors": ["Robert Adcock", "David Collier"],
+    "year": 2001,
+    "title": "Measurement Validity: A Shared Standard for Qualitative and Quantitative Research",
+    "venue_or_publisher": "American Political Science Review, Volume 95, Issue 3, pp. 529-546 (Cambridge Core page)",
+    "doi_or_url": "https://doi.org/10.1017/S0003055401003100",
+    "type": "journal article; only the Cambridge Core landing page with abstract is in the file",
+    "peer_reviewed": "unknown"
+  },
+  "question": "Per the abstract: how to assess valid measurement in political science with one framework for quantitative and qualitative scholars; separating measurement issues from disputes about concepts; context-specific measurement; and the main types of validation.",
+  "data": null,
+  "method": null,
+  "definitions": [],
+  "proxies": [],
+  "findings": [],
+  "limitations": [
+    {
+      "point": "The file holds only a Cambridge Core landing page with the abstract, not the full text. The reference list and article body are not in the text; the References section is empty, and the access section says the article is purchase-only and temporarily unavailable. Nothing beyond the abstract was read, so no definitions, proxies or findings are recorded.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [],
+  "relevant_to": ["method"],
+  "pages_read": "Abstract only (one paragraph, section 'Abstract'), plus page furniture (article contents, access options, empty references, comments). The extracted text has no authors field; author names come from the page's author links (Robert Adcock, David Collier) and the year from the published date 2001/09. Full text not present.",
+  "abstract_statement": {
+    "claim": "The abstract says the authors offer an account of the three main types of validation most relevant to political scientists, and a shared framework for measurement validity.",
+    "quote": "we seek to establish a shared framework that allows quantitative and qualitative scholars to assess more effectively, and communicate about, issues of valid measurement.",
+    "page": "Abstract"
+  },
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

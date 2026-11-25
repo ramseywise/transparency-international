@@ -1,0 +1,164 @@
+{
+  "id": "climateinvestigations-thousands-of-fossil-fuel-observers-attended-clim",
+  "citation": {
+    "authors": [
+      "Climate Investigations Center"
+    ],
+    "year": null,
+    "title": "Thousands of Fossil Fuel “Observers” Attended Climate Negotiations – UNFCCC Data 2005-2018 COP1-COP24",
+    "venue_or_publisher": "Climate Investigations Center (climateinvestigations.org)",
+    "doi_or_url": "https://climateinvestigations.org/thousands-of-fossil-fuel-observers-attended-climate-negotiations-unfccc-data-2005-2018-cop1-cop24/",
+    "type": "web article (advocacy research summary with tables); no publication date in the page metadata",
+    "peer_reviewed": "no"
+  },
+  "question": "How many people from fossil fuel companies and trade groups attended UNFCCC meetings as accredited observers, from COP1 (1995) to COP24 (2018), and which companies and trade associations sent them.",
+  "data": "UNFCCC participant data for COP1 to COP24 (the title says 2005-2018, the text says 1995 to 2018). The page gives a tally of delegates for 25 accredited trade groups (total 6,465), counts for five companies, short profiles of three individuals, and a table of Global Climate Coalition delegates for 1995 onward (year, COP number, name, company, badge). The page does not describe the list files or how many people the whole UNFCCC list holds.",
+  "method": "Authors say they catalogued fossil fuel company and trade group delegates in UNFCCC participant records. Counts are numbers of attendances (a person who goes to several COPs is counted each time). The page does not describe how organisations or people were matched to the fossil fuel industry, or how names were checked. The Global Climate Coalition table records the employer and the badge each person registered under.",
+  "definitions": [
+    {
+      "term": "Observers (accredited non-governmental organizations)",
+      "definition": "Non-governmental organizations must be accredited by the UN to send observers to the meetings; this includes the Global Climate Coalition and Greenpeace.",
+      "quote": "Non-governmental organizations which include the GCC (or Greenpeace) must gain accreditation with the UN in order to send “observers” to the meetings.",
+      "page": null
+    },
+    {
+      "term": "Fossil fuel delegate counts (what the tally measures)",
+      "definition": "The tally counts the times people were sent, not distinct people, and is read as a sign of how much each organisation prioritises the UNFCCC process.",
+      "quote": "Note, this is the total number of times people were sent, with some individuals attending many COPs and other meetings.",
+      "page": null
+    },
+    {
+      "term": "Trade associations counted as fossil-fuel linked",
+      "definition": "Trade associations that count fossil fuel corporations among their members. No further definition or membership test is given.",
+      "quote": "Trade associations that count fossil fuel corporations as members have sent more than 6,400 delegates to the climate talks since 1995",
+      "page": null
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Fossil-fuel link of a delegate",
+      "indicator": "The employer named for the person (company), and the organisation badge they registered under (for example Global Climate Coalition, IPIECA, or a trade association). The table has separate columns for company and badge.",
+      "quote": "COP Registration Organization/Badge",
+      "page": null
+    },
+    {
+      "concept": "Real employer hidden behind the badge",
+      "indicator": "Employees of companies and trade associations wore badges of observer bodies, so the badge does not show the employer. The page does not describe how the employer was established.",
+      "quote": "Employees of oil companies, electric utilities, auto companies and corporate trade associations wore UNFCCC badges that obscured their true corporate employers to attendees, national delegates and media at the meeting.",
+      "page": null
+    },
+    {
+      "concept": "Fossil-fuel link of a trade association",
+      "indicator": "The association counts fossil fuel corporations as members (stated, not shown by a list of members).",
+      "quote": "Trade associations that count fossil fuel corporations as members have sent more than 6,400 delegates to the climate talks since 1995",
+      "page": null
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The 25 listed accredited trade groups sent 6,465 delegates in total from 1995 to 2018; the page states the figure as more than 6,400.",
+      "quote": "Trade associations that count fossil fuel corporations as members have sent more than 6,400 delegates to the climate talks since 1995",
+      "page": null
+    },
+    {
+      "claim": "Shell sent at least 137 delegates (the page also lists Exxon at least 20, BP at least 26, Chevron at least 29, BHP Billiton at least 9).",
+      "quote": "Shell sent at least 137 delegates",
+      "page": null
+    },
+    {
+      "claim": "The largest trade-group tallies were the International Emissions Trading Association (1,817), the World Business Council for Sustainable Development (1,266) and the International Chamber of Commerce (1,145).",
+      "quote": "International Emissions Trading Association: 1,817",
+      "page": null
+    },
+    {
+      "claim": "Some companies and trade associations were present at every COP from the first.",
+      "quote": "Some corporations such as Exxon, Shell and Chevron and trade associations such as Edison Electric Institute have attended every COP from the beginning",
+      "page": null
+    },
+    {
+      "claim": "The same individuals attended under different badges, some under three or more.",
+      "quote": "Some individuals have worn three or more different badges over this time period.",
+      "page": null
+    },
+    {
+      "claim": "A named former Exxon employee attended through several trade associations and, after retiring, through a think tank the authors say is funded by fossil fuel companies (an authors' characterisation, not tested on the page).",
+      "quote": "registered under Resources for the Future, a think tank funded by major pollutersincluding Chevron, BP, numerous extractive corporations and a number of automobile corporations and trade associations.",
+      "page": null
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The saved text is the full web page, but it holds no methods section: no stated list of fossil fuel companies or trade groups, no rule for deciding who counts, no description of how names were matched to employers, and no error check. The page is an advocacy summary and not peer reviewed.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The page has no section headings (the text file names none), so quotes cannot be located by heading; they are in the single untitled body section of the file.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The study covers observer organisations and individuals, not country (Party) delegations, so it gives nothing on business presence inside Party delegations.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Counts are attendances, not distinct people, so they overstate the number of different individuals.",
+      "stated_by_authors": true,
+      "quote": "Note, this is the total number of times people were sent, with some individuals attending many COPs and other meetings.",
+      "page": null
+    },
+    {
+      "point": "Some table rows record that the affiliation was missing or not on the UNFCCC document, so affiliation was supplied from outside the participant list in at least some cases.",
+      "stated_by_authors": true,
+      "quote": "American Petroleum Institute (not listed on UNFCCC doc)",
+      "page": null
+    },
+    {
+      "point": "The trade-group list mixes groups with a clear fossil-fuel link (for example gas and coal bodies) with general business bodies and a non-business body (for example the American Chemical Society), and gives no test for why each counts as fossil-fuel linked.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The title gives the period as 2005-2018 while the text gives 1995 to 2018 (COP1 to COP24); the text says the data run from COP1 in 1995.",
+      "stated_by_authors": false,
+      "quote": "The data compiled stretches from COP1 in 1995 to COP24 in December 2018 and paints a picture of corporate attendance at UNFCCC meetings over these years.",
+      "page": null
+    },
+    {
+      "point": "The page names real individuals and makes strong claims about their motives; these are authors' claims, not verified here. The page text addresses no instructions to a reader or an AI.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC participant lists, COP1 to COP24",
+      "what_it_is": "Source of the delegate counts; the page does not give file names or links to the lists.",
+      "page": null
+    },
+    {
+      "name": "Global Climate Coalition delegates table, 1995 onward",
+      "what_it_is": "Table in the page of year, COP, first and last name, company and registration badge for people the authors tie to the Global Climate Coalition. The text read ends in a long table whose later rows are names, companies and badges.",
+      "page": null
+    },
+    {
+      "name": "Global Climate Coalition document collection",
+      "what_it_is": "Documents compiled and released by the authors, said to show the coalition's aims and strategy; linked from the page, not read here.",
+      "page": null
+    }
+  ],
+  "relevant_to": [
+    "Q2",
+    "method",
+    "context"
+  ],
+  "pages_read": "Full text of the saved web page: all 1003 paragraphs of the one untitled section. Paragraphs 1 to 682 read in full; paragraphs 683 to 1003 are the continuation of the delegate table (names, companies, badges) and were screened by script for any prose, and none was found beyond table cells and the tag line. The 18 links were not followed.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

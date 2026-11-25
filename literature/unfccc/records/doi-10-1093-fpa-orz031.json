@@ -1,0 +1,88 @@
+{
+  "id": "doi-10-1093-fpa-orz031",
+  "citation": {
+    "authors": ["Ayse Kaya", "Lynne Steuerle Schofield"],
+    "year": 2020,
+    "title": "Which Countries Send More Delegates to Climate Change Conferences? Analysis of UNFCCC COPs, 1995-2015",
+    "venue_or_publisher": "Foreign Policy Analysis, 16, pp. 478-491 (Oxford University Press on behalf of the International Studies Association)",
+    "doi_or_url": "https://doi.org/10.1093/fpa/orz031",
+    "type": "journal article",
+    "peer_reviewed": "unknown"
+  },
+  "question": "Which factors determine how many delegates a country sends to the annual UNFCCC Conferences of the Parties (national delegation size, NDS), 1995-2015. The abstract names country resources, interest in mitigating fossil fuel emissions, vulnerability to climate change, interest group, civil society and bureaucratic influence, distance to the COP location, financial capacity, and Annex I versus non-Annex I status.",
+  "data": "Not stated on the page available. The abstract gives the period (COPs 1995-2015) only. The sources, variables and sample size are not on the first page.",
+  "method": "Not stated on the page available. The abstract says the paper examines the determinants of NDS, but the method, models and variable definitions are not on the first page.",
+  "definitions": [
+    {
+      "term": "national delegation size (NDS)",
+      "definition": "The page gives no formal definition. It uses NDS for the number of delegates a country sends to a COP, shown by counts of delegates per country.",
+      "quote": "Eritrea and Trinidad and Tobago each sent only three delegates to the 2015 COP in Paris compared to Canada’s 287 delegates.",
+      "page": 1
+    }
+  ],
+  "proxies": [],
+  "findings": [
+    {
+      "claim": "Authors state that country resources and interest in mitigating fossil fuel emissions are important determinants of delegation size. Here 'interest in the mitigation of fossil fuel emissions' is a country-level factor, not a count of fossil-fuel-linked delegates; the page does not say how it was measured.",
+      "quote": "The ﬁndings highlight a country’s resources and its interest in the mitigation of fossil fuel emissions as important determinants of its NDS.",
+      "page": 1
+    },
+    {
+      "claim": "Authors state that interest group politics matter more than civil society or bureaucratic influence for delegation size. The page does not define 'interest group' or say whether business is meant.",
+      "quote": "Interest group politics appear more important than civil society or bureaucratic inﬂuence in determining NDS.",
+      "page": 1
+    },
+    {
+      "claim": "Delegation sizes vary widely between countries and over time, for example for China.",
+      "quote": "the Chinese delegation ranged from 15 to 53 delegates at the ﬁrst fourteen COPs but from 88 to 334 at the 2009–2015 COPs.",
+      "page": 1
+    },
+    {
+      "claim": "Delegation size is at the member states' discretion (context for rules), and the authors cite literature that larger delegations give a state more voice at COPs.",
+      "quote": "NDS, which remains at the purview of member states,2 has been shown to signiﬁcantly affect states’ voice at COPs, as countries with larger delegations can better participate in numerous simultaneous negotiations",
+      "page": 1
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Only the first page of the published article (a one-page preview, about 506 words) was available. Data, method, definitions, results and limitations in the body of the paper were not read and are not recorded here.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 1
+    },
+    {
+      "point": "The page does not define or identify 'business' or 'fossil-fuel linked' delegates or organisations. It concerns delegation size of countries, not the affiliation of delegates, so it gives nothing on Q1 or Q2 measurement.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 1
+    },
+    {
+      "point": "Authors state that the determinants of delegation size had been little analysed before this paper, and that the evidence for a link with climate vulnerability is limited.",
+      "stated_by_authors": true,
+      "quote": "Extant research underscores the importance of NDS, but it leaves the motivators of NDS underanalyzed.",
+      "page": 1
+    },
+    {
+      "point": "The extracted file has an empty authors field and a title string that runs on into the affiliation; author names and year are taken from the title string and the copyright line. Peer-review status is not stated on the page. No instructions addressed to a reader or an AI were found.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 1
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC Rules of Procedure (FCCC/CP/1996/2, Rule 17)",
+      "what_it_is": "Cited in a footnote as the rule under which delegation size remains with member states; the page does not describe its content.",
+      "page": 1
+    },
+    {
+      "name": "Cited works named on the page: Yamin and Depledge 2004; Soderberg and Andersen 2008; Bailer 2011; Schroeder, Boyloff and Spiers 2012; Neeff 2013; Bohmelt 2013",
+      "what_it_is": "Prior literature on delegation size and COP participation. Only author-year citations appear on the page; the reference list is not available.",
+      "page": 1
+    }
+  ],
+  "relevant_to": ["context"],
+  "pages_read": "Only page 1 of 1 in the extracted text, which is the first page of the published article (a one-page preview, not the full text). Nothing beyond this page was read.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

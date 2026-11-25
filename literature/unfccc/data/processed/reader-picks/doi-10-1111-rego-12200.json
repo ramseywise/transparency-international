@@ -1,0 +1,398 @@
+{
+ "id": "doi-10-1111-rego-12200",
+ "title": "Regulating lobbying activities in the European Union: A voluntary club perspective",
+ "kind": "pdf",
+ "url": "https://doi.org/10.1111/rego.12200",
+ "coverage": {
+  "mode": "selected",
+  "passages_given": 33,
+  "passages_total": 126,
+  "words_given": 3999,
+  "words_total": 12901,
+  "pages_given": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   18
+  ],
+  "pages_total": 18,
+  "note": "selected by code: 33 of 126 passages, 3999 of 12901 words, from pages 1-7, 9-16, 18 of 18; chosen for definitions, indicators, method, findings and limitations; the rest was not read"
+ },
+ "passages": [
+  {
+   "chunk": 0,
+   "loc": "p.1",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "lists_and_datasets",
+    "method",
+    "opening"
+   ],
+   "text": "doi:10.1111/rego.12200 Regulation & Governance (2020) 14, 238–255 Regulating lobbying activities in the European Union: A voluntary club perspective Andreea N\u0001astase and Claire Muurmans* Faculty of Arts and Social Sciences, Maastricht University, Maastricht, the Netherlands Abstract This article offers a systematic exploration of why interest groups sign up to the European Union Transparency Register, a non-binding lobby regulation system. We distinguish between instrumental and normative perspectives to explain voluntary compliance, and find that concern for one’s reputation represents the most important motivational driver. Based on this, we suggest that the Transparency Register can be understood as a “voluntary club” sponsored by European institutions. This theoretical perspective captures the appeal of the instrument among lobbyists, but also a number of inconsistencies in its current design, which make it unviable in the long term. We outline implications for the ongoing reform of the Transparency Register, and more generally for the regulation of lobbying activities. The analysis draws on semi-structured interviews with various types of lobbyists active in Brussels, and on data from public consultations organized by the European Commission."
+  },
+  {
+   "chunk": 1,
+   "loc": "p.1",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "lists_and_datasets",
+    "opening",
+    "proxies"
+   ],
+   "text": "Keywords: European Union, lobby regulation, transparency, transparency register, voluntary club. Introduction Lobbying, understood here as activities undertaken with the objective of influencing decisions made by public authorities (Hardacre 2011, p. 3), represents an indispensable part of healthy democratic life. The participation of outside interests in the policy process is consistent with both input and output legitimacy. At the same time, however, lobbying can create problems of unequal access, bias, and even corruption. Hence, the need to regulate these activities is nowadays widely accepted, with international bodies such as the Organisation for Economic Co-operation and Development (OECD) and, more recently, the Council of Europe issuing recommendations and guidelines on the matter. Publicly accessible registers for lobbyists, often supplemented by codes of conduct, represent the most commonly used instruments in such regulatory efforts (see Chari et al. ; Organisation for Economic Co-operation & Development [OECD] 2014), reflecting a conviction that transparency enables accountability and ultimately increases citizens’ trust in the political system."
+  },
+  {
+   "chunk": 2,
+   "loc": "p.1",
+   "section": null,
+   "why": [
+    "lists_and_datasets",
+    "method",
+    "opening",
+    "proxies"
+   ],
+   "text": "While lobby registers have a long tradition in the United States (US) and Canada, with relevant laws passed in 1946 and 1989 respectively, they are relatively novel in Europe. With the exception of Germany, European countries only began experimenting with such tools after 2005, to the effect that currently some form of lobby registration is required in 12 European Union (EU) member states.1 EU institutions have been among the first on this bandwagon – perhaps unsurprisingly so, given that the size of the Brussels interest group population is deemed comparable only to that of Washington DC, the so-called “lobbying capital of the world” (Dinan & Wesselius 2010). The current system – dubbed symbolically the Transparency Register (TR) – was launched in 2011 through an interinstitutional agreement (IIA)2 and is jointly managed by the European Commission (EC) and the European Parliament (EP). The TR is the successor of schemes that had previously been run separately by the two institutions, namely the quasi-accreditation system of the EP, in place since 1996, and the EC’s Register of Interest Representatives (ROIR), set up in 2008 as a voluntary database for groups. It is managed by a team of five staff members seconded from both the EC and the EP, who make up the Joint Transparency Register Secretariat (JTRS)."
+  },
+  {
+   "chunk": 3,
+   "loc": "p.1",
+   "section": null,
+   "why": [
+    "definitions",
+    "lists_and_datasets"
+   ],
+   "text": "Correspondence: Andreea N\u0001astase, Faculty of Arts and Social Sciences, Maastricht University, P.O. Box 616, 6200 MD, Maastricht, the Netherlands. Email: a.nastase@maastrichtuniversity.nl *Present address: FIPRA International, Rue de la Loi 227, Brussels 1040, Belgium. Accepted for publication 13 May 2018. © 2018 The Authors. Regulation & Governance Published by John Wiley & Sons Australia, Ltd This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited."
+  },
+  {
+   "chunk": 4,
+   "loc": "p.2",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "limitations",
+    "lists_and_datasets",
+    "method",
+    "proxies"
+   ],
+   "text": "The TR asks registrants to declare their policy interests, lobbying expenses, membership in EU consultative structures, and staff members responsible for public affairs. This information becomes publicly available as part of a searchable online database,3 which visitors can access free of charge. Adjacent to the database is a code of conduct outlining behavioral standards that registrants are expected to uphold in their interaction with EU officials. However, like its predecessors, the TR is not legally binding. Thus, the question arises why interest groups (broadly defined) choose to sign up to the TR. This is an interesting puzzle as membership numbers have grown constantly since the inception of the TR (amounting to a little over 11,000 individual entries at the time of writing). The TR’s coverage of the target population back in 2013 was already estimated at 75 percent for business organizations and 60 percent for non-governmental organizations (NGOs) (Greenwood & Dreger 2013). These are not bad numbers for a voluntary regime, even when accounting for its unusually ambitious coverage: the TR is addressed to any organization or self-employed individual that practices “activities designed to influence – directly or indirectly – policymaking, policy implementation and decision-making in the EU institutions, no matter where they are carried out or which channel or method of communication is used” (European Union 2016, emphasis in"
+  },
+  {
+   "chunk": 5,
+   "loc": "p.2",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "method"
+   ],
+   "text": "17485991, 2020, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/rego.12200, Wiley Online Library on [25/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License original). This article undertakes a systematic exploration of the motivation of interest representatives to join the EU voluntary lobby regulation scheme. Drawing on theoretical insights from compliance studies, we distinguish between instrumental and normative perspectives to explain target behavior. Accordingly, the decision to join the TR can be interpreted, on the one hand, as a function of incentives, and, on the other, as a function of values and social norms (e.g. accepting transparency as a rule of the lobbying game). The analysis draws on 19 in-depth interviews with public affairs managers recruited from various types of stakeholders (i.e. industry organizations, NGOs, trade associations, and consultancies) active in climate policy and tobacco control, currently two of the most contentious (and hence intensely lobbied) fields of EU policy. Additionally, we use statistical data collected in the framework of a 2012 EC-led public consultation regarding the TR."
+  },
+  {
+   "chunk": 7,
+   "loc": "p.2",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "lists_and_datasets"
+   ],
+   "text": "a “new wave of strong lobbying regulation” (2012, p. 91) in Europe. Greenwood and Dreger’s in-depth assessment gives a mildly optimistic outlook, noting that while the TR has been successful in placing a breadth of information in the public domain, there are “faults of design and nomenclature” (2013, p. 159) that still need to be addressed. While existing contributions have touched on various significant aspects of the TR, they are mostly silent with regard to the views and experiences of those who, as a target group, are directly affected by this instrument. The little research that exists on this issue, however, shows that lobby professionals have embraced transparency in their activities and support rather stringent forms of regulation. A 2008 survey that compared US and EU professional lobbyists revealed that almost half (49 percent) of EU respondents supported a mandatory regulation system, and nearly three quarters (72.3 percent) would not oppose a move by European institutions to make the system mandatory (Holman 2009). In another survey, which covered the EU as well as national-level European interest representatives, 82 percent agreed that lobbyist disclosure records should be available online, while 61 percent supported mandatory registration for all – leading the authors to conclude that “mandatory versus voluntary registration and disclosure of lobbying activity is simply not an area of much dispute – at least not within the lobbying community” (Holman & Susman 2009, p. 48). Other comparative work demonstrates that this support for regulation represents a more general trend. For instance, a relatively recent survey covering OECD countries revealed that 70 percent of lobbyists agreed that transparency should be mandatory for their profession (OECD 2014)."
+  },
+  {
+   "chunk": 8,
+   "loc": "p.2",
+   "section": null,
+   "why": [
+    "lists_and_datasets"
+   ],
+   "text": "239 © 2018 The Authors. Regulation & Governance Published by John Wiley & Sons Australia, Ltd"
+  },
+  {
+   "chunk": 9,
+   "loc": "p.3",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "limitations",
+    "method",
+    "proxies"
+   ],
+   "text": "17485991, 2020, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/rego.12200, Wiley Online Library on [25/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License This widespread (but not unqualified) support for regulation is obviously significant in light of the inquiry pursued here, and makes it all the more important to unpack the motivations that might underpin it. However, the existing research does not focus exclusively on Brussels-active groups and is mostly based on data collected before 2011, when the TR was launched. Furthermore, all surveys listed above work with a restrictive definition of what constitutes a lobbyist, as they sample from professional public affairs associations or in-house lobbyists (and, exceptionally, from NGO-type advocates). By contrast, our study builds on more recent data that covers a broader spectrum of stakeholders, thus matching the target population of the TR. Moreover, by combining interviews and descriptive statistics, we are able to discern general trends as well as the more nuanced (social) processes through which actors join and experience lobby regulation. It should be noted, however, that we do not deal here with the question of effectiveness of the TR.4 Effectiveness (i.e. whether the TR shapes the behavior and performance of EU lobbyists as intended) is a distinct and more complex matter, separate from determining what drives actors to join the scheme in the first place. Findings do nonetheless suggest several implications for the effectiveness of EU lobby regulations, which we outline in the Conclusion."
+  },
+  {
+   "chunk": 14,
+   "loc": "p.3",
+   "section": null,
+   "why": [
+    "lists_and_datasets"
+   ],
+   "text": "240 © 2018 The Authors. Regulation & Governance Published by John Wiley & Sons Australia, Ltd"
+  },
+  {
+   "chunk": 18,
+   "loc": "p.4",
+   "section": null,
+   "why": [
+    "findings",
+    "lists_and_datasets",
+    "proxies"
+   ],
+   "text": "In the case of the TR, instrumental compliance can potentially be sustained by a comprehensive package of privileged access opportunities to both information and decisionmakers, which is exclusive to actors who join the system. Table 1 provides an exhaustive list of the access benefits associated to registration. It also includes (in italics), additional incentives proposed in a recent (2016) draft for a new IIA for the TR, issued by the EC. The most important feature of this new draft is the participation of the Council of the EU (Council) in the TR."
+  },
+  {
+   "chunk": 21,
+   "loc": "p.4",
+   "section": null,
+   "why": [
+    "definitions",
+    "lists_and_datasets"
+   ],
+   "text": "• Granting of patronage to events organized by stakeholders. • Long-term access passes to EP premises. The European Parliament • Participation as speakers in EP committee hearings. • Granting of patronage to events organized by stakeholders. • Meetings with Members of the European Parliament (MEPs), the Secretary-General, Directors-General and Secretaries-General of the political groups. • Hosting of events on EP premises."
+  },
+  {
+   "chunk": 23,
+   "loc": "p.5",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "limitations",
+    "lists_and_datasets",
+    "proxies"
+   ],
+   "text": "17485991, 2020, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/rego.12200, Wiley Online Library on [25/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License Nonetheless, being on the TR is not devoid of costs. Although most of the information required from registrants is relatively benign, declaring lobbying expenditures can be a logistical challenge, a fact adequately reflected by the relatively lengthy explanations on the subject featured in the Implementing Guide of the Transparency Register (see Joint Transparency Register Secretariat [JTRS] 2015a). Furthermore, at least for some types of actors, the provision of financial information represents a potential liability. Public affairs consultancies are a case in point, as they are required to declare their full client list and (in bands) the income received from each of them, a fact that can affect their competitiveness and market share."
+  },
+  {
+   "chunk": 26,
+   "loc": "p.5",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "lists_and_datasets",
+    "proxies"
+   ],
+   "text": "Being in the TR can bring certain reputational benefits. Significantly, “demonstrating strong commitment to openness” and “showing allegiance to a code of conduct” are listed on the TR website as “good reasons to register” (European Union 2016). This appeal to demonstrate one’s good standing by joining the TR would not fall on deaf ears considering the growing controversies surrounding Brussels lobbying in recent years. Suffice it to point out that lobbyists have found themselves at the heart of several spectacular scandals, such as the so-called “cash for amendments” affair in 2011, where three MEPs were proven to have accepted payment from journalists posing as lobbyists (Journalistic spoof, 2011), or the resignation of Heath and Consumer Policy Commissioner John Dalli a year later over improper dealings with lobbyists and suspicions of influence peddling (Dunmore 2012)."
+  },
+  {
+   "chunk": 30,
+   "loc": "p.6",
+   "section": null,
+   "why": [
+    "definitions",
+    "limitations",
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "17485991, 2020, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/rego.12200, Wiley Online Library on [25/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License To conclude, conditions exist for EU lobby actors to join the TR on both normative and instrumental grounds. While we can conceptually differentiate between these different compliance motivations, in practice they are not mutually exclusive – on the contrary, they can co-exist and interact with each other.9 Accordingly, our purpose in this analysis is not to ascertain whether EU lobbyists are following instrumental or normative perspectives when joining the TR, but rather to use these conceptual categories as a heuristic device to classify the kind of justifications invoked vis-à-vis the decision to register."
+  },
+  {
+   "chunk": 36,
+   "loc": "p.6",
+   "section": null,
+   "why": [
+    "lists_and_datasets"
+   ],
+   "text": "EP, European Parliament; EU, European Union; TR, Transparency Register. 243 © 2018 The Authors. Regulation & Governance Published by John Wiley & Sons Australia, Ltd"
+  },
+  {
+   "chunk": 37,
+   "loc": "p.7",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "limitations",
+    "proxies"
+   ],
+   "text": "17485991, 2020, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/rego.12200, Wiley Online Library on [25/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License In this case, to the extent possible, we aimed to select participants from each category of registrant listed in the TR and arrive at a more equal representation of those categories than the percentages present in both the general population and the EU climate policy and public health fields (Table 3). We focused on type of registrant because it represents the most likely dimension along which differences of views regarding the TR might appear, given its unusually diverse membership by comparison to lobby registers elsewhere."
+  },
+  {
+   "chunk": 38,
+   "loc": "p.7",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "limitations"
+   ],
+   "text": "Concretely, for climate policy, two participants each from categories I through IV and VI were chosen after performing a search on the TR website for groups that declared “climate action” among their interests. Category V was excluded because of the low number of organizations representing churches and religious communities active in this field. For tobacco policy, we have a more uneven distribution, with four participants for category II, three for category III, and one group each for categories I and IV. After searching the TR with a series of relevant keywords (“tobacco,” “cigarettes,” “smoking” etc.), we did not find any meaningful entries under categories V and VI."
+  },
+  {
+   "chunk": 40,
+   "loc": "p.7",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "method"
+   ],
+   "text": "In conclusion, our sample comprises diverse types of lobby actors, all well established in Brussels, active on controversial and intensely lobbied policy matters, and presumably well acquainted with the TR. For the reasons elaborated, these characteristics make it more likely that EU lobbying regulations have salience and elicit a diversity of responses among interviewees. Findings can therefore be extrapolated to the broader population of the TR, but limitations exist. This maximum variation sample is obviously less relevant when it comes to lobby actors who are not fully engaged on the EU scene, or are active in less disputed or lobbied policy matters. Furthermore, because of the relatively small number of interviews, it is not possible to isolate the individual impact of certain factors (e.g. it is not possible to say whether being a business or an NGO lobbyist differently shapes one’s motives for joining the TR)."
+  },
+  {
+   "chunk": 44,
+   "loc": "p.7",
+   "section": null,
+   "why": [
+    "limitations",
+    "lists_and_datasets"
+   ],
+   "text": "When you’re a big, established organization as we are, you cannot just refuse to play the game. (Trade Association 1) 244 © 2018 The Authors. Regulation & Governance Published by John Wiley & Sons Australia, Ltd"
+  },
+  {
+   "chunk": 55,
+   "loc": "p.9",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "lists_and_datasets",
+    "proxies"
+   ],
+   "text": "What does this tell us about the motives that lead interest representatives to join the TR? The interviews show that while access and information incentives do play a role, actors are more inclined to evoke normative language when describing their participation in the scheme. To return to the categories identified by Winter and May 246 © 2018 The Authors. Regulation & Governance Published by John Wiley & Sons Australia, Ltd"
+  },
+  {
+   "chunk": 57,
+   "loc": "p.10",
+   "section": null,
+   "why": [
+    "lists_and_datasets"
+   ],
+   "text": "Incentive-based motivation To be eligible for EP badges 154 Why did your organization register in the Transparency Register? To be alerted when public consultations are opened To be alerted when roadmaps are published 162 Value-based motivation Wish to be open/public about participation in EU decisionmaking process Wish to conduct our activities in a transparent, ethical manner Other 27 Do you think that appearing in the Register reflects positively on your organization?"
+  },
+  {
+   "chunk": 60,
+   "loc": "p.10",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "lists_and_datasets",
+    "method",
+    "proxies"
+   ],
+   "text": "Table 4 shows the results of a question where respondents were asked to choose from a drop-down list of reasons for joining the TR (more than one choice was possible). Some of the answer items are indicative of instrumental motivations (i.e. to be eligible for EP badges; to be alerted of upcoming public consultations and roadmaps, respectively), while others are indicative of principled motivations (i.e. desire to be open/public about one’s participation in the European policy process, and to conduct activities in a transparent and ethical manner). Out of 252 valid answers, only 19 were given by respondents who were not registered in the TR (hence these answers were excluded from the sample as irrelevant)."
+  },
+  {
+   "chunk": 67,
+   "loc": "p.11",
+   "section": null,
+   "why": [
+    "findings",
+    "lists_and_datasets",
+    "proxies"
+   ],
+   "text": "Firstly, the credibility of the TR is challenged by the fact that the EU institutions act simultaneously as club sponsors and principal targets for the reputational signals sent by interest representatives through their membership in the scheme. The problem is one of credible commitment, as this set-up essentially requires the institutions to police themselves in what concerns lobbyist interactions. Vibert (2007, 2008) noted a similar “credible commitment” problem for NGOs’ codes of conduct: because these are self-regulatory instruments, how can interested third parties be assured that participant NGOs will reliably abide by the code provisions? Similarly, because the TR is voluntary, how can we be assured that EU officials will respect its access conditionality (i.e. interact only with registered groups), and, more generally, accept registration as a reputation mark? So far, only the EC has found an answer to this dilemma, by updating its internal regulations with two decisions issued in November 2014, whereby Commissioners, their cabinets, and Directors-General were obliged to publish meetings held with"
+  },
+  {
+   "chunk": 73,
+   "loc": "p.12",
+   "section": null,
+   "why": [
+    "limitations"
+   ],
+   "text": "The implication here is not only that the NGOs can function as mouthpieces for the EC, but also that the institutions themselves might nurture a bias against the industry.13 While the substantial arguments revolve around financial aspects, it is significant that this mutual contestation has a strong moral tone, where business actors feel they are (unfairly) portrayed as “the bad guys.” For instance:"
+  },
+  {
+   "chunk": 82,
+   "loc": "p.13",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "limitations"
+   ],
+   "text": "With this limitation acknowledged, our results are in line with previous findings in the specialized literature, which show that lobbyists support the regulation of their profession because of its perceived potential to augment negative public perceptions (see in particular Holman & Luneburg 2012). This article has further demonstrated that a publicly sponsored voluntary regime, although it speaks to this motivation, presents other shortcomings that make it unsuitable as a long-term solution. Therefore, from a broader EU perspective, the TR remains of limited usefulness as a model to emulate in other jurisdictions."
+  },
+  {
+   "chunk": 85,
+   "loc": "p.14",
+   "section": null,
+   "why": [
+    "definitions"
+   ],
+   "text": "17485991, 2020, 2, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/rego.12200, Wiley Online Library on [25/11/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License TR “brand,” because the reputational gains associated to registration are what lobby actors primarily care about. In this connection, the specialized literature (Prakash & Potoski 2007; Prakash & Gugerty 2010) highlights two aspects that define the credibility of voluntary club brands. Firstly, the club standards (i.e. the requirements for joining the club) signal the costs incurred by members to go above the minimum that is legally required – hence, the more stringent the standards, the higher their efforts, and the more credible the club. Secondly, monitoring and enforcement structures indicate the extent to which shirking behavior (i.e. members enjoying the benefits of the club without meeting its required standards) is curbed. The stricter these arrangements, the more credible the club."
+  },
+  {
+   "chunk": 86,
+   "loc": "p.14",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "limitations",
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "Room exists to enhance the voluntary TR on both these dimensions. Higher standards most visibly translate into expanding disclosure requirements. Apart from lobbying expenditure (which is currently covered), specific information regarding lobbying targets and objectives could – in theory – significantly advance the public’s understanding of what interests are being pursued in Brussels, by whom, and through what means. US and Canada might serve as best practice models in this regard (see e.g. OECD 2014). On the other hand, the monitoring and enforcement arrangements are a more pressing matter, as the TR is notorious for containing unreliable information. This weakness has been acknowledged by the EU institutions themselves (European Commission 2015) and is plainly illustrated by the latest available data, which shows that almost 78 percent of the entries verified in 2015 were found to be non-conformant (JTRS 2015b). The problem is one of administrative capacity rather than institutional design. Namely, while the JTRS can initiate checks both on its own initiative and in response to external alerts, it is understaffed and hence it cannot cover the high number of entries in the TR. Nevertheless, increasing capabilities and performance in monitoring and enforcement activities is essential for keeping the reputational promise of the TR, such as it is. If the instrument is perceived as degenerating into a “transparency wash,” actors"
+  },
+  {
+   "chunk": 96,
+   "loc": "p.15",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "limitations",
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "8 In classifying reputation-based compliance as a hybrid category, we follow Sharman (2007), who shows that reputation can be analyzed in both rationalist and constructivist veins (with the latter deemed superior as it fully recognizes the relational and inter-subjective nature of reputations). 9 See Feldman 2011 for a detailed discussion. 10 While it was possible to query the TR for actors who had declared an interest in EU “climate action,” this was not an option for tobacco control. The TR unfortunately does not include tobacco policy as a separate item of interest that registrants can tick off. Instead, we provide data for “public health,” which is the EU policy area where tobacco control measures are included. The data in Tables 2 and 3 has been compiled by performing iterative searches in the TR database (available at: http://ec.europa.eu/transparencyregister/public/consultation/search.do?locale=en&reset=), for all registrants, as well as – separately – for registrants with declared interests in the climate action and public health fields, respectively."
+  },
+  {
+   "chunk": 102,
+   "loc": "p.16",
+   "section": null,
+   "why": [
+    "lists_and_datasets"
+   ],
+   "text": "tion in the European Union. European Journal of Political Research 57, 378–403. CCBE (Council of Bars and Law Societies of Europe) (2012) CCBE general response to the European Commission consultation on the Transparency Register. [Last accessed 12 June 2018] Available from URL: http://www.ccbe.eu/fileadmin/speciality_ distribution/public/documents/EUROPEAN_TRANSPARENCY_REGISTER/ETR_Position_papers/EN_ETR_20120907_ CCBE_General_response_to_the_consultation_on_the_Transparency_Register.pdf. Chari R, O’Donovan DH (2011) Lobbying the European Commission: Open or Secret? Socialism and Democracy 25(2),"
+  },
+  {
+   "chunk": 108,
+   "loc": "p.16",
+   "section": null,
+   "why": [
+    "lists_and_datasets"
+   ],
+   "text": "able from URL: https://epaca.org/questions-answers/ European Union (2016) Transparency Register - Who is Expected to Register?[Last accessed 12 June 2018] Available from URL: http://ec.europa.eu/transparencyregister/public/staticPage/displayStaticPage.do?locale=en&reference=WHOS_IS_EXPEC TED_TO_REGISTER European Union (2018a) Transparency Register: Transparency and the EU. [Last accessed 12 June 2018.] Available from URL: http://ec.europa.eu/transparencyregister/public/homePage.do 253 © 2018 The Authors. Regulation & Governance Published by John Wiley & Sons Australia, Ltd"
+  },
+  {
+   "chunk": 123,
+   "loc": "p.18",
+   "section": null,
+   "why": [
+    "proxies"
+   ],
+   "text": "Advocacy. Interest Groups & Advocacy 6, 199–214. Tremblay-Boire J, Prakash A, Gugerty MK (2016) Regulation by Reputation: Monitoring and Sanctioning in Nonprofit Accountability Clubs. Public Administration Review 76, 712–722. Vibert F (2007) NGO Codes of Conduct: Monitored Self-regulation? European Policy Forum, London. Vibert F (2008) NGO Codes of Conduct: The Way Forward. Presentation at the Meeting on Non-Profit Sector Transparency,"
+  },
+  {
+   "chunk": 124,
+   "loc": "p.18",
+   "section": null,
+   "why": [
+    "lists_and_datasets",
+    "method"
+   ],
+   "text": "EU DG Freedom, Security and Justice, European Policy Forum, April 2008, London. Weiss RS (1994) Learning From Strangers: The Art and Method of Qualitative Interview Studies. The Free Press, New York. Winter SC, May PJ (2001) Motivation for Compliance with Environmental Regulations. Journal of Policy Analysis and Man- agement 20, 675–698. Laws cited Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of Regions: A policy framework for climate and energy in the period from 2020 to 2030, COM/2014/015 final. [Last accessed 12 June 2018.] Available from URL: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri= CELEX:52014DC0015. Directive 2014/40/EU of the European Parliament and of the Council of 3 April 2014 on the approximation of the laws, regula-"
+  }
+ ]
+}

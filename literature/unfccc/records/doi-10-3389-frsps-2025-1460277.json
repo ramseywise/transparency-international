@@ -1,0 +1,311 @@
+{
+  "id": "doi-10-3389-frsps-2025-1460277",
+  "citation": {
+    "authors": [
+      "Hannah L. Bunt",
+      "Alex Goddard",
+      "Tom W. Reader",
+      "Alex Gillespie"
+    ],
+    "year": 2025,
+    "title": "Validating the use of large language models for psychological text classification",
+    "venue_or_publisher": "Frontiers in Social Psychology 3:1460277",
+    "doi_or_url": "10.3389/frsps.2025.1460277",
+    "type": "journal article (original research)",
+    "peer_reviewed": "yes"
+  },
+  "question": "Whether and how large language models (GPT-4o) can validly classify psychological phenomena in text, and how researchers should prompt and validate them for this purpose.",
+  "data": "Three manually coded datasets of 1,500 units each (N = 4,500): paragraphs from 10 online diaries (reported speech), Reddit adjacency pairs from 387 threads in 27 subreddits sampled November 2021 (other-initiations of repair), and NHS healthcare complaint letters from 56 hospitals/trusts, OCR-processed (harm severity). Each split into a 500-unit development set and a 1,000-unit test set. Model: gpt-4o-2024-05-13, zero-shot, temperature 0.",
+  "method": "Two-stage validation. Stage 1 (development set): iterative prompt development judged on semantic validity (qualitative), exploratory predictive validity (precision, recall, F1, agreement, weighted kappa against human gold standard) and content validity (qualitative inspection of false positives, false negatives, edge cases). Stage 2 (test set): confirmatory predictive validity of the frozen prompts. Three prompt types compared: MinZero, MaxZero, MaxFew. Human coders' inter-rater reliability reported per dataset.",
+  "definitions": [
+    {
+      "term": "psychological text classification",
+      "definition": "Using LLMs to classify texts into categories informed by psychological theory.",
+      "quote": "classify texts into meaningful categories informed by psychological theory",
+      "page": 2
+    },
+    {
+      "term": "validity (Krippendorff)",
+      "definition": "Quality of research results that lead us to accept them as true, as speaking about the real world.",
+      "quote": "the quality of research results that lead us to accept them as true, as speaking about the real world of people, phenomena, events, experiences, and actions",
+      "page": 2
+    },
+    {
+      "term": "zero-shot classifier",
+      "definition": "An LLM used as a classifier without any training.",
+      "quote": "LLMs can be used as “zero-shot” classifiers, meaning they can be used as classifiers without requiring training.",
+      "page": 3
+    },
+    {
+      "term": "gold standard dataset",
+      "definition": "Human-coded data used as the benchmark for evaluating automated classifiers.",
+      "quote": "Gold standard datasets are used as benchmarks to evaluate the accuracy of automated text classifiers",
+      "page": 3
+    },
+    {
+      "term": "semantic validity",
+      "definition": "Qualitative evidence that the prompt's language means the same as the intended phenomenon in the data.",
+      "quote": "qualitative evidence that the meaning of language used in the measurement protocol (i.e., the prompt) corresponds to the meaning of the intended phenomenon in the target data",
+      "page": 4
+    },
+    {
+      "term": "exploratory predictive validity",
+      "definition": "Quantitative evidence of how accurately a prompt predicts human labels on the development data.",
+      "quote": "quantitative evidence on the extent to which a prompt accurately predicts outcomes in the prompt development phase",
+      "page": 4
+    },
+    {
+      "term": "content validity",
+      "definition": "Degree to which the classifier captures all relevant aspects of the construct; assessed by examining the LLM's errors against the gold standard.",
+      "quote": "the degree to which the classifier captures all the relevant aspects of the construct",
+      "page": 4
+    },
+    {
+      "term": "confirmatory predictive validity",
+      "definition": "Test of the final prompts on a held-out portion of the gold standard (the test set).",
+      "quote": "assess whether our developed prompts successfully completed the text classification task on a held-out portion of the gold standard dataset (i.e., the test dataset)",
+      "page": 4
+    },
+    {
+      "term": "precision and recall",
+      "definition": "Precision is the share of positive predictions that are correct; recall is the share of actual positives identified.",
+      "quote": "Precision refers to the ratio of positive predictions that are correct, while recall measures the ratio of actual positive cases identified correctly.",
+      "page": 7
+    },
+    {
+      "term": "weighted kappa",
+      "definition": "Agreement measure for ordinal classes that weighs the size of disagreements.",
+      "quote": "a measure of the agreement between predictions and actual values, considering both the quantity and the severity of disagreements",
+      "page": 7
+    },
+    {
+      "term": "MinZero / MaxZero / MaxFew prompts",
+      "definition": "Prompt types: minimal or maximal concept definition, with zero or a few examples (MinFew excluded).",
+      "quote": "MinZero (a prompt with minimal concept definition and zero examples)",
+      "page": 8
+    },
+    {
+      "term": "edge cases",
+      "definition": "Instances on the boundary of a definition where it is ambiguous whether human or LLM is correct.",
+      "quote": "instances that sit on the boundary of definitions and challenge the classification norms",
+      "page": 10
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "validity of an LLM classifier",
+      "indicator": "Agreement with a human-coded gold standard on a held-out test set (precision, recall, F1; agreement and weighted kappa for ordinal scales).",
+      "quote": "calculating relevant quantitative evaluation metrics using the manually coded gold standard dataset as the criterion",
+      "page": 4
+    },
+    {
+      "concept": "reliability of the human gold standard",
+      "indicator": "Inter-rater agreement on a double-coded subset: percent agreement and Krippendorff's alpha (binary tasks), intraclass correlation (ordinal harm).",
+      "quote": "Agreement = 0.86",
+      "page": 4
+    },
+    {
+      "concept": "overfitting of prompts",
+      "indicator": "Splitting gold standard into a 500-unit development set and a 1,000-unit test set, with prompt changes frozen before testing.",
+      "quote": "we split our manually coded datasets into development and test sets of 500 and 1,000 units of analysis respectively",
+      "page": 7
+    },
+    {
+      "concept": "whether the prompt conveys the intended concept",
+      "indicator": "Qualitative reading of LLM output on 25-50 development rows, plus the LLM's pushback.",
+      "quote": "a relatively small subset of the development dataset (i.e., between 25–50 rows) can be used to ascertain evidence of semantic validity",
+      "page": 7
+    },
+    {
+      "concept": "prompt too broad or too narrow",
+      "indicator": "Low precision (false positives) taken to mean the definition is too broad; low recall (false negatives) taken to mean it is too specific.",
+      "quote": "We therefore assumed the former meant the prompt was too broad in its scope and definition",
+      "page": 7
+    },
+    {
+      "concept": "systematic error in human or LLM coding",
+      "indicator": "Manual inspection of false positives, false negatives, edge cases and, for ordinal scales, skew of discrepancies.",
+      "quote": "systematic and qualitative analysis of the LLM’s classifications of the full development dataset",
+      "page": 7
+    },
+    {
+      "concept": "consistency of LLM output",
+      "indicator": "Temperature set to 0; each unit classified independently with no memory of prior items.",
+      "quote": "We set the temperature to 0 to maximize the reliability of the LLM responses.",
+      "page": 8
+    }
+  ],
+  "findings": [
+    {
+      "claim": "On the held-out test set, the best prompt reached F1 0.91 for reported speech.",
+      "quote": "The MaxFew prompt achieved a precision of 0.85 and the highest recall of 0.77, attaining the best F1-score of 0.91",
+      "page": 11
+    },
+    {
+      "claim": "For other-initiations of repair, test-set F1 was 0.89 to 0.91 across prompt types, with precision/recall trade-offs between prompts.",
+      "quote": "the MaxFew prompt had a remarkably high precision of 0.91 and a moderate recall of 0.64",
+      "page": 11
+    },
+    {
+      "claim": "The ordinal harm task was much weaker: moderate weighted kappa (0.49 to 0.57) and agreement of only 0.33 to 0.34.",
+      "quote": "had an agreement score of 0.34 and a weighted kappa of 0.57",
+      "page": 11
+    },
+    {
+      "claim": "Replacing the academic term with 'clarification requests' raised F1 from 0.61 to 0.77 on the development set.",
+      "quote": "The change in terminology caused GPT’s performance to increase (from F1 = 0.61 to F1 = 0.77)",
+      "page": 9
+    },
+    {
+      "claim": "Adding the authors' own definition of reported speech lowered performance, because GPT's own understanding already aligned.",
+      "quote": "Elaboration or redefinition of reported speech in fact reduced performance.",
+      "page": 9
+    },
+    {
+      "claim": "More detailed prompts did not consistently perform better; results varied between runs.",
+      "quote": "We observed no consistent performance difference among the MinZero, MaxZero, and MaxFew prompts across the three datasets.",
+      "page": 11
+    },
+    {
+      "claim": "GPT systematically overrated harm relative to human coders, rating the severity of the medical situation rather than harm caused by care.",
+      "quote": "Regular overestimation of harm by GPT compared to the human coding.",
+      "page": 10
+    },
+    {
+      "claim": "Inspecting LLM disagreements exposed some errors in the human gold standard.",
+      "quote": "The content validity checks therefore provided an opportunity to reflect on our gold standard dataset.",
+      "page": 10
+    },
+    {
+      "claim": "LLM performance was better on directly observable concepts than on those needing contextual inference.",
+      "quote": "more directly observable phenomena are more readily classified by GPT, while concepts and constructs for which higher levels of inference are required present challenges",
+      "page": 12
+    },
+    {
+      "claim": "Runs over the same data gave different patterns, showing stochastic output despite temperature 0.",
+      "quote": "clearly showcasing the stochastic nature of GPT",
+      "page": 11
+    },
+    {
+      "claim": "Headline conclusion: LLMs can validly classify such phenomena if validity is secured by the researcher.",
+      "quote": "LLMs can be used to validly classify psychological phenomena in text, provided that the researcher works with the LLM to secure semantic, predictive, and content validity.",
+      "page": 14
+    }
+  ],
+  "recommendations": [
+    {
+      "claim": "Test several prompt designs, since the best level of definition and examples depends on the phenomenon.",
+      "quote": "we recommend testing various prompt designs to ascertain what works best in any given context.",
+      "page": 11
+    },
+    {
+      "claim": "Operationalize concepts in simple, empirical terms with the conceptualization spelled out.",
+      "quote": "it remains advisable to operationalize concepts or constructs in simple, empirical terms with the underlying conceptualization clearly spelled out to ensure validity",
+      "page": 12
+    },
+    {
+      "claim": "Validate the final prompt on a withheld test set to avoid overfitting.",
+      "quote": "the final prompt should be validated on the test dataset (withheld from development) to ensure that the prompt does not overfit or underfit",
+      "page": 13
+    },
+    {
+      "claim": "Pair statistical evaluation with qualitative review of errors.",
+      "quote": "highlight problems with using statistical evaluations of validity without qualitative oversight",
+      "page": 13
+    },
+    {
+      "claim": "Manual coding is still needed to build the gold standard.",
+      "quote": "LLMs do not make manual coding redundant.",
+      "page": 13
+    },
+    {
+      "claim": "Size the gold standard to the natural base rate of the phenomenon.",
+      "quote": "a lower ratio of positive to negative cases demands a larger dataset than when the positive and negative cases are equally present",
+      "page": 13
+    },
+    {
+      "claim": "Prefer open-source LLMs where possible (transparency, privacy).",
+      "quote": "our recommendation is to rely on open-source LLMs where possible",
+      "page": 14
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Proprietary closed-source model: biases hard to control, changes opaque, reproducibility at risk.",
+      "stated_by_authors": true,
+      "quote": "Proprietary LLMs are also closed-source, which means that it is difficult to control biases within the models and ensure reproducibility, as changes to the model are opaque",
+      "page": 13
+    },
+    {
+      "point": "Results may not transfer to other LLMs or later GPT versions.",
+      "stated_by_authors": true,
+      "quote": "we cannot say with certainty that our validity-related results will apply to other LLMs, or future versions of GPT",
+      "page": 14
+    },
+    {
+      "point": "Researchers may tune the codebook to the LLM's outputs, compromising objectivity of validation.",
+      "stated_by_authors": true,
+      "quote": "researchers might unintentionally tailor their coding manuals to align too closely with the LLM’s outputs, creating a feedback loop that compromises the objectivity of the validation process",
+      "page": 12
+    },
+    {
+      "point": "System-role persona was used exploratorily and not compared with prompts without it.",
+      "stated_by_authors": true,
+      "quote": "We did not systematically compare its performance against prompts without a defined system role.",
+      "page": 8
+    },
+    {
+      "point": "Only prompt engineering was used; no fine-tuning or retrieval approaches.",
+      "stated_by_authors": true,
+      "quote": "our method is limited by the exclusive use of prompt engineering for developing our classifiers.",
+      "page": 14
+    },
+    {
+      "point": "Datasets are not public, so the results cannot be independently re-run.",
+      "stated_by_authors": true,
+      "quote": "the datasets contain private or sensitive information and are therefore not publicly available",
+      "page": 14
+    },
+    {
+      "point": "Human reliability for reported speech was modest (alpha 0.66, 150 double-coded units), and the gold standard was coded largely by the first author. Not framed as a limitation by the authors.",
+      "stated_by_authors": false,
+      "quote": "Krippendorff’s α = 0.66",
+      "page": 6
+    },
+    {
+      "point": "Source tasks are psychological constructs in diaries, Reddit and complaint letters. None involves organisations, web evidence, or entity classification, so transfer to the TI study is untested by this paper. This is the reader's note, not the authors'.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "Text was read from the library's pre-extracted text file (literature/text) because the PDF page renderer was unavailable; figures (Figure 1) were not seen and tables were read from extracted text. Reference pages 15-16 were only skimmed.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Supplementary material (codebooks and final prompts)",
+      "what_it_is": "Online supplement with the reported-speech codebook, HCAT manual and the final prompts; not in the PDF.",
+      "page": 9
+    },
+    {
+      "name": "Healthcare Complaints Analysis Tool (HCAT) and NPSA 2008 risk matrix",
+      "what_it_is": "Coding framework and harm scale with level examples used for the harm task.",
+      "page": 6
+    },
+    {
+      "name": "Reference list",
+      "what_it_is": "Bibliography including Bail 2024, Pangakis et al. 2023, Gilardi et al. 2023, Törnberg 2023/2024, Demszky et al. 2023, Krippendorff 2004.",
+      "page": 15
+    }
+  ],
+  "relevant_to": [
+    "method"
+  ],
+  "pages_read": "1-16 of 16, from the extracted text in literature/unfccc/data/processed/text/doi-10-3389-frsps-2025-1460277.json (PDF renderer unavailable); pages 1-14 read in full, pages 15-16 (references) skimmed; figure not viewed",
+  "read_on": "2026-11-24",
+  "read_by": "2026-11-24 general-purpose agent (sonnet) following source-reader instructions; PDF text extracted (pdftoppm missing), page numbers are PDF page indices"
+}

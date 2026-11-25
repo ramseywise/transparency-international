@@ -1,0 +1,282 @@
+{
+  "id": "doi-10-1177-08944393251366243",
+  "citation": {
+    "authors": ["Hao Lin", "Yongjun Zhang"],
+    "year": 2025,
+    "title": "Navigating the Risks of Using Large Language Models for Text Annotation in Social Science Research",
+    "venue_or_publisher": "Social Science Computer Review (per the DOI given by the requester; the file read does not name the journal). The file itself is a preprint from Stony Brook University authors.",
+    "doi_or_url": "https://doi.org/10.1177/08944393251366243",
+    "type": "File read is the arXiv preprint 2503.22040, version 2 (29 pages), not the journal version. Page numbers in this record are the preprint's; the text may differ from the published article. Journal article per the DOI.",
+    "peer_reviewed": "unknown"
+  },
+  "question": "Whether, and under what circumstances, social scientists can trust results produced by large language models (LLMs) used for text annotation; the authors propose a framework for using LLMs as primary coders or as coding assistants, and assess validity, reliability, replicability and transparency, using social movement (protest) studies as the example.",
+  "data": "News articles from the New York Times: the annotated NYT corpus 1987-2007 from the Linguistic Data Consortium (LDC) matched to the human-coded Dynamics of Collective Action (DoCA) project database (DoCA covers NYT articles 1960-1995). Human DoCA codes serve as the benchmark. Models: gpt-4-turbo, Llama-3-8B (4-bit quantized), Llama-3.3-70B. Subsets: 200 randomly selected articles queried 25 times for reliability; 100 articles checked by hand for reasoning errors; 137 cases below 95% token probability shown in the confidence example. The total number of matched articles is not stated in the file.",
+  "method": "Three coding tasks of rising complexity (binary: police presence; multiclass: protest size on a 1-6 scale; multilabel: protest activities) were run with zero-shot prompts (plain with role play, chain-of-thought, tree-of-thought) and the output compared with DoCA codes using accuracy and F1 (subset accuracy for the multilabel task). Reliability was tested by repeating the same prompt 25 times and computing the intraclass correlation (ICC), treating each run as a rater. Step-by-step reasoning from the models was checked by hand on 100 articles. Confidence was examined through token log probabilities (logprob) and perplexity. Llama models were run locally at temperature 0.2. Proposed workflow: write a codebook, draw a random development set of 100-200 cases to test prompts, apply the best prompt to the full data, then draw a separate random evaluation set of 100-200 cases with human labels to report accuracy, precision, recall and F1.",
+  "definitions": [
+    {
+      "term": "LLM roles in annotation (primary coder vs secondary assistant)",
+      "definition": "Primary coders: the LLM makes the coding decision and humans evaluate its performance on large-scale data. Secondary assistants: the LLM summarises and suggests, and humans make the final decision on small to medium data.",
+      "quote": "as primary coders, with humans evaluating their performance for large-scale data, or (2) as secondary assistants",
+      "page": 5
+    },
+    {
+      "term": "development set",
+      "definition": "A random, human-labelled sample used to test prompts and choose the best-performing one (called the validation set in machine learning).",
+      "quote": "The development set, also known as the validation set, is used in supervised machine learning to ﬁne-tune model hyperparameters and select the optimal model.",
+      "page": 6
+    },
+    {
+      "term": "evaluation set",
+      "definition": "A separate random, human-labelled sample used to report the performance of the chosen prompt and model (called the test set in machine learning).",
+      "quote": "The evaluation set, sometimes also known as the test set, is used to evaluate the performance of the model.",
+      "page": 6
+    },
+    {
+      "term": "task complexity",
+      "definition": "Ordered from binary to multiclass to multilabel to hierarchical classification; also depends on how vague the construct is and whether the text needs outside context.",
+      "quote": "task complexity generally increases along the following hierarchy: binary classiﬁcation (two mutually exclusive classes), multiclass classiﬁcation (more than two mutually exclusive classes)",
+      "page": 11
+    },
+    {
+      "term": "model drift",
+      "definition": "Degradation of a model's performance over time; named as a threat to replicability.",
+      "quote": "model drift occurs when a model’s performance degrades over time due to changes in the data distribution or the environment in which it operates",
+      "page": 14
+    },
+    {
+      "term": "logprob (log probability)",
+      "definition": "The logarithm of the probability of an output token; used as a measure of the model's internal confidence, not of correctness.",
+      "quote": "While a higher logprob indicates higher model conﬁdence, it does not guarantee greater prediction accuracy",
+      "page": 19
+    }
+  ],
+  "proxies": [],
+  "findings": [
+    {
+      "claim": "LLM coding performance falls as task complexity rises (binary tasks work better than multiclass and multilabel).",
+      "quote": "Overall, we ﬁnd that LLM performance declines as coding task complexity increases.",
+      "page": 3
+    },
+    {
+      "claim": "gpt-4-turbo zero-shot on the binary task (police presence) scored accuracy 0.84 and F1 0.63; the three prompting strategies gave 0.84/0.63, 0.85/0.64 and 0.82/0.61 (accuracy, F1). For protest size, accuracy was 0.46 to 0.50.",
+      "quote": "Binary (Police) 0.84, 0.63 0.85, 0.64 0.82, 0.61",
+      "page": 12
+    },
+    {
+      "claim": "Repeating the same prompt 25 times gave excellent consistency for the binary task (ICC 0.934).",
+      "quote": "The ICC score for police presence is 0.934 (95% CI : [0.921,0.946]), indicating excellent reliability.",
+      "page": 13
+    },
+    {
+      "claim": "Repeated runs gave only moderate consistency for the multiclass task (ICC 0.518), so results on more complex tasks are less stable.",
+      "quote": "While the ICC score for protest size is 0.518 (95% CI :[0.463,0.577]), indicating moderate reliability, this suggests that the results are not very reliable.",
+      "page": 13
+    },
+    {
+      "claim": "Prompting strategy changed results: simple zero-shot with role play did well across tasks, while chain-of-thought and tree-of-thought were each best on one task. Which strategy wins depends on the task.",
+      "quote": "The performance of annotation tasks is highly sensitive to prompt engineering.",
+      "page": 13
+    },
+    {
+      "claim": "Llama-3.3-70B performed slightly below gpt-4-turbo on all three tasks, with a small gap on the simpler tasks; Llama-3-8B was weaker (binary accuracy 0.76, F1 0.57, as in Table 2).",
+      "quote": "Notably, the performance gap between GPT-4 and Llama 3.3 was much smaller for less complex tasks, such as binary and multiclass variables.",
+      "page": 22
+    },
+    {
+      "claim": "In a hand check of 100 articles, GPT-4's reasoning was correct for all 100 police-presence cases but had errors on protest size; Llama 3.3 made errors on both and tended to infer beyond the text.",
+      "quote": "for Llama 3.3, we observed errors in both tasks, with a tendency to hallucinate - inferring information beyond what was explicitly stated in the text",
+      "page": 21
+    },
+    {
+      "claim": "Only 137 of the police-presence cases had a GPT-4 token probability below 95%; the authors suggest such low-confidence cases deserve review.",
+      "quote": "These cases with a low level of probability or conﬁdence often warrant further investigation to ensure accuracy.",
+      "page": 19
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Only zero-shot prompting was tested; few-shot prompting and fine-tuning were not.",
+      "stated_by_authors": true,
+      "quote": "First, we only experimented with zero-shot text classiﬁcation using diﬀerent prompting strategies.",
+      "page": 3
+    },
+    {
+      "point": "Results come from one domain (protest events in news articles); performance may differ elsewhere. The study did not test classifying organisations, sectors or industries.",
+      "stated_by_authors": true,
+      "quote": "Third, we focus on a speciﬁc domain of social movement studies, and the performance of LLMs may vary across diﬀerent research areas.",
+      "page": 3
+    },
+    {
+      "point": "Risks named by the authors may change as models advance, so the numbers are tied to the models tested (gpt-4-turbo, Llama-3 variants).",
+      "stated_by_authors": true,
+      "quote": "Second, given the rapid advancement of LLMs, some of the limitations and risks discussed in the paper may be mitigated in the near future.",
+      "page": 3
+    },
+    {
+      "point": "The recommended sample size (100-200 cases per set) is given as a rule of thumb and depends on time and budget; no calculation of the uncertainty of the accuracy estimate is given in the file.",
+      "stated_by_authors": true,
+      "quote": "The size of the development and evaluation sets is ﬂexible and depends on time and budget constraints, and we recommend sampling at least 100 ∼200 cases for each set.",
+      "page": 6
+    },
+    {
+      "point": "The human DoCA codes are treated as ground truth; the file reports no agreement measure between human coders, and no confidence interval for accuracy or F1 in Table 1 or 2.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The file is the preprint (v2), not the published journal version; its text and page numbers may differ from the article.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "No instructions addressed to a reader or an AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "recommendations": {
+    "note": "Recommendations by the authors (what they argue, not what they found). Added by the reader as an extra field to hold the risks and guidelines the task asked for.",
+    "risks_named": [
+      {
+        "risk": "Validity: accuracy falls on complex, vaguely defined constructs; hallucination and bias",
+        "quote": "scholars should be cautious of replacing human coders with LLMs simply because they can make mistakes and reproduce existing biases.",
+        "page": 23
+      },
+      {
+        "risk": "Replicability: legacy models can disappear",
+        "quote": "When some of those legacy models become inaccessible to the public, scholars cannot replicate their results.",
+        "page": 14
+      },
+      {
+        "risk": "Transparency: black-box proprietary models",
+        "quote": "The use of LLMs - particularly proprietary models - often operates as a black box.",
+        "page": 14
+      },
+      {
+        "risk": "Stated reasoning may not reflect what the model did",
+        "quote": "scholars should exercise caution, as the reasoning produced by LLMs may not accurately reﬂect their internal understanding",
+        "page": 21
+      },
+      {
+        "risk": "Unknown confidence when a provider does not give token probabilities",
+        "quote": "When proprietary LLMs do not provide the distribution of token probability, it poses greater epistemic risks, as scholars are not informed about the conﬁdence of the results.",
+        "page": 18
+      },
+      {
+        "risk": "Performance drift over time",
+        "quote": "Prior research has documented signiﬁcant performance drift in LLMs over time (Chen, Zaharia, & Zou, 2024)",
+        "page": 21
+      },
+      {
+        "risk": "Data leakage and privacy when using proprietary models",
+        "quote": "First, we can opt out of allowing proprietary LLMs to use your uploaded data and usage history for model training or sharing with third parties.",
+        "page": 22
+      }
+    ],
+    "validation": [
+      {
+        "recommendation": "Start from a clear codebook with all concepts defined",
+        "quote": "To ensure high-quality text annotation, ﬁrst we need to develop a coherent and consistent codebook, with all measured concepts clearly deﬁned.",
+        "page": 5
+      },
+      {
+        "recommendation": "Test prompts on a random development set of 100-200 human-labelled cases",
+        "quote": "Second, researchers need to build a development dataset by randomly selecting 100 ∼200 cases to iteratively test various prompting strategies to determine the best-performing prompt.",
+        "page": 5
+      },
+      {
+        "recommendation": "Report accuracy, precision, recall and F1 on a separate random evaluation set of 100-200 cases",
+        "quote": "Finally, researchers need to further construct a separate evaluation dataset by randomly selecting additional 100 ∼200 cases to report performance metrics such as accuracy, precision, recall, and F1 score.",
+        "page": 5
+      },
+      {
+        "recommendation": "Keep development and evaluation samples independent so performance is not inflated",
+        "quote": "Both datasets are sampled separately and randomly from the larger dataset, ideally ensuring they are independent of each other.",
+        "page": 6
+      },
+      {
+        "recommendation": "Use the LLM as primary coder only when the dataset is large, the task simple and error tolerance fairly high",
+        "quote": "If researchers are dealing with a large-scale dataset with low task complexity and relatively high error tolerance, LLMs can serve as the primary coder role while humans take on the evaluation role.",
+        "page": 5
+      },
+      {
+        "recommendation": "Use the LLM only as an assistant when the task is complex, the dataset manageable and error tolerance low",
+        "quote": "if the annotation task is complex, requires strong reasoning skills, the data size is manageable within the budget, the error tolerance is low, or the analytic method is inductive, then LLMs can act as coding assistants",
+        "page": 6
+      },
+      {
+        "recommendation": "Break complex multiclass or multilabel tasks into binary questions",
+        "quote": "We recommend that scholars should decompose complex coding tasks into simple ones.",
+        "page": 21
+      }
+    ],
+    "prompts_and_uncertainty": [
+      {
+        "recommendation": "Test prompts for stability by repeating the same prompt at least 25 times on the development set and computing ICC",
+        "quote": "Our proposed approach involves running the same prompt multiple times (at least 25) on a development dataset and calculating",
+        "page": 12
+      },
+      {
+        "recommendation": "Report token log probabilities and review low-confidence cases",
+        "quote": "We also propose that scholars can report on the log probability of predicted tokens and select the cases with low conﬁdence to diagnose the potential issues leading to low accuracy.",
+        "page": 20
+      },
+      {
+        "recommendation": "Prompts optimised for one model may not carry over to newer versions",
+        "quote": "prompts optimized for one model may not perform equally well on newer versions",
+        "page": 6
+      }
+    ],
+    "reporting_and_reproducibility": [
+      {
+        "recommendation": "Deposit code in a public repository and document prompt, model and parameter settings",
+        "quote": "we encourage scholars to deposit and share codes in public repository such as GitHub, OSF, and SocArxiv, documenting the speciﬁc prompt, the speciﬁc model, and the speciﬁc parameter setting.",
+        "page": 21
+      },
+      {
+        "recommendation": "Share prompts, parameters and returned outputs (removing sensitive data)",
+        "quote": "improving transparency by sharing codes, prompts, model parameters, and returned outcomes",
+        "page": 23
+      },
+      {
+        "recommendation": "Routine, published performance audits of LLMs by researchers and journals",
+        "quote": "researchers and journals routinely assess, document, and publish",
+        "page": 21
+      },
+      {
+        "recommendation": "Prefer open-source models run locally for data security",
+        "quote": "Finally, an alternative to proprietary LLMs is to prioritize the use of open-source LLMs, such as the Llama models, in social science research.",
+        "page": 22
+      },
+      {
+        "recommendation": "Record settings used (the authors ran Llama at temperature 0.2)",
+        "quote": "We applied the same zero-shot prompt technique used for the gpt-4-turbo model at a temperature of 0.2.",
+        "page": 22
+      }
+    ]
+  },
+  "reference_lists_or_datasets": [
+    {
+      "name": "Dynamics of Collective Action (DoCA)",
+      "what_it_is": "Human-coded database of protest events from New York Times articles 1960-1995, used as the benchmark",
+      "page": 29
+    },
+    {
+      "name": "Annotated NYT corpus (LDC), 1987-2007",
+      "what_it_is": "Source of the original articles, matched to DoCA because DoCA does not include article text",
+      "page": 29
+    },
+    {
+      "name": "Reference list",
+      "what_it_is": "Bibliography (pages 24-28), including Gilardi et al. 2023 (ChatGPT versus crowd workers), Barrie et al. 2024 (prompt stability), Chen et al. 2024 (model drift), Ollion et al. 2024 (dangers of proprietary LLMs)",
+      "page": 24
+    }
+  ],
+  "relevant_to": ["method"],
+  "pages_read": "1-29 (all pages read; pages 24-28 are references, 28-29 appendices with prompts and dataset description)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

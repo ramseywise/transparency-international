@@ -1,0 +1,192 @@
+{
+  "id": "doi-10-18653-v1-2025-acl-long-782",
+  "citation": {
+    "authors": ["Nitay Calderon", "Roi Reichart", "Rotem Dror"],
+    "year": 2025,
+    "title": "The Alternative Annotator Test for LLM-as-a-Judge: How to Statistically Justify Replacing Human Annotators with LLMs",
+    "venue_or_publisher": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 16051-16081, July 27 - August 1, 2025",
+    "doi_or_url": "https://doi.org/10.18653/v1/2025.acl-long.782",
+    "type": "conference-paper",
+    "peer_reviewed": "unknown"
+  },
+  "question": "How can researchers show statistically, with a small set of human-annotated examples, that a language model can replace human annotators? The paper proposes the alternative annotator test (alt-test).",
+  "data": "Ten existing annotated datasets (WAX, LGBTeen, MT-Bench, Framing, CEBaB-A, SummEval, 10K Prompts, CEBaB-S, Lesion, KiloGram) with 3 to 13 annotators each, covering classification, rating, pairwise preference and free-text tasks. Six LLMs (Gemini-1.5 Flash and Pro, GPT-4o, GPT-4o-mini, Llama-3.1-7B, Mistral-7B-v0.3) and four prompting techniques (zero-shot, few-shot with four demonstrations, chain-of-thought, ensemble). Annotator type and counts are in Table 1 (page 6).",
+  "method": "Leave-one-out comparison. Each human annotator is excluded in turn, and the LLM is compared with that annotator on how well each aligns with the remaining annotators, instance by instance. A one-sided paired t-test (Wilcoxon signed-rank when fewer than 30 instances) tests whether the LLM is at least as good as the excluded annotator, within a cost-benefit margin epsilon. The p-values across annotators are corrected with the Benjamini-Yekutieli procedure (FDR 0.05). The winning rate omega is the share of annotators the LLM beats; the LLM passes if omega is at least 0.5. The Average Advantage Probability (rho) is used to compare LLMs.",
+  "definitions": [
+    {
+      "term": "gold labels",
+      "definition": "The true or ground-truth annotations, usually set by expert consensus or heavy quality control. The paper assumes they are unavailable.",
+      "quote": "represent the “true” or ground truth annotations and are typically determined through rigorous processes, such as consensus among experts or extensive quality control.",
+      "page": 3
+    },
+    {
+      "term": "winning rate (omega)",
+      "definition": "Share of human annotators that the LLM matches or beats in the test. If at least 0.5 the LLM is taken to be able to replace humans.",
+      "quote": "If ω ≥0.5,5 then the LLM wins the majority of human annotators, hence we assert that it can replace human annotators.",
+      "page": 5
+    },
+    {
+      "term": "Average Advantage Probability (rho)",
+      "definition": "Probability that the LLM annotation is as good as or better than that of a randomly chosen human annotator.",
+      "quote": "directly represents the probability that the LLM annotations are as good as or better than those of a randomly chosen annotator.",
+      "page": 5
+    },
+    {
+      "term": "optimal LLM-as-a-judge",
+      "definition": "An LLM with an advantage probability of 1.",
+      "quote": "We define it as an LLM that achieves an advantage probability of ρ = 1",
+      "page": 6
+    },
+    {
+      "term": "epsilon (cost-benefit margin)",
+      "definition": "How much worse than a human the LLM may be and still count as an acceptable replacement. Set by the researcher according to annotator type.",
+      "quote": "any value can be valid if the researcher reasonably justifies their choice.",
+      "page": 17
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "an LLM can replace human annotators",
+      "indicator": "Passing the alt-test: winning rate omega of at least 0.5 after Benjamini-Yekutieli correction at FDR 0.05.",
+      "quote": "If ω ≥0.5,5 then the LLM wins the majority of human annotators, hence we assert that it can replace human annotators.",
+      "page": 5
+    },
+    {
+      "concept": "acceptable loss relative to a human (epsilon)",
+      "indicator": "Type of annotator: experts 0.2, skilled annotators 0.15, crowd-workers 0.1.",
+      "quote": "For each dataset, we selected ε values based on the type of annotators (as indicated in Table 1): experts (ε = 0.2), skilled annotators (ε = 0.15), and crowd-workers (ε = 0.1).",
+      "page": 7
+    },
+    {
+      "concept": "gold label (true answer)",
+      "indicator": "Collective responses of several human annotators, since gold labels are not available.",
+      "quote": "a common approach is to approximate them using the collective responses of multiple annotators.",
+      "page": 3
+    },
+    {
+      "concept": "enough instances for the test to be valid",
+      "indicator": "At least 30 annotated instances, the point at which the t-test normality assumption is taken to hold.",
+      "quote": "When n < 30, the normality assumption may not hold, and a non-parametric test (e.g., Wilcoxon signed-rank) should be used.",
+      "page": 5
+    }
+  ],
+  "findings": [
+    {
+      "claim": "On nine of the ten datasets at least one LLM, with some prompting technique, passed the alt-test.",
+      "quote": "on nine datasets, at least one LLM, with some prompting technique, success-fully passed the alt-test",
+      "page": 2
+    },
+    {
+      "claim": "With epsilon 0.2, the LLM usually starts to pass before 100 instances, and in half of the cases before 50.",
+      "quote": "for ε = 0.2, in most cases, the LLM begins to pass the test before annotating 100 instances, and in half even before 50 instances.",
+      "page": 9
+    },
+    {
+      "claim": "With the stricter epsilon 0.1 (crowd-workers), the test needs about twice as many instances.",
+      "quote": "With ε = 0.1 the alt-test requires more instances, typically double the amount needed for ε = 0.2, between 100 and 150.",
+      "page": 9
+    },
+    {
+      "claim": "Chain-of-thought prompting made results worse in a large share of cases.",
+      "quote": "the CoT methodology led to a decline in performance in many cases (45%).",
+      "page": 8
+    },
+    {
+      "claim": "The winning rate depends strongly on how many instances are annotated.",
+      "quote": "the winning rate ω strongly depends on the number of instances",
+      "page": 9
+    }
+  ],
+  "recommendations": [
+    {
+      "claim": "Authors recommend three or more annotators and 50 to 100 instances, depending on task complexity.",
+      "quote": "researchers can recruit a small group of annotators (at least three) to annotate a subset of 50 to 100 examples, depending on the complexity of the task.",
+      "page": 9
+    },
+    {
+      "claim": "Authors recommend at least 30 instances for the t-test to be valid.",
+      "quote": "you should have at least 30 instances.",
+      "page": 16
+    },
+    {
+      "claim": "Authors recommend epsilon 0.2 for trusted experts and 0.15 for skilled annotators.",
+      "quote": "As a rule of thumb, we recommend setting ε to 0.2 when the annotators are trusted experts and 0.15 when they are skilled annotators",
+      "page": 17
+    },
+    {
+      "claim": "Authors recommend expert annotators where possible, and at least highly trained crowd-workers.",
+      "quote": "we recommend using expert annotators whenever possible and, at the very least, highly trained crowd-workers.",
+      "page": 17
+    },
+    {
+      "claim": "Authors recommend testing each aspect or domain separately while controlling the false discovery rate across all tests.",
+      "quote": "evaluate it in each setting independently while also controlling for the overall False Discovery Rate (FDR).",
+      "page": 16
+    },
+    {
+      "claim": "Authors say stricter thresholds can be used when stakes are high.",
+      "quote": "Stricter thresholds can be used in high-stakes domains.",
+      "page": 5
+    }
+  ],
+  "limitations": [
+    {
+      "point": "If human annotators disagree strongly, the LLM is unlikely to pass the test.",
+      "stated_by_authors": true,
+      "quote": "In such cases, it is unlikely that the LLM-as-a-judge will succeed in passing our test.",
+      "page": 10
+    },
+    {
+      "point": "The test cannot stop misuse, for example with weak human annotators or a single expert.",
+      "stated_by_authors": true,
+      "quote": "our procedure cannot fully prevent such misuse.",
+      "page": 10
+    },
+    {
+      "point": "The benchmark datasets may overlap with the LLMs' training data.",
+      "stated_by_authors": true,
+      "quote": "datasets used in our experiments may overlap with the training data of the evaluated LLMs.",
+      "page": 10
+    },
+    {
+      "point": "With only three annotators the winning rate can take only four values, so the 0.5 threshold is coarse.",
+      "stated_by_authors": true,
+      "quote": "with only three annotators, ω value is limited to 0, 1⁄3, 2⁄3, 1.",
+      "page": 5
+    },
+    {
+      "point": "With two annotators the procedure has no consensus signal.",
+      "stated_by_authors": true,
+      "quote": "the procedure simply checks whether the LLM aligns more with one annotator than the other, lacking a consensus signal.",
+      "page": 15
+    },
+    {
+      "point": "With strongly imbalanced labels an LLM that always predicts the common label can pass the test through ties.",
+      "stated_by_authors": true,
+      "quote": "an LLM that consistently predicts ‘5’ would succeed and pass our test due to the high proportion of ties",
+      "page": 18
+    },
+    {
+      "point": "The extracted text has garbled tables and equations, so table values were not quoted or used. Prompts in Appendix G are the paper's own LLM prompts, not instructions to the reader. No instructions addressed to a reader or an AI were found.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {"name": "WAX", "what_it_is": "Word association explanations, relation labelling by crowd workers (16 relation types)", "page": 22},
+    {"name": "SummEval", "what_it_is": "Expert ratings of summaries on four dimensions, 1 to 5 scale", "page": 22},
+    {"name": "LGBTeen", "what_it_is": "Three experts rating responses to queer youth posts with a ten-question form", "page": 22},
+    {"name": "MT-Bench", "what_it_is": "Expert pairwise judgements of LLM answers to multi-turn questions", "page": 22},
+    {"name": "Lesion", "what_it_is": "Skin lesion images annotated by undergraduate students on five features", "page": 22},
+    {"name": "Framing", "what_it_is": "Climate change news articles annotated by four trained social-science annotators with 22 yes/no framing questions", "page": 23},
+    {"name": "CEBaB-A and CEBaB-S", "what_it_is": "Restaurant reviews labelled by crowd workers for aspect sentiment and star rating", "page": 23},
+    {"name": "10K Prompts", "what_it_is": "Prompt quality ratings by HuggingFace community members", "page": 23},
+    {"name": "KiloGram", "what_it_is": "Tangram images with free-text descriptions by crowd workers", "page": 23},
+    {"name": "AltTest code and datasets", "what_it_is": "Public code repository at github.com/nitaytech/AltTest (as cited in the paper's first-page footnote)", "page": 1}
+  ],
+  "relevant_to": ["method"],
+  "pages_read": "1-31 (all pages; 19,752 words of extracted text). Tables and equations are garbled in the extraction and were not used for quotes.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

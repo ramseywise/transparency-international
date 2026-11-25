@@ -1,0 +1,109 @@
+{
+  "id": "transparencycdn-integrity-checklist-for-national-delegations-to-cop-tr",
+  "citation": {
+    "authors": ["Áron Suba"],
+    "year": 2025,
+    "title": "Integrity Checklist for National Delegations to COP",
+    "venue_or_publisher": "Transparency International (published 2025-08-28 per the extracted file)",
+    "doi_or_url": "https://images.transparencycdn.org/images/Integrity-Checklist-for-National-Delegations-to-COP-Transparency-International.pdf",
+    "type": "one-page checklist (advocacy guidance for governments)",
+    "peer_reviewed": "no"
+  },
+  "question": "Not a research study. It sets out what national delegations to the UNFCCC COP should do to show transparency, accountability and integrity in their make-up and conduct, and to prevent undue influence by fossil fuel and other high-polluting industries.",
+  "data": "",
+  "method": "",
+  "definitions": [
+    {
+      "term": "high-polluting industries (as used for delegates to avoid)",
+      "definition": "Industries, besides fossil fuel companies, whose core business is incompatible with the goals of the Paris Agreement. No list of sectors or test is given.",
+      "quote": "high polluting industries whose core business is incompatible with the goals of the Paris Agreement",
+      "page": 1
+    },
+    {
+      "term": "affiliation with fossil fuel and other high-polluting industries (what delegates should disclose)",
+      "definition": "Affiliations can be with private or state-owned entities and include ownership, board or governance seats, leadership positions, consultancy contracts and unpaid advisory roles; the list is open (not limited to these).",
+      "quote": "including (but not limited to) shareholders/owners, members of board of other supervisory/governance/ body; leadership positions; consultancy contracts and unpaid adviserships",
+      "page": 1
+    },
+    {
+      "term": "who is covered (national delegation and party overflow)",
+      "definition": "The checklist covers all participants in national delegations and those under party overflow. Party overflow is not defined beyond the reference to badges.",
+      "quote": "The checklist applies to all participants in national delegations and under party overflow.",
+      "page": 1
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "fossil fuel / high-polluting industry link of a delegate",
+      "indicator": "Any of the affiliation types listed for disclosure (ownership, board or governance seat, leadership position, consultancy contract, unpaid advisership), with private or state-owned entities; also current and former affiliations in the code of conduct declaration.",
+      "quote": "Declaring all relevant current and former affiliations with fossil fuel and other high polluting industries.",
+      "page": 1
+    }
+  ],
+  "findings": [],
+  "recommendations": [
+    {
+      "point": "Do not appoint delegates affiliated with fossil fuel companies and other high-polluting industries; the authors say their presence delegitimises delegations and raises concerns about undue influence.",
+      "quote": "Their presence delegitimises National Delegations and raises concerns on the undue influence of high polluters contrary to the goals of the Paris Agreement and the purpose of COPs.",
+      "page": 1
+    },
+    {
+      "point": "Publish a full, up-to-date list of delegates and party overflow badge holders well ahead of COP.",
+      "quote": "publish a full, up-to-date list of all delegates in national delegation, and participants holding “party overflow badges.”",
+      "page": 1
+    },
+    {
+      "point": "Set conflict of interest rules to keep people with ties to major polluting industries from influencing negotiations against climate ambition.",
+      "quote": "polluting industries from influencing negotiations in ways that undermine climate ambition.",
+      "page": 1
+    },
+    {
+      "point": "Require a signed code of conduct, with declared affiliations and procedures for breaches including removal from delegations.",
+      "quote": "Declaring all relevant current and former affiliations with fossil fuel and other high polluting industries.",
+      "page": 1
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The extracted file holds the whole document: one page, about 436 words. Nothing is missing, but the document is short and gives no data.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 1
+    },
+    {
+      "point": "The document is a normative checklist. It reports no data, no method, no counts and no findings, so it gives no figure for business or fossil-fuel presence in delegations.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 1
+    },
+    {
+      "point": "It does not define 'business' or 'private sector' for delegates, and does not set out how fossil-fuel or high-polluting links should be identified, which sectors count, or any threshold. It names no reference list.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 1
+    },
+    {
+      "point": "The extracted text has some broken sentences (checkbox text is split across lines and the wording of the disclosure item is garbled, for example 'members of board of other supervisory/governance/ body'). Quotes keep the extracted wording exactly.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 1
+    },
+    {
+      "point": "The title field of the extracted file runs into the first sentence of the text; the title used here is the heading on page 1. The author name and publication date come from the file's metadata, not the page text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "No instructions addressed to a reader or an AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [],
+  "relevant_to": ["Q2", "context"],
+  "pages_read": "Whole extracted text: page 1 of 1 (the PDF has one page), all 436 words. Nothing is missing.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

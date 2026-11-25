@@ -1,0 +1,252 @@
+{
+  "id": "springer-s10584-024-03730-5",
+  "citation": {
+    "authors": [
+      "Jessica Green"
+    ],
+    "year": 2023,
+    "title": "The Climate Establishment and the Structural Constraints of the Paris Partnerships",
+    "venue_or_publisher": "Research Square preprint (posted 13 October 2023); the file id suggests a later Springer journal version (Climatic Change), which this PDF is not",
+    "doi_or_url": "https://doi.org/10.21203/rs.3.rs-3373795/v1",
+    "type": "journal article preprint (research article)",
+    "peer_reviewed": "no"
+  },
+  "question": "Why do climate INGOs behave as they do? The paper examines the ties between a set of well-resourced, insider climate INGOs (the 'climate establishment') and Fortune 100 firms through Paris partnerships, and what incentives and constraints those ties create for the INGOs.",
+  "data": "UNFCCC COP delegate counts per NGO from Allan (2020) for 1995-2015, used to pick 'leading INGOs'. Partnership membership from the Climate Initiatives Platform, downloaded 21 October 2021: 245 initiatives, of which 80 had one or more Fortune 100 members and 33 of those also had environmental INGO members. Network data are 'available upon request'. Appendix tables and figures (Table A1, A2, Figure A1) are cited in the text but are not in this PDF.",
+  "method": "Social network analysis of shared membership in UNFCCC-registered voluntary partnerships. Climate establishment INGOs must (1) be in the top 10th percentile of delegates sent to COPs and (2) share membership with Fortune 100 firms in a Paris partnership. Degree and eigenvector centrality are computed. Fortune 100 membership is searched in the participant lists of each initiative. Fossil-fuel and bank links are described narratively (named firms; a third-party NGO report on bank financing).",
+  "definitions": [
+    {
+      "term": "climate establishment",
+      "definition": "Well-resourced, professionalised insider INGOs working within the multilateral process and with large corporations to influence rulemaking, soft law and firm behaviour; operationalised by a delegate-count threshold plus shared partnership membership with Fortune 100 firms.",
+      "quote": "insiders working within the multilateral process and cooperating with multinational corporations to influence rulemaking, soft law and firm behavior.",
+      "page": 2
+    },
+    {
+      "term": "climate establishment (operational criteria)",
+      "definition": "Must be in the top 10th percentile of total delegates sent to COPs, and must cooperate with large emitters via joint membership in a Paris partnership.",
+      "quote": "they must be in the top 10th percentile of total delegates sent to the UNFCCC annual Conference of the Party meetings (COP).",
+      "page": 6
+    },
+    {
+      "term": "leading INGOs",
+      "definition": "High-profile organisations that receive deference from multiple audiences; here includes business NGOs, universities and think-tanks with the largest number of delegates at COPs 1995-2015.",
+      "quote": "This includes business NGOs, universities and think-tanks with the largest number of delegates sent to the COPs between 1995 and 2015.",
+      "page": 6
+    },
+    {
+      "term": "Paris partnerships (international cooperative initiatives)",
+      "definition": "Voluntary multi-member initiatives registered with the UNFCCC, including firms, NGOs and sub-national governments.",
+      "quote": "149 \"international cooperative initiatives\" (i.e. partnerships) registered with the UNFCCC, which include firms, non-governmental organizations and sub-national governments.",
+      "page": 2
+    },
+    {
+      "term": "business-oriented INGO / business NGO",
+      "definition": "Example given: the WBCSD, an INGO that promotes sustainability and climate action among its (business) members. Other examples named: IETA and The Climate Group. No formal inclusion rule is given.",
+      "quote": "The World Business Council on Sustainable Development (WBCSD) is a business-oriented INGO that seeks to promote sustainability and climate action among its members.",
+      "page": 8
+    },
+    {
+      "term": "greenhushing",
+      "definition": "Fossil fuel companies reporting little or nothing on progress toward previously set goals (explained in the text next to greenwashing).",
+      "quote": "fossil fuel companies have engaged in both greenwashing and \"greenhushing\"[5] – with little to no reporting on progress toward previously-set goals.",
+      "page": 9
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "INGO capacity and potential to influence policy",
+      "indicator": "Total number of delegates sent to COPs (from Allan 2020 data)",
+      "quote": "The total number of delegates is a proxy for INGOs’ capacity and thus, their potential to influence policy.",
+      "page": 6
+    },
+    {
+      "concept": "large emitters",
+      "indicator": "Fortune 100 membership",
+      "quote": "Fortune 100 companies serve as a proxy for large emitters.",
+      "page": 6
+    },
+    {
+      "concept": "cooperation between INGOs and firms",
+      "indicator": "Shared membership in the same UNFCCC partnership (a network tie)",
+      "quote": "Shared membership in a partnership – the line between two nodes – is evidence of cooperation",
+      "page": 7
+    },
+    {
+      "concept": "fossil fuel exposure of financial firms",
+      "indicator": "Banks counted as linked to fossil fuels via fossil fuel project financing, taken from a consortium NGO report on the 60 largest banks (the 'dirty dozen' are the biggest financers). Banks are noted as having small direct carbon footprints.",
+      "quote": "banks and other financial institutions have relatively small carbon footprints, but they provide financing for fossil fuel projects.",
+      "page": 6
+    },
+    {
+      "concept": "centrality / importance of an organisation in the network",
+      "indicator": "Degree centrality (number of connections) and eigenvector centrality (connections to other important actors)",
+      "quote": "not only lots of connections (degree), but connections to other important actors (eigenvector).",
+      "page": 8
+    },
+    {
+      "concept": "fossil fuel companies",
+      "indicator": "Named oil and gas firms among Fortune 100 members (Shell, Total, Petrobras, Exxon); no classification rule for 'fossil fuel company' is stated.",
+      "quote": "regularly partner with Royal Dutch Shell, Total, Petrobras and Exxon.",
+      "page": 9
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Of 245 initiatives on the Climate Initiatives Platform, 80 had Fortune 100 members and 33 of these (41%) also had environmental INGO members.",
+      "quote": "Of these 80, 33 (41%) also had one or more environmental INGOs as members.",
+      "page": 7
+    },
+    {
+      "claim": "Twelve INGOs make up the climate establishment (e.g. WWF, WRI, Greenpeace, Oxfam, Nature Conservancy, Sierra Club).",
+      "quote": "Table 1 shows the members of the climate establishment, as identified through the methods above.",
+      "page": 7
+    },
+    {
+      "claim": "Business NGOs account for a large share of leading INGO delegates at COPs, close to the share of environmental NGOs (data in Figure A1, not in this PDF).",
+      "quote": "Business NGOs constitute 29% of all leading INGO delegates, whereas environmental NGOs are 36%.",
+      "page": 8
+    },
+    {
+      "claim": "Business-oriented INGOs (IETA, WBCSD, The Climate Group) are among the leading INGOs; WBCSD is the third most central INGO in the network after WWF and WRI.",
+      "quote": "It is the third most central INGO in the network, after WWF and the World Resources Institute.",
+      "page": 8
+    },
+    {
+      "claim": "Fortune 100 firms are on average more connected than climate establishment INGOs.",
+      "quote": "The firm average degree centrality score is 70, with a standard deviation 44.6.",
+      "page": 8
+    },
+    {
+      "claim": "Climate establishment INGOs partner with major oil and gas firms; Exxon partners with almost half of them.",
+      "quote": "Exxon – arguably the biggest \"bad guy\" among fossil fuel companies – partners with almost half of INGOs in the climate establishment",
+      "page": 9
+    },
+    {
+      "claim": "Large banks are linked to the climate establishment: three-quarters of the 'dirty dozen' fossil fuel financing banks take part in Paris partnerships, and three-quarters of the climate establishment cooperate with at least one of them.",
+      "quote": "three-quarters of the climate establishment are cooperating with one or more members of this \"dirty dozen\"",
+      "page": 10
+    },
+    {
+      "claim": "All top-five cooperators of the climate establishment take part in at least one of three carbon pricing partnerships.",
+      "quote": "all top five cooperators of the climate establishment participate in at least one of three carbon pricing partnerships",
+      "page": 10
+    },
+    {
+      "claim": "Almost all fossil fuel companies in the sample take part in at least one carbon pricing partnership; utilities and energy companies are also active participants.",
+      "quote": "almost all the fossil fuel companies in the sample participate in at least one carbon pricing partnership.",
+      "page": 11
+    },
+    {
+      "claim": "The author argues that ties to Fortune 100 firms create material, operational and ideological constraints on the climate establishment. This is argued from existing literature, and the paper does not measure INGO behaviour or its change.",
+      "quote": "The ties between these two groups indicates that the climate establishment is exposed to organizational incentives not to advocate for greater ambition.",
+      "page": 11
+    }
+  ],
+  "recommendations": [
+    {
+      "claim": "Scholars should assess how relationships with multinational corporations shape climate establishment behaviour, in addition to assessing partnership effectiveness.",
+      "quote": "scholars should also consider how relationships with multinational corporations shape the climate establishment’s organizational behavior.",
+      "page": 2
+    },
+    {
+      "claim": "Future research should examine when INGOs cooperate with large emitters versus choose confrontational approaches, and whether they support restricting fossil fuel supply.",
+      "quote": "When do they choose to cooperate with large emitters, and when do they choose more confrontational approaches?",
+      "page": 11
+    },
+    {
+      "claim": "The strong presence of business INGOs underscores the need for strong environmental advocacy as a counterbalance.",
+      "quote": "The considerable presence of business INGOs underscores the need for strong environmental advocacy as a potential counterbalance.",
+      "page": 8
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Possible selection effect: INGOs may choose to cooperate with polluters because they see them as a source of solutions; the network ties do not by themselves show constraint.",
+      "stated_by_authors": true,
+      "quote": "It is reasonable to argue that there is a selection effect operating in these networks",
+      "page": 11
+    },
+    {
+      "point": "Only cooperation via partnerships is examined; other tactics such as protest or direct action are out of scope.",
+      "stated_by_authors": true,
+      "quote": "Examining these other tactics is beyond the scope of this study.",
+      "page": 11
+    },
+    {
+      "point": "Network analysis cannot assess partnership effectiveness.",
+      "stated_by_authors": true,
+      "quote": "While network analysis cannot assess the effectiveness of the Paris partnerships",
+      "page": 5
+    },
+    {
+      "point": "Fortune 100 is a proxy for large emitters, and the author notes that not all of these firms generate large direct emissions.",
+      "stated_by_authors": true,
+      "quote": "Not all of these firms generate large direct emissions, yet they all have or contribute to significant GHG emissions.",
+      "page": 6
+    },
+    {
+      "point": "Partnership data come from a single download in October 2021, and the paper reports 13 initiatives eliminated because no participating firms were found. Participant lists are incomplete ('most initiatives included information on participants'). Not framed as a limitation by the authors.",
+      "stated_by_authors": false,
+      "quote": "Most initiatives included information on participants",
+      "page": 7
+    },
+    {
+      "point": "The COP delegate data cover 1995-2015 only, so the sample of 'leading INGOs' does not reflect more recent COPs, and it is a different population from Party or Party-overflow delegations. Not framed as a limitation by the authors.",
+      "stated_by_authors": false,
+      "quote": "Allan’s data (2020) which tracks NGO participation in the COP meetings from 1995 to 2015",
+      "page": 6
+    },
+    {
+      "point": "The study counts NGO delegates (observers), not Party delegations, so it gives no direct count of business or fossil fuel delegates on Party badges. It also gives no rule for deciding which firms are fossil fuel linked. Reader note, not stated by the authors.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "This PDF is a preprint without the appendices (Table A1, Table A2, Figure A1 are cited but absent), and network data are available only on request; the delegate shares and centrality scores cannot be checked from this file.",
+      "stated_by_authors": false,
+      "quote": "Network data are available upon request.",
+      "page": 12
+    },
+    {
+      "point": "Source contains no instructions addressed to a reader or AI, apart from a template line in the declarations ('Please ensure that all authors are individually mentioned...'), which was ignored.",
+      "stated_by_authors": false,
+      "quote": "(Please ensure that all authors are individually mentioned in the author contribution statement.)",
+      "page": 12
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Allan (2020) COP NGO participation data, 1995-2015",
+      "what_it_is": "Data on NGO delegates at COPs, shared by Jen Iris Allan with the author; used to select leading INGOs. Coding described in Appendix 1 (not in this PDF).",
+      "page": 6
+    },
+    {
+      "name": "Climate Initiatives Platform",
+      "what_it_is": "Database of 245 partnerships and their participants, downloaded 21 October 2021 from climateinitiativesplatform.org.",
+      "page": 7
+    },
+    {
+      "name": "UNFCCC Global Climate Action Portal",
+      "what_it_is": "Clearinghouse for voluntary climate efforts by non-state actors, including International Cooperative Initiatives.",
+      "page": 6
+    },
+    {
+      "name": "Banking on Climate Chaos 2022 (consortium NGO report, footnote 7)",
+      "what_it_is": "Report on the 60 largest banks' fossil fuel financing since 2015 and the 'dirty dozen', cited for the bank link. This is a possible reference list for the Tier 3 financial category; it was not read here.",
+      "page": 9
+    },
+    {
+      "name": "Reference list (52 items)",
+      "what_it_is": "Includes Supran and Oreskes 2017, Franta 2018 and 2021, Vormedal et al. 2020, Williams et al. 2022 and Brulle 2023 on oil and gas and utility obstruction; Stroup and Wong 2017 and Allan 2020 on INGOs at COPs.",
+      "page": 12
+    }
+  ],
+  "relevant_to": [
+    "context",
+    "Q1"
+  ],
+  "pages_read": "1-18 (all pages; text extracted with PyMuPDF; figure pages 16-18 contain captions only)",
+  "read_on": "2026-11-24",
+  "read_by": "2026-11-24 general-purpose agent (sonnet) following source-reader instructions; PDF text extracted (pdftoppm missing), page numbers are PDF page indices"
+}

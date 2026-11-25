@@ -1,0 +1,251 @@
+{
+  "id": "doi-10-1177-20531680241236239",
+  "citation": {
+    "authors": [
+      "Michael Heseltine",
+      "Bernhard Clemm von Hohenberg"
+    ],
+    "year": 2024,
+    "title": "Large language models as a substitute for human experts in annotating political text",
+    "venue_or_publisher": "Research and Politics, 11, 1-10 (UvA-DARE repository copy gives publication date 2025; article header says January-March 2024)",
+    "doi_or_url": "10.1177/20531680241236239",
+    "type": "journal article",
+    "peer_reviewed": "unknown"
+  },
+  "question": "Whether GPT-4 can substitute for human expert coders in annotating political text (is the text political, its negativity, its sentiment, its ideology), how this varies by text length and language, whether a hybrid approach (human adjudication of disagreements between two GPT-4 runs) improves accuracy, and whether downstream models trained on GPT-4 labels differ from those trained on hand labels.",
+  "data": "Tweets by US Members of Congress, random sample of 635 (2009-2022); 200 US news articles (2016-2017; NYT, WaPo, Bloomberg, Breitbart, Vox, The Atlantic); random tweets by members of parliament 2009-2022 in Chile (330), Germany (700), Italy (330). Downstream case study: 3,000 additional tweets from candidates in the 2022 US Congressional elections (2,500 training / 500 test), with predictions on 391,973 tweets. Expert coders produced the reference coding. Supplementary information (SI C-G: prompts, F1, full classification reports, zero-shot results, regression details) is not in the PDF.",
+  "method": "Human expert coding was treated as ground truth (US tweets double-coded with discrepancies resolved; non-US tweets single-coded by a country expert, then reviewed with a second reviewer via translation). GPT-4 (chat client) was prompted twice per task with instructions aligned to the human codebook, in fresh instances per batch (20 tweets or 4 articles). Accuracy = percentage agreement of each run with expert coding (F1 in SI). A hybrid condition has a human expert adjudicate disagreements between the two GPT-4 runs. A simple zero-shot prompt (concept name only) was compared in SI. Downstream: four BERTweet models (expert, GPT-4 run 1, run 2, hybrid labels) were fine-tuned and compared in descriptive trends and linear regressions.",
+  "definitions": [
+    {
+      "term": "Hybrid coding",
+      "definition": "Two GPT-4 runs on identical instructions and data; disagreements between the runs are adjudicated by a human expert.",
+      "quote": "disagreements between the",
+      "page": 4
+    },
+    {
+      "term": "Zero-shot prompt",
+      "definition": "A prompt that names the concept only, with no definition or coding instructions (contrasted with the full coding instructions given to humans).",
+      "quote": "a simple prompt that just mentions the concept and gives no further explanations",
+      "page": 3
+    },
+    {
+      "term": "Ground truth",
+      "definition": "The final expert coding, after two US coders resolved discrepancies; non-US tweets single-coded by a country expert then reviewed.",
+      "quote": "The U.S. data were coded by two coders, with any discrepancies then mutually resolved",
+      "page": 3
+    },
+    {
+      "term": "Accuracy",
+      "definition": "Percentage of classifications in each GPT-4 run that agree with the final expert coding.",
+      "quote": "percentage of classifications in each run which agree with the final expert coding",
+      "page": 4
+    },
+    {
+      "term": "Political (concept)",
+      "definition": "Binary coding of whether the text is political or not; detailed instructions are in SI C (not in the PDF).",
+      "quote": "whether the text was political or not (binary)",
+      "page": 3
+    },
+    {
+      "term": "Ideology (concept)",
+      "definition": "Three-category coding: left-wing, centrist, right-wing; detailed instructions in SI C.",
+      "quote": "whether the text was ideologically left-wing, centrist, or right-wing (three categories)",
+      "page": 3
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Quality of LLM annotation",
+      "indicator": "Percentage agreement between each GPT-4 run and the expert coding (F1, precision and recall in SI)",
+      "quote": "percentage of classifications in each run which agree with the final expert coding",
+      "page": 4
+    },
+    {
+      "concept": "Additional human input required",
+      "indicator": "Frequency of disagreement between the two GPT-4 runs",
+      "quote": "we also report the frequency of disagreement between the two GPT-4 runs as an indicator of additionally required human input",
+      "page": 4
+    },
+    {
+      "concept": "Human benchmark for difficulty of a task",
+      "indicator": "Rate of agreement between human coders on the same concept",
+      "quote": "the rate of agreement between human coders on this concept was 87.2%",
+      "page": 4
+    },
+    {
+      "concept": "Text complexity",
+      "indicator": "Text length: tweets versus full news articles",
+      "quote": "To test the effect of text length on classification accuracy, we also collected a random sample of 200 news articles",
+      "page": 3
+    },
+    {
+      "concept": "Substantive consequence of annotation error",
+      "indicator": "Whether models trained on GPT-4 or hybrid labels give the same descriptive trends and regression coefficient significance as models trained on expert labels",
+      "quote": "with no changes in significance of any predictors across models",
+      "page": 9
+    }
+  ],
+  "findings": [
+    {
+      "claim": "GPT-4 coding is highly accurate on tweets, up to 95%; accuracy falls for longer articles and slightly for non-English text.",
+      "quote": "GPT-4 coding is highly accurate, especially for shorter texts such as tweets, correctly classifying texts up to 95% of the time.",
+      "page": 2
+    },
+    {
+      "claim": "Political classification of US tweets: two GPT-4 runs agreed with experts 88.3% and 91.1%; hybrid 93.4% with human validation of 7.6% of instances.",
+      "quote": "the two rounds of GPT-4 coding agreed with expert coding 88.3% and 91.1% of the time",
+      "page": 4
+    },
+    {
+      "claim": "Three-category sentiment is harder: GPT-4 81.7% and 80.6%, hybrid 86.6%, against 87.2% agreement between human coders.",
+      "quote": "the rate of agreement between human coders on this concept was 87.2%",
+      "page": 4
+    },
+    {
+      "claim": "Ideology: GPT-4 84.7% and 85%, equal to the 85% human-coder agreement; hybrid over 90%.",
+      "quote": "the baseline rate of agreement between human coders for the ideology classification was also 85%",
+      "page": 4
+    },
+    {
+      "claim": "On full news articles, negativity accuracy drops sharply (80% and 76%) while political classification stays high (96.5%, 95%).",
+      "quote": "the accuracy of negativity classification drops dramatically to 80% and 76%",
+      "page": 4
+    },
+    {
+      "claim": "Longer texts help political classification but give conflicting signals for negativity; the authors do not know the exact reason.",
+      "quote": "given the black-boxiness of LLMs, we ultimately do not know what the reason for the decrease in performance is",
+      "page": 4
+    },
+    {
+      "claim": "Including detailed coding instructions in the prompt generally beat a concept-only prompt.",
+      "quote": "In most cases, including details improves accuracy.",
+      "page": 4
+    },
+    {
+      "claim": "Performance in Chile, Germany and Italy is similar to the US, with somewhat lower accuracy on negativity, and sentiment below 80% everywhere.",
+      "quote": "Accuracy for the three-way sentiment classification again drops to below 80% in all countries",
+      "page": 6
+    },
+    {
+      "claim": "Models trained on expert, GPT-4 or hybrid labels gave almost identical regression results in the downstream case study.",
+      "quote": "results across models based on the four different codings are almost identical",
+      "page": 9
+    },
+    {
+      "claim": "All GPT-4 coding was done on a single low-cost subscription, which the authors present as a large cost saving.",
+      "quote": "All GPT-4 coding for this project was completed using a single $20 monthly subscription.",
+      "page": 10
+    }
+  ],
+  "recommendations": [
+    {
+      "claim": "Three-stage hybrid workflow: code all training text at least twice with an LLM, manually reconcile discrepancies, then use the reconciled set downstream.",
+      "quote": "First, classify all training text at least twice using a LLM. Second, manually reconcile discrepancies between the two rounds of coding.",
+      "page": 9
+    },
+    {
+      "claim": "Choose LLM coding by considering text type together with the classification task.",
+      "quote": "combination of text type and classification task when deciding about the viability of GPT-4 for their coding requirements",
+      "page": 5
+    },
+    {
+      "claim": "Researchers should watch for model biases in annotation, especially on contentious or specific concepts.",
+      "quote": "Researchers should be mindful of these potential biases and carefully consider their impact on potential outcomes.",
+      "page": 10
+    },
+    {
+      "claim": "Authors argue that LLM-assisted coding is a viable and cost-efficient approach, with attention to task complexity.",
+      "quote": "LLM-assisted coding is a viable and cost-efficient approach, although consideration should be given to task complexity.",
+      "page": 2
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Performance is worse on longer, more complex texts.",
+      "stated_by_authors": true,
+      "quote": "GPT-4 performed worse on longer, more complex texts.",
+      "page": 9
+    },
+    {
+      "point": "Unclear how GPT-4 performs on more complex concepts than those tested; accuracy dropped for three-category tasks.",
+      "stated_by_authors": true,
+      "quote": "it is also unclear how GPT-4 would perform for even more complex concepts",
+      "page": 9
+    },
+    {
+      "point": "Results cannot be generalised to non-Western contexts; only the US, Chile, Germany and Italy were tested, chosen by authors' expertise and coder access.",
+      "stated_by_authors": true,
+      "quote": "we cannot say how LLM-assisted coding would do in other, non-Western contexts",
+      "page": 9
+    },
+    {
+      "point": "Training-data biases in LLMs may affect annotation, especially for specific or contentious concepts.",
+      "stated_by_authors": true,
+      "quote": "may seep into text annotation, especially ones more specific or contentious than the classifications done here",
+      "page": 10
+    },
+    {
+      "point": "The hybrid approach's gain is partly built in, because humans adjudicate contested cases.",
+      "stated_by_authors": true,
+      "quote": "is therefore bound to improve the accuracy",
+      "page": 4
+    },
+    {
+      "point": "Non-US tweets were single-coded by one expert, so the reference standard there is weaker than for US tweets.",
+      "stated_by_authors": true,
+      "quote": "Non-U.S. tweets were single-coded by an expert of the respective country",
+      "page": 3
+    },
+    {
+      "point": "Direct GPT-4 classification is slow and may become costly for large tasks.",
+      "stated_by_authors": true,
+      "quote": "the rate of classification through GPT-4 is considerably slower",
+      "page": 9
+    },
+    {
+      "point": "Tasks were coding political text (tweets, news) on four generic concepts, not classifying organisations; transfer to organisation classification is untested. Also, GPT-4 was used through a chat client in batches, with no model version or settings given, which limits reproducibility. This is the reader's observation, not stated by the authors.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "The prompts, F1 scores, full classification reports, zero-shot comparisons and regression details are in supplementary material that is not in this PDF, so those numbers could not be checked. Also, page numbers here are PDF page numbers (page 1 is the UvA cover sheet; article page n is PDF page n+1).",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Tweets of US Members of Congress, 2009-2022 (n=635)",
+      "what_it_is": "Random sample, baseline test set, expert-coded",
+      "page": 3
+    },
+    {
+      "name": "US news articles 2016-2017 (n=200)",
+      "what_it_is": "Random sample from six outlets, coded for political and negativity only",
+      "page": 3
+    },
+    {
+      "name": "Tweets of MPs in Chile (330), Germany (700), Italy (330)",
+      "what_it_is": "Random samples 2009-2022, single expert-coded then reviewed",
+      "page": 3
+    },
+    {
+      "name": "3,000 tweets from 2022 US Congressional candidates",
+      "what_it_is": "Training and test data for the downstream BERTweet case study; predictions applied to 391,973 tweets",
+      "page": 7
+    },
+    {
+      "name": "Reference list",
+      "what_it_is": "Includes Gilardi et al. 2023, Tornberg 2023, Ornstein et al. 2023, Nay and John 2023, Zhong et al. 2023 on LLM annotation, Bisbee et al. 2023 and Motoki et al. 2024 on LLM bias",
+      "page": 10
+    }
+  ],
+  "relevant_to": [
+    "method"
+  ],
+  "pages_read": "1-11 of 11 (PDF pages; page 1 is the UvA-DARE cover sheet, the article is PDF pages 2-11). Supplementary information (SI A-G) is not part of the PDF.",
+  "read_on": "2026-11-24",
+  "read_by": "2026-11-24 general-purpose agent (sonnet) following source-reader instructions; PDF text extracted (pdftoppm missing), page numbers are PDF page indices"
+}

@@ -1,0 +1,202 @@
+{
+  "id": "eurostat-2024-business-registers-metadata",
+  "citation": {
+    "authors": [],
+    "year": 2024,
+    "title": "European Union business registers metadata 2024 (reference metadata, ESMS; page title code BUSREG_METAES_A_4D_2024_0000)",
+    "venue_or_publisher": "Eurostat / European Commission (compiling agency 4D0). Metadata last certified, posted and updated 30 June 2026 (paras 9-11).",
+    "doi_or_url": "https://ec.europa.eu/eurostat/cache/website/business-registers/metadata/european-union-business-registers-metadata-2024.htm",
+    "type": "web page, official reference metadata report (Euro SDMX Metadata Structure)",
+    "peer_reviewed": "no"
+  },
+  "question": "Not a research study. The page describes the concepts, statistical units, coverage, legal basis and quality management of the national statistical business registers (NSBRs) of EU Member States.",
+  "data": "No dataset of its own. It describes the national statistical business registers; the reference period is the calendar year, and annual copies are kept for at least 30 years (para 96). Accuracy statement refers to reference year 2023 (para 148). Country detail is in separate national metadata reports not included here (para 89).",
+  "method": "Descriptive metadata. Registers are built from administrative and statistical sources, and in some countries commercial sources (para 170). Statistical units are defined by Regulation (EEC) No 696/93 (para 77). Enterprise groups are identified through links of control between legal units under Regulation (EU) No 549/2013 (para 20). Paragraphs 182-271 repeat earlier text (sections 3.1 to 15.2) under heading 18.6; they add nothing new.",
+  "definitions": [
+    {
+      "term": "enterprise",
+      "definition": "Statistical unit: the smallest combination of legal units that is an organisational unit producing goods or services with some autonomy in decision-making. May be a single legal unit.",
+      "quote": "the enterprise is the smallest combination of legal units that is an organizational unit producing goods or services, which benefits from a certain degree of autonomy in decision-making",
+      "page": "3.5. Statistical unit, para 78"
+    },
+    {
+      "term": "enterprise (sole legal unit)",
+      "definition": "An enterprise can consist of one legal unit.",
+      "quote": "An enterprise may be a sole legal unit.",
+      "page": "3.5. Statistical unit, para 78"
+    },
+    {
+      "term": "enterprise group",
+      "definition": "Association of enterprises bound by legal and/or financial links; may have more than one decision-making centre; an economic entity empowered to make choices about its units.",
+      "quote": "an enterprise group is an association of enterprises bound together by legal and/or financial links.",
+      "page": "3.5. Statistical unit, para 79"
+    },
+    {
+      "term": "enterprise group (how identified)",
+      "definition": "Groups are identified through links of control between their legal units, per Regulation (EU) No 549/2013.",
+      "quote": "Enterprise groups shall be identified through the links of control between their legal units in accordance with Regulation (EU) No 549/2013.",
+      "page": "3.1. Data description, para 20"
+    },
+    {
+      "term": "local unit",
+      "definition": "An enterprise or part of one situated in a geographically identified place where economic activity is carried out and at least one person works for the enterprise.",
+      "quote": "the local unit is an enterprise or part thereof (e. g. a workshop, factory, warehouse, office, mine or depot) situated in a geographically identified place.",
+      "page": "3.5. Statistical unit, para 81"
+    },
+    {
+      "term": "multinational enterprise group",
+      "definition": "An enterprise group with at least two enterprises or legal units in different countries.",
+      "quote": "A multinational enterprise group is an enterprise group that has at least two enterprises or legal units located in different countries.",
+      "page": "3.4. Statistical concepts and definitions, para 56"
+    },
+    {
+      "term": "kind of activity unit (KAU)",
+      "definition": "Groups the parts of an enterprise contributing to an activity at NACE class (four-digit) level.",
+      "quote": "the kind of activity unit groups all the parts of an enterprise contributing to the performance of an activity at class level (four digits) of NACE",
+      "page": "3.5. Statistical unit, para 80"
+    },
+    {
+      "term": "legal unit",
+      "definition": "Not defined on this page. The page uses the term (enterprises consist of legal units; legal units can be active without economic activity) but gives no definition of it. The Regulation (EEC) No 696/93 definition is not reproduced.",
+      "quote": "A legal unit can be legally or administratively active without any economic activity, when the inactive legal unit is part of an enterprise in combination with economically active legal units.",
+      "page": "3.4. Statistical concepts and definitions, para 49"
+    },
+    {
+      "term": "branches of foreign enterprises",
+      "definition": "Local units of foreign enterprises that are not separate legal entities and are classed as quasi-corporations are treated as enterprises in the registers.",
+      "quote": "Local units of foreign enterprises not constituting separate legal entities (branches), and classified as quasi- corporations in accordance with Regulation (EU) No 549/2013, shall be deemed to be enterprises",
+      "page": "3.1. Data description, para 19"
+    },
+    {
+      "term": "active enterprise",
+      "definition": "A statistical unit that was an enterprise at some time in the reference period and active (positive net turnover, or output, or employees, or investments) in the same period.",
+      "quote": "if in said period it either realized positive net turnover or produced outputs or had employees or performed investments.",
+      "page": "3.4. Statistical concepts and definitions, para 51"
+    },
+    {
+      "term": "economic activity (for the registers)",
+      "definition": "Offer of goods and services on a market; non-market services contributing to GDP; direct and indirect holdings of active legal units. Holding assets and/or liabilities may also count.",
+      "quote": "direct and indirect holdings of active legal units.",
+      "page": "3.1. Data description, para 24"
+    },
+    {
+      "term": "target population of the NSBRs",
+      "definition": "All enterprises carrying out economic activities contributing to GDP and their local units; their legal units; KAUs or secondary activities; and enterprise groups they belong to, including all-resident and multinational groups operating in the national territory.",
+      "quote": "enterprise groups to which those enterprises belong, including all-resident and multinational enterprise groups operating in the national territory.",
+      "page": "3.6. Statistical population, para 87"
+    },
+    {
+      "term": "households (out of scope)",
+      "definition": "Households are outside the framework where goods and services are for own consumption or letting out own property.",
+      "quote": "Households do not fall within the scope of the European framework for statistical business registers",
+      "page": "3.3. Coverage - sector, para 39"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "parent / subsidiary relationship",
+      "indicator": "Recorded as a variable on 'control and ownership of units': parent/subsidiary legal unit, minority shareholder information, country of global decision centre.",
+      "quote": "Information on control and ownership of units: Parent/subsidiary legal unit, minority shareholder information, country of global decision centre.",
+      "page": "3.1. Data description, para 30"
+    },
+    {
+      "concept": "enterprise group membership",
+      "indicator": "Links of control between legal units, in accordance with Regulation (EU) No 549/2013 (the page does not give a control threshold, such as a percentage of voting rights).",
+      "quote": "Enterprise groups shall be identified through the links of control between their legal units in accordance with Regulation (EU) No 549/2013.",
+      "page": "3.1. Data description, para 20"
+    },
+    {
+      "concept": "enterprise is active",
+      "indicator": "Positive net turnover, or outputs produced, or employees, or investments in the reference period.",
+      "quote": "A unit is deemed to be active when it is in investment phase, but still does not generate turnover.",
+      "page": "3.4. Statistical concepts and definitions, para 48"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Inclusion of an enterprise in an NSBR does not depend on size, legal form or kind of activity, nor on whether it belongs to a domestic or multinational group.",
+      "quote": "It is also irrelevant whether the enterprise is part of a domestic or multinational enterprise group, or whether it engages in market or non-market activities.",
+      "page": "3.6. Statistical population, para 88"
+    },
+    {
+      "claim": "No thresholds apply to the enterprise unit in the statistical registers; some countries apply thresholds to legal units in their administrative registers under national law.",
+      "quote": "No thresholds should be applied to statistical unit enterprise in the statistical business registers.",
+      "page": "3.6. Statistical population, para 89"
+    },
+    {
+      "claim": "Coverage is set by Regulation (EU) 2019/2152: all enterprises resident in the national territory carrying out economic activities contributing to GDP.",
+      "quote": "The coverage of the NSBRs is defined in the Regulation (EU) 2019/2152 on European business statistics.",
+      "page": "3.3. Coverage - sector, para 38"
+    },
+    {
+      "claim": "Legal basis of the statistical unit definitions: Council Regulation (EEC) No 696/93.",
+      "quote": "The statistical units within the statistical business registers are defined in accordance with Regulation (EEC) No 696/93, as follows:",
+      "page": "3.5. Statistical unit, para 77"
+    },
+    {
+      "claim": "Legal basis of the registers: Regulation (EU) 2019/2152 and Commission Implementing Regulation (EU) 2020/1197.",
+      "quote": "Regulation (EU) 2019/2152 of the European Parliament and of the Council of 27 November 2019 on European business statistics",
+      "page": "6.1. Institutional Mandate - legal acts and other agreements, para 99"
+    },
+    {
+      "claim": "Annex VIII of Implementing Regulation 2020/1197 lists the variables the NSBRs must include.",
+      "quote": "The Annex VIII to the EU implementing regulation 2020/1197 laying down technical specifications and arrangements, and provides the list of variables that should be included in the NSBRs.",
+      "page": "3.1. Data description, para 31"
+    },
+    {
+      "claim": "Units that make up an enterprise group may lie outside the national territory.",
+      "quote": "Concerning enterprise groups any country outside the national territory may be relevant.",
+      "page": "3.7. Reference area, para 90"
+    },
+    {
+      "claim": "The common unit definitions are what makes registers comparable across countries.",
+      "quote": "The geographical comparability of national statistical business registers is ensured by the application of common definitions of the statistical units laid down in the Council Regulation (EEC) No 696/93.",
+      "page": "15.1. Comparability - geographical, para 156"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The page gives no definition of 'legal unit', and no definition of 'parent', 'subsidiary' or 'control'. It does not say what share of ownership or voting counts as control. These are in the cited regulations and the 2021 EBS manual, which this page only points to.",
+      "stated_by_authors": false,
+      "quote": "Definitions of concepts and variables used for the NSBRs are described in the Glossary to EBS methodological manual for Statistical Business Registers (2021 edition)",
+      "page": "3.4. Statistical concepts and definitions, para 45"
+    },
+    {
+      "point": "Country-level scope, including any thresholds on legal units in administrative registers, is not on this page.",
+      "stated_by_authors": true,
+      "quote": "Detailed information about the scope of national registers is available in the national metadata reports",
+      "page": "3.6. Statistical population, para 89"
+    },
+    {
+      "point": "The page is statistical metadata about business registers. It does not address corruption, lobbying, fossil-fuel links or organisation classification. Its unit definitions are statistical, not legal or ownership-disclosure definitions.",
+      "stated_by_authors": false,
+      "quote": "The statistical business registers (SBR) are basic infrastructure for the collection and compilation of data for European business statistics.",
+      "page": "3.1. Data description, para 12"
+    },
+    {
+      "point": "Paragraphs 182-271 duplicate earlier sections under heading 18.6 'Adjustment'. Not new content. Paragraphs 167, 94 and several others read 'Not available' or 'Not applicable'.",
+      "stated_by_authors": false,
+      "quote": "Not applicable.",
+      "page": "3.9. Base period, para 94"
+    },
+    {
+      "point": "No instructions addressed to a reader or AI were found in the page text.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {"name": "Regulation (EEC) No 696/93", "what_it_is": "Council regulation on statistical units for observing the production system in the Community; basis of the enterprise, enterprise group, KAU and local unit definitions (paras 52, 77).", "page": "3.5. Statistical unit, para 77"},
+    {"name": "Regulation (EU) 2019/2152 (EBS Regulation)", "what_it_is": "European business statistics regulation; defines coverage and the legal mandate of the NSBRs (paras 38, 99).", "page": "6.1, para 99"},
+    {"name": "Commission Implementing Regulation (EU) 2020/1197", "what_it_is": "Technical specifications for the EBS Regulation; Annex VIII lists NSBR variables (paras 31, 100).", "page": "6.1, para 100"},
+    {"name": "Regulation (EU) No 549/2013 (ESA 2010)", "what_it_is": "Basis for identifying enterprise groups through control links, and for treating branches as quasi-corporations (paras 19, 20).", "page": "3.1, paras 19-20"},
+    {"name": "EBS methodological manual for statistical business registers, 2021 edition (incl. Glossary)", "what_it_is": "Detailed definitions of concepts and variables (paras 45, 122, 128).", "page": "3.4, para 45"},
+    {"name": "European business profiling, Recommendations manual, 2020 edition", "what_it_is": "Eurostat guidelines (para 123).", "page": "10.2, para 123"},
+    {"name": "Quality report on European statistical business registers, 2024 edition", "what_it_is": "Completeness, accuracy and punctuality assessments, reference year 2021 (paras 121, 146).", "page": "10.2, para 121"},
+    {"name": "National metadata reports (Eurostat SBR methodology section)", "what_it_is": "Country-specific scope and practices (paras 89, 129).", "page": "10.6, para 129"},
+    {"name": "EuroGroups Register (EGR)", "what_it_is": "Named as a register where branches are deemed enterprises (para 19) and as a comparison domain (para 163). Not described further.", "page": "3.1, para 19"}
+  ],
+  "relevant_to": [],
+  "pages_read": "Whole page: all 271 paragraphs and all sections (text file read in full, including the duplicated block in paras 182-271)."
+}

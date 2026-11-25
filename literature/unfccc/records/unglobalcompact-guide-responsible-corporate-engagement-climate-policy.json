@@ -1,0 +1,122 @@
+{
+  "id": "unglobalcompact-guide-responsible-corporate-engagement-climate-policy",
+  "citation": {
+    "authors": [],
+    "year": 2013,
+    "title": "Guide for Responsible Corporate Engagement in Climate Policy",
+    "venue_or_publisher": "UN Global Compact (Caring for Climate), with the UNFCCC secretariat, UNEP, WRI, CDP, WWF, Ceres and The Climate Group",
+    "doi_or_url": "",
+    "type": "report (guidance for companies)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "How companies can engage responsibly in climate policy: what responsible engagement means, what options and challenges companies face (including through trade associations), and a reporting framework and checklist. It is guidance for companies, not a study of delegations.",
+  "data": "Synthesis of 13 earlier studies on corporate policy engagement; interviews and expert reviews with nearly 75 individuals from more than 60 organisations in 20 countries; data from the CDP 2013 questionnaire (Question 2.3), the UN Global Compact Annual Implementation Survey and the Caring for Climate Progress Report 2013 (Appendix A, pages 39-42).",
+  "method": "Desk-based analysis plus interviews, then guidance and case examples (Appendices B and C). No classification of organisations, no counting of delegates and no language-model use is described in the pages read.",
+  "definitions": [
+    {
+      "term": "Corporate (business, private sector, industry)",
+      "definition": "Inclusive of companies of different sizes (small, medium, large, with an emphasis on large) and different geographies (state-owned, national or multinational, with an emphasis on multinational), as the guide uses the term.",
+      "quote": "Corporate (or business, private sector, industry), inclusive of companies of:",
+      "page": 9
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Position of a trade association on climate policy (not a delegation-level measure)",
+      "indicator": "Union of Concerned Scientists criteria shown in Figure 18: whether the association accepts the science, supports action, and has endorsed a specific policy. Reproduced as an example, not designed by the authors.",
+      "quote": "Acceptance of the Science – Does the association accept basic climate science as the foundation for discussion of climate change policy?",
+      "page": 48
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The guide states that business voices can help or obstruct climate policy.",
+      "quote": "Businesses, as influential political stakeholders, are often important voices.",
+      "page": 13
+    },
+    {
+      "claim": "In 2013 more than 2,000 companies, including 396 of the Global 500, gave CDP information on their engagement in climate policy debates.",
+      "quote": "In 2013, more than 2,000 companies—including 396 of the Global 500, the largest 500 companies in the world —provided information to CDP on how they engage in climate change policy debates.",
+      "page": 28
+    },
+    {
+      "claim": "71 per cent of responding Global 500 companies said they engage on climate policy through trade associations.",
+      "quote": "71 per cent of the Global 500 companies that responded to CDP said that they engaged in activities that could either directly or indirectly influence policy on climate change through trade associations.",
+      "page": 47
+    },
+    {
+      "claim": "Companies are said to struggle when their trade associations take obstructive positions.",
+      "quote": "Many companies struggle with (real and perceived) inconsistencies when trade associations take defensive or obstructive positions on climate policy.",
+      "page": 25
+    },
+    {
+      "claim": "In the South Africa example, companies have taken part in the national UNFCCC delegation.",
+      "quote": "panies have participated in the South African delegation and sought to gain insights from policies working in other countries.",
+      "page": 20
+    }
+  ],
+  "recommendations": [],
+  "limitations": [
+    {
+      "point": "The cover of this copy carries the stamp quoted here, and a separate block reading \"DRAFT\". This may be a pre-release copy and not the final published version. The cover gives no year. Page 2 says \"Copyright © 2013\" and page 60 says \"November 2013\", so the year 2013 comes from those pages and not from the cover.",
+      "stated_by_authors": true,
+      "quote": "EMBARGOED UNTIL THURSDAY 14 NOVEMBER, 12:01 am EST (New York) // 5:01 GMT (UK) // 6:01 CET (Warsaw) – DO NOT DISTRIBUTE",
+      "page": 1
+    },
+    {
+      "point": "The source is voluntary guidance for companies written by the UN Global Compact and partner organisations, several of which work with business. It is not a study of Party delegations at UNFCCC meetings.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "No definition of fossil-fuel linkage, no count of business or fossil-fuel presence in delegations, no method for classifying organisations and no use of language models appears in the 60 pages. Q2 and method are therefore not covered.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "No authors are named in the extracted text, and no URL is given for the source itself. Figures and tables (for example Figures 14 to 18 and the Appendix A table) were extracted partly as garbled text, so their content is not fully recoverable.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Pages 58 and 59 have no extracted text. Whether they were blank or lost in extraction is not known.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Appendix A: desk research table of 13 studies on corporate policy engagement",
+      "what_it_is": "Table comparing earlier studies against five elements of responsible engagement; the cells are partly garbled in the extraction.",
+      "page": 40
+    },
+    {
+      "name": "Interview list and countries represented",
+      "what_it_is": "Organisations and country perspectives (including delegations of Mali, Antigua and Barbuda and Mexico) that informed the guide.",
+      "page": 41
+    },
+    {
+      "name": "CDP 2013 questionnaire, Question 2.3; UN Global Compact Annual Implementation Survey; Caring for Climate Progress Report 2013",
+      "what_it_is": "Company survey data used for the engagement figures.",
+      "page": 42
+    },
+    {
+      "name": "Union of Concerned Scientists assessment of trade association positions (Figure 18)",
+      "what_it_is": "Ratings of 14 US trade groups on three criteria, reproduced from an outside analysis.",
+      "page": 48
+    },
+    {
+      "name": "Endnotes",
+      "what_it_is": "Reference list of reports and web pages on corporate lobbying and climate policy.",
+      "page": 54
+    }
+  ],
+  "relevant_to": ["context"],
+  "pages_read": "1-60 (pages 58 and 59 have no extracted text)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

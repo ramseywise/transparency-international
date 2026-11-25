@@ -1,0 +1,158 @@
+{
+ "id": "doi-10-48550-arxiv-2309-10880",
+ "citation": {
+  "authors": ["Jiang, Tianyu", "Vinogradova, Sonia", "Stringham, Nathan", "Earl, E. Louise", "Hollander, Allan D.", "Huber, Patrick R.", "Riloff, Ellen", "Schillo, R. Sandra", "Ubbiali, Giorgio A.", "Lange, Matthew"],
+  "year": 2023,
+  "title": "Classifying Organizations for Food System Ontologies using Natural Language Processing",
+  "venue_or_publisher": "",
+  "doi_or_url": "https://doi.org/10.48550/arxiv.2309.10880",
+  "type": "preprint (arXiv); source file titled 'official-IFOW2023-paper', venue not named in the text",
+  "peer_reviewed": "no"
+ },
+ "question": "Whether NLP models can automatically classify organisations by environmental issue categories and by SIC industry codes, to populate knowledge graphs and link them to food system ontologies.",
+ "data": "(1) Environmental issues: a California conservation knowledge graph with over 2,000 organisations (2,165 mentioned); 1,870 used, 15 issue labels; 1,370 train / 500 test. (2) SIC: US SEC EDGAR, 816,115 companies listed, 36,715 with all fields; balanced subset of 5,400 (200 for each of 27 two-digit SIC codes); 2,700 train / 900 development / 1,800 test. Text input: Google Search API snippets (top 10 results per organisation name) joined into one 'pseudo-document'; 10-K 'Item 1: Business' text used as a comparison.",
+ "method": "Fine-tuned BERT-base (not a prompted generative model). OrgModel-1: BERT with a linear classification layer. OrgModel-2: also given a written description of each category. Environmental issues is multi-label (sigmoid, threshold 0.5); SIC is single-label. Evaluated against the existing labels with precision, recall, F1 (micro and macro). Environmental labels came from expert opinion; SIC labels from the company's official SEC code. No separate human-coder agreement test is reported.",
+ "definitions": [
+  {
+   "term": "SIC code",
+   "definition": "US government codes that categorise businesses by the industry they serve and operate in; four digits, hierarchical (Division, Major Group, Industry Group, Industry). The study uses the first two digits.",
+   "quote": "Standard Industrial Classification (SIC) codes were created by the U.S. government to categorize businesses according to the industry that they serve and operate in.",
+   "page": 4
+  },
+  {
+   "term": "environmental issues classification task",
+   "definition": "Assign one or more issue labels (from the PPOD ontology) that describe the organisation's activities and/or mission.",
+   "quote": "the task requires that the NLP model assign one or mul- tiple environmental issue category labels to the organization",
+   "page": 4
+  },
+  {
+   "term": "pseudo-document (PseudoDoc)",
+   "definition": "The text used to represent an organisation: the snippets from the top 10 Google results for its name, concatenated.",
+   "quote": "concatenate the text snippets from the top 10 retrieved websites into a single",
+   "page": 6
+  },
+  {
+   "term": "micro vs macro average",
+   "definition": "Micro pools all instances and so favours frequent classes; macro averages per class and so gives equal weight to each class.",
+   "quote": "The micro average score aggregates the results for all instances (across all classes) and then calculates the metric.",
+   "page": 9
+  }
+ ],
+ "proxies": [
+  {
+   "concept": "what an organisation does (its sector or issue area)",
+   "indicator": "Text snippets returned by Google Search for the organisation's name, top 10 results, joined into one text.",
+   "quote": "For each organization, we give the organization’s name as a search query to the Google Search API and extract the first 10 returned results.",
+   "page": 6
+  },
+  {
+   "concept": "ground-truth industry of a company",
+   "indicator": "The single SIC code the company holds in the SEC EDGAR database.",
+   "quote": "In the EDGAR database there is only one SIC code per company, despite the fact that in principle a company could have multiple codes associated with it.",
+   "page": 5
+  },
+  {
+   "concept": "ground-truth environmental issues of an organisation",
+   "indicator": "Expert opinion associated each organisation with one or more issues.",
+   "quote": "Expert opinion was used to associate each organization with one or more issues.",
+   "page": 4
+  },
+  {
+   "concept": "why web-search snippets work as a description",
+   "indicator": "Google usually ranks the organisation's own website first or second, and other results discuss it or similar-named organisations.",
+   "quote": "when an organization did have an official website, Google typically found it and ranked it as the #1 or #2 top hit.",
+   "page": 7
+  },
+  {
+   "concept": "category meaning given to the model",
+   "indicator": "Written category descriptions (from the ontology or the SIC manual) supplied as extra input.",
+   "quote": "the model is provided with expert-written descriptions for each category as in- put, along with the text associated with an organization.",
+   "page": 8
+  }
+ ],
+ "findings": [
+  {
+   "claim": "On environmental issues, adding category descriptions (OrgModel-2) raised micro F1 from 76.8% to 80.1% and macro F1 from 69.6% to 74.0%.",
+   "quote": "the OrgModel-2 achieved better performance with a 80.1% micro-averaged f1 and 74.0% macro-averaged f1.",
+   "page": 9
+  },
+  {
+   "claim": "Precision was good but recall was lower: the models miss organisations that belong in a category more often than they put wrong ones in.",
+   "quote": "Overall, we see good precision for most of the categories (87% micro-average), but recall is lower (74% micro-average).",
+   "page": 9
+  },
+  {
+   "claim": "Rare categories were classified much worse than common ones.",
+   "quote": "OrgModel-2’s average f1-score of the common categories is 83.8% and the average f1-score of rare categories is 62.2%.",
+   "page": 10
+  },
+  {
+   "claim": "For SIC codes, web-search snippets beat the company's own 10-K filing text as input (macro F1 69.9 vs 56.8).",
+   "quote": "the model which used Google snippets as the text source for an organization strongly outperformed the model which used the text from 10-K forms.",
+   "page": 11
+  },
+  {
+   "claim": "A short category label alone was not enough: with name-only descriptions macro F1 was 46.1, against 73.4 with the Tree description.",
+   "quote": "The short representation didn’t contain enough information to perform well.",
+   "page": 12
+  },
+  {
+   "claim": "Best SIC model (OrgModel-2, Tree description) gained about 3 points of F1 over OrgModel-1; F1 was above 70% for most categories but weak for broad ones (35, 50, 51, 67).",
+   "quote": "there are a few categories (35, 50, 51, 67) where the performance is still weak, possibly due to being particularly broad",
+   "page": 13
+  },
+  {
+   "claim": "Authors conclude (their interpretation) that the approach is promising with little human supervision.",
+   "quote": "knowledge resources with little to no human supervision.",
+   "page": 13
+  }
+ ],
+ "limitations": [
+  {
+   "point": "Websites could not be used as the text source: about half of organisations' websites could be crawled, and some have none.",
+   "stated_by_authors": true,
+   "quote": "Of the 2,165 organizations in the environmental issues dataset, we found that only about half of the organizations’ websites could be crawled.",
+   "page": 6
+  },
+  {
+   "point": "Many-to-many mapping from fine-grained to broad issue labels creates wrong labels (e.g. organisations tagged Food Production that produce no food).",
+   "stated_by_authors": true,
+   "quote": "not all organizations tagged with Land Use should be tagged with Food Production",
+   "page": 10
+  },
+  {
+   "point": "Official SIC codes are one per company and may not reflect multiple or changing lines of business, so the labels used as truth are imperfect.",
+   "stated_by_authors": true,
+   "quote": "business models change, and they may be involved in multiple lines of business that can be reflected by multiple SIC/NAICS codes.",
+   "page": 5
+  },
+  {
+   "point": "SIC data were skewed and had to be reduced to a balanced, two-digit subset of US companies, so results may not carry to a natural mix of organisations.",
+   "stated_by_authors": true,
+   "quote": "We observed that the distribution of the data is highly skewed, with many SIC codes containing very few instances.",
+   "page": 5
+  },
+  {
+   "point": "About 4% of the extracted 10-K filings were empty, which affects the snippet vs 10-K comparison.",
+   "stated_by_authors": true,
+   "quote": "about 4% of the organizations’ 10-K filings extracted are empty.",
+   "page": 11
+  },
+  {
+   "point": "Not stated by the authors: no agreement test between human coders, no error analysis of mistakes, one run and one data split, a fine-tuned BERT model rather than a general language model prompted with search results, and no organisations from lobbying, finance or government settings beyond the California conservation sample. Training sets of 1,370 to 2,700 labelled examples were required.",
+   "stated_by_authors": false,
+   "quote": null,
+   "page": null
+  }
+ ],
+ "reference_lists_or_datasets": [
+  {"name": "PPOD ontology (People, Projects, Organizations, and Datasets)", "what_it_is": "Ontology with 44 integrated and 325 component environmental issues, each with a text description; source of the issue labels.", "page": 3},
+  {"name": "California conservation knowledge graph", "what_it_is": "Over 2,000 organisations with attributes including issues; labelled using expert opinion; basis of the environmental issues dataset (1,870 used).", "page": 3},
+  {"name": "SEC EDGAR database", "what_it_is": "Public US company database with SIC codes and 10-K filings; source of the SIC dataset (36,715 companies with all fields).", "page": 5},
+  {"name": "SIC manual", "what_it_is": "US government manual (OSHA site); written descriptions of each Major Group used as the 'Long' category description.", "page": 12}
+ ],
+ "relevant_to": ["method"],
+ "pages_read": "1-14 (whole text read; pages 13-14 are conclusion and reference list). Figures not readable as text.",
+ "read_on": "2026-11-24",
+ "read_by": "source-reader, sonnet"
+}

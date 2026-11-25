@@ -1,0 +1,168 @@
+{
+  "id": "carbonbrief-analysis-how-delegations-at-cop-climate-summits-have-chang",
+  "citation": {
+    "authors": ["Robert McSweeney"],
+    "year": 2021,
+    "title": "Analysis: How delegations at COP climate summits have changed over time",
+    "venue_or_publisher": "Carbon Brief",
+    "doi_or_url": "https://www.carbonbrief.org/analysis-how-delegations-at-cop-climate-summits-have-changed-over-time/",
+    "type": "web article (analysis); page published 2021-10-27, modified 2026-07-17 per page metadata",
+    "peer_reviewed": "unknown"
+  },
+  "question": "How the number of participants and the makeup of COP delegations have changed over the past 25 years: biggest delegations, best-attended COPs, and gender balance of delegations. It does not ask about business or fossil-fuel presence.",
+  "data": "Final, corrected participant lists published by the UNFCCC after each COP, for the 26 COPs to date (COP1 1995 onward, before COP26). Overall totals come from summary tables at the top of the lists; for COP2 and COP5, from a UNFCCC participant-statistics webpage. Named party delegations come from the named lists. Charts and an interactive table are embedded; their data is not in the page text.",
+  "method": "Counted participants by category from the UNFCCC lists: Parties and observer states, observer organisations, press. Counted named delegates per Party and averaged delegation size across COPs. Gender balance was taken from the titles UNFCCC gives (M, Mr, Sr for male; Ms, Mme, Sra for female); where no title was given, the usual gender of the first name was found with the genderize.io app. Current country names are used; where a country changed its formation, all versions are included.",
+  "definitions": [
+    {
+      "term": "Parties",
+      "definition": "Nation states plus the European Union that have ratified the Convention and play a full part in negotiations.",
+      "quote": "Parties are nation states – plus the European Union – that have ratified the Convention and play a full part in negotiations.",
+      "page": "Rising participation"
+    },
+    {
+      "term": "Observer states",
+      "definition": "States that have not completed ratification.",
+      "quote": "Observer states have not completed ratification.",
+      "page": "Rising participation"
+    },
+    {
+      "term": "Observer organisations",
+      "definition": "Divided into the UN System and its specialised agencies, intergovernmental organisations (IGOs), and NGOs. The page does not name a business and industry NGO (BINGO) category.",
+      "quote": "Observer organisations are further divided into the UN System and its specialised agencies, intergovernmental organisations (IGOs), and non-governmental organisations (NGOs).",
+      "page": "Rising participation"
+    },
+    {
+      "term": "Party overflow badges",
+      "definition": "Badges, first introduced at COP3, that let Parties nominate individuals whose names do not appear on the official participant list. Quoted from the ECBI report.",
+      "quote": "These badges were first introduced at COP3 and allow parties to nominate individuals without their name appearing on the official list of participants.",
+      "page": "Named participants"
+    },
+    {
+      "term": "Named delegation",
+      "definition": "The partial breakdown of each Party and observer delegation by name in the UNFCCC lists; it does not include all participants, because overflow delegates are not named.",
+      "quote": "These named lists do not include all participants. There are also party “overflow” delegates, which can number several thousand at an individual COP.",
+      "page": "Named participants"
+    },
+    {
+      "term": "Pink badges",
+      "definition": "Party badges that some countries give to NGOs, so NGO staff can appear inside a Party's official delegation.",
+      "quote": "some countries allocate a portion of their party badges – known as “pink” badges at COPs – to NGOs, which can artificially inflate the size of their official delegation.",
+      "page": "Named participants"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Gender of a delegate",
+      "indicator": "The title the UNFCCC lists against the name (M, Mr, Sr; Ms, Mme, Sra); first-name lookup with genderize.io only where no title was given.",
+      "quote": "the gender balances presented here are based on the titles designated by UNFCCC – such as M, Mr and Sr for male participants and Ms, Mme and Sra for female",
+      "page": "Named participants"
+    },
+    {
+      "concept": "Size of a Party's delegation",
+      "indicator": "Number of names listed under that Party in the named participant list, excluding overflow badge holders.",
+      "quote": "the UNFCCC also provides a partial breakdown of each party and observer delegation by name.",
+      "page": "Named participants"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Total attendance grew sharply: about 5,000 on average over the first 10 COPs, almost 22,000 on average over the last five.",
+      "quote": "the average across the last five COPs is almost 22,000 participants.",
+      "page": "Rising participation"
+    },
+    {
+      "claim": "Named Party delegates rose from about 1,000 at COP1 and COP2 to an average of more than 8,000 over the last five COPs.",
+      "quote": "This has increased from around 1,000 at COP1 and COP2 up to an average of more than 8,000 over the past five COPs.",
+      "page": "Named participants"
+    },
+    {
+      "claim": "Average named Party delegation grew from about 8 people to about 40.",
+      "quote": "The average size of a named delegation has increased from an average of eight people at the first five COPs to around 40 at the most recent five.",
+      "page": "Named participants"
+    },
+    {
+      "claim": "Host countries often bring the largest delegations; Morocco at COP22 named 1,591 people.",
+      "quote": "Perhaps the most extreme case is the Morocco delegation of 1,591 at COP22 in Marrakech.",
+      "page": "Named participants"
+    },
+    {
+      "claim": "The UNFCCC secretariat began capping NGO and media numbers after COP15 (Copenhagen). This is the ECBI's statement, quoted by Carbon Brief.",
+      "quote": "after Copenhagen, the UNFCCC secretariat began capping participant numbers of NGOs and media",
+      "page": "Rising participation"
+    },
+    {
+      "claim": "Average named delegation was 75% male, 25% female across all COPs; 88% male at COP1 and 62% male at each of the last three COPs analysed.",
+      "quote": "Across all COPs, the average balance of named delegations is 75% male to 25% female, equivalent to three men for every woman.",
+      "page": "Gender imbalance"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The page text contains nothing on business, industry, lobbyist or fossil fuel-linked participants, and no classification of organisations. An embedded chart has a file name containing 'profession', but its data is not in the page text, so nothing is recorded from it.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Named lists leave out Party overflow delegates, so named delegation size undercounts the people who attended on Party badges. Overflow figures are given by the UNFCCC only for COP3 and COP4.",
+      "stated_by_authors": true,
+      "quote": "The UNFCCC only includes “overflow” figures for COP3 and COP4.",
+      "page": "Rising participation"
+    },
+    {
+      "point": "Party badges given to NGOs can make an official delegation look larger, so a Party delegation count can include non-government people.",
+      "stated_by_authors": true,
+      "quote": "which can artificially inflate the size of their official delegation.",
+      "page": "Named participants"
+    },
+    {
+      "point": "Totals differ between UNFCCC sources, and COP2 and COP5 totals do not split Party, observer states and observer types.",
+      "stated_by_authors": true,
+      "quote": "Exact figures may differ between sources",
+      "page": "Rising participation"
+    },
+    {
+      "point": "The gender method may be inaccurate, and binary labels are not a full account of gender.",
+      "stated_by_authors": true,
+      "quote": "the methods used to determine participant gender could result in inaccuracies.",
+      "page": "Named participants"
+    },
+    {
+      "point": "The analysis covers the COPs up to the time of writing (COP26 is described as next week, in 2021); the page was later modified (2026-07-17 per metadata) but the text describes no newer COPs.",
+      "stated_by_authors": false,
+      "quote": "the final details for which will continue to be negotiated at COP26 next week.",
+      "page": "Rising participation"
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC final lists of participants, per COP",
+      "what_it_is": "Lists published by the UNFCCC after each COP, with summary tables at the top and named delegations by Party and observer; the source of the counts.",
+      "page": "Rising participation"
+    },
+    {
+      "name": "UNFCCC webpage of participant statistics",
+      "what_it_is": "Used for the COP2 and COP5 totals, whose lists had no summary table.",
+      "page": "Rising participation"
+    },
+    {
+      "name": "ECBI report 'Quo Vadis COP' (European Capacity Building Initiative)",
+      "what_it_is": "Report cited for the growth in participants, the COP3 overflow badge and the NGO and media cap after Copenhagen. Linked from the page, not read here.",
+      "page": "Rising participation"
+    },
+    {
+      "name": "UNFCCC 'How to COP' handbook (2020)",
+      "what_it_is": "Cited as a source whose COP22-25 totals do not exactly match the participant-statistics webpage. Linked from the page, not read here.",
+      "page": "Rising participation"
+    },
+    {
+      "name": "UNFCCC COP24 observer guide (pdf)",
+      "what_it_is": "Linked as the source for what access observer organisations have to sessions. Not read here.",
+      "page": "Rising participation"
+    }
+  ],
+  "relevant_to": ["method", "context"],
+  "pages_read": "Full text of the saved web page (42 paragraphs, about 1,860 words, all sections: Rising participation, Named participants, Gender imbalance, Methodological note). The three embedded charts and the interactive table are not in the extracted text and were not read.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

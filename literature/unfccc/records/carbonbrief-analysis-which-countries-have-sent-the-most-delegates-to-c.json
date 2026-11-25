@@ -1,0 +1,124 @@
+{
+  "id": "carbonbrief-analysis-which-countries-have-sent-the-most-delegates-to-c",
+  "citation": {
+    "authors": ["Carbon Brief Staff", "Robert McSweeney (article)", "Verner Viisainen (data analysis)"],
+    "year": 2024,
+    "title": "Analysis: Which countries have sent the most delegates to COP29?",
+    "venue_or_publisher": "Carbon Brief",
+    "doi_or_url": "https://www.carbonbrief.org/analysis-which-countries-have-sent-the-most-delegates-to-cop29/",
+    "type": "web article (news analysis), published 2024-11-12, updated 2024-12-06 per text; page metadata modified 2026-07-17",
+    "peer_reviewed": "no"
+  },
+  "question": "How many delegates registered for COP29 in Baku, how large is each country delegation, how do totals compare with earlier COPs, and what is the gender balance of party delegations.",
+  "data": "UNFCCC provisional participant lists for COP29 (spreadsheets naming all participants), compared with final UNFCCC lists for COPs 1-28. Provisional total 66,778 in-person plus 3,975 virtual; final lists later published (54,148 in person, 2,411 online) as stated in an update. Party delegations: 17,680 on party badges, 33,158 including overflow.",
+  "method": "Counts of registered names per group and per country from the UNFCCC lists; party badges and overflow badges reported separately for country delegations; gender balance from the titles (Mr, Ms, Sr, Sra) in the lists, excluding non-gendered titles. No classification of delegates by employer, sector or fossil fuel links is described.",
+  "definitions": [
+    {
+      "term": "Party (delegation)",
+      "definition": "Nation states, plus the European Union, that have ratified the convention and play a full part in negotiations; the largest group in the participant lists.",
+      "quote": "These are nation states, plus the European Union, that have ratified the convention and play a full part in negotiations.",
+      "page": "All aboard to Baku"
+    },
+    {
+      "term": "Overflow badge",
+      "definition": "Participants whom countries and UN agencies could nominate without their names appearing on official lists, in COPs before COP28. In COP28 and COP29 lists, overflow delegates are named and divided between parties and observer groups.",
+      "quote": "Previously, COPs have typically included thousands of “overflow” participants in which countries and UN agencies could nominate delegates without their names appearing on their official lists.",
+      "page": "All aboard to Baku"
+    },
+    {
+      "term": "Party badge vs overflow badge (delegation size)",
+      "definition": "Delegation size is reported split between party and overflow badges; the party total is 17,680 on party badges and 33,158 with overflow.",
+      "quote": "Including the overflow numbers takes the total for party representatives to 33,158.",
+      "page": "All aboard to Baku"
+    },
+    {
+      "term": "Observer organisations",
+      "definition": "A category beyond NGOs, covering UN bodies, intergovernmental organisations, other agencies and business representatives. Not further defined.",
+      "quote": "such as those participants representing UN bodies, intergovernmental organisations, other agencies and business representatives.",
+      "page": "All aboard to Baku"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Delegation size (national delegation)",
+      "indicator": "Number of names listed for a country on party badges plus party overflow badges in the UNFCCC participant list",
+      "quote": "Azerbaijan has registered a delegation – including party overflow badges – of 2,229.",
+      "page": "Host lead"
+    },
+    {
+      "concept": "Gender of delegate",
+      "indicator": "Title given in the UNFCCC list (Mr, Ms, Sr, Sra); non-gendered titles such as Dr, Prof, Ambassador, Honourable excluded",
+      "quote": "these non-gendered titles – which make up around 150 names of more than 17,000 in the list of party delegates – have not been included.",
+      "page": "Gender split"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Business representatives are named only as one component of the observer-organisation group; no count of business delegates, sector breakdown or fossil fuel link is given for national delegations or anywhere else in the text (the underlying charts are embedded and their data is not in the page text).",
+      "quote": "business representatives. These total 2,377 registered delegates – or 3,204 when overflow badges are included.",
+      "page": "All aboard to Baku"
+    },
+    {
+      "claim": "Host Azerbaijan had the largest delegation, followed by Brazil and Turkey.",
+      "quote": "COP29 host Azerbaijan has the largest delegation at the summit, with 2,229 people registered for badges.",
+      "page": null
+    },
+    {
+      "claim": "NGO observers totalled 9,881 and media 3,575 in the provisional list.",
+      "quote": "observers from non-governmental organisations (NGOs), which totals 9,881 delegates.",
+      "page": "All aboard to Baku"
+    },
+    {
+      "claim": "Average gender balance of party delegations was 60% male to 40% female.",
+      "quote": "This gives an average gender balance of party delegations of 60% male to 40% female.",
+      "page": "Gender split"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Figures are provisional (based on registration, not badges collected); final lists were published later with lower totals.",
+      "stated_by_authors": true,
+      "quote": "It is worth noting that these are provisional figures, based on the delegates that have registered for the summit.",
+      "page": "All aboard to Baku"
+    },
+    {
+      "point": "Party badges may be given to NGOs, so delegation size can overstate the official state delegation; no way of separating them is described.",
+      "stated_by_authors": true,
+      "quote": "some countries allocate some of their party badges to NGOs, which can artificially inflate the size of their official delegation.",
+      "page": "Host lead"
+    },
+    {
+      "point": "Gender titles are assigned by UNFCCC and may be inaccurate; 145 delegates lacked gender information.",
+      "stated_by_authors": true,
+      "quote": "the UNFCCC’s lists may not be wholly accurate.",
+      "page": "Gender split"
+    },
+    {
+      "point": "Not about business or fossil fuel presence: no definitions or counts of business, private sector, lobbyists or fossil fuel links in national delegations. Does not cover COP31. Embedded chart and table data (country-level counts) not in the text file.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC COP29 participant lists (provisional and final, Excel)",
+      "what_it_is": "Public lists naming all registered participants by party, observer organisation, overflow and media; linked at unfccc.int/documents/643061, 643063, 644762-644764",
+      "page": "All aboard to Baku"
+    },
+    {
+      "name": "Carbon Brief COP29 party delegation sizes (Google Sheet)",
+      "what_it_is": "Spreadsheet of delegation sizes per party, linked from the article",
+      "page": "Gender split"
+    },
+    {
+      "name": "Carbon Brief analysis: how delegations at COP climate summits have changed over time",
+      "what_it_is": "Earlier Carbon Brief article, linked as the source for details on the data for COPs 1-28",
+      "page": "All aboard to Baku"
+    }
+  ],
+  "relevant_to": ["context"],
+  "pages_read": "Whole web page text (44 paragraphs, all sections). Four embedded charts and tables not readable from the extracted text.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "globalwitness-cop29-is-for-oil-deals",
+  "citation": {"authors": [], "year": 2024, "title": "COP29 is for oil deals", "venue_or_publisher": "Global Witness (web investigation page)", "doi_or_url": "https://globalwitness.org/en/campaigns/fossil-fuels/cop29-is-for-oil-deals/", "type": "NGO investigation (web page); no author or publication date in the extracted text; year inferred from meeting dates of 3 and 13 September 2024 and 'this month' COP29", "peer_reviewed": "no"},
+  "question": "Whether Azerbaijan, as COP29 host, used its position to facilitate discussion of new oil and gas deals, shown through an undercover approach by a fictitious oil and gas investor (EC Capital) offering COP29 sponsorship.",
+  "data": "Two undercover meetings: with the COP29 partnerships team (3 September 2024) and with COP29 CEO Elnur Soltanov (13 September 2024), plus follow-up contract negotiation and an introduction to a SOCAR vice president. Background figures cited from earlier Global Witness and other work. No delegate or participant list data is used.",
+  "method": "Undercover investigation: a Global Witness investigator posed as an oil and gas investor, recorded what COP29 officials offered in return for a $600,000 sponsorship. Narrative case study, not a count of delegates. Background claims link to other sources (e.g. Corporate Europe Observatory on lobbyist attendance; earlier Global Witness COP27 and COP28 lobbyist counts), whose methods are not described here.",
+  "definitions": [
+    {"term": "fossil fuel lobbyist / oil and gas lobbyists", "definition": "Not defined. Used loosely for industry representatives at COP; the fictitious investor is said to stand for them figuratively.", "quote": "figuratively it represents the army of oil and gas lobbyists who have, in recent years, descended on these climate talks.", "page": "Fossil fuels, perhaps forever"},
+    {"term": "conflict of interest", "definition": "Applied to one person holding two roles (COP29 CEO and deputy energy minister) and facilitating oil and gas investment talks; also applied to COP28 president being CEO of the national oil company. Not formally defined.", "quote": "In an apparent conflict of interest, acknowledging his two hats as COP29 CEO and Azerbaijan’s deputy energy minister", "page": "Fossil fuels, perhaps forever"},
+    {"term": "conflict of interest (COP28)", "definition": "Illustrated by the COP28 president also leading the national oil company; not defined.", "quote": "The conflict of interest was laid bare by Al Jaber himself.", "page": "Keep your enemies closer"},
+    {"term": "undue influence / private gain (UN code of ethics for COP officials)", "definition": "Cites the code of ethics for COP officials as forbidding use of the role for private gain. The UNFCCC replied that the investigation falls under a different document, the Code of Conduct for UNFCCC Events.", "quote": "forbids the use of their roles “to seek private gain”", "page": "Fossil fuels, perhaps forever"},
+    {"term": "Code of Conduct for UNFCCC Events", "definition": "Described only as distinct guidance from the Code of Ethics for COP officials; content not described.", "quote": "this investigation does not refer to activities covered by the Code of Conduct for UNFCCC Events", "page": "So what?"},
+    {"term": "delegation / delegates", "definition": "Not defined. States that governments choose who represents them as delegates.", "quote": "Governments decide which countries host COP, and who represents them as delegates.", "page": "So what?"},
+    {"term": "state-owned company", "definition": "No definition. SOCAR and ADNOC are treated as state oil companies tied to the host state; SOCAR and the COP29 team are called directly linked to the state.", "quote": "both directly linked to the Azerbaijan state", "page": "So what?"},
+    {"term": "badge", "definition": "Sponsorship packages are said to bring COP badges; badge types (Party, overflow, observer) are not mentioned.", "quote": "They pitch a $600,000 package, which gets EC Capital five COP badges", "page": "The petrostate playbook"}
+  ],
+  "proxies": [
+    {"concept": "fossil fuel-linked company (sponsor)", "indicator": "Companies whose profits depend on extraction of oil, gas and coal, and a coal-power operator named as an example (SSE, 11 fossil-fuel power stations); a refinery builder (Hassan Allam). No explicit rule for classification.", "quote": "companies whose profits depend on the extraction of oil, gas and coal have bankrolled the annual talks", "page": "Keep your enemies closer"},
+    {"concept": "industry representatives at COP28", "indicator": "A count of 2,400 industry representatives; how they were identified is not stated here (links to a separate Global Witness press release).", "quote": "A record 2,400 industry representatives showed up, and they were hard at work.", "page": "What on Earth are they doing?"},
+    {"concept": "lobbyist identification at registration", "indicator": "UNFCCC rule that lobbyists name the company they work for when registering.", "quote": "In June 2023, organisers announced that lobbyists would have to identify the company they work for when registering for future summits.", "page": "Keep your enemies closer"},
+    {"concept": "industry group presence (1995)", "indicator": "Delegate count of an industry group at COP1.", "quote": "The Global Climate Coalition, an industry group that lobbied against climate science, sent 25 delegates", "page": "Keep your enemies closer"}
+  ],
+  "findings": [
+    {"claim": "COP29 organisers agreed in writing to facilitate oil deal discussions with SOCAR in return for a $600,000 sponsorship.", "quote": "They have, in writing, promised to facilitate discussions about an oil deal at a UN climate summit, in return for cash.", "page": "The petrostate playbook"},
+    {"claim": "Sponsorship packages carry COP badges, so sponsorship is one route by which oil and gas firms obtain access.", "quote": "They pitch a $600,000 package, which gets EC Capital five COP badges", "page": "The petrostate playbook"},
+    {"claim": "COP29 openly invited the oil industry to take part.", "quote": "COP29 is explicit that it wants every sector to participate, meaning the oil industry is invited.", "page": "Fossil fuels, perhaps forever"},
+    {"claim": "Previous COPs have been heavily attended by oil and gas representatives (asserted, with a link to a Corporate Europe Observatory investigation).", "quote": "previous COPs have almost all been awash with representatives of the oil and gas industry.", "page": "Fossil fuels, perhaps forever"},
+    {"claim": "At COP28 the president was the chief executive of the national oil company ADNOC.", "quote": "when it appointed Sultan Al Jaber, the CEO of their national oil company ADNOC, to chair the talks.", "page": "Keep your enemies closer"},
+    {"claim": "Sponsor eligibility rules (Race to Zero or a national pledge) were weak and could be removed from the contract.", "quote": "COP sponsors must be a member of the UNFCCC’s Race to Zero program", "page": "The petrostate playbook"},
+    {"claim": "Authors conclude that UNFCCC safeguards were bypassed.", "quote": "whatever guardrails the UNFCCC put up have been bypassed by lobbyists and fossil fuel powers.", "page": "So what?"}
+  ],
+  "limitations": [
+    {"point": "Contains no count of delegates, no list-of-participants analysis, no breakdown by country, sector or badge type. It cannot answer Q1 or Q2 directly.", "stated_by_authors": false, "quote": null, "page": null},
+    {"point": "The 2,400 COP28 industry figure and the 'awash' claim are asserted without method here; the method sits in linked pages not read.", "stated_by_authors": false, "quote": null, "page": null},
+    {"point": "Single case built around one fictitious firm; the authors say it is not a real entity and cannot sign deals.", "stated_by_authors": true, "quote": "As a bogus entity, EC Capital can’t sign oil and gas deals or sponsorship contracts.", "page": "Fossil fuels, perhaps forever"},
+    {"point": "Reply of the other side: COP29 team and SOCAR did not respond; the UNFCCC declined comment but said the code Global Witness cited does not apply; Azerbaijani media said facilitating discussions is not a conflict of interest.", "stated_by_authors": true, "quote": "facilitating discussions about fossil fuel investments at COP29 is not a conflict of interest.", "page": "So what?"},
+    {"point": "Advocacy publication with a stated position (calls for scrapping corporate sponsorship); no author named or publication date in the extracted text; not peer reviewed.", "stated_by_authors": false, "quote": "Scrapping corporate sponsorship is within the UNFCCC’s power", "page": "So what?"},
+    {"point": "No instructions addressed to a reader or AI were found in the text."}
+  ],
+  "reference_lists_or_datasets": [
+    {"name": "Corporate Europe Observatory, fossil fuel lobbyists attend UN climate talks more than 7000 times (linked, not read)", "what_it_is": "Linked investigation counting fossil fuel lobbyist attendance at COPs; URL in the page's link list (corporateeurope.org, 2023/11).", "page": "Fossil fuels, perhaps forever"},
+    {"name": "Global Witness, record number of fossil fuel lobbyists granted access to COP28 (linked, not read)", "what_it_is": "Linked press release behind the 2,400 figure.", "page": "What on Earth are they doing?"},
+    {"name": "Global Witness, 636 fossil fuel lobbyists granted access to COP27 (linked, not read)", "what_it_is": "Linked earlier Global Witness count for COP27.", "page": "Keep your enemies closer"},
+    {"name": "UNFCCC Code of Ethics for elected and appointed officers; Code of Conduct for UNFCCC conferences, meetings and events (linked, not read)", "what_it_is": "Rules the page invokes on private gain and conduct.", "page": "So what?"},
+    {"name": "Guardian report on lobbyists having to identify their employer when registering for COP28 (linked, not read)", "what_it_is": "Source for the June 2023 registration rule change.", "page": "Keep your enemies closer"}
+  ],
+  "relevant_to": ["Q2", "method", "context"],
+  "pages_read": "Whole extracted web page (all 121 paragraphs, all sections). Linked documents were not opened.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

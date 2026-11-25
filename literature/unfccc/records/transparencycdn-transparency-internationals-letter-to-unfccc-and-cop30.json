@@ -1,0 +1,122 @@
+{
+  "id": "transparencycdn-transparency-internationals-letter-to-unfccc-and-cop30",
+  "citation": {
+    "authors": ["Transparency International and co-signatories"],
+    "year": 2025,
+    "title": "Open letter to UNFCCC and Brazilian COP30 leadership to address fossil fuel lobby influence (18 March 2025)",
+    "venue_or_publisher": "Transparency International (hosted at images.transparencycdn.org)",
+    "doi_or_url": "https://images.transparencycdn.org/images/Transparency-Internationals-Letter-to-UNFCCC-and-COP30-Presidency-on-integrity-reforms-for-undue-influence_signed.pdf",
+    "type": "open letter (advocacy)",
+    "peer_reviewed": "no"
+  },
+  "question": "Not a research question. The letter calls on the COP30 Presidency and the UNFCCC to confront the undue influence of fossil fuel and other high-polluting industries in climate negotiations and sets out four reform measures.",
+  "data": "None. The letter gives no data, counts or period. It links to outside pages for some statements, which were not opened.",
+  "method": "None. The letter does not describe how fossil fuel lobbyists or high-polluting industry representatives are identified or counted.",
+  "definitions": [
+    {
+      "term": "high polluting industries",
+      "definition": "Not defined. The only description is an example: in Brazil, the agribusiness sector is given as an example of another high-polluting industry beside fossil fuels.",
+      "quote": "Together with other high polluting industries (for example, in Brazil, from the agrobusiness sector)",
+      "page": 1
+    }
+  ],
+  "proxies": [],
+  "findings": [
+    {
+      "claim": "The letter asserts that fossil fuel lobbyists have been present in large numbers at COPs and have delayed progress. It gives no figures in the text; a linked page is cited at the phrase but was not opened.",
+      "quote": "for too long, fossil fuel lobbyists have swarmed COPs, the annual global climate negotiations.",
+      "page": 1
+    }
+  ],
+  "recommendations": [
+    {
+      "point": "Exclude fossil fuel and high-polluting industry lobbyists from state (Party) delegations and adopt a conflict of interest framework for all COP participants.",
+      "quote": "We call for their exclusion from state delegations and the adoption of a robust conflict of interest framework for all COP participants.",
+      "page": 1
+    },
+    {
+      "point": "Hold a Global Ethical Stocktake with sessions on undue influence, conflicts of interest and COP Presidency selection.",
+      "quote": "with sessions on undue influence, conflicts of interests (see for example Accountability Framework) and COP Presidency selection, with recommendations for reforms to future COPs.",
+      "page": 1
+    },
+    {
+      "point": "Require delegations, lobbyists and organisers to declare their true affiliations, shown on a central public platform.",
+      "quote": "publicly declare their true (and multiple if relevant) affiliations at COPs",
+      "page": 2
+    },
+    {
+      "point": "Ask the UNFCCC to adopt a transparency policy within its code of conduct.",
+      "quote": "UNFCCC to address gaps by adopting an appropriate transparency policy within its code of conduct, and work with the Brazilian Presidency to ensure higher standards for COP30.",
+      "page": 2
+    },
+    {
+      "point": "End Presidency partnerships with fossil fuel and other high-polluting industries; Host Country Agreements to need UNFCCC approval under criteria excluding them.",
+      "quote": "HCAs should be conditional of UNFCCC approval based on clear selection criteria of partners explicitly excluding fossil fuels and other high polluting industries.",
+      "page": 2
+    },
+    {
+      "point": "Keep COP Presidencies free of lobbyists from high-polluting industries.",
+      "quote": "COP Presidencies should be free of lobbyists from high polluting industries.",
+      "page": 2
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The extracted text is the complete document (14 pages): about two pages of letter, then the signatory list. The letter itself is short and gives no data.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The letter does not define 'fossil fuel lobbyist', 'fossil fuel linked' or 'business', does not say how such people or organisations would be identified, and gives no numbers on their presence in Party delegations. It is therefore of use only as context (the reform demands), not for Q1 or Q2 definitions or sizes.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "It is an advocacy letter by campaigning organisations, not a peer-reviewed study. Its claims are the signatories' assertions.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The extracted file's metadata lists one individual as author; this is not copied here because the letter is issued by Transparency International and co-signatories.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The six outside links (news and report pages, one campaign page, one civil-society submission on conflicts of interest) were not opened, so the evidence behind the letter's statements is not checked.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 1
+    },
+    {
+      "point": "No instructions addressed to a reader or an AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "List of signatories",
+      "what_it_is": "Numbered list of 264 signatories (civil-society organisations, networks, Brazilian constituencies, national groups, and some academics and individuals), pages 2 to 14. Not copied here.",
+      "page": "2-14"
+    },
+    {
+      "name": "Page linked from the phrase 'lobbyists have swarmed COPs' (kickbigpollutersout.org/COP29FossilFuelLobbyists)",
+      "what_it_is": "A campaign web page cited for the statement about lobbyists at COPs; not opened, so its content and method are unknown.",
+      "page": 1
+    },
+    {
+      "name": "Joint civil society submission on conflicts of interest, August 2022 (corporateaccountability.org, PDF)",
+      "what_it_is": "Linked from the words 'Accountability Framework' as an example of a conflict of interest framework; not opened.",
+      "page": 1
+    }
+  ],
+  "relevant_to": ["context"],
+  "pages_read": "All 14 pages of the extracted text (the full document): the letter on pages 1-2, the signatory list on pages 2-14. Table renderings of the list on some pages repeat the same entries.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

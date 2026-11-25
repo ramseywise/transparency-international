@@ -1,0 +1,284 @@
+{
+  "id": "doi-10-1186-s13705-026-00565-z",
+  "citation": {
+    "authors": [
+      "Dipa Desai",
+      "Yutong Si",
+      "Diana Bozhilova",
+      "Sheila M. Puffer",
+      "Jennie C. Stephens"
+    ],
+    "year": 2026,
+    "title": "Renewable energy discourses of fossil fuel companies: obstruction and delay of climate action",
+    "venue_or_publisher": "Energy, Sustainability and Society 16:13",
+    "doi_or_url": "https://doi.org/10.1186/s13705-026-00565-z",
+    "type": "journal article (research)",
+    "peer_reviewed": "yes"
+  },
+  "question": "How frequently and with which sentiment are renewable energy technologies referenced in the annual reports of fossil fuel companies, and how do these messages fit discourses of climate delay, doublespeak and hiding insufficient climate action?",
+  "data": "28 annual reports (fiscal years 2016-2022) of four fossil fuel companies: Shell, BP, TotalEnergies (21 reports, one per year each) and ExxonMobil (7 reports). 2,273 mentions of renewable energy coded. Supplementary materials 1 and 2 are not in the PDF.",
+  "method": "Content analysis and sentiment analysis in NVivo 12 Pro. Keyword queries (Table 2) counted renewable energy and fossil fuel mentions; each renewable mention was hand-coded positive, neutral or negative using a codebook built inductively from the 2021 reports. Two authors co-coded the 2018 reports of three companies (over 10% of the dataset) to test the codebook; percentage agreement reported as over 98%. Coded messages were then compared with a framework adapted from Lamb et al. (climate delay), House/Senate committee findings on doublespeak, and Schupfer's work on hiding insufficient climate action. No LLM or automated classification was used.",
+  "definitions": [
+    {
+      "term": "Discourses",
+      "definition": "Communications and arguments used to shape knowledge and action on a topic; a mechanism for creating and affirming power.",
+      "quote": "Discourses, which refer to the com­ munications and arguments used to shape knowledge and action on a topic, provide mechanisms for creating and affirming power",
+      "page": 2
+    },
+    {
+      "term": "Discourses of climate delay (Lamb et al. typology)",
+      "definition": "Four types: redirecting responsibility, pushing non-transformative solutions, abandoning climate action, emphasizing downsides of climate action.",
+      "quote": "These include redirecting responsibility",
+      "page": 2
+    },
+    {
+      "term": "Doublespeak",
+      "definition": "Deliberately misleading communications to investors and the public, e.g. ambitious pledges inconsistent with internal positions, or supporting emissions policy while lobbying against it.",
+      "quote": "use forms of doublespeak, or deliberately misleading communications, to investors and the public",
+      "page": 2
+    },
+    {
+      "term": "Greenwashing",
+      "definition": "Unverified green marketing claims, a form of corporate social irresponsibility.",
+      "quote": "Unverified green market­ ing claims are considered to be greenwashing, a form of corporate social irresponsibility",
+      "page": 4
+    },
+    {
+      "term": "Unjust energy addition",
+      "definition": "Renewable development that does not phase out fossil fuels or address energy system injustices.",
+      "quote": "Renewable energy devel­ opment without phasing out fossil fuels and implement­ ing measures to redress current energy system injustices represents an unjust energy addition, not a just energy transition",
+      "page": 3
+    },
+    {
+      "term": "Energy addition",
+      "definition": "Renewables supplement and do not replace fossil fuels, reinforcing existing fossil interests.",
+      "quote": "renewable energy merely supplements and does not replace fossil fuels",
+      "page": 3
+    },
+    {
+      "term": "Renewable energy (for coding)",
+      "definition": "Defined following the Global Reporting Initiative (GRI), so it includes biofuels and biomass; the authors note biofuels and biomass can be carbon-positive. Hydrogen was excluded from coding.",
+      "quote": "this study included biofuels and biomass following the GRI definition of renewable energy",
+      "page": 5
+    },
+    {
+      "term": "Positive / neutral / negative mention (sentiment codes)",
+      "definition": "Positive: words attributing company value. Negative: words attributing negative value, or renewables presented as an inviable alternative to fossil fuels. Neutral: no specific sentiment, or sentiment unclear.",
+      "quote": "Neutral mentions were identified when the renewable technology was men­ tioned without a specific positive or negative sentiment",
+      "page": 6
+    },
+    {
+      "term": "Fossil fuel company (implicit)",
+      "definition": "No formal definition. Companies described as having core business interests in fossil fuels; the study set is four of the largest investor-owned oil and gas majors.",
+      "quote": "Most multinational energy companies have core business interests in fossil fuels.",
+      "page": 3
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Fossil fuel company (sample selection)",
+      "indicator": "Large market capitalization, historical influence on climate discourse, contribution to global greenhouse gas emissions, and varied headquarters regulatory context; Table 1 ranks the top 7 investor-owned companies by 2024 revenue, with market cap and cumulative emissions.",
+      "quote": "These multina­ tional fossil fuel companies were selected based on their large market capitalization, significant historical influ­ ence on climate discourse",
+      "page": 4
+    },
+    {
+      "concept": "Renewable energy technologies referenced",
+      "indicator": "Keyword text queries (solar; wind; biofuel*, biomass; geothermal; hydropower, hydro, hydroelectric; wave, tidal, ocean energy), modified from GRI and Li et al.",
+      "quote": "Text queries made with the clean energy keywords modified from the GRI [92] and Li et al. [42] identi­ fied the renewable energy technologies targeted by fos­ sil fuel companies",
+      "page": 5
+    },
+    {
+      "concept": "Fossil fuel references",
+      "indicator": "Keywords: oil, petroleum; coal; gas, LNG, LPG, CNG (Table 2).",
+      "quote": "Fossil Fuel Energy Oil, petroleum Coal Gas, LNG, LPG, CNG",
+      "page": 5
+    },
+    {
+      "concept": "Negative sentiment toward renewables",
+      "indicator": "Presence of words such as intermittent, losses, liability, or presenting renewables as an inviable alternative.",
+      "quote": "Negative mentions included words attributing negative value, such as “intermittent” or “losses” or “liability,”",
+      "page": 6
+    },
+    {
+      "concept": "Positive sentiment toward renewables",
+      "indicator": "Collocation of value-attributing words such as asset, solution, key portfolio event.",
+      "quote": "Positive renewable energy mentions included the presence and collocation of words attributing company value, such as “asset,” “solution,” or “key portfolio event.”",
+      "page": 6
+    },
+    {
+      "concept": "Obstruction / delay of climate action by companies",
+      "indicator": "Mixed-sentiment renewable messaging in annual reports (positive plus negative or neutral mentions) read against the adapted delay, doublespeak and hiding-action framework; neutral messages tying renewables to fossil gas read as non-transformational.",
+      "quote": "Neutral messages implied renewable energy needs to integrate with fossil gas and novel technologies to be dependable and competitive, promoting non-transfor­ mational action",
+      "page": 10
+    },
+    {
+      "concept": "Fossil fuel lobbying presence at COP",
+      "indicator": "Cited from Kick Big Polluters Out (ref. 9); no method described here.",
+      "quote": "Lobbyists of the fossil fuel industry were present in record num­ bers at the 2023 United Nations Conference of Parties 28 (COP28",
+      "page": 2
+    }
+  ],
+  "findings": [
+    {
+      "claim": "2,273 renewable energy mentions were coded across the four companies' 2016-2022 reports.",
+      "quote": "This study analyzed a total of 2,273 mentions of renew­ able energy across the four companies’ 2016 through 2022 annual reports",
+      "page": 7
+    },
+    {
+      "claim": "Fossil fuel mentions exceeded renewable mentions for all four companies.",
+      "quote": "References to oil, coal, and gas were more frequent than mentions of renewable energy technologies for all four companies",
+      "page": 7
+    },
+    {
+      "claim": "Each company concentrated on a different technology niche.",
+      "quote": "Whilst Shell and ExxonMobil had a focused interest in biofuels, BP’s interest was in wind energy, and TotalEnergies’ was in solar power generation",
+      "page": 7
+    },
+    {
+      "claim": "ExxonMobil reduced its renewable references while the three UK/EU-headquartered companies increased theirs; TotalEnergies increased most.",
+      "quote": "TotalEnergies increased its mentions of renewable energy most dra­ matically during this time",
+      "page": 7
+    },
+    {
+      "claim": "Positive, neutral and negative renewable messages together functioned as doublespeak.",
+      "quote": "The combina­ tion of positive and negative messages about renewable energy acted as a form of doublespeak",
+      "page": 10
+    },
+    {
+      "claim": "Reports present fossil gas as necessary for the transition, which the authors read as hiding insufficient climate action.",
+      "quote": "This messaging also communicated that fos­ sil gas is necessary for the energy transition",
+      "page": 14
+    },
+    {
+      "claim": "Several companies divested renewable businesses after 2022.",
+      "quote": "Shell and ExxonMobil divested from their biofuel projects [99, 100]",
+      "page": 12
+    },
+    {
+      "claim": "Fossil fuel references dramatically outweighed renewable references, so positive messaging probably does not match investment.",
+      "quote": "dramatically outweighed the number of refer­ ences to renewable energy for each firm",
+      "page": 15
+    },
+    {
+      "claim": "None of the four companies has emissions baselines aligned with the NDC of its headquarters country.",
+      "quote": "none have emissions reduction baselines aligned with the nationally determined contributions (NDCs) of their headquarter­ ing country",
+      "page": 16
+    },
+    {
+      "claim": "The authors conclude that annual reports are used to mislead stakeholders and obstruct climate action.",
+      "quote": "annual reports are key documents used by fossil fuel companies to deploy crafty discur­ sive power to mislead and hide climate action informa­ tion from stakeholders",
+      "page": 16
+    }
+  ],
+  "recommendations": [
+    {
+      "claim": "Mandate and standardize reporting of financial and sustainability communications by multinational fossil fuel companies.",
+      "quote": "a need to mandate and standardize the reporting of financial and sustainability communications",
+      "page": 16
+    },
+    {
+      "claim": "Stronger national and international climate policy is needed to drive fossil companies' transition.",
+      "quote": "Stron­ ger (inter)national climate policies are critical to drive the transition of multinational fossil fuel companies to renewable energy",
+      "page": 16
+    },
+    {
+      "claim": "LLMs may assist sentiment analysis of corporate communications, but only with human verification and robust, ethically obtained data.",
+      "quote": "Emerging computational text analysis tools, such as large language models, can be used to assist",
+      "page": 16
+    },
+    {
+      "claim": "Future work should compare messaging with actual renewable investment data to test whether positive messaging is greenwashing.",
+      "quote": "whether companies’ positive messages about renewable energy are green­ washing tactics unrelated to company transition behav­ ior",
+      "page": 16
+    }
+  ],
+  "limitations": [
+    {
+      "point": "No quantitative data on companies' renewable energy investments, so messaging cannot be compared with actual behaviour.",
+      "stated_by_authors": true,
+      "quote": "The analysis does not include quantitative data about companies’ renewable energy investments, as this data is not readily accessible for all companies.",
+      "page": 16
+    },
+    {
+      "point": "Study covers communications only, not company actions or the effect of the messages.",
+      "stated_by_authors": true,
+      "quote": "This study does not consider company actions in the energy transition, nor does it seek to measure the impact of company communications.",
+      "page": 2
+    },
+    {
+      "point": "Only four companies; Chevron was excluded to keep one company per headquarters country, and ExxonMobil's reports are shorter and less comparable.",
+      "stated_by_authors": true,
+      "quote": "Chevron, a large US-based fos­ sil fuel company, was excluded from this analysis",
+      "page": 4
+    },
+    {
+      "point": "Hydrogen was left out of the coding because text on renewable-derived hydrogen could not be separated from gas-derived hydrogen.",
+      "stated_by_authors": true,
+      "quote": "We omitted hydrogen fuel from the study because of difficulties in isolating text about solar- and wind-derived hydrogen",
+      "page": 6
+    },
+    {
+      "point": "Inter-coder reliability is simple percentage agreement on a subset (2018 reports, three companies, over 10%); no chance-corrected statistic (e.g. kappa) is reported and how many items were double-coded is not given. Reader's observation, not stated by the authors.",
+      "stated_by_authors": false,
+      "quote": "The intercoder percentage agreement yielded from this iterative process is over 98%.",
+      "page": 6
+    },
+    {
+      "point": "Sentiment coding was done by humans in NVivo; no automated or LLM classification was tested, so the paper offers no validation evidence for automated classification. Reader's observation.",
+      "stated_by_authors": false,
+      "quote": "The text analysis software NVIVO 12 Pro was used to inductively code and analyze mentions of renewable energy across the 28 annual reports.",
+      "page": 5
+    },
+    {
+      "point": "Study concerns four oil and gas majors only; it does not address delegates, badges, or other sectors (utilities, financial institutions), so its relevance to the study is indirect. Reader's observation.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "Supplementary materials 1 and 2 (sentiment coding detail, report sections) are referenced but not in the PDF and were not read. References pages (17-20) were skimmed, not read in detail. No instructions to a reader or AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Table 1: top 7 investor-owned fossil fuel companies by 2024 revenue",
+      "what_it_is": "ExxonMobil, Chevron, Shell, TotalEnergies, ConocoPhillips, BP, Eni, with HQ, 2021 market cap, cumulative emissions 1854-2023, 2024 revenue and number of countries; four were analyzed.",
+      "page": 5
+    },
+    {
+      "name": "Table 2: keyword list",
+      "what_it_is": "Renewable and fossil fuel keywords used for text queries.",
+      "page": 5
+    },
+    {
+      "name": "Annual reports 2016-2022 of Shell, BP, TotalEnergies, ExxonMobil",
+      "what_it_is": "The analysed corpus (refs 88-91).",
+      "page": 5
+    },
+    {
+      "name": "House Oversight Democrats and Senate Budget Committee (2024), Denial, Disinformation, and Doublespeak",
+      "what_it_is": "Congressional report on Big Oil communications, source of the doublespeak framework (ref. 20).",
+      "page": 17
+    },
+    {
+      "name": "Kick Big Polluters Out (2023), record number of fossil fuel lobbyists at COP28",
+      "what_it_is": "Source for the COP28 lobbyist count (ref. 9).",
+      "page": 17
+    },
+    {
+      "name": "Brulle and Downie (2022), Following the money: trade associations, political activity and climate change",
+      "what_it_is": "Reference on trade associations and climate politics (ref. 6).",
+      "page": 17
+    }
+  ],
+  "relevant_to": [
+    "context",
+    "method"
+  ],
+  "pages_read": "1-20 (text extracted with PyMuPDF; pages 1-17 read in full including the start of the reference list; reference list pages 17-20 skimmed only; supplementary materials not available)",
+  "read_on": "2026-11-24",
+  "read_by": "2026-11-24 general-purpose agent (sonnet) following source-reader instructions; PDF text extracted (pdftoppm missing), page numbers are PDF page indices"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "carbonmajors-index",
+  "citation": {
+    "authors": ["InfluenceMap"],
+    "year": null,
+    "title": "Home (Carbon Majors database home page)",
+    "venue_or_publisher": "carbonmajors.org",
+    "doi_or_url": "https://carbonmajors.org/index.html",
+    "type": "web page (landing page)",
+    "peer_reviewed": "unknown"
+  },
+  "question": null,
+  "data": "Page describes the Carbon Majors database: \"historical production data from 178 of the world’s largest oil, gas, coal, and cement producers\"; \"The data spans back to 1854\". Entity breakdown: 100 investor-owned companies, 72 state-owned companies, 6 nation states; 85 oil, 86 gas, 104 coal and 8 cement entities (section headings).",
+  "method": "Not stated on this page. Only a one-line purpose is given: the data \"is used to quantify the direct operational emissions and emissions from the combustion of marketed products that can be attributed to these entities\". The methodology is on a separate page (https://carbonmajors.org/Methodology) that was not in the text read.",
+  "definitions": [],
+  "proxies": [],
+  "findings": [
+    {
+      "claim": "The page states the database covers 70% of global fossil fuel and cement CO2 emissions (claim made on the site; not checked against any underlying data here).",
+      "quote": "covering 70% of global fossil fuel and cement emissions",
+      "page": "About Carbon Majors"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Only a landing page was read (about 199 words). It has no methodology, no entity names, no inclusion criteria and no download content. Methodology, Entities and Downloads are links to other pages, not in this text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The page does not say how entities were selected or defined as oil, gas, coal or cement producers, or how parent companies and subsidiaries are treated.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "No publication or modification date is given for the page (news items on it are dated October 2026), so the version of the database it describes is not fixed.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Carbon Majors database",
+      "what_it_is": "Database of historical production data from 178 oil, gas, coal and cement producers (100 investor-owned, 72 state-owned, 6 nation states). Page links to an entity league table (https://carbonmajors.org/Entities), a methodology page (https://carbonmajors.org/Methodology) and a dataset download page (https://carbonmajors.org/Downloads). None of these were read.",
+      "page": "About Carbon Majors"
+    }
+  ],
+  "relevant_to": ["context"],
+  "pages_read": "Landing page only: the full extracted text (about 199 words, 11 paragraphs) of the Carbon Majors home page. Linked pages (Entities, Methodology, Downloads, FAQ, latest report) were not read.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

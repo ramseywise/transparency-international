@@ -1,0 +1,240 @@
+{
+  "id": "doi-10-1016-j-enpol-2024-114103",
+  "citation": {
+    "authors": [
+      "Sonya Ahamed",
+      "Gillian L. Galford",
+      "Bindu Panikkar",
+      "Donna Rizzo",
+      "Jennie C. Stephens"
+    ],
+    "year": 2024,
+    "title": "Carbon collusion: Cooperation, competition, and climate obstruction in the global oil and gas extraction network",
+    "venue_or_publisher": "Energy Policy (Elsevier), article 114103; available online 2 May 2024 (published 2024-05-22 per the file metadata)",
+    "doi_or_url": "https://doi.org/10.1016/j.enpol.2024.114103",
+    "type": "journal article",
+    "peer_reviewed": "yes"
+  },
+  "question": "Who is responsible for global oil and gas extraction, and how are the largest extracting companies (national, investor-owned and hybrid) connected to each other and to the countries they extract from? The authors build a company-level dataset and run a network analysis, then read the pattern as evidence of cooperation and possible industry-state collusion against climate policy. The paper does not study COP delegations, observers or participant lists.",
+  "data": "The Global Oil and Gas Extraction Network (GOGEN), compiled by the authors from public sources (annual reports, operating statements, SEC filings; the NRGI National Oil Company Database for state-owned companies; validated where possible against Rystad Energy U-Cube and The Carbon Underground 200). It covers the 26 largest oil and gas companies by quantity extracted, 2014 to 2018, more than 7200 records (about 5300 on extraction), together about 67% of global extraction. The network analysis uses 112 nodes (26 companies, 86 countries) and an edge list of 2829 company-country-year-fuel records, of which 13% have no quantity.",
+  "method": "Records were compiled by hand and by script (R, JMP, Python) into one data model, with country names harmonised and units standardised. Companies and countries were then treated as two kinds of node in a bipartite, weighted, directed network (an edge when a company extracts from a country, weighted by volume), one layer per year and per company type. Metrics: node strength and degree, interlayer correlation between company types (assortativity, Spearman), and community detection (Louvain modularity). Collusion is inferred from the network pattern and from joint ventures and equity holdings, not measured directly.",
+  "definitions": [
+    {
+      "term": "Hybrid company",
+      "definition": "An oil and gas company that is partly state-owned and partly owned by private investors. Table 2 gives the state share for each (for example 50%, 64%, 82%).",
+      "quote": "‘Hybrid’ companies (de Graaff, 2011), which are partly state-owned and partly owned by private investors",
+      "page": 2
+    },
+    {
+      "term": "Investor-owned company (IOC) / Big Oil",
+      "definition": "Fully investor-owned companies; the seven Big Oil companies (four European, three US) plus Lukoil are put in this group. The text and Table 2 do not always apply the label the same way (Lukoil is 'IOC', Eni and ConocoPhillips are 'Big Oil').",
+      "quote": "fully investor-owned companies (IOCs Big Oil + the Russian-headquartered Lukoil)",
+      "page": 5
+    },
+    {
+      "term": "Big Oil",
+      "definition": "The seven IOCs, collectively: ExxonMobil, Chevron, ConocoPhillips (US) and BP, Shell, TotalSA, Eni (Europe). The text names them; it gives no separate rule beyond that list.",
+      "quote": "All seven of these IOCs (also known collectively as ‘Big Oil’)",
+      "page": 5
+    },
+    {
+      "term": "National oil company (NOC)",
+      "definition": "No explicit definition in the text. The paper lists NOCs by name in Table 2 (mostly OPEC members, fully state-owned) and says NOCs may be more directly accountable to the public through their ownership structure than to private shareholders.",
+      "quote": "national oil companies have the potential to play a different role, whereby they may be more directly accountable to the public through their ownership structure",
+      "page": 3
+    },
+    {
+      "term": "carbon bombs (cited from other work)",
+      "definition": "Proposed or existing coal, oil or gas projects that could emit over a gigaton of CO2. Not used as a category by this study.",
+      "quote": "defined as proposed or existing coal, oil or fossil gas projects with a potential to emit over a Gigaton of CO2",
+      "page": 2
+    },
+    {
+      "term": "explicit collusion (cited from Garrod and Olczak 2018)",
+      "definition": "Firms coordinating through direct communication.",
+      "quote": "explicit collusion involves a group of firms in direct communication",
+      "page": 12
+    },
+    {
+      "term": "tacit collusion (cited from Garrod and Olczak 2018)",
+      "definition": "Firms coordinating their actions without direct communication.",
+      "quote": "tacit collusion involves firms coordinating their actions without such direct communication",
+      "page": 12
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "fossil-fuel company (inclusion in the study)",
+      "indicator": "Being one of the 26 largest oil and gas companies by quantity of oil and gas extracted (ranked on 2016 production per the data-sources paragraph, 2018 production in Table 2). Size of extraction is the only inclusion criterion stated.",
+      "quote": "the 26 largest oil and gas companies in terms of quantity extracted",
+      "page": 3
+    },
+    {
+      "concept": "company type (NOC, Hybrid, IOC)",
+      "indicator": "Ownership: state share and whether private investors hold shares, as listed per company in Table 2. The paper gives no coding rule beyond the table; Table 2 lists Petronas as NOC while the text depicts it in the hybrid group.",
+      "quote": "Hybrid: 50% state owned",
+      "page": 6
+    },
+    {
+      "concept": "ties between companies (cooperation)",
+      "indicator": "Joint ventures and equity holdings recorded in the company reports, counted among subnational extraction records.",
+      "quote": "we found 1180 of some 2050 records (58%) at the subnational level in this dataset indicate some type of joint ownership with other companies",
+      "page": 9
+    },
+    {
+      "concept": "cooperation or coordination among company types",
+      "indicator": "Positive correlation between the countries where Hybrids and IOCs are active (interlayer correlation); the authors read this as growing cooperation. This is an inference from where firms operate, not an observed act.",
+      "quote": "We can also infer growing cooperation and coordination among IOCs and Hybrid companies.",
+      "page": 8
+    },
+    {
+      "concept": "source of company facts",
+      "indicator": "Public company documents: annual reports, operating statements and SEC filings.",
+      "quote": "annual reports, operating statements, and SEC filings of the top 26 oil and gas companies",
+      "page": 4
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The 26 companies account for about two-thirds of global extraction in 2014 to 2018.",
+      "quote": "These 26 companies together accounted for approximately 67% of annual global extraction during the period from 2014 to 2018 (55700 of 81900 kboed).",
+      "page": 3
+    },
+    {
+      "claim": "The 26 companies directly employed more than 3 million people in 2018.",
+      "quote": "Together these 26 companies directly employed more than 3 million people in 2018 (Table 2)",
+      "page": 5
+    },
+    {
+      "claim": "Countries with NOCs are less likely to host IOCs or Hybrids; this became stronger from 2014 to 2018.",
+      "quote": "countries that have NOCs, for example, were less likely to have IOCs or Hybrids operating there than in other countries",
+      "page": 8
+    },
+    {
+      "claim": "Hybrids and IOCs tend to operate in the same countries.",
+      "quote": "by contrast hybrid and IOCs tend to be active in the same countries.",
+      "page": 8
+    },
+    {
+      "claim": "IOCs (Big Oil) extract in more countries than any other company type, though with smaller volumes than the top NOCs and Hybrids.",
+      "quote": "IOCs extract hydrocarbons from more countries than any other type of producer, although their output is smaller than the top NOCs and Hybrid companies.",
+      "page": 11
+    },
+    {
+      "claim": "Authors' interpretation (an argument, not a measured result): the network pattern indicates tacit and explicit industry-state collusion to obstruct climate policy. The study does not measure lobbying, delegations or any communication between firms.",
+      "quote": "indicative of tacit and explicit transnational industry-state collusion to obstruct climate policies",
+      "page": 1
+    },
+    {
+      "claim": "Authors' argument on influence (not tested with data in this paper): Big Oil companies exert hidden political influence at home.",
+      "quote": "exerting hidden influence on political processes to maintain their position",
+      "page": 11
+    },
+    {
+      "claim": "Context for the climate talks (authors' description, not a finding): the UNFCCC process has failed to restrict fossil fuel supply; the 2023 COP host UAE is home to ADNOC, the fourth most extractive company in Table 2.",
+      "quote": "as host of COP28 in 2023 highlights the changing role some major oil and gas producing states with NOCs are playing in global climate negotiations",
+      "page": 12
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The source does not address the study's questions directly: it contains nothing on COP or UNFCCC delegations, participant lists, observers, conflicts-of-interest rules or lobbying measurement, and gives no figure for business or fossil-fuel presence in delegations (Q1 not covered). For Q2 it only offers a company-level definition of fossil-fuel producers (the largest oil and gas extractors, typed by ownership), not a method for linking people or organisations in delegations to fossil fuels.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Authors say the results are partial because of gaps in company reporting.",
+      "stated_by_authors": true,
+      "quote": "a partial but nonetheless useful and illuminating representation of a complex web of public and private actors involved in oil and gas extraction around the world",
+      "page": 5
+    },
+    {
+      "point": "Authors note that company-level data are scarce and the dataset rests on public sources only.",
+      "stated_by_authors": true,
+      "quote": "Our reliance solely on public data sources emphasizes the paucity of data concerning firm-level activities compared to national-level data on fossil fuel extraction.",
+      "page": 4
+    },
+    {
+      "point": "Many companies give no quantities or locations; 13% of country-level records have no weight.",
+      "stated_by_authors": true,
+      "quote": "There are numerous data gaps: many companies do not provide readily accessible data on the location of their operations within countries, and/or do not report quantities.",
+      "page": 15
+    },
+    {
+      "point": "Only the 26 largest extractors are covered; smaller firms producing the remaining third are not in the network, so presence of other fossil-fuel firms is not captured.",
+      "stated_by_authors": true,
+      "quote": "smaller firms, responsible for the remaining one-third of extraction",
+      "page": 6
+    },
+    {
+      "point": "Collusion is inferred from where companies operate and from joint ventures; the paper has no direct evidence of communication or of influence on climate negotiations, so its collusion claim is an interpretation. Company-type labels are also not fully consistent (for example Petronas is NOC in Table 2 but sits in the hybrid group in the text).",
+      "stated_by_authors": false,
+      "quote": "Malaysia’s Petronas, which is depicted in the hybrid group",
+      "page": 8
+    },
+    {
+      "point": "The study period is 2014 to 2018 only, so it predates the COP31 period of the study.",
+      "stated_by_authors": true,
+      "quote": "The pivotal 5-year period from 2014 to 2018 was selected for this analysis for multiple reasons.",
+      "page": 3
+    },
+    {
+      "point": "The abstract says 58% of operations involved joint ownership; the body says 58% of about 2050 subnational records. The body wording is the one used here.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "No instructions addressed to a reader or an AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Global Oil and Gas Extraction Network (GOGEN), Ahamed et al.",
+      "what_it_is": "The authors' dataset of extraction by the 26 largest oil and gas companies, 2014-2018; available as supplementary information and on OSF",
+      "page": 4
+    },
+    {
+      "name": "Natural Resource Governance Institute (NRGI) National Oil Company Database (2020)",
+      "what_it_is": "Source for most data on the state-owned companies",
+      "page": 4
+    },
+    {
+      "name": "Rystad Energy U-Cube",
+      "what_it_is": "Proprietary industry database, limited access, used to validate figures where possible",
+      "page": 4
+    },
+    {
+      "name": "The Carbon Underground 200 (Fossil Free, 2020, 'The top 200 fossil fuel companies')",
+      "what_it_is": "Public list of fossil fuel companies, used to validate figures",
+      "page": 4
+    },
+    {
+      "name": "Global Oil and Gas Extraction Tracker (GOGET), Global Energy Monitor",
+      "what_it_is": "Public field-level database with operator, owner and parent company of oil and gas units",
+      "page": 2
+    },
+    {
+      "name": "Fossil Fuel Non-Proliferation Tracker; Fossil Fuel Cuts Database; Production Gap report (SEI et al. 2023); Global Registry of Fossil Fuels",
+      "what_it_is": "Other trackers of fossil fuel supply and policy mentioned in the introduction; not used as data by this study",
+      "page": 2
+    },
+    {
+      "name": "Reference list (about 80 works)",
+      "what_it_is": "Includes Brulle 2018 (lobbying spending on climate change in the USA), Carroll 2021 (Regime of Obstruction), McKie 2021 (online climate counter-movement), Newell and Paterson 1998; not read",
+      "page": 17
+    }
+  ],
+  "relevant_to": [
+    "Q2",
+    "context"
+  ],
+  "pages_read": "Whole extracted file: all 18 pages of the PDF (main text, tables, appendices A and B, reference list) and the link list at the end. Figures are not in the text; only their captions are.",
+  "recommendations": [],
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

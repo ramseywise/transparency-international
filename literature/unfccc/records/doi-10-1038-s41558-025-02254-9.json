@@ -1,0 +1,229 @@
+{
+ "id": "doi-10-1038-s41558-025-02254-9",
+ "citation": {
+  "authors": [
+   "Xie, J.J.",
+   "Escher, N.A.",
+   "Dunn, M.E.",
+   "et al."
+  ],
+  "year": 2025,
+  "title": "Tracing inclusivity at UNFCCC conferences through side events and interest group dynamics",
+  "venue_or_publisher": "Nature Climate Change 15, 270-278",
+  "doi_or_url": "https://doi.org/10.1038/s41558-025-02254-9",
+  "type": "journal article (open access)",
+  "peer_reviewed": "yes"
+ },
+ "question": "How have side-event topics at COPs evolved (2003-2023), and how do fossil fuel lobbyists gain access to COP28 and take part in energy side-event networks; framed as inclusivity and procedural justice.",
+ "data": "(1) 4,688 UNFCCC side events, COP9-COP28 (2003-2023), scraped from SEORS. (2) COP28 onsite participant list (22 Dec 2023 version), 69,999 onsite participants; 2,347 delegates flagged as fossil fuel interests using a Kick Big Polluters Out (KBPO) database. (3) UNFCCC lists of admitted NGOs and IGOs (scraped Jan-Feb 2024). (4) COP28 side-event speaker organisations coded by hand from YouTube transcripts.",
+ "method": "Topic modelling (BERTopic) of side-event titles and descriptions; social network analysis (Gephi) of nominators (who issued badges) and fossil fuel companies at COP28, and of side-event co-hosts and speakers. Fossil fuel delegates taken from the KBPO database, not independently classified; validated by repeating the analysis for delegates of major oil and gas companies and for 35 meat and dairy companies. Two authors manually checked entries. Nominators were classed by badge type, constituency and headquarters country/Annex group.",
+ "definitions": [
+  {
+   "term": "fossil fuel lobbyist / fossil fuel-linked delegate (KBPO)",
+   "definition": "Delegates of companies in the fossil fuel supply chain, plus individuals assumed to influence policy in the interest of the fossil fuel industry, as defined by KBPO.",
+   "quote": "KBPO defines these delegates as those with companies involved with the fossil fuel supply chain and individuals who are assumed to influence policy in the interest of the fossil fuel industry",
+   "page": "Paths of interest group access to COP28"
+  },
+  {
+   "term": "fossil fuel companies",
+   "definition": "Companies involved in exploration, extraction, refining, trading, specialised transport of fossil fuels, or sale of electricity from them (quoting KBPO).",
+   "quote": "in the exploration, extraction, refining, trading, specialized transportation of fossil fuels or sale of electricity derived from them",
+   "page": "Interest group identification"
+  },
+  {
+   "term": "lobbyist",
+   "definition": "Delegate reasonably assumed to aim to influence policy or legislation in the interests of the fossil fuel industry (quoting KBPO).",
+   "quote": "reasonably assumed to have the objective of influencing the formulation or implementation of policy or legislation in the interests of the fossil fuel industry",
+   "page": "Interest group identification"
+  },
+  {
+   "term": "national delegation",
+   "definition": "Formed by representatives of Parties: officials authorised to represent and negotiate for their governments.",
+   "quote": "National delegations, formed by representatives of Parties, consisted of officials authorized to represent and negotiate on behalf of their governments.",
+   "page": "COP28 delegation"
+  },
+  {
+   "term": "observer / observer organization",
+   "definition": "Accredited non-state participants from UN agencies, IGOs and NGOs; they may nominate members of their delegations.",
+   "quote": "Observer organizations included delegates from the UN system and its specialized agencies, IGOs and NGOs",
+   "page": "COP28 delegation"
+  },
+  {
+   "term": "business NGO (BINGO)",
+   "definition": "UNFCCC constituency of business and industry NGOs; constituency is self-declared by the organisation.",
+   "quote": "business and industry (BINGO)",
+   "page": "Organization constituency and location"
+  },
+  {
+   "term": "nominator",
+   "definition": "Entity (Party or observer organisation) that provides the badge; used as the access route for fossil fuel delegates.",
+   "quote": "Nominator organizations include observer organizations (NGOs, IGOs and UN entities) and Parties (state representatives).",
+   "page": "Paths of interest group access to COP28 (Fig. 2 caption)"
+  },
+  {
+   "term": "state-owned company (as treated here)",
+   "definition": "Not formally defined. The text describes national fossil fuel companies as nominated mainly through Parties and Party overflows, indicating state-company-government ties.",
+   "quote": "National fossil fuel companies were mostly nominated through Parties and Party overflows in non-Annex countries",
+   "page": "Paths of interest group access to COP28"
+  }
+ ],
+ "proxies": [
+  {
+   "concept": "fossil fuel lobbyist / fossil fuel industry presence",
+   "indicator": "Primary affiliation reported to the UNFCCC participant list, matched to the KBPO list of fossil fuel companies and lobbyists.",
+   "quote": "The 2,347 delegates were identified through their primary affiliations reported to the UNFCCC participant list as fossil fuel lobbyists or employees of fossil fuel companies44.",
+   "page": "Paths of interest group access to COP28 (Fig. 2 caption)"
+  },
+  {
+   "concept": "validation of fossil fuel presence",
+   "indicator": "Independent identification of delegates of the largest oil and gas companies by market capitalisation, from the UNFCCC delegation database.",
+   "quote": "we repeated the main analysis by independently identifying delegates affiliated with major oil and gas companies from the official UNFCCC COP28 delegation database",
+   "page": "Interest group identification"
+  },
+  {
+   "concept": "industry interest of a delegate",
+   "indicator": "Main affiliation with an industry taken to mean interest in that industry, even if the delegate's role is in sustainable activities.",
+   "quote": "We assumed that any delegate whose main affiliation is with a specific industry is interested in continuing business in the industry they are affiliated with",
+   "page": "Interest group identification"
+  },
+  {
+   "concept": "badge type and nominator",
+   "indicator": "Badge type and nominating entity from the COP28 participant list; headquarters location used for NGO country/Annex affiliation.",
+   "quote": "We assumed the country and Annex affiliation of organizations based on the location of their headquarters49.",
+   "page": "Organization constituency and location"
+  },
+  {
+   "concept": "organisations affiliated with fossil fuel lobbyists",
+   "indicator": "Organisations that nominated KBPO-flagged delegates (nomination link, not ownership or funding).",
+   "quote": "such identification did not infer that the NGOs share the same interests with the governments.",
+   "page": "Interest group identification"
+  }
+ ],
+ "findings": [
+  {
+   "claim": "2,347 COP28 delegates (3% of participants) were fossil fuel interests per KBPO.",
+   "quote": "we analyse 2,347 delegates (3% of all participants) representing fossil fuel interests as identified by an anti-fossil fuel coalition",
+   "page": "Paths of interest group access to COP28"
+  },
+  {
+   "claim": "The UAE (host) nominated the largest share (7.6%) of fossil fuel lobbyists, mostly state-owned business representatives; IGOs and UN entities nominated 2.6%.",
+   "quote": "the host country United Arab Emirates (UAE) nominated the highest number (7.6%) of fossil fuel lobbyists, mainly comprising representatives from state-owned businesses.",
+   "page": "Paths of interest group access to COP28"
+  },
+  {
+   "claim": "National fossil fuel companies were mostly nominated through Party and Party overflow badges in non-Annex countries and some Annex I countries; international companies were linked to business NGOs in Annex II countries.",
+   "quote": "National fossil fuel companies were mostly nominated through Parties and Party overflows in non-Annex countries",
+   "page": "Paths of interest group access to COP28"
+  },
+  {
+   "claim": "France, Australia and the European Union were the best-connected Parties in the nominator network after the UAE; the US Party delegation was absent from it.",
+   "quote": "France, Australia and the European Union emerged as the most well-connected Parties behind UAE",
+   "page": "Paths of interest group access to COP28"
+  },
+  {
+   "claim": "Oil and gas delegates were a minority of some large business delegations (ICC, IETA) but most of IPIECA's.",
+   "quote": "Major oil and gas company delegates were less than 10% of the International Chamber of Commerce (ICC) and the broadly themed business delegation",
+   "page": "Paths of interest group access to COP28"
+  },
+  {
+   "claim": "Organisations affiliated with fossil fuel lobbyists were 16% of the energy side-event network, mostly on renewables, and peripheral.",
+   "quote": "organizations affiliated with fossil fuel lobbyists represented 16% of the energy event network",
+   "page": "Networks of organizations within discourse topics"
+  },
+  {
+   "claim": "Authors recommend (a recommendation, not a finding) differentiating lobbying-affiliated organisations in accreditation.",
+   "quote": "differentiating organizations affiliated with lobbying interests within the accreditation process",
+   "page": "Discussion"
+  },
+  {
+   "claim": "COP28 was the first COP to publish the participant list as a spreadsheet with nominating entity, affiliation and badge type; earlier lists were PDFs with incomplete affiliations.",
+   "quote": "Previous COPs provided PDF documents with sometimes incomplete affiliations, making comprehensive analysis before COP28 impossible.",
+   "page": "COP28 delegation"
+  }
+ ],
+ "limitations": [
+  {
+   "point": "Only organisation affiliations reported to the UNFCCC are available; real-world ties are more complex. Fossil fuel counts may be overestimated (transitioning companies such as Orsted) and underestimated (incomplete affiliations, hidden ties).",
+   "stated_by_authors": true,
+   "quote": "The fossil fuel lobbyist data could be overestimated by companies actively transitioning to renewable energy (for example, Danish energy company Ørsted) and underestimated by incomplete affiliations and hidden ties",
+   "page": "Discussion"
+  },
+  {
+   "point": "Does not trace lobbying through other personal or professional connections, pavilion events or press conferences.",
+   "stated_by_authors": true,
+   "quote": "This analysis does not trace lobbying through other personal or professional connections and other events at COPs",
+   "page": "Discussion"
+  },
+  {
+   "point": "All participants weighted equally; the data do not show whether a badge was shared or the person attended fully.",
+   "stated_by_authors": true,
+   "quote": "The available data did not state whether each participant attended the full event or only joined partially through a ‘shared badge’.",
+   "page": "Bipartite network of interest group nomination"
+  },
+  {
+   "point": "Headquarters-based country assignment may undercount people from non-Annex countries.",
+   "stated_by_authors": true,
+   "quote": "Assuming headquarter locations can potentially lead to an underestimation of people from non-Annex countries.",
+   "page": "Organization constituency and location"
+  },
+  {
+   "point": "The fossil fuel classification comes from an advocacy coalition (KBPO), not from the authors; the list is available only on request and names are anonymised. Authors did not test the KBPO classification beyond an oil-and-gas-company check; no accuracy measure is reported.",
+   "stated_by_authors": false,
+   "quote": "The fossil fuel lobbyist data can be accessed upon request to the KBPO coalition.",
+   "page": "Data availability"
+  },
+  {
+   "point": "Covers COP28 only for participant data; the study is about all accredited participants, not EU/national delegations specifically. The business share of Party delegations overall (Q1) and sector breakdown are not reported in the text; national delegations are only seen as nominators.",
+   "stated_by_authors": false,
+   "quote": null,
+   "page": null
+  },
+  {
+   "point": "Supplementary Information (Tables 1-8, Note 1) and Extended Data figures not available in the text file; figure values (e.g. Sankey counts) were not readable.",
+   "stated_by_authors": false,
+   "quote": "Supplementary Figs. 1–4, Tables 1–8 and Note 1.",
+   "page": "Supplementary Information (download PDF )"
+  }
+ ],
+ "reference_lists_or_datasets": [
+  {
+   "name": "KBPO COP28 fossil fuel lobbyist database",
+   "what_it_is": "Anonymised list of fossil fuel companies and lobbyists derived from the UNFCCC COP28 participant list, from the KBPO press release 'Record number of fossil fuel lobbyists at COP28' (2023); available from KBPO on request.",
+   "page": "Interest group identification"
+  },
+  {
+   "name": "UNFCCC COP28 list of participants (Excel)",
+   "what_it_is": "https://unfccc.int/documents/636674 (22 Dec 2023 version); provisional list at https://unfccc.int/documents/634503.",
+   "page": "COP28 delegation"
+  },
+  {
+   "name": "UNFCCC lists of admitted NGOs and IGOs",
+   "what_it_is": "Official names, country of registration and self-declared constituency; scraped Jan-Feb 2024.",
+   "page": "Organization constituency and location"
+  },
+  {
+   "name": "SEORS side-event archive",
+   "what_it_is": "UNFCCC side events and exhibits registration archive, COP9-COP28.",
+   "page": "Historical side events"
+  },
+  {
+   "name": "Meat and dairy company list",
+   "what_it_is": "35 largest companies, from a previous publication (ref. 43), used for a comparison analysis.",
+   "page": "Interest group identification"
+  },
+  {
+   "name": "Code and network files",
+   "what_it_is": "https://github.com/judyjwxie/unfccc-cop-analysis (Gephi files, statistics, code).",
+   "page": "Data availability"
+  }
+ ],
+ "relevant_to": [
+  "Q1",
+  "Q2",
+  "method",
+  "context"
+ ],
+ "pages_read": "Whole article read as web page sections: Abstract, Main, all result sections, Discussion, Methods, Data/Code availability, Extended Data captions, Cite this article. Reference list (about lines 400-960 of the file) skimmed only via search, not read in full. Supplementary PDF not in text file.",
+ "read_on": "2026-11-24",
+ "read_by": "source-reader, sonnet"
+}

@@ -1,0 +1,160 @@
+{
+  "id": "doi-10-33344-vol14iss1pp88-104",
+  "citation": {
+    "authors": [
+      "Sina Bergmann"
+    ],
+    "year": 2020,
+    "title": "Non-state actors in the international climate change regulatory framework",
+    "venue_or_publisher": "Helsinki Law Review, 1/2020, pp. 88-104 (Pykälä ry)",
+    "doi_or_url": "https://doi.org/10.33344/vol14iss1pp88-100",
+    "type": "journal article (legal doctrinal essay)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "How non-state actors (NSAs) can access and participate in the UNFCCC and Paris Agreement regime, how far this lets them influence law-making and outcomes, and how their involvement could be improved.",
+  "data": "No empirical dataset. Desk review of secondary literature (e.g. Bäckstrand and Kuyper 2017, Kuyper et al. 2018, Schroeder and Lovell 2012, Hale 2018) and treaty texts. Based on a university research essay; footnote dates show access in June 2020.",
+  "method": "Doctrinal and literature-based analysis of three avenues of NSA participation (orchestration, COPs and side events, NDC mitigation), followed by three author recommendations. No counting, coding or classification of actors.",
+  "definitions": [
+    {
+      "term": "Non-state actors (NSAs)",
+      "definition": "No universal definition; often considered to include business entities, NGOs, activist groups, intergovernmental organisations, city networks, oil companies, trade unions, civil society and others.",
+      "quote": "There is no universal definition of NSAs but are often considered to consist of business entities, nongovernmental organisations, activist groups, intergovernmental organisations, city networks, oil companies, trade unions, civil society and many more.",
+      "page": 1
+    },
+    {
+      "term": "Observer (under the UNFCCC)",
+      "definition": "NSAs have no formal role under the Convention; the treaty describes them as observers, who must be admitted by the COP and can then send representatives to sessions and meetings.",
+      "quote": "In order to be seen as one, an NSA must be admitted by the COP as an observer to the UNFCCC process",
+      "page": 2
+    },
+    {
+      "term": "Orchestration",
+      "definition": "Governance mode in which international organisations and states mobilise intermediaries to pursue collective goals; soft and indirect rather than hierarchical.",
+      "quote": "Orchestration is a governance mode in which international organisations and states mobilise intermediaries to pursue targets for collective goals.",
+      "page": 2
+    },
+    {
+      "term": "Hybrid multilateralism",
+      "definition": "Climate policy arena as a mix of state and non-state actors.",
+      "quote": "being one of ‘hybrid multilateralism’ – a mix and mingle of state and non-state actors",
+      "page": 1
+    },
+    {
+      "term": "NAZCA",
+      "definition": "Non-state Actor Zone for Climate Action: an online portal aggregating climate actions from sub-state and non-state actors.",
+      "quote": "NAZCA is essentially a platform that acts as an online portal and aggregator of climate actions from substate and non-state actors.",
+      "page": 3
+    }
+  ],
+  "proxies": [],
+  "findings": [
+    {
+      "claim": "NSAs have no formal role under the UNFCCC and are treated as observers.",
+      "quote": "Under the Convention, NSAs do not have a formal role. The treaty describes them as observers.",
+      "page": 2
+    },
+    {
+      "claim": "Side events are linked to the negotiation agenda: roughly 60-75% relate directly to matters on the negotiation table (citing Schroeder and Lovell 2012).",
+      "quote": "Around 60–75% of side events have related directly to matters that have been on the negotiation table.",
+      "page": 3
+    },
+    {
+      "claim": "NSAs can gain influence over policymakers through membership in state delegations in exchange for their resources (citing Böhmelt 2013).",
+      "quote": "NSAs can gain influence over policymakers via membership in state delegations in exchange for their resources allowing them to shape policy outputs according to their own preferences.",
+      "page": 3
+    },
+    {
+      "claim": "NSAs are not a homogeneous group and may hold conflicting views.",
+      "quote": "NSAs are not necessarily a homogenic group and might represent different views amongst each other on issues that are difficult and prone to cause conflict.",
+      "page": 4
+    },
+    {
+      "claim": "States can restrict which NSAs attend COP negotiations, possibly admitting only those that suit their interests.",
+      "quote": "States might opt for a functional efficiency approach, in which they accept only NSAs that suit their interests to the negotiations.",
+      "page": 5
+    },
+    {
+      "claim": "NAZCA held over 12,000 NSA pledges and has been criticised for lacking accountability and transparency (citing Bäckstrand and Kuyper 2017).",
+      "quote": "Currently the NAZCA portal contains more than 12,000 pledges by NSAs.",
+      "page": 6
+    },
+    {
+      "claim": "Conclusion: NSAs lack a formal role, so their influence depends on how states receive them.",
+      "quote": "NSAs lack a formal role under the Agreements and therefore their influence is somewhat dependant on their reception by the participatory states",
+      "page": 7
+    }
+  ],
+  "recommendations": [
+    {
+      "claim": "Require a mandatory, gradually rising percentage of NDCs to be implemented by, or formulated with, NSAs.",
+      "quote": "Each state party would be required to have a certain percentage of their NDCs implemented by NSAs or formulated in tandem with them.",
+      "page": 5
+    },
+    {
+      "claim": "Set mandatory NSA quotas for party delegations so NSAs are always represented at COPs.",
+      "quote": "mandatory NSA quotas could be set for party delegations. This would allow NSAs to always be represented at COPs.",
+      "page": 6
+    },
+    {
+      "claim": "Coordinate side events better with the COP, report on them, and hold them at or near the main venue.",
+      "quote": "the side events should be linked more formally to the actual COPs by holding them in the same location as the main event if possible, or in its proximity.",
+      "page": 6
+    },
+    {
+      "claim": "Develop NAZCA from a display platform into an operative platform where NSAs can convene and monitor initiatives.",
+      "quote": "NAZCA could move away from functioning as a displaying platform to a more operative platform, that would allow NSAs to convene.",
+      "page": 6
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Author states the scope is introductory and not exhaustive; the three avenues are her own selection.",
+      "stated_by_authors": true,
+      "quote": "address them exhaustively but to provide an introduction of them to the reader.",
+      "page": 2
+    },
+    {
+      "point": "Author notes the three avenues are not the only ones and reflect her view.",
+      "stated_by_authors": true,
+      "quote": "The three points raised here do not represent the only methods how NSAs can access and participate under the Agreements",
+      "page": 2
+    },
+    {
+      "point": "Author notes Covid-19 may have affected NDC submission timing at publication.",
+      "stated_by_authors": true,
+      "quote": "However, the Covid-19 pandemic might had an impact on this.",
+      "page": 5
+    },
+    {
+      "point": "No empirical data, no counts of delegates or sectors, and no treatment of business or fossil fuel interests specifically; NSAs treated as one category. Influence claims are largely positive and rest on secondary sources. Student essay; peer-review status not stated in the text.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "The recommendation of mandatory NSA quotas in party delegations is not analysed for risks such as corporate or fossil fuel capture; the text itself notes NSAs can join state delegations in exchange for resources.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "The first-page DOI (vol14iss1pp88-100) differs from the file id (pp88-104). Page numbers above are PDF page numbers (1-7); each PDF page carries two printed page numbers (88-89 to 100-101). No instructions to a reader or AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "NAZCA portal (climateaction.unfccc.int)",
+      "what_it_is": "UNFCCC online registry of sub-state and non-state climate pledges, over 12,000 pledges per the text",
+      "page": 6
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "PDF pages 1-7 of 7 (printed pages 88-101), whole document, text extracted with pypdf because the PDF page renderer was unavailable",
+  "read_on": "2026-11-24",
+  "read_by": "2026-11-24 general-purpose agent (sonnet) following source-reader instructions; PDF text extracted (pdftoppm missing), page numbers are PDF page indices"
+}

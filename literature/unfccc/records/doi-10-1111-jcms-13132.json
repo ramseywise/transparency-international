@@ -1,0 +1,214 @@
+{
+  "id": "doi-10-1111-jcms-13132",
+  "citation": {
+    "authors": [
+      "Marcel Hanegraaff",
+      "Arlo Poletti"
+    ],
+    "year": 2021,
+    "title": "The Rise of Corporate Lobbying in the European Union: An Agenda for Future Research",
+    "venue_or_publisher": "JCMS: Journal of Common Market Studies, Volume 59, Number 4, pp. 839-855 (University Association for Contemporary European Studies and John Wiley & Sons Ltd); published 2021-07-13",
+    "doi_or_url": "https://doi.org/10.1111/jcms.13132",
+    "type": "journal article (the authors call it a research note)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "Whether firm (corporate) lobbying has risen in the European Union relative to lobbying by business associations and NGOs, why earlier studies could not show it, and which supply-side and demand-side factors a future research agenda should test. It is about lobbying of the European Commission, not about the UN climate conference, country delegations or fossil fuels.",
+  "data": "Two datasets on organisations in contact with European Commission (EC) staff: (1) INTEREURO, 2008-10, a set of 70 EC legislative proposals, using only information given by EC senior staff; (2) the European Commission Transparency Register (ECTR) contacts with EC senior staff, 2014-19, a list of over 5,000 unique organisations. The number of organisations in the INTEREURO data is not stated in the text. Only firms, business associations and NGOs are compared.",
+  "method": "The two datasets are compared as shares of firms, business associations and NGOs, first for all organisations, then for the top 100 and top 25 most prominent organisations, with a year-by-year check inside the ECTR data alone (2014-19). Organisations are sorted into types (firm, business association, NGO); the text says the INTEREURO organisations were 'coded based on group type' and does not say how the coding was done or checked. The detail is in Appendices 1 and 2, which are not in the extracted text. The rest of the article is a research agenda.",
+  "definitions": [
+    {
+      "term": "interest organizations (behavioural definition)",
+      "definition": "Organisations that seek political influence without seeking executive or legislative power themselves; the definition is based on behaviour, not on organisational form, so it can include firms.",
+      "quote": "conceives of interest organizations as those that seek political inﬂuence while having no interest in gaining executive or legislative power themselves",
+      "page": 5
+    },
+    {
+      "term": "firms as interest organizations (why a behavioural definition)",
+      "definition": "A behavioural definition lets non-membership organisations such as firms be counted, unlike definitions based on organisational characteristics, which tend to leave firms out.",
+      "quote": "this behavioural deﬁnition allows us to develop categorizations that include non‐membership‐based organizations such as ﬁrms",
+      "page": 5
+    },
+    {
+      "term": "firms versus business associations",
+      "definition": "Firms and business associations are treated as two separate types of interest organisation (this wording describes an earlier study by Berkhout and colleagues that the authors build on).",
+      "quote": "categorize ﬁrms and business association as two distinct types of interest organizations",
+      "page": 4
+    },
+    {
+      "term": "access (as distinct from mobilization and influence)",
+      "definition": "The degree of access to policy-making granted to organisations that have mobilized.",
+      "quote": "access, that is, the degree of access to policy‐making granted to mobilized interest organizations",
+      "page": 10
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "organisation is active in EU legislation (INTEREURO, 2008-10)",
+      "indicator": "Named by EC senior staff when asked which organisations mobilized and took active part in the policy process on a preselection of proposals",
+      "quote": "In the project, EC senior staff was asked to provide information on the different interest organizations that mobilized and actively participated in the policy process in a preselection of proposals.",
+      "page": 5
+    },
+    {
+      "concept": "organisation lobbies the Commission (ECTR, 2014-19)",
+      "indicator": "Appears in the published list of contacts between lobbyists and EC senior staff",
+      "quote": "the EC has decided to publicly publicize all contacts between lobbyists and EC senior staff",
+      "page": 6
+    },
+    {
+      "concept": "prominence of an organisation",
+      "indicator": "Being among the most often mentioned organisations: top 100 and top 25 in each dataset",
+      "quote": "the top 100 organizations and the top 25 most prominent actors identiﬁed in both datasets",
+      "page": 6
+    },
+    {
+      "concept": "types left out of the firm / business association / NGO comparison",
+      "indicator": "Professional lobby firms excluded because the organisations they represent cannot be identified",
+      "quote": "we did not consider professional lobby ﬁrms, given the impossibility of identifying which type of organizations they represent.",
+      "page": 6
+    },
+    {
+      "concept": "types left out of the comparison (think tanks)",
+      "indicator": "Think tanks excluded because funding, represented interests and whether they lobby at all are unclear",
+      "quote": "we excluded think tanks because it is unclear how they are ﬁnanced",
+      "page": 6
+    }
+  ],
+  "findings": [
+    {
+      "claim": "In 2008-10, of the organisations EC staff named as active in EU legislation, 26% were firms, 49% business associations and 25% NGOs.",
+      "quote": "During the 2008–10 period, EC ofﬁcials identiﬁed 26 per cent of ﬁrms, 49 per cent of business associations, and 25 per cent of NGOs amongst the organizations active in EU legislation.",
+      "page": 7
+    },
+    {
+      "claim": "In the 2014-19 contact data, firms are the largest group at 41%, ahead of business associations (33%) and NGOs (26%).",
+      "quote": "with ﬁrms representing the largest share of EC staff’s contacts with lobbyists (41 per cent), and contacts with business associations and NGOs amounting to 33 per cent and 26 per cent, respectively.",
+      "page": 7
+    },
+    {
+      "claim": "Among the 100 most prominent organisations in 2008-10, firms were 29%, business associations 49% and NGOs 22%.",
+      "quote": "during the 2008–10 period, ﬁrms amounted to 29 per cent of the top 100 most prominent interest groups, business associations to 49 per cent, and NGOs to 22 per cent.",
+      "page": 8
+    },
+    {
+      "claim": "By the authors' reading, firms replaced business associations as the most prominent organisations contacting the Commission over ten years (top 100: 44% firms, 39% business associations, 17% NGOs in 2014-19).",
+      "quote": "ﬁrms seem to have replaced business associations as the most prominent interest organizations contacting EC staff over the course of ten years.",
+      "page": 9
+    },
+    {
+      "claim": "In the top 25 most prominent organisations, firms were 10 of 25 (40%) in 2014-19 against fewer than 10% in 2008-10 (only two).",
+      "quote": "in the top 25 most prominent interest groups during 2014–19 ten organizations (or 40 per cent) are ﬁrms",
+      "page": 9
+    },
+    {
+      "claim": "Inside the ECTR data alone the firm share rose steadily from 34% in 2014 to 41% in 2018.",
+      "quote": "In 2014, 34 per cent of the organizations contacting EC staff were ﬁrms, while in 2018 this number increased to 41 per cent.",
+      "page": 9
+    },
+    {
+      "claim": "Cited from earlier work (Berkhout et al. 2018), not this article's own finding: firms are around a third of all interest organisations lobbying in the EU.",
+      "quote": "ﬁrms consistently comprise around a third of all interest organizations lobbying in the EU’s political system",
+      "page": 4
+    },
+    {
+      "claim": "Cited from US studies, not this article's own finding: firms that spend more on lobbying get greater leniency from regulators in how closely they are monitored.",
+      "quote": "ﬁrms spending more on lobbying obtain greater leniency from regulators in terms of being monitored",
+      "page": 3
+    },
+    {
+      "claim": "The authors name, as a concern, the potential of rising firm lobbying to make systems of interest representation more biased (a concern drawn from the literature, not tested here).",
+      "quote": "the rise of ﬁrm lobbying is associated with several major concerns, such as their potential to make systems of interest representation more biased",
+      "page": 2
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The extracted file holds the whole 17-page article, but not the Supporting Information (Data S1: Appendix 1 on how the two data sources were combined, Appendix 2 with Tables A1 and A2). The text of Figures 1 and 2 is not in the file either; the percentages used here come from the article's prose. Where the main text relies on the appendices, that part is not read.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 17
+    },
+    {
+      "point": "The comparison of the two data sources is imperfect.",
+      "stated_by_authors": true,
+      "quote": "While we are aware that this comparison is not perfect",
+      "page": 5
+    },
+    {
+      "point": "Before 2014 the ECTR was voluntary and most firms did not register, so the register cannot be used for earlier years.",
+      "stated_by_authors": true,
+      "quote": "Before 2014, registration in the ECTR was not compulsory and most ﬁrms declined to do so",
+      "page": 5
+    },
+    {
+      "point": "The interview-based INTEREURO data are likely to over-represent the most important groups, which is why the authors also compare only the most prominent organisations.",
+      "stated_by_authors": true,
+      "quote": "data obtained through interviews in the INTEREURO project is likely to be skewed in favour of the most important groups active on particular issues",
+      "page": 7
+    },
+    {
+      "point": "The data cannot show whether firms lobby against or alongside their business associations.",
+      "stated_by_authors": true,
+      "quote": "these datasets do not allow us to grasp whether ﬁrms lobby alone to defend interests that contrast with those defended by sectoral business associations",
+      "page": 6
+    },
+    {
+      "point": "The study counts contacts with the Commission; it does not measure influence.",
+      "stated_by_authors": true,
+      "quote": "our empirical focus on contacts between interest organizations and EC staff clearly places the question of inﬂuence outside the scope of our analysis",
+      "page": 10
+    },
+    {
+      "point": "The article is about lobbying of the European Commission, not about party delegations at UN climate conferences, and it does not deal with fossil-fuel linkage. Its shares of firms among lobbyists cannot be read as business presence in COP delegations. It also gives no definition of 'business' or 'firm' beyond the behavioural definition of interest organisations, and no method or accuracy figures for sorting organisations into types.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The text does not say whether the article was peer reviewed, so this is recorded as unknown.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "No instructions addressed to a reader or an AI were found in the text. The extracted text of Table 1 (top 25 organisations) is garbled in the table block, so organisation names there were not used.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 8
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "INTEREURO project data (http://www.intereuro.eu/)",
+      "what_it_is": "Maps interest organisations' activities on 70 EC legislative proposals in 2008-10; here only the information given by EC senior staff was used",
+      "page": 5
+    },
+    {
+      "name": "European Commission Transparency Register (ECTR), contacts with EC senior staff, 2014-19",
+      "what_it_is": "Public list of contacts between lobbyists and EC senior staff since the end of 2014; over 5,000 unique organisations",
+      "page": 6
+    },
+    {
+      "name": "Table 1: Top 25 most active organizations in each period",
+      "what_it_is": "Lists the 25 most active organisations in the 2008-10 and 2014-19 data",
+      "page": 8
+    },
+    {
+      "name": "Supporting Information, Data S1 (Appendix 1, Appendix 2, Tables A1 and A2)",
+      "what_it_is": "Explanation of combining the two data sources, and the year-by-year ECTR check; not in the extracted text",
+      "page": 17
+    },
+    {
+      "name": "Reference list",
+      "what_it_is": "Includes Berkhout et al. 2018 (three maps of EU interest groups with firms and associations as distinct types), Beyers et al. 2008 (definition of interest organisations), Baroni et al. 2014 (defining and classifying interest groups), Dellis and Sondermann 2017 (firms in the ECTR matched with the Amadeus database)",
+      "page": 16
+    }
+  ],
+  "relevant_to": [
+    "Q1",
+    "context"
+  ],
+  "pages_read": "All 17 pages of the extracted article text (abstract, introduction, sections I-III, conclusion, reference list), including Table 1 and the footnote on page 6. Not available: the Supporting Information (Appendices 1 and 2, Tables A1 and A2) and the figure images."
+  ,
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

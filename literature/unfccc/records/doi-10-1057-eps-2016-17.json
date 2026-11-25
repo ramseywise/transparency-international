@@ -1,0 +1,74 @@
+{
+  "id": "doi-10-1057-eps-2016-17",
+  "citation": {
+    "authors": ["Binderkrantz, A. S.", "Pedersen, H. H.", "Beyers, J."],
+    "year": 2017,
+    "title": "What is access? A discussion of the definition and measurement of interest group access",
+    "venue_or_publisher": "European Political Science 16, 306-321",
+    "doi_or_url": "https://doi.org/10.1057/eps.2016.17",
+    "type": "journal article (only abstract, notes and reference list available in the saved page)",
+    "peer_reviewed": "yes"
+  },
+  "question": "Abstract: how the concept of access is defined and measured in interest group research, and how operationalisations based on the authors' proposed definition compare with major alternatives in the literature.",
+  "data": null,
+  "method": "Abstract: \"On the basis of a review of this literature\" (review of the interest group access literature), then a comparison of operationalisations. No further detail available.",
+  "definitions": [
+    {
+      "term": "access (proposed definition)",
+      "definition": "Instances where a group has entered a political arena (parliament, administration or media) by passing a threshold controlled by relevant gatekeepers (politicians, civil servants or journalists).",
+      "quote": "We propose to define access as instances where a group has entered a political arena (parliament, administration, or media) passing a threshold controlled by relevant gatekeepers (politicians, civil servants, or journalists).",
+      "page": "Abstract"
+    },
+    {
+      "term": "access versus influence",
+      "definition": "Access does not guarantee influence but is customarily seen as a step towards it; groups with access are, all else equal, more likely to be influential.",
+      "quote": "While access does not guarantee influence, it is customarily seen as a crucial step towards gaining political influence.",
+      "page": "Abstract"
+    },
+    {
+      "term": "access (exclusion under the definition)",
+      "definition": "A group that is offered access but declines the invitation does not count as an instance of access.",
+      "quote": "the definition excludes instances where a group is offered access but neglects the invitation.",
+      "page": "Notes (note 2)"
+    }
+  ],
+  "proxies": [],
+  "findings": [
+    {
+      "claim": "The authors report that, in the literature they reviewed, the concept of access rests on an intuitive understanding rather than an explicit definition, which hampers methodological discussion of measurement.",
+      "quote": "the concept of access rests on an intuitive understanding rather than an explicit definition. This hampers methodological discussions of measurement.",
+      "page": "Abstract"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Only the abstract, notes and reference list were in the saved page; the article body (pp. 306-321) was not available, so the full definition, its justification and the comparison of operationalisations are not recorded.",
+      "stated_by_authors": false,
+      "quote": "This is a preview of subscription content, log in via an institution to check access.",
+      "page": "Abstract"
+    },
+    {
+      "point": "Access is not necessary for influence: structural position can give influence without lobbying, and the access approach does not capture this.",
+      "stated_by_authors": true,
+      "quote": "Access is not necessary for being influential.",
+      "page": "Notes (note 1)"
+    },
+    {
+      "point": "The definition leaves out groups that are offered access but do not take it, even though this may indicate a powerful group.",
+      "stated_by_authors": true,
+      "quote": "This may very well indicate that this group is powerful and important, but it will not count as an instance of access according to our definition.",
+      "page": "Notes (note 2)"
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Reference list of the article",
+      "what_it_is": "About 78 references on interest group access and influence (for example Binderkrantz, Pedersen and Christiansen 2015 on access to administration, parliament and media; Gullberg 2011 on access to climate policy-making in the EU and Norway; Dur 2007 and 2008 on influence). Candidates for the library.",
+      "page": "References"
+    }
+  ],
+  "relevant_to": ["context"],
+  "pages_read": "Abstract only, plus notes, reference list and citation details. The saved page is a landing page with a subscription preview; the article body is not present. Whole extracted text (111 paragraphs, about 1,570 words) was read.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

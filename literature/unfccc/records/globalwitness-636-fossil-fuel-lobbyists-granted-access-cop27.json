@@ -1,0 +1,116 @@
+{
+  "id": "globalwitness-636-fossil-fuel-lobbyists-granted-access-cop27",
+  "citation": {
+    "authors": [],
+    "year": null,
+    "title": "636 fossil fuel lobbyists granted access to COP27",
+    "venue_or_publisher": "Global Witness (with Corporate Accountability and Corporate Europe Observatory)",
+    "doi_or_url": "https://www.globalwitness.org/en/campaigns/fossil-gas/636-fossil-fuel-lobbyists-granted-access-cop27/",
+    "type": "web article (campaign page summarising an analysis); no author or publication date in the page text",
+    "peer_reviewed": "no"
+  },
+  "question": "How many fossil fuel lobbyists were granted access to COP27, compared with COP26 in Glasgow, and how many came within official country delegations.",
+  "data": "Delegates admitted to COP27, described as over 30,000. The page does not name the list used, the date it was taken, or give the full dataset. Public sources (company websites, news coverage, databases such as InfluenceMap's) were used to link delegates to fossil fuel interests. Two embedded charts are not in the page text.",
+  "method": "A rapid analysis combining scraping, machine learning and manual review of the delegate data. The page gives no detail on the machine learning step, the matching rules, validation or accuracy. It states the method relies on delegates disclosing their own connections to fossil fuel interests.",
+  "definitions": [
+    {
+      "term": "Fossil fuel lobbyists",
+      "definition": "People who have links to companies with significant business activities in fossil fuels, or who attend as part of a trade body representing fossil fuel interests.",
+      "quote": "We define fossil fuel lobbyists as people who have links to companies with significant business activities in fossil fuels, or who are attending the talks as part of a trade body representing fossil fuel interests.",
+      "page": "Topics"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Fossil fuel link of a delegate",
+      "indicator": "Connection to a fossil fuel company or fossil fuel trade body, found in public sources (company websites, news coverage, InfluenceMap database) and in what delegates disclose about themselves.",
+      "quote": "We also rely solely public sources like company websites, news coverage or databases like InfluenceMap’s for connecting delegates to fossil fuel interests.",
+      "page": "Topics"
+    },
+    {
+      "concept": "Fossil fuel link of a delegate (self-disclosure)",
+      "indicator": "Delegates' own disclosure of their connections to fossil fuel interests.",
+      "quote": "our methodology relies on delegates to the talks disclosing their own connections to fossil fuel interests, and many lobbyists may choose to obscure that link.",
+      "page": "Topics"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "At least 636 fossil fuel lobbyists were granted access to COP27, more than at Glasgow, and about twice the number of delegates from the UN indigenous peoples constituency.",
+      "quote": "has identified at least 636 fossil lobbyists who have been granted access to COP27. That means that even more fossil fuel lobbyists are attending the talks than in Glasgow last year.",
+      "page": "Topics"
+    },
+    {
+      "claim": "Twenty-nine countries included 200 fossil fuel lobbyists in official delegations; more than one in five of Russia's 150-person delegation.",
+      "quote": "Twenty-nine countries brought a total of 200 fossil fuel lobbyists as part of their official delegations. More than one in five in Russia’s 150 strong delegation are from the fossil fuel industry.",
+      "page": "Topics"
+    },
+    {
+      "claim": "The United Arab Emirates delegation included at least 70 fossil fuel lobbyists, among them the Oxy chief executive and 11 of her colleagues (12 people).",
+      "quote": "gaining access to this year’s talks as part of the official United Arab Emirates delegation, which included at least 70 fossil fuel lobbyists according to our analysis.",
+      "page": "Topics"
+    },
+    {
+      "claim": "Canada's official delegation included executives from Enbridge.",
+      "quote": "Canada’s official delegation to the talks included executives from Enbridge",
+      "page": "Topics"
+    },
+    {
+      "claim": "The same group's analysis found at least 503 fossil fuel lobbyists at COP26 the year before.",
+      "quote": "Last year our analysis showed that at least 503 fossil fuel lobbyists flooded the Glasgow talks.",
+      "page": "Topics"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The file holds a short campaign web page summarising the analysis, not a methodology report. It gives no detail on the data list used, the machine learning step, the matching rules or validation. Two embedded charts are not in the text. It has no author or date.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The estimate is likely conservative because it depends on delegates disclosing their links.",
+      "stated_by_authors": true,
+      "quote": "Even then, the estimate is likely to be conservative, as our methodology relies on delegates to the talks disclosing their own connections to fossil fuel interests",
+      "page": "Topics"
+    },
+    {
+      "point": "Only public sources were used to link delegates to fossil fuel interests.",
+      "stated_by_authors": true,
+      "quote": "We also rely solely public sources like company websites, news coverage or databases like InfluenceMap’s for connecting delegates to fossil fuel interests.",
+      "page": "Topics"
+    },
+    {
+      "point": "Lobbyists for other industries (finance, agribusiness, petrochemicals) are not counted, so this is not a measure of all business presence.",
+      "stated_by_authors": true,
+      "quote": "We have also not included the many lobbyists for other industries closely tied to fossil fuels or heavily implicated in the climate crisis, like the finance industry, big agribusinesses or petrochemicals industry.",
+      "page": "Topics"
+    },
+    {
+      "point": "The page is campaign material from an advocacy group (a stated call to exclude fossil fuel lobbyists), so findings and advocacy sit together.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "InfluenceMap database",
+      "what_it_is": "Named as an example of a public database used to connect delegates to fossil fuel interests; not described further.",
+      "page": "Topics"
+    },
+    {
+      "name": "Global Witness COP26 analysis (503 fossil fuel lobbyists)",
+      "what_it_is": "The earlier press release linked from the page, for the Glasgow figure. Not read here.",
+      "page": "Topics"
+    }
+  ],
+  "relevant_to": [
+    "Q2",
+    "method",
+    "context"
+  ],
+  "pages_read": "Full text of the saved web page (33 paragraphs, about 1,030 words). The two embedded Datawrapper charts are not in the extracted text and were not read. The page text is only a summary of the analysis.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

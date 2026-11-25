@@ -1,0 +1,144 @@
+{
+  "id": "carbonmajors-methodology",
+  "citation": {
+    "authors": [
+      "InfluenceMap"
+    ],
+    "year": null,
+    "title": "Methodology",
+    "venue_or_publisher": "Carbon Majors (carbonmajors.org)",
+    "doi_or_url": "https://carbonmajors.org/Methodology",
+    "type": "web page (database methodology overview); no publication or modification date in the file",
+    "peer_reviewed": "unknown"
+  },
+  "question": "How the Carbon Majors database traces greenhouse gas emissions from fossil fuels and cement to the companies that produced them: which entities are included, what production data is used, and how emissions are calculated.",
+  "data": "Company-reported production of oil and NGL, natural gas and coal (and cement emissions reported by major cement companies), from as early as 1854 to the present, with third-party sources where self-reported data is missing. Compared with Global Carbon Project totals from 1750. The number of entities is not stated on the page.",
+  "method": "Entities are selected by an emissions-size threshold and sorted into three entity types. Production is taken from company disclosures, standardised to common units, and multiplied by emission factors (mostly IPCC Tier 1 defaults) after deducting non-energy uses. Four Scope 1 emission types are then estimated. Cement process emissions are estimated as a share of gross emissions reported to the Cement Sustainability Initiative. The page describes no step that uses a language model or an expert validation sample.",
+  "definitions": [
+    {
+      "term": "Carbon Majors (entity selection threshold)",
+      "definition": "Companies originally selected from a variety of sources that met a threshold of at least 8 MtC per year. Some entities no longer exceed it.",
+      "quote": "Carbon Majors originally selected extant companies from a variety of sources that met a ≥8MtC/yr threshold.",
+      "page": "Entity Selection"
+    },
+    {
+      "term": "Entity types",
+      "definition": "Assessed entities fall into three types: investor-owned companies, state-owned companies, and nation-state producers.",
+      "quote": "The assessed entities are divided into three entity types: investor-owned companies, state-owned companies, and nation-state producers.",
+      "page": "Entity Selection"
+    },
+    {
+      "term": "Investor-owned companies",
+      "definition": "Both publicly listed and privately held producers.",
+      "quote": "Investor-owned companies include both publicly listed and privately held producers.",
+      "page": "Entity Selection"
+    },
+    {
+      "term": "State-owned companies",
+      "definition": "Companies where the state controls more than fifty percent of shares, even if the rest is held by institutional or individual shareholders.",
+      "quote": "These are considered state owned if more than fifty percent of shares are controlled by the state.",
+      "page": "Entity Selection"
+    },
+    {
+      "term": "Nation-state producers",
+      "definition": "Used mainly for coal, and only where investor-owned or state-owned companies were not established or played a minor role in the country.",
+      "quote": "Nation-state producers are used primarily in the coal sector and are included only when investor-owned or state-owned companies haven’t been established or played a minor role in the relevant country.",
+      "page": "Entity Selection"
+    },
+    {
+      "term": "Attribution after mergers and acquisitions",
+      "definition": "Emissions of an acquired company are attributed to the surviving company.",
+      "quote": "In such cases, the acquired companies’ emissions are attributed to the surviving company.",
+      "page": "Entity Selection"
+    },
+    {
+      "term": "Scope 3 Category 11 emissions as used by Carbon Majors",
+      "definition": "Emissions from combustion of marketed products, modified to cover each company's own net production rather than sold products, to avoid double counting. Purchased crude, gas bought for resale and coal sold for others are excluded.",
+      "quote": "This was done to avoid double counting, and deliberately excludes emissions from crude oil purchased from other producers, natural gas purchased for re-sale, or coal sold on behalf of other producers.",
+      "page": "Fossil Fuel Emissions"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "A company's fossil fuel responsibility (attributed emissions)",
+      "indicator": "The company's own reported production of oil and NGL, gas and coal, converted to emissions with emission factors.",
+      "quote": "self-reported production data by the producing entity is always preferred to and used instead of any other sources.",
+      "page": "Production Data"
+    },
+    {
+      "concept": "Net (equity) production",
+      "indicator": "Net production is preferred to gross; where only gross is reported, a net-to-gross ratio is applied. Total national output of state-owned companies is reduced to the state-owned share.",
+      "quote": "In such cases, net production is estimated by applying a net-to-gross ratio.",
+      "page": "Production Data"
+    },
+    {
+      "concept": "Cement producers' emissions",
+      "indicator": "A proportion of gross emissions reported by major cement companies to the Cement Sustainability Initiative, standing for process emissions from calcining limestone.",
+      "quote": "Cement-related emissions are estimated as a proportion of gross emissions reported by the major cement companies to the Cement Sustainability Initiative.",
+      "page": "Cement Emissions"
+    },
+    {
+      "concept": "Emission factors for combustion",
+      "indicator": "Mostly Tier 1 defaults from the IPCC Guidelines for National Greenhouse Gas Inventories, with other sources consulted.",
+      "quote": "These emissions factors were mostly derived from Tier 1 defaults from the Intergovernmental Panel on Climate Change (IPCC) Guidelines for National Greenhouse Gas Inventories.",
+      "page": "Fossil Fuel Emissions"
+    }
+  ],
+  "findings": [],
+  "limitations": [
+    {
+      "point": "The page is a methodology overview for emissions attribution to producer companies. It says nothing about COP or UNFCCC delegations, business or fossil-fuel presence in delegations, classifying participants, validation, or language models. Its use for the study is only as a possible reference list of fossil-fuel producers and as an example of how one source defines producer entities.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Early production data is missing for some entities, causing minor underreporting; gaps are interpolated and missing early production is left empty.",
+      "stated_by_authors": true,
+      "quote": "resulting in minor cases of underreporting, as early production is often overshadowed by later company expansions.",
+      "page": "Production Data"
+    },
+    {
+      "point": "A common non-energy-use factor is applied to each fuel, which may not fit each entity.",
+      "stated_by_authors": true,
+      "quote": "While this factor may be reasonably accurate on a global scale, it may not precisely represent each specific entity’s non energy uses.",
+      "page": "Fossil Fuel Emissions"
+    },
+    {
+      "point": "State-owned companies often report total rather than equity production, which risks double counting with multinational equity production.",
+      "stated_by_authors": true,
+      "quote": "This practice can lead to a potential issue of double counting, where production is recorded both as overseas equity production by multinational oil and gas companies and as production by state-owned entities.",
+      "page": "Production Data"
+    },
+    {
+      "point": "The page refers to a fuller methodology paper (Heede, 2014) that was not part of the text read, and says the data storage, processing and output formats have changed since the original release. The list of entities, their number, and the Downloads content are not in the page text.",
+      "stated_by_authors": true,
+      "quote": "While this paper describes the methodology used, the data storage and processing methods as well as the output formats have changed since the database was originally released by the Climate Accountability Institute.",
+      "page": "Downloads"
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Carbon Majors database",
+      "what_it_is": "Database of fossil fuel and cement producing entities (investor-owned, state-owned, nation-state) with production and attributed emissions from 1854. The entity list is on a separate Entities page, not in this file.",
+      "page": "Downloads"
+    },
+    {
+      "name": "Carbon Majors: Methods & Results Report (Heede, 2014)",
+      "what_it_is": "Fuller methodology paper linked from the page; not read here.",
+      "page": "Downloads"
+    },
+    {
+      "name": "Global Carbon Project",
+      "what_it_is": "Source of global fossil fuel and cement emission totals from 1750, used as the denominator for entity shares.",
+      "page": "Global Fossil Fuel & Cement Emissions"
+    }
+  ],
+  "relevant_to": [
+    "Q2",
+    "method"
+  ],
+  "pages_read": "Full text of the saved web page (83 numbered paragraphs, about 1,685 words: Downloads intro, Entity Selection, Production Data, Emissions Calculations with emission-factor tables, Glossary units). Navigation headings (Home, Entities, Releases, About, FAQ) have no text. Linked pages were not opened.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "unfccc-20251121-cop31-presidency-modalities-clean-agreed",
+  "citation": {
+    "authors": [
+      "Türkiye",
+      "Australia"
+    ],
+    "year": 2025,
+    "title": "Türkiye-Australia Partnership Modalities (COP31 Presidency Modalities, clean agreed version)",
+    "venue_or_publisher": "UNFCCC",
+    "doi_or_url": "https://unfccc.int/sites/default/files/resource/20251121_COP31_Presidency_Modalities-CLEAN-AGREED.pdf",
+    "type": "bilateral arrangement document (official UNFCCC web publication)",
+    "peer_reviewed": "no"
+  },
+  "question": "Sets out how Türkiye and Australia will share the COP31 presidency: who holds which role and which functions each performs. The source states no research question.",
+  "data": "None. It is a 2-page agreement text (606 words). The year 2025 comes from the filename date 20251121, not from the text.",
+  "method": "Not applicable. It is a normative arrangement, not a study.",
+  "definitions": [
+    {
+      "term": "COP31 President",
+      "definition": "A representative of Türkiye, nominated to be elected President by the COP at the start of the COP31 sessions. Acts under the Draft Rules of Procedure.",
+      "quote": "“COP31 President” means a representative of Türkiye who will be nominated to be elected as President by the Conference of the Parties",
+      "page": 1
+    },
+    {
+      "term": "President of Negotiations",
+      "definition": "A representative of Australia, assigned by the COP31 President. Functions of leading the COP31 negotiations are delegated to this person for the duration of COP31, with exclusive authority over the negotiations.",
+      "quote": "assigns a representative of Australia as the “President of Negotiations”, to whom he will delegate the functions of leading the COP31 Negotiations",
+      "page": 1
+    },
+    {
+      "term": "President of Negotiations (authority)",
+      "definition": "The role has exclusive authority in relation to the negotiations.",
+      "quote": "who will have exclusive authority in relation to the negotiations",
+      "page": 1
+    },
+    {
+      "term": "Vice President of the COP (Australian representative)",
+      "definition": "The Australian representative will be nominated as Vice President of the COP for the duration of COP31 to facilitate the delegation.",
+      "quote": "the representative of Australia will be nominated as the Vice President of the COP for the duration of COP31",
+      "page": 1
+    },
+    {
+      "term": "COP31 President-Designate",
+      "definition": "The Türkiye representative holds this title from the end of COP30 until elected President at the start of COP31.",
+      "quote": "be the “COP31 President-Designate” from the end of COP30",
+      "page": 1
+    },
+    {
+      "term": "Host (Türkiye)",
+      "definition": "Türkiye concludes a Host Country Agreement with the UNFCCC and carries out all operational and logistical host responsibilities.",
+      "quote": "Türkiye will enter into a Host Country Agreement with the UNFCCC and fulfil all the operational and logistical responsibilities of a host country of a COP.",
+      "page": 1
+    },
+    {
+      "term": "Pre-COP",
+      "definition": "To be hosted in a Pacific island country, location decided by the Pacific and supported by the Government of Australia. Australia sets its agenda with Pacific island countries and presides over it.",
+      "quote": "The Pre-COP will be hosted in a Pacific island country (in a location to be decided by the Pacific), supported by the Government of Australia.",
+      "page": 1
+    }
+  ],
+  "proxies": [],
+  "findings": [
+    {
+      "claim": "Türkiye keeps the COP31 Presidency and hosts COP31, including the leaders' summit. It appoints the UN High-Level Climate Champion and the Youth Champion proposed by Australia. It is responsible for the Action Agenda and prepares COP31 communications.",
+      "quote": "Türkiye will host COP31, including the world leaders’ summit in Türkiye.",
+      "page": 1
+    },
+    {
+      "claim": "Australia's President of Negotiations holds six listed functions from the end of COP30 to the end of COP31/CMA8/CMP21. They include selecting ministerial and other co-facilitators, leading the negotiations agenda and producing draft texts, and being the focal point with the UNFCCC on negotiations.",
+      "quote": "select ministerial and other co-facilitators for negotiations as necessary for the purposes of COP31",
+      "page": 2
+    },
+    {
+      "claim": "The two countries will consult each other. A difference of views is to be resolved by continued consultation until it is settled to mutual satisfaction.",
+      "quote": "consultations will take place until the difference is resolved to mutual satisfaction",
+      "page": 1
+    },
+    {
+      "claim": "Australia, in partnership with Pacific island countries, sets the pre-COP agenda, presides over it and handles its logistics.",
+      "quote": "Australia, in partnership with Pacific island countries, will set the agenda for Pre-COP in the Pacific, preside over pre-COP",
+      "page": 2
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The document says nothing on delegations, business or industry participation, badges or registration, conflicts of interest, lobbying or undue influence. It has no data relevant to Q1 or Q2. The absence is not evidence that no such rules exist elsewhere.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "It is a short bilateral arrangement. It applies the 1996 draft rules of procedure, which are not formally adopted.",
+      "stated_by_authors": true,
+      "quote": "The draft rules of procedure being applied apply to these modalities.",
+      "page": 1
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "FCCC/CP/1996/2, Draft Rules of Procedure of the Conference of the Parties and its Subsidiary Bodies",
+      "what_it_is": "Rules of procedure that the COP31 President acts under; cited in footnote 2",
+      "page": 1
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "whole source (606 words); chunk file coverage note: whole source (606 words). Pages 1-2. No additional searches."
+}

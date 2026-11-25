@@ -1,0 +1,142 @@
+{
+  "id": "doi-10-1016-j-enpol-2022-112950",
+  "citation": {
+    "authors": ["Kjell Kühne", "Nils Bartsch", "Ryan Driskell Tate", "Julia Higson", "André Habet"],
+    "year": 2022,
+    "title": "“Carbon Bombs” - Mapping key fossil fuel projects",
+    "venue_or_publisher": "Energy Policy 166 (2022) 112950",
+    "doi_or_url": "https://doi.org/10.1016/j.enpol.2022.112950",
+    "type": "journal article, published version (open access, CC BY; available online 12 May 2022; 10 pages)",
+    "peer_reviewed": "yes"
+  },
+  "question": "Which are the biggest fossil fuel extraction projects worldwide (called carbon bombs), where are they, how large are their potential emissions, and what is their status.",
+  "data": "Project-level reserve data: Rystad UCube (oil and gas, 2020), BP Statistical Review of Energy, US EIA coal reserve sources and Global Energy Monitor's Global Coal Mine Tracker (coal, 2020-2021). Production data from Rystad and the German BGR. Result: 425 projects (230 coal mines, 195 oil and gas projects). The full project list is in supplementary Appendix 1 and 2, which are not in the extracted text.",
+  "method": "Screen reserve databases for extraction projects above a reserve threshold, convert reserves to potential CO2 using average IPCC emission factors, keep projects above 1 gigaton CO2. Only extraction projects are counted. A simple scenario ('harvest mode', extraction continues without new investment) is run for projects already producing. No company-level or organisation-level classification is done.",
+  "definitions": [
+    {
+      "term": "carbon bomb",
+      "definition": "A proposed or existing fossil fuel extraction project (coal mine, oil or gas project) whose complete extraction and burning would emit more than 1 gigaton of CO2.",
+      "quote": "a proposed or existing fossil fuel extraction project (a coal mine, oil or gas project) that would result in more than 1 gigaton of CO2 emissions",
+      "page": 1
+    },
+    {
+      "term": "project (oil and gas)",
+      "definition": "Taken from the Rystad database: a practical aggregation of assets developed as one industry project.",
+      "quote": "Typically a Project consists of assets to be developed as one industry project.",
+      "page": 4
+    },
+    {
+      "term": "coal reserves",
+      "definition": "Recoverable reserves: coal at a mine considered economically mineable with the highest degree of confidence; where unavailable, resources were used and flagged.",
+      "quote": "the amount of coal at a mine that is considered economically mineable with the highest degree of confidence",
+      "page": 4
+    },
+    {
+      "term": "scope of projects counted",
+      "definition": "Only extraction projects; transport infrastructure and demand-side infrastructure such as power plants are excluded, to avoid double counting.",
+      "quote": "We only include extraction projects, but not transport infrastructure (LNG terminals, pipelines, ports)",
+      "page": 3
+    },
+    {
+      "term": "potential emissions",
+      "definition": "Emissions if all reserves were burnt; no adjustment for methane leakage or non-energy uses.",
+      "quote": "Our numbers are therefore labeled as potential emissions - the emissions that would result if all reserves were burnt.",
+      "page": 4
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "large oil and gas project",
+      "indicator": "Rystad UCube project with more than 2.5 billion barrels of oil equivalent or 400 bcm of gas equivalent reserves, then kept only if potential emissions are at least 1 Gt CO2.",
+      "quote": "identified all projects, existing and planned, with more than 2.5 billion barrels of oil equivalent reserves or 400 bcm of gas equivalent reserves.",
+      "page": 4
+    },
+    {
+      "concept": "large coal mine",
+      "indicator": "Countries with more than 375 million tons of reserves in BP Statistical Review first, then individual mines above type-specific reserve thresholds (385 to 835 mt depending on coal type; Table 1).",
+      "quote": "identified all countries over a threshold of 375 million tons of coal reserves in the BP Statistical Review of Energy",
+      "page": 4
+    },
+    {
+      "concept": "potential emissions of a project",
+      "indicator": "Reserves multiplied by average IPCC emission factors for direct CO2 from burning.",
+      "quote": "we use average IPCC emissions factors for direct CO2 emissions from burning the fossil fuels in question",
+      "page": 3
+    },
+    {
+      "concept": "company exposure to stranded assets (mentioned, not used)",
+      "indicator": "Stranded-asset analyses flag the companies and projects most exposed for investors; the paper describes this as a complement to its own approach.",
+      "quote": "These analyses help flag the companies and projects most exposed to potential asset stranding for investors.",
+      "page": 2
+    }
+  ],
+  "findings": [
+    {
+      "claim": "425 carbon bombs identified: 195 oil and gas, 230 coal.",
+      "quote": "We have identified 425 carbon bombs. 195 oil and gas projects fall into this category",
+      "page": 5
+    },
+    {
+      "claim": "Carbon bombs are concentrated in a few countries; China has the most.",
+      "quote": "There are only 10 countries with more than 10 carbon bombs: China (141), Russia (41), United States (28), Iran (24)",
+      "page": 5
+    },
+    {
+      "claim": "Carbon bombs already operating account for a large share of 2019 global production.",
+      "quote": "carbon bomb projects in operation were responsible for 45% of global oil and gas production and 25% of global coal production in 2019",
+      "page": 5
+    },
+    {
+      "claim": "State-owned enterprises are named as among the energy companies planning additional extraction projects (stated in the introduction, not measured).",
+      "quote": "are still being planned by energy companies, including state-owned enterprises (SOEs).",
+      "page": 1
+    },
+    {
+      "claim": "An existing public list of company fossil fuel reserves (Carbon Underground 200) does not cover most SOEs.",
+      "quote": "which however does not cover most SOEs.",
+      "page": 3
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Oil and gas data came from a commercial paid database; coal data are hard to bring to a common standard.",
+      "stated_by_authors": true,
+      "quote": "for oil and gas we had to resort to a commercial, paid service (Rystad) to get reliable data with global coverage.",
+      "page": 8
+    },
+    {
+      "point": "Some projects may be missed (exploration still under way) and the list changes with prices.",
+      "stated_by_authors": true,
+      "quote": "Some existing carbon bombs may have escaped our method where exploration activities are still taking place.",
+      "page": 5
+    },
+    {
+      "point": "Emissions are potential, not forecast, and the method is deliberately simple.",
+      "stated_by_authors": true,
+      "quote": "Our numbers are therefore labeled as potential emissions - the emissions that would result if all reserves were burnt.",
+      "page": 4
+    },
+    {
+      "point": "The paper works at project level and names no operating companies in the text read; the project list is only in supplementary appendices that are not in this file. It cannot by itself identify fossil fuel-linked organisations.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The extracted metadata lists only one author and has a garbled title; the author list above comes from page 1 text. No instructions addressed to a reader or an AI were found.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {"name": "Carbon bombs list (Appendix 1) and dataset (Appendix 2)", "what_it_is": "List of all 425 projects by name and country, with a dataset sheet per fuel; supplementary data, not in the extracted text.", "page": 5},
+    {"name": "Rystad Energy UCube", "what_it_is": "Commercial oil and gas project database used to identify large oil and gas projects.", "page": 4},
+    {"name": "Global Energy Monitor Global Coal Mine Tracker", "what_it_is": "Coal mine database used to check and extend the coal mine list.", "page": 4},
+    {"name": "The Carbon Underground 200 (FFI Solutions)", "what_it_is": "List of fossil fuel reserves of publicly traded companies; described as not covering most SOEs. Mentioned only.", "page": 3}
+  ],
+  "relevant_to": ["Q2"],
+  "pages_read": "1-10 (all pages of the extracted text; page 10 is references only)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

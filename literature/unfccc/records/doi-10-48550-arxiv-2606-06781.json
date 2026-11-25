@@ -1,0 +1,168 @@
+{
+ "id": "doi-10-48550-arxiv-2606-06781",
+ "citation": {
+  "authors": ["Zixian He", "Bharath Raahul Murugesan", "Patrick T. Brandt", "Yibo Hu"],
+  "year": 2026,
+  "title": "When Better Codebooks Are Not Enough: Predictive Performance and Behavioral Reliability in LLM Political Event Coding",
+  "venue_or_publisher": "arXiv:2606.06781v2 [cs.CL], 5 Aug 2026",
+  "doi_or_url": "https://doi.org/10.48550/arxiv.2606.06781",
+  "type": "preprint",
+  "peer_reviewed": "no"
+ },
+ "question": "Whether richer codebook content improves LLM accuracy in directed political event coding (RQ1), and whether predictive gains also improve adherence to the supplied coding rules under controlled changes to the codebook (RQ2).",
+ "data": "PLV: 1,033 annotated source-action-target examples (PLOVER ontology, 15 root labels), from Hu et al. (2024). AW (ACE/WikiEvents): 805 test examples, binary Cooperation/Conflict. Four open-weight LLMs (Gemma-2-9B, Qwen2.5-7B, Mistral-7B-Instruct, Llama-3.1-8B-Instruct); two API models (GPT-4o-mini, GPT-5.4-mini) for the behavioural probes only.",
+ "method": "Compared three levels of codebook content (label names only, Compact definitions, Enriched with examples, event-mode and boundary rules) plus in-context learning, chain-of-thought and retrieval-augmented prompting, and two earlier non-LLM or specialised baselines. Predictive performance measured by macro-F1 against gold labels. Behavioural reliability measured by three probes holding text and actor pair fixed: codebook order (Fleiss' kappa), label-name removal, and swapped label-definition mapping (weighted F1), plus a targeted swap of two adjacent category pairs. Bootstrap 95% intervals for per-model differences.",
+ "definitions": [
+  {
+   "term": "codebook-guided LLM coding (as a measurement task)",
+   "definition": "The supplied category definitions and decision rules determine the substantive meaning of the resulting variables.",
+   "quote": "Codebook-guided LLM coding is a measurement task. The supplied category definitions and decision rules determine the substantive meaning of the resulting variables",
+   "page": 1
+  },
+  {
+   "term": "codebook operationalization",
+   "definition": "Converting expert guidance into definitions, examples, event-mode instructions, boundary notes, disambiguation rules or retrieved context that an LLM can use.",
+   "quote": "We use codebook operationalization to mean converting expert guidance into LLM-usable definitions, examples, event-mode instructions, boundary notes, disambiguation rules, or retrieved context.",
+   "page": 3
+  },
+  {
+   "term": "Compact codebook",
+   "definition": "Label names with concise definitions, quad assignments and limited global guidance.",
+   "quote": "Compact adds concise definitions, quad assignments, and limited global guidance.",
+   "page": 3
+  },
+  {
+   "term": "Enriched codebook",
+   "definition": "The Compact definitions and labels plus examples, explicit event-mode guidance, boundary notes and category-specific disambiguation rules.",
+   "quote": "same definitions and labels while adding examples, explicit event-mode guidance, boundary notes, and category-specific disambiguation rules.",
+   "page": 4
+  },
+  {
+   "term": "event-code labels as operational categories",
+   "definition": "Labels are defined by coding rules, not by their everyday meaning.",
+   "quote": "Event-code labels are operational categories defined by coding rules",
+   "page": 5
+  }
+ ],
+ "proxies": [
+  {
+   "concept": "faithful use of the codebook (adherence to supplied rules)",
+   "indicator": "Whether predictions change correctly when the label-definition mapping is reassigned (swapped-definition probe, weighted F1 against remapped gold labels).",
+   "quote": "Second, predictions should update when the label– definition mapping changes.",
+   "page": 4
+  },
+  {
+   "concept": "reliance on label names rather than definitions",
+   "indicator": "Performance when meaningful label names are replaced by neutral identifiers such as LABEL_1 while definitions are unchanged.",
+   "quote": "Low performance indicates reliance on familiar label names rather than on the supplied definitions.",
+   "page": 4
+  },
+  {
+   "concept": "stability to presentation changes",
+   "indicator": "Fleiss' kappa across predictions under original, reversed and shuffled codebook order.",
+   "quote": "we use Fleiss’ κ to measure agreement across predictions",
+   "page": 5
+  },
+  {
+   "concept": "predictive performance",
+   "indicator": "Macro-F1 on held-out examples against gold labels; outputs that cannot be parsed count as incorrect.",
+   "quote": "Outputs that cannot be parsed into a valid label are counted as incorrect rather than discarded.",
+   "page": 5
+  }
+ ],
+ "findings": [
+  {
+   "claim": "Richer codebook content raised root-level macro-F1 (mean over four open-weight models) from 0.457 (label names only) to 0.574 (Compact) and 0.633 (Enriched).",
+   "quote": "mean root-level macro-F1 rises from 0.457 with Label Names Only to 0.574 with Compact and 0.633 with Enriched.",
+   "page": 6
+  },
+  {
+   "claim": "The gain was small at the binary level and largest at the finest (root) level, where boundary rules matter.",
+   "quote": "It is small at the binary level, larger at the quad level, and largest at the root level, where operational boundary guidance matters most.",
+   "page": 6
+  },
+  {
+   "claim": "A specialised hand-designed system (ZSP Tree) scored above every general-purpose LLM configuration (PLV root F1 0.824 vs 0.633 for Enriched).",
+   "quote": "the specialized ZSP Tree is the strongest system overall, above every general-purpose configuration.",
+   "page": 7
+  },
+  {
+   "claim": "With definitions available, performance stayed substantial when label names were removed, but under swapped definitions every method fell below 0.20 weighted F1.",
+   "quote": "Under the full swapped-definition condition, every method remains below 0.20 weighted F1, and models rarely follow the reassigned label–definition mapping.",
+   "page": 7
+  },
+  {
+   "claim": "Changing codebook order changed a sizeable share of predictions (about a quarter for Compact when reversed).",
+   "quote": "reversing the codebook still flips about a quarter of Compact predictions and a fifth of",
+   "page": 7
+  },
+  {
+   "claim": "In the targeted swap of adjacent categories, models kept the original label far more often than they followed the new mapping.",
+   "quote": "57.7% versus 13.2% under Compact and 51.5% versus 15.1% under Enriched.",
+   "page": 7
+  },
+  {
+   "claim": "The same pattern held for two API-based models: label-name-removed F1 stayed high and swapped-definition F1 stayed below 0.20.",
+   "quote": "Label-name-removed F1 remains high, while swapped-definition F1 stays below 0.20 in every configuration.",
+   "page": 7
+  },
+  {
+   "claim": "Authors' argument (not a tested finding): pipelines using LLMs as coders should report accuracy and codebook adherence separately; high accuracy is not evidence of faithful codebook use.",
+   "quote": "Pipelines that use LLMs as coders should therefore report both, and should not read a high accuracy as evidence of faithful codebook use.",
+   "page": 8
+  },
+  {
+   "claim": "Authors' statement: expert validation is still needed before model outputs are used as social-science data.",
+   "quote": "Expert validation remains necessary for downstream social-science use.",
+   "page": 8
+  }
+ ],
+ "limitations": [
+  {
+   "point": "One 15-label ontology (PLV) with only a binary cross-domain check; other codebooks, domains and label structures may behave differently.",
+   "stated_by_authors": true,
+   "quote": "We evaluate a single 15-label ontology on PLV, with AW as a binary cross-domain check",
+   "page": 8
+  },
+  {
+   "point": "The Enriched codebook bundles several additions, so their separate effects are not estimated.",
+   "stated_by_authors": true,
+   "quote": "Enriched bundles examples, event-mode guidance, boundary notes, and disambiguation rules, and the experiments estimate their combined effect.",
+   "page": 8
+  },
+  {
+   "point": "The full remapping probe uses a single fixed derangement and the targeted analysis covers two boundary pairs.",
+   "stated_by_authors": true,
+   "quote": "The full remapping probe uses one fixed derangement, and the targeted analysis covers two boundary pairs.",
+   "page": 8
+  },
+  {
+   "point": "Subject is political event coding of news text with small open-weight models (7-9B) plus two small API models; not classification of organisations, and no human-coder agreement study was run (gold labels come from the existing PLV dataset).",
+   "stated_by_authors": false,
+   "quote": null,
+   "page": null
+  },
+  {
+   "point": "The Qwen2.5 improvement of Enriched over Compact is borderline: its confidence interval lower bound is zero.",
+   "stated_by_authors": true,
+   "quote": "whereas the Qwen2.5 result is borderline because its lower confidence bound rounds to zero.",
+   "page": 11
+  },
+  {
+   "point": "Preprint, not peer reviewed; no instructions to a reader or AI found in the text.",
+   "stated_by_authors": false,
+   "quote": null,
+   "page": null
+  }
+ ],
+ "reference_lists_or_datasets": [
+  {"name": "PLV", "what_it_is": "1,033 PLOVER-based annotated source-action-target examples (Hu et al., 2024); primary benchmark.", "page": 5},
+  {"name": "AW (ACE/WikiEvents)", "what_it_is": "805-example binary Cooperation/Conflict cross-domain benchmark.", "page": 5},
+  {"name": "PLOVER / CAMEO", "what_it_is": "Expert-written event ontology and coding manual from which all prompt materials were derived.", "page": 6},
+  {"name": "Code and data", "what_it_is": "https://github.com/yibo-hu-lab/event-coding-reliability (prompts, probe templates, per-example outputs, evaluation scripts).", "page": 1}
+ ],
+ "relevant_to": ["method"],
+ "pages_read": "All 13 pages read in full (text, tables and references); figures not readable as text.",
+ "read_on": "2026-11-24",
+ "read_by": "source-reader, sonnet"
+}

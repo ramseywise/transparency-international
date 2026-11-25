@@ -1,0 +1,112 @@
+{
+  "id": "doi-10-1080-17583004-2019-1630243",
+  "citation": {
+    "authors": ["Gerardo Sanchez Martinez", "Jacob Ipsen Hansen", "Karen Holm Olsen", "Emmanuel Ackom", "James Haselip", "Olivier Bois von Kursk", "Maria Bekker-Nielsen Dunbar"],
+    "year": 2019,
+    "title": "Delegation size and equity in climate negotiations: An exploration of key issues",
+    "venue_or_publisher": "Carbon Management",
+    "doi_or_url": "https://doi.org/10.1080/17583004.2019.1630243",
+    "type": "Short commentary (the authors call it 'our commentary'). The file is the accepted (peer reviewed) version from the DTU Orbit repository, 13 pages with a repository cover sheet as page 1; its page numbers differ from the journal's.",
+    "peer_reviewed": "yes"
+  },
+  "question": "Whether the size of Party delegations at UN climate COPs, historically smaller for poorer countries, has changed since COP21 Paris, and what that could mean for equity in the negotiations.",
+  "data": "COP Lists of Participants from UNFCCC, 2000 to 2018 (described as 'the last 19 years'; Figures 1 and 2 cover 2000-2018). Delegation size is compared by World Bank income group and region; the 50 largest delegations are compared for 2000-2014 versus 2015-2018. Number of COPs and number of delegates are not stated beyond this.",
+  "method": "Descriptive comparison of average Party delegation size by World Bank income group and region over time, and of the income-group and regional share among the 50 largest delegations (host countries and the EU as a Party excluded). Figure 2 counts total COP participants by type of nominator (Parties and observer states; UN, specialised agencies and IGOs; NGOs; media). No statistical tests, no explanation of how a delegate is counted or which badge categories make up a 'delegation'.",
+  "definitions": [
+    {
+      "term": "income group (used to classify countries)",
+      "definition": "World Bank income group classification: High, Upper Middle, Lower Middle and Low Income Countries.",
+      "quote": "1 We used the World Bank Income Group classification (WB, 2018)",
+      "page": 4
+    },
+    {
+      "term": "delegation size (what is excluded from the top-50 ranking)",
+      "definition": "Host countries and the EU as a Party are excluded from the ranking of the 50 largest delegations; the EU is treated as a Party independent of its member states.",
+      "quote": "The European Union is a party independent of its member states; if it were included, its delegation would rank sixth in terms of size in the last four COPs.",
+      "page": 5
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "delegation size",
+      "indicator": "Number of delegates per Party taken from the UNFCCC COP Lists of Participants, averaged by World Bank income group (Figure 1: 'Average UNFCCC CoP party delegation size by World Bank income group (2000-2018)'). The text does not say which badge types are counted.",
+      "quote": "COP Lists of Participants over the last 19 years obtained from UNFCCC demonstrate a change in delegation sizes by country income group.",
+      "page": 5
+    },
+    {
+      "concept": "who attends a COP, by type of body that nominated them",
+      "indicator": "Figure 2 splits total COP participants by type of nominator: Parties and observer states; UN, specialised agencies and IGOs; NGOs; media. No business or industry category appears in the figure labels.",
+      "quote": "Figure 2 Total COP participants by type of nominator (2000-2018)",
+      "page": 12
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Among the 50 largest delegations (host countries and EU excluded), the share from Low Income Countries rose from 8% to 22% and from Lower Middle Income Countries from 18% to 30% between 2000-2014 and 2015-2018.",
+      "quote": "from 8% to 22% for LICs, and from 18% to 30% for LMICs",
+      "page": 5
+    },
+    {
+      "claim": "Average delegation size grew about 320% for Sub-Saharan African countries, against 118% for other regions, comparing 2015-2018 with 2000-2014.",
+      "quote": "The average size of delegation has increased among SSA countries more than for any other region (around 320%, compared with an average increase of 118% in the other regions)",
+      "page": 6
+    },
+    {
+      "claim": "Up to COP15 (2009), NGO participation was close to or above the number of Party delegates; afterwards it stayed well below it.",
+      "quote": "the participation of NGOs was close to, or even higher than, the count of party delegates for most COPs",
+      "page": 8
+    },
+    {
+      "claim": "The authors cannot exclude that NGO-nominated people account for part of the rise in delegation size, because the composition of delegations was not studied.",
+      "quote": "Therefore, the possibility that NGOs may account for a proportion of the delegation size increase cannot be excluded, pending more research into the composition of delegations.",
+      "page": 8
+    },
+    {
+      "claim": "The authors raise, as a risk and without data, that larger delegations of weak states could be captured by lobby groups and industry interests.",
+      "quote": "the increased delegation size of weak states also represents a risk of poor governance, such as capture by strong lobby groups and industry interests.",
+      "page": 9
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Composition of delegations (who is in a delegation besides government officials, for example NGO-linked people) is not analysed; the authors call for research on it. Business or industry delegates are not counted or classified.",
+      "stated_by_authors": true,
+      "quote": "pending more research into the composition of delegations.",
+      "page": 8
+    },
+    {
+      "point": "Causes of the rise in delegation size are unknown.",
+      "stated_by_authors": true,
+      "quote": "While we do not know the drivers behind this increase, the trend could contribute to greater equity in the negotiations",
+      "page": 2
+    },
+    {
+      "point": "No evidence on whether delegation size affects negotiation outcomes.",
+      "stated_by_authors": true,
+      "quote": "There appears to be a lack of knowledge and conclusive, explanatory information on the cause-effect relationship between delegation size on the COP outcomes.",
+      "page": 9
+    },
+    {
+      "point": "The text does not say which badge categories count towards a Party delegation, how names were cleaned, or how many COPs and delegates were counted (not stated). The figures are described only in captions 'based on UNFCCC data'. No instructions addressed to a reader or an AI were found in the file.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC COP Lists of Participants, 2000-2018",
+      "what_it_is": "The public participant lists from each COP, used for all delegation counts (the 'last 19 years').",
+      "page": 5
+    },
+    {
+      "name": "World Bank country income groups (WB, 2018)",
+      "what_it_is": "Country classification into High, Upper Middle, Lower Middle and Low Income used to group delegations.",
+      "page": 4
+    }
+  ],
+  "relevant_to": ["Q1", "method"],
+  "pages_read": "1-13 (all)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

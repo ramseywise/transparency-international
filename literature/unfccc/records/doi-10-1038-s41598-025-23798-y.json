@@ -1,0 +1,198 @@
+{
+ "id": "doi-10-1038-s41598-025-23798-y",
+ "citation": {
+  "authors": ["Bermejo, V.J.", "Gago, A.", "Gálvez, R.H.", "Harari, N."],
+  "year": 2025,
+  "title": "LLMs outperform outsourced human coders on complex textual analysis",
+  "venue_or_publisher": "Scientific Reports",
+  "doi_or_url": "https://doi.org/10.1038/s41598-025-23798-y",
+  "type": "journal article",
+  "peer_reviewed": "yes"
+ },
+ "question": "Whether generative large language models, used zero-shot, can replace outsourced human coders in reproducing expert (gold standard) annotations of Spanish news articles on five text-analysis tasks.",
+ "data": "210 Spanish-language news articles randomly sampled from a corpus of 24,134 articles (Factiva, 2011-2013) on Spanish municipalities and the Supplier Payment Program; average length 508 words. Gold standard by expert coders. LLM runs: 1,680 API calls (210 articles x 4 models x 2 calls), April-July 2024, plus August 2025 re-runs for two models. Human coders: 146 ESADE students (each read 3 articles, two responses per article, 420 responses per method).",
+ "method": "Five tasks: T1 list municipalities (named-entity recognition), T2 count them, T3 is municipal management criticised (yes/no), T4 source of criticism, T5 target of criticism (single label from a fixed list). Four models (GPT-3.5-turbo, GPT-4-turbo, Claude 3 Opus, Claude 3.5 Sonnet), zero-shot, temperature 0, two calls per article. Gold standard made by authors in a multi-step review with consensus on disagreements. Metrics: macro F1 (T1), mean absolute error (T2), accuracy (T3-T5; for T4/T5 a lenient rule counting any matching gold label as correct; 'unsure' counted as wrong). Also exact-match agreement against 70% threshold, permutation test for humans against chance, subgroup analysis by difficulty and length, prompt-sensitivity test, test-retest consistency, and a check for political bias in errors.",
+ "definitions": [
+  {
+   "term": "gold standard labels",
+   "definition": "Labels produced by highly skilled coders, built by author consensus, a first full coding by one author and independent second review.",
+   "quote": "we define these gold standard labels as those produced by highly skilled coders",
+   "page": "High-skill coders (gold standard labels)"
+  },
+  {
+   "term": "difficult article/task",
+   "definition": "A task in an article is difficult if at least two authors initially disagreed on the correct answer while the gold standard was made.",
+   "quote": "a task in a given article is classified as difficult if at least two authors initially disagreed on the correct answer",
+   "page": "Task difficulty"
+  },
+  {
+   "term": "long article",
+   "definition": "Word count above the 90th percentile of the 210-article sample.",
+   "quote": "We define an article as “long” if its word count (as provided by Factiva) is larger than the \\(90^{th}\\) percentile",
+   "page": "Text length"
+  },
+  {
+   "term": "zero-shot learning",
+   "definition": "A model performing a task it has received no explicit training for, relying on broad pre-trained knowledge rather than task-specific examples.",
+   "quote": "zero-shot learning refers to a model’s ability to perform tasks for which it has received no explicit training",
+   "page": "Introduction"
+  },
+  {
+   "term": "outsourced human coders",
+   "definition": "Less specialised annotators, often recruited by crowdsourcing; here university students paid in course credit.",
+   "quote": "outsource coding tasks to a large number of less specialized annotators, often through crowdsourcing",
+   "page": "Introduction"
+  },
+  {
+   "term": "internal consistency",
+   "definition": "Treating the second response as the true label and scoring the first response against it, for each article and task.",
+   "quote": "we treat the second response as the true label and compute the performance metrics described in Section \"Performance metrics\", using the first response as the prediction",
+   "page": "Internal consistency"
+  }
+ ],
+ "proxies": [
+  {
+   "concept": "quality of a classifier (LLM or human)",
+   "indicator": "Agreement with expert gold standard labels: F1, MAE, accuracy, and exact-match rate against the 70% inter-coder agreement benchmark.",
+   "quote": "applying the 70% benchmark commonly cited in the inter-coder agreement literature56, we find that outsourced human coders fall short of this threshold",
+   "page": "Overall performance"
+  },
+  {
+   "concept": "reliability of the gold standard",
+   "indicator": "Percentage of exact matches between second tagger and initial tagging.",
+   "quote": "Inter-coder agreement—measured as the percentage of exact matches between the second tagger and the initial tagging—was consistently high across all tasks",
+   "page": "High-skill coders (gold standard labels)"
+  },
+  {
+   "concept": "competence of human coders (not just poor effort)",
+   "indicator": "Permutation test against chance (2,000 permutations), order-of-article fatigue analysis, and re-analysis restricted to above-median coders.",
+   "quote": "the predicted values are permuted 2,000 times and the metric is computed for each permutation, generating a null distribution",
+   "page": "Outsourced coders’ competence and task performance"
+  },
+  {
+   "concept": "consistency of an LLM",
+   "indicator": "Two independent API calls per article at temperature 0; agreement between the two; plus comparison across model versions over time.",
+   "quote": "we issued two independent API calls per news article",
+   "page": "LLMs as coders"
+  },
+  {
+   "concept": "'unsure' answers",
+   "indicator": "Code 99 for LLMs, counted as incorrect; unsure was never used in the gold standard.",
+   "quote": "counting all “unsure” responses as incorrect",
+   "page": "Performance metrics"
+  }
+ ],
+ "findings": [
+  {
+   "claim": "All four LLMs outperformed outsourced human coders on every task; Claude 3.5 Sonnet scored highest, often only marginally above GPT-4-turbo.",
+   "quote": "First, all LLMs outperform outsourced coders across all tasks.",
+   "page": "Overall performance"
+  },
+  {
+   "claim": "By exact match against the gold standard (tasks T1-T3), humans fell below 70%, while GPT-4 and Claude 3.5 Sonnet met or exceeded it, approaching expert-to-expert agreement.",
+   "quote": "the most advanced models from OpenAI (GPT-4) and Anthropic (Claude 3.5 Sonnet) meet or exceed it",
+   "page": "Overall performance"
+  },
+  {
+   "claim": "Advanced LLMs also beat the above-median human coders; GPT-3.5-turbo was comparable to them.",
+   "quote": "their performance remained consistently below that of more advanced LLMs",
+   "page": "Analysis of high-performing outsourced human coders"
+  },
+  {
+   "claim": "Performance of all coders fell on difficult articles and long articles, but the better LLMs did better on difficult articles than humans did on easier ones.",
+   "quote": "more advanced models, such as Claude 3.5 Sonnet and GPT-4-turbo, generally perform better on the difficult tasks than outsourced human coders do on the easier ones",
+   "page": "Task difficulty"
+  },
+  {
+   "claim": "Adding instructions, clarifying notes and examples to the prompt gave no systematic improvement over zero-shot (tested on GPT-3.5-turbo and GPT-4-turbo only; authors call this preliminary).",
+   "quote": "this enriched prompt design produces no systematic improvement in performance, even for long or difficult articles",
+   "page": "Prompt sensitivity"
+  },
+  {
+   "claim": "LLM consistency across repeated calls was high but not perfect and higher than humans'; a model's outputs shifted between dates and updates did not steadily improve results.",
+   "quote": "we find no evidence that within-model updates lead to steady improvements over time",
+   "page": "Internal consistency"
+  },
+  {
+   "claim": "Cost and speed: the full set of responses came back within minutes for a few US dollars per model.",
+   "quote": "We spent US$0.20 to obtain all answers from GPT-3.5 (April 2024), US$3.46 from GPT-4 (April 2024)",
+   "page": "LLMs as coders"
+  },
+  {
+   "claim": "Agreement among the expert coders themselves was 83.8% for T1, 81.9% for T2, 91.4% for T3, 84.3% for T4 and T5 (72.7% for T4/T5 where criticism was present).",
+   "quote": "83.8% for T1, 81.9% for T2, 91.4% for T3, and 84.3% for both T4 and T5",
+   "page": "High-skill coders (gold standard labels)"
+  }
+ ],
+ "limitations": [
+  {
+   "point": "T4 and T5 were multi-label tasks simplified to a single label with a lenient scoring rule, which likely inflates performance for both LLMs and humans.",
+   "stated_by_authors": true,
+   "quote": "we adopted a lenient evaluation rule that counted any overlap with the gold standard as correct",
+   "page": "Limitations and future work"
+  },
+  {
+   "point": "Reproducibility: identical prompts can give different outputs across runs or after provider-side model updates; authors call for tracking model versions and decoding parameters and for periodic re-evaluation.",
+   "stated_by_authors": true,
+   "quote": "identical prompts can yield different outputs across runs or following provider-side model updates",
+   "page": "Limitations and future work"
+  },
+  {
+   "point": "No comparison with supervised models (fine-tuned BERT-type); relative performance is task, language and domain dependent.",
+   "stated_by_authors": true,
+   "quote": "it does not benchmark against state-of-the-art SML models",
+   "page": "Limitations and future work"
+  },
+  {
+   "point": "Human comparison group was university students, not professional annotators or domain experts; hybrid human-LLM workflows were not tested.",
+   "stated_by_authors": true,
+   "quote": "While this sample may not fully represent professional annotators such as policy researchers, journalists, or domain-trained crowd workers",
+   "page": "Outsourced human coders"
+  },
+  {
+   "point": "LLMs carry reliability risks, especially hallucinations (confident but wrong output) on fine-grained, context-sensitive tasks, and opaque reasoning; only a preliminary check for political bias in errors was done (in an appendix, not read).",
+   "stated_by_authors": true,
+   "quote": "most notably hallucinations (confident but incorrect outputs)",
+   "page": "Limitations and future work"
+  },
+  {
+   "point": "Gold standard was made by the authors themselves, with one author coding all 210 articles first and the reviewer seeing the initial label (not blind); the gold standard is therefore not fully independent of the study team.",
+   "stated_by_authors": false,
+   "quote": "each article—along with its initial annotations—was independently reviewed either by a trained research assistant (RA) or by a second author",
+   "page": "High-skill coders (gold standard labels)"
+  },
+  {
+   "point": "Task is classifying text of news articles, not organisations; sample is small (210 articles, about 1% of the source corpus), Spanish only, one topic. Transfer to organisation classification is not tested.",
+   "stated_by_authors": false,
+   "quote": "Our final sample represents approximately 1% of the articles considered in19",
+   "page": "News articles sample"
+  },
+  {
+   "point": "Data available only on request; appendices and supplementary tables (Tables C and D, Appendices A-B) are not in the extracted text, so exact scores were not readable. Figures are images; numeric values were not available.",
+   "stated_by_authors": false,
+   "quote": "The datasets used and/or analysed during the current study available from the corresponding author on reasonable request.",
+   "page": "Data availability"
+  }
+ ],
+ "reference_lists_or_datasets": [
+  {
+   "name": "Corpus of 24,134 Spanish news articles (Bermejo, Gago, Abad and Carozzi, 2023, ref. 19)",
+   "what_it_is": "Factiva articles in Spanish or Catalan, 2011-2013, on municipalities and the Supplier Payment Program, from which the 210-article sample was drawn.",
+   "page": "News articles sample"
+  },
+  {
+   "name": "Table 1: overview of studies benchmarking LLMs against human annotators",
+   "what_it_is": "Comparison table of related studies; contents of the table are not in the extracted text.",
+   "page": "Related work"
+  },
+  {
+   "name": "Released annotated corpus (five tasks, Spanish)",
+   "what_it_is": "The authors say they release the annotated corpus; the data availability statement says data are available on reasonable request.",
+   "page": "Limitations and future work"
+  }
+ ],
+ "relevant_to": ["method"],
+ "pages_read": "Whole article text read (all sections from Abstract to Data availability and change history). Reference list only skimmed (first entries). Table 1, Table 2, figures and appendices were not in the extracted text.",
+ "read_on": "2026-11-24",
+ "read_by": "source-reader, sonnet"
+}

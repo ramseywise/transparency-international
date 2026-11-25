@@ -1,0 +1,144 @@
+{
+  "id": "corporateeurope-funding-climate-deniers",
+  "citation": {
+    "authors": [
+      "Corporate Europe Observatory"
+    ],
+    "year": 2010,
+    "title": "Concealing their sources - who funds Europe's climate change deniers?",
+    "venue_or_publisher": "Corporate Europe Observatory (NGO briefing)",
+    "doi_or_url": "https://corporateeurope.org/sites/default/files/sites/default/files/files/article/funding_climate_deniers.pdf",
+    "type": "NGO report (December 2010)",
+    "peer_reviewed": "no"
+  },
+  "question": "Who funds the European think tanks that promote climate change denial, and how transparent are they and the companies that may fund them?",
+  "data": "Eight European think tanks (IEA, IPN, GWPF, CFACT Europe, Instituto Juan de Mariana, CEPOS, Institut Economique Molinari, Hayek Institute), contacted by CEO in autumn 2010. Eleven companies were also contacted: the EU's eight largest emitters (ArcelorMittal, BASF, Bayer, BP, E.ON, GDF Suez, Lafarge, Solvay) plus Repsol, Shell and Total. The report also draws on the EU lobby register, ExxonSecrets, SourceWatch and Greenpeace's Koch report. Sample size is small and the period is 2010.",
+  "method": "Email and phone requests for climate-related funding disclosure, sent to the think tanks and then to the companies. The replies were compared with the EU lobby transparency register and with secondary databases (ExxonSecrets, SourceWatch, Greenpeace Koch research). This is a case-based, qualitative approach with no systematic classification scheme.",
+  "definitions": [
+    {
+      "term": "climate change denial",
+      "definition": "Organised attempts to downplay, deny or dismiss the scientific consensus on global warming, used here for commercial or ideological reasons (the source quotes another author's definition).",
+      "quote": "organized attempts to downplay, deny or dismiss the scientific consensus on the extent of global warming, its significance, and its connection to human behavior, especially for commercial or ideological reasons",
+      "page": 1
+    },
+    {
+      "term": "Koch Industries",
+      "definition": "Described as a conglomerate dominated by oil and chemical interests.",
+      "quote": "Koch Industries is a conglomerate dominated by oil and chemical interests.",
+      "page": 1
+    },
+    {
+      "term": "trade association versus think tank",
+      "definition": "Total argues Brussels trade associations (OGP, Europia, Eurogas, Cefic) are not think tanks. CEO replies that trade associations and think tanks such as the ERT and WBCSD do work actively on climate policy.",
+      "quote": "trade associations and think tanks such as the ERT or the WBCSD (which receive most funding from the corporations surveyed) do actively work on climate policy.",
+      "page": 9
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "corporate influence on climate policy (fossil-linked funding)",
+      "indicator": "Company self-disclosure of funding or membership payments to think tanks and business groups, checked against the lobby register",
+      "quote": "We asked the EU's eight largest emitters (ArcelorMittal, BASF, Bayer, BP, E.ON, GDF Suez, Lafarge and Solvay) and three other oil companies (Repsol, Shell and Total)",
+      "page": 2
+    },
+    {
+      "concept": "fossil industry funding of denial groups",
+      "indicator": "Grants traced through ExxonSecrets and Greenpeace Koch research (for example ExxonMobil gave the IPN close to $400,000 in 2003-2006; Koch foundations gave $24.9m in 2005-2008)",
+      "quote": "from 2005 to 2008, ExxonMobil spent $8.9 million and the Koch Industries controlled foundations contributed $24.9 million",
+      "page": 1
+    },
+    {
+      "concept": "business lobbying on climate",
+      "indicator": "Membership of or funding for trade associations and business groups (CEFIC, Europia, ERT, BusinessEurope, WBCSD, IETA)",
+      "quote": "CEFIC, Europia, the ERT and others such as BusinessEurope are leading the corporate war against higher CO2 emissions reductions targets",
+      "page": 9
+    },
+    {
+      "concept": "lobbying actor",
+      "indicator": "Entry in the voluntary EU lobby transparency register",
+      "quote": "None of the think tanks surveyed are registered. Of the corporations, only E.ON and Repsol are not registered.",
+      "page": 9
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Of the 11 companies asked, only BP admitted funding one of the eight think tanks (the IEA). Several other companies said they funded mainstream think tanks and business groups.",
+      "quote": "only one of the 11, the oil giant BP, admits to financially supporting one of the eight think tanks, the UK Institute for Economic Affairs (IEA).",
+      "page": 2
+    },
+    {
+      "claim": "The EU lobby register is voluntary and incomplete. Fewer than 40 per cent of Brussels-based lobby groups were registered, and think tanks need not disclose their funders.",
+      "quote": "the data in the register is incomplete, with less than 40 per cent of Brussels-based lobby groups registered.",
+      "page": 2
+    },
+    {
+      "claim": "Koch-controlled foundations out-spent ExxonMobil in funding climate denial groups (2005-2008), according to a Greenpeace report cited by CEO.",
+      "quote": "this little known private company had out-spent ExxonMobil in funding climate change deniers",
+      "page": 1
+    },
+    {
+      "claim": "The think tanks gave little or no information on their funding. The disclosures that companies made were partial because third-party payments are not itemised in the register.",
+      "quote": "even in the cases where the corporations are claiming to be open, the information is very partial.",
+      "page": 9
+    },
+    {
+      "claim": "The German steel industry, an opponent of EU CO2 restrictions, was represented at the CFACT-organised Berlin sceptic conference held alongside the Cancun climate talks.",
+      "quote": "The German steel industry, a strong opponent of the EU restrictions on CO2 emissions was represented at the conference",
+      "page": 5
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The sample of think tanks is not exhaustive: it is a snapshot of eight groups.",
+      "stated_by_authors": true,
+      "quote": "This group is not exhaustive, but gives a snapshot of climate deniers active in Europe",
+      "page": 2
+    },
+    {
+      "point": "The funding evidence rests on voluntary self-reports and the register, which is unreliable and omits third-party recipients.",
+      "stated_by_authors": true,
+      "quote": "The register is voluntary and the information disclosed is often unreliable.",
+      "page": 2
+    },
+    {
+      "point": "Only 31 of 47 passages (pages 1-11) were read. The report is advocacy research (NGO, not peer-reviewed), is not about UNFCCC delegations, and is from 2010.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "ExxonSecrets (Greenpeace)",
+      "what_it_is": "Database of ExxonMobil funding to think tanks and individuals, cited in the footnotes",
+      "page": 10
+    },
+    {
+      "name": "SourceWatch / DeSmogBlog",
+      "what_it_is": "Wiki and blog profiles of organisations, cited in the footnotes",
+      "page": 10
+    },
+    {
+      "name": "EU lobby transparency register (European Commission)",
+      "what_it_is": "Voluntary register of lobbyists, which includes think tanks. It is assessed here and found incomplete.",
+      "page": 2
+    },
+    {
+      "name": "Greenpeace USA, Koch Industries: Secretly Funding the Climate Denial Machine (March 2010)",
+      "what_it_is": "Report on Koch foundation grants to climate-denial organisations",
+      "page": 10
+    },
+    {
+      "name": "CAN-Europe, Think globally, sabotage locally (October 2010)",
+      "what_it_is": "Report on European companies funding US anti-climate-legislation voices",
+      "page": 10
+    }
+  ],
+  "relevant_to": [
+    "context",
+    "method"
+  ],
+  "pages_read": "selected by code: 31 of 47 passages, 3999 of 6731 words, from pages 1-11 of 11; chosen for definitions, indicators, method, findings and limitations; the rest was not read. No additional searching of the full text.",
+  "read_on": "2026-11-25",
+  "read_by": "source-reader, sonnet"
+}

@@ -1,0 +1,218 @@
+{
+  "id": "doi-10-1002-wcc-497",
+  "citation": {
+    "authors": [
+      "Jonathan W. Kuyper",
+      "Bjorn-Ola Linner",
+      "Heike Schroeder"
+    ],
+    "year": null,
+    "title": "Non-state actors in hybrid global climate governance: Justice, Legitimacy, and Effectiveness in a post-Paris era",
+    "venue_or_publisher": "WIREs Climate Change (Advanced Review); the PDF is a manuscript version and the journal name appears only in the acknowledgment and references",
+    "doi_or_url": "10.1002/wcc.497 (taken from the source id; not printed in the PDF)",
+    "type": "Advanced review article (literature review)",
+    "peer_reviewed": "yes"
+  },
+  "question": "What roles non-state actors play within the UNFCCC and wider climate governance before and after the Paris Agreement, and how they affect the justice, legitimacy and effectiveness of the Agreement under what the authors call hybrid multilateralism.",
+  "data": "No original dataset. A narrative literature review (the authors call it a 'meta-review' of post-Paris literature) of pre- and post-Paris scholarship; sources cited from 2017 or earlier. Delegation figures are quoted from other studies (COP17 2011) and the COP21 list of participants.",
+  "method": "Conceptual and literature-based. Organised around three criteria (justice, legitimacy, effectiveness), each split into three dimensions. No classification or counting method of its own.",
+  "definitions": [
+    {
+      "term": "Non-state actors",
+      "definition": "Broad set including NGOs (non-governmental organizations), business groups, think tanks, trade unions, private governance arrangements, transnational networks and sub-state authorities. A footnote says it also covers civil society, business, research groups and sub-state authorities, matching the UNFCCC term non-party stakeholders.",
+      "quote": "business groups, think tanks, trade unions, private governance arrangements, transnational networks, and sub-state authorities",
+      "page": 2
+    },
+    {
+      "term": "Party delegation (composition)",
+      "definition": "No formal rule on size or makeup; practice varies.",
+      "quote": "There is no formal rule as to the size or makeup of a party delegation.",
+      "page": 5
+    },
+    {
+      "term": "Constituency groups for accreditation of observer NGOs",
+      "definition": "Observer NGOs not on a party delegation must be accredited and join one of nine constituencies, including business and industry NGOs (BINGO), environmental NGOs, local government, research/independent NGOs, trade unions, women and gender, youth, farmers.",
+      "quote": "the business and industry NGOs (BINGO) and environmental NGOs (ENGO)",
+      "page": 6
+    },
+    {
+      "term": "Accreditation (observer access)",
+      "definition": "Non-state actors not on a party delegation need UNFCCC accreditation to attend COPs and intersessionals.",
+      "quote": "To attend the COPs and Intersessionals, non-state actors – if not on a party delegation – must be accredited with the UNFCCC.",
+      "page": 6
+    },
+    {
+      "term": "Hybrid multilateralism",
+      "definition": "Architecture of the Paris Agreement combining state-led action (NDCs) with UNFCCC orchestration of non-state action.",
+      "quote": "an architecture that we call ‘hybrid multilateralism’ that splices together state and non-state actors.",
+      "page": 2
+    },
+    {
+      "term": "Orchestration",
+      "definition": "Attempts by multilateral actors to steer other state and non-state actors through soft power, rather than regulation.",
+      "quote": "attempts by multilateral actors to steer the efforts of other state and non-state actors",
+      "page": 3
+    },
+    {
+      "term": "Effectiveness of an international agreement",
+      "definition": "Function of ambition and stringency of commitments, participation, and compliance.",
+      "quote": "Effectiveness of an international agreement can be defined as the function of the ambition and stringency of Parties’ commitments",
+      "page": 19
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Business interests present at the COPs (observer side)",
+      "indicator": "Accreditation under the business and industry NGO constituency (BINGO)",
+      "quote": "When gaining accreditation, NGOs are asked to join one of nine existing constituency groups.",
+      "page": 6
+    },
+    {
+      "concept": "Non-state / business presence inside Party delegations",
+      "indicator": "Share of delegations including at least one non-state representative, and share of delegation members who are non-state (figure from a cited study of COP17; how non-state members were identified is not described here)",
+      "quote": "some 70 percent of delegations included at least one non-state actor representative and 18 percent of delegations were non-state representatives.",
+      "page": 5
+    },
+    {
+      "concept": "Business presence in a delegation (example)",
+      "indicator": "Country example only: large representations from business associations, Brazil. No coding rule given.",
+      "quote": "some countries sending particularly large representations from business associations (Brazil)",
+      "page": 5
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Party delegations have no formal size or composition rules; size ranges from a handful to over a thousand members.",
+      "quote": "Delegation size has ranged from under a handful (e.g. some African countries) to over a thousand members (e.g. Brazil, US).",
+      "page": 5
+    },
+    {
+      "claim": "Delegation composition differs by country; some bring many business association members (Brazil).",
+      "quote": "some countries sending particularly large representations from business associations (Brazil)",
+      "page": 5
+    },
+    {
+      "claim": "Non-state members in developing-country delegations have increased.",
+      "quote": "There is also a noteworthy increase in the number of non-state members in developing country delegations in the past decade or so (e.g. Gabon and Guyana).",
+      "page": 5
+    },
+    {
+      "claim": "At COP17 (2011) most delegations included at least one non-state representative (figure from a cited study).",
+      "quote": "some 70 percent of delegations included at least one non-state actor representative and 18 percent of delegations were non-state representatives.",
+      "page": 5
+    },
+    {
+      "claim": "States can use non-state actors, including lobbyists, to advance their own preferences.",
+      "quote": "States can actively use lobbying non-state actors to strengthen their own policy preferences.",
+      "page": 6
+    },
+    {
+      "claim": "COP21 observer scale: 1109 NGOs with over 8000 participants; about one third of 30,000 attendees were NGO or media observers.",
+      "quote": "At the Paris climate negotiations, 1109 NGOs descended on Le Bourget bringing over 8000 individual participants.",
+      "page": 6
+    },
+    {
+      "claim": "Non-Party participants outnumbered Party delegates already at COP3 (Kyoto).",
+      "quote": "Already at COP3, non-Party participants outnumbered Party delegates.",
+      "page": 7
+    },
+    {
+      "claim": "States control access to meetings and can close them.",
+      "quote": "States hold the right to close the door to meetings at the COP.",
+      "page": 5
+    },
+    {
+      "claim": "There is little systematic research on outcomes of non-state contributions.",
+      "quote": "However, there is little systematic research on the outcome performance of organized non- state and subnational contributions to international efforts",
+      "page": 22
+    }
+  ],
+  "recommendations": [
+    {
+      "claim": "Scholars and practitioners should preserve space for authentic deliberation and participation by non-state actors under orchestration.",
+      "quote": "both scholars and practitioners should bear in mind the importance of maintaining space for authentic deliberation and participation by non-state actors.",
+      "page": 16
+    },
+    {
+      "claim": "The legitimacy of representational claims by non-state actors needs scrutiny.",
+      "quote": "the legitimacy of representational claims need to be scrutinized.",
+      "page": 17
+    },
+    {
+      "claim": "Orchestrators should set up portals with comparable information to avoid double counting; targets should live up to commitments.",
+      "quote": "This should entail accountability of both the orchestrator",
+      "page": 18
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The post-Paris literature on these topics is unsystematic and thin.",
+      "stated_by_authors": true,
+      "quote": "These are important topics that the post-Paris literature has begun assessing, albeit unsystematically.",
+      "page": 12
+    },
+    {
+      "point": "No existing climate study takes a constructivist view of representation seriously, a gap for assessing non-state actors.",
+      "stated_by_authors": true,
+      "quote": "we know of no study that takes this constructivist view of representation seriously.",
+      "page": 17
+    },
+    {
+      "point": "Unclear how non-state contributions will be assessed and which metrics used.",
+      "stated_by_authors": true,
+      "quote": "how progress shall be assessed – in particular in relation to the vast flora of non-state contributions – remains a challenge.",
+      "page": 20
+    },
+    {
+      "point": "Not stated by authors: no count of business delegates, no sector breakdown, no fossil fuel analysis, no definition of business or fossil-linked. Delegation figures are old (COP17, 2011; COP21, 2015) and second-hand.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "Not stated by authors: the PDF is an author manuscript (template text on page 1, unresolved placeholder in a reference), so the final published wording and pagination may differ.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "No instructions to a reader or AI were found in the document.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC COP21 list of participants (UNFCCC/CP/2015/INF.3)",
+      "what_it_is": "Official participant list cited for NGO and attendee counts at Paris",
+      "page": 25
+    },
+    {
+      "name": "Bohmelt, Koubi, Bernauer 2013, Eur J Polit Res 53(1)",
+      "what_it_is": "Study cited for COP17 delegation shares of non-state members (footnote 28)",
+      "page": 25
+    },
+    {
+      "name": "Schroeder, Boykoff, Spiers 2012, Nat Clim Change",
+      "what_it_is": "Cited on delegation makeup and non-state members in developing-country delegations (footnote 27)",
+      "page": 25
+    },
+    {
+      "name": "Nasiritousi and Linner 2016, Int Environ Agreements 16(1)",
+      "what_it_is": "Open or closed meetings; non-state involvement in negotiations (footnote 31)",
+      "page": 25
+    },
+    {
+      "name": "Reference list, footnotes 1-114+",
+      "what_it_is": "Full footnote reference list, pages 23-30",
+      "page": 23
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "1-30 (all 30 pages; text extracted with pypdf into the scratchpad because the PDF page renderer was unavailable; footnotes and reference list on pages 23-30 included)",
+  "read_on": "2026-11-24",
+  "read_by": "2026-11-24 general-purpose agent (sonnet) following source-reader instructions; PDF text extracted (pdftoppm missing), page numbers are PDF page indices"
+}

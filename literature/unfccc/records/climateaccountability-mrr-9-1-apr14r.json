@@ -1,0 +1,151 @@
+{
+  "id": "climateaccountability-mrr-9-1-apr14r",
+  "citation": {
+    "authors": [
+      "Richard Heede"
+    ],
+    "year": 2014,
+    "title": "Carbon Majors: Accounting for carbon and methane emissions 1854-2010. Methods & Results Report",
+    "venue_or_publisher": "Climate Mitigation Services (commissioned by Climate Justice Programme Sydney and Greenpeace International); hosted at climateaccountability.org",
+    "doi_or_url": "https://climateaccountability.org/wp-content/uploads/2020/12/MRR-9.1-Apr14R.pdf",
+    "type": "technical methods and results report (grey literature)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "Trace the cumulative CO2 and methane emissions since the industrial revolution to the largest producers of crude oil, natural gas, coal and cement (90 entities).",
+  "data": "Company and state entity production data from annual reports, SEC filings, ministry bulletins, and EIA, IEA and UN Statistics Division data. Earliest data is 1854, through 2010. 90 entities (investor-owned, state-owned, nation-state producers).",
+  "method": "Identify fossil fuel and cement producers at or above a threshold. Gather each entity's net production from public sources. Estimate carbon content per fuel. Subtract non-energy uses. Apply emission factors, including flaring, venting and methane factors, for each entity and year. Fill gaps in production data by interpolation. Attribute earlier production of acquired companies to the acquirer. Cement counts process (calcination) emissions only, for six companies. The study states a +/-10 percent uncertainty.",
+  "definitions": [
+    {
+      "term": "Inclusion threshold for a fossil fuel producing entity",
+      "definition": "An entity is included if it produced at or above 8 million tonnes of carbon in a recent year; some exceptions apply.",
+      "quote": "A threshold for inclusion in this study was set at the production of ≥8 million tonnes of carbon (MtC) in a recent year.",
+      "page": 9
+    },
+    {
+      "term": "Process emissions (cement)",
+      "definition": "Only CO2 from calcination of limestone; excludes electricity and fuel inputs.",
+      "quote": "This study uses the term “process emissions” to include only the CO2 emitted from the calcination of limestone in cement production",
+      "page": 94
+    },
+    {
+      "term": "Carbon Majors (scope)",
+      "definition": "An identified set of 90 of the largest producers of crude oil and NGLs, natural gas, coal and cement.",
+      "quote": "an identified set of 90 of the world’s largest producers of crude oil and NGLs, natural gas, coal, and cement.",
+      "page": 35
+    },
+    {
+      "term": "Coal rank categories",
+      "definition": "Coal is categorised by generic rank, where company data allows, e.g. thermal/steam, metallurgical/coking, hard coal.",
+      "quote": "the ranking is typically generic categories such as “thermal” or “steam” and “metallurgical” or “coking” coal, or “hard coal;”",
+      "page": 88
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Entity being a major fossil fuel producer",
+      "indicator": "Annual production of at least 8 MtC, using company-reported net production of oil/NGL, gas, coal; cement producers via WBCSD CSI data",
+      "quote": "Identify the fossil fuel and cement production entities meeting the ≥8 MtC/year threshold;",
+      "page": 55
+    },
+    {
+      "concept": "Entity ownership types covered",
+      "indicator": "Investor-owned multinationals and state-owned/national oil companies, with national oil company share of country production shown",
+      "quote": "the largest multinational and state-­‐owned producers of crude oil, natural gas, coal, and cement.",
+      "page": 5
+    },
+    {
+      "concept": "Sources of production data",
+      "indicator": "Company annual reports, SEC filings, ministry bulletins, EIA, IEA, UN Statistics Division",
+      "quote": "Gather company annual reports, company histories, SEC filings, ministry bulletins or • operation reviews",
+      "page": 55
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The study traces cumulative CO2 and methane emissions to a defined set of 90 producers; its method and results are described as peer-reviewed by experts, with all errors the author's.",
+      "quote": "an identified set of 90 of the world’s largest producers of crude oil and NGLs, natural gas, coal, and cement.",
+      "page": 35
+    },
+    {
+      "claim": "Additional emissions from venting, flaring and methane are 6.02% for petroleum, 23.77% for natural gas and 8.47% for coal, on top of combustion CO2.",
+      "quote": "additional emissions from venting and flaring and methane are 6.02 percent for petroleum, 23.77 percent for natural gas, and 8.47 percent for coal.",
+      "page": 96
+    },
+    {
+      "claim": "World proven reserves are about 2.1 times all historic combustion emissions to date. (Reserves analysis only; not a classification of entities.)",
+      "quote": "proven reserves (accounting for non-­‐energy carbon storage) are 2.1 times larger than all historic emissions to date.",
+      "page": 35
+    },
+    {
+      "claim": "Carbon Tracker listed reserves of the largest 100 listed oil and gas and 100 coal companies, a separate list that overlaps with the Carbon Majors entities.",
+      "quote": "the proven reserves of the largest 100 oil and natural gas and largest 100 coal companies listed on world stock exchanges.",
+      "page": 35
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Production records are incomplete for early years and for entities; gaps are interpolated and early missing data is not estimated.",
+      "stated_by_authors": true,
+      "quote": "The production records are not always complete from the early years of an entity’s existence",
+      "page": 10
+    },
+    {
+      "point": "The 8 MtC threshold is applied with exceptions, and the entity count shifts with mergers and acquisitions.",
+      "stated_by_authors": true,
+      "quote": "The total number of entities also varies through mergers and acquisitions.",
+      "page": 9
+    },
+    {
+      "point": "Overall uncertainty is estimated, not calculated entity by entity.",
+      "stated_by_authors": true,
+      "quote": "this analysis conservatively estimates an uncertainty of ±10 percent for the overall historic emissions attributed to Carbon Major entities.",
+      "page": 70
+    },
+    {
+      "point": "Cement producers rarely publish production, so the estimate covers only six companies' process emissions.",
+      "stated_by_authors": true,
+      "quote": "Cement producers typically do not publish cement production statistics;",
+      "page": 94
+    },
+    {
+      "point": "Minor acquisitions are missed, which understates attributed emissions.",
+      "stated_by_authors": true,
+      "quote": "This tends to under-­‐estimate total attributed emissions, and is likely below 5 percent;",
+      "page": 62
+    },
+    {
+      "point": "Only 41 of 560 passages (about 3,983 of 47,848 words) were read. The entity list (Annex C worksheets) and company-level results were not in the chunks. The source does not address delegates, COP participant lists, lobbying or observer rules.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Carbon Majors entity worksheets and summary workbooks (SumOil, SumGas, SumCoal, SumCement)",
+      "what_it_is": "Per-entity production worksheets for the 90 entities, listed in Annexes C and D; the list itself was not in the passages read",
+      "page": 99
+    },
+    {
+      "name": "Carbon Tracker Initiative reserves analysis",
+      "what_it_is": "Cited list of the largest 100 listed oil and gas and 100 coal companies by proven reserves",
+      "page": 35
+    },
+    {
+      "name": "WBCSD Cement Sustainability Initiative database",
+      "what_it_is": "Self-reported cement company CO2 data used for the six cement entities",
+      "page": 94
+    },
+    {
+      "name": "CDIAC global emissions database; EDGAR methane database; CDP GHG inventories (11 oil and gas companies)",
+      "what_it_is": "Supporting emissions datasets used for checks and factors",
+      "page": 9
+    }
+  ],
+  "relevant_to": [
+    "method"
+  ],
+  "pages_read": "selected by code: 41 of 560 passages, 3983 of 47848 words, from pages 1-3, 5, 7-10, 16, 34-35, 39, 45, 49-51, 53, 55-56, 61-62, 64, 70, 72, 76-77, 84, 88, 92, 94, 96-97 of 104; chosen for definitions, indicators, method, findings and limitations; the rest was not read. No additional pages searched.",
+  "read_on": "2026-11-25",
+  "read_by": "source-reader, sonnet"
+}

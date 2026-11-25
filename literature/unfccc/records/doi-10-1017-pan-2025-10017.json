@@ -1,0 +1,325 @@
+{
+  "id": "doi-10-1017-pan-2025-10017",
+  "citation": {
+    "authors": [
+      "Andrew Halterman",
+      "Katherine A. Keith"
+    ],
+    "year": 2025,
+    "title": "Codebook LLMs: Evaluating LLMs as Measurement Tools for Political Science Concepts",
+    "venue_or_publisher": "Political Analysis, Volume 34, Issue 2, April 2026, pp. 188-204 (Cambridge University Press); published online 19 September 2025",
+    "doi_or_url": "https://doi.org/10.1017/pan.2025.10017",
+    "type": "journal article",
+    "peer_reviewed": "yes"
+  },
+  "question": "Whether off-the-shelf large language models faithfully follow real-world codebook definitions of political concepts and measure them accurately, and how researchers should prepare, test, evaluate and, if needed, fine-tune a codebook-LLM measurement.",
+  "data": "Three English-language political science datasets with codebooks and human-coded labels: the Crowd Counting Consortium (US protests), the BFRS dataset (political violence in Pakistan) and the Manifesto Project corpus; up to 142 classes; 70-15-15 train/development/test split, with only training and development sets used. Four open-weight models of 7-12 billion parameters were tried (Mistral-7B, Mistral-NeMo-12B, Llama-3.1-8B, OLMo-7B); two (Mistral-7B and Llama-8B) were carried to later stages. Document counts and the period covered are in Table 1, which is not in the extracted text, so they are not stated here.",
+  "method": "A five-stage framework: Stage 0 codebook preparation in a semi-structured format; Stage 1 label-free behavioural tests (Tests I-IV); Stage 2 zero-shot evaluation against labels using weighted F1; Stage 3 error analysis (labels-required Tests V-VII, ablation of codebook components, manual analysis of outputs by the two authors); Stage 4 supervised instruction-tuning with QLoRA. The whole codebook plus the document is given to the model, and the first generated text matching a valid label is taken as the prediction.",
+  "definitions": [
+    {
+      "term": "codebook",
+      "definition": "A document that defines concepts in precise terms and sets out the annotation procedure.",
+      "quote": "documents that define concepts in precise terms and outline annotation procedures",
+      "page": "1 Introduction"
+    },
+    {
+      "term": "codebook-LLM measurement",
+      "definition": "Classifying unlabelled documents with an LLM given a human-written codebook.",
+      "quote": "classifying unlabeled documents with LLMs given a human-written codebook",
+      "page": "2 A Framework for Codebook-LLM Measurement"
+    },
+    {
+      "term": "zero-shot",
+      "definition": "Using an LLM to classify documents with no labelled examples.",
+      "quote": "classify documents with no labeled examples",
+      "page": "1 Introduction"
+    },
+    {
+      "term": "behavioral tests",
+      "definition": "Controlled changes to the model's input that test its basic capabilities and failure modes.",
+      "quote": "controllable interventions on LLM inputs that test LLMs basic capabilities and failure modes",
+      "page": "1 Introduction"
+    },
+    {
+      "term": "instruction-tuning",
+      "definition": "Updating the model's weights directly from human-coded examples.",
+      "quote": "updating LLM weights directly from human-coded examples",
+      "page": "1 Introduction"
+    },
+    {
+      "term": "weighted F1",
+      "definition": "Average of per-class F1 scores, weighted by class size.",
+      "quote": "takes the average of per-class F1 scores, weighted by sample size, to account for imbalance",
+      "page": "Footnotes (note 2)"
+    },
+    {
+      "term": "protest (different operationalizations of the same label)",
+      "definition": "Illustration that projects define the same label differently: one source excludes labour strikes, another includes them.",
+      "quote": "Crowd Counting Consortium (2024)’s definition of “protest” excludes labor strikes, while the CAMEO event ontology",
+      "page": "1 Introduction"
+    },
+    {
+      "term": "codebook component: Label Definition",
+      "definition": "A short definition of the class, generally one sentence.",
+      "quote": "We provide a succinct definition of the class, which is generally a single sentence.",
+      "page": "5.2 Machine-Readable Semi-Structured Codebook Format"
+    },
+    {
+      "term": "codebook component: Clarification and Negative Clarification",
+      "definition": "Extra inclusion criteria and exclusion criteria for a class.",
+      "quote": "This includes both additional inclusion criteria, as well as exclusion criteria for the class.",
+      "page": "5.2 Machine-Readable Semi-Structured Codebook Format"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "model returns a valid codebook label",
+      "indicator": "Test I: whether any of the legal labels appears in the output text",
+      "quote": "we check if any of the legal labels appear in the output text",
+      "page": "6 Stage 1: Label-Free Behavioral Testing"
+    },
+    {
+      "concept": "model comprehends the codebook (not just the label names)",
+      "indicator": "Test IV: share of predictions unchanged, and Fleiss's kappa, when category order is reversed or shuffled",
+      "quote": "its predicted labels should not change if the order that the categories are presented in the codebook changes",
+      "page": "6 Stage 1: Label-Free Behavioral Testing"
+    },
+    {
+      "concept": "model applies an exclusion rule in the codebook",
+      "indicator": "Test V: add a rule such as 'does not apply if the document discusses elephants' and vary whether the document has the trigger word and whether the codebook has the rule",
+      "quote": "This category does not apply if the document discusses elephants",
+      "page": "8.1 Labels-Required Behavioral Tests"
+    },
+    {
+      "concept": "model follows definitions rather than label names",
+      "indicator": "Test VI: replace labels with non-informative ones; Test VII: permute labels so each is paired with a different definition",
+      "quote": "we permute the original labels in the codebook so each label is paired with a different definition",
+      "page": "8.1 Labels-Required Behavioral Tests"
+    },
+    {
+      "concept": "measurement accuracy",
+      "indicator": "Weighted F1 against the original dataset's human-coded labels; the authors' own target before starting was above 0.7",
+      "quote": "we hoped to exceed F1 scores of 0.7",
+      "page": "5 Stage 0: Codebook Preparation"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Off-the-shelf open-weight models of 7-12B parameters had limits in following codebooks zero-shot; supervised instruction-tuning improved them substantially.",
+      "quote": "We find current open-weight LLMs have limitations in following codebooks zero-shot, but that supervised instruction-tuning can substantially improve performance.",
+      "page": "Abstract"
+    },
+    {
+      "claim": "Zero-shot accuracy on the development sets was very poor to marginal on all three codebooks.",
+      "quote": "the development-set zero-shot results range from very poor with 0.21 (weighted) F1 on Manifestos, to marginal with 0.65 and 0.57 F1 on CCC and BFRS, respectively",
+      "page": "7.1 Zero-Shot Results"
+    },
+    {
+      "claim": "Most models did well on the simple recall and valid-output tests (Tests I-III), though OLMo-7B did very poorly and was dropped from later stages; all were sensitive to the order of categories in the codebook (Test IV).",
+      "quote": "all models are sensitive to the order that categories are described in the codebook (IV)",
+      "page": "6.1 Results"
+    },
+    {
+      "claim": "Models performed poorly at applying an exclusion rule added to the codebook, which the authors read as not following the codebook's specific operationalization.",
+      "quote": "The models perform poorly on Test V, providing evidence that LLMs are not following specific codebook operationalizations.",
+      "page": "8.2 Results"
+    },
+    {
+      "claim": "Models lean on the meaning of the label name; accuracy fell when labels were made generic or swapped.",
+      "quote": "performing worse when the labels are replaced with generic terms or swapped",
+      "page": "8.2 Results"
+    },
+    {
+      "claim": "In one ablation (Mistral-7B on BFRS), removing the output reminder lowered F1 from 0.53 to 0.42, and dropping the class definition and giving only the label raised performance, which may mean the definition was not being used.",
+      "quote": "surprisingly better performance when dropping the class definition, providing only the label itself",
+      "page": "8.4 Results"
+    },
+    {
+      "claim": "Manual review of Mistral-7B outputs found near-full compliance with allowed labels on two codebooks but 45% non-compliance on Manifestos (multiple labels or invented labels).",
+      "quote": "for Manifestos, 45% of the sampled LLM outputs were non-compliant",
+      "page": "8.6 Results"
+    },
+    {
+      "claim": "Manual review found signs of shortcuts: ignoring an explicit exclusion in the codebook, and picking a label whose word appears in the text.",
+      "quote": "selecting label words that appear in the text, even if the label is incorrect",
+      "page": "8.6 Results"
+    },
+    {
+      "claim": "A one-versus-rest set-up (one class description at a time) gave no accuracy gain in preliminary tests; the authors suggest the full codebook is needed to separate classes.",
+      "quote": "we found no accuracy improvements in a one-versus-rest set-up",
+      "page": "4.3 LLMs for Multi-Class Classification"
+    },
+    {
+      "claim": "Instruction-tuning raised weighted F1 on every dataset tested; the largest gain was up to 55% relative, while gains on CCC (long documents) were small.",
+      "quote": "can substantially improve performance (by up to 55%)",
+      "page": "1 Introduction"
+    },
+    {
+      "claim": "Gains for the CCC dataset, which has much longer documents, were only slightly above a majority-class baseline.",
+      "quote": "only slightly better than the baseline of the majority class",
+      "page": "9.2 Instruction-Tuning Results"
+    },
+    {
+      "claim": "Cited from earlier work (not this paper's own finding): even good labelling accuracy can bias downstream estimates unless corrected.",
+      "quote": "using these noisy labels in downstream analysis can induce severe bias and coverage issues",
+      "page": "3 Related Work"
+    }
+  ],
+  "recommendations": [
+    {
+      "point": "Write the codebook for both people and machines, in a semi-structured format (definitions, clarifications, examples).",
+      "quote": "We suggest a semi-structured format with standardized components including definitions, clarifications, and examples",
+      "page": "2 A Framework for Codebook-LLM Measurement"
+    },
+    {
+      "point": "Preparing the codebook cannot be skipped or handed to the model, and an accuracy target should be set in advance.",
+      "quote": "this stage cannot be bypassed or automated",
+      "page": "5 Stage 0: Codebook Preparation"
+    },
+    {
+      "point": "Run the label-free behavioural tests before paying for hand-labelling, to choose a model and decide between zero-shot and supervised use.",
+      "quote": "Before investing in hand-labeling, we suggest researchers use our proposed label-free behavioral tests",
+      "page": "2 A Framework for Codebook-LLM Measurement"
+    },
+    {
+      "point": "Hand-label a small evaluation set and measure zero-shot performance; weak results may mean the codebook, or the model, needs changing.",
+      "quote": "hand-label a small evaluation set and then assess LLM zero-shot performance",
+      "page": "2 A Framework for Codebook-LLM Measurement"
+    },
+    {
+      "point": "Do error analysis (labels-required tests, ablations, manual reading of outputs) whatever the headline accuracy.",
+      "quote": "regardless of the aggregate zero-shot performance",
+      "page": "8 Stage 3: Zero-Shot Error Analysis"
+    },
+    {
+      "point": "Read model outputs by hand.",
+      "quote": "We recommend applied researchers manually analyze LLM outputs.",
+      "page": "8.5 Manual Analysis of Zero-Shot Generative Outputs"
+    },
+    {
+      "point": "Run ablations on one's own codebook rather than assume a universal best set of components.",
+      "quote": "encourage applied researchers to perform ablation exeriments for their own applications",
+      "page": "8.4 Results"
+    },
+    {
+      "point": "Be wary when a codebook's concepts differ from what the model learned in pre-training.",
+      "quote": "the zero-shot results may have systematic errors",
+      "page": "8.2 Results"
+    },
+    {
+      "point": "If zero-shot is inadequate, fine-tune on human-coded examples (or use classic supervised classifiers).",
+      "quote": "If zero-shot performance proves inadequate, researchers can update the LLM weights directly via instruction-tuning on human-coded examples.",
+      "page": "2 A Framework for Codebook-LLM Measurement"
+    },
+    {
+      "point": "Follow the whole five-stage framework when deciding whether and how to use an LLM.",
+      "quote": "we recommend following our five-stage empirical framework to systematically evaluate whether and how to employ LLMs",
+      "page": "11 Conclusion"
+    },
+    {
+      "point": "For use of noisy labels in later analysis, the authors point readers to separate work on correcting the bias.",
+      "quote": "point applied researchers to this existing work",
+      "page": "3 Related Work"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Authors say their numbers for particular models will date quickly; the contribution is the framework, tests and datasets.",
+      "stated_by_authors": true,
+      "quote": "we believe the quantitative results we present about particular LLMs will quickly be surpassed",
+      "page": "4.3 LLMs for Multi-Class Classification"
+    },
+    {
+      "point": "Label-free and labels-required behavioural tests were run only on the BFRS dataset, because only its codebook had examples.",
+      "stated_by_authors": true,
+      "quote": "Because only the BFRS codebook had positive and negative examples, we conduct these tests only the BFRS dataset",
+      "page": "6.1 Results"
+    },
+    {
+      "point": "Ablations cover one model, one dataset and a limited set of combinations; the authors avoid general conclusions.",
+      "stated_by_authors": true,
+      "quote": "we are cautious about drawing universal conclusions about optimal codebook components",
+      "page": "8.4 Results"
+    },
+    {
+      "point": "Model explanations used in the manual analysis may not reflect how the model actually decided.",
+      "stated_by_authors": true,
+      "quote": "are not necessarily always logically consistent",
+      "page": "8.5 Manual Analysis of Zero-Shot Generative Outputs"
+    },
+    {
+      "point": "Only single-label classification, English text and open-weight 7-12B models were studied; other tasks, languages and larger models are left to future work.",
+      "stated_by_authors": true,
+      "quote": "performance on non-English language text",
+      "page": "10 Future Work"
+    },
+    {
+      "point": "Reported accuracy is on development sets; the test split was held back and not used.",
+      "stated_by_authors": true,
+      "quote": "we only use the training and development sets to guard against overfitting to the test set",
+      "page": "4.1 Codebook Datasets"
+    },
+    {
+      "point": "The paper tests event, violence and party-manifesto text, not organisations; results do not show how well a model would classify organisations as business or fossil fuel-linked, so they cannot be taken as accuracy figures for this study.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The extracted text does not contain the tables and figures, so the actual values of Tables 1-6 (including the original-versus-new codebook format comparison in Table 3) are not in this record; only numbers given in the prose are used. The supplementary material is not read (the page shows 'Loading...').",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": "Halterman and Keith supplementary material"
+    },
+    {
+      "point": "The extracted file has an empty authors field; the two author names come from author-search links on the page.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": "Article contents"
+    },
+    {
+      "point": "Reference list on the page was read only as link text; no instructions addressed to a reader or an AI were found in the page.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Crowd Counting Consortium (CCC)",
+      "what_it_is": "Dataset of protests in the United States; event types from news articles used",
+      "page": "4.1 Codebook Datasets"
+    },
+    {
+      "name": "BFRS dataset (Bueno de Mesquita et al. 2015)",
+      "what_it_is": "Dataset on political violence in Pakistan; event types from news articles used",
+      "page": "4.1 Codebook Datasets"
+    },
+    {
+      "name": "Manifesto Project corpus (Lehmann et al. 2017)",
+      "what_it_is": "Party manifesto text coded by issue category",
+      "page": "4.1 Codebook Datasets"
+    },
+    {
+      "name": "Replication code and data, Harvard Dataverse, https://doi.org/10.7910/DVN/NUWHQP",
+      "what_it_is": "Authors' code (including behavioral_tests.py) and data",
+      "page": "Data Availability Statement"
+    },
+    {
+      "name": "Supplementary material, https://doi.org/10.1017/pan.2025.10017",
+      "what_it_is": "Glossary, dataset preprocessing, per-class results, error categories; not read",
+      "page": "Supplementary Material"
+    },
+    {
+      "name": "Reference list (about 40 works)",
+      "what_it_is": "Includes Atreja et al. 2025 on prompt design, Burnham 2025 on definitions and context, Thalken et al. 2023 on codebook following, Egami et al. 2023 on bias from noisy labels",
+      "page": "3 Related Work"
+    }
+  ],
+  "relevant_to": [
+    "method"
+  ],
+  "pages_read": "Whole extracted text of the saved Cambridge Core article page (145 paragraphs, about 6,860 words): abstract, all numbered sections 1-11, footnotes and the reference list as link text. It is the full article body, but tables, figures and the supplementary material are not in the text.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

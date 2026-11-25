@@ -1,0 +1,139 @@
+{
+  "id": "desmog-big-meat-dairy-delegates-triple-cop28",
+  "citation": {
+    "authors": ["Rachel Sherrington", "Clare Carlile", "Hazel Healy"],
+    "year": 2023,
+    "title": "Big Meat and Dairy Delegates Triple at COP28",
+    "venue_or_publisher": "DeSmog",
+    "doi_or_url": "https://www.desmog.com/2023/12/08/big-meat-dairy-delegates-triple-cop28/",
+    "type": "web article (investigative journalism); published 2023-12-09, modified 2024-01-03 per page metadata",
+    "peer_reviewed": "no"
+  },
+  "question": "How many people linked to industrial agriculture (meat, dairy, pesticide, fertiliser and other food-sector firms and trade groups) attended COP28, and how many of them came inside country (Party) delegations. It is about agribusiness, not business in general or fossil-fuel industries.",
+  "data": "The COP28 delegate list from the UNFCCC, described as holding over 81,000 entries; compared with COP27 (2022) figures. The dataset and a methodology note are linked from the page but are not in the extracted text.",
+  "method": "DeSmog analysed the delegate list for the largest corporations in major food sectors, plus global and regional industry trade groups and national farmer unions and institutes with corporate affiliations or a history of industry-aligned lobbying. How individual entries were matched, and how delegates were assigned to a sector, is not described in the article text. It points to a separate methodology note.",
+  "definitions": [
+    {
+      "term": "Agribusiness representatives (industrial agriculture interests)",
+      "definition": "People on the delegate list attached to the largest corporations in major food sectors, to industry trade groups, and to national farmer unions and institutes with corporate affiliations or industry-aligned lobbying history. No formal definition is given beyond this scope statement.",
+      "quote": "The list was analysed for the largest corporations in major food sectors – meat and dairy, pesticide and fertiliser firms, food processors, commodity and seed traders, and grocery retail",
+      "page": "The Bigger Picture"
+    },
+    {
+      "term": "Trade groups and affiliated institutes included",
+      "definition": "Global and regional industry trade groups, and farmer unions and institutes counted when they have corporate ties or a lobbying history aligned with industry.",
+      "quote": "global and regional industry trade groups, some of which brought their own delegations to Dubai, along with national farmer unions and institutes that have corporate affiliations and/or a history of lobbying aligned with industry demands.",
+      "page": "The Bigger Picture"
+    },
+    {
+      "term": "Observer status versus country delegate",
+      "definition": "Most corporations, lobby groups and NGOs attend as observers; some industry representatives instead attend on a country's delegation.",
+      "quote": "Most corporations, lobby groups, and NGOs that attend the COP climate summits have “observer” status.",
+      "page": "Privileged Access to Negotiations"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Agribusiness interest of a delegate",
+      "indicator": "Affiliation on the COP28 delegate list to a large food-sector corporation, an industry trade group, or a farmer union or institute with corporate ties or industry-aligned lobbying history. The article does not say whether the affiliation is the organisation named on the list or a researched link.",
+      "quote": "The list was analysed for the largest corporations in major food sectors – meat and dairy, pesticide and fertiliser firms, food processors, commodity and seed traders, and grocery retail",
+      "page": "The Bigger Picture"
+    },
+    {
+      "concept": "Industry representative inside a country delegation",
+      "indicator": "Listed on the delegate list under a country (Party) delegation rather than as an observer. The article reports the count but does not describe the step.",
+      "quote": "In total, 102 industry representatives are in Dubai as part of country delegations, 30 percent of the sector’s total. In 2022, they made up less than six percent.",
+      "page": "Privileged Access to Negotiations"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Agribusiness representatives numbered 340 at COP28, more than double 2022; over 100 came inside country delegations, up from 10 in 2022.",
+      "quote": "over 100 delegates have travelled to Dubai as part of country delegations, which grants privileged access to diplomatic negotiations. This number is up from just 10 in 2022.",
+      "page": "Introduction (opening paragraphs, before the first heading)"
+    },
+    {
+      "claim": "Meat and dairy interests had 120 delegates, three times the COP27 number.",
+      "quote": "Meat and dairy interests are especially well represented with 120 delegates in Dubai, triple the number that attended COP27 in Sharm El-Sheikh, Egypt.",
+      "page": "Introduction (opening paragraphs, before the first heading)"
+    },
+    {
+      "claim": "102 agribusiness representatives were inside country delegations, 30 percent of the sector's total, against under 6 percent in 2022.",
+      "quote": "In total, 102 industry representatives are in Dubai as part of country delegations, 30 percent of the sector’s total. In 2022, they made up less than six percent.",
+      "page": "Privileged Access to Negotiations"
+    },
+    {
+      "claim": "Brazil brought the most agribusiness representatives in its delegation, 36, mostly linked to the meat industry.",
+      "quote": "The highest numbers of agribusiness representatives were brought in by Brazil, with 36 delegates linked mostly to the meat industry.",
+      "page": "Privileged Access to Negotiations"
+    },
+    {
+      "claim": "The article cites a figure of over 2,400 delegates linked to fossil fuel industries out of over 84,000 participants. This is stated in passing and linked to other reporting (Washington Post, Guardian); DeSmog does not say how it was derived.",
+      "quote": "include over 2,400 delegates linked to fossil fuel industries.",
+      "page": "Food Agendas"
+    },
+    {
+      "claim": "Fertiliser industry representatives rose from 13 to 40 delegates between 2022 and 2023.",
+      "quote": "The analysis found 40 delegates are attending the UN talks in 2023, up from just 13 last year.",
+      "page": "Outsized Agribusiness Influence"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The extracted text is the full article, but the methodology note and dataset are only linked, not in the file. The classification method (how entries were matched to firms and sectors, what counted as corporate affiliation) is therefore not recoverable from this file.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The analysis is a snapshot of one sector and leaves out government ministers, who may also advocate for agribusiness.",
+      "stated_by_authors": true,
+      "quote": "But DeSmog’s analysis only gives a snapshot of the industrial agriculture sector’s influence.",
+      "page": "The Bigger Picture"
+    },
+    {
+      "point": "Agriculture and trade ministers were outside the scope of the analysis.",
+      "stated_by_authors": true,
+      "quote": "Agriculture and trade ministers, which fell outside the scope of DeSmog’s analysis, have been fierce advocates for the interests of agribusiness at UN fora in recent years.",
+      "page": "The Bigger Picture"
+    },
+    {
+      "point": "The article covers COP28 (2023) and agribusiness only. It gives no overall share of business or of fossil-fuel linked people in country delegations, and does not define fossil-fuel linkage; the fossil figure is quoted from elsewhere.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The dataset is not public, only available on request.",
+      "stated_by_authors": true,
+      "quote": "Methodology note available here. DeSmog dataset is available on request.",
+      "page": "The Bigger Picture"
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "COP28 delegate list (UNFCCC)",
+      "what_it_is": "The participant list, described as over 81,000 entries, from which the counts were made.",
+      "page": "The Bigger Picture"
+    },
+    {
+      "name": "DeSmog methodology note and dataset",
+      "what_it_is": "A Google Docs note and a Google Sheets dataset linked from the article; the dataset is stated to be available on request. Not read here.",
+      "page": "The Bigger Picture"
+    },
+    {
+      "name": "DeSmog 'Mapped: Big Ag's routes to influence at COP28'",
+      "what_it_is": "Earlier DeSmog article, linked twice as related analysis of the same list. Not read here.",
+      "page": "Privileged Access to Negotiations"
+    },
+    {
+      "name": "Guardian and Washington Post COP28 fossil-fuel lobbyist reporting",
+      "what_it_is": "Linked as sources for the over-2,400 fossil-fuel-linked delegates figure. Not read here.",
+      "page": "Food Agendas"
+    }
+  ],
+  "relevant_to": ["Q1", "context"],
+  "pages_read": "Full text of the saved web page (64 paragraphs, about 2,400 words; all sections: the opening, Outsized Agribusiness Influence, Food Agendas, Privileged Access to Negotiations, Pushing for Voluntary Action and Innovation, The Bigger Picture). The linked methodology note and dataset were not read.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

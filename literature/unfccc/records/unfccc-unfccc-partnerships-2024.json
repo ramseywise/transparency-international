@@ -1,0 +1,123 @@
+{
+  "id": "unfccc-unfccc-partnerships-2024",
+  "citation": {
+    "authors": [
+      "UNFCCC secretariat"
+    ],
+    "year": 2024,
+    "title": "Partnerships with UNFCCC: At a Glance",
+    "venue_or_publisher": "UNFCCC secretariat",
+    "doi_or_url": "https://unfccc.int/sites/default/files/resource/UNFCCC_Partnerships_2024.pdf",
+    "type": "institutional guidance note (4 pp.)",
+    "peer_reviewed": "no"
+  },
+  "question": "Describes how the UNFCCC secretariat forms partnerships with non-Party stakeholders, including the due diligence process and the eligibility and exclusionary criteria (including fossil fuels).",
+  "data": "No empirical data. It is a policy summary. It says it supersedes secretariat bulletin B/2017/1 of 29 March 2017.",
+  "method": "Not applicable. It sets out a process: proposal submission, due diligence, review by an internal Partnership Committee, approval by the Executive Secretary, a partnership agreement, then publication. There are three due-diligence levels (light/low risk, standard/medium risk, escalated/high risk). The page shows the labels only, without explaining them.",
+  "definitions": [
+    {
+      "term": "Partnership (with the UNFCCC secretariat)",
+      "definition": "A voluntary, collaborative, contractually established relationship between the secretariat and a non-Party stakeholder, working toward a common goal.",
+      "quote": "defined as a voluntary, collaborative, and contractually established relationship between the secretariat and a non-Party stakeholder",
+      "page": 2
+    },
+    {
+      "term": "Non-Party stakeholders (partner types)",
+      "definition": "Includes for-profit entities, state-owned companies, NGOs, business associations, coalitions, philanthropic foundations, UN system organizations and intergovernmental organizations.",
+      "quote": "including for-profit entities, state-owned companies, non-governmental organisations, business associations, coalitions, philanthropic foundations, UN system organizations, and intergovernmental organizations",
+      "page": 1
+    },
+    {
+      "term": "Partnership vs commercial relationship",
+      "definition": "Partnerships are distinct from commercial relationships. Financial obligations outside the partnership follow procurement policies and need a formal contract.",
+      "quote": "Partnerships are distinct from commercial relationships",
+      "page": 2
+    },
+    {
+      "term": "Exclusionary criteria (fossil fuel)",
+      "definition": "Entities in industries whose products, services or operations may negatively affect the secretariat's objectives or reputation are excluded. The text names entities whose core products or core related services include fossil fuels, as an example ('including but not limited to').",
+      "quote": "including but not limited to entities whose core products or core related services include fossil fuels",
+      "page": 3
+    },
+    {
+      "term": "Other exclusionary criteria",
+      "definition": "Failure to support UN core values or human rights, labour and environment principles; illicit or illegal behaviour (organised crime, trafficking, corruption, drug abuse, terrorism); violation of UN Security Council sanctions; failure to meet other UN or secretariat obligations.",
+      "quote": "Illicit or illegal behaviour, including organised crime, trafficking, corruption, drug abuse or terrorism",
+      "page": 3
+    },
+    {
+      "term": "Conditions for considering an otherwise excluded entity",
+      "definition": "The entity must confirm it is sufficiently separated from the exclusionary entity in corporate and legal structure. If it serves fossil fuel entities, it must show its products or services substantially accelerate their decarbonisation and do not enable fossil fuel expansion. It must also present credible, public net zero commitments by 2050.",
+      "quote": "it does not provide products and services that enable fossil fuel expansion",
+      "page": 3
+    },
+    {
+      "term": "Eligibility criteria",
+      "definition": "Include support for UN core values, the Convention, Kyoto Protocol and Paris Agreement (including net zero by 2050, as applicable), the UN Global Compact and UN Guiding Principles on Business and Human Rights, and sustainable development. Business entities must report on environmental and social performance.",
+      "quote": "For business sector entities, reporting on corporate environmental and social responsibility performance",
+      "page": 3
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Fossil fuel-linked entity (for partnership exclusion)",
+      "indicator": "Whether the entity's core products or core related services include fossil fuels. An entity that provides products or services to fossil fuel entities is assessed separately. Entities separated in corporate and legal structure from an excluded entity may be considered.",
+      "quote": "entities whose core products or core related services include fossil fuels",
+      "page": 3
+    },
+    {
+      "concept": "Entity self-disclosure for due diligence",
+      "indicator": "The prospective partner gives a formal statement that it meets none of the exclusionary criteria and discloses relevant activity or advocacy.",
+      "quote": "Confirm by a formal statement that the entity does not meet any of the exclusionary criteria, indicating any relevant activity or advocacy",
+      "page": 2
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The secretariat's partnership framework excludes entities whose core products or services include fossil fuels, with conditional exceptions.",
+      "quote": "entities whose core products or core related services include fossil fuels",
+      "page": 3
+    },
+    {
+      "claim": "Due diligence applies eligibility and exclusionary criteria and is reviewed by an internal Partnership Committee. The Executive Secretary gives final approval.",
+      "quote": "makes a recommendation for final approval by the Executive Secretary",
+      "page": 2
+    },
+    {
+      "claim": "The framework is informed by UN guidelines on cooperation with the business sector and the UNSDG Common Approach to due diligence.",
+      "quote": "informed by the United Nations Guidelines on a Principle-based Approach to Cooperation between the United Nations and the Business Sector",
+      "page": 1
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The text does not state how 'core' fossil fuel products or services are determined, or what the due-diligence levels involve. The page shows only the three level labels.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 3
+    },
+    {
+      "point": "It covers secretariat partnerships only. It does not cover delegate badges, party delegation registration or admission of observers, and it has no counts of delegates or business participants. It is therefore of context value only for Q1 and Q2.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The 'including but not limited to' wording leaves the exclusion open-ended.",
+      "stated_by_authors": true,
+      "quote": "including but not limited to entities whose core products or core related services include fossil fuels",
+      "page": 3
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Key resources",
+      "what_it_is": "UN Guidelines on a Principle-based Approach to Cooperation between the UN and the Business Sector; UNSDG Common Approach to Prospect Research and Due Diligence for Business Sector Partnerships; Integrity Matters: Net Zero Commitments by Businesses, Financial Institutions, Cities and Regions (UN High-Level Expert Group); Report of the Secretary-General on repositioning the UN development system",
+      "page": 4
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "whole source (1599 words)"
+}

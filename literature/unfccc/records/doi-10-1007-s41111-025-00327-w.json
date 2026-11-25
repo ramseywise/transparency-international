@@ -1,0 +1,225 @@
+{
+  "id": "doi-10-1007-s41111-025-00327-w",
+  "citation": {
+    "authors": [
+      "Joan C. Timoneda",
+      "Sebastián Vallejo Vera"
+    ],
+    "year": 2025,
+    "title": "Rolling Memory: A New Approach to Annotation with Generative LLMs in Social and Political Research",
+    "venue_or_publisher": "Chinese Political Science Review (Springer)",
+    "doi_or_url": "https://doi.org/10.1007/s41111-025-00327-w",
+    "type": "journal article (original paper, open access)",
+    "peer_reviewed": "yes"
+  },
+  "question": "Why do memory-based prompting approaches improve LLM text annotation, and can a two-run refinement (keeping 100 informative annotations from a first run in memory at the start of a second run) improve performance further over the standard memory approach and few-shot chain-of-thought?",
+  "data": "Political nostalgia data from Müller and Proksch (2024): 1,200 human-annotated sentences from party manifestos in 24 European countries (151 nostalgic, 1,049 not). A subsample of 600 was used (all 151 nostalgic plus 449 random non-nostalgic). Model: GPT-4o via the OpenAI Python library, temperature 0.7. 20 reshuffled runs per approach. Human labels used as ground truth for validation only.",
+  "method": "Compared zero-shot, few-shot with chain-of-thought (ten examples with reasoning), standard memory (each classification appended to the conversation history), and two-run memory (last 100 or peak 100 annotations from run 1 kept as initial memory for run 2, with a rolling window that drops the oldest entry). Performance measured as running F1 over rolling blocks of 200 observations, averaged over 20 reshuffled runs; t-tests and Cohen's d reported. Control: two consecutive few-shot CoT runs to test for leakage between runs.",
+  "definitions": [
+    {
+      "term": "memory (in the LLM annotation context)",
+      "definition": "Information retained in the prompt, i.e. the model's own previous classifications kept in the conversation history.",
+      "quote": "‘Memory’, in this case, refers to the information retained in the prompt.",
+      "page": 2
+    },
+    {
+      "term": "in-context learning (ICL)",
+      "definition": "LLMs updating their behaviour through examples in the prompt, without parameter (weight) updates.",
+      "quote": "LLMs can update their behavior through examples in the prompt, without parameter updates",
+      "page": 2
+    },
+    {
+      "term": "last 100",
+      "definition": "Two-run variant: the last 100 classified observations from run 1 are used as the initial memory for run 2; run 2 classification is final.",
+      "quote": "we take the last 100 classified observations in memory from run 1 and use them as the initial memory for run 2.",
+      "page": 3
+    },
+    {
+      "term": "peak 100",
+      "definition": "Two-run variant: the set of 100 observations from run 1 that reached peak (highest average F1) performance is used as the initial memory for run 2.",
+      "quote": "we calculate the set of 100 observations from run 1 that reached peak performance and use that set as the initial memory for run 2.",
+      "page": 3
+    },
+    {
+      "term": "F1 score",
+      "definition": "Harmonic mean of precision and recall; preferred over accuracy for unbalanced samples.",
+      "quote": "F1 is the harmonic mean between precision and recall and is a better metric than accuracy in unbalanced samples.",
+      "page": 7
+    },
+    {
+      "term": "nostalgia (as coded in the validation data, quoting Müller and Proksch 2024)",
+      "definition": "Predominately positive emotion associated with recalling memories of important or momentous events; a sentence is nostalgic when at least three of four coders agreed.",
+      "quote": "A sentence is classified as nostalgic when at least three of the four coders agreed.",
+      "page": 6
+    },
+    {
+      "term": "reinforcement memory (from Timoneda and Vallejo Vera 2025b)",
+      "definition": "Memory approach where the model is also told whether its past labels were correct; needs hand-labelled data.",
+      "quote": "letting the LLM if it correctly or incorrectly labeled the text, in addition to maintaining the annotated text in the prompt. They call this ‘reinforcement memory’.",
+      "page": 4
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Annotation quality / classifier performance",
+      "indicator": "Running F1 score for the nostalgic category against human-annotated ground truth, in rolling windows of 200 observations, averaged over 20 reshuffled runs.",
+      "quote": "we report the average F1 scores across a rolling set of 200 observations.",
+      "page": 7
+    },
+    {
+      "concept": "Task difficulty / human coder reliability",
+      "indicator": "Human inter-coder agreement: Cohen-type kappa for categorical judgments and ICC(2,k) for aggregated ratings.",
+      "quote": "Coders showed moderate agreement on categorical judg­ ments (K = 0.56), while the aggregated ratings demonstrated good overall reliability (ICC(2,k) = 0.84, 95% CI [0.82, 0.85",
+      "page": 6
+    },
+    {
+      "concept": "Whether gains come from text order or text difficulty rather than memory",
+      "indicator": "Reshuffling the dataset 20 times and averaging running F1 across runs.",
+      "quote": "By reshuffling the dataset ... 20 times and calculating the running average F1-scores for all the runs, we ensure it is not text complexity that is driving the results.",
+      "page": 7
+    },
+    {
+      "concept": "Leakage between runs (robustness)",
+      "indicator": "Two consecutive few-shot CoT runs without session restart; identical trajectories taken to show no carry-over.",
+      "quote": "The two lines follow practically identical trajectories, which means that the first run does not in itself influence the results of a second run.",
+      "page": 12
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Zero-shot performance was low and flat (average F1 0.51); few-shot CoT raised average F1 to 0.694 with no trend over the run.",
+      "quote": "The average F1score for the zero-shot approach is low, at 0.51",
+      "page": 8
+    },
+    {
+      "claim": "Standard memory improved overall performance by about 9% on average over few-shot CoT, with diminishing returns and a plateau after about 400 observations; it was below few-shot CoT for roughly the first 250 observations.",
+      "quote": "the memory approach improves overall performance by 9%, on aver­ age after reshuffling the data 20 times",
+      "page": 9
+    },
+    {
+      "claim": "The two-run approach raised performance a further 3.56% (last 100) and 2.77% (peak 100), and 13.26% and 12.39% over few-shot CoT.",
+      "quote": "performance increases a further 3.56% using last 100 and ... 2.77% using peak 100.",
+      "page": 10
+    },
+    {
+      "claim": "Last 100 was marginally better than peak 100 (mean F1 0.786 vs 0.780); the difference was statistically significant but substantively small (Cohen's d 0.56).",
+      "quote": "The average F1-scores for the last-100 and peak-100 approaches are 0.786 and 0.780, respectively.",
+      "page": 11
+    },
+    {
+      "claim": "A second run of few-shot CoT without memory did not improve results, so gains in the two-run memory approach are attributed to the retained informative memory, not to repetition.",
+      "quote": "Figure 4 confirms this by showing that a second run does not improve the results for few-shot learning with CoT (no memory).",
+      "page": 12
+    },
+    {
+      "claim": "Performance converges towards the end of runs, which the authors read as a ceiling for generative LLMs in annotation.",
+      "quote": "performance converges towards the end of the run, pointing to the structural ceilings in terms of performance when using generative LLMs in annotation tasks.",
+      "page": 11
+    },
+    {
+      "claim": "LLM output varies across runs, so a single run may be high or low in the distribution of results.",
+      "quote": "researchers do not know whether the results they obtain from one run of their data are high or low in this distribution.",
+      "page": 13
+    }
+  ],
+  "recommendations": [
+    {
+      "claim": "Use the last-100 two-run approach in practice rather than peak 100.",
+      "quote": "We therefore recommend using the last-100 approach in practice.",
+      "page": 11
+    },
+    {
+      "claim": "Where resources allow, reshuffle the data and run the annotation at least 10 times (akin to k-fold cross-validation), then take the run closest to the mean or adjudicate mismatches as with human annotators.",
+      "quote": "research­ ers are advised to reshuffle the dataset and run the process at least 10 times, which is akin to performing k-fold cross-validation.",
+      "page": 13
+    },
+    {
+      "claim": "Researchers should adopt multi-run evaluation strategies when computational resources allow.",
+      "quote": "When computational resources allow, we encourage researchers to adopt similar multi-run evaluation strategies.",
+      "page": 8
+    },
+    {
+      "claim": "Keep hand-labelled data for validation rather than for feeding the model, since the last-100 method does not need labelled examples.",
+      "quote": "allowing researcher to reduce the need for hand-labeled data (and use it, rather, for validation).",
+      "page": 13
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Proof of concept on one task (binary political nostalgia in translated manifesto sentences) and one model (GPT-4o); generalisation to more complex tasks, more labels, low-resource languages and rare categories is untested.",
+      "stated_by_authors": true,
+      "quote": "in this article we provide a proof of concept for our rolling memory approach on one task.",
+      "page": 13
+    },
+    {
+      "point": "The memory size of 100 is arbitrary; effects of other sizes on cost, overfitting and context limits are unknown.",
+      "stated_by_authors": true,
+      "quote": "we use 100 observations to keep in memory, which is an arbitrary number derived from resource and token limit considerations.",
+      "page": 13
+    },
+    {
+      "point": "Variance across runs is not formally modelled.",
+      "stated_by_authors": true,
+      "quote": "formal modeling of the variance would provide additional nuance, such analysis is beyond the present scope",
+      "page": 11
+    },
+    {
+      "point": "The dataset is unbalanced (151 vs 449 in the subsample), which makes the minority category harder for LLMs; human agreement on the task is only moderate (kappa 0.56), so ground-truth noise limits the F1 ceiling.",
+      "stated_by_authors": true,
+      "quote": "The dataset is unbalanced, which is not a problem per se but does make it more difficult for LLMs to classify the underrepresented category correctly.",
+      "page": 6
+    },
+    {
+      "point": "Non-English sentences were machine-translated to English before classification; the authors did not modify the text.",
+      "stated_by_authors": false,
+      "quote": "the authors translated each non-English sentence into English before classification.",
+      "page": 6
+    },
+    {
+      "point": "Results are probabilistic and depend on data order, so a single run is unreliable.",
+      "stated_by_authors": true,
+      "quote": "LLM outputs are probabilistic and the dataset is reshuffled each time.",
+      "page": 8
+    },
+    {
+      "point": "Prompt wording sensitivity was not tested; whether memory reduces the effect of prompt wording is left as future work.",
+      "stated_by_authors": true,
+      "quote": "the degree to which memory approaches can reduce the effect of the wording in the prompt",
+      "page": 13
+    },
+    {
+      "point": "Topic mismatch: the paper does not address organisation classification, business or fossil fuel linkage, or UNFCCC delegations; it supports only the method side (LLM annotation, validation against human labels, reproducibility). No injected instructions were found in the text.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Müller and Proksch (2024) political nostalgia dataset",
+      "what_it_is": "1,200 human-annotated sentences from party manifestos in 24 European countries (151 nostalgic), used as validation ground truth.",
+      "page": 6
+    },
+    {
+      "name": "Replication data and code",
+      "what_it_is": "Authors' GitHub repository (joantimoneda.github.io/rolling_memory_CPSR) with data and code.",
+      "page": 13
+    },
+    {
+      "name": "Timoneda and Vallejo Vera (2025b), Memory Is All You Need",
+      "what_it_is": "arXiv:2503.04874, the original memory-based annotation paper this article refines.",
+      "page": 15
+    },
+    {
+      "name": "Reference list (pp. 14-15)",
+      "what_it_is": "Cited works on LLM annotation (e.g. Gilardi et al. 2023; Alizadeh et al. 2023; Ornstein et al. 2023), in-context learning and chain-of-thought prompting.",
+      "page": 14
+    }
+  ],
+  "relevant_to": [
+    "method"
+  ],
+  "pages_read": "1-15 (all 15 pages; text extracted with pypdf because the PDF page renderer was unavailable; figures not viewed, only captions and text)",
+  "read_on": "2026-11-24",
+  "read_by": "2026-11-24 general-purpose agent (sonnet) following source-reader instructions; PDF text extracted (pdftoppm missing), page numbers are PDF page indices"
+}

@@ -1,0 +1,332 @@
+{
+  "id": "transparency-behind-the-badge-understanding-roles-reach-risks-of-fossi",
+  "citation": {
+    "authors": [
+      "Gvantsa Gverdtsiteli"
+    ],
+    "year": 2025,
+    "title": "Behind the Badge: Understanding the roles, reach, and risks of fossil fuel industry participation in UN climate talks",
+    "venue_or_publisher": "Transparency International, working paper (ISBN 978-3-96076-277-5), June 2025",
+    "doi_or_url": "https://images.transparencycdn.org/images/Transparency-International_Behind-the-Badge.pdf",
+    "type": "NGO working paper (document review, analysis of the COP29 List of Participants and of the Kick Big Polluters Out list, plus interviews)",
+    "peer_reviewed": "no"
+  },
+  "question": "Who lobbies for fossil fuel interests at COPs, how they gain access to the negotiations, and through which channels (badge types: COP Presidency, Party delegates, Party overflow delegates, observers) they may influence them. The paper develops a categorisation of fossil fuel-affiliated groups at COPs.",
+  "data": "(1) UNFCCC official List of Participants for COP29 (Excel file dated 5 December 2024, endnote 15); (2) the list of 'fossil fuel lobbyists' compiled by the Kick Big Polluters Out (KBPO) coalition for COP29 (1,773 individuals in the paper's analysis; 1,770 in KBPO's own figure quoted on p. 6); (3) review of UNFCCC procedural documents and academic and civil society literature; (4) 36 anonymous semi-structured interviews in spring 2025 (18 high-level country negotiators, 10 from Annex I and 8 non-Annex I, plus a comparable number of observers). Written in spring 2025; information stated as correct as of June 2025.",
+  "method": "The paper does not build its own list of fossil fuel lobbyists. It takes the KBPO list of 'fossil fuel lobbyists' as given and cross-tabulates it with badge type from the COP29 List of Participants (Figure 2, p. 11; the figure itself is not in the extracted text, only the shares quoted in the text). For the 339 KBPO-identified individuals registered as Party delegates it added its own classification of ownership (full or partial state ownership, private company or independent trade association, unverifiable), based on company websites and official reports. KBPO's method, as described here: manual classification plus AI tools, programmatic online search for each organisation and delegation on the List of Participants, using public sources (company websites, social media, news coverage). The paper states it uses affiliation as a proxy for a likely conflict of interest, not proof of lobbying activity. Business presence in delegations is not counted as such: no count of business or private sector members of national delegations by sector is given; only the KBPO fossil fuel subset, self-declared 'relationship' categories of Party delegates (Figure 1), and counts of overflow badges by country.",
+  "definitions": [
+    {
+      "term": "fossil fuel lobbyist (TI working definition)",
+      "definition": "Any individual with direct or indirect ties to the fossil fuel industry who seeks to influence COP outcomes in ways that protect or promote continued fossil fuel use.",
+      "quote": "A fossil fuel lobbyist then refers to any individual with direct or indirect ties to the fossil fuel industry who seeks to influence COP outcomes in ways that protect or promote continued fossil fuel use.",
+      "page": 5
+    },
+    {
+      "term": "fossil fuel lobbyist (as used in the paper, operational)",
+      "definition": "Operationally the paper uses the term for individuals with direct or indirect ties to fossil fuel interests whose participation raises concerns about undue influence, drawing on KBPO data. Affiliation is the proxy because individual intent cannot be assessed.",
+      "quote": "we use the term “fossil fuel lobbyist” to refer to individuals with direct or indirect ties to fossil fuel interests whose participation raises concerns about undue influence",
+      "page": 7
+    },
+    {
+      "term": "fossil fuel lobbyist (Kick Big Polluters Out definition)",
+      "definition": "Any individual delegate who represents an organisation or belongs to a delegation reasonably assumed to aim at influencing policy in the interests of the fossil fuel industry or a particular fossil fuel company. Described by the paper as the wider definition.",
+      "quote": "any individual delegate that represents an organisation or is a member of a delegation that can be reasonably assumed to have the objective of influencing the formulation or implementation of policy or legislation in the interests of the fossil fuel industry",
+      "page": 7
+    },
+    {
+      "term": "fossil fuel lobbyist (Global Witness position)",
+      "definition": "Global Witness assumes that anyone applying to attend COP is trying to influence the climate policy debate (widest threshold).",
+      "quote": "it is reasonable to assume that anyone who applied to attend COP is attempting to influence the policy debate around climate change",
+      "page": 7
+    },
+    {
+      "term": "lobbyist at COP",
+      "definition": "An individual or group representing a particular interest and seeking to influence the negotiation process in favour of it; this can include representatives of state delegations (Parties).",
+      "quote": "a lobbyist can be understood as an individual or group representing a particular interest and seeking to influence the negotiation process in favour of that interest. This can include representatives of state delegations (Parties).",
+      "page": 5
+    },
+    {
+      "term": "lobbying (TI definition)",
+      "definition": "Any activity to influence a government or institution's policies and decisions in favour of a specific cause or outcome.",
+      "quote": "any activity carried out to influence a government or institution’s policies and decisions in favour of a specific cause or outcome",
+      "page": 5
+    },
+    {
+      "term": "conflict of interest",
+      "definition": "A situation in which an individual or entity faces competing obligations between official responsibilities and private interests, in a way that could compromise impartiality. The paper says the UNFCCC has not recognised or defined the concept formally.",
+      "quote": "A conflict of interest broadly describes a situation in which an individual or entity faces competing obligations between their official responsibilities and private interests",
+      "page": 3
+    },
+    {
+      "term": "Party delegate (badge)",
+      "definition": "Official representatives of countries that have ratified the UNFCCC; typically public servants and affiliated experts in a paid or contractual relationship with the nominating ministry or agency. The badge does not reflect professional background and does not distinguish public officials from advisers or other delegates.",
+      "quote": "The Party delegate badge itself does not reflect the delegate’s professional background and does not distinguish between public officials, advisers, or other types of delegates.",
+      "page": 10
+    },
+    {
+      "term": "Party overflow delegate (badge)",
+      "definition": "Government-listed observer who cannot speak on behalf of the country.",
+      "quote": "Delegates with Party overflow badges are government listed observers who cannot speak on behalf of the country.",
+      "page": 12
+    },
+    {
+      "term": "observer (badge) and business access",
+      "definition": "Observers are representatives of UN organisations, IGOs and NGOs. For-profit entities and individuals cannot register as observers independently: private sector stakeholders can observe only via the BINGO (Business and industry NGOs) constituency, through a trade association or business NGO, or through a Party overflow badge.",
+      "quote": "For-profit entities and individuals cannot register as observers independently.",
+      "page": 14
+    },
+    {
+      "term": "BINGO constituency",
+      "definition": "Business and industry NGOs; one of nine UNFCCC observer constituencies. The paper says it is not homogeneous: it includes renewable energy companies as well as fossil fuel and other high-emitting sectors.",
+      "quote": "BINGOs: Business and industry NGOs",
+      "page": 14
+    },
+    {
+      "term": "policy capture",
+      "definition": "Extreme case in which decision-making consistently serves specific groups rather than the common good.",
+      "quote": "it can lead to policy capture, where decision-making consistently serves specific groups rather than the common good.",
+      "page": 4
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "fossil fuel lobbyist (paper's stated proxy)",
+      "indicator": "Affiliation: direct or indirect ties of a participant to fossil fuel interests, used in place of case-by-case assessment of activities and intent.",
+      "quote": "we rely on affiliations as a proxy for identifying individuals or groups with a likely conflict of interest with the objectives of the Convention.",
+      "page": 7
+    },
+    {
+      "concept": "fossil fuel-linked participant (KBPO identification)",
+      "indicator": "For each registered organisation and delegation on the UNFCCC List of Participants, an online search (manual classification plus AI tools) for links to the fossil fuel industry, using company websites, social media profiles, news coverage and other digital records.",
+      "quote": "KBPO programmatically searches for each registered organisation and delegation online to uncover potential links to the fossil fuel industry.",
+      "page": 6
+    },
+    {
+      "concept": "affiliation as reported by the participant",
+      "indicator": "'Home organisation/affiliation' and a 'relationship' field on the COP29 List of Participants (mandatory since COP28; free text, over 400 unique entries; option 'Chose not to disclose').",
+      "quote": "“Home organisation/affiliation”, which was previously optional, and has been made mandatory since COP28.",
+      "page": 5
+    },
+    {
+      "concept": "badge type (where the person sits in the COP)",
+      "indicator": "Badge category on the List of Participants: Party, Party overflow, observer, and others. Fossil fuel-linked stakeholders are 'unpacked' by role and space in the Blue Zone as indicated by badge type.",
+      "quote": "Here we unpack fossil fuel-linked stakeholders based on their roles and the spaces they occupy in the Blue Zone, as indicated by their badge types.",
+      "page": 8
+    },
+    {
+      "concept": "state ownership of the company a Party delegate is linked to",
+      "indicator": "Information from company websites and official reports on the ownership of the entity of the 339 KBPO-identified lobbyists in national delegations: full or partial state ownership; private fossil fuel company or independent trade association; not verifiable.",
+      "quote": "Based on information from company websites and official reports, our analysis found that out of the 339 identified “lobbyists” within national delegations",
+      "page": 11
+    },
+    {
+      "concept": "business presence in a delegation (example)",
+      "indicator": "Delegation members named as affiliated with a company on the List of Participants (examples: Gazprom in the Russian delegation; at least 16 SOCAR members in Azerbaijan's; seven Petrobras delegates in Brazil's).",
+      "quote": "the Russian delegation included negotiators from Gazprom, a majority state-owned energy giant.",
+      "page": 11
+    },
+    {
+      "concept": "business presence via the observer route",
+      "indicator": "Invitations through a BINGO focal point, as seen on the List of Participants (the International Chamber of Commerce invited ExxonMobil, Shell and BP representatives to COP29).",
+      "quote": "invited the representatives of ExxonMobil, Shell and BP to COP29, according to the List of Participants.",
+      "page": 14
+    },
+    {
+      "concept": "undeclared fossil fuel affiliation (name matching, by another organisation)",
+      "indicator": "Global Witness matched names of Saudi delegates at COP28 to employees of Saudi Aramco; cited by the paper as evidence that declared affiliations can be incomplete.",
+      "quote": "at least 15 members of the Saudi delegation had names matching employees of the state oil company, Saudi Aramco, despite not declaring this affiliation.",
+      "page": 6
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Of the 1,773 individuals KBPO identified as fossil fuel lobbyists at COP29, nearly 20 per cent were registered within national delegations (as Party delegates).",
+      "quote": "of the 1,773 individuals identified as “fossil fuel lobbyists,” nearly 20 per cent were found within national delegations (Parties)",
+      "page": 11
+    },
+    {
+      "claim": "Among the 339 fossil fuel lobbyists in national delegations, about 74 per cent (252) were linked to fully or partly state-owned entities and about 23 per cent (81) to private fossil fuel companies or independent trade associations; ownership of 6 could not be verified.",
+      "quote": "approximately 74 per cent (252 individuals) were linked to entities with full or partial state ownership, while around 23 per cent (81 individuals)",
+      "page": 11
+    },
+    {
+      "claim": "Countries with the most delegates linked to private fossil fuel firms (KBPO data): Russia at least 36, Oman 18, Qatar 12.",
+      "quote": "Russia with at least 36 delegates linked to private firms in the sector, followed by Oman with 18, and Qatar with 12.",
+      "page": 11
+    },
+    {
+      "claim": "Nearly half of the KBPO-identified fossil fuel lobbyists at COPs attend with Party overflow badges, the most common badge type for fossil fuel-linked individuals (COP28 data cited as consistent).",
+      "quote": "nearly half of the “fossil fuel lobbyists” at COPs attend using this badge.",
+      "page": 12
+    },
+    {
+      "claim": "Around 20 per cent of the KBPO-classified fossil fuel lobbyists at COP29 held observer badges.",
+      "quote": "around 20 per cent of lobbyists classified by KBPO as “fossil fuel lobbyists” at COP29 had observer badges.",
+      "page": 14
+    },
+    {
+      "claim": "Almost 15 per cent of all COP29 participants (6,209) chose not to disclose their affiliation; over 90 per cent of them held Party or Party overflow badges.",
+      "quote": "almost 15 per cent of all participants (6,209 individuals) chose not to disclose their affiliations.",
+      "page": 5
+    },
+    {
+      "claim": "23 per cent of COP29 Party delegates chose not to disclose their relationship to the nominating state, and another 23 per cent chose ambiguous options such as 'Other' or 'Guest'.",
+      "quote": "23 per cent of Party delegates (i.e., official negotiators) chose not to disclose their affiliations to the nominating state, ministry or agency.",
+      "page": 5
+    },
+    {
+      "claim": "Around 19 per cent of COP29 negotiators declared themselves unpaid advisers or guests of the nominating entity.",
+      "quote": "around 19 per cent of negotiators declared themselves as unpaid advisers or guests of the nominating entity (Figure 1).",
+      "page": 10
+    },
+    {
+      "claim": "14,074 people attended COP29 with Party overflow badges; there is no cap, and counts by country ranged from a few to several hundred (Azerbaijan 1,130, Russia 757, Brazil 649).",
+      "quote": "In total, 14,074 people attended the conference under this category.",
+      "page": 13
+    },
+    {
+      "claim": "No details of the affiliations of any members of the Saudi delegation were published at COP29, which the paper says makes assessing fossil fuel links from the list alone nearly impossible.",
+      "quote": "no details of the affiliations of any of the members of the Saudi delegation were published",
+      "page": 6
+    },
+    {
+      "claim": "Fossil fuel influence is not only a matter of who is in the room: national positions can reflect the interests of state-owned fossil fuel companies and be set before COP.",
+      "quote": "domestic lobbying and fossil fuel-aligned positions formed at the national level may already be baked into a country’s stance",
+      "page": 12
+    },
+    {
+      "claim": "Fossil fuel executives (BP, ExxonMobil, Eni) were reported by DeSmog to be issued EU overflow badges for COP28 as event panellists; at least two did not take part in any such event (reported by the paper from a secondary source).",
+      "quote": "senior executives from BP, ExxonMobil, and Eni were issued EU overflow badges for COP28 on the basis that they were panellists at EU-organised events.",
+      "page": 13
+    }
+  ],
+  "limitations": [
+    {
+      "point": "There is no agreed definition of a 'fossil fuel lobbyist'; organisations apply different definitions and thresholds, so counts differ by source.",
+      "stated_by_authors": true,
+      "quote": "Yet, different organisations apply varying definitions and thresholds when identifying such individuals.",
+      "page": 7
+    },
+    {
+      "point": "The wider KBPO definition may overestimate lobbyists by including companies that are transitioning to renewables (example: Orsted).",
+      "stated_by_authors": true,
+      "quote": "it may also overestimate the number of lobbyists by including companies that are actively transitioning to renewables.",
+      "page": 7
+    },
+    {
+      "point": "Relying on public data may undercount lobbyists with undeclared or indirect affiliations; methods based on disclosed information give conservative estimates.",
+      "stated_by_authors": true,
+      "quote": "relying on public data may undercount lobbyists by missing undeclared or indirect affiliations with fossil fuel interests.",
+      "page": 7
+    },
+    {
+      "point": "Affiliation is a proxy; presence on the list does not mean the person lobbies at COP. The authors accept the limits of the categorisation.",
+      "stated_by_authors": true,
+      "quote": "While this does not necessarily mean that such individuals are actively engaging in lobbying at COPs, it signals the need for greater scrutiny",
+      "page": 7
+    },
+    {
+      "point": "Self-declared affiliation data on the List of Participants are unreliable: the Secretariat cannot verify them, the field is free text with over 400 unique entries, and many entries are ambiguous or non-disclosed.",
+      "stated_by_authors": true,
+      "quote": "the field is often completed incorrectly and allows free-text input, resulting in over 400 unique entries under the “relationship” column.",
+      "page": 5
+    },
+    {
+      "point": "The Secretariat has no mandate to verify declarations, so potential conflicts of interest cannot be identified or verified.",
+      "stated_by_authors": true,
+      "quote": "Without accurate data, it is impossible to identify or verify potential conflicts of interest.",
+      "page": 6
+    },
+    {
+      "point": "The analysis covers fossil fuel interests only; other major emitters (dairy, meat, pesticide industries) are acknowledged but not analysed.",
+      "stated_by_authors": true,
+      "quote": "identifying fossil fuel lobbyists is only part of the broader picture of stakeholders who may seek to obstruct meaningful climate action",
+      "page": 7
+    },
+    {
+      "point": "The paper does not claim that fossil fuel lobbying alone explains limited climate progress.",
+      "stated_by_authors": true,
+      "quote": "The paper does not claim that lobbying by fossil fuel interests alone explains the limited progress on climate action.",
+      "page": 4
+    },
+    {
+      "point": "Count inconsistency: KBPO's figure of 1,770 fossil fuel lobbyists at COP29 (p. 6) differs from the 1,773 used in the paper's own analysis (p. 11); the paper does not explain the difference.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "No methods section for the counting: the KBPO classification rules and the paper's own ownership classification are described only briefly; KBPO's list is a coalition product (an advocacy source), not independently verified here. The interview sample is described as 36 interviews but only the 18 negotiators are broken down; observer numbers are 'comparable'. Business or private sector delegates who are not fossil fuel-linked are not counted. Figure 1 and Figure 2 are images and their values are not in the extracted text; page 22 and 23 are back matter.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The paper contains recommendations addressed to the UNFCCC, Parties and the COP30 Presidency (e.g. Parties should refrain from including lobbyists from fossil fuel and other high-polluting industries in national delegations; remove the 'Other' and 'Guest' categories). These are advocacy positions, not findings. No instructions addressed to a reader or an AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC, List of Participants: On-Site Participation (Excel file), COP29, 5 December 2024",
+      "what_it_is": "Official participant list with badge type, organisation and self-declared affiliation and relationship fields; the base data of the paper (endnote 15).",
+      "page": 19
+    },
+    {
+      "name": "Kick Big Polluters Out (KBPO) list of 'fossil fuel lobbyists' at COP29",
+      "what_it_is": "Coalition-compiled list of individuals on the List of Participants judged linked to fossil fuel interests, via manual classification and AI-assisted online search (endnotes 5, 22, 24). The paper's counts of lobbyists by badge type are based on it.",
+      "page": 19
+    },
+    {
+      "name": "Global Witness, methodology for the COP27 fossil fuel lobbyists analysis (10 November 2022)",
+      "what_it_is": "Earlier count method, assuming anyone attending COP tries to influence the debate (endnote 23); also Global Witness COP28 reporting on undeclared Saudi Aramco-linked delegates (endnote 21).",
+      "page": 20
+    },
+    {
+      "name": "Xie et al., Tracing Inclusivity at UNFCCC Conferences through Side Events and Interest Group Dynamics, Nature Climate Change",
+      "what_it_is": "Study cited for COP28 badge data on industry-linked participants and for the overestimation point (endnotes 25, 41).",
+      "page": 20
+    },
+    {
+      "name": "DeSmog analysis of meat, dairy and pesticide lobbyists at COP29 (Sherrington, 19 November 2024)",
+      "what_it_is": "Count of other high-emitting sectors at COP (endnote 27).",
+      "page": 20
+    },
+    {
+      "name": "McSweeney, Carbon Brief, How delegations at COP climate summits have changed over time (27 October 2021)",
+      "what_it_is": "Analysis of delegation composition across COPs (endnotes 19, 46).",
+      "page": 19
+    },
+    {
+      "name": "UNFCCC, Changes to the Registration System and Process",
+      "what_it_is": "Secretariat description of the 2023 disclosure changes to the List of Participants (endnote 20).",
+      "page": 19
+    },
+    {
+      "name": "UNFCCC list of admitted NGOs",
+      "what_it_is": "Published list of all admitted observer organisations (endnote 47).",
+      "page": 21
+    },
+    {
+      "name": "InfluenceMap, LobbyMap: European Industry and the EU's Climate Policy 2024-29 (May 2025)",
+      "what_it_is": "Data on alignment of European companies' climate policy engagement (endnote 48).",
+      "page": 21
+    },
+    {
+      "name": "Goddard et al., COP Co-Opted? (Transparency International, 2024)",
+      "what_it_is": "Earlier TI report on COP integrity (endnote 28).",
+      "page": 20
+    }
+  ],
+  "relevant_to": [
+    "Q1",
+    "Q2",
+    "method",
+    "context"
+  ],
+  "pages_read": "1-23 (all). Figure 1 (p. 6) and Figure 2 (p. 11) are images with no extracted values; pages 19-21 are endnotes, 22-23 back matter.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

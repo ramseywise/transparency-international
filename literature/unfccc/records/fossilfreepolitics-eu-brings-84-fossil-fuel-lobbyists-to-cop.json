@@ -1,0 +1,106 @@
+{
+  "id": "fossilfreepolitics-eu-brings-84-fossil-fuel-lobbyists-to-cop",
+  "citation": {
+    "authors": ["Fossil Free Politics (byline: gabor)"],
+    "year": 2025,
+    "title": "EU Commission keeps oil and gas lobbyists away from COP30, but France and Italy roll out red carpet",
+    "venue_or_publisher": "Fossil Free Politics (campaign coordinated by Friends of the Earth Europe, Corporate Europe Observatory and Food and Water Europe), press release dated 14 November 2025",
+    "doi_or_url": "https://fossilfreepolitics.org/news/eu-brings-84-fossil-fuel-lobbyists-to-cop/",
+    "type": "NGO press release (web page)",
+    "peer_reviewed": "no"
+  },
+  "question": "How many fossil fuel lobbyists did EU member states and the European Commission bring on their official delegations to COP30 (Belem, 2025)?",
+  "data": "New research by Fossil Free Politics with the Kick Big Polluters Out coalition on COP30 (2025) delegations; the underlying list is not published, only available by email request. The page does not name the source list (it does not say it is the UNFCCC list of participants), the date it was taken, or the number of delegates checked.",
+  "method": "Not described beyond the definition of a fossil fuel lobbyist (see definitions). No account is given of how delegates were matched to organisations, how organisations were judged to be fossil-linked, who checked, or what was counted as a delegation member. The total of 1,600 lobbyists is attributed to Kick Big Polluters Out.",
+  "definitions": [
+    {
+      "term": "fossil fuel lobbyist",
+      "definition": "Any individual delegate who represents an organisation, or is a member of a delegation, that can reasonably be assumed to aim to influence policy or legislation in the interests of the fossil fuel industry or a particular fossil fuel company and its shareholders (full wording in paragraph 22 of the source).",
+      "quote": "any individual delegate that represents an organisation or is a member of a delegation that can be reasonably assumed to have the objective of influencing the formulation or implementation of policy or legislation",
+      "page": "no heading (Notes to the editor, paragraph 22)"
+    },
+    {
+      "term": "delegation (EU Commission, officials only)",
+      "definition": "The EU delegation is described as officials of EU institutions and their advisors, plus three journalists and film makers; used to show that no fossil fuel lobbyists were on it.",
+      "quote": "The only delegates on the EU delegation not from an EU institution or its advisors were three journalists and film makers.",
+      "page": "no heading (Notes to the editor, paragraph 20)"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "fossil-linked delegate hidden inside a non-fossil organisation's badge allocation",
+      "indicator": "An adviser from a gas transmission operator (Snam) found inside another organisation's (Venice Sustainability Foundation) delegation within Italy's delegation. This shows the study looks at the employer of individual delegates, not only the delegation or organisation badge.",
+      "quote": "The country also brought an advisor from Snam, Europe’s largest gas transmission operator, who was hidden within the Venice Sustainability Foundation’s delegation.",
+      "page": "no heading (paragraph 8)"
+    },
+    {
+      "concept": "fossil-linked organisations named as examples",
+      "indicator": "Delegates employed by energy and industry companies and a business federation are counted, including TotalEnergies (including its CEO), EDF, Engie, Siemens Energy, E.ON SE, Hitachi Energy, Confindustria and Edison. The page does not say what test put EDF, Engie, E.ON, Siemens Energy or Confindustria in the fossil category.",
+      "quote": "The country included five TotalEnergies lobbyists, including CEO Patrick Pouyanné, alongside substantial delegations from EDF and Engie.",
+      "page": "no heading (paragraph 6)"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Nine EU governments brought 84 fossil fuel lobbyists on their COP30 national delegations; this is part of an overall 1,600 at COP30, one in 25 participants.",
+      "quote": "nine EU governments brought 84 fossil fuel lobbyists into COP30 on their official government delegations",
+      "page": "no heading (paragraph 2)"
+    },
+    {
+      "claim": "Country counts: France 22, Sweden 18, Italy 12, Denmark 11, Portugal 8, Belgium 8, Finland 2, Netherlands 2, Greece 1.",
+      "quote": "France (22), Sweden (18), Italy (12), Denmark (11), Portugal (8), Belgium (8), Finland (2), The Netherlands (2) and Greece (1).",
+      "page": "no heading (Notes to the editor, paragraph 23)"
+    },
+    {
+      "claim": "The European Commission delegation included no fossil fuel lobbyists, for the second year in a row. Germany and Austria had committed beforehand not to bring any.",
+      "quote": "the European Commission hasn’t included any fossil fuel lobbyists in its delegation — for the second year in a row.",
+      "page": "no heading (paragraph 11)"
+    },
+    {
+      "claim": "The overall COP30 figure of more than 1,600 fossil fuel lobbyists was identified by the Kick Big Polluters Out coalition.",
+      "quote": "Kick Big Polluters Out identified more than 1600 fossil fuel lobbyists at COP30",
+      "page": "no heading (Notes to the editor, paragraph 21)"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Press release: method, source list, date of data extraction, and validation are not described. The full list of delegates is available only on request by email, so the counts cannot be checked from the page.",
+      "stated_by_authors": false,
+      "quote": "For a full list of EU and member state delegates, email: kim.claes@foeeurope.org",
+      "page": "no heading (paragraph 14)"
+    },
+    {
+      "point": "The definition is intent-based (what can be 'reasonably assumed') and gives no operational rules for sectors, trade bodies, financiers, advisers or state-owned companies. Some listed organisations (utilities, equipment makers, a business federation) are counted without the page saying why.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The page is about COP30, not COP31. It does not report the number of business delegates in general (Q1), badge types (Party, overflow, observer), or any rules on conflicts of interest. The authors are campaigners with a stated advocacy aim, and the page carries advocacy calls (a firewall, a tobacco-style limit).",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Kick Big Polluters Out COP30 count (kickbigpollutersout.org)",
+      "what_it_is": "Coalition's identification of more than 1,600 fossil fuel lobbyists at COP30; linked, not reproduced.",
+      "page": "no heading (paragraphs 2 and 21)"
+    },
+    {
+      "name": "Fossil Free Politics COP29 release (fossilfreepolitics.org/news/europe-brings-gas-lobbyists-to-cop29-to-strike-deals/)",
+      "what_it_is": "Earlier release by the same campaign on the previous COP, linked as 'yet again'; a candidate source for method and for the COP29 comparison.",
+      "page": "no heading (paragraph 3, link)"
+    },
+    {
+      "name": "Full list of EU and member state delegates",
+      "what_it_is": "Underlying list of delegates, not published; available on email request to the campaigner.",
+      "page": "no heading (paragraph 14)"
+    }
+  ],
+  "relevant_to": ["Q2", "method", "context"],
+  "pages_read": "Whole page read (25 paragraphs, no section headings). No figures or tables on the page.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

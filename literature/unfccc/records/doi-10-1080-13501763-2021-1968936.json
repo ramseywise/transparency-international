@@ -1,0 +1,132 @@
+{
+  "id": "doi-10-1080-13501763-2021-1968936",
+  "citation": {
+    "authors": ["Wiebke Marie Junk", "Michele Crepaz", "Marcel Hanegraaﬀ", "Joost Berkhout", "Ellis Aizenberg"],
+    "year": 2022,
+    "title": "Changes in interest group access in times of crisis: no pain, no (lobby) gain",
+    "venue_or_publisher": "Journal of European Public Policy, 29(9), 1374-1394 (published online 30 Aug 2021)",
+    "doi_or_url": "https://doi.org/10.1080/13501763.2021.1968936",
+    "type": "publisher's version (Taylor & Francis open access PDF; page 2 says it was republished with minor changes that do not affect the academic content)",
+    "peer_reviewed": "yes"
+  },
+  "question": "Whether organisations whose interests were most affected by the Covid-19 outbreak gained more access to government, parliament, the bureaucracy and the media, and whether this differs for economic and non-economic interests.",
+  "data": "Online elite survey of interest group and large firm leaders in ten European polities (Austria, Denmark, France, Germany, Ireland, Italy, Netherlands, Sweden, UK, EU level), early June to mid-July 2020; sample of over 7,000 organisations, 1441 complete responses (response rate 20.4 per cent, 7 to 42 per cent by country). Organisations drawn as stratified samples from lobbying registers and scholars' population lists.",
+  "method": "Respondents rated their access frequency (never to almost daily) to four venues before and during the crisis; the change is the difference. Main predictor is self-rated affectedness (1 to 5, relative to other stakeholders). OLS regressions with country fixed effects and standard errors clustered by sector; controls for organisation type, lobbying staff and age; interactions tested. Robustness checks (ordered logit, alternative sector-based affectedness measure) are in appendices that are not in this file. Organisation type is taken from the respondent's own classification. No language model and no coder agreement are used.",
+  "definitions": [
+    {
+      "term": "access (interest group access)",
+      "definition": "Quoted from Binderkrantz and Pedersen (2017): a group has entered a political arena by passing a threshold controlled by gatekeepers. The authors treat access as a two-way process of seeking and granting.",
+      "quote": "a group has entered a political arena (parliament, administration, or media) passing a threshold controlled by relevant gatekeepers (politicians, civil servants, or journalists)",
+      "page": 5
+    },
+    {
+      "term": "affectedness",
+      "definition": "How strongly an organisation's interests are hit by an external shock; a dynamic characteristic of interest organisations.",
+      "quote": "We here understand aﬀectedness as a central dynamic characteristic of interest organizations when they face external challenges or threats",
+      "page": 3
+    },
+    {
+      "term": "business organizations (organisation type)",
+      "definition": "One of three types, taken from respondents' own classification: business associations and firms are grouped together as one category.",
+      "quote": "where respondents classiﬁed the type of organization, we distinguish three categories: 1) business organizations, including business associations and ﬁrms; 2) profession groups, including professional",
+      "page": 11
+    },
+    {
+      "term": "public interest groups (organisation type)",
+      "definition": "The non-economic category: cause-centred groups, NGOs and citizen associations.",
+      "quote": "public interest groups, which contains cause-centered groups, non-governmental organizations (NGOs) and citizen associations",
+      "page": 12
+    },
+    {
+      "term": "economic versus non-economic interests",
+      "definition": "Economic interests are business organisations plus profession groups (professional associations and labour unions); non-economic are public interest groups.",
+      "quote": "organizations representing economic interests (i.e., business organizations and professional groups), and non-economic interests, (i.e., public interest groups)",
+      "page": 12
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "affectedness of an organisation",
+      "indicator": "Respondent's self-rating on a 1 to 5 scale compared with other stakeholders in the country.",
+      "quote": "on a scale ranging from 1 (much less aﬀected) to 5 (much more aﬀected)",
+      "page": 10
+    },
+    {
+      "concept": "affectedness (alternative, sector level)",
+      "indicator": "The authors' own categorisation of sectors as less or more highly affected; details are in Appendix D, not in this file. The sector scheme itself is not described in the main text.",
+      "quote": "our own categorization of less and more highly aﬀected sectors",
+      "page": 11
+    },
+    {
+      "concept": "organisation size / lobbying resources",
+      "indicator": "Number of full-time staff in public affairs, grouped into three categories.",
+      "quote": "low (<1), medium (1–4) and high (>=5) lobbying staﬀresources",
+      "page": 12
+    },
+    {
+      "concept": "sample of organisations by type",
+      "indicator": "Stratified samples from lobbying registers and scholars' lists, to give similar total samples per country and similar shares of organisation types.",
+      "quote": "The stratiﬁed samples were drawn to ensure the inclusion of 1) similar total samples across countries, and 2) similar shares of diﬀerent types of organizations in each polity.",
+      "page": 9
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Affectedness predicts increases in access to all four venues (media, government, parliament, bureaucracy).",
+      "quote": "organizations that saw their interests more aﬀected during this crisis increased their access more than less aﬀected groups",
+      "page": 15
+    },
+    {
+      "claim": "Business organisations gained more access than public interest groups, mainly in media and parliament.",
+      "quote": "it is mainly in the media and parliamentary arena that business access has increased signiﬁcantly more",
+      "page": 15
+    },
+    {
+      "claim": "Affected public interest groups did not gain as much access as affected business, labour or professional groups.",
+      "quote": "highly aﬀected public interest groups, which usually represent social or environmental causes, were not able to increase their access as much as aﬀected business organizations",
+      "page": 4
+    },
+    {
+      "claim": "Public interest groups were not predicted to increase access in any venue, even when highly affected.",
+      "quote": "In none of the venues, even at the highest level of aﬀectedness, are public interest groups predicted to have increased their access.",
+      "page": 18
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Affectedness is self-rated and relative, so it may be over- or under-estimated.",
+      "stated_by_authors": true,
+      "quote": "a downside is that this rating is subject to potential over- or under estimation and requires an implicit comparison to other stakeholders in a given country",
+      "page": 11
+    },
+    {
+      "point": "Very low response rates in some countries.",
+      "stated_by_authors": true,
+      "quote": "For Italy, France, and the UK we register very low response rates between ca. 13 per cent (Italy) and 7 per cent (UK).",
+      "page": 9
+    },
+    {
+      "point": "Only short-term changes are covered.",
+      "stated_by_authors": true,
+      "quote": "Importantly, our analysis focused on short-term changes in access.",
+      "page": 18
+    },
+    {
+      "point": "Appendices (sampling frame, sector scheme, robustness tables) are not in the extracted file, so the sector coding cannot be checked. The article has no climate, UN or fossil fuel content.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "InterCov survey (Interest Representation during the Coronavirus Crisis)",
+      "what_it_is": "The authors' own 2020 survey of 1441 interest organisations in ten European polities; the dataset itself is not given in this file.",
+      "page": 20
+    }
+  ],
+  "relevant_to": ["Q1", "method"],
+  "pages_read": "Pages 1 to 22 of the extracted text read in full; the trailing list of hyperlinks at the end of the file (after page 22) was not read.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

@@ -1,0 +1,180 @@
+{
+  "id": "doi-10-1136-jech-2017-209677",
+  "citation": {
+    "authors": [
+      "Ildefonso Hernández-Aguado",
+      "Elisa Chilet-Rosell"
+    ],
+    "year": 2018,
+    "title": "Pathways of undue influence in health policy-making: a main actor's perspective",
+    "venue_or_publisher": "Journal of Epidemiology and Community Health 72:154-159 (first published online 27 October 2017)",
+    "doi_or_url": "https://doi.org/10.1136/jech-2017-209677",
+    "type": "journal article (qualitative case study)",
+    "peer_reviewed": "yes"
+  },
+  "question": "Using Spain as a case study, to identify interactions between public administration, civil society and private companies that could influence health policies, and the pathways by which undue influence and policy capture occur.",
+  "data": "54 semistructured interviews with key actors in Spanish health policy, conducted January 2013 to February 2016. Interviewees were drawn from public administration and politicians, health-related goods and services industry, civil society organisations, professionals and mass media (Table 1). Interviews were not recorded.",
+  "method": "Case study. Interviewees were chosen intentionally, starting from one researcher's contacts from earlier government work, then adding people the interviewees named. The script had four general questions, was piloted, and prompted interviewees to acknowledge influences they had not seen. The analysis combined pre-existing classifications with categories that emerged from the interviews, and recorded the interviewees' views 'without interpretation'. Tactics were sorted into hard and soft. The authors did not count delegates or classify organisations.",
+  "definitions": [
+    {
+      "term": "Undue influence (operational, as used in this study)",
+      "definition": "Three criteria: (a) explicitly outside the law; (b) an offer of personal benefits clearly beyond minimal courtesies, or deferred income through revolving doors; (c) the influencing actor was not directly related to the policy decision.",
+      "quote": "(a) when it was explicitly outside the law ... (b) when there was an offer of personal benefits such as invitations and gifts that manifestly departed from minimal courtesies or deferred income through revolving doors; and (c) where the actor that exerted the influence was not directly related to the policy decision.",
+      "page": 2
+    },
+    {
+      "term": "Policy capture",
+      "definition": "The policy-making process is shifted away from the public interest towards narrow private interests.",
+      "quote": "policy capture—by which the policy-making process is shifted away from the public interest towards narrow private interests",
+      "page": 1
+    },
+    {
+      "term": "Revolving doors",
+      "definition": "A tendency of legislators or regulators to favour industry interests when they have an industry background or expect future industry employment. The source attributes this to other authors.",
+      "quote": "revolving doors -a tendency of legislators or regulators to favour industry interests when they have an industry background or when they expect rewards in the form of future industry employment",
+      "page": 1
+    },
+    {
+      "term": "Hard tactics",
+      "definition": "Obvious illegalities, and direct pressure on the target by a representative of an interested actor.",
+      "quote": "Hard tactics include not only obvious illegalities but also direct pressure applied by a representative of an interested actor on the target agent.",
+      "page": 2
+    },
+    {
+      "term": "Soft tactics",
+      "definition": "Activities that capture the social, cultural, intellectual or scientific environment of the decision-maker, nudging them towards a decision or inaction.",
+      "quote": "Soft tactics encompass all activities designed to capture the social, cultural, intellectual or scientific environment of the decision-maker",
+      "page": 2
+    },
+    {
+      "term": "Cultural capture",
+      "definition": "Regulators and policy-makers are susceptible to non-rational forms of influence. Kwak names three mechanisms: group identification, status and relationship networks.",
+      "quote": "Cultural capture is based on the fact that regulators and policy-makers are susceptible to non-rational forms of influence.",
+      "page": 5
+    },
+    {
+      "term": "Intellectual capture",
+      "definition": "A health policy environment dominated mainly by commercial influences.",
+      "quote": "we can also refer to intellectual capture to describe a health policy environment that is dominated mainly by commercial influences",
+      "page": 5
+    },
+    {
+      "term": "Cabinetisation",
+      "definition": "A political practice in which the minister's cabinet makes decisions that follow the media agenda more than the government's programme. Interviewees used the term.",
+      "quote": "policy decisions of the Minister's cabinet are more in line with the media agenda than the political programme of the government",
+      "page": 4
+    },
+    {
+      "term": "Health policy capacity",
+      "definition": "The sum of competencies, resources and experience that governments and public agencies use to handle public health problems.",
+      "quote": "the sum of competencies, resources and experience that governments and public agencies use to identify, formulate, implement and evaluate solutions to public health problems",
+      "page": 4
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Undue influence / policy capture",
+      "indicator": "Influences reported by interviewees in their own experience, sorted by the three criteria above (illegality, personal benefit or revolving door, influencer not linked to the decision).",
+      "quote": "this paper seeks neither to classify types of influence nor assign blame to any party, but rather to describe the actions declared by the involved actors themselves.",
+      "page": 2
+    },
+    {
+      "concept": "Revolving door",
+      "indicator": "Interviewees' reports of job offers from industry to officials leaving office, including appointment to a company-related foundation to avoid the 2-year ban.",
+      "quote": "pharmaceutical companies offered them posts once they left the Ministry.",
+      "page": 3
+    },
+    {
+      "concept": "Conflict of interest among experts",
+      "indicator": "An agency's report that it cannot find experts free of conflicts of interest (Table 2 example).",
+      "quote": "The Spanish Agency of Medicines do not find experts on oncology free of conflicts of interest.",
+      "page": 3
+    },
+    {
+      "concept": "Industry sectors with influence",
+      "indicator": "Interviewees' naming of the tobacco, food and beverage, alcohol and pharmaceutical sectors as the strongest influencers.",
+      "quote": "the tobacco industry, the food and beverage sector, and the pharmaceutical area had a much greater information capacity than the government",
+      "page": 3
+    }
+  ],
+  "findings": [
+    {
+      "claim": "All interviewees holding a position in the health system or related government areas said they had been targets of undue influence. The source could almost always be traced to private companies.",
+      "quote": "All interviewees holding a position in the health system structure or in other related government areas acknowledged they had been the target of undue influences.",
+      "page": 2
+    },
+    {
+      "claim": "Companies used contacts at the top of government to pressure lower-level decision-makers.",
+      "quote": "Some corporations used their contacts at the highest level of government to influence lower decision-making levels",
+      "page": 2
+    },
+    {
+      "claim": "Revolving doors were confirmed by several Directors General of Health. They were more frequent among officials not covered by incompatibility laws.",
+      "quote": "revolving doors are more frequent among officials not affected by laws of incompatibility",
+      "page": 3
+    },
+    {
+      "claim": "Companies had access to internal government agendas and to members' positions.",
+      "quote": "companies had access not only to the agendas of internal government meetings but also to the content and the positions of different members",
+      "page": 4
+    },
+    {
+      "claim": "Interviewees said the loss of specialised technical capacity in public administration, the EU included, increases exposure to industry influence.",
+      "quote": "there is a trend in administration, including the European Union, to replace officials with a high technical and specialised capacity with multitask officials.",
+      "page": 3
+    },
+    {
+      "claim": "The authors conclude that the degree of capture is greater than expected and that subtle influences are becoming the key issue.",
+      "quote": "Our results show that the degree of capture is greater than expected as all levels of government are successfully targeted",
+      "page": 4
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Possible selection bias towards interviewees more willing to reveal misdoings. No invitation was refused.",
+      "stated_by_authors": true,
+      "quote": "a possible bias towards those more willing to reveal misdoings. However, we must point out that no invitation was refused",
+      "page": 5
+    },
+    {
+      "point": "In some cases only one side of the story was available, and reports could not be checked against other versions.",
+      "stated_by_authors": true,
+      "quote": "in some cases we have only one side of the story and were unable to contrast the reports with other versions.",
+      "page": 5
+    },
+    {
+      "point": "Limited external validity because the study covers Spanish health policy only.",
+      "stated_by_authors": true,
+      "quote": "the external validity of our research is limited by the features of Spanish health policy.",
+      "page": 5
+    },
+    {
+      "point": "The paper is qualitative and does not count participants or sectors. It has no data on delegates or on fossil fuel links, so it cannot answer Q1 or Q2 directly. This is my observation, not the authors'.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Only 38 of 56 passages were read. No instructions to a reader or AI were found in them, apart from copyright notices on text and data mining.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Reference list",
+      "what_it_is": "About 18 references, including Wiist's 'corporate playbook', Brezis and Wiist on corporate activities, Kwak on cultural capture, an OECD report on channels of influence, the European Commission's 2013 study on corruption in healthcare, and Robinson et al. on conflicts of interest at the European Food Safety Authority.",
+      "page": 6
+    },
+    {
+      "name": "Table 1 and Table 2",
+      "what_it_is": "Table 1 gives interviewee positions and numbers. Table 2 gives examples of hard and soft influence tactics by target and type.",
+      "page": 2
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "selected by code: 38 of 56 passages, 3934 of 5600 words, from pages 1-6 of 6; chosen for definitions, indicators, method, findings and limitations; the rest was not read. No extra searches of the full text."
+}

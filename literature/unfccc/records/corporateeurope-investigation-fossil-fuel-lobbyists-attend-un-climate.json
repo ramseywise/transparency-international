@@ -1,0 +1,174 @@
+{
+  "id": "corporateeurope-investigation-fossil-fuel-lobbyists-attend-un-climate",
+  "citation": {
+    "authors": [],
+    "year": 2023,
+    "title": "Investigation: Fossil fuel lobbyists attend UN climate talks more than 7000 times as part of decades-long campaign to influence climate action",
+    "venue_or_publisher": "Corporate Europe Observatory (analysis by the Kick Big Polluters Out coalition)",
+    "doi_or_url": "https://corporateeurope.org/en/2023/11/investigation-fossil-fuel-lobbyists-attend-un-climate-talks-more-7000-times-part-decades",
+    "type": "web page (press release / news article, dated 21 November 2023 in the text)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "How many times have disclosed delegates tied to fossil fuel companies and their trade groups attended UN climate talks (COPs 9 to 27)? The page presents this as a case for removing 'big polluters' from the talks.",
+  "data": "Final participant lists of COPs 9 to 27 (2003 to 2022, as the page says 'since COP9 in 2003' and 'over the last 20 years'). Counts are of delegate passes, 'at least' figures. The page gives no number of delegates in the lists overall and no per-COP counts. COP28 is not covered (the page was published days before it).",
+  "method": "Delegates were classified as fossil fuel lobbyists by what they declared in the participant lists: affiliation with, or membership of a delegation that is, a fossil fuel organisation, foundation or trade association. The project did not analyse each participant. It looked for a fixed set of organisations: the top 100 oil and gas producers since 2000 (Rystad production figures), companies CDP lists as the largest historical carbon emitters, and trade organisations substantially controlled by, or largely advocating for, the fossil fuel industry. Former names, acquired companies, subsidiaries and merger results were counted. A person declared with both a trade association and a company is counted once in the total, and once in each of the two sub-totals. Names were adapted from the original PDF participant lists. The page does not describe how the trade-association list was drawn up, who made the judgement, any checking of the matches, or whether Party delegations were looked at separately.",
+  "definitions": [
+    {
+      "term": "fossil fuel lobbyist",
+      "definition": "A delegate who declared themselves affiliated with, or a member of a delegation that is, a fossil fuel organisation or foundation, or trade association.",
+      "quote": "Delegates are classified as fossil fuel lobbyists if they declared themselves either affiliated with, or a member of a delegation that is a fossil fuel organization or foundation, or trade association",
+      "page": "Methodology, para 34"
+    },
+    {
+      "term": "fossil fuel organisations (the set counted)",
+      "definition": "Three groups: top 100 oil and gas producers since 2000 (Rystad), companies CDP lists as largest historical carbon emitters, and company trade organisations substantially controlled by or largely advocating for the fossil fuel industry.",
+      "quote": "1) the top 100 producers of oil and gas since 2000, according to production figures from energy data firm Rystad; 2) companies listed by CDP as the largest historical carbon emitters",
+      "page": "Methodology, para 35"
+    },
+    {
+      "term": "affiliation",
+      "definition": "The organisations a delegate works for or the interests they represent.",
+      "quote": "“affiliation”, which are the organisations they work for or interests they represent",
+      "page": "Findings, para 5"
+    },
+    {
+      "term": "hosting of COP delegates",
+      "definition": "Stated rule that every delegate must be hosted by an official delegation from a government or an admitted organisation.",
+      "quote": "All COP delegates are required to be hosted by an official delegation from a government or admitted organisation",
+      "page": "Findings, para 5"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "fossil fuel lobbyist / fossil fuel presence",
+      "indicator": "Declared affiliation, or the name of the delegation the person belongs to, in the final participant list, matched against the three organisation sets (producers, CDP emitters, fossil-controlled trade bodies).",
+      "quote": "declared themselves either affiliated with, or a member of a delegation that is a fossil fuel organization or foundation, or trade association",
+      "page": "Methodology, para 34"
+    },
+    {
+      "concept": "company identity over time",
+      "indicator": "Previous names, subsidiaries, purchased companies and merger results counted as the same organisation.",
+      "quote": "Organizations’ previous names and companies that they have subsequently purchased, as well as names of subsidiaries and the results of acquisitions and mergers, have also been counted.",
+      "page": "Methodology, para 36"
+    },
+    {
+      "concept": "number of delegates (units counted)",
+      "indicator": "Passes or attendances ('times'), with one person counted once in the total even if declared with both a company and a trade association.",
+      "quote": "that person is a) included as 1 of the 6581 trade association delegates, b) 1 of the 945 company delegates, and c) only 1 (and not 2) of the 7200 total delegates.",
+      "page": "Methodology, para 37"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "At least 7200 attendances by disclosed fossil fuel-tied delegates at COPs since 2003.",
+      "quote": "the UNFCCC has granted at least 7200 passes to disclosed fossil fuel representatives since 2003",
+      "page": "Findings, para 12"
+    },
+    {
+      "claim": "At least 945 attendances by employees of fossil fuel firms; at least 267 by staff of the 'Big 5' (ExxonMobil, Chevron, Shell, BP, TotalEnergies).",
+      "quote": "disclosed employees of fossil fuel firms have attended negotiations a minimum of 945 times",
+      "page": "Findings, para 3"
+    },
+    {
+      "claim": "At least 6581 attendances by representatives of fossil fuel trade associations.",
+      "quote": "attended COPs at least 6581 times",
+      "page": "Findings, para 4"
+    },
+    {
+      "claim": "IETA was given at least 2769 passes since 2003; WBCSD at least 979; BCSE at least 558; Keidanren at least 473; BusinessEurope at least 210.",
+      "quote": "has been given at least 2769 passes to attend the climate talks since 2003",
+      "page": "Findings, para 6"
+    },
+    {
+      "claim": "Among identified company staff, Shell has the most (at least 115), then Eni (104), Petrobras (68), BP (56), Chevron (45).",
+      "quote": "Shell has sent the most disclosed staff to talks over the years, with at least 115 passes granted by the UNFCCC",
+      "page": "Findings, para 8"
+    },
+    {
+      "claim": "All of the top 20 trade groups by attendance are headquartered in the Global North.",
+      "quote": "Of the top 20 trade groups by attendance identified in the study, all are headquartered in the Global North.",
+      "page": "Findings, para 11"
+    },
+    {
+      "claim": "Examples of fossil fuel executives attending inside delegations that do not reflect their affiliation (a German NGO delegation, Mauritania's delegation) at COP27. These are named examples, not counts.",
+      "quote": "Former BP CEO Bernard Looney also attended COP27 as part of Mauritania’s delegation.",
+      "page": "Findings, para 14"
+    },
+    {
+      "claim": "Other industries (finance, agribusiness, transportation) are present at COPs but were not analysed.",
+      "quote": "although they are not included in this analysis",
+      "page": "Findings, para 20"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Figures are undercounts because many delegates do not declare an affiliation.",
+      "stated_by_authors": true,
+      "quote": "many delegates do not declare their “affiliation”, ... As a result, these figures are likely to represent a significant undercount.",
+      "page": "Findings, para 5"
+    },
+    {
+      "point": "Participant list formats vary by year, names are hard to process, and affiliation disclosure was not required until recently.",
+      "stated_by_authors": true,
+      "quote": "The varying formats of the UNFCCC’s attendance lists from year to year makes processing names difficult",
+      "page": "Findings, para 13"
+    },
+    {
+      "point": "Only a chosen set of organisations was searched, not every participant.",
+      "stated_by_authors": true,
+      "quote": "this project has not strived to analyse each individual participant",
+      "page": "Methodology, para 35"
+    },
+    {
+      "point": "Irregular original lists mean some fossil fuel delegates were probably not counted.",
+      "stated_by_authors": true,
+      "quote": "it is likely that some delegates representing fossil fuel organizations have not been counted",
+      "page": "Methodology, para 38"
+    },
+    {
+      "point": "Delegates can sit in delegations that do not match their affiliation, so a delegation-based identification can miss them.",
+      "stated_by_authors": true,
+      "quote": "Fossil fuel lobbyists also have a track record of attending COPs in delegations that don’t reflect their affiliation.",
+      "page": "Findings, para 14"
+    },
+    {
+      "point": "Not the full work. This is a short press-style web page, not a report. It has no tables, no per-COP counts, no list of organisations counted, no counts split by badge type (Party badge, Party overflow, observer), and no count of fossil fuel or business people inside Party delegations. The Party, observer and business-NGO categories are not defined. Linked methodology or data files, if any, were not read.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The page lists no author and no publication date field; the date appears only in the text (21 November, 2023). The total of 7200 is less than 6581 plus 945 because of de-duplication, but the size of the overlap is not stated. The page carries a promotional 'tip of the iceberg' framing and advocacy quotations from coalition members, which are argument, not findings.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The headline and text say 'since COP9 in 2003' and 'over the last 20 years', while the methodology says COPs 9 to 27; the page does not say which year COP9 and COP27 fall in beyond 2003 and 'last year' for COP27. No instructions to a reader or AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC final participant lists, COPs 9 to 27",
+      "what_it_is": "Source of the delegate counts (original PDF lists, adapted for analysis).",
+      "page": "Methodology, paras 33 and 38"
+    },
+    {
+      "name": "Rystad top 100 oil and gas producers since 2000",
+      "what_it_is": "Production figures used to choose the companies counted.",
+      "page": "Methodology, para 35"
+    },
+    {
+      "name": "CDP list of largest historical carbon emitters (Carbon Majors Report 2017, linked)",
+      "what_it_is": "Second list of companies counted. The link target is given on the page; the report itself was not read.",
+      "page": "Methodology, para 35"
+    }
+  ],
+  "relevant_to": ["Q2", "method", "context"],
+  "pages_read": "Full text of the saved web page as extracted (39 paragraphs, 1687 words, one section plus the Methodology paragraphs). Linked documents were not read. This is a short press-style page, not a full report.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

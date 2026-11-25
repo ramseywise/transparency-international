@@ -1,0 +1,210 @@
+{
+  "id": "kbpo-2025-lobbyist-method-faq",
+  "citation": {
+    "authors": ["Kick Big Polluters Out (KBPO) (no named authors; source lists '--')"],
+    "year": 2025,
+    "title": "KBPO's fossil fuel lobbyist research: Method and FAQ's (stored title: response to fossil fuel lobbyist queries)",
+    "venue_or_publisher": "Kick Big Polluters Out",
+    "doi_or_url": "https://kickbigpollutersout.org/sites/default/files/2025-11/KBPO%E2%80%99s%20fossil%20fuel%20lobbyist%20research-%20Method%20and%20FAQ%E2%80%99s.pdf",
+    "type": "campaign organisation methodology note and FAQ (PDF, 4 pages), dated Nov 2025 (published 2025-11-20)",
+    "peer_reviewed": "no"
+  },
+  "question": "How KBPO identifies and classifies fossil fuel lobbyists among registered COP30 participants, and why, in response to queries about its method.",
+  "data": "UNFCCC provisional list of participants for COP30 (Brazil). Only the delegation and the affiliation each delegate declared were used. Supporting open sources: company and trade group websites, lobbying registers, credible media reports, and data shared by InfluenceMap. No sample size is given.",
+  "method": "Team classified each list entry line by line, plus a script to check whether a person was identified as a fossil fuel lobbyist in earlier years; fact-checkers then verify. Organisations are classified as fossil fuel (company or trade association) by the criteria below, and their delegates, including people on their formal delegations, are counted as fossil fuel lobbyists. Names of individuals are not published.",
+  "definitions": [
+    {
+      "term": "Fossil fuel lobbyist",
+      "definition": "Any individual delegate who represents an organisation or is on a delegation that can reasonably be assumed to aim to influence policy in the interests of the fossil fuel industry or a particular fossil fuel company and its shareholders.",
+      "quote": "a member of a delegation that can be reasonably assumed to have the objective of influencing the formulation or implementation of policy or legislation in the interests of the fossil fuel industry",
+      "page": 1
+    },
+    {
+      "term": "Fossil fuel company (criteria a)",
+      "definition": "A company with significant business activities in exploration, extraction, refining, trading, specialised transportation of fossil fuels, or sale of electricity derived from them; publicly declared and verifiable; need not be its only activity.",
+      "quote": "it must have significant business activities in the exploration, extraction, refining, trading, specialised transportation of fossil fuels, or sale of electricity derived from them.",
+      "page": 1
+    },
+    {
+      "term": "Fossil fuel company (criteria a), declaration requirement",
+      "definition": "The business interest must be public and verifiable, and may be one of several activities.",
+      "quote": "This business interest must be publicly declared and verifiable, but does not need to constitute the only activity the company engages in.",
+      "page": 1
+    },
+    {
+      "term": "Fossil fuel company (criteria a), FAQ wording",
+      "definition": "FAQ gives a second operationalisation of 'significant business activities': public declaration of commercial involvement in handling fossil fuel, or public promotion of significant investments in such companies.",
+      "quote": "(exploration, extraction, refining, trading, processing, distribution to consumers) OR who promotes publicly that is has significant investments in such companies.",
+      "page": 3
+    },
+    {
+      "term": "Organisation with primary fossil fuel focus",
+      "definition": "Organisations whose main clients or focus of activity is fossil fuels are also classed as fossil fuel lobbyists.",
+      "quote": "Organizations whose primary clients and/or focus of their activity is fossil fuels are also considered fossil fuel lobbyists.",
+      "page": 2
+    },
+    {
+      "term": "Trade association / other organisation (criteria b)",
+      "definition": "Classified when fossil fuel companies are directly involved or hold leadership positions or membership; or it publicly says its purpose is to represent the fossil fuel industry; or it has a recent record of supporting positions.",
+      "quote": "fossil fuel companies are directly involved and/or have leadership positions on the association’s board or as members; the association promotes publicly that its purpose is to represent the fossil fuel industry;",
+      "page": 2
+    },
+    {
+      "term": "Trade association / other organisation (criteria b), third criterion",
+      "definition": "Recent record of positions supporting the fossil fuel industry or extending its lifeline.",
+      "quote": "the organization has a recent record of taking positions that support the fossil fuel industry or extending its lifeline whether via infrastructural, governance, policy support, etc",
+      "page": 2
+    },
+    {
+      "term": "Organisation representing fossil fuel interests (FAQ version of criteria b)",
+      "definition": "A trade association or other organisation representing the interests of a fossil fuel company's management or shareholders; must meet one of three tests, and includes some intergovernmental organisations.",
+      "quote": "OR promote publicly that its purpose is to represent a fossil fuel industry OR have a recent track record of lobbying for pro-fossil fuel positions.",
+      "page": 3
+    },
+    {
+      "term": "Intergovernmental organisations (criteria b extension)",
+      "definition": "UNFCCC-classified international governmental organisations focused on promoting member countries' fossil fuel industries are included.",
+      "quote": "This includes UNFCCC classified “international governmental organizations” that have a focus on promoting the fossil fuel industries of its member countries.",
+      "page": 3
+    },
+    {
+      "term": "Delegates counted through delegation",
+      "definition": "An organisation or individual on the formal delegation of a fossil fuel company, organisation or trade association who accepted that badge is also classified as a fossil fuel lobbyist.",
+      "quote": "if an organization or individual is on the formal delegation of a fossil fuel lobbyist company/organization or trade association and has in their own capacity accepted that badge",
+      "page": 2
+    },
+    {
+      "term": "Mixed-industry trade associations",
+      "definition": "Trade associations representing other industries as well can appear as fossil fuel delegations; the source says their members are listed because of the delegation's public support for fossil fuel interests.",
+      "quote": "If fossil fuel delegations, including trade associations that represent other industries beyond the fossil fuel industry, were not publicly supporting fossil fuel interests",
+      "page": 2
+    },
+    {
+      "term": "Banks, consultancies and similar service firms",
+      "definition": "Not classed as fossil fuel lobbyists if they can easily show a client base across sectors; classed as such if the overwhelming majority of business is fossil fuel focused.",
+      "quote": "if it is found that the overwhelming majority of its business activities and services are focused on the fossil fuel industry, they are also considered fossil fuel lobbyists.",
+      "page": 4
+    },
+    {
+      "term": "Foundations linked to fossil fuel companies (ownership/control)",
+      "definition": "A delegate's self-declared tie to a foundation directly associated by ownership or control with a fossil fuel company counts as a fossil fuel tie. This is the only ownership or control language; it concerns foundations, not parent and subsidiary companies. The sentence runs across pages 3 and 4.",
+      "quote": "any foundation directly associated by ownership or",
+      "page": 3
+    },
+    {
+      "term": "Foundations linked to fossil fuel companies (ownership/control), continuation",
+      "definition": "Continuation of the sentence above.",
+      "quote": "control with a fossil fuel company that would lead us to classify them as a fossil fuel lobbyist in the context of their presence at COP30.",
+      "page": 4
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Fossil fuel lobbyist (individual)",
+      "indicator": "The delegation through which the person attends COP and any further affiliation the delegate chose to disclose, as shown in the UNFCCC participant list",
+      "quote": "This includes both the delegation through which the individual is attending COP, and any further affiliation the delegate opted to disclose.",
+      "page": 3
+    },
+    {
+      "concept": "Fossil fuel lobbyist (no undeclared ties)",
+      "indicator": "No explicit declared affiliation in the application means no classification",
+      "quote": "If someone did not choose to explicitly state an affiliation to a fossil fuel company or fossil fuel-affiliated organisation in their application to be a delegate at this year’s COP, we were unable to classify them",
+      "page": 3
+    },
+    {
+      "concept": "Significant business activities in fossil fuels",
+      "indicator": "Public declaration of commercial involvement in handling fossil fuel, or public promotion of significant investments in such companies",
+      "quote": "publicly declares that it is involved commercially in the handling of a fossil fuel",
+      "page": 3
+    },
+    {
+      "concept": "Fossil fuel trade association",
+      "indicator": "Fossil fuel companies or senior employees on the board or as corporate members; public statement of purpose; recent lobbying track record",
+      "quote": "significant involvement of fossil fuel companies or their senior employees in their governance structure (either board of directors or corporate members)",
+      "page": 3
+    },
+    {
+      "concept": "Evidence for classifying an organisation",
+      "indicator": "Open sources: company and trade group websites, lobbying registers, credible media reports; data shared by InfluenceMap",
+      "quote": "including the websites of companies and trade groups, lobbying registers, and media reports by credible news outlets.",
+      "page": 4
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The source reports no counts or results. It is a method note and FAQ only; no numbers on lobbyists or organisations appear in the text.",
+      "quote": null,
+      "page": null
+    },
+    {
+      "claim": "Authors state that the method gives a conservative (under-)estimate.",
+      "quote": "The strict nature of our methodology results in a conservative estimate rather than a complete figure.",
+      "page": 4
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Only declared affiliations and delegations in the UNFCCC list are used, so undeclared ties are not found.",
+      "stated_by_authors": true,
+      "quote": "we only considered the information provided in the UNFCCC’s list.",
+      "page": 3
+    },
+    {
+      "point": "Authors cannot observe what any individual does at COP; classification rests on organisation and delegation, not individual behaviour.",
+      "stated_by_authors": true,
+      "quote": "There is no way to track or follow what exactly an individual does or doesn’t do while attending COP",
+      "page": 2
+    },
+    {
+      "point": "Authors say more lobbyists would be found with more time and resources.",
+      "stated_by_authors": true,
+      "quote": "With additional time and resources, we would no doubt uncover many more lobbyists in attendance at the COP.",
+      "page": 4
+    },
+    {
+      "point": "Classification does not exonerate organisations not classed as fossil fuel, such as banks or consultancies with mixed clients.",
+      "stated_by_authors": true,
+      "quote": "the purpose of this classification is not to exonerate everyone who is not a fossil fuel lobbyists",
+      "page": 4
+    },
+    {
+      "point": "No numeric threshold is given for 'significant', 'primary' or 'overwhelming majority'; the terms are not operationalised. Parent/subsidiary treatment and a definition of 'company' or 'enterprise' are not given. These are gaps noted by the reader, not stated by the authors.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Source is a campaign organisation's own methodology statement written in response to queries, with advocacy framing; not independently reviewed. Lists of vetted organisations are not in this document.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The text contains no instructions addressed to a reader or AI.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC provisional list of participants, COP30",
+      "what_it_is": "Public list in which each participant declares organisation, relationship, role and delegation; sole input to the classification",
+      "page": 3
+    },
+    {
+      "name": "InfluenceMap data",
+      "what_it_is": "Data shared by InfluenceMap, an independent think tank, consulted when classifying; not itself described further",
+      "page": 4
+    },
+    {
+      "name": "KBPO online methodology",
+      "what_it_is": "Fuller methodology said to be available online; not included in this document",
+      "page": 1
+    }
+  ],
+  "relevant_to": [],
+  "pages_read": "1-4 (whole document, 4 pages)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

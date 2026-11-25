@@ -1,0 +1,190 @@
+{
+ "id": "doi-10-1007-s42001-024-00345-9",
+ "citation": {
+  "authors": ["Alizadeh, M.", "Kubli, M.", "Samei, Z.", "Dehghani, S.", "Zahedivafa, M.", "Bermeo, J.D.", "Korobeynikova, M.", "Gilardi, F."],
+  "year": 2024,
+  "title": "Open-source LLMs for text annotation: a practical guide for model setting and fine-tuning",
+  "venue_or_publisher": "Journal of Computational Social Science 8, 17 (2025); published online 18 December 2024",
+  "doi_or_url": "https://doi.org/10.1007/s42001-024-00345-9",
+  "type": "journal article (open access, CC BY 4.0)",
+  "peer_reviewed": "yes"
+ },
+ "question": "How well do open-source language models (LLaMA, FLAN) classify text for political science tasks (relevance, topic, stance, frames), compared with GPT-3.5/GPT-4 and crowd-workers, and which choices (zero-shot, few-shot, fine-tuning, temperature, amount of annotation) matter.",
+ "data": "Four datasets, 9,777 texts in total: 2,978 tweets on content moderation (2020-2021); 3,006 tweets by US Congress members (2017-2022); 2,480 newspaper articles on content moderation (2020-2021, LexisNexis); 1,313 tweets from January 2023. Eleven annotation tasks. Gold standard: three trained political science students. Comparison: Amazon MTurk workers (two per text).",
+ "method": "Each model's labels were compared with the trained annotators' labels (accuracy, intercoder agreement, per-class precision/recall/F1). Zero-shot, few-shot (chain-of-thought examples) and fine-tuning (training sets of 50 to 1,500 texts, at least 15% held out for evaluation) were compared for GPT-3.5, GPT-4, LLaMA-1/2/3 and FLAN-T5. Texts on which the two trained annotators disagreed were left out of the accuracy calculation. Temperature 0.2 and the default were compared; fine-tuning runs used 0.0.",
+ "definitions": [
+  {
+   "term": "accuracy (agreement with human annotators)",
+   "definition": "Share of correct predictions, with the trained human annotations as gold standard, counting only texts both annotators agreed on.",
+   "quote": "using trained human annotations as our gold standard and considering only texts that both annotators agreed upon",
+   "page": "Evaluation metrics"
+  },
+  {
+   "term": "intercoder agreement",
+   "definition": "Share of instances for which two annotators in a group (or two runs of the same model) give the same class.",
+   "quote": "intercoder agreement, measured as the percentage of instances for which both annotators in a given group report the same class",
+   "page": "Evaluation metrics"
+  },
+  {
+   "term": "zero-shot learning",
+   "definition": "The model generalises to tasks it has not seen, with no labelled examples.",
+   "quote": "Zero-Shot Learning enables models to generalize to hitherto unseen tasks without the requirement for labeled examples",
+   "page": "Introduction"
+  },
+  {
+   "term": "few-shot learning",
+   "definition": "A minimal set of annotated examples is used to adapt the model to a new task.",
+   "quote": "Few-Shot Learning leverages a minimal set of annotated instances to adapt the model to new tasks",
+   "page": "Introduction"
+  },
+  {
+   "term": "fine-tuning",
+   "definition": "Retraining the model on a specialised dataset to improve task-specific performance.",
+   "quote": "fine-tuning constitutes the retraining of LLMs on a specialized, domain-specific dataset to augment task-specific performance",
+   "page": "Introduction"
+  },
+  {
+   "term": "relevance task",
+   "definition": "Whether a tweet is about content moderation, or in a separate task about politics.",
+   "quote": "relevance: whether a tweet is about content moderation or, in a separate task, about politics",
+   "page": "Data annotation tasks"
+  }
+ ],
+ "proxies": [
+  {
+   "concept": "correctness of a language-model label",
+   "indicator": "Agreement with labels from three trained annotators working from the same codebook, counting only texts on which both annotators agreed.",
+   "quote": "each of the students operated independently and systematically annotated the dataset task by task, adhering to a uniform codebook and shared procedural guidelines",
+   "page": "Trained annotators"
+  },
+  {
+   "concept": "consistency (reliability) of a language model",
+   "indicator": "Intercoder agreement between two runs of the same model, at default and lowered temperature.",
+   "quote": "We conducted two sets of annotations for each temperature value to compute LLM’s intercoder agreement.",
+   "page": "Temperature setting: higher versus lower"
+  },
+  {
+   "concept": "performance on rare classes",
+   "indicator": "Precision, recall and F1 per class, used so that models are not biased towards the majority class.",
+   "quote": "we calculated each class’s precision, recall, and F1 score",
+   "page": "Evaluation metrics"
+  },
+  {
+   "concept": "contamination of results by training data",
+   "indicator": "A new sample of tweets from 2023, after the models' training cut-off, added so that the models are not merely reproducing training texts.",
+   "quote": "to address the concern that LLMs might be merely reproducing texts that could have been part of their training data",
+   "page": "Results"
+  }
+ ],
+ "findings": [
+  {
+   "claim": "Zero-shot GPT-3.5 beat crowd-workers by about 25 percentage points on average (finding of the earlier study this one extends).",
+   "quote": "the zero-shot accuracy of GPT\\(-\\)3.5 exceeds that of crowd workers by about 25 percentage points on average",
+   "page": "Choosing the training approach: zero-shot versus few-shot"
+  },
+  {
+   "claim": "Few-shot prompting gave mixed results: some tasks gained, some lost, with no pattern by task complexity, model or data type.",
+   "quote": "In our tests, few-shot results are mixed, some tasks benefited from it and some lost performance.",
+   "page": "Choosing the training approach: zero-shot versus few-shot"
+  },
+  {
+   "claim": "Lowering the temperature raised agreement between two runs of the same model (GPT-3.5 zero-shot from 91.7% to 97.6%; LLaMA-1 HuggingChat from 46.7% to 84.8%).",
+   "quote": "GPT\\(-\\)3.5’s average intercoder agreement increased from 91.7% to 97.6% when the temperature was reduced from 1 to 0.2 in the zero-shot setting",
+   "page": "Temperature setting: higher versus lower"
+  },
+  {
+   "claim": "In almost all tasks, lower temperature raised run-to-run agreement without lowering accuracy; one exception was the relevance task on 2020-2021 tweets.",
+   "quote": "in almost all annotation tasks, lower temperature setting for GPT-3.5 and HuggingChat increases the intercoder agreement rate without decreasing the accuracy",
+   "page": "Temperature setting: higher versus lower"
+  },
+  {
+   "claim": "No model was best on all 11 tasks; only GPT-4 and GPT-3.5 beat crowd-workers on all 11.",
+   "quote": "no LLM outperforms others across all 11 annotation tasks; (2) only GPT-4 and GPT\\(-\\)3.5 outperform MTurkers in all 11 annotation tasks",
+   "page": "Model selection: proprietary versus open-source LLMs"
+  },
+  {
+   "claim": "Open-source models are not consistently the best choice but generally beat crowd-workers and approach GPT-3.5.",
+   "quote": "while open-source LLMs are not consistently the superior choice, they generally outperform crowd-sourced annotations and are approaching the performance levels of GPT 3.5",
+   "page": "Model selection: proprietary versus open-source LLMs"
+  },
+  {
+   "claim": "Fine-tuned FLAN-T5 (XL) matched or exceeded zero-shot GPT-3.5 on all tasks and datasets except one; accuracy generally rose with the amount of fine-tuning data.",
+   "quote": "FLAN-T5 (XL) matches or even surpasses GPT-3.5’s zero-shot performance across all tasks and datasets (except one task)",
+   "page": "Annotation size: how much annotation is enough for fine-tuning?"
+  },
+  {
+   "claim": "Fine-tuning GPT-3.5 with 50 examples raised average accuracy by 15.7%; open-source models improved more gradually.",
+   "quote": "it registers an average accuracy increase of 15.7 %, which further escalates to 19.1 % when the training set comprises 100 cases",
+   "page": "Annotation size: how much annotation is enough for fine-tuning?"
+  },
+  {
+   "claim": "Authors recommend (advice, not a measured result): always have a human expert annotate 100-250 items to measure model accuracy on a new dataset or task.",
+   "quote": "Always manually annotate 100-250 data points to measure the accuracy of LLMs, specailly If working on a new dataset or task.",
+   "page": "Choosing the training approach: zero-shot versus few-shot"
+  },
+  {
+   "claim": "Authors recommend (advice): validate model output against human experts, run the model at least twice per task and report average accuracy and intercoder agreement, and set temperature to zero or low.",
+   "quote": "always validate the output of LLMs by human expert evaluation; (4) run LLMs at least twice per task and report average accuracy and intercoder agreement",
+   "page": "Conclusion"
+  },
+  {
+   "claim": "Authors recommend (advice): annotate 250-500 items and use half for fine-tuning and half for accuracy testing.",
+   "quote": "manually annotate 250-500 data points and use half for fine-tuning and half for accuracy testing",
+   "page": "Conclusion"
+  }
+ ],
+ "limitations": [
+  {
+   "point": "Results should not be generalised across all annotation tasks or datasets; researchers should run their own evaluation on their own data.",
+   "stated_by_authors": true,
+   "quote": "these results should not be broadly generalized across all forms of text annotation tasks or datasets",
+   "page": "Conclusion"
+  },
+  {
+   "point": "The mixed results (e.g. few-shot) could not be explained; the authors list possible factors but did not test them.",
+   "stated_by_authors": true,
+   "quote": "we could not find any conclusive pattern",
+   "page": "Choosing the training approach: zero-shot versus few-shot"
+  },
+  {
+   "point": "Models' training data and internal workings are not transparent, so why a given input gives a given output cannot be explained; caution advised where explainability matters.",
+   "stated_by_authors": true,
+   "quote": "we advise researchers to exercise caution when employing these models in domains where interpretability and explainability are critical",
+   "page": "A note on explainability of LLMs performance"
+  },
+  {
+   "point": "Fine-tuned models may still fall short of the accuracy a specialised application needs; complex tasks need substantial high-quality training data.",
+   "stated_by_authors": true,
+   "quote": "Despite fine-tuning, it remains possible that the model’s performance may not meet the thresholds required for specific specialized applications.",
+   "page": "Annotation size: how much annotation is enough for fine-tuning?"
+  },
+  {
+   "point": "Tasks are social-media and news text classification (content moderation, US politics); none classifies organisations or uses web pages as input. The gold standard is three student annotators, and no agreement statistic among them (e.g. kappa) is reported in the text; agreement with MTurk is by percentage only.",
+   "stated_by_authors": false,
+   "quote": null,
+   "page": null
+  },
+  {
+   "point": "Supplementary Appendix (full task instructions S1, prompts S2, extra figures) was not in the text file; figure values were not readable.",
+   "stated_by_authors": false,
+   "quote": "Supplementary file 1 (pdf 315 KB) (download PDF )",
+   "page": "Supplementary file 1 (pdf 315 KB) (download PDF )"
+  }
+ ],
+ "reference_lists_or_datasets": [
+  {
+   "name": "Replication package (datasets, Python notebook for fine-tuning open-source LLMs)",
+   "what_it_is": "https://osf.io/ctgqx/",
+   "page": "Data Availability"
+  },
+  {
+   "name": "Content moderation tweets and news articles; US Congress tweets",
+   "what_it_is": "The four annotated datasets (tweets 2020-2021, tweets 2023, news articles 2020-2021, Congress tweets 2017-2022) used for all tasks.",
+   "page": "Data"
+  }
+ ],
+ "relevant_to": ["method"],
+ "pages_read": "Whole article read as a web page (all sections from Abstract to Cite this article, 10,279 words). Reference list not read; Supplementary PDF (task instructions, prompts) not in the text file.",
+ "read_on": "2026-11-24",
+ "read_by": "source-reader, sonnet"
+}

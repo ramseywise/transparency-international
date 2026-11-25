@@ -1,0 +1,220 @@
+{
+  "id": "doi-10-18653-v1-2023-emnlp-main-575",
+  "citation": {
+    "authors": [
+      "Rosamond Thalken",
+      "Edward H. Stiglitz",
+      "David Mimno",
+      "Matthew Wilkens"
+    ],
+    "year": 2023,
+    "title": "Modeling Legal Reasoning: LM Annotation at the Edge of Human Agreement",
+    "venue_or_publisher": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 9252-9265, Association for Computational Linguistics",
+    "doi_or_url": "",
+    "type": "conference paper",
+    "peer_reviewed": "unknown"
+  },
+  "question": "Whether generative language models can classify a complex, specialised construct (modes of legal reasoning, 'formal' versus 'grand') in US Supreme Court opinions as well as domain-expert human annotators, compared with fine-tuned models.",
+  "data": "15,860 US Supreme Court opinions likely involving statutory interpretation, 1870-2014, from Harvard's Caselaw Access Project; 2,748 paragraphs labelled by four upper-year law students (68% 'none'), upsampled with seed terms (25% formal seeds, 25% grand seeds, 50% random). Five random 75/25 train/test splits.",
+  "method": "Four law students built a codebook iteratively and tracked Krippendorff's alpha weekly (final 0.63); a decision chart was added before week 5. Compared fine-tuned models (BERT, DistilBERT, T5-small/base, LEGAL-BERT; multi-class and nested binary) against in-context prompting (GPT-4, FLAN-T5-large, Llama-2-Chat 7B) with three prompts derived from the codebook (class descriptions, examples, chain-of-thought from the decision chart). Also a simpler binary task (is legal reasoning present). Best model (fine-tuned LEGAL-BERT) was applied to trace historical trends, checked against scholarly periodisation.",
+  "definitions": [
+    {
+      "term": "Formal (legal reasoning)",
+      "definition": "A legal decision made according to a rule, viewing the law as a closed and mechanical system that screens the decision-maker off from political, social and economic choices.",
+      "quote": "A legal decision made according to a rule, often viewing the law as a closed and mechanical system.",
+      "page": 3
+    },
+    {
+      "term": "Grand (legal reasoning)",
+      "definition": "A legal decision that views the law as an open-ended, on-going enterprise producing decisions that make sense on their face and in light of political, social and economic factors.",
+      "quote": "A legal decision that views the law as an open-ended and on-going enterprise for the production and improvement of decisions",
+      "page": 3
+    },
+    {
+      "term": "None (legal reasoning)",
+      "definition": "Residual class: passages not reflecting Grand or Formal approaches, including substantive law outside statutory interpretation and procedural matters.",
+      "quote": "A passage or mode of reasoning that does not reflect either the Grand or Formal approaches.",
+      "page": 3
+    },
+    {
+      "term": "Low confidence label",
+      "definition": "Optional fourth label added alongside one of the three core labels when the type of reasoning was ambiguous; resolved later by group majority vote.",
+      "quote": "A fourth label, “low confidence,” could be added in addition to one of the three core labels if the type of reasoning was ambiguous.",
+      "page": 4
+    },
+    {
+      "term": "Legal reasoning present (binary task)",
+      "definition": "For the simpler task, any paragraph labelled formal or grand counts as containing legal reasoning.",
+      "quote": "We consider any paragraph annotated as either formal or grand as being a paragraph where legal reasoning is present",
+      "page": 5
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Opinions that perform statutory interpretation",
+      "indicator": "Keyword filter: statute/legislation/act within 200 characters of mean/constru/interpret/reading/understand",
+      "quote": "include any of the tokens ‘statute’, ‘legislation’, or ‘act’, within 200 characters of the tokens ‘mean’, ‘constru’",
+      "page": 11
+    },
+    {
+      "concept": "Paragraphs likely to show grand reasoning (sampling only)",
+      "indicator": "Seed terms such as committee report, legislative history, legislative purpose, social, society",
+      "quote": "conference report, committee report, senate report, house report, assembly report, senate hearing",
+      "page": 11
+    },
+    {
+      "concept": "Paragraphs likely to show formal reasoning (sampling only)",
+      "indicator": "Seed terms such as dictionary, plain meaning, ordinary meaning, canons like ejusdem generis",
+      "quote": "plain language, whole act, whole-act, whole code, whole-code, in pari materia, meaningful variation, consistent usage",
+      "page": 11
+    },
+    {
+      "concept": "Human annotation reliability",
+      "indicator": "Krippendorff's alpha across four labelers and three classes, calculated weekly",
+      "quote": "We calculated inter-rater reliability using Krippendorff’s alpha to evaluate agreement between the four labelers and across the three main classes.",
+      "page": 4
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Fine-tuned models consistently outperformed in-context generative models on the three-class task.",
+      "quote": "the fine-tuned models consistently outperform the in-context",
+      "page": 6
+    },
+    {
+      "claim": "Fine-tuned in-domain LEGAL-BERT (multi-class) was the best model (macro F1 0.70).",
+      "quote": "Out of all models, the best performing model is LEGAL-BERT,",
+      "page": 7
+    },
+    {
+      "claim": "GPT-4 given the codebook descriptions reached macro F1 0.22 on the three-class task, 0.48 below fine-tuned LEGAL-BERT; other prompt styles reached 0.34-0.45 for GPT-4 (Table 4).",
+      "quote": "the macro F1 for GPT-4 with descriptions is 0.22, 0.48 lower than the F1 for the in-domain, fine-tuned model.",
+      "page": 7
+    },
+    {
+      "claim": "Llama-2-Chat and FLAN-T5 collapsed onto one class, inflating recall for that class.",
+      "quote": "greatly over-predict one of the three classes, and rarely predict the other two classes",
+      "page": 7
+    },
+    {
+      "claim": "On the simpler binary task, zero-shot prompted models were worse than fine-tuned ones and over- or under-identified the class, yet did surprisingly well given the low effort.",
+      "quote": "either over- or under-identify legal reasoning",
+      "page": 5
+    },
+    {
+      "claim": "Human annotation was itself hard: agreement was mid-range (alpha 0.63) after weeks of training.",
+      "quote": "mid-range inter-rater reliability (0.63 Krippendorff’s alpha)",
+      "page": 4
+    },
+    {
+      "claim": "Introducing a decision chart that broke classes into guided questions raised inter-rater reliability.",
+      "quote": "Inter-rater reliability increased after the introduc",
+      "page": 4
+    },
+    {
+      "claim": "Annotators needed weeks of training to reach consistent results.",
+      "quote": "it took weeks for highly trained upper-year law students to reach a level of expertise",
+      "page": 4
+    },
+    {
+      "claim": "Predictions from fine-tuned LEGAL-BERT broadly matched the conventional scholarly periodisation of formal and grand reasoning.",
+      "quote": "the historical trends in our predictions converge with the views of Llewellyn and other legal observers",
+      "page": 8
+    }
+  ],
+  "recommendations": [
+    {
+      "claim": "Be cautious using non-fine-tuned generative models to replace humans on complex tasks.",
+      "quote": "We recommend that researchers use cau",
+      "page": 9
+    },
+    {
+      "claim": "Validate generative model output against humans and weigh cost-performance against in-domain models.",
+      "quote": "Best practices would call for human validation of generative model results",
+      "page": 9
+    },
+    {
+      "claim": "Complex or specialised classification still needs substantial domain-expert annotation.",
+      "quote": "substantial annotation by domain experts remains a critical component.",
+      "page": 1
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Relatively low inter-rater reliability among annotators even after extensive training, due to task difficulty and ambiguous passages read out of case context.",
+      "stated_by_authors": true,
+      "quote": "relatively low inter-rater reliability between annotators",
+      "page": 9
+    },
+    {
+      "point": "Prompts were limited to codebook wording and examples; better prompting might raise LM performance, so results may understate it.",
+      "stated_by_authors": true,
+      "quote": "our results for these models may depict lower performance than is possible.",
+      "page": 9
+    },
+    {
+      "point": "Prompts were not explored beyond the codebook.",
+      "stated_by_authors": true,
+      "quote": "We do not exhaustively explore prompts beyond our code",
+      "page": 6
+    },
+    {
+      "point": "The historical application is preliminary and covers only statutory-interpretation opinions.",
+      "stated_by_authors": true,
+      "quote": "This latter analysis is preliminary",
+      "page": 8
+    },
+    {
+      "point": "Single domain (US Supreme Court legal reasoning), small labelled set (2,748 paragraphs) with a 68% residual class; the setting differs from organisation classification, so transfer is not shown. Not stated by authors in this form.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "LMs were run once per setting (GPT-4 default temperature; zero temperature and system prompt tried without substantial gain), with no repeated runs or reproducibility test of LM outputs reported; the GPT-4 version is not given.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "Final labels for low-confidence paragraphs were set by group majority vote, so the gold standard is a consensus not an independent single coder.",
+      "stated_by_authors": true,
+      "quote": "until reaching a group decision through a majority vote.",
+      "page": 4
+    },
+    {
+      "point": "No instructions addressed to a reader or AI were found in the PDF.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Caselaw Access Project (Harvard)",
+      "what_it_is": "Source of US court opinion text; not open-access but unrestricted for researchers",
+      "page": 4
+    },
+    {
+      "name": "Annotated paragraph dataset (2,748 paragraphs)",
+      "what_it_is": "Law-student labels formal/grand/none; code at github.com/rosthalken/legal-interpretation",
+      "page": 2
+    },
+    {
+      "name": "Codebook, decision chart and prompts (Appendices B-D)",
+      "what_it_is": "Class definitions with examples, decision chart, three prompt designs",
+      "page": 11
+    },
+    {
+      "name": "Seed term lists (Appendix A)",
+      "what_it_is": "Formal and grand seed terms used to upsample paragraphs",
+      "page": 11
+    }
+  ],
+  "relevant_to": [
+    "method"
+  ],
+  "pages_read": "1-14 of 14 (whole PDF, text extracted with PyMuPDF; page numbers are PDF page indices, printed pages are 9252-9265; figures 1, 3, 4, 5 not visible as text)",
+  "read_on": "2026-11-24",
+  "read_by": "2026-11-24 general-purpose agent (sonnet) following source-reader instructions; PDF text extracted (pdftoppm missing), page numbers are PDF page indices"
+}

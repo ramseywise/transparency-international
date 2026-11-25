@@ -1,0 +1,95 @@
+{
+ "id": "nature-s42256-023-00783-6",
+ "citation": {
+  "authors": [
+   "Étienne Ollion",
+   "Rubing Shen",
+   "Ana Macanovic",
+   "Arnault Chatelain"
+  ],
+  "year": 2024,
+  "title": "The dangers of using proprietary LLMs for research",
+  "venue_or_publisher": "Nature Machine Intelligence 6, 4–5",
+  "doi_or_url": "https://doi.org/10.1038/s42256-023-00783-6",
+  "type": "journal comment piece (preview only in the file)",
+  "peer_reviewed": "unknown"
+ },
+ "question": "Only the opening two paragraphs are present. They introduce the use of LLM assistants by social scientists, including to annotate texts; the article's own question and argument are not in the file.",
+ "data": null,
+ "method": null,
+ "definitions": [],
+ "proxies": [],
+ "findings": [
+  {
+   "claim": "Researchers have adopted LLMs to annotate texts, sorting thousands of documents with their own coding scheme (the source's framing of the promise, not a tested result).",
+   "quote": "Researchers have also adopted them to annotate texts. By passing a simple prompt to the machine, they can now sort through thousands of documents.",
+   "page": null
+  }
+ ],
+ "limitations": [
+  {
+   "point": "The file holds only a preview (opening two paragraphs, access options, reference list, author and citation details), not the full text. The article's arguments about proprietary LLMs, and any definitions, methods or findings, are not available. Nothing is recorded beyond what the preview supports.",
+   "stated_by_authors": false,
+   "quote": null,
+   "page": null
+  }
+ ],
+ "reference_lists_or_datasets": [
+  {
+   "name": "Ziems et al. 2023",
+   "what_it_is": "Preprint, arXiv 2305.03514 (cited for social scientists using LLM assistants)",
+   "page": null
+  },
+  {
+   "name": "Gilardi, Alizadeh & Kubli 2023",
+   "what_it_is": "Proc. Natl Acad. Sci. USA 120, e2305016120",
+   "page": null
+  },
+  {
+   "name": "Do, Ollion & Shen 2022",
+   "what_it_is": "Sociol. Methods Res., doi 10.1177/00491241221134526",
+   "page": null
+  },
+  {
+   "name": "Ollion, Shen, Macanovic & Chatelain 2023",
+   "what_it_is": "SocArXiv preprint, doi 10.31235/osf.io/x58kn",
+   "page": null
+  },
+  {
+   "name": "Reiss 2023",
+   "what_it_is": "Preprint, arXiv 2304.11085",
+   "page": null
+  },
+  {
+   "name": "Rytting et al. 2023",
+   "what_it_is": "Preprint, arXiv 2306.02177",
+   "page": null
+  },
+  {
+   "name": "Spirling 2023",
+   "what_it_is": "Nature 616, 413",
+   "page": null
+  },
+  {
+   "name": "Lai et al. 2023",
+   "what_it_is": "Preprint, arXiv 2304.05613",
+   "page": null
+  },
+  {
+   "name": "Saphra, Fleisig, Cho & Lopez 2023",
+   "what_it_is": "Preprint, arXiv 2311.05020",
+   "page": null
+  },
+  {
+   "name": "Bail 2023",
+   "what_it_is": "SocArXiv preprint, doi 10.31235/osf.io/rwtzs",
+   "page": null
+  }
+ ],
+ "relevant_to": [
+  "method"
+ ],
+ "pages_read": "Whole text file read (49 paragraphs), but it is a preview: only the opening paragraphs (before any section heading, so no heading is given as page), the reference list and metadata. The full article was not present.",
+ "read_on": "2026-11-24",
+ "read_by": "source-reader, sonnet"
+}

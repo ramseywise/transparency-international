@@ -1,0 +1,150 @@
+{
+ "id": "doi-10-1038-s41558-026-02723-9",
+ "citation": {
+  "authors": ["Koliev, Faradj", "Nasiritousi, Naghmeh", "Buylova, Alexandra", "Linnér, Björn-Ola"],
+  "year": 2026,
+  "title": "Reform preferences of key actors in the UNFCCC process",
+  "venue_or_publisher": "Nature Climate Change",
+  "doi_or_url": "https://doi.org/10.1038/s41558-026-02723-9",
+  "type": "journal article (survey experiment)",
+  "peer_reviewed": "unknown"
+ },
+ "question": "Which reforms of the COP climate negotiations do state representatives and non-state actors prefer, and where is support broad enough to overcome the consensus rule.",
+ "data": "Preregistered conjoint survey experiment among COP29 (Baku) participants; data collection completed 5 June 2025. 151 completed responses (63 state representatives, 14.0% response rate; 88 non-state actors, 27.8%); 1,812 profile evaluations. Sampling frame: 449 state representatives (UNFCCC national focal points plus other officials cross-checked against the COP29 attendance list) and 317 non-state actors from the top 10th percentile of delegation size by actor type.",
+ "method": "Forced-choice conjoint: each respondent chose between two randomly built reform proposals in six tasks, across six attributes (presidency, decision rules, stakeholder representation, observer role, transparency/accountability, implementation focus). Effects reported as average marginal component effects (AMCEs) and marginal means (MMs), standard errors clustered by respondent. Piloted on site at COP29 (17 state responses).",
+ "definitions": [
+  {
+   "term": "state representatives (sample)",
+   "definition": "Mainly UNFCCC national focal points, heads of delegation and other key officials, typically from foreign or environment ministries.",
+   "quote": "State representatives in our sample are mainly designated national focal points in the UNFCCC, typically high-level officials from the Ministry of Foreign Affairs or Environment",
+   "page": "Experimental design and sample"
+  },
+  {
+   "term": "most influential non-state actors",
+   "definition": "Observer organisations in the top 10th percentile of total delegates sent to the meeting, stratified by actor type.",
+   "quote": "defined as those in the top 10th percentile of total delegates sent to the meeting, stratified by actor type",
+   "page": "Sample and survey procedure"
+  },
+  {
+   "term": "stakeholder representation reform (fossil fuel attribute)",
+   "definition": "Attribute comparing status quo open participation with a reform that limits fossil-fuel company involvement or one that strengthens support for underrepresented groups. Exact wording is in Table 1, which is not in the extracted text.",
+   "quote": "Stakeholder representation compares the status quo of open participation with reforms that either limit fossil-fuel company involvement or strengthen support for underrepresented groups.",
+   "page": "Experimental design and sample"
+  }
+ ],
+ "proxies": [
+  {
+   "concept": "non-state actor groups",
+   "indicator": "UNFCCC constituency groups (BINGO, ENGO, RINGO and others) taken from the list of admitted NGO focal points.",
+   "quote": "business and industry NGOs (BINGOs; n = 47), environmental NGOs (ENGOs; n = 143)",
+   "page": "Sample and survey procedure"
+  },
+  {
+   "concept": "presence of a state representative in the national team",
+   "indicator": "Registration on the COP29 attendance list, cross-checked against the list of national focal points.",
+   "quote": "COP29 participation was used as an inclusion criterion to ensure that all sampled state representatives were members of their country’s negotiation team.",
+   "page": "Sample and survey procedure"
+  }
+ ],
+ "findings": [
+  {
+   "claim": "Non-state actors prefer reforms that limit fossil fuel company participation; state representatives are close to indifferent. In the pooled sample the effect is positive but not statistically significant.",
+   "quote": "non-state actors are more supportive of reforms that limit fossil fuel company participation and expand opportunities for observer engagement.",
+   "page": "Abstract"
+  },
+  {
+   "claim": "Non-state actors: limiting fossil fuel participation raised selection by 9.3 percentage points (AMCE 0.093, CI 0.007 to 0.178).",
+   "quote": "reforms that would limit the participation of fossil fuel companies and associated interests (AMCE 0.093, 95% CI 0.007 to 0.178)",
+   "page": "Differences between state representatives and non-state actors"
+  },
+  {
+   "claim": "In the pooled sample, limiting fossil-fuel participation gives a modest positive but non-significant estimate.",
+   "quote": "both limiting fossil-fuel participation and increasing support for the underrepresented yield modest positive but non-statistical estimates.",
+   "page": "Relative support for COP reform proposals"
+  },
+  {
+   "claim": "Absolute support (marginal mean) among non-state actors for limiting fossil fuel participation is slightly above 0.5; state representatives are near indifferent.",
+   "quote": "also lean towards limiting fossil fuel participation (MM 0.542, 95% CI 0.491 to 0.592), whereas state representatives are closer to indifferent on these items.",
+   "page": "Absolute support for COP reform proposals"
+  },
+  {
+   "claim": "The main state versus non-state differences concern observer participation and fossil fuel interests; both groups support transparency and implementation reforms.",
+   "quote": "the main differences between state representatives and non-state actors concern observer participation and the role of fossil fuel interests",
+   "page": "Differences between state representatives and non-state actors"
+  },
+  {
+   "claim": "Authors suggest participation rules are contested partly because states control accreditation.",
+   "quote": "participation rules implicate states’ authority over accreditation",
+   "page": "Discussion"
+  },
+  {
+   "claim": "Authors argue that reforms to presidency, participation rules and consensus are unlikely to advance without coalition-building (an interpretation and recommendation, not a measured result).",
+   "quote": "reforms to the COP presidency, participation rules and consensus-based decision-making remain more contested and are unlikely to move forward without sustained coalition-building.",
+   "page": "Discussion"
+  }
+ ],
+ "limitations": [
+  {
+   "point": "Small, non-representative elite sample with low response rate among state representatives; non-response could bias results.",
+   "stated_by_authors": true,
+   "quote": "If individuals who chose not to participate systematically differ in their reform preferences from those who did respond, this could bias the estimated levels of support for some reform proposals.",
+   "page": "Respondents"
+  },
+  {
+   "point": "Overrepresentation of Europe-based, mostly NGO, non-state respondents.",
+   "stated_by_authors": true,
+   "quote": "the sample includes a relatively large share of Europe-based respondents among non-state actors and cannot be treated as statistically representative of all COP participants.",
+   "page": "Reliability and validity"
+  },
+  {
+   "point": "Regional groupings only: no distinction between country coalitions, and no question on country of origin, so EU member state delegations cannot be isolated.",
+   "stated_by_authors": true,
+   "quote": "focusing on regional groupings prevents differentiation between state actors from distinct party coalitions, limiting insight into power asymmetries in support for specific proposals.",
+   "page": "Discussion"
+  },
+  {
+   "point": "Forced-choice design measures relative preference, not standalone endorsement of any reform.",
+   "stated_by_authors": true,
+   "quote": "a forced-choice conjoint captures relative preferences rather than absolute endorsement.",
+   "page": "Reliability and validity"
+  },
+  {
+   "point": "The study measures stated preferences about reforms. It does not count or classify fossil fuel-linked delegates or business presence in delegations, and defines no fossil fuel-linked category. Table 1 (exact wording of attribute levels), Extended Data tables and Supplementary Information are not in the extracted text.",
+   "stated_by_authors": false,
+   "quote": null,
+   "page": null
+  },
+  {
+   "point": "Peer review status is not stated in the extracted text (published in Nature Climate Change; ledger left it blank).",
+   "stated_by_authors": false,
+   "quote": null,
+   "page": null
+  }
+ ],
+ "reference_lists_or_datasets": [
+  {
+   "name": "Replication data and code",
+   "what_it_is": "Survey data and analysis code on Harvard Dataverse (ref. 34).",
+   "page": "Data availability"
+  },
+  {
+   "name": "UNFCCC list of national focal points and COP29 attendance list",
+   "what_it_is": "Sampling frame for state representatives.",
+   "page": "Sample and survey procedure"
+  },
+  {
+   "name": "UNFCCC list of admitted NGO focal points",
+   "what_it_is": "Sampling frame for non-state actors; method follows Green (ref. 19).",
+   "page": "Sample and survey procedure"
+  },
+  {
+   "name": "Nasiritousi, Buylova, Fridahl and Reischl (2024), Glob. Policy 15, 487-494",
+   "what_it_is": "Cited research agenda on vested interests and green spiralling in the UNFCCC; candidate for follow-up.",
+   "page": "References"
+  }
+ ],
+ "relevant_to": ["Q2", "context"],
+ "pages_read": "Whole web page text read: Abstract, Main, all result sections, Discussion, Methods, Data and Code availability. References read as far as the first entries and searched for relevant terms; remaining reference list not read in full. Table 1, Extended Data and Supplementary Information not in the text.",
+ "read_on": "2026-11-24",
+ "read_by": "source-reader, sonnet"
+}

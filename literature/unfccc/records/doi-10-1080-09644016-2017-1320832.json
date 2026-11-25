@@ -1,0 +1,226 @@
+{
+  "id": "doi-10-1080-09644016-2017-1320832",
+  "citation": {
+    "authors": ["Naghmeh Nasiritousi"],
+    "year": 2017,
+    "title": "Fossil fuel emitters and climate change: unpacking the governance activities of large oil and gas companies",
+    "venue_or_publisher": "Environmental Politics, 26(4), 621-647 (Taylor & Francis); published online 11 May 2017",
+    "doi_or_url": "https://doi.org/10.1080/09644016.2017.1320832",
+    "type": "journal article",
+    "peer_reviewed": "unknown"
+  },
+  "question": "How the 10 largest oil and gas companies in the world present their rationales for addressing climate change and what climate governance activities they report, including their involvement in UN climate diplomacy, and whether these differ between companies in developed and developing countries and between private and state-owned companies.",
+  "data": "Company websites of the 10 largest oil and gas companies by daily production (Forbes 2012 list), searched in the first half of 2015 with a repeat check in April 2016; annual and sustainability reports where the site had no hits; four interviews (one Shell representative, two Pemex representatives, one anonymous US company representative) plus one interview with a staff member of Iran's Ministry of Environment about NIOC. Table 1 gives company statistics (headquarters, production, reserves, sales, profit, assets, market value, employees, direct emissions).",
+  "method": "Qualitative content analysis. Website material was sorted into a template under ten governance activities taken from the governance-profile framework of Nasiritousi et al. (2016), by the author's own interpretation; results are shown as ticks per company in Table 2. Semi-structured interviews added context. News articles and reports were used for context, not to validate the companies' claims. The study does not count or measure company presence at UN climate conferences; it records what companies say about attending.",
+  "definitions": [
+    {
+      "term": "state-owned company (as a non-state actor)",
+      "definition": "State-owned companies do not have the status of a state in international law, so by definition they count as non-state entities; the author treats non-state as a spectrum from private to different degrees of attachment to public bodies.",
+      "quote": "state-owned companies do not have the status of a state under international law and are therefore by deﬁnition non-state entities",
+      "page": 4
+    },
+    {
+      "term": "non-state actor category as a spectrum",
+      "definition": "Non-state actors range from clearly private to partly attached to public entities.",
+      "quote": "This highlights the need to see the non-state actor category as a spectrum, where some actors are clearly at the private end of the spectrum while others have diﬀerent degrees of attachment to public entities.",
+      "page": 4
+    },
+    {
+      "term": "investor-owned versus state-owned oil and gas company (as used in the sample)",
+      "definition": "ExxonMobil, BP, Shell and Chevron are investor-owned; the other six are state-owned, fully or by majority stake.",
+      "quote": "ExxonMobil, BP, Shell and Chevron are investor-owned companies, while the remainder are state-owned (fully or majority stake).",
+      "page": 5
+    },
+    {
+      "term": "governance activities (how website content was assigned to categories)",
+      "definition": "Assignment of company statements to the ten governance activities was the author's subjective interpretation, applied consistently; one action (attending and speaking at UNFCCC meetings) could fit several categories.",
+      "quote": "This required subjective interpretations of what the diﬀerent governance activities entail.",
+      "page": 9
+    },
+    {
+      "term": "participation of companies at UNFCCC meetings: delegation member versus observer",
+      "definition": "Representatives of state-owned companies are part of official government delegations; representatives of investor-owned companies attend as observers.",
+      "quote": "representatives of the state-owned companies are part of the oﬃcial government delegations while those of investor-owned companies are there as observers",
+      "page": 13
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "large fossil fuel company (sample selection)",
+      "indicator": "The 10 largest oil and gas companies by daily production of oil and natural gas, from the Forbes 2012 list",
+      "quote": "I therefore analyse the governance activities of the 10 largest (in terms of daily production) oil and gas companies in the world.",
+      "page": 5
+    },
+    {
+      "concept": "fossil fuel emitter",
+      "indicator": "Rank among the world's largest cumulative greenhouse gas contributors, 1854-2010 (Heede 2014); all 10 sample companies are in the top 15",
+      "quote": "all of which are among the world’s 15 largest contributors of greenhouse gas emissions cumulatively for years 1854–2010 (Heede 2014)",
+      "page": 5
+    },
+    {
+      "concept": "fossil fuel entities in the wider literature",
+      "indicator": "Heede (2014) traces cumulative emissions to 90 entities producing oil, natural gas, coal and cement, both investor-owned and state-owned",
+      "quote": "‘63% of cumulative worldwide emissions of industrial CO2 and methane between 1751 and 2010’ can be traced to 90 entities producing oil, natural gas, coal and cement",
+      "page": 4
+    },
+    {
+      "concept": "company's climate governance activities",
+      "indicator": "Search of company websites for the terms 'climate change' and 'global warming' in English and the original language; annual and sustainability reports if no hits",
+      "quote": "Company websites were searched during the ﬁrst half of 2015 for the terms ‘climate change’ and ‘global warming’ in English as well as in the original language where applicable.",
+      "page": 8
+    },
+    {
+      "concept": "company engagement at UNFCCC meetings",
+      "indicator": "What the company says on its website or in interview about attending meetings and side-events; level of involvement described qualitatively",
+      "quote": "Shell attends on a regular basis and sends several representatives, while Gazprom is less consistently active.",
+      "page": 14
+    },
+    {
+      "concept": "route by which companies not in a government delegation gain access to UNFCCC negotiations",
+      "indicator": "Membership of trade associations such as IPIECA or the World Business Council on Sustainable Development",
+      "quote": "By joining trade associations like IPIECA or the World Business Council on Sustainable Development, companies that are not part of a government delegation also gain the opportunity to be represented at UNFCCC negotiations.",
+      "page": 13
+    }
+  ],
+  "findings": [
+    {
+      "claim": "All 10 companies treat climate change as a business risk and have developed strategies for it.",
+      "quote": "On the whole, the results show that each of the oil and gas companies views climate change as a business risk and has therefore developed strategies to mitigate this risk.",
+      "page": 10
+    },
+    {
+      "claim": "Representatives of state-owned companies sit in official government delegations at UNFCCC meetings, while investor-owned companies attend as observers.",
+      "quote": "representatives of the state-owned companies are part of the oﬃcial government delegations while those of investor-owned companies are there as observers",
+      "page": 13
+    },
+    {
+      "claim": "Companies describe UNFCCC meetings as a venue to follow policy debates and exchange views with policymakers; involvement differs by company (Shell regular, Gazprom less consistent).",
+      "quote": "The UNFCCC is thus viewed as an important venue for the exchange of views with international policymakers and other stakeholders.",
+      "page": 14
+    },
+    {
+      "claim": "Only the two European companies (BP, Shell) are described as actively lobbying for carbon pricing.",
+      "quote": "The European companies (BP and Shell) are the only companies actively and prominently lobbying in favour of carbon pricing",
+      "page": 11
+    },
+    {
+      "claim": "Companies are also involved in advocacy that could undermine climate action, and some belong to trade associations that oppose most climate regulation.",
+      "quote": "These contradictions are also manifest in the trade associations that several of these companies are members of, some of which oppose most climate regulations.",
+      "page": 12
+    },
+    {
+      "claim": "Investor-owned companies in developed countries were found active across more governance activities and more likely to use discursive power to frame the debate.",
+      "quote": "The investor-owned companies based in developed countries face additional pressures to take action from NGOs and shareholders, and engage across more governance activities.",
+      "page": 22
+    },
+    {
+      "claim": "A US company representative described side-events at UNFCCC meetings as educating negotiators and distinguished this from lobbying (interviewee's own account).",
+      "quote": "educating should not be confused with lobbying",
+      "page": 21
+    },
+    {
+      "claim": "The presence of large oil and gas companies at UNFCCC conferences is described as increasingly controversial (stated in the introduction as background, not tested).",
+      "quote": "the presence of large oil and gas companies at the international climate change conferences under the auspices of the United Nations Framework Convention on Climate Change (UNFCCC) has been the subject of increasing controversy",
+      "page": 2
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The study does not count or measure fossil-fuel or business presence at UNFCCC conferences or in country delegations. It reports only what 10 companies say about their activities, so it gives no size figure for Q1 or Q2 and no definition of 'business' or 'fossil-fuel linked' for classifying participants.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The analysis rests on self-reported company information and the author did not verify it.",
+      "stated_by_authors": true,
+      "quote": "While I have focused on the governance activities as reported by the companies themselves and do not seek to verify the information",
+      "page": 23
+    },
+    {
+      "point": "No systematic attempt to validate the self-reported claims; outside sources were used only for context.",
+      "stated_by_authors": true,
+      "quote": "While no systematic attempt has been made to validate the self-reported information from the oil and gas companies, these secondary sources are used to provide context to the presented information.",
+      "page": 10
+    },
+    {
+      "point": "Table 2 is incomplete because activities not publicised are not shown, so absence of a tick does not show absence of the activity.",
+      "stated_by_authors": true,
+      "quote": "Thus, as the analysis is based on self-reported information, the governance activities presented in Table 2 are not complete as some activities will be under-reported.",
+      "page": 10
+    },
+    {
+      "point": "Coding of activities into categories involved subjective interpretation.",
+      "stated_by_authors": true,
+      "quote": "This required subjective interpretations of what the diﬀerent governance activities entail.",
+      "page": 9
+    },
+    {
+      "point": "The website search covered the parent company only, not subsidiaries.",
+      "stated_by_authors": true,
+      "quote": "It should be noted that the website search pertains to the parent company and not to subsidiary companies.",
+      "page": 24
+    },
+    {
+      "point": "One company (NIOC) had no climate information on its website, so its results rest entirely on an interview with a ministry official.",
+      "stated_by_authors": true,
+      "quote": "Only one company website – NIOC – did not contain any information concerning climate change",
+      "page": 8
+    },
+    {
+      "point": "The explanations for differences between companies rest on few interviews.",
+      "stated_by_authors": true,
+      "quote": "Although based on only four interviews",
+      "page": 20
+    },
+    {
+      "point": "Outside sources are mostly Western, so less material is available on non-Western companies.",
+      "stated_by_authors": true,
+      "quote": "Because these sources are predominantly from the Western world, however, less material is presented for non-Western companies.",
+      "page": 10
+    },
+    {
+      "point": "The author says a systematic comparison of the companies is beyond the scope of the study.",
+      "stated_by_authors": true,
+      "quote": "While a systematic comparison of these companies is beyond the scope of this discussion",
+      "page": 3
+    },
+    {
+      "point": "The extracted text shows 'two anonymous reviewers' thanked in the acknowledgements, but the file does not state whether the journal is peer reviewed, so peer_reviewed is left as unknown. Table 1 and Table 2 are only partly legible in the extracted text (tick marks without clear column alignment), so no per-company values from them are used. No instructions addressed to a reader or an AI were found.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Forbes (2012), The world's 25 biggest oil companies",
+      "what_it_is": "Ranking by daily production used to choose the 10 companies",
+      "page": 5
+    },
+    {
+      "name": "Heede (2014), Tracing anthropogenic carbon dioxide and methane emissions to fossil fuel and cement producers, 1854-2010 (Climatic Change)",
+      "what_it_is": "Cumulative-emissions attribution to 90 producing entities; used to show the sample companies are among the largest emitters",
+      "page": 4
+    },
+    {
+      "name": "Nasiritousi, Hjerpe and Linner (2016), governance profiles of non-state actors",
+      "what_it_is": "Framework with ten governance activities used to sort website content",
+      "page": 7
+    },
+    {
+      "name": "Petrostrategies (2014) and Forbes (2015) company statistics",
+      "what_it_is": "Sources for reserves, sales, profit, assets and market value in Table 1",
+      "page": 6
+    },
+    {
+      "name": "Reference list (about 45 works) and 42 numbered notes with web links",
+      "what_it_is": "Includes Downie 2014 on transnational actors in long negotiations, Hanegraaff 2015 on business and NGO mobilisation at UN climate summits, Levy and Kolk 2002, Meckling 2015; note 1 links a petition asking UNFCCC parties to withdraw conference access from fossil fuel industry representatives",
+      "page": 26
+    }
+  ],
+  "relevant_to": ["Q2", "context"],
+  "pages_read": "All 28 pages of the extracted text (pages 1-28, including notes and reference list), plus the list of links at the end of the file. Full article text was present; tables are only partly legible in the extraction.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

@@ -1,0 +1,127 @@
+{
+  "id": "gupta-allan-2023-on-behalf-of-my-delegation",
+  "citation": {
+    "authors": [
+      "Joyeeta Gupta",
+      "Jennifer Allan"
+    ],
+    "year": 2023,
+    "title": "\"On Behalf of My Delegation…\" A survival guide for new and lonely climate change negotiators, Second Edition",
+    "venue_or_publisher": "International Institute for Sustainable Development (IISD), Earth Negotiations Bulletin; ISBN 978-1-894784-86-3",
+    "doi_or_url": null,
+    "type": "practitioner guidebook (158 pp.)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "Not a research study. It is a manual to help new negotiators, especially from the Global South, handle UNFCCC negotiations. It covers the negotiating context, rules of procedure, coalitions, negotiating skills and tips.",
+  "data": "None stated. The guide draws on the authors' expertise and cited literature. It has no dataset on delegate numbers or affiliations.",
+  "method": "No empirical method. The guide combines descriptions of substance and procedure, theory and practical tips.",
+  "definitions": [
+    {
+      "term": "UNFCCC non-state actor constituencies (includes BINGOs)",
+      "definition": "Non-state actors fall into nine constituencies. BINGOs are business and industry non-governmental organisations. The other constituencies are ENGOs, RINGOs, IPOs, TUNGOs, WGC, YOUNGOs, LGMAs and Farmers.",
+      "quote": "• BINGOs: Business and industry non-governmental organisations (NGOs)",
+      "page": 69
+    },
+    {
+      "term": "Head of delegation / negotiating team",
+      "definition": "The team is led by the head of delegation, who often has a deputy. Heads may represent the country in Presidency-led consultations, though this often happens through coalitions.",
+      "quote": "The team is led by the head of delegation. There is frequently a deputy head who can negotiate during the all-night sessions.",
+      "page": 91
+    },
+    {
+      "term": "Credentials (role of the Bureau)",
+      "definition": "The Bureau examines the credentials of Parties. It also reviews the list of intergovernmental and non-governmental organisations seeking accreditation.",
+      "quote": "The Bureau is responsible for examining the credentials of Parties, reviewing the list of intergovernmental organisations and non-governmental organisations seeking accreditation",
+      "page": 63
+    },
+    {
+      "term": "Formal vs informal sessions (observer access)",
+      "definition": "Formal sessions are open to all Parties and accredited observers. Informal sessions are not guaranteed to be open to observers.",
+      "quote": "Observer access is not guaranteed and may be limited to a few people.",
+      "page": 53
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Business and industry participation at COPs",
+      "indicator": "Membership of the BINGO constituency, which is the guide's only category for business observers. It gives no counts and no sector breakdown.",
+      "quote": "Some business and industry NGOs may actually advocate for limited progress in the negotiations or to delay action.",
+      "page": 70
+    },
+    {
+      "concept": "Fossil fuel-linked actors",
+      "indicator": "Industry groups \"representing fossil fuel and other climate-harming sectors\". The guide offers no operational test for deciding who is fossil-linked.",
+      "quote": "Others, however, continue to represent fossil fuel and other climate-harming sectors.",
+      "page": 70
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Industry groups at COPs are mixed. Some, mainly in renewables, favour strong action. Others represent fossil fuel and other climate-harming sectors, lobby domestically and attend COPs.",
+      "quote": "A growing number of industry groups favour strong climate action, particularly those in the renewable energy sector.",
+      "page": 70
+    },
+    {
+      "claim": "Whether fossil fuel companies should be allowed at COPs is under discussion in the SBI agenda item on Arrangements for Intergovernmental Meetings.",
+      "quote": "There is a discussion about whether fossil fuel companies should be allowed at COPs under the Arrangements for Intergovernmental Meetings agenda item",
+      "page": 70
+    },
+    {
+      "claim": "The guide advises small delegations to enlarge them by inviting industry, NGOs and scientists. Industry may fund its own participation. This shows that industry representatives can sit on party delegations. The guide gives no figures.",
+      "quote": "domestic industry might be willing to finance its own participation, and NGOs and academics could also try to raise some resources for joining the delegation.",
+      "page": 121
+    },
+    {
+      "claim": "The guide advises vetting potential delegation members carefully. Industry representatives, NGOs and academics may need invitation letters from the Secretariat for visas.",
+      "quote": "Start this process early and vet potential delegation members carefully.",
+      "page": 132
+    },
+    {
+      "claim": "Delegation size is constrained for many developing countries. Lack of public, NGO or industry support is listed among constraints on the national mandate.",
+      "quote": "Lack of public/NGO support; lack of industry involvement",
+      "page": 103
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The source gives no counts of delegates, no sector breakdown, and no data on EU delegations or fossil-linked delegates. It cannot answer Q1 or Q2 quantitatively.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The source is a practical manual, not a study. It does not define what counts as business or fossil-linked beyond the BINGO constituency label.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Coverage: the chunk file held about 12% of the text. Keyword searches of the full text for credential, badge, head of delegation, private sector, business, industry, lobby and fossil found nothing further on badges, party overflow, or EU coordination as a delegation-composition issue. No instructions addressed to a reader or an AI were seen.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Table 4: List of Parties and non-Parties as of September 2023",
+      "what_it_is": "Counts of Parties to the UNFCCC (198), Kyoto Protocol (192), Doha Amendment (148) and Paris Agreement (194 states and the EU). It is not delegate data.",
+      "page": 69
+    },
+    {
+      "name": "Table 6: Divisions within Annex I (40 + EC) countries",
+      "what_it_is": "Lists Annex I countries and groupings, including EU members. Listed in the table of tables, p.17.",
+      "page": 17
+    },
+    {
+      "name": "Carbon Brief Global South climate database",
+      "what_it_is": "Overview of climate scientists from the Global South, linked in the tips.",
+      "page": 121
+    }
+  ],
+  "relevant_to": [
+    "context",
+    "Q1"
+  ],
+  "pages_read": "selected by code: 54 of 412 passages, 3997 of 33965 words, from pages 1-4, 6-7, 16-17, 25, 31-32, 40-41, 43, 53, 56, 61, 65, 71, 74, 76, 79, 85, 94, 100, 102-103, 105-107, 109, 112, 115, 121-122, 124-127, 129-132, 137, 145 of 158; chosen for definitions, indicators, method, findings and limitations; the rest was not read. I also searched the full text with Grep for the key terms and read pp. 63, 69-70 and 91 in full. I saw matched lines near pp. 103, 108-109, 121, 130 and 132."
+}

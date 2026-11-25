@@ -1,0 +1,261 @@
+{
+  "id": "doi-10-1093-pan-mps028",
+  "citation": {
+    "authors": [
+      "Justin Grimmer",
+      "Brandon M. Stewart"
+    ],
+    "year": 2013,
+    "title": "Text as Data: The Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts",
+    "venue_or_publisher": "Political Analysis 21:267-297 (Oxford University Press, Society for Political Methodology)",
+    "doi_or_url": "https://doi.org/10.1093/pan/mps028",
+    "type": "journal article (methods survey)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "What automated text analysis methods (classification into known categories, discovery of categories, scaling of actors) are available to political scientists, when do they work, and how should their output be validated.",
+  "data": "No single dataset. A survey article with worked examples: 7,920 Russian public statements 1998-2008 with 300 hand-coded (Stewart and Zhukov 2009, adapted); over 64,000 US Senate press releases 2005-2007 (Grimmer 2012); 500 press releases hand-coded by a research assistant for a convergent validity check; German party platforms (replication of Slapin and Proksch 2008).",
+  "method": "Review of dictionary methods, supervised learning (Naive Bayes, Random Forest, ensembles, ReadMe proportion estimation), unsupervised clustering and topic models, and text scaling (wordscores, wordfish), with four stated principles and worked validation examples (ten-fold cross-validation with confusion matrix, accuracy, precision, recall; semantic, predictive and convergent validity for unsupervised output).",
+  "definitions": [
+    {
+      "term": "Classification",
+      "definition": "Organising texts into a set of categories; categories may be known beforehand or discovered.",
+      "quote": "Classification organizes texts into a set of categories.",
+      "page": 2
+    },
+    {
+      "term": "Dictionary methods",
+      "definition": "Classify or score documents by how often listed key words occur.",
+      "quote": "Dictionary methods use the relative frequency of key words to measure the presence of each category in texts.",
+      "page": 8
+    },
+    {
+      "term": "Supervised learning methods",
+      "definition": "Human coders label a subset using a predetermined scheme; a model trained on it classifies the remaining documents.",
+      "quote": "Supervised learning methods replicate the familiar manual coding task, but with a machine.",
+      "page": 8
+    },
+    {
+      "term": "Unsupervised learning methods",
+      "definition": "Methods that estimate categories from the texts without imposing categories in advance.",
+      "quote": "Unsupervised learning methods are a class of methods that learn underlying features of text without explicitly imposing categories of interest.",
+      "page": 15
+    },
+    {
+      "term": "Precision (for a category)",
+      "definition": "Share of documents the machine put in category k that are correct.",
+      "quote": "given that the machine guesses category k, what is the probability that the machine made the right guess.",
+      "page": 14
+    },
+    {
+      "term": "Recall (for a category)",
+      "definition": "Share of human-coded category k documents that the machine also identifies.",
+      "quote": "given that a human coder labels a document as belonging to category k, what is the chance the machine identifies the document.",
+      "page": 14
+    },
+    {
+      "term": "Semantic validity",
+      "definition": "Whether estimated topics form coherent, internally homogeneous and distinctive groups of documents.",
+      "quote": "the extent to which our topics identify coherent groups of press releases that are internally homogenous, yet distinctive from other topics.",
+      "page": 21
+    },
+    {
+      "term": "Predictive validity",
+      "definition": "Whether variation in a measure corresponds with expected external events.",
+      "quote": "measuring how well variation in topic usage corresponds with expected events.",
+      "page": 21
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Document tone (positive or negative)",
+      "indicator": "Word list with tone scores and the relative rate at which the words occur in the document.",
+      "quote": "Dictionary methods use a list of words with attached tone scores and the relative rate at which words occur to measure a document’s tone.",
+      "page": 8
+    },
+    {
+      "concept": "Restrained, activist or neutral stance on use of force (Stewart and Zhukov example)",
+      "indicator": "Human coders applying a codebook to public statements, then a Random Forest trained on 300 coded statements.",
+      "quote": "they develop a codebook to describe coding rules so that human coders could classify statements as having a restrained, activist, or neutral position",
+      "page": 13
+    },
+    {
+      "concept": "Meaning of a topic",
+      "indicator": "Reading a sample of documents assigned to the topic, plus words highly predictive of the topic.",
+      "quote": "sampling ten to fifteen documents assigned to a topic and inferring the commonality across the press releases.",
+      "page": 20
+    },
+    {
+      "concept": "Ideological position of an actor",
+      "indicator": "Weighted average of word scores derived from reference texts (wordscores); or word-rate model (wordfish).",
+      "quote": "The position of the texts is then determined by taking the weighted average of the word scores of the words in a text",
+      "page": 26
+    }
+  ],
+  "findings": [
+    {
+      "claim": "In the worked supervised example, the Random Forest replicated human coding with overall accuracy 0.65, described as comparable to other studies with complex categories.",
+      "quote": "This is not an extremely accurate classifier, though it is comparable to accuracy levels for complex categories found in other studies",
+      "page": 14
+    },
+    {
+      "claim": "Precision and recall can differ for the same category (restrained: precision 0.65, recall 0.75) because the model over-assigns that category.",
+      "quote": "For restrained foreign policy positions, the precision is 0.65.",
+      "page": 14
+    },
+    {
+      "claim": "Dictionaries built in one domain give serious errors in another.",
+      "quote": "when dictionaries are created in one substantive area and then applied to another, serious errors can occur.",
+      "page": 8
+    },
+    {
+      "claim": "Dictionary measures are rarely validated in practice.",
+      "quote": "But measures from dictionaries are rarely validated.",
+      "page": 9
+    },
+    {
+      "claim": "The quality of the training set limits what any model can achieve.",
+      "quote": "because no statistical model can repair a poorly constructed training set",
+      "page": 10
+    },
+    {
+      "claim": "Rule-of-thumb training set size cited from Hopkins and King (2010), depending on the number of categories.",
+      "quote": "Hopkins and King (2010) offer five hundred as a rule of thumb with one hundred documents probably being enough.",
+      "page": 10
+    },
+    {
+      "claim": "An unsupervised measure of credit claiming agreed closely with a supervised estimate built from 500 hand-coded press releases.",
+      "quote": "resulting in a correlation of 0.96",
+      "page": 25
+    },
+    {
+      "claim": "Wordfish recovered ideology in German party platforms but not in Senate press releases, where it found a non-ideological spectrum (correlation 0.86 with the expressed agenda model).",
+      "quote": "The model clearly fails to separate Democrat and Republican senators",
+      "page": 27
+    }
+  ],
+  "recommendations": [
+    {
+      "claim": "Validate the output of any automated method; never use one blindly.",
+      "quote": "What should be avoided, then, is the blind use of any method without a validation step.",
+      "page": 5
+    },
+    {
+      "claim": "Researchers are responsible for validating automated text analysis.",
+      "quote": "it is incumbent upon the researcher to validate their use of automated text analysis.",
+      "page": 5
+    },
+    {
+      "claim": "Supervised methods must be shown to replicate human coding.",
+      "quote": "scholars must demonstrate that the supervised methods are able to reliably replicate human coding.",
+      "page": 5
+    },
+    {
+      "claim": "Develop the codebook iteratively on successive document sets until coders no longer find ambiguities.",
+      "quote": "best practice is to iteratively develop coding schemes.",
+      "page": 10
+    },
+    {
+      "claim": "Draw the training set by random (or stratified) sampling so it is representative.",
+      "quote": "best performance comes from random sampling to obtain a representative sample of documents",
+      "page": 10
+    },
+    {
+      "claim": "Use dictionaries with caution and explicit validation; simplify to binary categories to make human-gold-standard validation possible.",
+      "quote": "Dictionaries, therefore, should be used with substantial caution, or at least coupled with explicit validation.",
+      "page": 9
+    },
+    {
+      "claim": "Avoid commercial tools whose output cannot be validated or adjusted.",
+      "quote": "This is why we discourage the use of many commercial tools for quantitative text analysis.",
+      "page": 5
+    },
+    {
+      "claim": "Treat automated methods as aids to human reading, not replacements.",
+      "quote": "Rather than replace humans, computers amplify human abilities.",
+      "page": 4
+    }
+  ],
+  "limitations": [
+    {
+      "point": "All text models are wrong models of language; performance on a new dataset cannot be guaranteed.",
+      "stated_by_authors": true,
+      "quote": "the performance of any one method on a new data set cannot be guaranteed, and therefore validation is essential",
+      "page": 2
+    },
+    {
+      "point": "Methods need enough words; short texts are harder to classify reliably.",
+      "stated_by_authors": true,
+      "quote": "Automated methods also rely on having a sufficient number of words to use reliably.",
+      "page": 6
+    },
+    {
+      "point": "Scope limited to document-level methods; natural language processing methods that parse sentences are not covered.",
+      "stated_by_authors": true,
+      "quote": "focusing specifically on methods that analyze texts at the document level.",
+      "page": 3
+    },
+    {
+      "point": "The worked supervised example was shown only briefly and was not improved after the 0.65 accuracy result; the training set was only 300 documents because of coder cost.",
+      "stated_by_authors": true,
+      "quote": "Given the limited space for this demonstration, after validation we move forward and apply the Random Forest classifier",
+      "page": 14
+    },
+    {
+      "point": "Inter-coder agreement is only referred to other works, with no agreement statistic reported for the examples.",
+      "stated_by_authors": true,
+      "quote": "including how to assess coder agreement and practical guides to scheme creation",
+      "page": 10
+    },
+    {
+      "point": "Published 2013; covers dictionary, supervised, unsupervised and scaling methods only. It does not address large language models, zero-shot or prompt-based annotation, so it gives no direct evidence on those. This is the reader's note, not a statement by the authors.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "Uncertainty measurement in automated text methods is named as an open challenge.",
+      "stated_by_authors": true,
+      "quote": "Measuring uncertainty in automated text methods remains one of the most important challenges.",
+      "page": 28
+    },
+    {
+      "point": "Text extraction used for reading (literature/text JSON) has garbled equations and tables; the PDF could not be rendered directly because pdftoppm is not installed. No instructions to a reader or AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Replication data, Political Analysis Dataverse",
+      "what_it_is": "Replication data for the article, http://hdl.handle.net/1902.1/18517",
+      "page": 1
+    },
+    {
+      "name": "Stewart and Zhukov (2009) corpus",
+      "what_it_is": "7,920 Russian public statements by political and military elites 1998-2008, 300 hand-coded",
+      "page": 13
+    },
+    {
+      "name": "Grimmer (2012) Senate press releases",
+      "what_it_is": "Over 64,000 press releases 2005-2007 used for the topic model validation",
+      "page": 20
+    },
+    {
+      "name": "ReadMe software (Hopkins et al. 2010)",
+      "what_it_is": "Software for estimating category proportions from hand-coded documents; cited for coder agreement guidance",
+      "page": 10
+    },
+    {
+      "name": "Reference list",
+      "what_it_is": "Bibliography of cited works",
+      "page": 29
+    }
+  ],
+  "relevant_to": [
+    "method"
+  ],
+  "pages_read": "1-31 (all; pages 29-31 are the reference list, read in part; text taken from the extracted text file literature/unfccc/data/processed/text/doi-10-1093-pan-mps028.json, not rendered images)",
+  "read_on": "2026-11-24",
+  "read_by": "2026-11-24 general-purpose agent (sonnet) following source-reader instructions; PDF text extracted (pdftoppm missing), page numbers are PDF page indices"
+}

@@ -1,0 +1,148 @@
+{
+  "id": "doi-10-1080-09644016-2021-1947636",
+  "citation": {
+    "authors": [
+      "Benjamin Franta"
+    ],
+    "year": 2022,
+    "title": "Weaponizing economics: Big Oil, economic consultants, and climate policy delay",
+    "venue_or_publisher": "Environmental Politics, 31(4), 555-575",
+    "doi_or_url": "https://doi.org/10.1080/09644016.2021.1947636",
+    "type": "journal article (historical case study)",
+    "peer_reviewed": "yes"
+  },
+  "question": "How did economic consultants hired by the petroleum industry (mainly Charles River Associates, 1990s to 2010s) estimate the costs of climate policies, and what role did their work play in undermining US climate policy and international agreements.",
+  "data": "Historical sources: industry-commissioned reports (for the American Petroleum Institute and others), Congressional Record statements, press coverage, trade press, and one interview with economist Paul Bernstein (18 September 2017, quotations confirmed 6 December 2018). Period about 1983 to 2017. No sample size or dataset stated.",
+  "method": "Qualitative historical narrative tracing one consulting firm's reports through the policy debates (BTU tax, Kyoto, cap and trade bills, Paris withdrawal), plus a critique of the firm's model assumptions. Funding is traced through the reports' own 'prepared for' statements and later citations; no coding scheme, classification procedure or counting is described.",
+  "definitions": [
+    {
+      "term": "climate change counter-movement",
+      "definition": "The movement to oppose restrictions on carbon emissions (footnote definition; the Global Climate Coalition is given as an example).",
+      "quote": "(the movement to oppose restrictions on carbon emissions)",
+      "page": 18
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Industry-sponsored (not independent) analysis",
+      "indicator": "Report prepared for or funded by a named industry body such as the American Petroleum Institute, as stated on the report or in later accounts; contrasted with how the results were presented publicly as independent.",
+      "quote": "Their work was paid for by the fossil fuel industry, a fact often concealed from the public",
+      "page": 5
+    },
+    {
+      "concept": "Fossil-fuel-funded research programme",
+      "indicator": "Sponsor or affiliate lists of the programme (MIT Joint Program sponsors, Stanford Energy Modeling Forum industry affiliates), cited in notes 6 and 8.",
+      "quote": "which is also funded by fossil fuel companies",
+      "page": 17
+    },
+    {
+      "concept": "Organisation that opposes climate policy (anti-regulatory)",
+      "indicator": "Organisation's public statements and testimony against climate policy; the author labels e.g. the American Council for Capital Formation as anti-regulatory without stating criteria.",
+      "quote": "chief economist for the anti-regulatory American Council for Capital Formation",
+      "page": 11
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Charles River Associates, hired by the API, produced cost estimates used for decades against US carbon pricing, the Kyoto Protocol and cap and trade bills.",
+      "quote": "Charles River Associates played a key role in weakening, defeating, and delaying US climate policy for decades.",
+      "page": 15
+    },
+    {
+      "claim": "Industry sponsorship was often not disclosed when results were publicised, and the firm was portrayed as independent.",
+      "quote": "The work of these economists was often portrayed to the public as independent, when in fact it was funded by the fossil fuel industry",
+      "page": 17
+    },
+    {
+      "claim": "The models counted costs but ignored policy benefits, according to one of the modellers.",
+      "quote": "The models we had did not look at the benefit side.",
+      "page": 15
+    },
+    {
+      "claim": "The modelling approach inevitably produced high cost estimates, because of four assumptions the author lists (optimal unregulated markets, emissions cut by suppressing energy use, fixed elasticities, no technological change).",
+      "quote": "The overall approach inevitably yielded high cost estimates.",
+      "page": 16
+    },
+    {
+      "claim": "The consultants presented their results at the UN climate conference (COP2, 1996) alongside API personnel, so industry-funded analysis reached negotiating delegations directly.",
+      "quote": "Accompanied by API personnel, the three econo­ mists presented their results at the UN’s climate conference.",
+      "page": 8
+    },
+    {
+      "claim": "Industry used a dual strategy of casting doubt on climate science and arguing climate policy would be uneconomic.",
+      "quote": "the dual strategy of casting doubt on climate science while insisting climate policy would be uneconomic, would become standard practice",
+      "page": 6
+    },
+    {
+      "claim": "The industry-funded cost estimates were cited by legislators, and became accepted as conventional wisdom, sometimes with the sponsor undisclosed.",
+      "quote": "Eventually, the economists’ results assumed the status of conventional wisdom.",
+      "page": 14
+    },
+    {
+      "claim": "Other consultancies and university programmes funded by the petroleum industry produced similar high-cost results (Wharton Econometric Forecasting Associates, MIT Joint Program).",
+      "quote": "Wharton Econometric Forecasting Associates, another consulting firm hired by the petroleum industry, also predicted high costs for climate policies",
+      "page": 17
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Details of the economists' models are proprietary, so the critique rests on publicly available reports.",
+      "stated_by_authors": true,
+      "quote": "Although details of the economists’ models remain proprietary, the reports that are publicly available illustrate their general methodology.",
+      "page": 15
+    },
+    {
+      "point": "Case study of one firm and one main sponsor in the US; not a systematic sample, and no counts or classification of organisations. Not about UNFCCC delegations or badges. (reader's observation)",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "Author discloses he has served as consulting expert in climate litigation to which the results may be relevant.",
+      "stated_by_authors": true,
+      "quote": "The author has served as a consulting expert for climate change litigation, and the results reported in this study may be relevant to such litigation.",
+      "page": 18
+    },
+    {
+      "point": "Key interview evidence comes from a single former modeller, with quotations confirmed by him.",
+      "stated_by_authors": false,
+      "quote": "Quotations confirmed with interviewee 6 December 2018.",
+      "page": 18
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Jones et al. 2018, Countermovement coalitions: climate denialist organizational profiles (Brown University)",
+      "what_it_is": "Profiles of organisations in the climate counter-movement, cited for the Global Climate Coalition and George C. Marshall Institute; a possible reference list of obstructing organisations.",
+      "page": 19
+    },
+    {
+      "name": "Brulle 2014, Institutionalizing delay (Climatic Change 122, 681-694)",
+      "what_it_is": "Study of foundation funding of US climate counter-movement organisations.",
+      "page": 19
+    },
+    {
+      "name": "MIT Joint Program 'Our Sponsors' and Stanford Energy Modeling Forum 'Industry Affiliates' pages",
+      "what_it_is": "Web sponsor lists used to show fossil fuel company funding of modelling programmes (notes 6 and 8).",
+      "page": 18
+    }
+  ],
+  "recommendations": [
+    {
+      "claim": "More attention is needed on the role of economists and economic paradigms, doctrines and models in climate policy delay.",
+      "quote": "Further attention is needed on the role of",
+      "page": 17
+    },
+    {
+      "claim": "Research on the counter-movement should look beyond science disinformation to the use of economic arguments for inaction.",
+      "quote": "the fossil fuel industry and broader climate change counter-movement have also made frequent use of economic arguments to justify inaction.",
+      "page": 17
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "1-22 (all), read from the pre-extracted text in literature/unfccc/data/processed/text/doi-10-1080-09644016-2021-1947636.json, because direct PDF page rendering failed (pdftoppm not installed); page numbers are PDF page indices 1-22 of the supplied file (journal pages 555-575 plus front page). No instructions addressed to a reader or AI were found.",
+  "read_on": "2026-11-24",
+  "read_by": "2026-11-24 general-purpose agent (sonnet) following source-reader instructions; PDF text extracted (pdftoppm missing), page numbers are PDF page indices"
+}

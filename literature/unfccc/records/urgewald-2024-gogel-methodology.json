@@ -1,0 +1,224 @@
+{
+  "id": "urgewald-2024-gogel-methodology",
+  "citation": {
+    "authors": ["Urgewald"],
+    "year": 2024,
+    "title": "Global Oil & Gas Exit List 2024: Definitions and Methodology",
+    "venue_or_publisher": "Urgewald (GOGEL), publication date November 12, 2024",
+    "doi_or_url": "https://gogel.org/sites/default/files/2025-02/Methodology%20public%20GOGEL%202024_final_website.pdf",
+    "type": "NGO methodology document accompanying a public database (Excel)",
+    "peer_reviewed": "no"
+  },
+  "question": "Not framed as a research question. The document explains what each column of the GOGEL database means and which thresholds a company must meet to be listed.",
+  "data": "GOGEL 2024 database: upstream data from Rystad Energy (production 2023, resources as of September 2024, exploration CAPEX 2022-2024 average); midstream and gas/oil-fired power project detection from Global Energy Monitor; revenue and power portfolio research from company reports; project research from government sources and news outlets. Number of companies is not stated in this document.",
+  "method": "Companies are listed in three tabs (Upstream, Midstream Expansion, Oil and Gas-Fired Power Expansion). A company is included when it meets at least one stated threshold in that tab (production, unconventional production, short-term expansion, exploration CAPEX, pipeline length, LNG capacity, gas- or oil-fired power capacity). Revenue share, power portfolio and reputational-risk projects are researched from company sources and reported as further columns.",
+  "definitions": [
+    {
+      "term": "GOGEL (scope: companies operating in the oil and gas industry)",
+      "definition": "A public database on companies operating in the oil and gas industry. No separate criterion for what makes a company an 'oil and gas company' is stated.",
+      "quote": "GOGEL is an extensive public database that provides information on companies operating in the oil and gas industry.",
+      "page": 1
+    },
+    {
+      "term": "Upstream inclusion by production",
+      "definition": "Upstream companies are included if they produced at least 20 mmboe of oil, gas, condensate and NGL in 2023.",
+      "quote": "GOGEL includes all companies that produced ≥ 20 mmboe in 2023.",
+      "page": 4
+    },
+    {
+      "term": "Oil & Gas Subsector",
+      "definition": "Categories describing a company's activity along the oil and gas value chain, sorted by revenue where possible.",
+      "quote": "This column includes oil and gas subcategories to specify the business activities carried out by a company along the oil and gas value chain.",
+      "page": 3
+    },
+    {
+      "term": "O&G E&P",
+      "definition": "Subsector: all upstream activities.",
+      "quote": "O&G E&P: All upstream activities (exploration, development and production of oil and gas)",
+      "page": 3
+    },
+    {
+      "term": "O&G Midstream",
+      "definition": "Subsector: transmission, transportation and storage.",
+      "quote": "O&G Midstream: Transmission, transportation and storage of oil and gas",
+      "page": 3
+    },
+    {
+      "term": "Rystad Upstream Industry Segment: Independent vs E&P company",
+      "definition": "Segment split of upstream-oriented companies at 50 kboe/day production.",
+      "quote": "Independent: Upstream-oriented companies with production exceeding 50 kboe/day",
+      "page": 3
+    },
+    {
+      "term": "Parent Company (upstream tab)",
+      "definition": "Column F gives the official name of the company; column G gives either the legal name of the parent (blue cells) or a relevant upstream subsidiary (white cells). All data in the row refer to the entity in column G.",
+      "quote": "This column either provides the legal name of the parent company (blue cells) or a relevant upstream subsidiary (white cells). All further data points in the row refer to the company listed in column G.",
+      "page": 2
+    },
+    {
+      "term": "Type of Subsidiary (upstream tab)",
+      "definition": "Filter for majority owned upstream subsidiaries.",
+      "quote": "This column allows users to filter for majority owned upstream subsidiaries.",
+      "page": 2
+    },
+    {
+      "term": "Parent Company (midstream tab)",
+      "definition": "Includes parent companies and companies without a majority owner.",
+      "quote": "This column includes parent companies and companies without a majority owner.",
+      "page": 9
+    },
+    {
+      "term": "Subsidiary coverage (midstream tab)",
+      "definition": "Majority owned subsidiaries and special purpose vehicles are covered if directly involved in pipeline or LNG expansion and above thresholds.",
+      "quote": "GOGEL aims to continuously improve coverage of relevant subsidiaries and special purpose vehicles (SPVs) if they are directly involved in Pipeline or LNG expansion projects and above GOGEL thresholds.",
+      "page": 9
+    },
+    {
+      "term": "Subsidiary coverage (power tab)",
+      "definition": "Same approach for gas-fired power expansion projects.",
+      "quote": "GOGEL aims to continuously improve coverage of relevant subsidiaries and special purpose vehicles (SPVs) if they are directly involved in gas-fired power expansion projects and above GOGEL thresholds.",
+      "page": 11
+    },
+    {
+      "term": "Fossil Fuel Share of Revenue",
+      "definition": "Share of total operational revenue from fossil fuel related activities across the value chain, including coal. It is a reported metric, not a listing criterion.",
+      "quote": "All business activities related to the fossil fuel value chain are included in this assessment (upstream, midstream, downstream, power).",
+      "page": 7
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Upstream oil and gas company (production)",
+      "indicator": "Hydrocarbons production in 2023 of at least 20 mmboe (Rystad Energy data)",
+      "quote": "This column indicates if a company meets our production threshold (≥ 20 mmboe).",
+      "page": 2
+    },
+    {
+      "concept": "Unconventional oil and gas producer",
+      "indicator": "Production of at least 2 mmboe from unconventional sources in 2023",
+      "quote": "This column indicates if a company meets our unconventional production threshold (≥ 2 mmboe).",
+      "page": 2
+    },
+    {
+      "concept": "Upstream expansion",
+      "indicator": "Intent to add at least 20 mmboe of resources under development or field evaluation",
+      "quote": "GOGEL covers all companies that intend to add ≥ 20 mmboe of resources to their production portfolio in the near future.",
+      "page": 6
+    },
+    {
+      "concept": "Exploration",
+      "indicator": "Average exploration CAPEX 2022-2024 of at least USD 10 million",
+      "quote": "GOGEL covers all companies with an average exploration CAPEX ≥ USD 10 million.",
+      "page": 7
+    },
+    {
+      "concept": "Midstream expansion (pipelines)",
+      "indicator": "Responsible for at least 100 km of pipelines under development",
+      "quote": "GOGEL covers all companies responsible for ≥ 100 km of pipelines under development.",
+      "page": 9
+    },
+    {
+      "concept": "Midstream expansion (LNG)",
+      "indicator": "At least 1 Mt of annual LNG terminal capacity under development",
+      "quote": "GOGEL covers all companies responsible for ≥ 1 Mt of annual LNG terminal capacity under development.",
+      "page": 10
+    },
+    {
+      "concept": "Gas-fired power expansion",
+      "indicator": "At least 100 MW of gas-fired capacity under development",
+      "quote": "GOGEL covers all companies responsible for ≥ 100 MW of GFP capacity under development.",
+      "page": 11
+    },
+    {
+      "concept": "Oil-fired power expansion",
+      "indicator": "At least 100 MW of oil-fired capacity under development",
+      "quote": "GOGEL covers all companies responsible for ≥ 100 MW of OFP capacity under development.",
+      "page": 11
+    },
+    {
+      "concept": "Expansion incompatible with 1.5C (IEA NZE)",
+      "indicator": "IEA NZE Expansion Overshoot above 0 and/or Exploration CAPEX above 0",
+      "quote": "A company is marked if it has an IEA NZE Expansion Overshoot (column Y) above 0 and/or Exploration CAPEX (column Z) above 0.",
+      "page": 2
+    },
+    {
+      "concept": "Majority ownership of a subsidiary",
+      "indicator": "Subsidiary flagged in the Type of Subsidiary column; the percentage that counts as majority is not stated",
+      "quote": "This column allows users to filter for majority owned subsidiaries.",
+      "page": 9
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The upstream part of the list is stated to cover over 90% of global production, planned short-term expansion and exploration expenditure (authors' claim, no calculation shown).",
+      "quote": "The companies listed in the upstream part of GOGEL account for over 90% of annual global hydrocarbons production, over 90% of planned short-term upstream expansion, and over 90% of exploration expenditures.",
+      "page": 1
+    },
+    {
+      "claim": "All exploration spending is treated as incompatible with the IEA NZE scenario (authors' position).",
+      "quote": "Thus, all expenditure displayed in this column constitutes an overshoot of the NZE scenario",
+      "page": 7
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The IEA NZE benchmark rests on optimistic assumptions and is a minimum standard.",
+      "stated_by_authors": true,
+      "quote": "However, the scenario is partially based on very optimistic assumptions.",
+      "page": 6
+    },
+    {
+      "point": "Coverage is incomplete and will be extended to further subsectors.",
+      "stated_by_authors": true,
+      "quote": "GOGEL will be updated each fall and amended over time by including further subsectors of the oil & gas industry and by increasing coverage.",
+      "page": 1
+    },
+    {
+      "point": "Revenue share data are sometimes unavailable, estimated or lower bounds.",
+      "stated_by_authors": true,
+      "quote": "insufficient reporting: The company does not adequately differentiate between fossil fuel related and fossil fuel unrelated business activities",
+      "page": 7
+    },
+    {
+      "point": "The document does not define a trade association, an enterprise or a general 'oil and gas company', and states no revenue-share or ownership-percentage threshold for inclusion. Absence only; the document is silent, not negative.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The document is an advocacy organisation's methodology note, not independent research. Authors field of metadata lists only 'Fiona'. No instructions to readers or AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Rystad Energy upstream data",
+      "what_it_is": "Asset-level data on production, resources and economics; basis for production, expansion and unconventional columns.",
+      "page": 1
+    },
+    {
+      "name": "Global Energy Monitor (GEM) data",
+      "what_it_is": "Starting point for midstream (pipelines, LNG) and oil/gas-fired power project detection.",
+      "page": 1
+    },
+    {
+      "name": "IEA Net Zero by 2050 scenario (NZE, 2021/2022)",
+      "what_it_is": "Benchmark used for the expansion overshoot column.",
+      "page": 6
+    },
+    {
+      "name": "Arctic Monitoring & Assessment Programme (AMAP) geographic definition",
+      "what_it_is": "Definition of Arctic used for the Arctic production column.",
+      "page": 5
+    },
+    {
+      "name": "Oil Change International, IISD and Greenpeace briefing 'Zeroing In'",
+      "what_it_is": "Cited discussion of the IEA NZE scenario for the finance sector.",
+      "page": 6
+    }
+  ],
+  "relevant_to": [],
+  "pages_read": "1-12 (all)"
+}

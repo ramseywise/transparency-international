@@ -1,0 +1,86 @@
+{
+  "id": "ecbi-quo-20vadis-20webinar-20report",
+  "citation": {
+    "authors": [],
+    "year": 2021,
+    "title": "Are \"mega-COPs\" the best way to drive global climate ambition in future? ecbi webinar launch of ecbi policy brief Quo Vadis COP? Future Arrangements for Intergovernmental Meetings under the UNFCCC – Settled and Fit for Purpose (webinar report, 26 March 2021)",
+    "venue_or_publisher": "European Capacity Building Initiative (ecbi)",
+    "doi_or_url": "https://ecbi.org/sites/default/files/Quo%20Vadis%20webinar%20report.pdf",
+    "type": "webinar report (summary of a discussion of a policy brief)",
+    "peer_reviewed": "no"
+  },
+  "question": "Whether the large annual UNFCCC COPs (\"mega-COPs\") should be split into a smaller, annual negotiation-focused COP (proposed for Bonn) and a separate large Global Climate Action Week (proposed for Geneva) for non-Party stakeholders and high-level delegates.",
+  "data": "Report of a webinar of 38 participants (negotiators, academics, UNFCCC Secretariat staff, NGO representatives) discussing the ecbi policy brief. The report cites the brief's analysis of COP participation numbers over time (COP1 1995 to COP25), shown in a figure; it does not describe the underlying data source.",
+  "method": "No method for identifying, classifying or counting business or fossil fuel delegates. The report summarises the policy brief's analysis of overall participation growth and a stated finding that growth is not correlated with negotiating workload.",
+  "definitions": [],
+  "proxies": [],
+  "findings": [
+    {
+      "claim": "Overall COP attendance rose after major treaty-related COPs and then stayed at the new level (a 'plateau pattern'), not tied to negotiating workload; the brief points to political attention and mobilisation of non-state actors as factors.",
+      "quote": "Rather, increased",
+      "page": 2
+    },
+    {
+      "claim": "Example of scale: 23,000 attended the 2017 Fiji-Bonn COP.",
+      "quote": "In 2017, 23,000 people attended the Fiji-Bonn",
+      "page": 2
+    },
+    {
+      "claim": "Delegation size is linked to ministerial attendance: the brief finds each high-level delegate adds on average three people to a delegation (no breakdown by sector or affiliation).",
+      "quote": "high-level delegate adds on average three people to each",
+      "page": 5
+    },
+    {
+      "claim": "Business is mentioned only as one of the actors the proposed Global Climate Action Week would bring together with ministers, outside the negotiation COP.",
+      "quote": "Third, a platform that allows civil society, business leaders,",
+      "page": 3
+    },
+    {
+      "claim": "The proposal would keep a role for observers at the smaller negotiation COP.",
+      "quote": "opportunities for observers to participate.",
+      "page": 2
+    },
+    {
+      "claim": "Authors/discussants consider a COP of about 3,000-5,000 delegates feasible for Bonn (a proposal, not a finding on current composition).",
+      "quote": "Bonn can comfortably host a meeting with 3,000-5,000",
+      "page": 4
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The source does not count, define or classify business, private-sector, fossil fuel or lobbyist delegates, and does not discuss Party, overflow or observer badges, conflicts of interest or undue influence. It is a short summary of a discussion about meeting format, so it offers little for Q1, Q2 or method.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "No named authors for the report; it summarises a separate policy brief (not read here), so the participation analysis and its data source are only described second-hand.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The participation figure on page 2 was extracted only as a list of COP labels and a few percentages and multipliers (e.g. x 2.2, 87%), with no axis or caption, so the underlying numbers cannot be read from the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 2
+    },
+    {
+      "point": "The report notes the policy brief was not written with COVID-19 in mind, so its arguments about size predate that context.",
+      "stated_by_authors": true,
+      "quote": "The policy brief was not written with COVID-19 repercussions",
+      "page": 3
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "ecbi policy brief 'Quo Vadis COP? Future Arrangements for Intergovernmental Meetings under the UNFCCC' (Müller, Allan, Roesti, Gomez-Echeverri)",
+      "what_it_is": "The brief that the webinar discussed; the participation-over-time analysis comes from it. Candidate for separate retrieval if overall COP participation trends are needed.",
+      "page": 1
+    }
+  ],
+  "relevant_to": ["context"],
+  "pages_read": "1-6 (all pages)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

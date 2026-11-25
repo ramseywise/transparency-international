@@ -1,0 +1,154 @@
+{
+ "id": "doi-10-48550-arxiv-2611-13339",
+ "citation": {
+  "authors": ["Mamaev, B.", "Wang, Q.", "Leckie, C.A.", "Vergani, M."],
+  "year": 2026,
+  "title": "Measuring Definition Sensitivity in LLM Annotation of Social Science Concepts",
+  "venue_or_publisher": "arXiv:2611.13339v2 [cs.CL], 11 Nov 2026; NeurIPS 2026 workshop TAE (Trust-AI-Eval)",
+  "doi_or_url": "https://doi.org/10.48550/arxiv.2611.13339",
+  "type": "preprint (workshop paper)",
+  "peer_reviewed": "no"
+ },
+ "question": "Whether the definition of a concept written into a language-model prompt changes the labels the model gives, beyond the effect of wording; measured as definition sensitivity against a paraphrase floor.",
+ "data": "4,908 news-derived texts each for protest and assassination (ACLED event notes for US, Canada, Mexico; Crowd Counting Consortium records for the US; GDELT-indexed news articles; terrorism reuses the assassination texts), plus 600 randomly drawn texts each for hate speech, climate contrarianism and fake news. 25 definitions, 39 prompts, three models (Gemma 4 31B, Qwen 3.6 27B, Claude Sonnet 5). Texts in English and Spanish.",
+ "method": "Each model labels every text INCLUDE, EXCLUDE or INDETERMINATE under each definition, with the rest of the prompt held constant. Definition sensitivity is the mean share of texts on which two competing definitions disagree. Paraphrase floor is the same measure for two wordings of one definition. Reported as gap (percentage points) and ratio. Block bootstrap (2,000 resamples) for 95% intervals. Comprehension check asked each model what a definition's rule required. Design pre-registered (with deviations listed in Appendix A). No human expert labels were used.",
+ "definitions": [
+  {
+   "term": "definition (as used in annotation)",
+   "definition": "A rule that decides whether a label should be attributed to a text depending on its content.",
+   "quote": "a rule that determines whether a label should be attributed to a text depending on its content",
+   "page": 1
+  },
+  {
+   "term": "definition sensitivity",
+   "definition": "The disagreement between annotations of the same texts made with two different definitions.",
+   "quote": "We call the disagreement between the two sets of annotations definition sensitivity.",
+   "page": 1
+  },
+  {
+   "term": "paraphrase floor",
+   "definition": "The disagreement between annotations made with two wordings of one definition whose requirements are unchanged; the baseline against which definition sensitivity is compared.",
+   "quote": "For two wordings of one definition, the share of texts on which their annotations disagree is the paraphrase floor.",
+   "page": 2
+  },
+  {
+   "term": "INDETERMINATE",
+   "definition": "Label used when a text does not contain what the definition requires.",
+   "quote": "INDETERMINATE is used when a text does not contain what the definition requires",
+   "page": 5
+  },
+  {
+   "term": "repeat floor",
+   "definition": "Share of a model's annotations that change when the same prompt is run again on the same texts.",
+   "quote": "the share of Sonnet’s annotations that change when the same prompt is run again on the same texts",
+   "page": 5
+  }
+ ],
+ "proxies": [
+  {
+   "concept": "whether the model applies the written definition",
+   "indicator": "Definition sensitivity exceeding the paraphrase floor; sensitivity near the floor would suggest the model relied on its pretrained notion of the concept.",
+   "quote": "when definition sensitivity is close to the paraphrase floor, the annotations are likely to depend on the model’s pretrained notion of the concept.",
+   "page": 10
+  },
+  {
+   "concept": "whether the model understood a definition",
+   "indicator": "Comprehension check: each model was shown a definition without text and asked what its rule required, scored against prepared acceptable answers.",
+   "quote": "we showed each model a definition without text for labelling and asked what that definition’s rule required.",
+   "page": 6
+  },
+  {
+   "concept": "grey-zone cases",
+   "indicator": "Protest and assassination texts were chosen to include cases where definitions disagree (labour action, target, rally, violence, small crowd; failed attempts, victim role, state killings).",
+   "quote": "The protest subsample combines ordinary cases with grey-zone ones",
+   "page": 5
+  }
+ ],
+ "findings": [
+  {
+   "claim": "In every concept and every model, definition sensitivity exceeded the paraphrase floor.",
+   "quote": "Definition sensitivity exceeds the paraphrase floor in every concept and every model.",
+   "page": 6
+  },
+  {
+   "claim": "Ranges across concepts and models: sensitivity 2.9-61.0%, floors 1.4-22.2%, 1.8-7.0 times the floor.",
+   "quote": "definition sensitivity was 2.9–61.0% against paraphrase floors of 1.4–22.2%, and 1.8–7.0 times its floor",
+   "page": 2
+  },
+  {
+   "claim": "Share of texts labelled INCLUDE varied widely with the definition on the same texts; the order of definitions was the same in every model.",
+   "quote": "These shares differ more between definitions than between models.",
+   "page": 8
+  },
+  {
+   "claim": "A dataset provider's own revision of a definition (CCC 2021 to 2024) lowered the INCLUDE share in all three models.",
+   "quote": "shifted the share of protest texts labelled INCLUDE by −1.7 to −8.5 percentage points across the three models",
+   "page": 2
+  },
+  {
+   "claim": "Models gave INDETERMINATE for different shares of texts depending on which facts a definition requires.",
+   "quote": "definitions require different facts, and news reports often omit them",
+   "page": 9
+  },
+  {
+   "claim": "Sonnet tended to assign one label to a whole batch of up to 50 texts, so effective sample size can be far smaller than the number of texts; re-running one batch changed all 50 labels.",
+   "quote": "Thus, Sonnet assigns the label to a whole batch at once, and the effective sample size is twelve batches rather than 600 texts.",
+   "page": 6
+  },
+  {
+   "claim": "Authors recommend (not a finding) reporting the definition, the prompt, the paraphrase floor and the INDETERMINATE share with the rule that resolves it.",
+   "quote": "We therefore suggest that studies report the share of INDETERMINATE labels for each definition, with the rule that assigns these texts to INCLUDE or EXCLUDE.",
+   "page": 10
+  }
+ ],
+ "limitations": [
+  {
+   "point": "Labels are model outputs only; no accuracy against human coders is measured, so the paper cannot say whether any label is correct.",
+   "stated_by_authors": true,
+   "quote": "we cannot attest to labelling accuracy",
+   "page": 10
+  },
+  {
+   "point": "Protest, assassination and terrorism texts were selected to include grey-zone cases, which may raise sensitivity; values should not be compared across concepts naively.",
+   "stated_by_authors": true,
+   "quote": "definition sensitivity for protest, assassination, and terrorism may be higher because of this selection",
+   "page": 10
+  },
+  {
+   "point": "Six concepts, English and Spanish texts, specific models and definitions; results need not hold elsewhere. Concepts are protest, violence, speech and news; no organisation classification or lobbying concept was tested.",
+   "stated_by_authors": true,
+   "quote": "Our findings are specific to the definitions used and the model versions.",
+   "page": 10
+  },
+  {
+   "point": "Sonnet was run without temperature control, so its labels are not exactly repeatable (repeat floor about 5-12% on protest and assassination); the pre-registered re-run check was not done.",
+   "stated_by_authors": true,
+   "quote": "We did not run the pre-registered check that a re-run on the same platform reproduces every label.",
+   "page": 10
+  },
+  {
+   "point": "Several pre-registered analyses were dropped or changed; Qwen was re-run on four concepts after a software and output-format problem.",
+   "stated_by_authors": true,
+   "quote": "We also did not report some pre-registered analyses",
+   "page": 10
+  },
+  {
+   "point": "Preprint; text says it is a NeurIPS workshop paper, no peer review stated. The text contained no instructions addressed to a reader or AI.",
+   "stated_by_authors": false,
+   "quote": null,
+   "page": null
+  }
+ ],
+ "reference_lists_or_datasets": [
+  {"name": "Armed Conflict Location and Event Dataset (ACLED)", "what_it_is": "Source of protest event notes and one protest definition.", "page": 4},
+  {"name": "Crowd Counting Consortium (CCC) records and coding guidelines 2021 and 2024", "what_it_is": "Protest records and two editions of a protest definition.", "page": 4},
+  {"name": "GDELT-indexed news articles", "what_it_is": "Source of election-period protest articles and assassination articles (reused for terrorism).", "page": 4},
+  {"name": "Public code repository", "what_it_is": "https://github.com/octner/nips-tae-definition-sensitivity: code, analysis tables, prompt hashes; news texts not released (licensed).", "page": 16},
+  {"name": "Halterman and Keith (2026), Codebook LLMs", "what_it_is": "Related work on LLMs applying political science codebooks, Political Analysis 34(2).", "page": 13},
+  {"name": "Egami et al. (2024); Angelopoulos et al. (2023)", "what_it_is": "Design-based supervised learning and prediction-powered inference: use a small expert-labelled sample to correct machine-label estimates.", "page": 3}
+ ],
+ "relevant_to": ["method"],
+ "pages_read": "1-16 (whole paper: main text, references and Appendix A). Tables 1-4 were read from the text version; Figure 2 values from its caption and text only.",
+ "read_on": "2026-11-24",
+ "read_by": "source-reader, sonnet"
+}

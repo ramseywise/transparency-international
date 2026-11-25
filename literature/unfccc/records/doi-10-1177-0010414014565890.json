@@ -1,0 +1,200 @@
+{
+  "id": "doi-10-1177-0010414014565890",
+  "citation": {
+    "authors": ["Andreas Dür", "Patrick Bernhagen", "David Marshall"],
+    "year": 2015,
+    "title": "Interest group success in the European Union: When (and why) does business lose?",
+    "venue_or_publisher": "Comparative Political Studies (marked 'Forthcoming in Comparative Political Studies (2015)')",
+    "doi_or_url": "https://doi.org/10.1177/0010414014565890",
+    "type": "The file is the authors' manuscript (53 pages, marked forthcoming), not the journal's typeset version; its page numbers differ from the journal's.",
+    "peer_reviewed": "unknown"
+  },
+  "question": "When and why do business actors win or lose when lobbying on EU legislative proposals? Hypotheses: business is less successful than citizen groups (H1), more successful the less conflictual the policy episode (H2), and more successful when the European Parliament has only limited legislative powers (H3).",
+  "data": "Interviews with 95 Commission officials on 70 legislative proposals put forward 2008-2010 (stratified random sample, filtered on minimum public visibility), giving 112 issues and 1,043 non-state advocates (461 unique actors), of which 651 are business interests. Actor positions on a 0-100 scale come from the officials' answers; 251 positions were cross-checked against written consultation responses. Success is calculated for 925 actor-issue observations; the main models use 853.",
+  "method": "Officials located each actor's position, the outcome and the reversion point (where the outcome would fall if no agreement were reached) on a 0-100 line for each issue. Success = distance from the actor's ideal point to the reversion point minus distance from the ideal point to the outcome; an ordinal version and an alternative version are also used. Actors are grouped as business (split into firms and business associations), citizen groups, and other. Mixed-effects regressions with random effects for issue and proposal. The paper does not describe a step-by-step rule for assigning an actor to a group; the group variable is used as given in the dataset.",
+  "definitions": [
+    {
+      "term": "citizen groups",
+      "definition": "Groups advancing interests not directly related to the vocations or professions of their members or supporters (citing Berry, 1999).",
+      "quote": "deﬁned as groups advancing interests that are not directly related to the vocations or professions of their members or supporters",
+      "page": 4
+    },
+    {
+      "term": "actor types (business, citizen groups, other)",
+      "definition": "Three actor types are used. 'Other' collects institutions, professional associations, labor unions and governmental actors. The text gives no separate definition of 'business'.",
+      "quote": "We distinguish three types of actors: business, citizen groups and other (with the latter including institutions, professional associations, labor unions and governmental actors).",
+      "page": 19
+    },
+    {
+      "term": "other actors (further description)",
+      "definition": "At the results stage the category is described as including institutions, think tanks and European and non-European national governmental actors.",
+      "quote": "which includes institutions and think tanks but also European and non-European national governmental actors",
+      "page": 26
+    },
+    {
+      "term": "business actors: firms and business associations",
+      "definition": "The business category is split into firms and business associations for a robustness check. Table A-1 gives the shares of all 1,043 advocates: business 0.62, firm 0.21, business association 0.41, other 0.19.",
+      "quote": "we disaggregate the Business actor category into ﬁrms (Firm) and business associations",
+      "page": 29
+    },
+    {
+      "term": "business versus non-business groups (context)",
+      "definition": "On market-regulating issues the authors describe the dividing line as business versus non-business groups representing environmental, health, consumer or labor interests.",
+      "quote": "By contrast, on market-regulating issues, the dividing line is often between business and non-business groups representing environmental, health, consumer or labor interests.",
+      "page": 9
+    },
+    {
+      "term": "interest groups (who lobbies)",
+      "definition": "Interest groups are described as including European federations, national associations, companies and other actors.",
+      "quote": "receptive to lobbying by interest groups, including European federations, national associations, companies and other actors.",
+      "page": 9
+    },
+    {
+      "term": "success versus influence",
+      "definition": "The study measures lobbying success, which does not necessarily mean influence; influence assumes causality and the authors cannot rule out luck.",
+      "quote": "In our study, we cannot rule out that actors attain their policy goals due to “luck” rather than inﬂuence",
+      "page": 5
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "which organisations are lobbying on an issue (the actor population)",
+      "indicator": "Non-state actors named by Commission officials in structured interviews as prominent on an issue; the officials were asked to identify only prominent actors.",
+      "quote": "Since we asked Commission oﬃcials to identify only those non-state actors that played a prominent role in a policy debate",
+      "page": 18
+    },
+    {
+      "concept": "business share of the lobbying population (benchmark)",
+      "indicator": "Business share of 63 percent in the authors' data (651 of 1,043 advocates) compared with 56 percent among registrants in the EU Joint Transparency Register after excluding professional lobby firms, and with US studies.",
+      "quote": "Register (56 percent after excluding professional lobby ﬁrms).",
+      "page": 16
+    },
+    {
+      "concept": "business share in the authors' data",
+      "indicator": "Count of business interests among identified advocates.",
+      "quote": "651 are business interests. The percentage of business interests in our data (63 percent)",
+      "page": 15
+    },
+    {
+      "concept": "group type composition (Table A-1)",
+      "indicator": "Mean of dummy variables over 1,043 advocates.",
+      "quote": "Business 1,043 0.62 0.48 0 1 1 Firm 1,043 0.21 0.41 0 0 1 Bus. association 1,043 0.41 0.49 0 0 1 Other 1,043 0.19 0.39 0 0 1",
+      "page": 48
+    },
+    {
+      "concept": "business unity or conflict within business",
+      "indicator": "Standard deviation of business actors' positions on an issue (20 or lower is low business conflict; above 20 is high).",
+      "quote": "one including all issues with little business conﬂict (i.e. where the standard deviation of business positions is 20 or lower, model 7)",
+      "page": 29
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Citizen groups are substantially more successful than business groups in the descriptive comparison (mean Success -1.82 for business and 25.16 for citizen groups; Table 1).",
+      "quote": "Citizen groups turn out to be substantially more successful than business groups.",
+      "page": 23
+    },
+    {
+      "claim": "The business disadvantage holds in the regression models with controls (H1 supported).",
+      "quote": "the coeﬃcient for business is negative and statistically highly signiﬁcant.",
+      "page": 24
+    },
+    {
+      "claim": "Business success depends on conflict: at low conflict business and citizen groups cannot be told apart, and the disadvantage appears as conflict rises (H2 supported).",
+      "quote": "Only as the level of conﬂict increases does being a business actor become a disadvantage.",
+      "page": 27
+    },
+    {
+      "claim": "Where the European Parliament has no major role, business and citizen groups are equally successful (H3 supported).",
+      "quote": "business actors and citizen groups are equally successful on issues that are decided without major involvement by the European Parliament.",
+      "page": 28
+    },
+    {
+      "claim": "The results hold for both firms and business associations, with one interaction term (ordinary procedure with Firm) not significant. Differences between firms and associations are not reported as a main result.",
+      "quote": "Models 9 and 10 in Table 4 show that this does not change our results.",
+      "page": 29
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Only the decision-making stage is covered; business influence at the agenda-setting stage is not captured.",
+      "stated_by_authors": true,
+      "quote": "A possible caveat to our ﬁndings is that we only focus on the decision-making stage of the legislative process.",
+      "page": 33
+    },
+    {
+      "point": "Success is not influence: the study cannot rule out that actors reach their goals by luck.",
+      "stated_by_authors": true,
+      "quote": "In our study, we cannot rule out that actors attain their policy goals due to “luck” rather than inﬂuence",
+      "page": 5
+    },
+    {
+      "point": "Issues and positions depend heavily on the 70 Commission officials interviewed; the authors cross-checked a subset (251 positions) against written submissions.",
+      "stated_by_authors": true,
+      "quote": "The identiﬁcation of issues and the positional data rely heavily on the information provided by the 70 Commission oﬃcials.",
+      "page": 16
+    },
+    {
+      "point": "Only prominent actors were named by the officials, so the actor population is not a full list of lobbyists.",
+      "stated_by_authors": true,
+      "quote": "Since we asked Commission oﬃcials to identify only those non-state actors that played a prominent role in a policy debate",
+      "page": 18
+    },
+    {
+      "point": "The paper does not state how the business, citizen group or other label was assigned to each actor, who assigned it, or whether coder agreement was measured for it. The only agreement figure concerns policy positions. Not stated by the authors as a limitation; noted by the reader.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The paper's text gives the business share as 63 percent; Table A-1 gives a mean of 0.62. The reader notes the difference without resolving it.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The sample is EU legislative lobbying in 2008-2010, not a climate conference or country delegations; no sector scheme and no fossil fuel classification.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Text extraction of tables (regression tables 3, 4, A-3) is garbled and the density plots (pages 51-53) carry no text. Table figures were not used. No instructions addressed to a reader or an AI were found in the file.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "INTEREURO project dataset (positions of non-state actors on EU legislative proposals)",
+      "what_it_is": "Data collected as part of the INTEREURO project (Beyers et al. 2014): 1,043 non-state advocates on 112 issues in 70 Commission proposals, 2008-2010. Footnote 1 only names the project; access is not stated.",
+      "page": 35
+    },
+    {
+      "name": "EU Joint Transparency Register",
+      "what_it_is": "Used only as a benchmark for the business share of organisations (56 percent after excluding professional lobby firms).",
+      "page": 16
+    },
+    {
+      "name": "Consultation submissions to the European Commission",
+      "what_it_is": "Written responses by interest groups to formal consultations, used for manual coding of 251 position estimates by two coders with a third adjudicating.",
+      "page": 16
+    }
+  ],
+  "coder_agreement": {
+    "what_was_checked": "Policy positions of interest groups (interview estimates against manual coding of consultation documents) after converting the interview scale to three points. Not agreement on business or non-business labels.",
+    "quote_coders": "Two coders that worked independently of each other (with a third coder adjudicating on a small number of position estimates where the original coders disagreed)",
+    "page_coders": 16,
+    "quote_cross_check": "we were able to use this approach to cross-check 251 position estimates.",
+    "page_cross_check": 16,
+    "quote_statistic": "Krippendorﬀ’s alpha is 0.87 with a bootstrapped conﬁdence interval of [0.82, 0.92].",
+    "page_statistic": 17,
+    "quote_issues_not_found": "In only twelve consultation submissions (4.8 percent)",
+    "page_issues_not_found": 17
+  },
+  "relevant_to": ["Q1", "method"],
+  "pages_read": "1-53 (all pages; pages 51-53 are density plots with no readable text; regression tables partly garbled)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

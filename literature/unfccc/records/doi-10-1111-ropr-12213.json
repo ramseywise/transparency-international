@@ -1,0 +1,184 @@
+{
+  "id": "doi-10-1111-ropr-12213",
+  "citation": {
+    "authors": ["Jonathan Kuyper", "Karin Bäckstrand", "Heike Schroeder"],
+    "year": 2016,
+    "title": "Institutional Accountability of Nonstate Actors in the UNFCCC: Exit, Voice, and Loyalty",
+    "venue_or_publisher": "Review of Policy Research (Policy Studies Organization)",
+    "doi_or_url": "https://doi.org/10.1111/ropr.12213",
+    "type": "Publisher's version, early online (journal header on page 1 shows 'Volume 00, Number 00 (2016)'; file dated 2016-11-09, modified 2016-12-14)",
+    "peer_reviewed": "yes"
+  },
+  "question": "How nonstate actors within the UNFCCC are held to account by one another; the authors introduce 'institutional accountability' (demands for justification through shared rules, norms and procedures, followed by sanction through exit, voice or loyalty).",
+  "data": "Illustrative qualitative case study of the nine UNFCCC constituency groups. Sources: UNFCCC documents, event observations, constituency position papers, NGO websites, and more than 40 semi-structured interviews (Bonn 2013, COP19 Warsaw 2013, COP20 Lima 2014, Bonn 2015, with COP21 observation). Interviewees listed in the appendix. No participant-list data and no counts of delegates by sector.",
+  "method": "Theory-building plus illustrative case examples from on-site observation and interviews; not a comprehensive inventory and not a test of each constituency. No classification of organisations, no coding, no language model use.",
+  "definitions": [
+    {
+      "term": "Nonstate actors / constituencies (UNFCCC)",
+      "definition": "Nonstate actors are formally divided into nine constituencies, one of which is business.",
+      "quote": "This group of nonstate actors is formally divided into nine constituencies within the UNFCCC system including businesses, nongovernmental organizations (NGOs), trade unions, indigenous groups, and several more.",
+      "page": 1
+    },
+    {
+      "term": "Observer organisations clustered into constituencies",
+      "definition": "Accredited observer groups are clustered into nine constituencies.",
+      "quote": "These observer groups are clustered into nine constituencies with diverse but recognizable interests.",
+      "page": 8
+    },
+    {
+      "term": "BINGO (Business and Industry NGOs)",
+      "definition": "The business constituency; with ENGO, one of the first two constituencies to organise. The paper gives no further definition of what counts as business.",
+      "quote": "The first two constituency groups to organize within the UNFCCC system were the Business and Industry NGOs (BINGO) and the Environmental NGOs (ENGO).",
+      "page": 8
+    },
+    {
+      "term": "BINGO membership range",
+      "definition": "BINGO members range from pro-regulation companies to anti-regulatory and climate-sceptic ones.",
+      "quote": "Its diverse membership ranges from green pro-regulatory coalitions of companies to anti-regulatory and even climate-skeptical members.",
+      "page": 15
+    },
+    {
+      "term": "Constituency membership and multiple listing",
+      "definition": "Observers may list themselves with more than one constituency, but this is not common.",
+      "quote": "Observer groups are allowed to list themselves",
+      "page": 8
+    },
+    {
+      "term": "Institutional accountability",
+      "definition": "Accountability arising from shared institutional rules, norms and procedures, with exit, voice and loyalty as sanctions.",
+      "quote": "institutional frameworks provide a shared terrain of rules, norms, and procedures which are employed by agents (accountability wielders) to demand justification from other members",
+      "page": 5
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Business presence among observers",
+      "indicator": "Membership of the BINGO constituency (business and industry organisations). The paper does not itself use this as a counting rule.",
+      "quote": "The first two constituency groups to organize within the UNFCCC system were the Business and Industry NGOs (BINGO) and the Environmental NGOs (ENGO).",
+      "page": 8
+    },
+    {
+      "concept": "Fossil fuel-linked business (as perceived by interviewees)",
+      "indicator": "Qualitative split of BINGO into 'gray' anti-mitigation fossil-fuel companies and 'green' pro-regulation companies, taken from other researchers (Vormedal 2008; Yamin and Depledge 2004). No criteria, thresholds or company list.",
+      "quote": "the BINGO constituency has from its inception been divided between “gray” anti-mitigation fossil-fuel companies and “green” pro-regulation companies.",
+      "page": 15
+    },
+    {
+      "concept": "Business association positions on fossil fuels (interviewee view)",
+      "indicator": "An interviewee places three business associations on a fossil-to-green scale: WBCSD (big fossil side), ICC (centrist), European Business Council for Sustainable Energy (green).",
+      "quote": "the World Business Council of Sustainable Development (WBCSD) represents the big fossil side industry, the International Chamber of Commerce",
+      "page": 15
+    },
+    {
+      "concept": "Fossil company influence inside a business association",
+      "indicator": "A named oil company is described as a strong member of ICC, the body that holds the BINGO focal point.",
+      "quote": "the ICC, who assigns the focal point for BINGOs, has Exxon-Mobil as a strong and influential member known for the most aggressive anti-climate stance among all oil companies.",
+      "page": 16
+    }
+  ],
+  "findings": [
+    {
+      "claim": "COP21 Paris had almost 40,000 delegates, 25,000 of them governmental (citing a Carbon Brief analysis in footnote 13); the rest were civil society, UN agencies and media.",
+      "quote": "COP21 in Paris gathered almost 40,000 delegates, of which 25,000 were from governmental representatives",
+      "page": 8
+    },
+    {
+      "claim": "The introduction gives different COP21 figures (10,000 nonstate actors and nearly 35,000 state delegates). The two passages are not reconciled in the text.",
+      "quote": "10,000 nonstate actors descended on Le Bourget conference center to attend the negotiations alongside nearly 35,000 state delegates.",
+      "page": 1
+    },
+    {
+      "claim": "Nonstate actors are said to be near numerical parity with government delegates, and delegations increasingly include nonstate actors. No figures or delegation breakdown are given here.",
+      "quote": "In this institutional context, nonstate actors are increasingly on numerical parity with government delegates, and delegations also progressively include more nonstate actors",
+      "page": 8
+    },
+    {
+      "claim": "More than 2,000 observer organisations were accredited at COP21.",
+      "quote": "At COP21 in Paris, more than 2,000 observer organizations were accredited and admitted.",
+      "page": 8
+    },
+    {
+      "claim": "The nine constituencies hold the large majority of admitted NGOs.",
+      "quote": "These nine constituency groups contain more than 90% of all NGOs admitted during each COP",
+      "page": 8
+    },
+    {
+      "claim": "Constituency members get some access benefits, including secondary badges when site access is limited.",
+      "quote": "Constituency members receive: access to the Plenary floor so as to make interventions, allocation of secondary badges when site access is limited, advance information from the Secretariat",
+      "page": 9
+    },
+    {
+      "claim": "The local government constituency (LGMA) pushes governments to include more local government representatives in national delegations. This is the only point in the paper about government delegation composition.",
+      "quote": "At the same time, the constituency is encouraging national governments to have more local government representatives on their delegations.",
+      "page": 13
+    },
+    {
+      "claim": "BINGO does not advocate on policy inside the UNFCCC, but its members lobby governments and delegations individually, for fossil fuels among other things.",
+      "quote": "Differences are manifest when individual BINGO members make use of formal and informal networks to lobby individual governments and delegations",
+      "page": 16
+    },
+    {
+      "claim": "BINGO is internally divided between fossil and green positions but presents a unified face, using closed-door meetings.",
+      "quote": "While it is clear that BINGO is divided between “green” and “brown” carbon emission reduction efforts, these views are rarely aired in public.",
+      "page": 16
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Interviewees from ENGO were reluctant to speak about the CAN-CJN split, which limits the evidence on that case.",
+      "stated_by_authors": true,
+      "quote": "A methodological limitation facing analysis of CAN-CJN, however, is that virtually all of our interviewees from ENGO were reluctant to speak about the fractions between CAN and CJN.",
+      "page": 11
+    },
+    {
+      "point": "The study is illustrative, not a full inventory; some constituencies (RINGO, Farmers, IPO) are not analysed.",
+      "stated_by_authors": true,
+      "quote": "We do not provide a comprehensive inventory of all interactions between nonstate actors within the UNFCCC",
+      "page": 2
+    },
+    {
+      "point": "Not about country delegations or Party badges. It gives no counts of business delegates, no sector scheme, no definition of fossil fuel-linked, no list of companies and no financial-exposure measure. Its data is from 2013 to 2015 and covers observer constituencies, not Party delegations. States' own accountability behaviour is set aside.",
+      "stated_by_authors": false,
+      "quote": "As such, the ways in which states may engage in “institutional accountability” is bracketed from our analysis.",
+      "page": 19
+    },
+    {
+      "point": "The paper describes the observation period inconsistently: three years in the abstract, four years later in the text.",
+      "stated_by_authors": false,
+      "quote": "we draw upon four years of on-site observation at COPs and Intersessionals.",
+      "page": 9
+    },
+    {
+      "point": "No instructions addressed to a reader or an AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Carbon Brief, 'Which countries have sent the most delegates to COP21'",
+      "what_it_is": "Web analysis cited in footnote 13 as the source for COP21 delegate counts (not opened by this reader).",
+      "page": 19
+    },
+    {
+      "name": "UNFCCC, 'Non-Governmental Organization Constituencies' (constituencies_and_you.pdf)",
+      "what_it_is": "UNFCCC document on the constituency system, cited in footnote 16 (not opened by this reader).",
+      "page": 19
+    },
+    {
+      "name": "UNFCCC constituency focal point contact details (2015)",
+      "what_it_is": "Secretariat list of constituencies and focal points, cited in footnote 21 (not opened by this reader).",
+      "page": 19
+    },
+    {
+      "name": "Vormedal 2008; Yamin and Depledge 2004",
+      "what_it_is": "Secondary works cited for the gray/green split of business in BINGO; reference list entries on pages 21 and 22 (not opened).",
+      "page": 21
+    }
+  ],
+  "relevant_to": ["Q1", "Q2"],
+  "pages_read": "1-22 (all pages; page 7 table was garbled text but readable)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

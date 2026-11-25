@@ -1,0 +1,276 @@
+{
+  "id": "ti-2026-formal-delegations",
+  "citation": {
+    "authors": [],
+    "year": 2026,
+    "title": "COP Talks: Formal Delegations, Informal Access",
+    "venue_or_publisher": "Transparency International (Transparency.org news article; analysis with Transparency International EU)",
+    "doi_or_url": "https://www.transparency.org/en/news/cop30-formal-delegations-informal-access",
+    "type": "web article (NGO analysis); published 2026-09-14, modified 2026-09-25",
+    "peer_reviewed": "no"
+  },
+  "question": "Whether EU Member State delegations at COP30 (Belem, 2025) accredited business and fossil fuel-linked delegates, even though the European Commission screens such people out of its own delegation; and what policy positions the fossil fuel-linked organisations hold.",
+  "data": "COP30 provisional list of registered participants published by the UNFCCC; Party and Party Overflow delegates of the EU delegation and the 27 EU Member State delegations (28 delegations). 885 non-state delegates identified. LobbyMap lobbying assessments for 12 of 21 fossil fuel-linked entities. Period: COP30, November 2025.",
+  "method": "Each delegate was classified by self-declared organisation into five categories using AI assistance (public sector; business and commercial; civil society and other non-state; media and support staff; others). Business and commercial delegates were then assessed on self-declared affiliation for links to the fossil fuel economy and put into three tiers. Duplicates and subsidiaries were consolidated into 21 entities. Policy positions of the entities LobbyMap had assessed were coded to find recurring priorities. No validation of the AI classification is reported in the text.",
+  "definitions": [
+    {
+      "term": "Party Overflow badge",
+      "definition": "Badge issued by Parties to additional participants affiliated with a national delegation who are not part of its formal negotiating team; they cannot negotiate or speak for the country.",
+      "quote": "Overflow delegates cannot negotiate or speak on a country’s behalf.",
+      "page": "What is a Party Overflow badge?"
+    },
+    {
+      "term": "Party Overflow badge (who gets one)",
+      "definition": "Typically state institution representatives, researchers and experts, youth activists or invited guests from business or civil society.",
+      "quote": "typically, representatives of various state institutions, researchers and experts, youth activists or invited guests from business or civil society.",
+      "page": "An opaque badge, a well-used door"
+    },
+    {
+      "term": "Party Overflow badge vs observer accreditation (disclosure)",
+      "definition": "Overflow delegates are not subject to the disclosure requirements that observers face; the badge shows a Party affiliation, not who pays the delegate.",
+      "quote": "And all without the disclosure requirements observers face under UNFCCC accreditation.",
+      "page": "What is a Party Overflow badge?"
+    },
+    {
+      "term": "Party badge / core Party delegation",
+      "definition": "Core Party delegations include the negotiators who hold the pen and are described as overwhelmingly government officials.",
+      "quote": "The core Party delegations, which include the negotiators who formally hold the pen during negotiations, remain overwhelmingly government officials.",
+      "page": "What is a Party Overflow badge?"
+    },
+    {
+      "term": "Business (business and commercial actors)",
+      "definition": "One of five classification categories, assigned by self-declared organisation using AI assistance. No further criteria for the category are given. Business is said to be not homogeneous and not all have fossil fuel ties.",
+      "quote": "business and commercial actors",
+      "page": "Methodology"
+    },
+    {
+      "term": "Fossil fuel-linked",
+      "definition": "Business and commercial entities assessed, on self-declared affiliation, as having links to the fossil fuel economy, in three tiers. The term is said to reach well beyond oil and gas.",
+      "quote": "a reminder that “fossil fuel-linked” reaches well beyond the household names of oil and gas.",
+      "page": "Nine countries, 63 delegates, one concentrated footprint"
+    },
+    {
+      "term": "Tier 1 (direct fossil fuel interests)",
+      "definition": "Oil, gas and petrochemical companies, and fossil fuel infrastructure operators.",
+      "quote": "Tier 1 (direct fossil fuel interests): oil, gas and petrochemical companies, as well as fossil fuel infrastructure operators.",
+      "page": "Methodology"
+    },
+    {
+      "term": "Tier 2 (partial fossil fuel exposure)",
+      "definition": "Utilities and companies in sectors with ongoing fossil fuel activities or dependencies.",
+      "quote": "Tier 2 (partial fossil fuel exposure): utilities and companies operating in sectors with ongoing fossil fuel activities or dependencies.",
+      "page": "Methodology"
+    },
+    {
+      "term": "Tier 3 (financial exposure)",
+      "definition": "Banks, insurers and asset managers with documented fossil fuel financing exposure.",
+      "quote": "Tier 3 (financial exposure): banks, insurers and asset managers with documented fossil fuel financing exposure.",
+      "page": "Methodology"
+    },
+    {
+      "term": "Exclusion of fossil fuel-intensive sectors",
+      "definition": "Steel and shipping were deliberately not counted as fossil fuel-linked unless they met the tier criteria.",
+      "quote": "The analysis deliberately excluded fossil fuel-intensive sectors such as steel and shipping.",
+      "page": "Methodology"
+    },
+    {
+      "term": "Delegation (EU delegations analysed)",
+      "definition": "The EU delegation plus the 27 Member State delegations, Party and Party Overflow badge holders only.",
+      "quote": "We reviewed Party and Party Overflow delegates from the EU delegation and the 27 EU Member State delegations",
+      "page": "Methodology"
+    },
+    {
+      "term": "Lobbyist / fossil fuel lobbyist, trade association, state-owned company, private sector, observer (as defined terms)",
+      "definition": "Not defined. Trade associations appear only as channels through which member companies lobby (Edison example). State-owned companies are not mentioned. Observer appears only in the disclosure comparison above.",
+      "quote": "company positions do not always match those of the trade associations that represent them.",
+      "page": "Not every fossil fuel-linked actor pulls in the same direction"
+    },
+    {
+      "term": "Conflict of interest / undue influence",
+      "definition": "Used in recommendations; not defined. The Integrity Pledge is proposed to prevent conflicts of interest.",
+      "quote": "drive and contribute to discussions on conflicts of interest, transparency, and undue influence in UNFCCC processes.",
+      "page": "Closing the side door"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Business / non-state affiliation",
+      "indicator": "Self-declared organisation name on the UNFCCC provisional list, classified into five categories with AI assistance",
+      "quote": "classifying each by self-declared organisation into five categories using AI assistance",
+      "page": "Methodology"
+    },
+    {
+      "concept": "Fossil fuel link",
+      "indicator": "Self-declared organisational affiliation assessed against the three-tier framework (sector of the entity; for Tier 3, documented fossil fuel financing exposure)",
+      "quote": "Based on their self-declared organisational affiliation, entities were assessed for links to the fossil fuel economy and classified into three categories:",
+      "page": "Methodology"
+    },
+    {
+      "concept": "Seniority of delegates",
+      "indicator": "Described as senior leaders, including top executives and board members. How seniority was determined is not stated.",
+      "quote": "more than four in five fossil fuel-linked delegates were senior leaders, including top executives and board members",
+      "page": "Nine countries, 63 delegates, one concentrated footprint"
+    },
+    {
+      "concept": "Policy positions of fossil fuel-linked entities",
+      "indicator": "LobbyMap assessments (12 of 21 entities), coded by the authors",
+      "quote": "Of the 21 fossil fuel-linked entities identified in our analysis, 12 had been assessed by LobbyMap.",
+      "page": "Methodology"
+    },
+    {
+      "concept": "Fossil fuel financing of a bank",
+      "indicator": "Annual fossil fuel financing figure, cited with a link to Banking on Climate Chaos",
+      "quote": "providing US$58.2 billion in fossil fuel financing in 2025",
+      "page": "Finance seeks flexibility"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "63 delegates with fossil fuel links across nine EU Member State delegations at COP30, despite the Commission screening its own delegation.",
+      "quote": "identified 63 delegates with links to fossil fuel interests across nine EU member state delegations at COP30",
+      "page": "Summary"
+    },
+    {
+      "claim": "Of 885 non-state delegates in the EU and Member State delegations, 526 were business and 359 civil society, youth, academic and other; business was almost 60% after excluding media, support staff and unidentified.",
+      "quote": "Of the 885 non-state representatives Transparency International identified across the EU and Member State delegations, 526 represented business and commercial interests",
+      "page": "Business speaks louder than civil society in the EU member state delegations"
+    },
+    {
+      "claim": "The 63 delegates are over 7% of non-state delegates; four countries (France, Portugal, Sweden, Italy) account for 52, France alone 26.",
+      "quote": "Four countries (France, Portugal, Sweden and Italy) accounted for 52 of the 63 identified delegates, or 83% of the total.",
+      "page": "Nine countries, 63 delegates, one concentrated footprint"
+    },
+    {
+      "claim": "Over 95% of non-state actors entering through EU Member State delegations held Party Overflow badges, not Party badges.",
+      "quote": "more than 95% of non-state actors who entered through EU Member State delegations did so on Party Overflow badges rather than Party badges.",
+      "page": "What is a Party Overflow badge?"
+    },
+    {
+      "claim": "Delegations differ widely: France had the largest EU non-state contingent (268); Sweden the highest business share (nearly 70%); Slovenia, Czechia and Germany almost only government and public-sector.",
+      "quote": "France fielded the largest EU non-state contingent at COP30, with 268 delegates, while Sweden had the highest proportion of business representatives",
+      "page": "FIGURE 2. Business representation outpaces civil society among non-state delegates."
+    },
+    {
+      "claim": "21 consolidated fossil fuel-linked entities: seven in each of Tiers 1, 2 and 3.",
+      "quote": "seven Tier 1 entities, seven Tier 2 entities and seven Tier 3 entities.",
+      "page": "Methodology"
+    },
+    {
+      "claim": "Most fossil fuel-linked delegates were from utilities, finance and infrastructure firms rather than oil and gas executives (authors' summary; sector counts are in Figure 4, not in the text).",
+      "quote": "Most fossil fuel-linked delegates were not oil and gas executives but representatives of utilities, finance and infrastructure firms",
+      "page": "Summary"
+    },
+    {
+      "claim": "Named entities in delegations include JPMorgan (French delegation), EDP, Enel, Edison, ENGIE, Fluxys, TotalEnergies, E.ON, Siemens Energy, AXA, BNP Paribas, Credit Agricole. Names are as given by the source; the full 21-entity table is a separate PDF not in this text.",
+      "quote": "was represented in the French delegation at COP30",
+      "page": "Finance seeks flexibility"
+    },
+    {
+      "claim": "Fossil gas is the most consistent policy position across Tier 1 and Tier 2 entities (LobbyMap-based, subset only).",
+      "quote": "it is support for a continued role for fossil gas in the energy transition.",
+      "page": "Gas remains the most consistent thread"
+    },
+    {
+      "claim": "The Commission has issued passes at COP29 and COP30 only to people representing EU institutions (as described by the authors, with a link to a campaign-group page).",
+      "quote": "Brussels has issued conference passes only to people representing EU institutions",
+      "page": "Summary"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Presence is not proof of influence.",
+      "stated_by_authors": true,
+      "quote": "Their presence at COP doesn’t prove they swung a vote.",
+      "page": "Summary"
+    },
+    {
+      "point": "Business is heterogeneous; not all business delegates have fossil fuel ties.",
+      "stated_by_authors": true,
+      "quote": "business representatives are not a homogeneous group and do not all have fossil fuel ties",
+      "page": "Business speaks louder than civil society in the EU member state delegations"
+    },
+    {
+      "point": "The LobbyMap policy analysis covers only 12 of 21 entities and is not comprehensive.",
+      "stated_by_authors": true,
+      "quote": "this analysis covers only a subset of the identified entities, the findings should not be considered a comprehensive assessment of all fossil fuel-linked actors",
+      "page": "Methodology"
+    },
+    {
+      "point": "Seven delegates could not be classified (3 Germany, 3 Portugal, 1 France); others whose affiliation could not be identified were excluded from the 60% share.",
+      "stated_by_authors": true,
+      "quote": "could not be confidently classified",
+      "page": "Methodology"
+    },
+    {
+      "point": "Classification relied on an AI-assisted step, and on self-declared organisation names from a provisional list. No accuracy check or validation of the classification is reported.",
+      "stated_by_authors": false,
+      "quote": "using AI assistance",
+      "page": "Methodology"
+    },
+    {
+      "point": "Scope is COP30 and EU Member States only, not COP31 and not other countries. The non-state denominator excludes media and support staff, which affects the 60% figure. The 7% share is of all non-state delegates (including media), a different base from the 60% share.",
+      "stated_by_authors": false,
+      "quote": "more than 7% of all non-state delegates accredited through the delegations examined.",
+      "page": "Nine countries, 63 delegates, one concentrated footprint"
+    },
+    {
+      "point": "Tier boundaries leave judgement calls (for example utilities as Tier 2; Tier 3 depends on documented financing exposure; steel and shipping excluded). Trade bodies, advisers and consultancies are not named as a category in the tiers.",
+      "stated_by_authors": false,
+      "quote": "The analysis deliberately excluded fossil fuel-intensive sectors such as steel and shipping.",
+      "page": "Methodology"
+    },
+    {
+      "point": "The charts (Figures 1 to 4) and the 21-entity table are not in the extracted text, so breakdowns by sector, tier and country are not available from this file.",
+      "stated_by_authors": false,
+      "quote": "For the full table of fossil fuel-linked entities, please click here.",
+      "page": "Methodology"
+    },
+    {
+      "point": "Author section includes advocacy and recommendations alongside findings; a claim about overflow badge privileged access rests on negotiator interviews described in earlier research, not in this article.",
+      "stated_by_authors": false,
+      "quote": "according to some negotiators we interviewed last year for our research",
+      "page": "What is a Party Overflow badge?"
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "COP30 provisional list of registered participants (UNFCCC)",
+      "what_it_is": "Public participant list, source of all delegate counts (https://unfccc.int/documents/653224)",
+      "page": "Methodology"
+    },
+    {
+      "name": "LobbyMap (InfluenceMap)",
+      "what_it_is": "Independent tracker of corporate climate lobbying, used to assess policy positions and to cross-check",
+      "page": "Behind the badges"
+    },
+    {
+      "name": "Fossil-Fuel-Linked-entities.pdf",
+      "what_it_is": "Full table of the 21 fossil fuel-linked entities and their delegations (https://images.transparencycdn.org/images/Fossil-Fuel-Linked-entities.pdf); not read, linked only",
+      "page": "Methodology"
+    },
+    {
+      "name": "Fuelling Delay (Transparency International)",
+      "what_it_is": "Earlier TI research with negotiator interviews (https://www.transparency.org/en/publications/fuelling-delay-how-fossil-fuel-interests-shape-global-climate-negotiations); linked only",
+      "page": "What is a Party Overflow badge?"
+    },
+    {
+      "name": "fossilfreepolitics.org: EU brings 84 fossil fuel lobbyists to COP",
+      "what_it_is": "Campaign-group page linked for the Commission screening claim; linked only",
+      "page": "Summary"
+    },
+    {
+      "name": "Banking on Climate Chaos",
+      "what_it_is": "Linked for fossil fuel financing figures of banks; linked only",
+      "page": "Finance seeks flexibility"
+    },
+    {
+      "name": "Integrity Pledge (Transparency International)",
+      "what_it_is": "Proposed pledge for national delegations; linked press page",
+      "page": "Closing the side door"
+    }
+  ],
+  "relevant_to": ["Q1", "Q2", "method", "context"],
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet",
+  "pages_read": "Whole extracted web page text (all 50 paragraphs, 11 sections, links list, figure list). Figures 1-4 are embedded charts whose data is not in the extracted text; the linked entity table PDF was not read."
+}

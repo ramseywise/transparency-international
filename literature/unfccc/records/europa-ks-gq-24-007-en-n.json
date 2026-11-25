@@ -1,0 +1,176 @@
+{
+  "id": "europa-ks-gq-24-007-en-n",
+  "citation": {
+    "authors": [
+      "Eurostat / European Commission"
+    ],
+    "year": 2025,
+    "title": "NACE Rev. 2.1 – Statistical classification of economic activities in the European Union (2025 edition)",
+    "venue_or_publisher": "Publications Office of the European Union, Luxembourg (Manuals and guidelines)",
+    "doi_or_url": "https://ec.europa.eu/eurostat/documents/3859598/21633320/KS-GQ-24-007-EN-N.pdf",
+    "type": "statistical classification manual (official EU)",
+    "peer_reviewed": "no"
+  },
+  "question": "Not a research study. It sets out the EU's official classification of economic activities (NACE Rev. 2.1): its structure, principles and rules for assigning a statistical unit to an activity code, with explanatory notes for each category.",
+  "data": "None collected. The document is a classification (sections, divisions, groups, classes) with explanatory notes, legal basis (Annex I) and a list of other classifications (Annex II). Manuscript completed April 2025; 420 pages.",
+  "method": "Rules for classifying a statistical unit. The unit's principal activity is the activity with the largest share of value added, applied top-down: section, then division, group, class. Where value added is unknown, substitute criteria (e.g. turnover, gross output, staff time) serve as proxies, with warnings that they can mislead. Vertically integrated units get one code for the principal activity, or default assignments. Classes are defined mainly by production process and technique.",
+  "definitions": [
+    {
+      "term": "Statistical classification",
+      "definition": "Sets of categories that are exhaustive and mutually exclusive, defined by similarity criteria.",
+      "quote": "Statistical classifications are characterised by: a. exhaustive coverage of the observed universe; b. mutually exclusive categories",
+      "page": 14
+    },
+    {
+      "term": "NACE levels",
+      "definition": "Four levels: sections (letter), divisions (2 digits), groups (3 digits), classes (4 digits).",
+      "quote": "a first level consisting of headings identified by an alphabetical code (sections); b. a second level consisting of headings identified by a two-digit numerical code (divisions)",
+      "page": 15
+    },
+    {
+      "term": "Principal activity of a unit",
+      "definition": "The activity with the largest share of value added, found top-down through section, division, group and class.",
+      "quote": "the principal activity of the unit is the activity accounting for the largest share of value added, as determined according to the top-down method",
+      "page": 24
+    },
+    {
+      "term": "Criteria for NACE classes",
+      "definition": "Activities are grouped when they share a common production process; each class holds the units whose principal activity it is.",
+      "quote": "In general, this means that activities are grouped together when they share a common process for producing goods or services.",
+      "page": 19
+    },
+    {
+      "term": "Criteria for categories (general)",
+      "definition": "Categories rest on inputs, production process, output characteristics and use of outputs; the weight of each varies across levels.",
+      "quote": "based on the inputs of goods, services and factors of production, the process and technique of production, the characteristics of outputs, the use to which outputs are put",
+      "page": 19
+    },
+    {
+      "term": "Fossil-fuel-relevant NACE categories (headings only)",
+      "definition": "The detailed structure lists Division 05 'Mining of coal and lignite' (05.1 hard coal; 05.10), Division 06 'Extraction of crude petroleum and natural gas' (06.1/06.10 crude petroleum; 06.2/06.20 natural gas) and Division 19 'Manufacture of coke and refined petroleum products' (19.1/19.10 coke oven products). These are category titles. The source does not call them 'fossil'.",
+      "quote": "05 Mining of coal and lignite",
+      "page": 48
+    },
+    {
+      "term": "Business and employers membership organisations (94.11)",
+      "definition": "Class for organisations promoting the interests of business and employer members. Group 94.1 also covers professional bodies (94.12). I read only the headings and the group note.",
+      "quote": "This group includes the activities of promoting the interests of the members of business and employer organisations.",
+      "page": 387
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Value added of an activity",
+      "indicator": "Substitutes when value added is unknown: turnover, gross output, staff time. Turnover and value added are not proportional across activities.",
+      "quote": "Such substitute criteria should be used as proxies for the unknown value-added data to obtain the best approximation possible",
+      "page": 22
+    },
+    {
+      "concept": "Trade activity share",
+      "indicator": "Gross margin, not trade turnover, is the better indicator for a unit with both trade and other activities.",
+      "quote": "A much better indicator is the gross margin",
+      "page": 23
+    },
+    {
+      "concept": "Link from products to producing enterprises",
+      "indicator": "PRODCOM (product list for CPA divisions 05-33 and 38) links to NACE through the first four digits of its codes. It lets enterprises producing the products be identified.",
+      "quote": "enabling the enterprises producing the products to be identified",
+      "page": 42
+    },
+    {
+      "concept": "Link from trade goods to activity",
+      "indicator": "The Combined Nomenclature (CN) feeds PRODCOM and so links indirectly to NACE.",
+      "quote": "provides an indirect link between the CN and NACE",
+      "page": 42
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Classification is by principal activity, so a diversified or vertically integrated company gets a single code, and the source says this obscures the production chain.",
+      "quote": "A negative consequence of assigning one NACE code for the principal activity of a unit engaged in vertical integration",
+      "page": 24
+    },
+    {
+      "claim": "NACE codes divisions 05, 06 and 19 separately (coal and lignite; crude petroleum and natural gas; coke and refined petroleum). These can serve as a code list for fossil fuel extraction and processing activities. This is my reading, not a statement in the source.",
+      "quote": "06 Extraction of crude petroleum and natural gas",
+      "page": null
+    },
+    {
+      "claim": "NACE has a class for business and employers membership organisations (94.11), which could place trade associations. It does not split them by the sector they represent.",
+      "quote": "94.11 Activities of business and employers membership organisations",
+      "page": 73
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The strict application of the criteria has not proven useful; practical considerations also shaped the categories.",
+      "stated_by_authors": true,
+      "quote": "a strict application of these criteria has not proven useful",
+      "page": 19
+    },
+    {
+      "point": "NACE classifies activities of statistical units, not organisations as a whole or their ownership. The source does not mention state-owned enterprises, lobbying or fossil-fuel links.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Substitute criteria such as turnover can mislead.",
+      "stated_by_authors": true,
+      "quote": "the simple use of the substitute criteria listed above may be misleading",
+      "page": 23
+    },
+    {
+      "point": "The document is not the Commission's official position.",
+      "stated_by_authors": true,
+      "quote": "This document should not be considered as representative of the European Commission’s official position.",
+      "page": 4
+    },
+    {
+      "point": "The NACE index of detailed activities is online only, via ShowVoc, and is not in the PDF.",
+      "stated_by_authors": true,
+      "quote": "the index (2) is designed to evolve and be regularly revised, and is therefore online disseminated via ShowVoc",
+      "page": 76
+    },
+    {
+      "point": "The NAICS caveat: another classification is not designed for large, complex integrated companies.",
+      "stated_by_authors": true,
+      "quote": "NAICS has not been specially designed to take account of the wide range of vertically or horizontally integrated activities",
+      "page": 418
+    },
+    {
+      "point": "Coverage: I was given 44 of 1,827 passages. The divisions 05, 06, 19 and class 94.11 explanatory notes were found only as headings by searching the full text. I did not read their include and exclude notes, so what they cover is unverified. Page numbers are the PDF page index used in the text file. Page for divisions 06 and 19 headings not determined.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "NACE Rev. 2.1 online index (ShowVoc)",
+      "what_it_is": "Online index of detailed activities; part of the explanatory notes",
+      "page": 76
+    },
+    {
+      "name": "Annex II: selected economic classifications beyond Europe",
+      "what_it_is": "List of other classifications, such as ISIC, NAICS and CPC. Annex II is described in the PDF; only passages on CPC and NAICS were read.",
+      "page": 18
+    },
+    {
+      "name": "CPA / PRODCOM / Combined Nomenclature",
+      "what_it_is": "EU product and production classifications linked to NACE",
+      "page": 42
+    },
+    {
+      "name": "Correspondence tables",
+      "what_it_is": "Tables between NACE versions and other classifications, on the Eurostat website",
+      "page": 40
+    }
+  ],
+  "relevant_to": [
+    "method"
+  ],
+  "pages_read": "selected by code: 44 of 1827 passages, 3990 of 134133 words, from pages 1, 3-4, 14-16, 18-19, 21-24, 34, 40, 42, 48, 76, 237, 255, 297, 299-300, 304, 349, 362, 372, 405, 408, 417-419 of 420; chosen for definitions, indicators, method, findings and limitations; the rest was not read. Also searched the full text with Grep for the headings of divisions 05, 06, 19 and class 94.11 and read the page 48 and page 73 structure listings (headings only).",
+  "read_on": "2026-11-25",
+  "read_by": "source-reader, sonnet"
+}

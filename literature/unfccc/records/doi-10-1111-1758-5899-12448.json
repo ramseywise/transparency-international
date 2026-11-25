@@ -1,0 +1,136 @@
+{
+  "id": "doi-10-1111-1758-5899-12448",
+  "citation": {
+    "authors": [
+      "Karolin Seitz",
+      "Jens Martens"
+    ],
+    "year": 2017,
+    "title": "Philanthrolateralism: Private Funding and Corporate Influence in the United Nations",
+    "venue_or_publisher": "Global Policy, Vol. 8, Supplement 5 (Wiley / University of Durham)",
+    "doi_or_url": "https://doi.org/10.1111/1758-5899.12448",
+    "type": "journal article (special issue, short policy-oriented article)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "How private funding from corporations and philanthropic foundations, and UN-business partnerships, change UN governance and give corporate actors influence. The article does not address UNFCCC delegations or badges.",
+  "data": "No original dataset. It draws on secondary figures: UN Secretary-General reports (2013 voluntary contributions), UN Women, UNDP and WHO funding reports, OECD, Gates Foundation and Coca-Cola reports, and corporate and partnership websites. Periods are mostly 2010-2016.",
+  "method": "Descriptive and argumentative policy analysis with illustrative examples (Coca-Cola, L'Oreal, Shell, the Gates Foundation, the UN Foundation). No classification scheme or counting procedure is described.",
+  "definitions": [
+    {
+      "term": "philanthrolateralism",
+      "definition": "A shift from inclusive multilateral decision-making within the UN to global club governance in exclusive partnerships.",
+      "quote": "the shift from inclusive multilateral decision-making within the UN to global club governance in exclusive partnerships – or what we call a shift towards ‘philanthrolateralism’",
+      "page": 3
+    },
+    {
+      "term": "philanthrocapitalism",
+      "definition": "Applying business and market-based approaches to development, with an emphasis on short-term results. The authors give no formal definition; this is how they describe it.",
+      "quote": "applying a business model to the measurement of results",
+      "page": 3
+    },
+    {
+      "term": "minilateralism / selective multilateralism",
+      "definition": "Used for the growing share of non-core, earmarked funding. Not defined formally; the authors link it to non-core contributions and earmarked trust funds.",
+      "quote": "overcome ‘minilateralism’ by reducing the share of non-core contributions and earmarked trust funds in UN finance",
+      "page": 4
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "private/corporate funding of the UN",
+      "indicator": "Specified voluntary contributions from foundations, corporations and civil society, as reported by the UN and by individual agencies",
+      "quote": "specified voluntary contributions from foundations, corporations and civil society to the UN system amounted to about US$3.3 billion, or 14 per cent",
+      "page": 1
+    },
+    {
+      "concept": "corporate involvement in decision-making",
+      "indicator": "Corporate executives holding seats on partnership boards or advisory councils (for example the Shell chairman chairing the SEforAll Administrative Board)",
+      "quote": "Charles Holliday, Chairman of Royal Dutch Shell, for instance, is chair of the Administrative Board of SEforAll",
+      "page": 3
+    },
+    {
+      "concept": "philanthropic foundation influence",
+      "indicator": "Direct grant-making, placement of foundation staff in decision-making bodies, board seats on global funds, and matching funds",
+      "quote": "through the placement of Foundation staff in decision-making bodies of international organizations and global partnerships",
+      "page": 4
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Total private funding of the UN is hard to track because it is mostly extra-budgetary. It was about 14% of specified voluntary contributions in 2013.",
+      "quote": "tracking the total volume of private contributions to the UN Secretariat and the UN system is difficult and cumbersome",
+      "page": 1
+    },
+    {
+      "claim": "Direct corporate funding is small relative to the attention it receives (UN Women 1.8% in 2015; UNDP about 3% in 2010-2015).",
+      "quote": "the quantity of direct funding from corporations to the UN system and to global partnerships has remained surprisingly low",
+      "page": 2
+    },
+    {
+      "claim": "Partnerships are cheap for companies and bring image benefits. The authors raise the risk to UN neutrality.",
+      "quote": "Partnerships with the UN are a cheap bargain for private companies.",
+      "page": 2
+    },
+    {
+      "claim": "UN partnerships lack disclosure requirements, conflict-of-interest rules and accountability standards.",
+      "quote": "UN partnerships have very limited public disclosure requirements if any, and conflict of interest regulations and accountability standards are not in place",
+      "page": 4
+    },
+    {
+      "claim": "Corporate actors sit in the governance of global partnerships even though they supply a small share of the money (private companies were 2.7% of EWEC financial commitments).",
+      "quote": "corporate actors are systematically involved in the decision-making structures of these partnerships",
+      "page": 3
+    },
+    {
+      "claim": "Authors' recommendation (not a finding): governments should reconsider the unconditioned opening of the UN to business and corporate philanthropy.",
+      "quote": "reconsider the often unconditioned opening of the UN to the business sector and corporate philanthropy",
+      "page": 4
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Disaggregated system-wide data on corporate funding to the UN are not available.",
+      "stated_by_authors": true,
+      "quote": "Disaggregated system-wide information on the quality and quantity of funding from the corporate sector is not available.",
+      "page": 1
+    },
+    {
+      "point": "Global data on philanthropic contributions to development are not systematically collected.",
+      "stated_by_authors": true,
+      "quote": "Global data on philanthropic contributions dedicated to international development causes is not systematically collected.",
+      "page": 2
+    },
+    {
+      "point": "Not authors' statements: the article is short and non-systematic, with no stated method. It does not cover UNFCCC, delegates, badges or fossil fuel links. It is advocacy-oriented, from an NGO think tank.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Adams and Martens (2015), Fit for Whose Purpose? Private funding and corporate influence in the United Nations",
+      "what_it_is": "Global Policy Forum report that this article summarises; a candidate source on corporate influence in the UN",
+      "page": 4
+    },
+    {
+      "name": "Martens and Seitz (2015), Philanthropic Power and Development",
+      "what_it_is": "Global Policy Forum / MISEREOR / Brot für die Welt report on foundations' influence",
+      "page": 5
+    },
+    {
+      "name": "UN Office for Partnerships reports of the Secretary-General (2013, 2014)",
+      "what_it_is": "UN reports on partnerships",
+      "page": 5
+    },
+    {
+      "name": "UNDP Funding Compendium 2015; WHO Source and distribution of funds 2014-2015; UN Women Annual Report 2015-2016",
+      "what_it_is": "Agency funding data that the article uses for its figures",
+      "page": 5
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "whole source (3976 words); the chunk file gave all 5 pages and 46 passages. No extra searching of the full text was needed."
+}

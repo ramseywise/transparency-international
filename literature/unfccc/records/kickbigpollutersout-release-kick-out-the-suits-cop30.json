@@ -1,0 +1,205 @@
+{
+  "id": "kickbigpollutersout-release-kick-out-the-suits-cop30",
+  "citation": {
+    "authors": ["Kick Big Polluters Out (KBPO) coalition"],
+    "year": 2025,
+    "title": "RELEASE: Fossil fuel lobbyists flood COP30 climate talks in Brazil, with largest ever attendance share",
+    "venue_or_publisher": "Kick Big Polluters Out (kickbigpollutersout.org)",
+    "doi_or_url": "https://kickbigpollutersout.org/Release-Kick-Out-The-Suits-COP30",
+    "type": "campaign press release (web page), dated 14 November 2025",
+    "peer_reviewed": "no"
+  },
+  "question": "How many fossil fuel lobbyists were admitted to COP30 (Belem), how are they spread across badge types and country delegations, and how does that compare with delegations of climate-vulnerable countries.",
+  "data": "The UNFCCC provisional list of participants at COP30, published 10 November 2025. Size of the list is not stated. Period: COP30 only; comparison with COP29 (Baku) is mentioned but its data are not given on this page.",
+  "method": "Manual line-by-line classification of each entry on the list, plus a script that checks whether a person was identified as a fossil fuel lobbyist in previous years; a team of fact-checkers then verifies results. Only information on the UNFCCC list is used (delegation plus any affiliation the delegate disclosed). Further detail is said to be on a separate Method-FAQs page, which is not part of this text.",
+  "definitions": [
+    {
+      "term": "fossil fuel lobbyist",
+      "definition": "Any individual delegate who represents an organisation, or is a member of a delegation, that can reasonably be assumed to aim to influence policy or legislation in the interests of the fossil fuel industry or a particular fossil fuel company and its shareholders.",
+      "quote": "any individual delegate that represents an organization or is a member of a delegation that can be reasonably assumed to have the objective of influencing the formulation or implementation of policy or legislation",
+      "page": "Methodology"
+    },
+    {
+      "term": "delegation (registration categories)",
+      "definition": "Each registrant declares the delegation they belong to. The page lists the possible types.",
+      "quote": "an official country delegation (or party overflow), a UN body, an intergovernmental organisation, a non-government organisation, or a media institution",
+      "page": "Methodology"
+    },
+    {
+      "term": "Party overflow badge",
+      "definition": "Described only by its effect: it gives individuals behind-the-scenes access to the negotiations. No formal definition given.",
+      "quote": "Party overflow badges that allow the individuals behind the scenes access to the inner workings of the negotiations",
+      "page": "Intro (findings list)"
+    },
+    {
+      "term": "government badge",
+      "definition": "Not defined. Used as a contrast with non-government participants, who must disclose funding and alignment with UNFCCC objectives; this does not apply to government badges.",
+      "quote": "This information is made public for the world to see, but does not apply to those on government badges.",
+      "page": "Intro"
+    },
+    {
+      "term": "fossil fuel-affiliated organisation / fossil fuel lobbyist (trade associations)",
+      "definition": "The page lists trade associations 'representing the fossil fuel industry' but gives no criteria for deciding that an association qualifies.",
+      "quote": "The top ten biggest trade associations in attendance representing the fossil fuel industry are",
+      "page": "Notes to the editor"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "fossil fuel lobbyist (person)",
+      "indicator": "Affiliation the person chose to disclose on the UNFCCC list (employer or organisation), together with the delegation they attend through. No outside lookup.",
+      "quote": "we only considered the information provided in the UNFCCC’s list.",
+      "page": "Methodology"
+    },
+    {
+      "concept": "fossil fuel lobbyist (when no affiliation is disclosed)",
+      "indicator": "Not classified. A person who does not state a fossil fuel affiliation is not counted.",
+      "quote": "we were unable to classify them as a fossil fuel lobbyist.",
+      "page": "Methodology"
+    },
+    {
+      "concept": "fossil fuel lobbyist (repeat attendees)",
+      "indicator": "A script checks whether the person had been identified as a fossil fuel lobbyist in previous years.",
+      "quote": "we also used a script to check whether a lobbyist had been identified as a fossil fuel lobbyist in previous years",
+      "page": "Methodology"
+    },
+    {
+      "concept": "fossil fuel lobbying through a trade association",
+      "indicator": "Attendance under a business or industry association is treated as fossil fuel lobbying (the page lists such associations with head counts). The rule for including an association is not stated.",
+      "quote": "Major trade associations remain a primary vehicle for fossil fuel influence, with the International Emissions Trading Association bringing 60 representatives",
+      "page": "Intro (findings list)"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "KBPO counts 1602 fossil fuel lobbyists on the COP30 provisional list (intro says 'more than 1600'; quoted campaigners say 'more than 1,500').",
+      "quote": "A full list of the 1602 fossil fuel lobbyists is available on request.",
+      "page": "Methodology"
+    },
+    {
+      "claim": "Only the host country delegation (Brazil, 3805 people) is larger than the fossil fuel lobbyist count.",
+      "quote": "with only host country Brazil (3805), sending more people",
+      "page": "Intro"
+    },
+    {
+      "claim": "Share of fossil fuel lobbyists among attendees is about 1 in 25, a 12% proportional increase on COP29 and the highest since KBPO began analysing attendees.",
+      "quote": "Proportionally, this is a 12% increase from last year’s climate talks in Baku",
+      "page": "Intro"
+    },
+    {
+      "claim": "About 599 fossil fuel lobbyists have Party overflow badges.",
+      "quote": "approximately 599 lobbyists gaining access through Party overflow badges",
+      "page": "Intro (findings list)"
+    },
+    {
+      "claim": "164 fossil fuel lobbyists have government badges.",
+      "quote": "164 fossil fuel lobbyists are gaining access through government badges",
+      "page": "Intro"
+    },
+    {
+      "claim": "Per-delegation counts given for three Parties: France 22 fossil fuel delegates, Japan 33, Norway 17. No table of all delegations is given.",
+      "quote": "France brought 22 fossil fuel delegates",
+      "page": "Intro (findings list)"
+    },
+    {
+      "claim": "Japan and Norway counts.",
+      "quote": "Japan’s delegation contained 33 fossil fuel lobbyists",
+      "page": "Intro (findings list)"
+    },
+    {
+      "claim": "Norway count.",
+      "quote": "Norway snuck 17 into the talks",
+      "page": "Intro (findings list)"
+    },
+    {
+      "claim": "Comparison with vulnerable countries: delegates of the 10 most climate-vulnerable nations with COP30 delegations total 1061; lobbyists have two thirds more passes. Ratios given for the Philippines (nearly 50 to 1) and Jamaica (over 40 times); the underlying delegation sizes are not given.",
+      "quote": "all the delegates from the 10 most climate vulnerable nations combined (1061)",
+      "page": "Intro (findings list)"
+    },
+    {
+      "claim": "Ten trade associations with most attendees (head counts): International Chamber of Commerce 148; Brazilian Business Council for Sustainable Development 91; International Emissions Trading Association 60; Abeeolica 60; Brazilian National Confederation of Industry 41; US Chamber of Commerce 20; World Business Council for Sustainable Development 19; Korea Chamber of Commerce and Industry 15; Federation of Indian Chambers of Commerce and Industry 15; Federation of Industries of the State of Sao Paulo 14.",
+      "quote": "International Chamber of Commerce (148); Brazilian Business Council for Sustainable Development (91)",
+      "page": "Notes to the editor"
+    },
+    {
+      "claim": "Registration at COP30 requires each participant to declare employer organisation, nature of relationship, role and delegation (background rule, stated by the page, not a finding about counts).",
+      "quote": "must declare the organisation they work for, the nature of their relationship to this organisation, their role, and the delegation they're part of",
+      "page": "Methodology"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Only people who disclose a fossil fuel affiliation can be counted, so the count is a floor (undisclosed or obscured affiliations are missed).",
+      "stated_by_authors": true,
+      "quote": "If someone did not choose to explicitly state an affiliation to a fossil fuel company or fossil fuel-affiliated organisation",
+      "page": "Methodology"
+    },
+    {
+      "point": "The analysis used the provisional list published 10 November 2025, not a final list.",
+      "stated_by_authors": true,
+      "quote": "The UNFCCC published a provisional list of the participants at COP30 on 10 November 2025.",
+      "page": "Methodology"
+    },
+    {
+      "point": "The text is a campaign press release, not a full report. Criteria for 'fossil fuel-affiliated organisation', the classification list of organisations, and the denominator (total attendees) are not stated here; the full list of 1602 is only available on request and a separate Method-FAQs page is linked but was not part of the text read.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The headline number is given inconsistently (1602 in Methodology; 'more than 1600' in the intro; 'more than 1,500' in quoted statements). Whether 599 (overflow) and 164 (government badges) overlap, or what the remaining badge types are, is not stated.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The list of the 10 most climate-vulnerable nations in the notes names Somalia twice, so only nine distinct countries appear; the 1061 total cannot be checked from this page.",
+      "stated_by_authors": false,
+      "quote": "Sierra Leone, Somalia and Eritrea",
+      "page": "Notes to the editor"
+    },
+    {
+      "point": "Trade associations are counted as fossil fuel lobbying (they include broad business bodies such as chambers of commerce), but the page does not say how many of their delegates were counted as fossil fuel lobbyists or on what test. It gives no count of business delegates in general, so it does not answer Q1.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Most of the page is quotations from campaigners and advocacy statements; these were not recorded as findings. The source is produced by an advocacy coalition (more than 450 member organisations) that argues for excluding fossil fuel interests. No instructions to a reader or AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC provisional list of participants, COP30",
+      "what_it_is": "Public list of registrants with organisation, relationship, role and delegation; published 10 November 2025; the sole data source of the analysis.",
+      "page": "Methodology"
+    },
+    {
+      "name": "KBPO list of 1602 fossil fuel lobbyists",
+      "what_it_is": "The coalition's classified list; not published on the page, available on request.",
+      "page": "Methodology"
+    },
+    {
+      "name": "KBPO Method-FAQs page",
+      "what_it_is": "Linked page (https://kickbigpollutersout.org/Method-FAQs) presumably giving more method detail; not read.",
+      "page": "Methodology (links)"
+    },
+    {
+      "name": "KBPO COP29 fossil fuel lobbyist analysis",
+      "what_it_is": "Linked earlier analysis (https://kickbigpollutersout.org/COP29FossilFuelLobbyists) used for the year-on-year comparison; not read.",
+      "page": "Intro (links)"
+    },
+    {
+      "name": "Notre Dame GAIN country index rankings",
+      "what_it_is": "Linked as the basis for the list of most climate-vulnerable nations (gain.nd.edu); not read.",
+      "page": "Intro / Notes to the editor (links)"
+    }
+  ],
+  "relevant_to": ["Q2", "method", "context"],
+  "pages_read": "Full extracted text of the saved web page (51 paragraphs, about 4,060 words, all sections including Methodology and Notes to the editor). This is a press release, not the full underlying report; the Method-FAQs page and the linked COP29 analysis were not read.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

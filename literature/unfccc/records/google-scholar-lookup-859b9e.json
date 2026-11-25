@@ -1,0 +1,175 @@
+{
+  "id": "google-scholar-lookup-859b9e",
+  "citation": {
+    "authors": [
+      "Karin Bäckstrand",
+      "Jonathan W. Kuyper",
+      "Björn-Ola Linnér",
+      "Eva Lövbrand"
+    ],
+    "year": 2017,
+    "title": "Non-state actors in global climate governance: from Copenhagen to Paris and beyond",
+    "venue_or_publisher": "Environmental Politics, 2017, Vol. 26, No. 4, pp. 561-579 (labelled EDITORIAL on the first page of the article)",
+    "doi_or_url": "https://doi.org/10.1080/09644016.2017.1327485",
+    "type": "journal editorial (introduction to a special issue)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "The editorial advances the idea of 'hybrid multilateralism' to describe the closer interplay between states and non-state actors in climate governance after Copenhagen (2009) and the Paris Agreement (2015), and discusses what this means for authority, legitimacy and effectiveness. It does not set out to count or classify any group of participants.",
+  "data": "No dataset of its own. A conceptual and literature-based account of UNFCCC history from COP 15 (2009) to COP 22 (2016). The few numbers it gives (accredited participants, non-state observers, NAZCA commitments) are taken from other works and from UNFCCC documents cited in the text.",
+  "method": "Narrative and conceptual review of the literature and UNFCCC decisions; no counting, coding or classification of organisations is described.",
+  "definitions": [
+    {
+      "term": "non-state actor",
+      "definition": "Includes civil society and social movements, economic actors (business and trade unions) and subnational actors (regional and local governments, cities, municipalities). Business is therefore one kind of non-state actor.",
+      "quote": "We take the term nonstate actor to include not only civil society and social movements, but also economic actors (business and trade unions) and subnational or substate actors",
+      "page": 3
+    },
+    {
+      "term": "non-state actor (consistency with UN observer status)",
+      "definition": "The authors say their definition matches the UN Economic and Social Council's recognition of observers with consultative status.",
+      "quote": "This deﬁnition is consistent with the United Nations Economic and Social Council recognition of observers who have received consultative status.",
+      "page": 3
+    },
+    {
+      "term": "non-state actor (footnote: includes governmental actors)",
+      "definition": "The authors note that their definition also covers local authorities, which are governmental.",
+      "quote": "It is noteworthy that this deﬁnition also includes governmental actors such as local authorities.",
+      "page": 16
+    },
+    {
+      "term": "hybrid multilateralism",
+      "definition": "A heuristic for the closer interplay between state and non-state actors in international climate cooperation.",
+      "quote": "we advance the concept of ‘hybrid multilateralism’ as a heuristic to capture this intensiﬁed interplay between state and non-state actors",
+      "page": 3
+    },
+    {
+      "term": "non-Party stakeholders",
+      "definition": "Term used in the Paris COP decision for non-state actors that can contribute to the temperature goal; the text does not define it further.",
+      "quote": "its accompanying COP decision formally recognizes that ‘non-Party stakeholders’ can contribute to the goal of limiting global warming well below 2°C, or even 1.5°C.",
+      "page": 3
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "non-state presence at the climate conference",
+      "indicator": "Registration as a non-state observer at the COP (accredited participants); the figure is cited from another work, and the text does not say how organisations were sorted into observer groups.",
+      "quote": "peaking in Paris with more than 28,000 accredited participants, of whom 8000 were registered as nonstate observers (Lövbrand et al. 2017)",
+      "page": 3
+    },
+    {
+      "concept": "non-state climate action by companies and others",
+      "indicator": "Registration of commitments in the UNFCCC-hosted NAZCA platform, which lists commitments by companies, investors, civil society and cities.",
+      "quote": "NAZCA, a platform established and hosted by the UNFCCC that to date has registered more than 12,000 individual or cooperative climate commitments by companies, investors, civil society and cities.",
+      "page": 3
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Business is named among the non-state groups present in UN climate talks since the early 1990s, in roles such as activist, expert and diplomat. The text gives no figure for business and says nothing about business inside Party delegations.",
+      "quote": "NGOs, businesses and local governments have been present as activists, experts and diplomats",
+      "page": 5
+    },
+    {
+      "claim": "Oil companies are listed, among many other groups, as non-state actors involved in the UNFCCC system. No count and no definition of 'oil companies' is given.",
+      "quote": "The non-state actors involved in the UNFCCC system include environmental NGOs, activist groups, intergovernmental organizations, city networks, oil companies,",
+      "page": 5
+    },
+    {
+      "claim": "The authors describe business as internally divided: some firms ask for climate-friendly policy, others pursue greenwashing or rollback of regulation (citing Nasiritousi 2017).",
+      "quote": "While some businesses demand environment-friendly policies and technologies, others seek to greenwash their practices or roll back regulation (Nasiritousi 2017).",
+      "page": 5
+    },
+    {
+      "claim": "Non-state actors are described as a mixed group, and treating them as one category is only a convenience.",
+      "quote": "Treating ‘non-state actors’ as a homogeneous category can be useful for heuristic purposes, but in practice heterogeneity prevails",
+      "page": 5
+    },
+    {
+      "claim": "Observer numbers at the COPs have grown, peaking at COP 21 in Paris.",
+      "quote": "The numbers of participants at the annual COPs have increased over the years, peaking in Paris with more than 28,000 accredited participants",
+      "page": 3
+    },
+    {
+      "claim": "After Copenhagen the authors say observer participation space became more restricted and protest in UN spaces came under Secretariat control (citing Orr 2016).",
+      "quote": "the space for observer participation has become more restricted after Copenhagen and all protest actions within formal UN spaces are now subject to strict institutional control by the UNFCCC Secretariat",
+      "page": 7
+    },
+    {
+      "claim": "COP 21 accreditation figure for non-state actors given by the authors.",
+      "quote": "the participation of 6306 accredited non-state actors at le Bourget, COP 21 was regarded by many as truly inclusive (UNFCCC 2015).",
+      "page": 11
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The extracted text is the full article: all 20 pages are present and none is missing. It is an editorial (a general introduction), not an empirical study. It gives no analysis of country (Party) delegations, no definition of 'business' or 'fossil-fuel linked' beyond the broad 'non-state actor' definition, no method for classifying organisations, and nothing on language models. Its use for Q2 and method is nil; for Q1 it only shows that business is counted as one type of non-state actor.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The non-state figures (observers, accredited participants) refer to observer organisations accredited to the conference, not to members of Party delegations, so they cannot be read as business presence in country delegations.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 3
+    },
+    {
+      "point": "The authors say the group of non-state actors is mixed, so a single category hides large differences.",
+      "stated_by_authors": true,
+      "quote": "Treating ‘non-state actors’ as a homogeneous category can be useful for heuristic purposes, but in practice heterogeneity prevails",
+      "page": 5
+    },
+    {
+      "point": "Their own broad definition mixes business with governments (local authorities), as they note, so counts under it are not counts of business.",
+      "stated_by_authors": true,
+      "quote": "It is noteworthy that this deﬁnition also includes governmental actors such as local authorities.",
+      "page": 16
+    },
+    {
+      "point": "The extracted file lists only Karin Bäckstrand in its 'authors' field; the four authors in this record come from page 1 of the text. Peer-review status is not stated in the text, so it is recorded as unknown. No instructions addressed to a reader or an AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 1
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "NAZCA (Non-State Actor Zone for Climate Action)",
+      "what_it_is": "UNFCCC-hosted platform registering more than 12,000 climate commitments by companies, investors, civil society and cities; the authors note local authorities dominate it (over 6000 actors).",
+      "page": 3
+    },
+    {
+      "name": "Lövbrand, Hjerpe and Linnér 2017, 'Making climate governance global: how UN climate summitry comes to matter in a complex climate regime', Environmental Politics 26(4)",
+      "what_it_is": "Cited as the source of the accredited participant and non-state observer figures; a candidate source on observer numbers.",
+      "page": 18
+    },
+    {
+      "name": "Nasiritousi 2017, 'Fossil fuel emitters and climate change: unpacking the governance activities of large oil and gas companies', Environmental Politics 26(4)",
+      "what_it_is": "Candidate source on oil and gas companies in climate governance; cited here for the point on business divisions.",
+      "page": 19
+    },
+    {
+      "name": "Nasiritousi, Hjerpe and Linnér 2016, 'The roles of non-state actors in climate change governance: understanding agency through governance profiles', International Environmental Agreements 16(1)",
+      "what_it_is": "Cited for the heterogeneity of non-state actors; a candidate source on how non-state actor types are profiled.",
+      "page": 19
+    },
+    {
+      "name": "Chan, Brandi and Bauer 2016, 'Aligning transnational climate action with international climate governance: the road from Paris', RECIEL 25(2)",
+      "what_it_is": "Cited for the participation gap of developing countries in non-state climate action.",
+      "page": 18
+    },
+    {
+      "name": "Reference list (about 60 entries, mostly climate governance literature)",
+      "what_it_is": "Reference list of the editorial; the other special-issue papers cited here (for example Bäckstrand and Kuyper 2017) are not read.",
+      "page": 16
+    }
+  ],
+  "relevant_to": [
+    "Q1",
+    "context"
+  ],
+  "pages_read": "All 20 pages of the extracted PDF text (full article, 7,744 words): editorial text pp. 2-16, notes and disclosure p. 16, references pp. 16-20, and the link list at the end of the file. No tables or figures are in the text (the file shows none). The text is complete."
+  ,
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

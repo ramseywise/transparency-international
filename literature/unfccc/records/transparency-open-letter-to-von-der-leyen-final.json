@@ -1,0 +1,70 @@
+{
+  "id": "transparency-open-letter-to-von-der-leyen-final",
+  "citation": {
+    "authors": [
+      "Nina Katzemich (LobbyControl)",
+      "Olivier Hoedeman (Corporate Europe Observatory)",
+      "Nick Aiossa (Transparency International EU)",
+      "Alberto Alemanno (The Good Lobby)"
+    ],
+    "year": 2024,
+    "title": "High time to act on enforcing lobbying rules (open letter to Commission President von der Leyen)",
+    "venue_or_publisher": "transparency.eu (open letter, Brussels/Cologne, 15 July 2024)",
+    "doi_or_url": "https://transparency.eu/wp-content/uploads/2024/10/Open-letter-to-von-der-Leyen_final.pdf",
+    "type": "advocacy open letter",
+    "peer_reviewed": "no"
+  },
+  "question": "Calls on the European Commission to enforce lobbying transparency and ethics rules and protect climate policymaking from undue corporate influence.",
+  "data": null,
+  "method": "None. It is an advocacy letter with no data or analysis.",
+  "definitions": [],
+  "proxies": [],
+  "findings": [
+    {
+      "claim": "The authors assert (without data) that the EU Transparency Register is dysfunctional, with loopholes and too little monitoring, resources and enforcement to detect undue influence.",
+      "quote": "the Transparency Register has proven to be dysfunctional. The register still contains large loopholes, and the lack of monitoring, resources and enforcement",
+      "page": 1
+    },
+    {
+      "claim": "The authors assert that the number of lobbyists and their spending are growing, and that many try to block or water down protective policies.",
+      "quote": "the number of lobbyists from inside and outside Europe is growing, spending ever-more money on lobbying the EU institutions",
+      "page": 1
+    },
+    {
+      "claim": "Recommendation (not a finding): make the register de facto mandatory, with a resourced oversight body able to investigate and sanction.",
+      "quote": "A functional lobbying transparency register deserving of the label of “de-factomandatory”.",
+      "page": 1
+    },
+    {
+      "claim": "Recommendation: extend the obligation to meet only registered lobbyists, and proactive disclosure of meetings, to all EU officials down to heads of unit.",
+      "quote": "The obligation to only meet with registered lobbyists should be expanded to all EU officials",
+      "page": 1
+    },
+    {
+      "claim": "Recommendation: protect climate and Green Deal policymaking from undue influence and policy capture by corporations, and prevent corporate dominance of advisory groups and lobby meetings.",
+      "quote": "Undue influence and policy capture by corporations must be prevented.",
+      "page": 2
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Two-page advocacy letter. It has no data, method or definitions of business, fossil or lobbyist categories. It concerns the EU institutions, not the UNFCCC.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "EU Transparency Register",
+      "what_it_is": "The EU lobbying register, mentioned and criticised, not analysed.",
+      "page": 1
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "whole source (533 words)",
+  "read_on": "2026-11-25",
+  "read_by": "source-reader, sonnet"
+}

@@ -1,0 +1,131 @@
+{
+  "id": "doi-10-13140-rg-2-1-3271-8169",
+  "citation": {
+    "authors": ["Jakob Skovgaard", "Jacqueline Gallant"],
+    "year": 2015,
+    "title": "National Delegations to UNFCCC Conferences of the Parties: Who Participates?",
+    "venue_or_publisher": "Earth System Governance Working Paper No. 35, Lund and Amsterdam: Earth System Governance Project",
+    "doi_or_url": "https://doi.org/10.13140/rg.2.1.3271.8169",
+    "type": "working paper (Earth System Governance Working Paper series, November 2015; the file shows the series version, 15 pages)",
+    "peer_reviewed": "yes"
+  },
+  "question": "Which ministries (and agencies) make up national delegations to UNFCCC COPs, whether this has changed over time, and whether developed and developing countries differ.",
+  "data": "Delegations of twelve countries (US, China, India, Brazil, Indonesia, UK, Germany, Japan, Denmark, Sweden, Gabon, Bhutan) at COP1, 7, 15, 17 and 19. Built on data collected by Schroeder et al (2012), extended to COP17 and 19 and from six to twelve countries. The source list used to build the data, and the number of delegates coded, are not stated in this file.",
+  "method": "Delegates were mapped to the ministry or agency that sent them and shares were compared across COPs and countries (tables and figures of percentage shares). The rules used to assign a delegate to a ministry category are not described in the text.",
+  "definitions": [
+    {
+      "term": "ministries (as used in the paper)",
+      "definition": "Ministries, agencies and other national public institutions are all called ministries.",
+      "quote": "For the sake of simplicity, we refer to ministries, agencies, and other national public institutions as ministries.",
+      "page": 4
+    },
+    {
+      "term": "miscellaneous ministries",
+      "definition": "Residual group made up of science and technology, defence, health and transport.",
+      "quote": "Miscellaneous ministries includes the science and technology, defense, health, and transportation categories.",
+      "page": 7
+    },
+    {
+      "term": "environment ministries",
+      "definition": "For the UK from 2008 and Denmark from 2007 the climate change ministry counts in this group.",
+      "quote": "In the cases of the UK since 2008 and Denmark since 2007 the climate change ministry.",
+      "page": 7
+    },
+    {
+      "term": "who is in the focus group (state representatives)",
+      "definition": "Delegations also include non-state and quasi-state people (independent researchers, sub-state government); the analysis focuses on ministries and agencies that officially represent the state.",
+      "quote": "The delegations also include individuals who are not serving as national representatives, including independent researchers and representatives of sub-state government (cities, states in federal systems, etc.).",
+      "page": 5
+    },
+    {
+      "term": "embassies",
+      "definition": "Embassy and permanent-representation staff are a separate category, described as mainly support staff and treated as less relevant.",
+      "quote": "significant share of national delegations, but mainly perform support tasks like logistics, rather than participating in the negotiations and defining the national position.",
+      "page": 6
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "interests a delegate brings (by sending ministry)",
+      "indicator": "The sending ministry is taken as a sign of the perspective and priorities a delegate carries; industry or economic ministries are said to stress consequences for business.",
+      "quote": "Industry or economic ministries may emphasize consequences for business, while finance ministries often emphasize consequences for the public budget (Skovgaard 2012).",
+      "page": 4
+    },
+    {
+      "concept": "category scheme for delegates' affiliation",
+      "indicator": "Table 1 columns: Environment/climate; Forestry & agriculture; Foreign affairs; Embassies; Finance; Economics/planning/trade/industry; Prime Minister/Executive; Energy/natural resources; Miscellaneous ministries; Development. Plus an 'other/unknown' group mentioned in the text.",
+      "quote": "The “other/unknown” category also comprises a significant proportion of the national delegation, in recent years 10-20 per cent.",
+      "page": 7
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Environment ministries are the largest group, followed by foreign affairs ministries; shares have changed little over time although absolute numbers grew.",
+      "quote": "Environment ministries, followed by foreign affairs ministries, have prevailed in the cases of most countries and at most COPs.",
+      "page": 12
+    },
+    {
+      "claim": "The more important the COP, the larger and more varied the delegations; peripheral ministries grow faster than environment and foreign ministries at important COPs (COP15).",
+      "quote": "The more important the COP, the more numerous and the more diverse the national delegation has proven to be.",
+      "page": 5
+    },
+    {
+      "claim": "China and the US are outliers: China's delegations are dominated by a planning ministry (NDRC), the US by the State Department.",
+      "quote": "Thus, China and the US – the two most powerful actors within the UNFCCC – stand out in terms of which ministry is the largest within their delegations.",
+      "page": 10
+    },
+    {
+      "claim": "In the Party delegations studied, the 'other/unknown' share was 10-20 per cent in recent years.",
+      "quote": "The “other/unknown” category also comprises a significant proportion of the national delegation, in recent years 10-20 per cent.",
+      "page": 7
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Only twelve countries and five COPs; the choice is described as covering large and small, developed, emerging and least developed countries.",
+      "stated_by_authors": false,
+      "quote": "The countries selected represent both large and small countries as well as developed, emerging, and least developed countries.",
+      "page": 4
+    },
+    {
+      "point": "Delegates who attend only important COPs may be less active in negotiations than regulars, so presence is not influence.",
+      "stated_by_authors": true,
+      "quote": "It is, however, possible that the delegates who only show up at the important COPs are less active in the negotiations than the COP regulars.",
+      "page": 12
+    },
+    {
+      "point": "Influence of the predominant ministry on negotiation positions is not studied; the authors call for it as future research.",
+      "stated_by_authors": true,
+      "quote": "more analysis exploring the influences of different ministries at the COPs is needed.",
+      "page": 12
+    },
+    {
+      "point": "The paper only covers government bodies; it has no business, industry-association or fossil fuel category for delegates, and does not say how non-state delegates were coded. It does not describe its coding rules or any coder checks (not stated).",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "No instructions addressed to a reader or AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Schroeder, Boykoff and Spiers (2012), Equity and State Representations in Climate Negotiations, Nature Climate Change 2: 834-836",
+      "what_it_is": "Earlier data set of delegations (six countries) on which this paper builds and which it extends to COP17, COP19 and twelve countries.",
+      "page": 6
+    },
+    {
+      "name": "Skovgaard (2012), Learning about Climate Change: Finance Ministries in International Climate Change Politics, Global Environmental Politics 12(4)",
+      "what_it_is": "Cited for finance and industry/economic ministries' differing emphasis; listed in the references.",
+      "page": 13
+    }
+  ],
+  "relevant_to": ["Q1", "method"],
+  "pages_read": "1-15 (all)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

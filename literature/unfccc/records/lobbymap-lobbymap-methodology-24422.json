@@ -1,0 +1,223 @@
+{
+  "id": "lobbymap-lobbymap-methodology-24422",
+  "citation": {
+    "authors": [
+      "InfluenceMap"
+    ],
+    "year": 2025,
+    "title": "The LobbyMap Methodology",
+    "venue_or_publisher": "InfluenceMap (LobbyMap platform), web briefing page",
+    "doi_or_url": "https://lobbymap.org/briefing/LobbyMap-Methodology-24422",
+    "type": "web page (methodology briefing by a non-profit think tank); no publication date in page metadata, the page carries the heading 'January 2025'",
+    "peer_reviewed": "no"
+  },
+  "question": "How InfluenceMap's LobbyMap platform assesses and scores companies and industry associations on their engagement with climate policy (support for or opposition to science-aligned climate policy). It does not study COP delegations, observer badges or participant lists.",
+  "data": "Public evidence on each assessed entity: organisational websites, corporate media, CDP disclosures, direct consultation with governments, reliable media, management messaging, financial disclosures and investor transcripts. Coverage is stated as approximately 600 companies and 300 industry groups as of September 2024, and elsewhere as 1000 companies and 330 industry associations (the page gives both figures). Evidence is collected up to five years before the assessment date. Over 30,000 items of evidence per year and over 150,000 archived pieces as of January 2024.",
+  "method": "Each item of evidence is coded on a five-point scale (+2 to -2) against two external benchmarks: science-based policy benchmarks derived from IPCC reports, and government policy benchmarks from bodies mandated to deliver a country's Nationally Determined Contribution. Items are placed in a matrix of data sources by policy queries, weighted by source, query, importance and age, and aggregated into an Organization Score (0-100), a Relationship Score (0-100, companies only, from the company's industry associations weighted by Relationship Strength 1-10), a Performance Band (A+ to F) and an Engagement Intensity score (0-100). Scoring is done by human analysts; the page says InfluenceMap is exploring AI and machine learning to scale up, but does not describe how.",
+  "definitions": [
+    {
+      "term": "Policy engagement (corporate climate policy engagement)",
+      "definition": "Taken from the 2013 UN Guide for Responsible Corporate Engagement in Climate Policy: a range of corporate activities such as advertising, social media, public relations and direct contact with regulators and elected officials. The page later adds research sponsorship, campaign funding and participation in policy advisory committees.",
+      "quote": "which defines a range of corporate activities as engagement, such as advertising, social media, public relations, and direct contact with regulators and elected officials.",
+      "page": "About InfluenceMap"
+    },
+    {
+      "term": "Direct and indirect engagement",
+      "definition": "Direct is engagement by the company itself; indirect is engagement carried out on its behalf by third parties such as industry associations, think tanks or PR agencies.",
+      "quote": "\"Direct\" denotes engagement undertaken by the company itself, while \"indirect\" refers to engagement carried out on a company's behalf by third-party entities",
+      "page": "3.1 The Definition of Corporate Climate Policy Engagement"
+    },
+    {
+      "term": "Inside and outside tactics",
+      "definition": "Inside means efforts to influence policy through direct interaction with formal decision-makers; outside means efforts to shape public opinion as a means to political and policy objectives.",
+      "quote": "\"inside\" refers to efforts targeting policy influence through direct interactions with formal policy decision-makers (e.g., policymakers and politicians).",
+      "page": "3.1 The Definition of Corporate Climate Policy Engagement"
+    },
+    {
+      "term": "Influencers",
+      "definition": "InfluenceMap's collective term for industry groups, business federations and similar groups representing corporate interests.",
+      "quote": "InfluenceMap refers to industry groups, business federations, and other similar groups representing corporate interests as \"influencers.\"",
+      "page": "Industry Association Selection"
+    },
+    {
+      "term": "Science-aligned climate policy",
+      "definition": "The policy and technology pathways the IPCC identifies as necessary to meet the Paris Agreement goal of limiting warming to well below 2C and pursuing 1.5C.",
+      "quote": "This term denotes the policy and technology pathways highlighted through the research of the Intergovernmental Panel on Climate Change (IPCC) as necessary to deliver the Paris Agreement’s goal",
+      "page": "2.2 A Methodology for Assessing Corporate Support or Opposition to Science-Aligned Climate Policy"
+    },
+    {
+      "term": "Mandated bodies",
+      "definition": "Levels of government or government-authorised bodies tasked with implementing a country's Nationally Determined Contribution.",
+      "quote": "\"Mandated bodies\" are defined here as various levels of government or government-authorized bodies that are tasked with NDC implementation in their regions.",
+      "page": "3.3 Defining and Categorizing Climate Policy"
+    },
+    {
+      "term": "Climate Policy",
+      "definition": "The climate-related components of policy, including policy areas not traditionally associated with climate such as building codes, land use, trade and fiscal regulation.",
+      "quote": "The climate-related components within these policies fall under InfluenceMap's definition of “Climate Policy.”",
+      "page": "Table 4: InfluenceMap Queries Based on Subcategories of the Climate Policy Engagement Agenda"
+    },
+    {
+      "term": "Relationship Strength",
+      "definition": "A 1-10 rating of how strongly a company is tied to an industry association, based on membership size, committee or board seats, senior executive involvement, and whether the company has publicly disagreed with the association.",
+      "quote": "Membership to key committees or boards, which would result in a higher relationship score.",
+      "page": "Assessing Company Indirect Influence Through Industry Associations"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "A company in scope as relevant to climate policy (the sector emphasis of the assessed universe)",
+      "indicator": "Belongs to a sector listed as pivotal to the energy transition (energy, utilities, transport, heavy industry, mining, agriculture).",
+      "quote": "Companies in sectors pivotal to the global energy transition, including energy, utilities, transport, heavy industry (chemicals, steel, cement, etc.), mining, and agriculture.",
+      "page": "Company Selection"
+    },
+    {
+      "concept": "A company of any sector that may be engaged on climate policy",
+      "indicator": "Memberships in corporate climate initiatives, screened and aggregated.",
+      "quote": "Companies from any sector flagged as potentially engaged on climate policy by screening and aggregating memberships in corporate climate initiatives worldwide.",
+      "page": "Company Selection"
+    },
+    {
+      "concept": "Size and political influence of a company",
+      "indicator": "Rank on the Forbes Global 2000, averaged over three years.",
+      "quote": "Our system for selecting companies prioritizes the largest companies as determined by the Forbes Global 2000",
+      "page": "Company Selection"
+    },
+    {
+      "concept": "Power of an industry association",
+      "indicator": "A 0-10 'Relative Ranking' built from the group's size, the size of the companies or sectors it speaks for, and surveyed opinions of businesspeople, policymakers and civil society.",
+      "quote": "This is done by surveying and aggregating the opinions of businesspeople, policymakers, and civil society groups familiar with the jurisdiction and the group’s political influence.",
+      "page": "Assessing Company Indirect Influence Through Industry Associations"
+    },
+    {
+      "concept": "Jurisdiction weighting for industry groups (a fossil-fuel-related indicator)",
+      "indicator": "Size of the economy and the jurisdiction's contribution to global greenhouse gas emissions and exported fossil fuels.",
+      "quote": "The “jurisdiction weighting\" accounts for the size of the economy and the contribution of the industry group's jurisdiction to global greenhouse gas emissions and exported fossil fuels.",
+      "page": "Industry Association Selection"
+    },
+    {
+      "concept": "Support for or opposition to climate policy in one item of evidence",
+      "indicator": "Discourse analysis coding each evidence piece on a five-point scale against the benchmark.",
+      "quote": "codes each evidence piece as: “Strongly supporting”; “Supporting”; “No position/Mixed position”; “Not supporting”; or “Opposing.”",
+      "page": "Table 5: Overview of Benchmarks"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The page reports no empirical findings about business or fossil-fuel presence, at COP or elsewhere. It is a description of a scoring method. The only substantive claims about influence are attributed to others, for example the IPCC naming entrenched fossil fuel interests as an obstacle.",
+      "quote": "The IPCC has pinpointed \"opposition from vested interests in the status quo\" and the \"influence of entrenched fossil fuel interests\" over the policymaking process",
+      "page": "1. Introduction"
+    },
+    {
+      "claim": "Authors report that the IPCC AR6 Working Group III report points to 'incumbent industry' as a major blockage to climate policy.",
+      "quote": "The report also points to the influence and impact of “incumbent industry” as a major blockage to the progress of such policy.",
+      "page": "AR6 Working Group III (AR6 WG3)"
+    },
+    {
+      "claim": "Stated coverage of the platform as of September 2024.",
+      "quote": "As of September 2024, the LobbyMap platform covers approximately 600 companies and 300 leading industry groups.",
+      "page": "About InfluenceMap"
+    },
+    {
+      "claim": "Industry associations are described as important channels of corporate influence (a claim of the authors, no data given on this page).",
+      "quote": "As such, industry associations are widely used by companies to significantly augment their policy influence in key markets on a range of issues.",
+      "page": "Introduction to Industry Associations"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "This is a methodology description, not a study of COP delegations. It contains no definition of 'business' or 'fossil-fuel linked' for participants, no list of fossil-fuel companies, and no rule for classifying an organisation as business or fossil-fuel linked. Table 7 (the fossil gas benchmark example) and all graphics are not in the extracted text. Full text of the page was present.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The page gives two different coverage figures: about 600 companies and 300 industry groups, and 1000 companies and 330 industry associations.",
+      "stated_by_authors": false,
+      "quote": "producing metrics and analysis on the climate policy engagement activities of the 1000 companies and 330 industry associations in the system",
+      "page": "4.6 Matrix-Based Data Platform"
+    },
+    {
+      "point": "The method cannot see undisclosed lobbying such as private meetings and financial transactions.",
+      "stated_by_authors": true,
+      "quote": "While the LobbyMap system does not encompass concealed or undisclosed information related to activities like private meetings and financial transactions",
+      "page": "Table 3: LobbyMap Data Sources Used to Define Corporate Climate Policy Engagement"
+    },
+    {
+      "point": "Availability of data sources differs by region and jurisdiction.",
+      "stated_by_authors": true,
+      "quote": "these data sources vary in availability across different regions and jurisdictions.",
+      "page": "Table 3: LobbyMap Data Sources Used to Define Corporate Climate Policy Engagement"
+    },
+    {
+      "point": "The method does not measure the actual effect of one company or association on a particular policy decision, nor internal corporate decision-making.",
+      "stated_by_authors": true,
+      "quote": "Assessing the specific impact a single company or industry association has had on a particular policy decision; and",
+      "page": "2.1 An Evidence-Based Assessment of Corporate Climate Policy Engagement"
+    },
+    {
+      "point": "Think tanks and consultancies are not tracked because of limited disclosure, so indirect influence through them is not captured.",
+      "stated_by_authors": true,
+      "quote": "many professional policy engagement consultancies and think tanks operate under limited disclosure regimes, hindering such analysis.",
+      "page": "Industry Association Selection"
+    },
+    {
+      "point": "Coverage is weighted to named focus regions and large companies, with low and middle income countries described as a future growth area.",
+      "stated_by_authors": true,
+      "quote": "Companies headquartered or operating in our focus regions, which are Canada, the United States, Europe, South Korea, Japan, and Australia.",
+      "page": "Company Selection"
+    },
+    {
+      "point": "The claims of objectivity and replicability are the authors' own; no inter-coder agreement or validation figures are given on this page. InfluenceMap says it takes comments from assessed entities, and the page has an advisory group list and a stated investor and corporate user base.",
+      "stated_by_authors": false,
+      "quote": "The system is designed to generate results that are identical and replicable regardless of who engages in the scoring process.",
+      "page": "About InfluenceMap"
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "LobbyMap database of company and industry association profiles",
+      "what_it_is": "InfluenceMap's scored database of companies and industry associations on climate policy engagement, with evidence items and links between companies and associations; public at lobbymap.org. Not read here.",
+      "page": "5. The Outputs"
+    },
+    {
+      "name": "Forbes Global 2000",
+      "what_it_is": "Ranking of the largest companies, used as the starting list for company selection.",
+      "page": "Company Selection"
+    },
+    {
+      "name": "UN Global Compact Guide for Responsible Corporate Engagement in Climate Policy (2013)",
+      "what_it_is": "Source of the definition of corporate climate policy engagement. Linked, not read here.",
+      "page": "3.1 The Definition of Corporate Climate Policy Engagement"
+    },
+    {
+      "name": "Global Standard on Responsible Climate Lobbying (2022)",
+      "what_it_is": "Investor framework of 14 indicators for disclosure and governance of climate lobbying, used to assess company disclosures. Linked, not read here.",
+      "page": "2.4 Fact-Checking of Corporate Disclosures on Climate Policy Engagement"
+    },
+    {
+      "name": "Science-Based Benchmark Database / Portal",
+      "what_it_is": "A selection of InfluenceMap's IPCC-derived policy benchmarks, linked from the page. Not read here.",
+      "page": "4.3 Using Science-Based Policy Benchmarks"
+    },
+    {
+      "name": "OECD (2021) Lobbying in the 21st Century",
+      "what_it_is": "OECD report on lobbying, cited for concern about vested interests. Linked, not read here.",
+      "page": "1. Introduction"
+    },
+    {
+      "name": "EU Transparency Register",
+      "what_it_is": "Named as an example of a government lobbying disclosure channel InfluenceMap is considering as a future data source.",
+      "page": "Table 3: LobbyMap Data Sources Used to Define Corporate Climate Policy Engagement"
+    }
+  ],
+  "relevant_to": [
+    "Q1",
+    "Q2",
+    "method",
+    "context"
+  ],
+  "pages_read": "Full text of the saved web page (415 paragraphs, about 12,500 words, all sections from the Executive Summary to Appendix B). Graphics, Table 7 content and the 46 linked pages were not read. Relevance to Q1 and Q2 is indirect only: the page gives a way to rate company and industry-group sector emphasis and policy stance, not a definition of business or fossil-fuel presence in delegations.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

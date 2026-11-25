@@ -1,0 +1,125 @@
+{
+  "id": "google-scholar-lookup-b4b729",
+  "citation": {
+    "authors": [
+      "Naghmeh Nasiritousi",
+      "Björn-Ola Linnér"
+    ],
+    "year": 2016,
+    "title": "Open or closed meetings? Explaining nonstate actor involvement in the international climate change negotiations",
+    "venue_or_publisher": "International Environmental Agreements 16, 127-144 (published online 17 January 2014; issue date February 2016)",
+    "doi_or_url": "https://doi.org/10.1007/s10784-014-9237-6",
+    "type": "journal article (full text on SpringerLink, open access)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "When do states allow nonstate actors (NSAs) to observe negotiations at intergovernmental meetings, and why are some UNFCCC negotiating sessions open to observers while others are closed. It does not count or classify business or fossil-fuel participants.",
+  "data": "Interviews (negotiators, SBI chairs, and seven NSA representatives from the main observer constituencies), observations at UNFCCC meetings in Bali, Poznan, Copenhagen, Cancun and Durban (2007-2011) and two Bonn intersessionals (2011, 2012), UNFCCC documents on observer participation 2010-2011, and open/closed meetings coded from the daily programmes of COP16 (2010) and COP17 (2011). Interviews were done May 2011 to May 2012. Figures 1 and 2 are not in the extracted text.",
+  "method": "Qualitative comparison of three explanations (functional efficiency, political dynamics, historical institutionalism) against interview, observation and document evidence, using data triangulation. Open/closed status of meetings was coded from the UNFCCC daily programmes.",
+  "definitions": [
+    {
+      "term": "Nonstate actor (NSA)",
+      "definition": "Any group that is not a sovereign state participating in global governance, excluding armed groups. Examples given: nongovernmental organizations, trade associations, local governments.",
+      "quote": "We use the term “nonstate actor” to refer to any group that is not a sovereign state participating in global governance, while excluding armed groups.",
+      "page": "Notes"
+    },
+    {
+      "term": "NSA accredited into a state's delegation",
+      "definition": "When a state accredits an NSA as part of its delegation, the NSA loses formal independence and becomes part of the government delegation.",
+      "quote": "The exception is when a state accredits an NSA as part of its delegation, at which point the NSA loses its formal independence and becomes part of the government delegation",
+      "page": "Notes"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Open or closed meeting",
+      "indicator": "Whether the UNFCCC daily programme marks a meeting as closed; the programme has indicated closed meetings since COP15.",
+      "quote": "One change in procedures after COP15 was to indicate in the daily program when closed meetings were scheduled.",
+      "page": "3 Nonstate actors in the international climate change negotiations"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Some states include NSA representatives in their official delegations, and these representatives are restricted in what they can say and share. The paper leaves them out of its scope.",
+      "quote": "While some states include NSA representatives in their delegations, these representatives are often restricted in what they can say and in the information that they can share.",
+      "page": "Notes"
+    },
+    {
+      "claim": "Interviewees said the business sector follows particular issues closely (here, international property rights).",
+      "quote": "interviews with NSA representatives indicate that the business sector follows the issue of international property rights with great interest",
+      "page": "5.2 Political dynamics and leverage"
+    },
+    {
+      "claim": "Accredited NSAs cannot be selected by states, so states cannot admit only groups that favour their position.",
+      "quote": "Because all accredited NSAs attending a conference must be allowed into all open sessions, states cannot pick and choose among NSA groups to only include groups that favor their viewpoint.",
+      "page": "5.2 Political dynamics and leverage"
+    },
+    {
+      "claim": "Business was one of the observer constituencies interviewed.",
+      "quote": "Key representatives of the following constituencies were interviewed: environmental, research, business, trade union, local government, and indigenous peoples’ NGOs.",
+      "page": "Notes"
+    },
+    {
+      "claim": "Share of open meetings rose from 28% at Cancun (COP16) to 55% at Durban (COP17), after a rule change opening first and last informal consultations to observers.",
+      "quote": "NSAs were allowed into many more negotiations than in the previous COP in Mexico (55 % open in Durban vs. 28 % in Cancún; see Fig. 1).",
+      "page": "5.3 Historical institutionalism: rules of procedure and the role of the chair"
+    },
+    {
+      "claim": "After COP15 the Secretariat introduced a registration system that restricts the number of accredited NSA participants per conference.",
+      "quote": "After COP15, the UNFCCC Secretariat introduced a registration system that restricts the number of accredited NSA participants in each conference.",
+      "page": "Notes"
+    },
+    {
+      "claim": "Closed meetings may favour well-resourced, well-networked NSAs, which are better placed to follow talks behind closed doors (interviewees' view, as reported by the authors).",
+      "quote": "a large number of closed meetings could skew the influence of NSAs to favor those organizations with strong resources and large networks.",
+      "page": "6 Conclusion"
+    },
+    {
+      "claim": "The authors name lobbying as an NSA function that individual states can use for political advantage.",
+      "quote": "some functions, such as lobbying—for example, in terms of advocating particular issues (e.g., climate justice) or specific policy options (e.g., emissions trading)—can be exploited to the political advantage of individual states.",
+      "page": "6 Conclusion"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The paper contains no count, share or classification of business, industry or fossil-fuel-linked participants, and no definition of business or fossil-fuel linked. It also excludes NSAs inside official government delegations, which is the group the study cares about.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Scope is limited to NSAs outside official government delegations.",
+      "stated_by_authors": true,
+      "quote": "This paper is therefore concerned only with the participation of NSA representatives not included in official government delegations.",
+      "page": "Notes"
+    },
+    {
+      "point": "The evidence covers observations and interviews to 2012 and meeting programmes for COP16 and COP17 only. The authors call for studies of other policy areas. (Reader's note, not the authors': the evidence is old for a study of COP31.)",
+      "stated_by_authors": true,
+      "quote": "Future studies of other policy areas are needed to provide further empirical data and analysis",
+      "page": "6 Conclusion"
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC daily programmes, COP16 and COP17",
+      "what_it_is": "Source used to code open and closed meetings (Figs. 1 and 2).",
+      "page": "2 Understanding openness in international organizations"
+    },
+    {
+      "name": "UNFCCC documents FCCC/SBI/2010/MISC.8, FCCC/SBI/2010/8, /10, /16 and FCCC/SBI/2011/7",
+      "what_it_is": "Party and observer submissions and SBI reports on observer participation; listed under 'UNFCCC Documents' in the paper. Not read here.",
+      "page": "UNFCCC Documents (available from http://www.unfccc.int)"
+    },
+    {
+      "name": "Depledge (2005), Climate change negotiations",
+      "what_it_is": "Cited as the main earlier account of open and closed negotiations in the UNFCCC. Not read here.",
+      "page": "References"
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "Full text of the saved SpringerLink page (abstract, sections 1-6, notes, abbreviations, reference list, UNFCCC documents, acknowledgments, article information). The reference list was scanned, not analysed. Figures 1 and 2 are not in the extracted text.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

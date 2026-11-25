@@ -1,0 +1,215 @@
+{
+  "id": "globalwitness-record-number-fossil-fuel-lobbyists-granted-access-cop28",
+  "citation": {
+    "authors": [
+      "Kick Big Polluters Out (KBPO) coalition (analysis); published by Global Witness; no named author on the page"
+    ],
+    "year": null,
+    "title": "Record number of fossil fuel lobbyists granted access to COP28 climate talks",
+    "venue_or_publisher": "Global Witness (press release)",
+    "doi_or_url": "https://www.globalwitness.org/en/press-releases/record-number-fossil-fuel-lobbyists-granted-access-cop28-climate-talks/",
+    "type": "web page (NGO press release with a methodology and definitions section); publication date not given in the page data",
+    "peer_reviewed": "no"
+  },
+  "question": "How many fossil fuel lobbyists were granted access to COP28 (Dubai), judged from the provisional list of participants, and how that compares with country delegations and other groups.",
+  "data": "The UNFCCC provisional list of participants for COP28, published on the UNFCCC website on 30 November (year not stated in the text). The coalition analysed it line by line. Result: at least 2456 fossil fuel lobbyists. Comparison figures are also given for COP27 (636) and Glasgow (503). The anonymised list of the 2456 is stated to be available on request; it is not in the page.",
+  "method": "Scripted automation plus manual classification. A script compared the delegate list with three other lists of potential fossil fuel lobbyists prepared before COP. The team then checked the whole list line by line: first whether the suggested automatic classifications were right, then classifying delegates with no automatic match. Only the information in the UNFCCC list (the delegation and any affiliation the delegate disclosed) was used. Each decision was justified with open sources (company and trade group websites, lobbying registers, credible media), and data shared by InfluenceMap was consulted. Only organisations, not individual names, are published.",
+  "definitions": [
+    {
+      "term": "Fossil fuel lobbyist",
+      "definition": "Any individual delegate who can reasonably be assumed to aim to influence policy or legislation in the interests of the fossil fuel industry or a particular fossil fuel company and its shareholders. In practice, a delegate who self-declared ties to a fossil fuel company, an organisation with fossil fuel interests, or a foundation owned or controlled by a fossil fuel company.",
+      "quote": "we consider a fossil fuel lobbyist to be any individual delegate that can be reasonably assumed to have the objective of influencing the formulation or implementation of policy or legislation in the interests of the fossil fuel industry",
+      "page": "Methodology"
+    },
+    {
+      "term": "Fossil fuel company",
+      "definition": "A company with significant business activities in exploration, extraction, refining, trading, specialised transportation of fossil fuels, or sale of electricity derived from them.",
+      "quote": "We consider a fossil fuel company to be any company that has significant business activities in the exploration, extraction, refining, trading, specialised transportation of fossil fuels or sale of electricity derived from them.",
+      "page": "Definitions"
+    },
+    {
+      "term": "Significant business activities in fossil fuels",
+      "definition": "The company publicly declares it is commercially involved in handling a fossil fuel, or publicly promotes significant investments in such companies.",
+      "quote": "A company has significant business activities in fossil fuels if it publicly declares that it is involved commercially in the handling of a fossil fuel (exploration, extraction, refining, trading, processing, distribution to consumers)",
+      "page": "Definitions"
+    },
+    {
+      "term": "Fossil fuel foundation",
+      "definition": "A foundation directly associated by ownership or control with a fossil fuel company.",
+      "quote": "We would consider a foundation directly associated by ownership or control with a fossil fuel company as a fossil fuel foundation.",
+      "page": "Definitions"
+    },
+    {
+      "term": "Organisation representing fossil fuel interests",
+      "definition": "A trade association or other organisation representing the interests of a fossil fuel company's management and/or shareholders.",
+      "quote": "An organisation representing fossil fuel interests is a trade association or other organisation that represents the interests of a fossil fuel company’s management and/or shareholders.",
+      "page": "Definitions"
+    },
+    {
+      "term": "Qualifying test for an organisation representing fossil fuel interests",
+      "definition": "Any one of three conditions (stated with OR in the text): significant involvement of fossil fuel companies or senior employees in governance; publicly promoting that its purpose is to represent a fossil fuel industry; or a recent track record of lobbying for pro-fossil fuel positions. The text also includes UNFCCC-classified intergovernmental organisations that promote their members' fossil fuel industries.",
+      "quote": "it must have significant involvement of fossil fuel companies or their senior employees in their governance structure (either board of directors or corporate members)",
+      "page": "Definitions"
+    },
+    {
+      "term": "Delegations (UNFCCC list categories)",
+      "definition": "Participants attend in official groups called delegations, divided into government, UN bodies, intergovernmental organisations, non-government organisations and media.",
+      "quote": "These groups, called delegations, are divided into government, UN bodies, intergovernmental organisations, non-government organisations, and media – information that is also provided in the list.",
+      "page": "Methodology"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Fossil fuel lobbyist",
+      "indicator": "A self-declared tie, in the UNFCCC list, to a fossil fuel company, an organisation with fossil fuel interests, or a foundation owned or controlled by a fossil fuel company.",
+      "quote": "If we found that the delegate had self-declared its ties to either a fossil fuel company, an organisation with fossil fuel interests, or any foundation directly associated by ownership or control with a fossil fuel company",
+      "page": "Methodology"
+    },
+    {
+      "concept": "Influence intent",
+      "indicator": "Assumed from having applied to attend COP at all.",
+      "quote": "We believe it is reasonable to assume that anyone who applied to attend COP is attempting to influence the policy debate around climate change.",
+      "page": "Methodology"
+    },
+    {
+      "concept": "Evidence base for a classification",
+      "indicator": "Only the delegation and the affiliation disclosed in the UNFCCC list; no affiliation stated means no classification.",
+      "quote": "we only considered the information provided in the UNFCCC’s list.",
+      "page": "An anonymised list of the 2456 fossil fuel lobbyists is available upon request."
+    },
+    {
+      "concept": "Evidence that an organisation is fossil-linked",
+      "indicator": "Open sources: websites of companies and trade groups, lobbying registers, credible media reports; InfluenceMap data consulted.",
+      "quote": "were justified using open sources that are easily verifiable, including the websites of companies and trade groups, lobbying registers, and media reports by credible news outlets.",
+      "page": "An anonymised list of the 2456 fossil fuel lobbyists is available upon request."
+    },
+    {
+      "concept": "Automated first pass",
+      "indicator": "A script matching the delegate list against three prepared lists of potential fossil fuel lobbyists, then human checking of every line.",
+      "quote": "We used a script to compare this year’s list of delegates against three other lists of potential attendees who we would qualify as fossil fuel lobbyists, prepared in the months leading up to COP.",
+      "page": "An anonymised list of the 2456 fossil fuel lobbyists is available upon request."
+    }
+  ],
+  "findings": [
+    {
+      "claim": "At least 2456 fossil fuel lobbyists were granted access to COP28.",
+      "quote": "At least 2456 fossil fuel lobbyists have been granted access to the COP28 summit in Dubai",
+      "page": "Topics"
+    },
+    {
+      "claim": "The 2456 are fewer only than the Brazil delegation (3081) and the UAE delegation (4409); that is, more than almost every country delegation.",
+      "quote": "the 2456 fossil fuel lobbyists are only outnumbered by the 3081 people brought by Brazil (which is expected to host COP30), and the UAE, which as COP28 host brought 4409 people.",
+      "page": "Topics"
+    },
+    {
+      "claim": "Some fossil fuel company staff were inside Party (and EU) delegations: France (TotalEnergies, EDF), Italy (ENI), European Union (BP, ENI, ExxonMobil). No overall count or share of fossil-linked people inside Party delegations is given.",
+      "quote": "France brought fossil fuel giants such as TotalEnergies and EDF as part of its country delegation, Italy brought a team of ENI representatives, and the European Union brought employees of BP, ENI and ExxonMobil.",
+      "page": "Topics"
+    },
+    {
+      "claim": "A 'vast number' (the page's words; no share is given) of the fossil fuel lobbyists came through trade associations; the largest, IETA, brought 116 people. The ten biggest listed include broad business bodies (for example ICC, BusinessEurope, US Chamber of Commerce).",
+      "quote": "A vast number of fossil fuel lobbyists were granted access to the COP as part of a trade association.",
+      "page": "Topics"
+    },
+    {
+      "claim": "Fossil fuel lobbyists outnumbered the delegates of the ten most climate-vulnerable nations combined (1509).",
+      "quote": "Fossil fuel lobbyists have received more passes to COP28 than all the delegates from the ten most climate vulnerable nations combined (1509)",
+      "page": "Topics"
+    },
+    {
+      "claim": "Earlier counts by the same coalition: at least 636 at COP27 and 503 at Glasgow.",
+      "quote": "at least 636 fossil fuel lobbyists were granted access to the COP27 climate talks in Egypt, up from 503 the year before that in Glasgow.",
+      "page": "Topics"
+    },
+    {
+      "claim": "Other sectors (finance, agribusiness, transportation) are present but were not counted; so the page gives no figure for business presence in general.",
+      "quote": "Other polluting industries deeply implicated in the climate crisis such as finance, agribusiness, and transportation are also present, although they are not included in this analysis.",
+      "page": "Topics"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The estimate counts only delegates who openly disclose a link to fossil fuel interests, so it is likely an undercount; delegates who attend under another affiliation are missed.",
+      "stated_by_authors": true,
+      "quote": "KBPO only counts delegates who openly disclose their connections to fossil fuel interests, and not those who access the talks using a different professional affiliation.",
+      "page": "Topics"
+    },
+    {
+      "point": "The authors describe the figure as conservative and incomplete because of time and resources.",
+      "stated_by_authors": true,
+      "quote": "The strict nature of our methodology results in a conservative estimate rather than a complete figure.",
+      "page": "An anonymised list of the 2456 fossil fuel lobbyists is available upon request."
+    },
+    {
+      "point": "The sources used to link delegates to fossil fuel interests were public ones only.",
+      "stated_by_authors": true,
+      "quote": "KBPO also relied solely on public sources like company websites, news coverage or databases like InfluenceMap’s to connect delegates to fossil fuel interests.",
+      "page": "Topics"
+    },
+    {
+      "point": "This is a press release summarising the method, not the full report. It gives no accuracy check or error rate for the classification, does not describe the three prepared lists, gives no count of how many of the 2456 came via Party delegations versus observer groups, and does not say how many were classified automatically versus by hand. Only the 'fossil fuel lobbyist' category is counted; there is no wider business category. The page has no named author or publication date, and the year of the COP28 list is not stated in the text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The list of top ten 'fossil fuel' trade associations includes general business associations (for example chambers of commerce, BusinessEurope, WBCSD, ICC). The page does not explain how each qualified under its three-way test, or whether every member of such an association's delegation was counted.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The authors are campaigners (the coalition is calling for an accountability framework); the page is advocacy as well as analysis.",
+      "stated_by_authors": false,
+      "quote": "The Kick Big Polluters Out campaign is calling on the UN climate body and governments to continue on the road towards a robust Accountability Framework",
+      "page": "Topics"
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC provisional list of participants, COP28",
+      "what_it_is": "The record of everyone granted access, with delegation type and each delegate's self-declared affiliation; published 30 November on the UNFCCC website. Main data source.",
+      "page": "Methodology"
+    },
+    {
+      "name": "Three prepared lists of potential fossil fuel lobbyists",
+      "what_it_is": "Lists prepared by the coalition in the months before COP, used for the automated cross-check. Not named or described further in the page.",
+      "page": "An anonymised list of the 2456 fossil fuel lobbyists is available upon request."
+    },
+    {
+      "name": "InfluenceMap data",
+      "what_it_is": "Think tank data on how business and finance affect climate, shared with and consulted by the authors.",
+      "page": "An anonymised list of the 2456 fossil fuel lobbyists is available upon request."
+    },
+    {
+      "name": "Anonymised list of the 2456 fossil fuel lobbyists",
+      "what_it_is": "Stated to be available on request; not included in the page.",
+      "page": "An anonymised list of the 2456 fossil fuel lobbyists is available upon request."
+    },
+    {
+      "name": "Joint civil society submission on conflicts of interest (Aug 2022) and UNFCCC document 855rev",
+      "what_it_is": "Linked from the page for context on conflict-of-interest requests by countries and civil society. Not read here.",
+      "page": "Topics"
+    }
+  ],
+  "context_notes": [
+    {
+      "point": "Disclosure rule: from COP28, each delegate had to state who they work for, which made this count possible.",
+      "quote": "Since the UNFCCC updated its policy on registration, each individual delegate is now mandated to include information on who they work for",
+      "page": "Methodology"
+    },
+    {
+      "point": "Conflict-of-interest calls: countries representing almost 70% of the world's population have asked for conflicts of interest to be addressed.",
+      "quote": "countries collectively representing almost 70% of the world’s population having requested these conflicts of interest be addressed",
+      "page": "Topics"
+    }
+  ],
+  "relevant_to": [
+    "Q2",
+    "method",
+    "context"
+  ],
+  "pages_read": "Full text of the saved web page (49 paragraphs, about 1,900 words; all sections including Methodology and Definitions). This is the full press release, but not the underlying report or dataset, which are not in the file. No instructions addressed to a reader or an AI were found.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

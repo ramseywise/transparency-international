@@ -1,0 +1,189 @@
+{
+  "id": "doi-10-1093-oso-9780197762042-003-0006",
+  "citation": {
+    "authors": [
+      "Achim Brunnengräber",
+      "Moritz Neujeffski",
+      "Dieter Plehwe"
+    ],
+    "year": 2024,
+    "title": "Climate Obstruction in Germany: Hidden in Plain Sight? (Chapter 6)",
+    "venue_or_publisher": "In: Climate Obstruction across Europe, edited by Robert J. Brulle, J. Timmons Roberts and Miranda C. Spencer. Oxford University Press",
+    "doi_or_url": "https://doi.org/10.1093/oso/9780197762042.003.0006",
+    "type": "book chapter",
+    "peer_reviewed": "unknown"
+  },
+  "question": "Why Germany, seen as a climate pioneer, has not delivered ambitious climate policy: who the opponents of climate action are (companies, business associations, think tanks, denial groups), and which strategies and campaigns they use against the Renewable Energy Sources Act (RESA) and the energy transition.",
+  "data": "No dataset in the usual sense. A qualitative overview built from secondary sources listed in 55 endnotes: reports by NGOs (InfluenceMap, LobbyControl, Greenpeace), press articles, academic literature, company and campaign material, and policy documents. Period: mainly 1980s to 2023. Table 6.1 (12 firms) and Table 6.2 (3 business associations) reproduce InfluenceMap rankings. Figures 6.1 and 6.2 show German greenhouse gas emissions from sources named in the figures (Gütschow and Pflüger 2023; Umweltbundesamt press office).",
+  "method": "Narrative, actor-based analysis. The authors sort actors into a 'green alliance' of supporters and a 'grey alliance' of opponents of ambitious climate policy, starting from the main sources of CO2 emissions in Germany, then describe firms, business associations, think tanks and denial groups and follow campaigns (RESA, anti-wind groups, three INSM media campaigns). No counting, coding procedure or validation is described.",
+  "definitions": [
+    {
+      "term": "primary obstruction",
+      "definition": "Denial of climate science and of the existence or relevance of global warming (after Ekberg and colleagues).",
+      "quote": "Primary obstruction, according to scholars Ekberg and colleagues, refers to the denial of climate science and the very existence or relevance of global warming.",
+      "page": 5
+    },
+    {
+      "term": "secondary obstruction (delay)",
+      "definition": "Calls that accept human-induced climate change but delay or forestall climate action; delay efforts question the measures needed, stress the downsides of policies, or offer allegedly better market-oriented alternatives.",
+      "quote": "Such efforts to delay (1) question the measures required to tackle climate change in general, (2) emphasize the downside of climate policies",
+      "page": 5
+    },
+    {
+      "term": "grey alliance (obstructionist camp)",
+      "definition": "Mainly actors who want to preserve Germany's centralized fossil fuel energy infrastructure and the traditional industrial production system, plus a less influential cluster of climate deniers. The authors give no formal inclusion test.",
+      "quote": "comprising mainly those who want to preserve Germany’s centralized fossil fuel energy infrastructure and the traditional industrial production system",
+      "page": 9
+    },
+    {
+      "term": "grey and green alliances (who belongs to them)",
+      "definition": "Both alliances contain several kinds of actor: companies, business associations, think tanks and civil society actors.",
+      "quote": "The two groups comprise a variety of actors including companies, business associations, academic and partisan think tanks",
+      "page": 9
+    },
+    {
+      "term": "grey coalition: nuclear energy producers",
+      "definition": "Nuclear energy producers are counted in the grey coalition even after the German nuclear phase-out.",
+      "quote": "Despite the phaseout of nuclear power in Germany, nuclear energy producers (typically owned by major energy companies and competitors with renewables for energy market share) can also be considered part of the grey coalition.",
+      "page": 10
+    },
+    {
+      "term": "grey coalition: financial firms",
+      "definition": "Financial firms are counted in the grey coalition (examples given: DWS, Deutsche Bank, Commerzbank, KENFO), with continuing investment in fossil industries as the stated ground.",
+      "quote": "Financial firms also need to be considered part of the grey coalition.",
+      "page": 10
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "relevant actors in the climate policy field",
+      "indicator": "Start from the sectors that are the largest sources of CO2 emissions in Germany (energy generation, industry, transport, households, agriculture) and look at the interest groups representing them.",
+      "quote": "One useful way to obtain an overview of the relevant actor landscape with regard to climate policy is to focus on the major sources of CO2 emissions in Germany",
+      "page": 8
+    },
+    {
+      "concept": "grey (fossil/nuclear-linked) company: energy sector",
+      "indicator": "Being one of the four major German utilities (E.ON, RWE, Vattenfall, EnBW), which account for the bulk of nuclear, fossil and some renewable production.",
+      "quote": "Companies from the energy production sector, including Germany’s four major utilities (E.ON, RWE, Vattenfall, and EnBW)",
+      "page": 9
+    },
+    {
+      "concept": "grey (fossil-linked) company: fossil-dependent customers",
+      "indicator": "Being a large customer of electricity and heating fuels, such as the car manufacturers.",
+      "quote": "Large customers of electricity and heating fuels, including the German car manufacturers (VW, Mercedes Benz, and BMW) and foreign car producers in Germany represent another key industry group in the grey coalition.",
+      "page": 10
+    },
+    {
+      "concept": "company or association position on climate policy and lobbying",
+      "indicator": "InfluenceMap ranking from A to F, which takes lobbying transparency and positions on the Paris Agreement goals into account (Tables 6.1 and 6.2). The InfluenceMap method is only linked, not described.",
+      "quote": "THE RANKING RATES LOBBYING TRANSPARENCY AND POSITIONS TAKEN",
+      "page": 11
+    },
+    {
+      "concept": "company policy positions compared with the Paris targets",
+      "indicator": "InfluenceMap analysis of official company documents, applied to Germany's largest CO2-emitting firms.",
+      "quote": "according to an analysis of official company documents by the NGO InfluenceMap (see Table 6.1).",
+      "page": 10
+    },
+    {
+      "concept": "think tank tied to the fossil system",
+      "indicator": "Funding or research contracts from major utilities (example: EWI funded or supported by RWE and E.ON).",
+      "quote": "Partly funded or supported (via research contracts) by major utilities like RWE and E.ON, the Energiewirtschaftliche Institut at the University of Köln (EWI)",
+      "page": 13
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Individual firms are somewhat closer to the Paris goals than the business associations they belong to, so company and association positions differ.",
+      "quote": "individual firms seem to be somewhat better aligned with the Paris treaty goals than the associations to which they belong, revealing inconsistencies in their public affairs strategies.",
+      "page": 11
+    },
+    {
+      "claim": "The car industry and its association VDA slowed the shift to renewables in road transport.",
+      "quote": "its influential lobby association, the Association of the German Automotive Industry (VDA), and allies in industry and politics, was quite successful in slowing the transition to renewable energy in private (road) transport",
+      "page": 9
+    },
+    {
+      "claim": "Gas industry associations helped weaken the 2023 heating law (reported from a LobbyControl study).",
+      "quote": "LobbyControl has shown how these and other associations from the gas industry played a key role in vilifying and weakening the law mandating decarbonization of heating devices in 2023",
+      "page": 12
+    },
+    {
+      "claim": "Revolving doors between politics and business are named as one way company and association influence is sustained; moves go in both directions.",
+      "quote": "The revolving door can also swing the other way",
+      "page": 13
+    },
+    {
+      "claim": "Most grey groups publicly endorse climate commitments, but many firms and associations lobby against them.",
+      "quote": "most grey energy groups officially endorse international climate policy commitments. However, many firms and associations fail to live up to their official positions and frequently lobby to lower ambitions",
+      "page": 15
+    },
+    {
+      "claim": "Some apparently grassroots groups against wind and solar are said to be sustained by fossil interest groups (astroturf).",
+      "quote": "some activist groups set up to oppose wind farms and solar panels in Germany that appear to be grassroots movements are actually sustained by (fossil) interest groups",
+      "page": 22
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The file holds the whole of chapter 6 (26 pages, endnotes included), not the whole book. The chapter is a case study of Germany's domestic climate policy. It does not analyse the UNFCCC participant list, COP delegations, observers or any count of business or fossil-fuel presence, so it gives no figure for Q1 or Q2.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The authors give no operational definition of 'business' and no inclusion rule for 'grey' or fossil-linked actors; membership is by narrative description and sector. Only the InfluenceMap ranking is a measured indicator, and its method is only linked, not described, in the chapter.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 9
+    },
+    {
+      "point": "The authors say more research is needed on the other sectors.",
+      "stated_by_authors": true,
+      "quote": "Future research is needed to better understand the structural dimensions of and strategic efforts in the transport and construction industries in addition to the energy sector.",
+      "page": 23
+    },
+    {
+      "point": "The extracted tables are garbled (spaces lost, number formats inconsistent); Table 6.1 and 6.2 values are not used in this record. Figures 6.1 and 6.2 have no data in the text. The extracted file has an empty authors field; author names come from page 1. Text contains soft hyphens and zero-width characters, so quotes were chosen from passages without them.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "No instructions addressed to a reader or an AI were found; the only boilerplate is a repeated 'Downloaded from academic.oup.com ... by guest on 24 November 2026' line on each page.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "InfluenceMap rankings (Tables 6.1 and 6.2)",
+      "what_it_is": "A to F rating of 12 major German firms and 3 business associations on lobbying transparency and positions on the Paris goals; source given as InfluenceMap, methodology at lobbymap.org",
+      "page": 11
+    },
+    {
+      "name": "LobbyControl studies and Lobbypedia",
+      "what_it_is": "German NGO research on gas lobby networks and on the INSM and RWI campaign, cited in endnotes 28-30 and 41",
+      "page": 25
+    },
+    {
+      "name": "Greenpeace research on wind-power opponents",
+      "what_it_is": "Reports on anti-wind lobby groups, endnotes 50 and 54",
+      "page": 26
+    },
+    {
+      "name": "Endnotes 1-55",
+      "what_it_is": "References for the chapter, including Ekberg et al. (2022), Lamb et al. (2020) on discourses of delay, and Almiron et al. (2022) on climate contrarian think tanks in Europe",
+      "page": 24
+    }
+  ],
+  "relevant_to": [
+    "Q2",
+    "context"
+  ],
+  "pages_read": "All 26 pages of the extracted chapter (main text pages 1-23, endnotes pages 23-26). This is the whole chapter, not the whole book."
+  ,
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "doi-10-s10584-022-03466-0",
+  "citation": {
+    "authors": [
+      "Robert Brulle",
+      "Christian Downie"
+    ],
+    "year": 2022,
+    "title": "Following the money: trade associations, political activity and climate change",
+    "venue_or_publisher": "Climatic Change 175, 11 (Springer)",
+    "doi_or_url": "https://doi.org/10.1007/s10584-022-03466-0",
+    "type": "journal article (saved SpringerLink landing page: abstract and reference list only)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "What political activities US trade associations engaged on climate change carry out and spend money on, and what explains the variation in spending (abstract only).",
+  "data": "Per the abstract: an original dataset built from trade associations' IRS filings, covering 10 years of spending, plus semi-structured interviews. Which filings, which period and how many associations are not stated in the file.",
+  "method": "Per the abstract: descriptive spending totals, a regression analysis and semi-structured interviews. How associations were selected or classified is not stated in the file.",
+  "definitions": [],
+  "proxies": [],
+  "findings": [
+    {
+      "claim": "Trade associations engaged on climate change spent $3.4 billion in 10 years on political activities.",
+      "quote": "we find that trade associations engaged on climate change spent $3.4 billion in 10 years on political activities",
+      "page": "Abstract"
+    },
+    {
+      "claim": "The largest expenditure was on advertising and promotion, followed by lobbying, grants and political contributions.",
+      "quote": "with the largest expenditure on advertising and promotion, followed by lobbying, grants and political contributions",
+      "page": "Abstract"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The file holds only the abstract, the reference list and page furniture from a subscription landing page, not the article text. Nothing on definitions, classification of associations, or method detail could be recorded.",
+      "stated_by_authors": false,
+      "quote": "This is a preview of subscription content, log in via an institution to check access.",
+      "page": "Abstract"
+    },
+    {
+      "point": "The authors say the data files will be made available at publication on request to the lead author; they are not posted with the article.",
+      "stated_by_authors": true,
+      "quote": "The quantitative data files underlying this article will be made publicly available at publication by request to Dr. Robert Brulle.",
+      "page": "Data availability"
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Trade associations' IRS filings dataset (Brulle and Downie)",
+      "what_it_is": "Original dataset the abstract says was built from trade associations' IRS filings; available by request to Robert Brulle.",
+      "page": "Abstract"
+    },
+    {
+      "name": "Reference list on US business political activity, trade associations and climate lobbying",
+      "what_it_is": "Candidate sources for the library; not read here.",
+      "page": "References"
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "Whole extracted file read, but it contains only the abstract, subscription notices, reference list, acknowledgements, author information and publication details; the article body was not in the file.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

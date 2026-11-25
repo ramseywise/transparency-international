@@ -1,0 +1,407 @@
+{
+ "id": "doi-10-1136-jech-2017-209677",
+ "title": "Pathways of undue influence in health policy-making: a main actor’s perspective",
+ "kind": "pdf",
+ "url": "https://doi.org/10.1136/jech-2017-209677",
+ "coverage": {
+  "mode": "selected",
+  "passages_given": 38,
+  "passages_total": 56,
+  "words_given": 3934,
+  "words_total": 5600,
+  "pages_given": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "pages_total": 6,
+  "note": "selected by code: 38 of 56 passages, 3934 of 5600 words, from pages 1-6 of 6; chosen for definitions, indicators, method, findings and limitations; the rest was not read"
+ },
+ "passages": [
+  {
+   "chunk": 0,
+   "loc": "p.1",
+   "section": null,
+   "why": [
+    "lists_and_datasets",
+    "opening"
+   ],
+   "text": "J Epidemiol Community Health: first published as 10.1136/jech-2017-209677 on 27 October 2017. Downloaded from http://jech.bmj.com/ on November 25, 2026 by guest . Pathways of undue influence in health policy-making: a main actor’s perspective Ildefonso Hernández-Aguado, Elisa Chilet-Rosell Department of Public Health, History of Science and Gynaecology, School of Medicine, University Miguel Hernández, Ciber de Epidemiología y Salud Pública (CIBERESP), San Juan de Alicante, Spain"
+  },
+  {
+   "chunk": 1,
+   "loc": "p.1",
+   "section": null,
+   "why": [
+    "findings",
+    "method",
+    "opening",
+    "proxies"
+   ],
+   "text": "Abstract Background It is crucial to know the extent to which influences lead to policy capture—by which the policy-making process is shifted away from the public interest towards narrow private interests. Using the case study of Spain, our aim was to identify interactions between public administration, civil society and private companies that could influence health policies. Methods 54 semistructured interviews with key actors related to health policy. The interviews were used to gather information on main policy actors as well as on direct and subtle influences that could modify health policies. The analysis identified and described, from the interviewed persons’ experiences, both the inappropriate influences exerted on the actors and those that they exerted. Results Inappropriate influences were identified at all levels of administration and policy. They included actions for personal benefits, pressure for blocking health policies and pressure from high levels of government in favour of private corporations. The private sector played a significant role in these strategies through bribery, personal gifts, revolving doors, negative campaigns and by blocking unfavourable political positions or determining the knowledge agenda. The interviewees reported subtle forms of influence (social events, offers of technical support, invitations, etc) that contributed to the intellectual and cultural capture of health officials. Conclusion The health policy decision-making processes in Spain are subject to influences by stakeholders that determine"
+  },
+  {
+   "chunk": 2,
+   "loc": "p.1",
+   "section": null,
+   "why": [
+    "opening"
+   ],
+   "text": "a degree of policy capture, which is avoidable. The private sector uses different strategies, from subtle influences to outright corruption, taking advantage in many cases of flexible legislation. Correspondence to Professor Ildefonso Hernández-Aguado, Department of Public Health, History of Science and Gynaecology, School of Medicine, University Miguel Hernández, Ciber de Epidemiología y Salud Pública (CIBERESP), Carretera de Valencia s/n., 03550 San Juan de Alicante, Spain; ​ihernandez@​ umh.​es"
+  },
+  {
+   "chunk": 3,
+   "loc": "p.1",
+   "section": null,
+   "why": [
+    "definitions",
+    "lists_and_datasets"
+   ],
+   "text": "Received 19 July 2017 Revised 1 October 2017 Accepted 13 October 2017 Published Online First 27 October 2017 non-communicable diseases, using diverse strategies to influence policy, which include blocking public health protection policies.5 Mindell et al consider that there is a corporate capture of public health policies.6 Brezis and Wiist have revised and classified the spectrum of corporate activities with potential impact on public good.7 They describe the potential consequences of actions such as distortion of science, public relations, influence on governments and politics, regulation delay or obstruction, litigation and philanthropy. Wiist has detailed these tactics as developed by the food and beverage industry in what he calls the ‘corporate playbook’.8"
+  },
+  {
+   "chunk": 4,
+   "loc": "p.1",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "method"
+   ],
+   "text": "Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies. Governments are among the main targets of corporate strategies. Although some actions such as lobbying or revolving doors -a tendency of legislators or regulators to favour industry interests when they have an industry background or when they expect rewards in the form of future industry employment- have been described by some authors, there is scant research on the concrete ways in which corporations obtain influence over decision-makers and high-level public officials. We have already described the process inside government to ban tobacco in public places in Spain.9 We showed how, at the highest political level, the tobacco and hospitality industry came close to successfully blocking the new regulation. However, the array of corporate interventions could reach all levels of government and public administration. On the other hand, there are other key players in the decision-making process such as governments, health professionals, researchers and civil society organisations. This study attempts both to examine the agents who have some sway over decisions, focusing on undue influences, and to explain the strategies applied to exert influence."
+  },
+  {
+   "chunk": 5,
+   "loc": "p.1",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "limitations"
+   ],
+   "text": "Introduction Scientific evidence is a first step in public health policy formulation, but the process is much more complex than the mere translation of knowledge into practice. Smith, among others, has given particular relevance to the power of ideas.1 2 The implementation of public health policies requires social changes that face the inertia, which is a feature of politics.3 In the field of public health, where benefits are usually obvious only in the long term, the bias in favour of the status quo—policy inaction—is a constant challenge, particularly when governments seek to regulate unhealthy products and services.4"
+  },
+  {
+   "chunk": 6,
+   "loc": "p.1",
+   "section": null,
+   "why": [
+    "method"
+   ],
+   "text": "Methods We conducted a case study using semistructured interviews with key actors in Spanish health policy. Fifty-four actors participated between January 2013 and February 2016. The selection of interviewees was intentional and based on an approach to contacts made by one researcher during his previous work in the Spanish Government. We also recruited stakeholders mentioned by the people interviewed. In this selection, we looked to include interviewees from all sectors involved in health policy-making: public administration and politicians, the health-related goods and services industry, civil society organisations, professionals and mass media (table 1). None of the people invited to participate"
+  },
+  {
+   "chunk": 7,
+   "loc": "p.1",
+   "section": null,
+   "why": [
+    "proxies"
+   ],
+   "text": "Furthermore, public health policy faces a second difficulty, the strong influence of powerful interests. Transnational tobacco, alcohol and ultra-processed food and drinks corporations have been identified as major drivers of global epidemics of To cite: Hernández-Aguado I, Chilet-Rosell E. J Epidemiol Community Health 2018;72:154–159. 154 Hernández-Aguado I, Chilet-Rosell E. J Epidemiol Community Health 2018;72:154–159. doi:10.1136/jech-2017-209677"
+  },
+  {
+   "chunk": 8,
+   "loc": "p.2",
+   "section": null,
+   "why": [
+    "findings",
+    "lists_and_datasets"
+   ],
+   "text": "Table 1 Position and number of interviewees and their field of activity J Epidemiol Community Health: first published as 10.1136/jech-2017-209677 on 27 October 2017. Downloaded from http://jech.bmj.com/ on November 25, 2026 by guest . Position n Field of activity Directors of international agencies or EU officials 3 Related to health High positions in Central and Regional government (Ministers, Secretaries of State, General and Under Secretaries, General Director, assimilated)"
+  },
+  {
+   "chunk": 9,
+   "loc": "p.2",
+   "section": null,
+   "why": [
+    "method"
+   ],
+   "text": "14 Health (9)/health at regional level (3)/foreign affairs (1)/environment and agriculture (1) Deputy directors (4) and other high-level public officials (8) 12 Health/culture/foreign affairs Elected representatives 3 Two members of Parliament and a Major related to health Academics 5 University/research centres/health centres Leaders from labour unions, professional corporations or scientific associations and lobby groups Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies."
+  },
+  {
+   "chunk": 11,
+   "loc": "p.2",
+   "section": null,
+   "why": [
+    "definitions",
+    "limitations",
+    "lists_and_datasets",
+    "method",
+    "proxies"
+   ],
+   "text": "The interview was designed to outline organisations, institutions, corporations and other actors that exert influence in the formulation of policies and to draw up a list of methods and pathways used to exert pressure. The script included four general questions, but in all interviews we sought to facilitate the contribution of the interviewee by varying the order of the questions and allowing for the introduction of new issues. In the process of the interaction, we prompted the acknowledgement of influences where they were not obvious to the interviewee. Although the questions were the same for all interviewees, we emphasised some points according to their category. The interview was piloted and suggestions on how to approach some questions were included."
+  },
+  {
+   "chunk": 12,
+   "loc": "p.2",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "method",
+    "proxies"
+   ],
+   "text": "The analysis was carried out combining pre-existing classifications with those that emerged in the interviews.6 The categories provided an inventory of the actors and the relationships between them, and subsequently described both the inappropriate influences exerted on the actors and those that they exerted themselves. The analysis also identified more subtle types of influence. The results reflect the opinions and visions of interviewees without interpretation."
+  },
+  {
+   "chunk": 13,
+   "loc": "p.2",
+   "section": null,
+   "why": [
+    "definitions",
+    "limitations",
+    "proxies"
+   ],
+   "text": "We considered the following actions to be undue influence: (a) when it was explicitly outside the law, for example if a member of the government compelled a lower ranking official to adopt an arbitrary measure; (b) when there was an offer of personal benefits such as invitations and gifts that manifestly departed from minimal courtesies or deferred income through revolving doors; and (c) where the actor that exerted the influence was not directly related to the policy decision. In any case, this paper seeks neither to classify types of influence nor assign blame to any party, but rather to describe the actions declared by the involved actors themselves."
+  },
+  {
+   "chunk": 14,
+   "loc": "p.2",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "limitations"
+   ],
+   "text": "Results Exertion of influence on the interviewees followed complementary pathways that can be broadly classified into hard and soft tactics. Hard tactics include not only obvious illegalities but also direct pressure applied by a representative of an interested actor on the target agent. Soft tactics encompass all activities designed to capture the social, cultural, intellectual or scientific environment of the decision-maker in order to nudge him/her towards the desired decision or inaction. One of the interviewees gave an example of influence when talking about some decision-makers:"
+  },
+  {
+   "chunk": 16,
+   "loc": "p.2",
+   "section": null,
+   "why": [
+    "definitions",
+    "findings",
+    "limitations",
+    "method"
+   ],
+   "text": "Examples of both hard and soft tactics are combined in table 2, and most can be classified as undue influences according to the above definitions. All interviewees holding a position in the health system structure or in other related government areas acknowledged they had been the target of undue influences. The source of the influence could almost always be traced back to private companies, as they also used indirect means. Some corporations used their contacts at the highest level of government to influence lower decision-making levels; in that case, decision-makers received direct pressure not from a company but from someone with a higher position in the government. The striking feature of this behaviour is that lobbyists are clear about their contacts as a source of power; in the words of one interviewee (a top"
+  },
+  {
+   "chunk": 18,
+   "loc": "p.3",
+   "section": null,
+   "why": [
+    "lists_and_datasets"
+   ],
+   "text": "J Epidemiol Community Health: first published as 10.1136/jech-2017-209677 on 27 October 2017. Downloaded from http://jech.bmj.com/ on November 25, 2026 by guest . Table 2 Specific examples of influences cited in the text by target and type of influence exerted (the examples are a synthesis of the statements made by the interviewees) Target of influence Type of influence Examples ►Alcohol producers boast of successfully applying pressure at the highest government level, over the Direct pressure ►"
+  },
+  {
+   "chunk": 20,
+   "loc": "p.3",
+   "section": null,
+   "why": [
+    "method"
+   ],
+   "text": "directors general that were welcomed by the interested actors. ►Presidency’s and vice-presidency’s offices have directed pressure on under-secretary of health or health ► directors to adopt positions in favour of the health-related industries. ►A drug company sought to ‘blackmail’—unsuccessfully—the Ministry of Health during the influenza ► Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies."
+  },
+  {
+   "chunk": 23,
+   "loc": "p.3",
+   "section": null,
+   "why": [
+    "limitations",
+    "lists_and_datasets"
+   ],
+   "text": "did not align with the interest of the drug industry. Access to strategic information and agenda control ►The health-related companies had access to inside Ministry of Health information including the position ► on a particular issue of high-level decision-makers. This fact increases the vulnerability of the Ministry to external influences. ►A media corporation exerted intense pressure to get the Minister of Health involved in a press event. ►"
+  },
+  {
+   "chunk": 24,
+   "loc": "p.3",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations"
+   ],
+   "text": "►A drug company offered the Minister of Health a jet to deal with the requirements of his/her official ► schedule while attending a scientific meeting organised by the industry. Agencies and their experts Revolving doors ►Directors and senior officials at the Spanish Agencies of Medicines and Food Security receive offers to ► join the industries or their business organisations. Scientific and professional environment ►The Spanish Agency of Medicines do not find experts on oncology free of conflicts of interest. ►"
+  },
+  {
+   "chunk": 25,
+   "loc": "p.3",
+   "section": null,
+   "why": [
+    "limitations"
+   ],
+   "text": "►Members of the Committee for Medicinal Products for Human Use of the European Medicines Agency ► relate that there is an organisation culture favourable to put onto the market new products. While security issues are not affected, questions on efficacy are perceived as less relevant. ►The Spanish Agency of Medicines receives direct pressure from high levels of Government to widen the ►"
+  },
+  {
+   "chunk": 27,
+   "loc": "p.3",
+   "section": null,
+   "why": [
+    "definitions",
+    "limitations"
+   ],
+   "text": "►Deferred income through revolving ► doors to modify their position in favour of a company’s interests. ►Revolving doors in a frequent phenomenon in Deputy Directors increasing the risk of policy capture. ► nutrition policy official), “the director of institutional relations of the company, not satisfied by my reaction, announced that I would receive news from the Vice-presidency”. As mentioned above, hard tactics included in some instances obvious illegalities such as offering bribes, even to the Minister. There were other cases of borderline illegality, when for example a drug company sought to ‘blackmail’ the Ministry of Health during the influenza A pandemic (2009) by threatening to interrupt the supply of vaccine unless they received a contract exempting the industry from any responsibility in case of adverse effects. Direct personal attacks on health authorities using specialised media (newspapers and journals popular among health professionals) were also mentioned. The phenomenon of revolving doors was confirmed by several General Directors of Health that described how pharmaceutical companies offered them posts once they left the Ministry. The offer included the means to sidestep the law that bans recruitment during the 2 years after leaving office by appointing them to a foundation related to the company. According to many interviewees, revolving doors are more frequent among officials not affected by laws of incompatibility, and the respondents felt that this fact increased the vulnerability of governments to policy capture."
+  },
+  {
+   "chunk": 28,
+   "loc": "p.3",
+   "section": null,
+   "why": [
+    "findings"
+   ],
+   "text": "Before describing some soft tactics of influence, it is worth mentioning the description made by most interviewees of a context that places the public administration in an increasingly weakened position from which to resist the power of corporations. Most interviewees pointed out that the tobacco industry, the food and beverage sector, and the pharmaceutical area had a much greater information capacity than the government regarding both technical and strategic information. Most participants in the study agreed that there is a trend in administration, including the European Union, to replace officials with a high technical and specialised capacity with multitask officials. This phenomenon of losing highly specialised public health officials"
+  },
+  {
+   "chunk": 30,
+   "loc": "p.4",
+   "section": null,
+   "why": [
+    "findings"
+   ],
+   "text": "jeopardises the technical capacity of public institutions to deal with complex issues such as the regulation of alcohol or tobacco. According to the interviewees, the lack of public health capability in the administration is qualitative, as already described, and quantitative, as a result of austerity policies. One participant illustrated the risks involved through the example of the regulation of plain packaging of tobacco products. She described how the companies supplied the government with technical information on the sizes of the products and made proposals to help in the drafting of the decree. In fact, the proposal was designed to sabotage the policy by providing grounds for litigation and the consequent suspension of the law. These subtleties are difficult to detect for inexperienced officials."
+  },
+  {
+   "chunk": 31,
+   "loc": "p.4",
+   "section": null,
+   "why": [
+    "limitations",
+    "lists_and_datasets"
+   ],
+   "text": "Interviewees recognised that environment implicitly influences decisions. In this sense, political inaction is stimulated, even recommended, as a facilitator of job stability, but leaves little space for innovation. It was revealed that companies had access not only to the agendas of internal government meetings but also to the content and the positions of different members and were therefore better able to design strategies of influence. Moreover, it is assumed that within the Health Ministry, there are industry ‘achievers’ who know the procedures well and can profile easily influenced individuals."
+  },
+  {
+   "chunk": 32,
+   "loc": "p.4",
+   "section": null,
+   "why": [
+    "definitions"
+   ],
+   "text": "In the context described by the interviewees, subtle ways of influence prosper. For instance, some interviewees used the term ‘cabinetisation’ as another factor that increases the exposure of the Health Ministry to undue influences. It was described as a new political practice by which policy decisions of the Minister’s cabinet are more in line with the media agenda than the political programme of the government. It creates a context where policies are designed to gain media attention and popularity for the Minister and where the input of the technical side of the Ministry tends to be ignored."
+  },
+  {
+   "chunk": 36,
+   "loc": "p.4",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "method"
+   ],
+   "text": "We were already aware of the general strategies used by corporations to capture public health policy8; however, there is a scarcity of evidence-based facts. An exception we have found is the recent report by Cullerton et al on influence in nutrition policy in Australia.10 Our results show that the degree of capture is greater than expected as all levels of government are successfully targeted in order to influence health policy. The analysis of interviews also showed the concrete pathways used by the private sector to capture not only the decision-makers but also the entire health policy environment. Although a study by the European Commission provided an extensive description of corruption in European health systems,11 the research was mainly focused on the provision of healthcare with little attention to policy-making processes. We describe how undue influences and even corruption reach the strategic core of health policy."
+  },
+  {
+   "chunk": 37,
+   "loc": "p.4",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "proxies"
+   ],
+   "text": "The vulnerability of governments to commercial influences is associated with poor governance. Greer et al indicate that policy capacity is a relevant component of governance.12 Health policy capacity can be understood as the sum of competencies, resources and experience that governments and public agencies use to identify, formulate, implement and evaluate solutions to public health problems.13 A trend of a decreasing availability of technical capacity has been described by many interviewees in our research, including those that work at the European Commission. Investment in policy capacity tends to be difficult for health ministries as they are not generally the most powerful parts of government.14 It was reported that there is also a loss in quality of technical capacity due to the substitution of public health officials by multitask officials. Interviewees identified a new form of technical capacity decrease, where health policy intelligence becomes distanced from decision-making. They indicated that the political area of the Ministry of Health has become dominant over the functional area and the department has strengthened its role as a platform for the Minister with the aim of accumulating power and gaining visibility. To this end, the decision-making process is shaped by immediate demands, typically those of the media agenda. This circumstance reduces the quality of policy-making not only because of the reduced capacity to turn ideas"
+  },
+  {
+   "chunk": 39,
+   "loc": "p.4",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations"
+   ],
+   "text": "Besides corruption, interviewees also provided evidence of undue influence such as explicit lobbying or through the revolving-door phenomenon, which is not only ubiquitous but also promoted with a complete package that melds substantial deferred fees with the procedure by which to elude the law. This Hernández-Aguado I, Chilet-Rosell E. J Epidemiol Community Health 2018;72:154–159. doi:10.1136/jech-2017-209677 157"
+  },
+  {
+   "chunk": 40,
+   "loc": "p.5",
+   "section": null,
+   "why": [
+    "definitions",
+    "limitations"
+   ],
+   "text": "The information gathered from our participants depicts a policy environment in which subtle influences are becoming the key issue in understanding policy capture. The term ‘cultural capture’ was coined to describe some forms of regulatory capture in the financial system. Cultural capture is based on the fact that regulators and policy-makers are susceptible to non-rational forms of influence. Kwak explains how regulators’ perspectives and actions might be affected not only by the substantive content of their interactions with interest groups but also, and significantly, by the nature of these interactions.17 He mentions three mechanisms of influence that are likely to operate in the regulatory context: group identification, status and relationship networks. The corporate playbook described by Wiist8 described many actions of food and beverage companies that can be considered a form of cultural capture. A recent report of the Organisation for Economic Co-operation and Development18 describes several channels that can be misused by private individuals and special interest groups to influence public officials either directly or indirectly: by creating a sense of reciprocity; by building on existing personal ties; by building on strategic communication or by building on expertise. Part of these mechanisms can be classified as cultural capture, but we can also refer to intellectual capture to describe a health policy environment that is dominated mainly by commercial influences"
+  },
+  {
+   "chunk": 42,
+   "loc": "p.5",
+   "section": null,
+   "why": [
+    "findings",
+    "limitations",
+    "lists_and_datasets",
+    "proxies"
+   ],
+   "text": "The selection process of the interviewees may raise some questions; for example, a possible bias towards those more willing to reveal misdoings. However, we must point out that no invitation was refused and that we selected as wide a range of participants as possible. Before beginning the field study, we were concerned at the hesitancy of interviewees to admit bad governance. Consequently, we decided not to record the interviews. However, in most cases, after some minutes they overcame their doubts and we feel that they were frank in their revelations. Nevertheless, we acknowledge the fact that in some cases we have only one side of the story and were unable to contrast the reports with other versions. The internal consistency of the reports supports the plausibility of the results although we must also point out that this study did include a list of stakeholders that outsiders would find difficult to access. Nevertheless, we acknowledge that the external validity of our research is limited by the features of Spanish health policy."
+  },
+  {
+   "chunk": 44,
+   "loc": "p.5",
+   "section": null,
+   "why": [
+    "lists_and_datasets"
+   ],
+   "text": "J Epidemiol Community Health: first published as 10.1136/jech-2017-209677 on 27 October 2017. Downloaded from http://jech.bmj.com/ on November 25, 2026 by guest . What is already known on this subject ►The private sector and particularly transnational corporations ► use diverse strategies to influence health policy, even blocking public health protection policies. ►The effect of corporate influences diminishes the potential of ►"
+  },
+  {
+   "chunk": 45,
+   "loc": "p.5",
+   "section": null,
+   "why": [
+    "limitations",
+    "method"
+   ],
+   "text": "public health policies in improving population health. ►The pathways of influence inside governments have not been ► described. Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies. What this study adds ►Health-related private companies are able to apply pressure ► at all levels of policy-making processes, including ministers and the presidency and the vice-presidency offices, in order to modify the health political agenda to their own benefit. ►Policy capture by private interests favours the biomedical ►"
+  },
+  {
+   "chunk": 46,
+   "loc": "p.5",
+   "section": null,
+   "why": [
+    "limitations"
+   ],
+   "text": "response to health problems and neglects health-promoting public policies. ►Good health governance would reduce the effect of external ► influences in policy-making. However, the challenge for public health remains to win greater credibility for public health ideas through stronger public health advocacy. Policy implications ►In order to improve population health, the public health ► community has to prevent the capture of health policies by interested actors that shift the policy-making process away from the public interest towards narrow private interests. ►Preventing policy capture by public health academics and ►"
+  },
+  {
+   "chunk": 48,
+   "loc": "p.5",
+   "section": null,
+   "why": [
+    "findings",
+    "method"
+   ],
+   "text": "Contributors IH-A conceived, designed and executed the study. Both EC-R and IH-A analysed the interviews, discussed the results and wrote the manuscript, which was reviewed and approved by both authors. IH-A is the guarantor for this study. Funding This research was partially funded by the Ciber de Epidemiología y Salud Pública (CIBERESP) through a specific collaboration agreement with the Miguel Hernandez University of Elche for the promotion of research in epidemiology and public health."
+  },
+  {
+   "chunk": 49,
+   "loc": "p.5",
+   "section": null,
+   "why": [
+    "findings"
+   ],
+   "text": "Competing interests None declared. Provenance and peer review Commissioned; externally peer reviewed. © Article author(s) (or their employer(s) unless otherwise stated in the text of the article) 2018. All rights reserved. No commercial use is permitted unless otherwise expressly granted. References 1 Fafard P. Beyond the usual suspects: using political science to enhance public health policy making. J Epidemiol Community Health 2015;69:1129–32. 2 Smith KE. Beyond evidence-based policy in public health: the interplay of ideas."
+  },
+  {
+   "chunk": 52,
+   "loc": "p.6",
+   "section": null,
+   "why": [
+    "lists_and_datasets"
+   ],
+   "text": "Australia. Obes Rev 2016;17:1218–25. 11 European Commission—Directorate-General Home Affairs. Study on corruption in the healthcare sector. Luxembourg: Publications Office of the European Union, 2013. J Epidemiol Community Health: first published as 10.1136/jech-2017-209677 on 27 October 2017. Downloaded from http://jech.bmj.com/ on November 25, 2026 by guest . 12 Greer SL, Wismar M, Figueras J. European Observatory on Health Systems and Policies"
+  },
+  {
+   "chunk": 53,
+   "loc": "p.6",
+   "section": null,
+   "why": [
+    "lists_and_datasets"
+   ],
+   "text": "Series. Strengthening health system governance. Better policies stronger performance: Open University Press, 2016:27–56. 13 Forest PG, Denis JL, Brown LD, et al. Health reform requires policy capacity. Int J Health Policy Manag 2015;4:265–6. 14 Greer SL. Editorial introduction: health departments in health policy. Soc Policy Adm 2010;44:113–9. 15 Robinson C, Holland N, Leloup D, et al. Conflicts of interest at the European"
+  },
+  {
+   "chunk": 54,
+   "loc": "p.6",
+   "section": null,
+   "why": [
+    "method",
+    "proxies"
+   ],
+   "text": "food safety authority erode public confidence. J Epidemiol Community Health 2013;67:717–20. 16 European Ombudsman. Handling of a potential conflict of interest arising from a staff member’s move to the private sector. 2013. http://www.​ombudsman.​europa.​eu/​en/​ cases/​summary.​faces/​en/​50377/​html.​bookmark 17 Kwak J. Cultural capture and the financial crisis. In: Carpenter D, Moss DA, eds. Protected by copyright, including for uses related to text and data mining, AI training, and similar technologies."
+  }
+ ]
+}

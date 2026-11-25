@@ -1,0 +1,202 @@
+{
+  "id": "doi-10-1162-glep-a-00273",
+  "citation": {
+    "authors": ["Marcel Hanegraaff"],
+    "year": 2015,
+    "title": "Transnational Advocacy over Time: Business and NGO Mobilization at UN Climate Summits",
+    "venue_or_publisher": "Global Environmental Politics 15:1, February 2015 (MIT Press)",
+    "doi_or_url": "https://doi.org/10.1162/GLEP_a_00273",
+    "type": "journal article",
+    "peer_reviewed": "yes"
+  },
+  "question": "Whether the interest-group community lobbying at UN climate summits (COPs) became more or less skewed toward business over time, and whether this fits a collective-action or a neopluralist account.",
+  "data": "All organisations that attended UN climate conferences (COPs) between 1997 and 2011 (COP3 to COP17), identified from the participant lists the UNFCCC publishes on its website: 6,655 organisations (the introduction says N=6,665; see limitations). Each organisation was looked up on the web and coded by hand. The unit is the organisation, not the individual delegate. The study covers observer and lobbying organisations, not Party (country) delegations.",
+  "method": "The author took each participant's affiliated organisation from the UNFCCC lists, searched for each organisation's website, and coded its type (business, citizen, research, labour), the issue area (business: ISIC one-digit sector; citizen: eight fields) and the scope of business groups (specific or encompassing). The author thanks students and research assistants for coding and processing the data. Analysis: Herfindahl concentration index per COP, counts of business and citizen groups per COP, and attendance categories (tourist, incidental, regular) compared with Cramér's V. No intercoder reliability, validation sample or language-model classification is reported.",
+  "definitions": [
+    {
+      "term": "business organizations",
+      "definition": "Both business associations and individual firms count as business, with examples given (International Chamber of Commerce; Shell, Toyota).",
+      "quote": "organizations include associations, such as the International Chamber of Commerce, as well as ﬁrms, such as Shell or Toyota.",
+      "page": 10
+    },
+    {
+      "term": "citizen groups",
+      "definition": "Organisations that rely on support from individuals and/or defend interests beyond the economic interests of their own supporters.",
+      "quote": "Citizen groups include all organizations that rely, either directly or indirectly, on support from individuals and/or defend interests that transcend the individual economic interests of the supporting constituency",
+      "page": 10
+    },
+    {
+      "term": "research organizations (excluded from the business/citizen comparison)",
+      "definition": "Research organisations were left out of the business versus citizen comparison because they are mainly government-funded.",
+      "quote": "I excluded research organizations (N=1,757) because they are funded predominately by the government and therefore confronted with different types of collective action problems.",
+      "page": 10
+    },
+    {
+      "term": "business sector classification",
+      "definition": "Business organisations were assigned to sectors with the International Standard Industrial Classification (ISIC), at the one-digit level (broad sectors).",
+      "quote": "The classiﬁcation for business organizations is based on the International Standard Industrial Classiﬁcation (ISIC) of All Economic Activities.",
+      "page": 9
+    },
+    {
+      "term": "encompassing business groups",
+      "definition": "Business organisations coded at ISIC level 1 or 2, representing broad economic sectors.",
+      "quote": "Organizations coded at the ISIC 1 or 2 level were categorized as “encompassing business groups.”",
+      "page": 10
+    },
+    {
+      "term": "specific business associations",
+      "definition": "Business organisations whose issue area corresponds to ISIC level 3 or 4 (narrow product or activity areas).",
+      "quote": "Organizations representing issue areas that correspond with ISIC level 3 or 4, such as eggs or civil aviation, were coded as speciﬁc business associations.",
+      "page": 10
+    },
+    {
+      "term": "tourists (attendance category)",
+      "definition": "Organisations that attended only one COP; incidental participants attended up to half of COPs, regular participants more than half.",
+      "quote": "“Tourists” are organizations that attended only one COP (3,352 organizations).",
+      "page": 11
+    },
+    {
+      "term": "observer accreditation rule (why firms appear inside observer delegations)",
+      "definition": "Official UNFCCC observers must be non-profit, so for-profit businesses cannot register as observers themselves.",
+      "quote": "One important accreditation requirement to becoming an observer at a climate conference is that the organization must be a non-proﬁt entity, which excludes for proﬁt business organizations from registering.",
+      "page": 8
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "business presence at a COP",
+      "indicator": "The organisation named as affiliation in the UNFCCC participant list, coded as business (association or firm) after a web search for that organisation.",
+      "quote": "As the UNFCCC lists each individual participant and its afﬁliated organization on its website, I was able to identify all the organizations that attended the COP’s meetings.",
+      "page": 8
+    },
+    {
+      "concept": "firms attending although the observer rules exclude for-profit bodies",
+      "indicator": "A firm listed as a member of an official observer delegation (examples: Shell and Dow Chemical in the World Business Council for Sustainable Development).",
+      "quote": "Shell and the Dow Chemical Company attend as members of the World Business Council for Sustainable Development",
+      "page": 8
+    },
+    {
+      "concept": "organisation type and sector",
+      "indicator": "Information from the organisation's own website; for about 20 percent with no website, information on other organisations' websites; for under 5 percent nothing was found.",
+      "quote": "For less than 5 percent of organizations I could ﬁnd no information at all.",
+      "page": 8
+    },
+    {
+      "concept": "energy sector (nearest thing to fossil-fuel presence)",
+      "indicator": "A sector label 'Energy' (ENE) in Table 2, alongside Manufacturing and mining; how ENE maps to ISIC codes is not stated, and no fossil-fuel category is defined.",
+      "quote": "ENE=Energy; MAN=Manufacturing and mining; SER=Services; AGR=Agriculture.",
+      "page": 12
+    },
+    {
+      "concept": "collective-action disadvantage of business scope",
+      "indicator": "ISIC level of the organisation's issue area (level 1-2 encompassing; level 3-4 specific).",
+      "quote": "Organizations coded at the ISIC 1 or 2 level were categorized as “encompassing business groups.”",
+      "page": 10
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Business dominated the COP interest community in its first decade, and the community later became more diverse.",
+      "quote": "during the ﬁrst ten years of its existence the COP interest community was mostly populated by business, especially concentrated business interests.",
+      "page": 2
+    },
+    {
+      "claim": "Counts: 2,498 business and 2,186 citizen organisations in the dataset.",
+      "quote": "to compare the development of business (N=2,498) and citizen group (N=2,186) participation, I differentiated all organizations that represented either of these organization types at COPs.",
+      "page": 9
+    },
+    {
+      "claim": "Citizen groups overtook business groups in number only from COP11 (2005) onward (surpassing them by COP14, 2008).",
+      "quote": "Not until COP11 in 2005 did the number of citizen groups begin to bypass that of business groups.",
+      "page": 13
+    },
+    {
+      "claim": "The combined share of manufacturing, energy and environmental-NGO groups fell from about 60 percent at early COPs to about 40 percent at later ones; Table 2 gives the energy share falling from 34 to 16 percent of the COP total (table values, not prose).",
+      "quote": "at latter conferences the relative stake of these interest organizations dropped to around 40 percent.",
+      "page": 12
+    },
+    {
+      "claim": "Business groups were less likely than citizen groups to keep attending: 35 percent of business organisations attended more than one COP, against 44 percent of citizen groups.",
+      "quote": "For citizen groups, 44 percent were either incidental or regular attendants (26 incidental plus 18 regular participants), while for business organizations only 35 percent were (Cramér’s V = .190).",
+      "page": 17
+    }
+  ],
+  "context_notes": [
+    {
+      "point": "Background on the capture debate: opponents of opening international organisations to interest groups fear capture by special interests.",
+      "quote": "Opponents contend that the inherently biased nature of interest representation could lead more open IOs to capture by special interest groups.",
+      "page": 1
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The study counts organisations that attended COPs (mostly observers) in 1997-2011. It does not look at Party (country) delegations, delegates sitting on them, COP31 or fossil-fuel linkage, so it gives no figure for Q1 or Q2 as the study defines them. Only its business definition, its observer-rule description and its coding method carry over.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Counting organisations is an imperfect measure of whose interests are represented.",
+      "stated_by_authors": true,
+      "quote": "counting interest groups is not a perfect measure for determining which interests are represented at climate conferences",
+      "page": 18
+    },
+    {
+      "point": "The author does not assume that more groups means more influence at climate conferences.",
+      "stated_by_authors": true,
+      "quote": "we cannot simply assume that the same also applies to climate conferences.",
+      "page": 18
+    },
+    {
+      "point": "About one in five organisations had no website of their own, and under 5 percent could not be coded at all, so some codes rest on second-hand information.",
+      "stated_by_authors": true,
+      "quote": "For less than 5 percent of organizations I could ﬁnd no information at all.",
+      "page": 8
+    },
+    {
+      "point": "No coder-agreement check, validation sample or accuracy figure is reported for the hand coding of organisation type or sector, and the paper does not say how an organisation was judged business rather than citizen beyond the definitions above.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The paper gives the dataset size as 6,665 (page 2) and 6,655 (page 8); the attendance categories (3,352 + 1,273 + 1,010 + 1,020 excluded newcomers) add up to 6,655, so 6,665 is probably a typing slip. Business, citizen, research and labour counts (2,498 + 2,186 + 1,757 + 175) add to 6,616, leaving 39 organisations not accounted for; this is my arithmetic, not a statement of the paper.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Page 8 says data exist 'from 1995 (COP3 in Japan)' while COP3 was in 1997 in the rest of the paper; the paper's own dates are inconsistent.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 8
+    },
+    {
+      "point": "The extracted file has metadata errors (title 'GLEP15-1_Cover.indd', author 'covers'); author and year were taken from page 1. It also contains typesetter query markers (Q1-Q6) and an author-queries page. No instructions addressed to a reader or an AI were found.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 23
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC participant lists, COP3 (1997) to COP17 (2011)",
+      "what_it_is": "Public lists of each participant and affiliated organisation, used as the source of the organisation dataset; the author's coded dataset itself is not said to be published.",
+      "page": 8
+    },
+    {
+      "name": "ISIC Rev. 4 (UN International Standard Industrial Classification), sections A-U",
+      "what_it_is": "Sector scheme used to classify business organisations; top-level list in Appendix 1.",
+      "page": 22
+    },
+    {
+      "name": "Reference list",
+      "what_it_is": "Interest-group literature and COP studies, including Muñoz Cabré 2011 and McGregor 2011 on NGO participation at the UNFCCC.",
+      "page": 19
+    }
+  ],
+  "relevant_to": ["Q1", "method", "context"],
+  "pages_read": "Whole extracted text: all 23 pages (article pages 1-18, references 19-21, Appendix 1 on page 22, author queries on page 23). Figures are not in the text, and Table 2 and Table 3 values come from the extracted tables.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

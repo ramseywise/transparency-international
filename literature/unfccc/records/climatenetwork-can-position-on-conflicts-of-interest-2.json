@@ -1,0 +1,148 @@
+{
+  "id": "climatenetwork-can-position-on-conflicts-of-interest-2",
+  "citation": {
+    "authors": [
+      "Climate Action Network (CAN)"
+    ],
+    "year": 2020,
+    "title": "Climate Action Network Position on Conflicts-of-interest and polluting industry obstruction of climate policy in the UNFCCC Process",
+    "venue_or_publisher": "Climate Action Network",
+    "doi_or_url": "https://climatenetwork.org/wp-content/uploads/2020/11/can_position_on_conflicts_of_interest-2.pdf",
+    "type": "advocacy position paper (4 pages), dated April 2020; file metadata gives 2020-04-02",
+    "peer_reviewed": "no"
+  },
+  "question": "Sets out CAN's position that the UNFCCC should adopt a conflict-of-interest definition and framework, tighten observer admission, and restrict polluting-industry entities and trade associations from the process. It is not a research question.",
+  "data": null,
+  "method": null,
+  "definitions": [
+    {
+      "term": "Conflict of interest (definition CAN proposes the UNFCCC adopt)",
+      "definition": "Integrity and objectives of an individual or institution become compromised when engaging with non-party stakeholders whose financial, vested or private interests (or those of whom they represent) conflict irreconcilably with the public mandate.",
+      "quote": "Adopt a definition of a “conflict of interest” that recognizes that the integrity and objectives of an individual or institution can become fundamentally compromised when they engage with non-party stakeholders whose financial/vested/private interests",
+      "page": 3
+    },
+    {
+      "term": "Industries documented in opposition to climate action",
+      "definition": "A non-exhaustive list: the fossil fuel industry including power utilities, the forestry industry and industrial agribusiness.",
+      "quote": "include but are not limited to the fossil fuel industry including power utilities, the forestry industry1 and industrial agribusiness2.",
+      "page": 2
+    },
+    {
+      "term": "Entities whose access should be prevented",
+      "definition": "Entities that have, or represent those that have, financial interests requiring large greenhouse gas emissions or driving deforestation. No threshold is given.",
+      "quote": "preventing entities that either have, or represent those that have, financial interests requiring them to emit large quantities of greenhouse gases or drive deforestation in",
+      "page": 3
+    },
+    {
+      "term": "Entities representing polluting industry (to be restricted or excluded)",
+      "definition": "Trade associations and other entities that represent or are beholden to polluting industry; named examples are industry trade associations, front groups and private philanthropies representing the industries.",
+      "quote": "Such entities include but are not limited to industry trade associations, front groups, and private philanthropies that represent said industries.",
+      "page": 4
+    },
+    {
+      "term": "Private-interest versus public-interest non-Party stakeholders",
+      "definition": "CAN proposes the framework distinguish stakeholders working in the public interest from those with a legal or contractual duty to maximize profits for shareholders.",
+      "quote": "according to whether they work in the public interest, or work to advance private interests because they have a legal or contractual duty to maximize profits for shareholders.",
+      "page": 4
+    },
+    {
+      "term": "Current UNFCCC observer eligibility",
+      "definition": "As described by CAN: legally registered as a non-profit organization and working on climate change matters.",
+      "quote": "the requirements for becoming an official observer to the UNFCCC are that an organization is legally registered as a non-profit organization, and that it works on matters related to climate change.",
+      "page": 3
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Industry affiliation of an observer or entity",
+      "indicator": "Public disclosure of industry affiliations and industry funding, to be screened through due diligence at admission of observers. The paper names no list or procedure.",
+      "quote": "This includes due diligence in screening for such things as public disclosure of industry affiliations, industry funding, etc.",
+      "page": 4
+    },
+    {
+      "concept": "Private-interest (business) actor",
+      "indicator": "A legal, financial or contractual duty to represent shareholders or members and maximize profits.",
+      "quote": "are legally, financially, and/or contractually bound to represent their shareholders or members, maximize profits, and promote the continued sale and expansion of their products",
+      "page": 2
+    }
+  ],
+  "findings": [
+    {
+      "claim": "CAN states that the UNFCCC has no adequate conflict-of-interest procedures for non-Party stakeholders, including observers. This is an assertion by the authors; no evidence is given in the text.",
+      "quote": "Thus, there are no adequate procedures to safeguard against the potential for conflicts of interest of non-Party stakeholders (including observers) to undermine the objectives of the UNFCCC.",
+      "page": 3
+    },
+    {
+      "claim": "CAN states that accredited observers include organisations that directly or indirectly represent Exxon Mobil, Chevron, Shell and BP interests. No list or count is provided.",
+      "quote": "accredited organizations currently include those that directly or indirectly represent the interests of polluting corporations such as Exxon Mobil, Chevron, Shell, and BP",
+      "page": 3
+    },
+    {
+      "claim": "CAN claims that polluting industries and their trade associations use accreditation and access to the UNFCCC to distract from needed ambition and advance their own proposals. No evidence is cited in the text.",
+      "quote": "use their accreditation and access to UNFCCC processes to distract from the level of needed ambition.",
+      "page": 2
+    },
+    {
+      "claim": "CAN names WHO FENSA, the WHO Framework Convention on Tobacco Control, the OECD and UNICEF as precedents for conflict-of-interest rules (context for policy models).",
+      "quote": "These include but are in no way limited to the World Health Organization’s (WHO) Framework for Engagement of Non-state Actors (FENSA)",
+      "page": 3
+    }
+  ],
+  "recommendations_not_findings": [
+    {
+      "point": "CAN recommends excluding or restricting trade associations and entities beholden to polluting industry, and avoiding funding or sponsorship from business interests.",
+      "quote": "Parties and the Secretariat shall avoid inviting funding from business interests, especially polluting business interests, into the UNFCCC",
+      "page": 4
+    },
+    {
+      "point": "CAN recommends that, until a policy exists, the UNFCCC stop inviting trade associations and entities beholden to polluting industry to present views.",
+      "quote": "the UNFCCC should stop inviting trade associations and other entities which represent and/or are beholden to the interests of polluting industry to present their views",
+      "page": 4
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The file holds the full 4-page text, but it is a position paper, not a study. It has no data, count, sample, classification method or validation, so it gives no figure for business or fossil-fuel presence in delegations.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The paper does not say how to identify a fossil-fuel-linked or business entity. Its categories are non-exhaustive and have no thresholds. It concerns observer organisations, not Party (country) delegations.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The paper's own list of covered industries is open-ended.",
+      "stated_by_authors": true,
+      "quote": "include but are not limited to the fossil fuel industry including power utilities, the forestry industry1 and industrial agribusiness2.",
+      "page": 2
+    },
+    {
+      "point": "Factual claims such as the accreditation of observers representing named companies carry no citation in the text. The footnotes on forestry and agribusiness (page 2) are also uncited assertions.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The PDF links on page 4 to a Word draft on a personal OneDrive site (file name includes 'UPDATEDNOV13-Draft'), suggesting this may be a working draft. This link was not followed.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": 4
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "WHO Framework of Engagement with Non-State Actors (FENSA); WHO Framework Convention on Tobacco Control; OECD; UNICEF",
+      "what_it_is": "Named as precedents for conflict-of-interest frameworks. No details or references are given in the text.",
+      "page": 3
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "Full text, pages 1-4 of 4 (all blocks, including footnotes 1-2 on page 2 and the one link on page 4).",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

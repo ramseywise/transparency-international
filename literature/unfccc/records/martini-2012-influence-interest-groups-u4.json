@@ -1,0 +1,161 @@
+{
+  "id": "martini-2012-influence-interest-groups-u4",
+  "citation": {
+    "authors": [
+      "Maira Martini"
+    ],
+    "year": 2012,
+    "title": "Influence of interest groups on policy-making (U4 Expert Answer 335)",
+    "venue_or_publisher": "U4 Anti-Corruption Resource Centre / Transparency International (U4 Helpdesk)",
+    "doi_or_url": null,
+    "type": "helpdesk expert answer (policy brief)",
+    "peer_reviewed": "no"
+  },
+  "question": "Overview of the state of research on negative influence of interest groups on decision-making (including state capture) and their potential benefits, with reference to South East and East Asia. Also what factors control and prevent negative influence (transparency, media, conflict of interest rules), with examples.",
+  "data": "Desk review of publicly available literature and legal texts, dated 12 June 2012. No primary data. Examples: Taiwan, Thailand, Indonesia, South Korea, Bangladesh, US, Canada, EU.",
+  "method": "Literature review and descriptive comparison of regulations. No classification or counting method. The author notes there is very little research on Asian countries.",
+  "definitions": [
+    {
+      "term": "Interest groups",
+      "definition": "Associations of individuals or organisations that, on a shared concern, try to influence public policy in their favour, usually by lobbying government members. Classified by motivation: economic (corporations, business organisations), professional (trade unions, farmers), public interest (human rights, environmental groups). The paper focuses on economic groups.",
+      "quote": "any association of individual or organisations that on the basis of one or more shared concerns, attempt to influence public policy in its favour usually by lobbying",
+      "page": 2
+    },
+    {
+      "term": "Undue influence",
+      "definition": "A subtler, not necessarily illegal form of influence, distinct from bribery and political corruption. It can occur without illegal payments, for example by creating a 'sense of reciprocity' through legal donations, receptions or research.",
+      "quote": "undue influence is more subtle and not necessarily illegal (OECD, 2009)",
+      "page": 3
+    },
+    {
+      "term": "Conflict of interest",
+      "definition": "A situation where an individual or the entity they work for must choose between the duties of their position and their private interests (TI 2009). Also, when someone with a public responsibility takes part in an activity that jeopardises their professional judgement, objectivity and independence.",
+      "quote": "situation where and individual or the entity for which they work, whether a government, business, media outlet or civil society organisation, is confronted with choosing between the duties and demands",
+      "page": 4
+    },
+    {
+      "term": "Lobbying (Taiwan statute)",
+      "definition": "Any oral or written communication to legislative and executive officials about forming, changing or annulling policy or legislation.",
+      "quote": "any oral or written communication to legislative and executive branch officials with regards to the formulation, modification or annulment of policies or legislation",
+      "page": 3
+    },
+    {
+      "term": "Revolving door (not defined as such)",
+      "definition": "Described as enterprises and consultants using former public officials for lobbying. The paper recommends cooling-off periods.",
+      "quote": "establish mandatory ‘cooling-off’ period to avoid the revolving door, as enterprises and their consultants often use former public officials for lobbying purposes",
+      "page": 4
+    },
+    {
+      "term": "State capture",
+      "definition": "No formal definition given. Described as a result of opaque and disproportionate interest group influence, favouring particular groups at the expense of the public interest.",
+      "quote": "disproportionate and opaque interest group influence may lead to administrative corruption, undue influence, and state capture",
+      "page": 1
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Corporate conflict of interest / improper influence",
+      "indicator": "Companies employing parliamentarians as consultants or having them on their board",
+      "quote": "companies may face accusations of improper influence if they employ parliamentarians as consultants or have them on their board",
+      "page": 4
+    },
+    {
+      "concept": "Transparent lobbying",
+      "indicator": "Mandatory lobbyist register disclosing names, clients, issue areas, targets, techniques and financial information",
+      "quote": "registration systems should allow for public disclosure of lobbyists’ names, their clients, issue areas, targets, techniques, as well as financial information",
+      "page": 3
+    },
+    {
+      "concept": "Lobbyist access in the EU",
+      "indicator": "Registration in the Transparency Register as a condition for a European Parliament access pass. The register is voluntary.",
+      "quote": "lobbyists who do not register are not eligible for the pass",
+      "page": 7
+    },
+    {
+      "concept": "Conflict of interest regulation",
+      "indicator": "Three types: prohibitions on activities, declarations of interests, exclusion from decision-making",
+      "quote": "prohibitions on activities, declarations of interests, and exclusion from decision-making processes (Reed, 2008)",
+      "page": 4
+    },
+    {
+      "concept": "Influence of firms by ownership",
+      "indicator": "Firm ownership and origin (state-owned or privatised versus new firms) as a predictor of how firms seek influence",
+      "quote": "state owned or privatised enterprises are expected to retain considerable access to and ties with public officials",
+      "page": 3
+    },
+    {
+      "concept": "Legislative footprint",
+      "indicator": "A record of all significant meetings with interest group representatives, which the MEP code does not require",
+      "quote": "does not require MEPs to keep a record of all significant meetings with representatives of interest groups",
+      "page": 7
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Interest group influence is a normal part of policymaking. It becomes harmful when disproportionate and opaque.",
+      "quote": "Interest groups influence on policy making is not a corrupt or illegitimate activity per se, but a key element of the decision-making process.",
+      "page": 1
+    },
+    {
+      "claim": "Disproportionate influence by business groups can lead to undue influence or state capture.",
+      "quote": "A disproportionate influence of business groups, for example, can lead to undue influence or even state capture.",
+      "page": 2
+    },
+    {
+      "claim": "There is little evidence of concrete benefits of interest group influence.",
+      "quote": "There is little evidence of the concrete benefits that could be brought by interest groups influence on decision making.",
+      "page": 2
+    },
+    {
+      "claim": "Taiwan is the only East or South-East Asian country regulating lobbying (2007 law, effective 2008). It includes a three-year post-office lobbying ban for top officials.",
+      "quote": "Taiwan is the only country in the East and South East Asian region that regulates lobbying",
+      "page": 3
+    },
+    {
+      "claim": "The EU Transparency Register is voluntary and covers the Commission and Parliament. The December 2011 MEP code of conduct lacks a cooling-off period and legislative footprint.",
+      "quote": "While the register is not mandatory, the European Parliament is maintaining its own system for issuing access passes",
+      "page": 7
+    },
+    {
+      "claim": "Canada bars former members of government from lobbying for five years. Lobbyist registration is mandatory and public.",
+      "quote": "members of the government are not allowed to engage in lobbying activities with the Federal Government for a period of five years after they leave office",
+      "page": 6
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Very little research on interest group influence and its benefits in Asian countries. Best-practice examples are scarce.",
+      "stated_by_authors": true,
+      "quote": "There is very little research on interest group influence on policy-making and its potential benefits in Asian countries.",
+      "page": 1
+    },
+    {
+      "point": "Effect of South Korean chaebol reforms on policy influence has not been analysed.",
+      "stated_by_authors": true,
+      "quote": "It is yet to be analysed whether the above mentioned reforms have diminished the negative influence of such conglomerates",
+      "page": 5
+    },
+    {
+      "point": "A quick helpdesk answer, not a systematic study. It has no UNFCCC, climate or delegate content. Only 39 of 55 passages were read.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "Reference list (pp. 8-9)",
+      "what_it_is": "Sources cited, including TI 2009 Controlling Corporate Lobbying, TI 2010 Regulating the Revolving Door, OECD 2010 Principles for Transparency and Integrity in Lobbying, OECD/ADB 2008 Managing Conflict of Interest, Chari/Hogan/Murphy 2010, Kaufmann et al. 2000, Hellman 2011",
+      "page": 8
+    },
+    {
+      "name": "US OpenSecrets (Center for Responsive Politics)",
+      "what_it_is": "Cited as an example of a civil-society tracker of lobbying and campaign finance",
+      "page": 5
+    }
+  ],
+  "relevant_to": [
+    "context"
+  ],
+  "pages_read": "selected by code: 39 of 55 passages, 3518 of 4774 words, from pages 1-9 of 9; chosen for definitions, indicators, method, findings and limitations; the rest was not read. No additional searches of the full text."
+}

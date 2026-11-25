@@ -1,0 +1,137 @@
+{
+  "id": "google-scholar-lookup-52c8dc",
+  "citation": {
+    "authors": ["Heike Schroeder", "Heather Lovell"],
+    "year": 2012,
+    "title": "The role of non-nation-state actors and side events in the international climate negotiations",
+    "venue_or_publisher": "Climate Policy 12(1), 23-37 (Taylor & Francis); published online 28 Jul 2011",
+    "doi_or_url": "https://doi.org/10.1080/14693062.2011.579328",
+    "type": "journal article",
+    "peer_reviewed": "unknown"
+  },
+  "question": "Why non-nation-state actors (NNSAs) attend UN climate conferences (COPs), and to what extent official Side Events provide information relevant to the formal negotiations.",
+  "data": "Survey of a sample of 117 official Side Events (56 of 200 at COP 13 Bali 2007, 61 of 181 at COP 14 Poznan 2008); 10 interviews with NNSA representatives; one interview with a UNFCCC Secretariat member; informal discussions; participant observation; eight written commentaries by researchers. Attendance figures (Figures 1-2) are from the UNFCCC Secretariat. COP 15 (2009) was not surveyed because of access restrictions.",
+  "method": "Quantitative survey of Side Events (whether they referred to the formal negotiations, main topics, attendance) complemented by qualitative interviews, participant observation and commentaries. It does not count or classify business or fossil-fuel representatives in country delegations.",
+  "definitions": [
+    {
+      "term": "constituencies (observer groupings, including Business and Industry NGOs)",
+      "definition": "Loose groups of like-minded observer organizations; the Business and Industry Non-Governmental Organizations constituency is one of the groupings, formed in 1992.",
+      "quote": "Constituencies are loose groups of like-minded organizations, somewhat similar in nature to the negotiating coalitions that have been formed by countries.",
+      "page": 6
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "business (as an observer category)",
+      "indicator": "Membership of the Business and Industry Non-Governmental Organizations constituency",
+      "quote": "They currently include the Business and Industry Non-Governmental Organizations and the Environmental Non-Governmental Organizations, both formed in 1992",
+      "page": 6
+    },
+    {
+      "concept": "business presence at the COP through other routes",
+      "indicator": "Business attendees obtain passes through trade associations (stated by the authors, not measured)",
+      "quote": "But business attendees can easily secure passes through other routes, typically trade associations.",
+      "page": 10
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Many national delegations admit NGO, municipal or business representatives into their delegations, which adds to the total attendance. No share or count of business members is given.",
+      "quote": "many national delegations also admit non-governmental organization (NGO), municipal or business representatives into their delegations, raising the total number even further.",
+      "page": 3
+    },
+    {
+      "claim": "Observers outnumbered national delegates at most COPs up to 2009.",
+      "quote": "observers have outnumbered delegates at the majority of COP meetings",
+      "page": 3
+    },
+    {
+      "claim": "At COP 15 (2009) the registered media, NGO and intergovernmental observer delegates numbered 16,700 against 10,600 country delegates.",
+      "quote": "16,700 (compared to 10,600 country delegates)",
+      "page": 3
+    },
+    {
+      "claim": "Before 2010 observer organizations could nominate any number of representatives; from 2010 they were given a quota.",
+      "quote": "Before 2010, each registered observer organization was able to nominate any number of representatives to attend",
+      "page": 3
+    },
+    {
+      "claim": "Under UN rules businesses cannot register directly as observers, and the authors report that business attendees come through other routes such as trade associations.",
+      "quote": "businesses are not directly able to obtain a pass to attend the COP according to UN rules",
+      "page": 10
+    },
+    {
+      "claim": "Business and other non-state actors put pressure on governments, but the authors judge their influence to happen largely before the COP.",
+      "quote": "NNSAs (NGOs and industry associations, but especially businesses and local governments) apply important pressure on governments",
+      "page": 11
+    },
+    {
+      "claim": "Business Day, a Parallel Event organized by the WBCSD, was for business-to-business discussion; the Director said business lacked a voice at the COP.",
+      "quote": "we don’t have a good voice at the COP and wanted to organize a speciﬁc day",
+      "page": 10
+    },
+    {
+      "claim": "Just under 60% of Side Events at COP 13 and 75% at COP 14 made frequent or direct reference to the negotiations.",
+      "quote": "just under 60% of Side Events at COP 13 and 75% at COP 14 made frequent or direct reference to the negotiation process",
+      "page": 13
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The paper is about observer organizations and Side Events at COP 13-15 (2007-2009). It does not measure business or fossil-fuel presence in Party delegations, and does not define or identify fossil-fuel linked actors; nothing on Q2 or on classification methods.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "Authors caution about the survey data because attendance depended on non-content factors.",
+      "stated_by_authors": true,
+      "quote": "There are several reasons to be cautious about the survey data.",
+      "page": 8
+    },
+    {
+      "point": "The survey could not be continued at COP 15 because of access restrictions, so it covers COP 13 and COP 14 only.",
+      "stated_by_authors": true,
+      "quote": "it was decided to limit the survey to COP 13 and COP 14",
+      "page": 9
+    },
+    {
+      "point": "Interviews are exploratory (10 interviews); the interviewee view that business has no formal channel was corrected by the authors, who note regular meetings with constituencies.",
+      "stated_by_authors": true,
+      "quote": "although exploratory are nevertheless judged here to be worthwhile reporting due to the limited empirical research in this ﬁeld to date",
+      "page": 9
+    },
+    {
+      "point": "The extracted file has an empty authors field and title 'untitled'; authors and title come from page 1-2 text. Figures 1-6 are images, so their values are not in the text; only figures given in prose are used. Peer review status is not stated in the text. No instructions addressed to a reader or an AI were found.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC Secretariat observer admission and participation data (Figures 1-2)",
+      "what_it_is": "Cumulative observer organizations admitted and breakdown of participants at COPs; source line given as UNFCCC Secretariat",
+      "page": 3
+    },
+    {
+      "name": "UNFCCC (2003) Guidelines for the Participation of Representatives of Non-governmental Organizations at Meetings of the Bodies of the UNFCCC",
+      "what_it_is": "Official guidelines on observer participation, cited for the rules on NNSA access",
+      "page": 16
+    },
+    {
+      "name": "Hjerpe et al. (2008); Hjerpe and Linnér (2010)",
+      "what_it_is": "Earlier studies of the functions of COP Side Events and who attends them",
+      "page": 15
+    },
+    {
+      "name": "Reference list (about 50 works)",
+      "what_it_is": "Literature on NNSAs, global climate governance and Side Events",
+      "page": 14
+    }
+  ],
+  "relevant_to": ["context", "Q1"],
+  "pages_read": "All 16 pages of the extracted PDF text (full article, pages 1-16, including references; page 1 is the publisher cover sheet). Figures are images and not in the text.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

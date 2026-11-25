@@ -1,0 +1,173 @@
+{
+  "id": "kickbigpollutersout-release-record-number-fossil-fuel-lobbyists-attend",
+  "citation": {
+    "authors": [
+      "Kick Big Polluters Out (KBPO) coalition"
+    ],
+    "year": 2023,
+    "title": "Release: Record number of fossil fuel lobbyists at COP28",
+    "venue_or_publisher": "kickbigpollutersout.org (press release dated London, 5 December 2023)",
+    "doi_or_url": "https://kickbigpollutersout.org/articles/release-record-number-fossil-fuel-lobbyists-attend-cop28",
+    "type": "NGO press release with methodology notes",
+    "peer_reviewed": "no"
+  },
+  "question": "How many fossil fuel lobbyists were granted access to COP28 (Dubai, 2023), and how does that compare with country delegations and earlier COPs.",
+  "data": "UNFCCC provisional list of participants for COP28, published 30 November 2023; all entries classified line by line. Result: 2456 fossil fuel lobbyists. Earlier KBPO figures cited: 636 (COP27), 503 (COP26), at least 7200 attendances over two decades.",
+  "method": "A script compared the COP28 list against three other lists of potential fossil fuel lobbyists prepared before COP; the team then checked every line manually, first the automatic suggestions, then the delegates with no automatic match. Only the information in the UNFCCC list was used (delegation plus any affiliation the delegate disclosed). Each classification was justified from open sources (company and trade group websites, lobbying registers, credible media); InfluenceMap data was consulted. Individual names are not published, only organisations; an anonymised list is linked.",
+  "definitions": [
+    {
+      "term": "fossil fuel lobbyist",
+      "definition": "Any individual delegate reasonably assumed to aim at influencing policy or legislation in the interests of the fossil fuel industry or a particular fossil fuel company and its shareholders; classified when the delegate self-declared ties to a fossil fuel company, an organisation with fossil fuel interests, or a foundation owned or controlled by a fossil fuel company.",
+      "quote": "we consider a fossil fuel lobbyist to be any individual delegate that can be reasonably assumed to have the objective of influencing the formulation or implementation of policy or legislation in the interests of the fossil fuel industry",
+      "page": "main section (no heading), para 41; see also para 42"
+    },
+    {
+      "term": "fossil fuel company",
+      "definition": "A company with significant business activities in exploration, extraction, refining, trading, specialised transport of fossil fuels or sale of electricity derived from them.",
+      "quote": "any company that has significant business activities in the exploration, extraction, refining, trading, specialised transportation of fossil fuels or sale of electricity derived from them",
+      "page": "main section (no heading), para 48"
+    },
+    {
+      "term": "significant business activities in fossil fuels",
+      "definition": "The company publicly declares commercial involvement in handling a fossil fuel, or publicly promotes significant investments in such companies. A foundation owned or controlled by a fossil fuel company counts as a fossil fuel foundation.",
+      "quote": "publicly declares that it is involved commercially in the handling of a fossil fuel (exploration, extraction, refining, trading, processing, distribution to consumers)",
+      "page": "main section (no heading), para 49"
+    },
+    {
+      "term": "organisation representing fossil fuel interests / trade association",
+      "definition": "A trade association or other organisation representing the interests of a fossil fuel company's management or shareholders. It qualifies if fossil fuel companies or their senior staff are significantly involved in its governance, or it publicly states that purpose, or it has a recent record of pro-fossil fuel lobbying. Includes UNFCCC-classified intergovernmental organisations focused on promoting member countries' fossil fuel industries.",
+      "quote": "it must have significant involvement of fossil fuel companies or their senior employees in their governance structure (either board of directors or corporate members)",
+      "page": "main section (no heading), para 50"
+    },
+    {
+      "term": "delegation",
+      "definition": "Official groups through which people gain access to COP28, divided into government, UN bodies, intergovernmental organisations, non-government organisations and media.",
+      "quote": "These groups, called delegations, are divided into government, UN bodies, intergovernmental organisations, non-government organisations, and media",
+      "page": "main section (no heading), para 40"
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "fossil fuel lobbyist",
+      "indicator": "Self-declared affiliation in the UNFCCC list (delegation or disclosed employer) matching a fossil fuel company, fossil fuel-interest organisation or fossil fuel company foundation; if no affiliation is stated, the delegate is not classified.",
+      "quote": "If someone did not choose to explicitly state an affiliation to a fossil fuel company or fossil fuel-affiliated organisation in their application to be a delegate at this year",
+      "page": "main section (no heading), para 45"
+    },
+    {
+      "concept": "fossil fuel lobbyist (evidence for classification)",
+      "indicator": "Open sources: websites of companies and trade groups, lobbying registers, credible media reports, InfluenceMap data.",
+      "quote": "including the websites of companies and trade groups, lobbying registers, and media reports by credible news outlets",
+      "page": "main section (no heading), para 46"
+    },
+    {
+      "concept": "lobbying intent of attendees",
+      "indicator": "Applying to attend COP is treated as an attempt to influence climate policy.",
+      "quote": "We believe it is reasonable to assume that anyone who applied to attend COP is attempting to influence the policy debate around climate change.",
+      "page": "main section (no heading), para 41"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "At least 2456 fossil fuel lobbyists were granted access to COP28, nearly four times the number the year before.",
+      "quote": "At least 2456 fossil fuel lobbyists have been granted access to the COP28 summit in Dubai",
+      "page": "main section (no heading), para 3; para 4"
+    },
+    {
+      "claim": "Only Brazil (3081) and the UAE (4409) brought more people than the number of fossil fuel lobbyists.",
+      "quote": "the 2456 fossil fuel lobbyists are only outnumbered by the 3081 people brought by Brazil",
+      "page": "main section (no heading), para 5"
+    },
+    {
+      "claim": "Fossil fuel lobbyists received more passes than delegates of the ten most climate vulnerable nations combined (1509).",
+      "quote": "Fossil fuel lobbyists have received more passes to COP28 than all the delegates from the ten most climate vulnerable nations combined (1509)",
+      "page": "main section (no heading), para 7"
+    },
+    {
+      "claim": "Many lobbyists attended through trade associations; IETA was the largest with 116 people. Nine of the ten biggest were from the Global North.",
+      "quote": "The largest was the Geneva-based International Emissions Trading Association (IETA), who brought 116 people",
+      "page": "main section (no heading), para 8; list in para 38"
+    },
+    {
+      "claim": "Fossil fuel companies appeared inside country delegations: France (TotalEnergies, EDF), Italy (ENI) and the European Union (BP, ENI, ExxonMobil). No per-country totals are given.",
+      "quote": "France brought fossil fuel giants such as TotalEnergies and EDF as part of its country delegation, Italy brought a team of ENI representatives",
+      "page": "main section (no heading), para 10"
+    },
+    {
+      "claim": "Earlier KBPO counts: 636 at COP27 and 503 at COP26.",
+      "quote": "at least 636 fossil fuel lobbyists were granted access to the COP27 climate talks in Egypt, up from 503 the year before that in Glasgow",
+      "page": "main section (no heading), para 21"
+    },
+    {
+      "claim": "COP28 was the first COP where attendees had to disclose whom they represent, revealing lobbyists who would otherwise likely attend unseen.",
+      "quote": "people attending COP28 were required to disclose who they represent",
+      "page": "main section (no heading), para 20"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The count is conservative: only delegates who openly disclose fossil fuel connections are counted, and sources were public only.",
+      "stated_by_authors": true,
+      "quote": "KBPO only counts delegates who openly disclose their connections to fossil fuel interests, and not those who access the talks using a different professional affiliation.",
+      "page": "main section (no heading), para 18"
+    },
+    {
+      "point": "Strict method gives an undercount; more time and resources would find more.",
+      "stated_by_authors": true,
+      "quote": "The strict nature of our methodology results in a conservative estimate rather than a complete figure.",
+      "page": "main section (no heading), para 47"
+    },
+    {
+      "point": "Other sectors (finance, agribusiness, transport) are not counted, so the source gives no figure for business overall (Q1).",
+      "stated_by_authors": true,
+      "quote": "Other polluting industries deeply implicated in the climate crisis such as finance, agribusiness, and transportation are also present, although they are not included in this analysis.",
+      "page": "main section (no heading), para 17"
+    },
+    {
+      "point": "No breakdown of lobbyists by badge type (Party, overflow, observer) or by country delegation is given in the release; the full classified list is only linked, not reproduced. The source does not report any validation or accuracy check of the classification.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    },
+    {
+      "point": "The source is a campaign press release by an advocacy coalition, with a short methods note; no named author. The 'ten trade associations' list includes general business bodies (for example ICC, BusinessEurope, WBCSD), so the fossil link of such bodies rests on the authors' criteria rather than shown evidence in this text.",
+      "stated_by_authors": false,
+      "quote": null,
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "UNFCCC provisional list of participants, COP28",
+      "what_it_is": "Public list of everyone granted access, with delegation type and delegate-disclosed affiliation; published 30 November 2023.",
+      "page": "main section (no heading), para 39"
+    },
+    {
+      "name": "Anonymised list of the 2456 fossil fuel lobbyists",
+      "what_it_is": "Organisation-level list linked from the release (a Google spreadsheet); not in the text file.",
+      "page": "main section (no heading), para 43"
+    },
+    {
+      "name": "InfluenceMap data",
+      "what_it_is": "Independent think tank data on business and finance influence on climate, consulted to verify classifications.",
+      "page": "main section (no heading), para 46"
+    },
+    {
+      "name": "Three pre-COP lists of potential fossil fuel lobbyist attendees",
+      "what_it_is": "Lists prepared in the months before COP28 and used for the automatic cross-check; the page does not say who prepared them, and their contents are not described.",
+      "page": "main section (no heading), para 44"
+    },
+    {
+      "name": "Joint civil society submission on conflicts of interest (Aug 2022) and UNFCCC document 855rev",
+      "what_it_is": "Linked in the text as support for the claim that countries representing almost 70% of world population asked for conflicts of interest to be addressed; not read.",
+      "page": "main section (no heading), para 19"
+    }
+  ],
+  "relevant_to": [
+    "Q2",
+    "method",
+    "context"
+  ],
+  "pages_read": "Whole web page text (paragraphs 1-50, plus link list); no figures; 'Related content' headings had no text.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

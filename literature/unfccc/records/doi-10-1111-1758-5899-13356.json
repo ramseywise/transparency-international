@@ -1,0 +1,159 @@
+{
+  "id": "doi-10-1111-1758-5899-13356",
+  "citation": {
+    "authors": ["Naghmeh Nasiritousi", "Alexandra Buylova", "Mathias Fridahl", "Gunilla Reischl"],
+    "year": 2024,
+    "title": "Making the UNFCCC fit for purpose: A research agenda on vested interests and green spiralling",
+    "venue_or_publisher": "Global Policy, 15, 487-494 (Policy Insights article); Durham University and John Wiley & Sons Ltd",
+    "doi_or_url": "https://doi.org/10.1111/1758-5899.13356",
+    "type": "publisher's version (open access, Creative Commons Attribution licence; Wiley Online Library download stamp and journal pagination 487-494)",
+    "peer_reviewed": "yes"
+  },
+  "question": "How the UNFCCC can be made more effective. The authors argue that reform should target vested interests that obstruct climate action rather than procedural inefficiency, and propose a research agenda on weakening incumbent vested interests and strengthening new entrants ('green spiralling').",
+  "data": "None. A conceptual and argumentative policy article; the authors state that no datasets were generated or analysed. It cites other work (for example a Climate Investigation Center mapping of fossil fuel delegates in the US delegation, 1995-2018, and press reports on COP28) but does not analyse participant lists itself.",
+  "method": "Literature-based argument. No classification, counting, sampling or language-model method.",
+  "definitions": [
+    {
+      "term": "vested interests",
+      "definition": "Actors who have a special interest in existing systems and seek to exert controlling influence on those systems (the authors cite Vormedal et al., 2023).",
+      "quote": "Vested interests are here defined as actors who have a special interest in existing systems and seek to exert controlling influence on those systems",
+      "page": 2
+    },
+    {
+      "term": "vested interests in the climate context (incumbent actors)",
+      "definition": "Typically depicted as incumbent actors who resist change and promote business as usual, including the fossil fuel industry and other business interests that rely on fossil fuels. The authors also note that vested interests can include groups that want change (new entrants, green businesses).",
+      "quote": "These include the fossil fuel industry and other powerful business interests that rely on the use of fossil fuels",
+      "page": 3
+    },
+    {
+      "term": "vested interests, public or private",
+      "definition": "Vested interests are not only private firms: fossil fuel companies can be private or state-owned, and states that rely on fossil fuels for jobs or revenue take those views into account in their positions.",
+      "quote": "vested interests operate throughout societies and can be both public and private.",
+      "page": 3
+    },
+    {
+      "term": "private interests as observers",
+      "definition": "Under the Convention and the admission procedures for observer organisations, a private interest cannot be an observer in its own right; it must be accredited through an admitted observer organisation.",
+      "quote": "a private interest cannot be represented as an observer unless accredited through an admitted observer organisation, including business associations or other NGOs",
+      "page": 4
+    },
+    {
+      "term": "undue influence",
+      "definition": "Described as blocking or watering down climate policies at different levels of governance, through lobbying, greenwashing and funding disinformation. No operational test is given.",
+      "quote": "Such vested interests exert undue influence on climate policymaking by blocking or watering down climate policies at different levels of governance",
+      "page": 3
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "fossil fuel presence in a country delegation",
+      "indicator": "Fossil fuel company delegates counted within the US negotiation delegation across COPs, in a mapping by the Climate Investigation Center (CIC, 2019). How the delegates were identified is not described in this article.",
+      "quote": "The Climate Investigation Center's mapping of fossil fuel company delegates in the US negotiation delegation in COP meetings between 1995 and 2018 (CIC, 2019) shows how common this type of participation is.",
+      "page": 4
+    }
+  ],
+  "findings": [
+    {
+      "claim": "States can and often do put actors from different sectors into their negotiation delegations. This is stated as background, with no count by the authors.",
+      "quote": "states can (and in many cases do) include actors from different sectors in their negotiation delegations",
+      "page": 4
+    },
+    {
+      "claim": "Cites a Kick Big Polluters Out coalition claim (via a press report) that COP28 admitted a record number of fossil fuel lobbyists. The figure is not given here.",
+      "quote": "COP28 in Dubai granted access to a record number of fossil fuel lobbyists",
+      "page": 4
+    },
+    {
+      "claim": "The authors say the exact influence of vested interests is hard to trace, but that they have in many cases affected negotiated outcomes (citing other work).",
+      "quote": "Even though the exact influence of actors with a vested interest in preserving the status quo is difficult to trace",
+      "page": 4
+    },
+    {
+      "claim": "Argument, not an empirical finding: vested interests of incumbent actors, not procedure, explain slow UNFCCC progress.",
+      "quote": "The vested interests of incumbent actors explain both why the UNFCCC makes slow progress",
+      "page": 3
+    },
+    {
+      "claim": "Recommendation: conflict of interest rules to limit access of actors whose interests drive undesirable outcomes, applying to COPs and other UNFCCC meetings. Rules would need to define what counts as a conflict of interest.",
+      "quote": "They outline the need for conflict of interest rules to limit access of actors with interests that drive undesirable outcomes.",
+      "page": 4
+    },
+    {
+      "claim": "Observation that conflict of interest rules called for by NGOs have so far been blocked by countries.",
+      "quote": "such calls by NGOs have been blocked by countries that believe all voices should have a place at the table",
+      "page": 5
+    },
+    {
+      "claim": "Research gap named by the authors, which a study of delegation composition would address: more transparency is needed on who participates at the UNFCCC.",
+      "quote": "there needs to be more transparency on who participates at the UNFCCC",
+      "page": 5
+    },
+    {
+      "claim": "Research questions named by the authors: how to distinguish different vested interests, and what participation criteria are administratively and politically feasible.",
+      "quote": "How can different vested interests be distinguished and what strategies are most effective in shifting influence from incumbent vested interests to new entrants and marginalised voices?",
+      "page": 5
+    },
+    {
+      "claim": "Trade-off raised by the authors: restricting incumbent actors' access may weaken legitimacy and compliance, which needs further study in relation to representation of vested interests at COPs.",
+      "quote": "A key question for future research is thus how to deal with vested interests while keeping the political process legitimate.",
+      "page": 4
+    }
+  ],
+  "limitations": [
+    {
+      "point": "No data were generated or analysed; the article gives no method, counts, sector scheme or classification rules for delegates.",
+      "stated_by_authors": true,
+      "quote": "Data sharing not applicable to this article",
+      "page": 6
+    },
+    {
+      "point": "The authors say the exact influence of vested interests is hard to trace.",
+      "stated_by_authors": true,
+      "quote": "Even though the exact influence of actors with a vested interest in preserving the status quo is difficult to trace",
+      "page": 4
+    },
+    {
+      "point": "The article does not define 'business', 'sector', 'fossil fuel-linked', 'lobbyist' or 'Party overflow', or say how to tell vested interests apart in practice (it lists this as a research question). It does not distinguish delegations (Party badges) from observers beyond the observer-accreditation rule.",
+      "stated_by_authors": false,
+      "quote": "How can different vested interests be distinguished",
+      "page": 5
+    },
+    {
+      "point": "The text file lists no authors in its metadata; authors were taken from page 1. No instructions to a reader or AI were found in the text.",
+      "stated_by_authors": false,
+      "quote": "Naghmeh Nasiritousi1,2 | Alexandra Buylova1 | Mathias Fridahl2 | Gunilla Reischl1",
+      "page": 1
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "CIC (2019) Thousands of Fossil Fuel 'Observers' Attended Climate Negotiations - UNFCCC Data 2005-2018 COP1-COP24 (Climate Investigation Center)",
+      "what_it_is": "Mapping of fossil fuel company delegates in COP delegations, cited as evidence of how common such participation is. Candidate source to read; not described in detail here.",
+      "page": 4
+    },
+    {
+      "name": "Lakhani (2023), The Guardian, 5 December 2023: record number of fossil fuel lobbyists at COP28",
+      "what_it_is": "Press report on the Kick Big Polluters Out coalition's count, cited for COP28.",
+      "page": 4
+    },
+    {
+      "name": "Dambacher, Stilwell and McGee (2020), Journal of Environmental Law 32(1), 53-81",
+      "what_it_is": "Cited for conflict of interest rules at the UNFCCC. Candidate source to read.",
+      "page": 4
+    },
+    {
+      "name": "Meckling and Nahm (2022), Comparative Political Studies 55(3)",
+      "what_it_is": "Cited for four strategies against regulatory capture by vested interests (recruiting allies, limiting access, aligning interests, quieting interests).",
+      "page": 4
+    },
+    {
+      "name": "UNFCCC (2004), Promoting effective participation in the Convention process, FCCC/SBI/2004/5",
+      "what_it_is": "Admission procedures for observer organisations, cited for the rule on private interests as observers.",
+      "page": 4
+    }
+  ],
+  "relevant_to": ["Q1", "Q2"],
+  "pages_read": "1-8 (all pages)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

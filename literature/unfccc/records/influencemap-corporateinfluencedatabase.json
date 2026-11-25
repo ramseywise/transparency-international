@@ -1,0 +1,69 @@
+{
+  "id": "influencemap-corporateinfluencedatabase",
+  "citation": {
+    "authors": [
+      "InfluenceMap"
+    ],
+    "year": null,
+    "title": "InfluenceMap's Corporate Accountability Platform (page: COP31 Attendee Corporate Influence Database)",
+    "venue_or_publisher": "InfluenceMap (cop.influencemap.org)",
+    "doi_or_url": "https://cop.influencemap.org/CorporateInfluenceDatabase",
+    "type": "web page (landing page for a searchable database)",
+    "peer_reviewed": "unknown"
+  },
+  "question": "",
+  "data": "",
+  "method": "",
+  "definitions": [],
+  "proxies": [],
+  "findings": [
+    {
+      "claim": "InfluenceMap states that more companies and industry associations with misaligned climate lobbying than aligned ones are registered for COP31. The page gives no counts or criteria for this; it points to a separate analysis.",
+      "quote": "More companies and industry associations with misaligned climate lobbying are registered for COP31 than aligned ones.",
+      "page": "COP31 Attendee Corporate Influence Database"
+    }
+  ],
+  "limitations": [
+    {
+      "point": "The saved text is only a landing page for a database. It holds one introductory section and the column headings of a table (InfluenceMap Performance Band, Organization, Engagement Intensity, COP31 Attendance), with no table rows. No definitions, thresholds or method are in the saved text.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "The page does not say which participant list or lists the attendee data come from, or whether it separates Party badge holders, Party overflow and observer organisations. It does not say how it counts or classifies attendees.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "The methodology and the meaning of the metrics are on other pages that were not part of this source (the 'Info icons' and the linked methodology page).",
+      "stated_by_authors": true,
+      "quote": "Full details of what our metrics mean are contained within the Info icons. A full explanation of our methodology can be found here.",
+      "page": "COP31 Attendee Corporate Influence Database"
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "COP31 Attendee Corporate Influence Database (InfluenceMap)",
+      "what_it_is": "A searchable database of organisations whose representatives may be engaging with the COP process, with a link to a profile for each. The page gives no size for this table; its figure of over 1000 companies and 330 industry groups refers to InfluenceMap's whole database.",
+      "page": "COP31 Attendee Corporate Influence Database"
+    },
+    {
+      "name": "Linked analysis: 'Corporate Climate Laggards Outnumber Leaders at COP31' (https://influencemap.org/insight/Corporate-Climate-Laggards-Outnumber-Leaders-at-COP31-40697)",
+      "what_it_is": "The page links to it as the full analysis of the corporate attendees. Not read.",
+      "page": "COP31 Attendee Corporate Influence Database"
+    },
+    {
+      "name": "InfluenceMap methodology page (https://influencemap.org/page/Our-Methodology)",
+      "what_it_is": "The page links to it as the full explanation of the methodology. Not read.",
+      "page": "COP31 Attendee Corporate Influence Database"
+    }
+  ],
+  "relevant_to": [
+    "method"
+  ],
+  "pages_read": "Landing page only: the full saved text (8 paragraphs, about 153 words, one section with content). It holds no table rows, definitions or method. The linked analysis and methodology pages were not read.",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}

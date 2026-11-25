@@ -1,0 +1,298 @@
+{
+  "id": "doi-10-1787-c6d8eff8-en",
+  "citation": {
+    "authors": [
+      "OECD"
+    ],
+    "year": 2021,
+    "title": "Lobbying in the 21st Century: Transparency, Integrity and Access",
+    "venue_or_publisher": "OECD Publishing, Paris",
+    "doi_or_url": "https://doi.org/10.1787/c6d8eff8-en",
+    "type": "report (intergovernmental organisation)",
+    "peer_reviewed": "no"
+  },
+  "question": "How far OECD Adherents have implemented the 2010 OECD Principles for Transparency and Integrity in Lobbying, and what new risks and tools (advisory groups, revolving door, conflicts of interest, corporate lobbying, participation) have emerged.",
+  "data": "2020 OECD Survey on Lobbying of public officials in the executive branch (31 OECD Adherents plus Brazil, Romania and the EU Joint Transparency Register Secretariat), 157 anonymous responses from lobbyists in 34 countries, 116 responses from legislators in 31 countries; 2018 OECD Product Market Regulation indicators; desk research by the OECD Secretariat; earlier OECD reports; cited third-party studies. Published 2021 (draft approved 16 April 2021).",
+  "method": "Benchmarking of national lobbying rules and practice across OECD countries by survey and desk research, with stakeholder consultation. No classification of organisations as business or fossil-fuel and no use of language models for classification. A few cited practices are relevant by analogy: France HATVP uses an algorithm to flag defective lobbying reports; the US GAO checked lobbyist reports against a second database by random sample.",
+  "definitions": [
+    {
+      "term": "Lobbying",
+      "definition": "Lawful attempt to influence the design, implementation, execution and evaluation of public policies and regulations by executive, legislative or judicial officials at any level.",
+      "quote": "This refers to the act of lawfully attempting to influence the design, implementation, execution and evaluation of public policies and regulations administered by executive, legislative or judicial public officials",
+      "page": 13
+    },
+    {
+      "term": "Policy capture",
+      "definition": "Decisions in a policy cycle mainly reflect the interests of a narrow interest group.",
+      "quote": "any situation where the decisions taken in a policy cycle mainly reflect the interests of a narrow interest group",
+      "page": 13
+    },
+    {
+      "term": "Policy capture (chapter 1 wording)",
+      "definition": "Public decisions consistently or repeatedly directed away from the public interest towards a narrow interest group.",
+      "quote": "consistently or repeatedly directed away from the public interest and towards the interests of a narrow interest group",
+      "page": 21
+    },
+    {
+      "term": "Conflict of interest",
+      "definition": "Conflict between a public official's public duty and private-capacity interests that could improperly influence their duties.",
+      "quote": "where the public official has interests in a private capacity that could improperly influence the performance of the official’s duties and responsibilities",
+      "page": 13
+    },
+    {
+      "term": "Advisory or expert groups",
+      "definition": "Any committee, board, commission, council, panel, task force or similar group (or subgroup) that gives governments advice, expertise or recommendations.",
+      "quote": "provides governments with advice, expertise or recommendations",
+      "page": 13
+    },
+    {
+      "term": "Revolving door",
+      "definition": "Movement of public officials, business executives and experts between public and private sectors.",
+      "quote": "movement of public officials, business executives and experts between the public and private sectors",
+      "page": 20
+    },
+    {
+      "term": "Special interest groups",
+      "definition": "Groups, usually small relative to the population, that are well organised and have significant financial resources to focus on influencing policy on a specific issue.",
+      "quote": "well-organised and have significant financial resources to focus on influencing public policies and regulations on a specific issue",
+      "page": 14
+    },
+    {
+      "term": "Astroturfing",
+      "definition": "Creating and funding citizens' organisations to give an impression of grassroots support.",
+      "quote": "the practice of creating and funding citizens’ associations/organisations, to create an impression of widespread grassroots support",
+      "page": 55
+    },
+    {
+      "term": "Lobbying activities (typical national definition)",
+      "definition": "Oral, written and electronic communications between public officials and lobbyists.",
+      "quote": "Lobbying activities are usually defined as oral, written and electronic communications between public officials and lobbyists",
+      "page": 51
+    },
+    {
+      "term": "Lobbyist, Australia",
+      "definition": "Any person, company or organisation that lobbies on behalf of a third-party client, or whose employees do.",
+      "quote": "activities on behalf of a third-party client or whose employees conduct lobbying",
+      "page": 140
+    },
+    {
+      "term": "Lobbyist, EU Transparency Register",
+      "definition": "All organisations and self-employed individuals, whatever their legal status, doing activities to influence EU policy and decisions, directly or indirectly.",
+      "quote": "irrespective of their legal status",
+      "page": 149
+    },
+    {
+      "term": "Lobbyist, Iceland",
+      "definition": "Individuals communicating with authorities on behalf of private parties to influence them commercially.",
+      "quote": "seek to influence them commercially",
+      "page": 146
+    },
+    {
+      "term": "Foreign principal (Australia)",
+      "definition": "Includes foreign government-related entities, including companies the foreign principal substantially controls.",
+      "quote": "a foreign government-related entity, including companies in which the foreign principal exercises total or substantial control",
+      "page": 49
+    },
+    {
+      "term": "Lobbying, Spain",
+      "definition": "Communicating directly or indirectly with holders of public or elected office on behalf of private, public or collective interests.",
+      "quote": "communicating directly or indirectly with holders",
+      "page": 161
+    }
+  ],
+  "proxies": [
+    {
+      "concept": "Fossil-fuel value chain lobbying",
+      "indicator": "Companies in the fossil fuel value chain are described as coal, automotive, heavy industry and utilities (citing InfluenceMap 2020). Descriptive only; no classification rule or test.",
+      "quote": "companies in the fossil fuel value chain, including coal, automotive, heavy industry and utilities",
+      "page": 22
+    },
+    {
+      "concept": "Business associations (as a lobbying category)",
+      "indicator": "Chart note lists what the OECD grouped as business associations in US lobbying spending data.",
+      "quote": "includes small business, pro-business and international trade associations, as well as chambers of commerce",
+      "page": 24
+    },
+    {
+      "concept": "Entity identity / ownership behind a name",
+      "indicator": "Unique ID number so subsidiaries are not linked to several entries; beneficial owner information because an entity's name may not reveal who benefits.",
+      "quote": "unique ID number",
+      "page": 74
+    },
+    {
+      "concept": "Business sector of a lobbying organisation (register fields)",
+      "indicator": "Registers collect sector of activity from a drop-down menu (France) or sector and country of origin (Mexico); the US uses general issue area codes on LD-2 reports.",
+      "quote": "General lobbying issue area code(s)",
+      "page": 179
+    },
+    {
+      "concept": "Corporate group links",
+      "indicator": "Canada requires consultant lobbyists to disclose the client's parent corporation and subsidiaries.",
+      "quote": "",
+      "page": 166
+    },
+    {
+      "concept": "Foreign state control of a company",
+      "indicator": "Australia treats companies in which a foreign government exercises total or substantial control as foreign government-related entities.",
+      "quote": "a foreign government-related entity, including companies in which the foreign principal exercises total or substantial control",
+      "page": 49
+    },
+    {
+      "concept": "Movement between business and government",
+      "indicator": "Registers record whether a lobbyist is a former government representative or former public office holder (Australia, Canada, Romania, Ireland).",
+      "quote": "",
+      "page": 165
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Lobbying in OECD countries is widely done by companies and business associations, who are also among the largest spenders in the US data given.",
+      "quote": "",
+      "page": 23
+    },
+    {
+      "claim": "Advisory groups give private sector representatives direct access to policy making without counting as lobbyists, and few countries make participant information transparent.",
+      "quote": "Private sector representatives participating in these groups have direct access to policy-making processes without being considered external lobbyists",
+      "page": 58
+    },
+    {
+      "claim": "The revolving door is one of the main conflict-of-interest risks.",
+      "quote": "one of the main risks and concerns related to conflicts of interest",
+      "page": 100
+    },
+    {
+      "claim": "Cooling-off rules are more common for executive officials than for legislators.",
+      "quote": "Most countries have established cooling-off measures for public officials in the executive branch, but fewer have adopted provisions for members of legislative bodies",
+      "page": 101
+    },
+    {
+      "claim": "Few governments sanction detected breaches of post-employment rules.",
+      "quote": "only 20% of governments reported that most detected breaches are in fact sanctioned",
+      "page": 103
+    },
+    {
+      "claim": "Private sector people joining government create conflict-of-interest risk.",
+      "quote": "Private sector representatives joining the public sector can also pose significant risks of conflict of interest",
+      "page": 104
+    },
+    {
+      "claim": "Companies hiring former public officials is a grey area, and few companies have policies on it.",
+      "quote": "grey area that can give rise to conflicts of interest",
+      "page": 113
+    },
+    {
+      "claim": "Companies in some sectors have more detailed lobbying policies than others; oil and gas is among the more detailed, renewable energy among the less.",
+      "quote": "Companies in the oil and gas, pharmaceuticals, agriculture and tobacco sectors tend to have detailed policies",
+      "page": 111
+    },
+    {
+      "claim": "France's HATVP found most of the 6,000 activity reports it analysed with an algorithm did not meet the expected criteria.",
+      "quote": "Over half of the 6 000 activity reports analysed did not meet any of the expected criteria",
+      "page": 76
+    },
+    {
+      "claim": "Companies' public climate commitments can conflict with their lobbying; investors and the UN Global Compact now ask about alignment, and industry associations can be misaligned with members.",
+      "quote": "",
+      "page": 115
+    },
+    {
+      "claim": "Only 47% of countries gave transparency on advisory group participants (PMR 2019).",
+      "quote": "",
+      "page": 58
+    },
+    {
+      "claim": "A US GAO random-sample check against the FEC database estimated that lobbyists failed to disclose contributions on 33% of reports.",
+      "quote": "",
+      "page": 77
+    }
+  ],
+  "recommendations": [
+    {
+      "point": "Countries should set cooling-off periods and manage conflict of interest, and the Principles call for them.",
+      "quote": "",
+      "page": 88
+    },
+    {
+      "point": "Governments should publish members and employing organisations of advisory groups, with balanced representation (Ireland Transparency Code given as example).",
+      "quote": "",
+      "page": 59
+    },
+    {
+      "point": "Companies' lobbying should align with their sustainability commitments (executive summary).",
+      "quote": "",
+      "page": 16
+    }
+  ],
+  "limitations": [
+    {
+      "point": "Full text read: PDF pages 1 to 199 of 199. Pages 2, 8, 118, 128 and 198 have no extractable text (blank or image-only), so they were not read. Table lines in the text dump were truncated at 3,000 characters, so a few long annex table cells may be cut off.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "The source does not address UNFCCC, COP, Party delegations, observer accreditation, or how to classify organisations as business or fossil-fuel linked, and does not use language models for classification. It is regulatory and context material only. Page numbers are PDF page indexes (printed page about 2 lower).",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    },
+    {
+      "point": "The OECD survey of lobbyists and legislators is small and not representative: 157 lobbyist and 116 legislator responses, anonymous, distributed through associations and networks.",
+      "stated_by_authors": false,
+      "quote": "A total of 157 responses were collected, anonymously, from 34 Adherents and selected non-Adherents.",
+      "page": 193
+    },
+    {
+      "point": "Many national definitions of lobbyist and lobbying are absent or narrow, so cross-country comparison is limited; 17 countries have no definition of lobbyist in the 2020 survey table.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": 146
+    },
+    {
+      "point": "The fossil-fuel value chain description comes from a third party (InfluenceMap) and no method is given.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": 22
+    },
+    {
+      "point": "No instruction-like text addressed to a reader or an AI was found in the source.",
+      "stated_by_authors": false,
+      "quote": "",
+      "page": null
+    }
+  ],
+  "reference_lists_or_datasets": [
+    {
+      "name": "2020 OECD Survey on Lobbying (public officials, lobbyists, legislators)",
+      "what_it_is": "Three OECD surveys on lobbying regulation and experience; used for annex tables of per-country definitions of lobbyist, lobbying activity, exemptions and register content.",
+      "page": 193
+    },
+    {
+      "name": "OECD 2018/2019 Product Market Regulation indicators",
+      "what_it_is": "OECD indicators including transparency of advisory groups.",
+      "page": 192
+    },
+    {
+      "name": "InfluenceMap analyses of corporate climate lobbying",
+      "what_it_is": "Third-party analyses cited for fossil-fuel value chain lobbying and investor engagement; not provided as a dataset.",
+      "page": 22
+    },
+    {
+      "name": "EU Transparency Register",
+      "what_it_is": "Joint EU Commission and Parliament register of organisations seeking to influence EU policy; reports what it discloses (page 180).",
+      "page": 180
+    },
+    {
+      "name": "Annex A tables A.1 to A.6",
+      "what_it_is": "Country-by-country tables of who counts as public official, lobbyist, lobbying activity, what registers disclose, and codes of conduct.",
+      "page": 133
+    }
+  ],
+  "relevant_to": [
+    "context",
+    "method"
+  ],
+  "pages_read": "1-199 of 199 (pages 2, 8, 118, 128 and 198 have no extractable text)",
+  "read_on": "2026-11-24",
+  "read_by": "source-reader, sonnet"
+}
