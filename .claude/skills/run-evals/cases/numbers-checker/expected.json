@@ -1,0 +1,13 @@
+{
+  "agent": "numbers-checker",
+  "what": "A short text with nine numbered statements about an invented data file. Four carry planted errors.",
+  "clean": ["N1", "N2", "N5", "N6", "N9"],
+  "planted": {
+    "N3": "The text says 14; the generated table says 13; the data give 12.",
+    "N4": "6 of 14 is 43 per cent, not 'most'.",
+    "N7": "Matches the generated table (4) but the table is wrong: the data give 3. Found only by recomputing.",
+    "N8": "No table or data column supports a count of organisations."
+  },
+  "must_catch": ["N3", "N8"],
+  "pass_if": {"planted_caught_at_least": 3, "false_alarms_at_most": 0}
+}

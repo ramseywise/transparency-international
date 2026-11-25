@@ -155,3 +155,19 @@ def test_existing_returns_latest_logged_download_whose_file_exists(tmp_path):
         assert again.ok and "already downloaded" in again.note
     finally:
         f.close()
+
+
+def test_held_skips_a_hand_supplied_download_that_has_no_address(tmp_path):
+    f = Fetcher(tmp_path, delay=0)
+    try:
+        pdf = tmp_path / paths.PDFS / "b.pdf"
+        pdf.parent.mkdir(parents=True)
+        pdf.write_bytes(b"%PDF")
+        rec = dict(id="b", url=None, final_url=None, status=None, kind="pdf",
+                   content_type="application/pdf", path=str(pdf), sha256="y", bytes=4,
+                   retrieved="2026-01-01", note="supplied by hand")
+        f.log_path.write_text(json.dumps(rec) + "\n")
+        assert f.held(url="https://example.org/a", not_id="a") is None
+        assert f.held(sha256="y", not_id="a")["id"] == "b"
+    finally:
+        f.close()

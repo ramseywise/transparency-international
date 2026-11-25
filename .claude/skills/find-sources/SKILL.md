@@ -15,7 +15,7 @@ Agree with the researcher, in two or three lines each:
 - the questions the literature should answer (from the research plan)
 - what is in scope: years, languages, types of source (papers, NGO reports, official documents, blogs)
 
-Write these at the top of a new section in `literature/<study>/reports/search-log.md`.
+Write these at the top of a new section in `literature/<study>/data/private/reports/search-log.md`.
 
 ## Steps
 
@@ -47,7 +47,7 @@ Write these at the top of a new section in `literature/<study>/reports/search-lo
 4. **Screen** each candidate against the scope, from its title, the sentence it was cited in, or its abstract. Record the decision with `screen in|out <id> [<id> ...] --reason "<one line>" --question <Q1|Q2|method|context>`. Every candidate gets a decision, whatever its tier; a Tier 1 reference can be screened out and a Tier 4 one kept. When unsure, keep it in. Write the criteria and the counts (in, out by reason, by question, by tier) in the search log. Show the researcher the screened-in list, grouped by question, before downloading: this is the screening approval.
 5. **Download** the screened-in sources: `fetch <id> [<id> ...]`. A source that fails or sits behind a paywall stays `in` with reason "no access" and is listed for the researcher. Never work from an abstract as if it were the paper.
 6. **Check the extraction** of each new source: open `literature/<study>/data/processed/text/<id>.json`, confirm the title, the paragraph or page counts look right, and the text reads in order. Charts embedded from another service (for example Infogram) are not in the text; note that in the ledger reason.
-7. **Read.** First run `uv run python -I -m rag chunks <ids>`: for each source it writes `literature/<study>/data/processed/reader-picks/<id>.json`, the passages that matter for the study (definitions, method, the study's key terms) with a coverage line; a short source is given whole. Then give each chunk file to the `source-reader` agent (`subagent_type: "source-reader"`), several in parallel. Save what it returns as `literature/<study>/records/<id>.json` and set the status to `read`.
+7. **Read.** First run `uv run python -I -m rag chunks <ids>`: for each source it writes `literature/<study>/data/processed/reader-picks/<id>.json`, the passages that matter for the study (definitions, method, the study's key terms) with a coverage line; a short source is given whole. Then give each chunk file to the `source-reader` agent (`subagent_type: "source-reader"`), several in parallel. The chunk file is where the reader starts, not where it stops: before it records that a source has no definition, proxy or limitation, it searches the full text for the key terms and reads what matches, and says in `pages_read` what it searched. Save what it returns as `literature/<study>/records/<id>.json` and set the status to `read`.
 8. **Index.** `index` splits the sources into passages and makes them searchable. Run it after every batch. Then run `uv run pytest -q tests/test_search_quality.py -s`: it asks the questions in `literature/tests/fixtures/search-questions.json`, each with a known answering passage, and fails if search has got worse. When a new kind of source is added, add two or three questions for it. Never reword a question to make it pass.
 9. **Report** the flow in plain language: found, screened in, screened out (with the main reasons), no access, read. List the five sources most relevant to each question.
 

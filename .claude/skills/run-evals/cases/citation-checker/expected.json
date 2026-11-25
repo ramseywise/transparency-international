@@ -1,0 +1,29 @@
+{
+ "agent": "citation-checker",
+ "what": "A ten-statement extract citing a small invented library. Six statements carry planted errors and one needs a citation it does not have.",
+ "clean": [
+  "S1",
+  "S6",
+  "S10"
+ ],
+ "planted": {
+  "S2": "Source says two of five delegations; the text says most.",
+  "S3": "Source says 41; the text says 47.",
+  "S4": "Nothing of the kind is in the source.",
+  "S5": "The source is only a candidate in the ledger: never read, no record.",
+  "S7": "Source says 'may publish'; the text quotes 'must publish'.",
+  "S8": "The source is not in the ledger at all."
+ },
+ "uncited": [
+  "S9"
+ ],
+ "must_catch": [
+  "S3",
+  "S8"
+ ],
+ "pass_if": {
+  "planted_caught_at_least": 5,
+  "false_alarms_at_most": 0,
+  "uncited_found": true
+ }
+}

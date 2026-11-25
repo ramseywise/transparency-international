@@ -1,7 +1,7 @@
 """Tables for the feasibility test (notebook 05). PROVISIONAL, n=20.
 
 Everything here reads the saved evidence and the two classification runs in
-``data/derived/feasibility/`` and returns tables keyed by case code (F01-F20).
+``data/processed/feasibility/`` and returns tables keyed by case code (F01-F20).
 No organisation name is returned by any function, so nothing here can name an
 organisation as fossil-linked. Nothing here feeds the proposal, the report or
 ``numbers.md``.

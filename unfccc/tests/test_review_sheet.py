@@ -90,3 +90,34 @@ def test_blind_sheet_holds_nothing_the_model_produced():
     import inspect
     src = inspect.getsource(rs.blind)
     assert "evidence_dir" not in src and "classified" not in src
+
+
+def test_every_column_has_a_group_and_the_groups_are_right(tmp_path):
+    sheet = _write(tmp_path)
+    g = {c: rs.group(c) for c in sheet.columns}
+    assert g["raw_spellings"] == "given" and g["canonical_name"] == "cleaned"
+    assert g["n_delegates_party"] == "counted" and g["business"] == "inferred"
+    assert g["business_source_url"] == "inferred" and g["business_review"] == "review"
+    assert g["review_notes"] == "review" and g["case"] == "reference"
+    guide = rs.column_guide(sheet.columns)
+    assert list(guide["column"]) == list(sheet.columns) and guide["group"].notna().all()
+
+
+def test_simple_sheet_copies_the_headline_answers_and_leaves_review_empty(tmp_path):
+    sheet = _write(tmp_path)
+    s = rs.simple(sheet)
+    assert s.loc[0, "business"] == "yes" and s.loc[0, "business_confidence"] == "high"
+    assert s.loc[0, "business_source"] == "https://example.org/r"
+    assert s.loc[0, "fossil_link"] == "unknown" and s.loc[0, "fossil_link_reason"] == "nothing found"
+    assert s.loc[0, "raw_spellings"] == sheet.loc[0, "raw_spellings"]
+    assert (s[[c for c in s.columns if rs.group(c) == "review"]] == "").all().all()
+
+
+def test_workbook_has_the_four_tabs_and_names_the_groups(tmp_path):
+    from openpyxl import load_workbook
+
+    path = rs.workbook(_write(tmp_path), tmp_path / "w.xlsx")
+    wb = load_workbook(path)
+    assert wb.sheetnames == ["How to review", "Review", "All detail", "Columns"]
+    top = [c.value for c in wb["Review"][1]]
+    assert "From the Excel (given)" in top and "Your review (fill in)" in top

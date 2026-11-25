@@ -5,13 +5,13 @@ description: Clean a dataset with logged, repeatable rules, fill in missing valu
 
 # Clean data and build the organisation table
 
-Cleaning is done by code that can be re-run, never by editing a file. Everything written goes to `<study>/data/derived/`.
+Cleaning is done by code that can be re-run, never by editing a file. Everything written goes to `<study>/data/processed/`.
 
 ## Steps
 
 1. **Read the profile notebook** and the research plan. Clean only what the questions need.
 2. **Write the rules as a script** in `<study>/src/cleaning/clean.py`, run with `uv run python -m cleaning.clean`. Typical rules: trim and collapse spaces; normalise Unicode; turn placeholders into empty; split titles from names; standardise country names against a fixed list; restrict to the rows in scope.
-3. **Log each rule** in `<study>/docs/working/cleaning-log.md`: its name, what it does, how many rows it changed, three before-and-after examples.
+3. **Log each rule** in `<study>/docs/archived/cleaning-log.md`: its name, what it does, how many rows it changed, three before-and-after examples.
 4. **Reconcile.** Rows in, rows out, and the reason for every row dropped. Totals per group must match the raw file unless a logged rule explains the difference.
 5. **Duplicates.** Apply the study's rule for the same person or record appearing twice. Flag, do not delete, anything the rule does not cover.
 6. **Organisation table** (`organisations.parquet`):

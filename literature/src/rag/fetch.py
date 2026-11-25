@@ -218,7 +218,8 @@ class Fetcher:
                 continue
             if sha256 and rec.get("sha256") == sha256:
                 return rec
-            if key and key in (match_key(rec["url"]), match_key(rec["final_url"])):
+            # a file supplied by hand has no address: it can match only by its bytes
+            if key and key in {match_key(u) for u in (rec.get("url"), rec.get("final_url")) if u}:
                 return rec
         return None
 

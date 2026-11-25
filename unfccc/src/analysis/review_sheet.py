@@ -15,6 +15,11 @@ file for review and stays in ``data/processed/``; it is not an output for public
 Run for the feasibility test (provisional, 20 organisations):
     uv run python -I -m analysis.review_sheet
 
+The review workbook is the same sheet made simple, as an Excel file: the headline answers
+only, the column groups in colour (given, counted, cleaned, found and inferred, your review),
+with the full sheet and a guide to every column on further tabs.
+    uv run python -I -m analysis.review_sheet --workbook
+
 The blind sheet is a different thing: for the expert who labels the pilot without seeing
 the model's answers (proposal 6.5). It holds the organisation as listed and empty columns,
 one per codebook field, and nothing the model found or decided.
@@ -111,6 +116,134 @@ def codebook_test_main(derived: Path = DERIVED) -> Path:
     return out
 
 
+# The column groups: where each column comes from, and what a reviewer does with it.
+GROUPS = {
+    "reference": ("Reference", "D9D9D9", "A code we added so that rows can be found again.",
+                  "nothing to approve"),
+    "given": ("From the Excel (given)", "BDD7EE",
+              "The organisation exactly as written on the participant list.", "nothing to approve"),
+    "counted": ("Counted from the Excel", "DDEBF7",
+                "Counted from the list with no judgement: delegations and badges.",
+                "nothing to approve"),
+    "cleaned": ("Cleaned by us", "FFE699",
+                "One name chosen for spellings we took to be the same organisation.",
+                "the merges of spellings need approval"),
+    "inferred": ("Found and inferred (to confirm)", "F8CBAD",
+                 "Not in the Excel. Found on the web and decided by the codebook's rules, "
+                 "each with confidence, reason and source.",
+                 "confirm or change each value; the rules themselves are approved in the codebook"),
+    "review": ("Your review (fill in)", "C6E0B4", "Empty. Only the reviewer writes here.",
+               "this is where the approval is given"),
+}
+# The answers the two research questions need, by the names used in either test.
+HEADLINES = [("business", ("business_status", "business")), ("sector", ("sector",)),
+             ("state_ownership", ("state_ownership",)),
+             ("fossil_link", ("fossil_link_kind", "fossil_link"))]
+TIERS = ("tier_1", "tier_2A", "tier_2B_O", "tier_2B_S", "tier_3")
+HOW_TO = [
+    "PROVISIONAL test of 20 organisations. Nothing here is a result of the study.",
+    "",
+    "1. Work on the tab 'Review'. One row is one organisation.",
+    "2. Blue columns are from the participant list. Yellow is the name we cleaned.",
+    "3. Orange columns are what was found and inferred: the answer, how sure, why, and the source.",
+    "4. In each green '_review' column write ok, or the value it should be.",
+    "   'unknown' is a valid answer: write ok if you would also not know from these sources.",
+    "5. Put anything else in review_notes: a wrong organisation matched, a better source, a rule that seems wrong.",
+    "6. Add your name and the date. Send the file back; nothing is changed until your answers are read in.",
+    "",
+    "The tab 'All detail' has every attribute with its rule, page and quote.",
+    "The tab 'Columns' says where each column comes from and what needs approval.",
+]
+
+
+def group(column: str) -> str:
+    """The group a column of the sheet belongs to."""
+    if column.endswith("_review") or column in REVIEW_END:
+        return "review"
+    if column in ("case", "org_id"):
+        return "reference"
+    if column == "raw_spellings":
+        return "given"
+    if column == "canonical_name":
+        return "cleaned"
+    if column == "countries" or column.startswith("n_delegates"):
+        return "counted"
+    return "inferred"
+
+
+def column_guide(columns) -> pd.DataFrame:
+    """One line per column: its group, what the group is, and what needs approval."""
+    return pd.DataFrame([{"column": c, "group": GROUPS[group(c)][0],
+                          "what it is": GROUPS[group(c)][2],
+                          "what needs approval": GROUPS[group(c)][3]} for c in columns])
+
+
+def simple(sheet: pd.DataFrame) -> pd.DataFrame:
+    """The headline answers only: value, confidence, reason and source, and a review column.
+
+    Values are copied from the full sheet, never recomputed. The tiers are shown side by
+    side in one cell where the sheet holds one column per tier.
+    """
+    out = sheet[["case"] + [c for c in ORIGINAL if c != "org_id"] + ["matched_entity"]].copy()
+    for name, candidates in HEADLINES:
+        col = next((c for c in candidates if c in sheet), None)
+        if col is None:
+            continue
+        out[name] = sheet[col]
+        out[f"{name}_confidence"] = sheet[f"{col}_confidence"]
+        out[f"{name}_reason"] = sheet[f"{col}_unknown_reason"]
+        out[f"{name}_source"] = sheet[f"{col}_source_url"]
+        out[f"{name}_review"] = ""
+    if "tier" in sheet:
+        out["tier"] = sheet["tier"]
+    else:
+        tiers = [c for c in TIERS if c in sheet]
+        out["tier"] = [" | ".join(f"{c[5:]}: {r[c]}" for c in tiers) for _, r in sheet.iterrows()]
+    out["tier_review"] = ""
+    out["why"] = sheet["reason"]
+    for c in REVIEW_END:
+        out[c] = ""
+    return out
+
+
+def workbook(sheet: pd.DataFrame, path: Path) -> Path:
+    """The review workbook: how to review, the simple sheet in colour, all detail, the guide."""
+    from openpyxl.styles import Alignment, Font, PatternFill
+
+    review = simple(sheet)
+    with pd.ExcelWriter(path, engine="openpyxl") as xl:
+        pd.DataFrame({"How to review": HOW_TO}).to_excel(xl, sheet_name="How to review", index=False)
+        review.to_excel(xl, sheet_name="Review", index=False, startrow=1)
+        sheet.to_excel(xl, sheet_name="All detail", index=False, startrow=1)
+        guide = pd.concat([column_guide(review.columns).assign(tab="Review"),
+                           column_guide(sheet.columns).assign(tab="All detail")])
+        guide.to_excel(xl, sheet_name="Columns", index=False)
+        xl.sheets["How to review"].column_dimensions["A"].width = 110
+        for tab, frame in (("Review", review), ("All detail", sheet)):
+            ws = xl.sheets[tab]
+            for i, col in enumerate(frame.columns, start=1):
+                label, colour, _, _ = GROUPS[group(col)]
+                fill = PatternFill("solid", start_color=colour)
+                top = ws.cell(row=1, column=i, value=label)
+                for cell in (top, ws.cell(row=2, column=i)):
+                    cell.fill, cell.font = fill, Font(bold=True)
+                    cell.alignment = Alignment(wrap_text=True, vertical="top")
+                ws.column_dimensions[top.column_letter].width = 22
+            ws.freeze_panes = "C3"
+    return path
+
+
+def workbook_main(derived: Path = DERIVED) -> list[Path]:
+    """A workbook beside each of the two provisional review sheets."""
+    made = []
+    for folder in (derived / "feasibility", derived / "draft-codebook" / "codebook-test"):
+        sheet = pd.read_csv(folder / "review_sheet_PROVISIONAL.csv", encoding="utf-8-sig",
+                            dtype=str).fillna("")
+        made.append(workbook(sheet, folder / "review_workbook_PROVISIONAL.xlsx"))
+        print(f"{made[-1]}: {len(sheet)} organisations")
+    return made
+
+
 def expert_fields(fields: dict) -> dict:
     """The codebook fields an expert fills in: those with a real choice of values.
 
@@ -159,7 +292,9 @@ def blind_main(derived: Path = DERIVED, codebook_path: Path = STUDY / "docs" / "
 
 if __name__ == "__main__":
     import sys
-    if "--blind" in sys.argv:
+    if "--workbook" in sys.argv:
+        workbook_main()
+    elif "--blind" in sys.argv:
         blind_main()
     elif "--codebook-test" in sys.argv:
         codebook_test_main()

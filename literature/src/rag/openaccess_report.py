@@ -1,4 +1,4 @@
-"""reports/open-access.md in a library: for the researcher, which wanted sources have a legal
+"""data/private/reports/open-access.md in a library: for the researcher, which wanted sources have a legal
 open copy, which need finding by hand (with ready-made search links), and which
 sources in the library publish their code or data."""
 

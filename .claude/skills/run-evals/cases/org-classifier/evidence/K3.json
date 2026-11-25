@@ -1,0 +1,24 @@
+{
+ "name_as_written": "Tessaly Marine Supplies",
+ "country": "Norland",
+ "matched_entity": "Tessaly Marine Supplies, Port Tessaly, Norland",
+ "status": "confident",
+ "status_reason": null,
+ "searches": [
+  {
+   "query": "Tessaly Marine Supplies",
+   "language": "English"
+  }
+ ],
+ "evidence": [
+  {
+   "source_url": "https://tessaly-marine.example/about",
+   "page": "About",
+   "quote": "Tessaly Marine Supplies is a family-owned company selling rope, paint and engine parts to fishing boats.",
+   "date": "2026-11-24",
+   "level": 3,
+   "source_type": "self-description"
+  }
+ ],
+ "instructions_found_in_pages": null
+}

@@ -1,0 +1,60 @@
+{
+ "id": "eastmere-who-speaks-for-shipping",
+ "title": "Who speaks for shipping?",
+ "kind": "pdf",
+ "url": null,
+ "coverage": {
+  "mode": "selected",
+  "passages_given": 4,
+  "passages_total": 6,
+  "words_given": 166,
+  "words_total": 241,
+  "pages_given": [
+   1,
+   2,
+   3,
+   5
+  ],
+  "pages_total": 6,
+  "note": "selected by code: 4 of 6 passages, 166 of 241 words, from pages 1-3, 5 of 6; chosen for definitions, indicators, method, findings and limitations; the rest was not read"
+ },
+ "passages": [
+  {
+   "chunk": 0,
+   "loc": "p.1",
+   "section": "Who speaks for shipping?",
+   "why": [
+    "opening"
+   ],
+   "text": "Who speaks for shipping? Industry presence in the delegations to the harbour conference Eastmere Policy Lab, briefing paper This briefing counts the delegates registered at the harbour conference whose organisations are tied to the shipping-fuel industry. It covers the conference's public register of participants."
+  },
+  {
+   "chunk": 1,
+   "loc": "p.2",
+   "section": "Data and method",
+   "why": [
+    "method",
+    "indicators"
+   ],
+   "text": "Data and method We used the conference's register of participants, 1,930 delegates in 61 delegations. Each delegate's organisation was looked up in the national company register to see whether it holds a licence to sell marine fuel. Where the register gave no entry, the organisation's own website was used, and the case was marked as lower confidence."
+  },
+  {
+   "chunk": 2,
+   "loc": "p.3",
+   "section": "Findings",
+   "why": [
+    "findings"
+   ],
+   "text": "Findings We count 412 of 1,930 delegates as industry-linked, or 21 per cent. Industry-linked delegates were concentrated in nine delegations, which together account for 300 of the 412."
+  },
+  {
+   "chunk": 3,
+   "loc": "p.5",
+   "section": "Limitations",
+   "why": [
+    "limitations"
+   ],
+   "text": "Limitations Registration is not attendance: a registered delegate may never have come to the conference. One person coded every organisation, so no measure of agreement between coders is available. Governments should publish the employer of every delegate."
+  }
+ ]
+}

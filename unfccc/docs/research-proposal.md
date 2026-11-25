@@ -42,7 +42,7 @@ The wording of both questions is kept as given. Sections 4 and 8 mark each point
 
 ### 3.1 The sources
 
-As at 25 November 2026, the library search had considered 9,534 records and screened in 426: 134 read in full, with quotations and pages; 161 held but not read, 79 of them only a landing page, summary or empty page; 119 that failed to download; 10 with no web address; and 2 not yet downloaded. No statement rests on an unread source; the 121 endnotes cite 87 distinct works, nine of them read for this version.
+As at 25 November 2026, the library search had considered 9,534 records and screened in 302: 145 read in full, with quotations and pages; 10 held but not read, 3 of them only a landing page, summary or empty page; 119 that failed to download; 10 with no web address; and 18 not downloaded. No statement rests on an unread source; the 121 endnotes cite 87 distinct works, nine of them read for this version.
 
 Sixteen cited works were read as preprints or authors' manuscripts.[42][48][49][53][67][71][92][98][99][100][102][103][104][107][108][121] A model-assisted reader recorded each quotation with its page; quotations were checked automatically against the source text but not by a second reader, figures were not seen, and pages are positions in the file.
 

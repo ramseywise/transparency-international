@@ -9,7 +9,7 @@
 | `ledger.jsonl` | Every source and link considered, its status, and the path of its file and text | yes |
 | `fetch-log.jsonl` | Every download: address, date, result, checksum | yes |
 | `records/` | One reading record per source that has been read: quotes, pages, claims | yes |
-| `reports/` | The search log, the open-access report, dated checks, and `catalogue.md`: every source screened in, by topic and by read, to read or no file yet | yes |
+| `data/private/reports/` | Working reports: the search log, the open-access report, dated checks, and `catalogue.md`: every source screened in, by topic and by read, to read or no file yet | no |
 | `data/raw/pdfs/<topic>/`, `data/raw/pages/<topic>/` | Downloaded PDFs and web pages, exactly as received, one folder per topic of the study. Never edited | yes |
 | `data/processed/text/` | Step 1: the text taken out of each raw file | yes |
 | `data/processed/chunks/` | Step 2: that text cut into passages, all in `passages.parquet` | yes |
@@ -17,7 +17,7 @@
 | `data/processed/reader-picks/` | Passages picked out for the source reader. A reading aid only | yes |
 | `data/processed/screening.json` | The ledger exported with screening counts | yes |
 
-**Topic folders.** A source screened in sits under its topic. One screened for two topics sits under the first (the catalogue lists it under both). Files of sources not screened in are in `not-screened-in/`. A new download lands at the top of `pdfs/` or `pages/`; `rag export` moves it to its folder and updates the path stored for it. Whether a source has been read is in `reports/catalogue.md`, not in the folder name.
+**Topic folders.** A source screened in sits under its topic. One screened for two topics sits under the first (the catalogue lists it under both). Files of sources not screened in are in `not-screened-in/`. A new download lands at the top of `pdfs/` or `pages/`; `rag export` moves it to its folder and updates the path stored for it. Whether a source has been read is in `data/private/reports/catalogue.md`, not in the folder name.
 
 Every path is set once, in `src/rag/paths.py`.
 
@@ -48,4 +48,4 @@ The MCP server (read-only, for other clients) reads the ledger, the reading reco
 
 The single library at `literature/` became the UNFCCC study's library at `literature/unfccc/`. Raw files went into topic folders under `data/raw/`, and everything made from them into `data/processed/`. The stored paths in `ledger.jsonl`, `fetch-log.jsonl` and seven reading records were rewritten to match; older reports still name the old paths. `tests/test_library.py` checks that every raw file has one ledger row, sits in its topic folder and is not held twice.
 
-The raw files were lost from disk that day and downloaded again; `unfccc/reports/recovery-2026-11-25.md` records what came back identical, what differs and what is still missing.
+The raw files were lost from disk that day and downloaded again; `unfccc/data/private/reports/recovery-2026-11-25.md` (not in git) records what came back identical, what differs and what is still missing.

@@ -1,0 +1,24 @@
+{
+  "agent": "decision-triage",
+  "what": "Eleven open questions for an invented study, with a decisions log that already settles one. Three are technical, four are research choices, two belong to Ramsey, one is decided, and one technical question hides a research choice. Five questions carry a research choice, more than the three the researcher may be asked at once.",
+  "groups": {
+    "Q1": "assistant", "Q2": "assistant", "Q3": "assistant",
+    "Q4": "researcher", "Q5": "researcher", "Q7": "researcher", "Q9": "researcher",
+    "Q6": "decided",
+    "Q8": "split",
+    "Q10": "ramsey", "Q11": "ramsey"
+  },
+  "decided_date": "2031-03-02",
+  "checks": {
+    "technical_kept_back": "Q1, Q2 and Q3 are settled by the assistant, not put to the researcher",
+    "research_not_settled_by_assistant": "none of Q4, Q5, Q7, Q9 is decided by the assistant",
+    "research_to_researcher": "Q4, Q5, Q7 and Q9 all go to the researcher",
+    "ramsey_routed": "Q10 and Q11 go to Ramsey",
+    "already_decided_found": "Q6 is marked already decided, pointing to the row of 2031-03-02",
+    "nothing_falsely_decided": "no other question is marked already decided",
+    "hidden_choice_split": "Q8 is split: the technical part to the assistant, the research choice to the researcher",
+    "at_most_three": "at most three questions are put to the researcher now; every other research question is listed under Next"
+  },
+  "must_pass": ["research_not_settled_by_assistant", "already_decided_found", "hidden_choice_split", "at_most_three"],
+  "pass_if": {"checks_passed_at_least": 7}
+}

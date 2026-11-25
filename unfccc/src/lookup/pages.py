@@ -82,6 +82,24 @@ def looks_like_login(url: str, text: str) -> bool:
             and len(text.split()) < 400)
 
 
+def json_text(value) -> str:
+    """The values of a JSON document as lines of text, keys kept beside their values."""
+    lines: list[str] = []
+
+    def walk(v, key=""):
+        if isinstance(v, dict):
+            for k, x in v.items():
+                walk(x, k)
+        elif isinstance(v, list):
+            for x in v:
+                walk(x, key)
+        elif v is not None:
+            lines.append(f"{key}: {v}" if key else str(v))
+
+    walk(value)
+    return "\n".join(lines)
+
+
 def fetch(url: str, client: httpx.Client, cache: Path | None = None) -> dict:
     """The page at `url` as {url, final_url, kind, title, text, fetched, ok, error}.
 
@@ -134,6 +152,17 @@ def _fetch(url: str, client: httpx.Client) -> dict:
     elif "html" in ctype or "xml" in ctype or not ctype:
         page["kind"] = "html"
         page["text"], page["title"] = html_text(raw, encoding)
+    elif "json" in ctype or ctype.startswith("text/plain"):
+        # Register APIs (for example the Czech ARES) answer in JSON: keep its values as text,
+        # with escaped characters decoded, so a quoted register field can be found.
+        page["kind"] = "data"
+        text = raw.decode(encoding or "utf-8", errors="replace")
+        if "json" in ctype:
+            try:
+                text = json_text(json.loads(text))
+            except ValueError:
+                pass
+        page["text"] = text
     else:
         page["error"] = f"not a page or PDF ({ctype})"
         return page
@@ -188,6 +217,25 @@ def excerpt(text: str, names: list[str], head: int = HEAD_WORDS, limit: int = PA
     return "\n".join(out) + "\n[... the rest of the page is not shown]"
 
 
+def needs_browser(page: dict) -> str | None:
+    """Why a fetched HTML page holds no content to check against, or None.
+
+    Some sites send code a cookie-consent screen, or an empty shell that a browser fills in.
+    The agent's reader may have seen the real text, so a quote missing from such a page is
+    "could not check", never "wrong"."""
+    if page.get("kind") != "html":
+        return None
+    text = page.get("text") or ""
+    n = len(text.split())
+    title = (page.get("title") or "").strip()
+    shell = {title.lower(), "skip to main content", "skip to content"}
+    if n < 3 or not [ln for ln in text.splitlines() if ln.strip().lower() not in shell]:
+        return "nothing but the title: the page needs a browser"
+    if n < 400 and "cookie" in text[:1500].lower():
+        return "only a cookie-consent screen"
+    return None
+
+
 def normalise(s: str) -> str:
     """For comparing a quote with a page: one kind of space, quote mark and dash; no case."""
     s = s.replace("­", "")
@@ -200,4 +248,15 @@ def normalise(s: str) -> str:
 
 def quote_on_page(quote: str, page_text: str) -> bool:
     q = normalise(quote).strip(" .\"'")
-    return bool(q) and q in normalise(page_text)
+    if not q:
+        return False
+    page = normalise(page_text)
+    if q in page:
+        return True
+    # HTML breaks lines inside inline markup ("\nName\n", "LEGMC\n)"): same characters, spacing ignored
+    tight = lambda s: re.sub(r"\s+", "", s)
+    if tight(q) in tight(page):
+        return True
+    # Encyclopaedia footnote markers inside a sentence ("party [5] [6] ."), which a quote leaves out
+    unmark = lambda s: tight(re.sub(r"\[\s*(\d+|[a-z]|note \d+|citation needed)\s*\]", "", s))
+    return unmark(q) in unmark(page)

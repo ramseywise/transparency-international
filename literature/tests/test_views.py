@@ -123,3 +123,27 @@ def test_a_file_shared_by_two_sources_gets_one_folder_and_stays_there(tmp_path):
     led = Ledger(root)
     assert led.get("d0")["file"] == led.get("a")["file"] == "literature/demo/data/raw/pdfs/Q1/a.pdf"
     assert views.build(root)["moved"] == {}
+
+
+def test_source_kind_is_a_table_of_its_own_and_peer_review_is_never_inferred(tmp_path):
+    """L10: coverage and kind are separate; "scholarly" does not become "peer reviewed"."""
+    root = _library(tmp_path)
+    led = Ledger(root)
+    led.get("a")["source_type"] = "scholarly"
+    led.save()
+    (root / "records" / "b.json").write_text("{}")
+    led = Ledger(root)
+    led.get("b")["source_type"] = "ti"
+    led.get("b")["peer_reviewed"] = False
+    led.save()
+    res = views.build(root)
+    q1 = res["source_kind"]["Q1"]
+    assert q1["read"] == 2
+    assert q1["kind"]["Scholarly"] == 1 and q1["kind"]["TI publication"] == 1
+    assert q1["peer_reviewed"] == {"yes": 0, "no": 1, "not recorded": 1}  # scholarly a: not recorded
+    assert res["source_kind"]["Q2"]["kind"]["TI publication"] == 1  # b is read under both topics
+    text = (root / paths.CATALOGUE).read_text()
+    assert "## Kind of source read" in text
+    cover, kind = text.split("## Kind of source read")[0], text.split("## Kind of source read")[1]
+    assert "Scholarly" not in cover and "| Topic | Read | To read |" in cover
+    assert "| Q1 | 2 | 1 | 1 |" in kind

@@ -400,3 +400,17 @@ def test_choose_sample_is_repeatable():
     orgs = [{"org_id": f"o{i}"} for i in range(100)]
     a = run.choose(orgs, sample=10, seed=7)
     assert a == run.choose(orgs, sample=10, seed=7) and len(a) == 10
+
+
+def test_json_text_keeps_register_values():
+    from lookup.pages import json_text
+    doc = {"obchodniJmeno": "P\u0159\u00edklad s.r.o.", "czNace": ["72100", "85420"], "x": None}
+    text = json_text(doc)
+    assert "obchodniJmeno: Příklad s.r.o." in text and "czNace: 72100" in text
+    assert "None" not in text
+
+
+def test_quote_on_page_ignores_line_breaks_inside_markup():
+    page = "State company \u201c\nExample Weather Centre\n\u201d (hereinafter\nEWC\n)"
+    assert pages.quote_on_page("State company \u201cExample Weather Centre\u201d (hereinafter EWC)", page)
+    assert not pages.quote_on_page("State company \u201cExample Climate Centre\u201d", page)

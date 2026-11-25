@@ -37,12 +37,12 @@
    "None": 130
   },
   "by_outcome": {
-   "not downloaded": 9162,
+   "not downloaded": 9159,
    "duplicate": 91,
    "read": 145,
    "download failed": 119,
    "no web address": 10,
-   "held": 7
+   "held": 10
   },
   "thin": 14
  },
@@ -250314,7 +250314,7 @@
    "decision": "in",
    "reason": "supplied by the researcher",
    "question": "context",
-   "outcome": "not downloaded",
+   "outcome": "held",
    "words_held": 16454,
    "thin": false
   },
@@ -250338,7 +250338,7 @@
    "decision": "in",
    "reason": "supplied by the researcher",
    "question": "context",
-   "outcome": "not downloaded",
+   "outcome": "held",
    "words_held": 2862,
    "thin": false
   },
@@ -250416,7 +250416,7 @@
    "decision": "in",
    "reason": "supplied by the researcher",
    "question": "context",
-   "outcome": "not downloaded",
+   "outcome": "held",
    "words_held": 2456,
    "thin": false
   },

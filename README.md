@@ -105,7 +105,7 @@ Everything that belongs to one study. `unfccc/` is the first.
                the cleaning log, and decisions.md (every approval, dated)
   src/         the Python code (described below)
   tests/       checks that the code in src/ does what it says
-  data/        raw files as downloaded in data/raw/ (never edited); cleaned tables in data/derived/
+  data/        raw files as downloaded in data/raw/ (never edited); cleaned tables in data/processed/
   notebooks/   data profiles and analysis
   outputs/     generated tables and charts; every number in a text comes from here
   report/      report drafts, what the lead researcher sent back, the changes
@@ -174,7 +174,7 @@ The figures below are what each task cost when it was done in this project, pric
 | Checking matched organisation names in public sources | Sonnet | about $0.55 per set of pairs | |
 | Full classification of about 1,250 organisations | both of the above | | about $150 in batches; the second, independent classification for the agreement check reuses the evidence and adds about $40 |
 | A pilot of 20–50 organisations | both of the above | | about $3–$6 |
-| The same look-ups run by the script (`python -m lookup`) | Sonnet, checked by Haiku | estimated $0.11 to look up, $0.01 to classify ($0.005 as a batch), under $0.001 to check, per organisation | estimated, not yet measured; about $150 for all 1,250. Each step prints its own estimate first |
+| The same look-ups run by the script (`python -m lookup`). **Not the intended route:** it needs an API key, and the researchers work through their own Claude account (decided 2026-11-25) | Sonnet, checked by Haiku | estimated $0.11 to look up, $0.01 to classify ($0.005 as a batch), under $0.001 to check, per organisation | estimated, not yet measured; about $150 for all 1,250. Each step prints its own estimate first |
 | **Literature** | | | |
 | Reading one source into a reading record | `source-reader` (Sonnet) | usually $0.15–$0.90, typically $0.35; a long book up to $2.60 | 100 new sources: about $35–$50 |
 | Screening a batch of search results | Sonnet | $0.20–$1.00 per batch | |

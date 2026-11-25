@@ -1,0 +1,26 @@
+{
+ "id": "northfield-2031-badges",
+ "citation": {
+  "authors": [
+   "Northfield Institute"
+  ],
+  "year": 2031,
+  "title": "Who Holds the Badge"
+ },
+ "findings": [
+  {
+   "claim": "41 of 312 coded delegates were registered by commercial organisations",
+   "quote": "Of the 312 delegates coded, 41 were registered by commercial organisations.",
+   "page": 2
+  }
+ ],
+ "limitations": [
+  {
+   "point": "registration is not attendance",
+   "stated_by_authors": true,
+   "quote": "Registration does not show attendance.",
+   "page": 3
+  }
+ ],
+ "pages_read": "1-3"
+}

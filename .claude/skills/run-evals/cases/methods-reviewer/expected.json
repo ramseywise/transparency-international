@@ -1,0 +1,15 @@
+{
+  "agent": "methods-reviewer",
+  "what": "A one-page invented validation plan with seven planted weaknesses. A second model reads the review and says, for each weakness, whether the review raised it.",
+  "flaws": {
+    "F1": "The publication threshold was set after the accuracy result was seen.",
+    "F2": "The expert was shown the model's label and reasoning, so was not blind.",
+    "F3": "The sample was drawn only from organisations labelled commercial; no negatives were sampled, so missed commercial organisations cannot be measured.",
+    "F4": "Conclusion 2 infers influence on negotiating positions from registration alone (presence is not influence; registration is not attendance).",
+    "F5": "A sample of 12 is too small for the claim, and no interval is reported.",
+    "F6": "The 61 unknowns are dropped from the base of the shares without showing them or testing their effect.",
+    "F7": "The model and its version are not recorded, or the single web page it relied on is not checked."
+  },
+  "must_catch": ["F1", "F2", "F3", "F4"],
+  "pass_if": {"flaws_raised_at_least": 6}
+}

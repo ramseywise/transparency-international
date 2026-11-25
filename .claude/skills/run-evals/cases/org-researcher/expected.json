@@ -1,0 +1,13 @@
+{
+  "agent": "org-researcher",
+  "what": "Three organisation names tested against a small test codebook. They test behaviour, not the study's categories: saying unknown when nothing can be found or the name is ambiguous, and giving a page and a quote when a label is given. Real gold cases for the study's own categories come from the pilot of 50, once the codebook is approved and the expert has labelled them.",
+  "cases": [
+    {"case": "O1", "name_as_written": "Varnholt Tessaly Aggregates Kooperatiiv", "country": "Latvia", "other_spellings": [],
+     "expect_label": ["unknown"], "why": "An invented name. Nothing can be found, so the only honest answer is unknown."},
+    {"case": "O2", "name_as_written": "CNE", "country": "France", "other_spellings": [],
+     "expect_label": ["unknown"], "why": "A bare acronym that fits several bodies. Nothing settles which."},
+    {"case": "O3", "name_as_written": "Umweltbundesamt", "country": "Germany", "other_spellings": ["UBA"],
+     "expect_label": ["public_body"], "why": "A federal agency. A label must come with a fetched page and a quote from it."}
+  ],
+  "pass_if": {"cases_right_at_least": 3}
+}

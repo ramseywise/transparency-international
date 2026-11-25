@@ -1,0 +1,26 @@
+{
+  "agent": "methods-reviewer",
+  "what": "Historical case (technical requirements E8). design.md is research proposal v1 exactly as it was sent for outside review (a frozen copy of unfccc/proposal/proposal-v1.md, 66,290 characters). The flaws are the problems an outside reviewer found in it (.claude/docs/reviews/external-review-v1.md), so the answer key was written by someone other than the author of the case. Points the reviewer itself said the proposal already handled (for example that two runs agreeing is not accuracy) are left out. A second model reads the review and says, for each flaw, whether the review raised it. The must-catch list and the pass mark were set before any agent was run on this case.",
+  "flaws": {
+    "H1": "Section 6.5: a minimum of 30 in each stratum of five categories by three confidence levels can need about 450 organisations, not the 250 proposed; the strata, their sizes and the sampling probabilities are not given, and the sample is not built around the model's predictions (positives and negatives for business and for each tier).",
+    "H2": "Section 6.6: the lower and upper figures from the unknowns are identification bounds, not confidence intervals; the estimator for correcting counts from a stratified, uneven sample (weighted precision, recall, confusion matrix, how intervals are calculated) is not specified.",
+    "H3": "Tier 2 mixes utilities with fossil fuel generation and wider dependent sectors, and the any-current-activity threshold of decision 5 conflicts with it; direct dependence, sector membership and incidental exposure are not separated, and current, material or merely documented is not defined.",
+    "H4": "Section 4.5 and decision 15: fossil fuel tiers are restricted to businesses and state-owned enterprises, so the business definition decides the fossil fuel count; the two should be independent classifications.",
+    "H5": "Section 4.2: legal form or a register entry is used as evidence of for-profit status; legal identity is not commercial activity (cooperatives, chambers with public-law status, company foundations, state-owned commercial banks).",
+    "H6": "Section 6.2: the model both retrieves the evidence and classifies, so retrieval errors cannot be told apart from classification errors and the evidence cannot be re-classified under another definition.",
+    "H7": "Checking that a URL opens and a quotation is on the page does not show that the source supports the classification; no evidence hierarchy, and existence, activity and meeting the threshold are not recorded as separate claims.",
+    "H8": "Section 6.5: the expert checks the evidence the model selected, so the validation is not independent of the model's retrieval.",
+    "H9": "Sections 4.1 and 9.1: 'support staff' and 'others' are delegate roles, not types of organisation.",
+    "H10": "Section 4.4: state control as more than 50% of voting rights misses effective control, indirect ownership and golden shares.",
+    "H11": "Sections 4.5 and 9.7: no rule for associations that represent several sectors or mixed interests.",
+    "H12": "Sections 4.5 and 9.8: wholly owned subsidiaries, joint ventures and holding companies have no defined treatment.",
+    "H13": "Annex A, D6 specifies removing duplicates across the Party and overflow sheets, while section 5 says no such duplicates were found.",
+    "H14": "The 108 unresolved similar-name pairs are possible entity-resolution errors; how many delegates they affect, and whether resolving them could change the results, is not given.",
+    "H15": "The 122 organisations known only by an acronym (390 delegates) need their own entity-resolution step, not ordinary look-ups.",
+    "H16": "Sections 3 and 4 make methodological recommendations before the sources most likely to change them have been read (for example the report cited for the state-ownership figure).",
+    "H17": "Searching in the country's language is left as an optional mitigation, so coverage may differ systematically between countries.",
+    "H18": "The expert workload (every positive plus about 250 others) is not estimated, and depends on how many positives the model finds."
+  },
+  "must_catch": ["H1", "H2", "H3", "H4", "H6"],
+  "pass_if": {"flaws_raised_at_least": 12}
+}

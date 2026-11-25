@@ -1,0 +1,23 @@
+{
+  "agent": "methods-reviewer",
+  "what": "A short invented research proposal with fifteen planted weaknesses of the kinds an external review found in a real proposal: design arithmetic, contradictions between sections and with the annex, labels that mix dimensions, evidence that does not support the claim, and uncertainty presented wrongly. A second model reads the review and says, for each weakness, whether the review raised it.",
+  "flaws": {
+    "F1": "The sample design does not add up: 5 categories x 3 confidence levels = 15 groups, x a minimum of 20 = 300, more than the stated sample of 200.",
+    "F2": "The expert's workload is not estimated: the expert reviews every organisation placed in a tier (unknown in number, and possibly very many given how broad tier 2 is) plus 200 others, yet the timeline allows two working days with no basis given.",
+    "F3": "Sections contradict each other on who can hold a tier: 2.1 and decision 4 say any organisation can, 2.4 says only private companies and state-owned enterprises.",
+    "F4": "Annex A disagrees with section 4: 5 per cent classified twice (R3) against 10 per cent (4.2), and an expert sample of 150 (R4) against 200 (4.3).",
+    "F5": "The five categories mix separate dimensions in one exclusive label: kind of organisation (public body, private company), ownership (state-owned enterprise), sector (agriculture) and a person's role (support staff).",
+    "F6": "Tier 2 is so broad ('any current link ... of any size', including use on farms and retail) that it will take in most agricultural organisations; there is no materiality threshold.",
+    "F7": "The range made by counting all unknowns first as not linked and then as linked is a bound, not a 95 per cent confidence interval, and is presented as one.",
+    "F8": "Accuracy is a simple share of agreement although the sample is stratified and oversamples low confidence; no weighting, no precision and recall, no named interval method, and no account of how corrections reach the final counts.",
+    "F9": "The example evidence (a commercial register entry) shows that the company exists, not that it manufactures pesticides, so it does not support a tier 1 label.",
+    "F10": "The expert sees only the page and quotation the model chose, so the check is not independent of the model's evidence and cannot find what the model's search missed.",
+    "F11": "Decision 3 recommends adopting the Brindlemoor Index threshold, but section 1.1 says its methodology has not been read.",
+    "F12": "Agreement between two runs is taken to show accuracy; repeatability is not validity, since both runs can make the same mistake.",
+    "F13": "The model searches and labels in one step with free-text reasoning: finding evidence is not kept apart from applying the rules, there are no rule identifiers or structured fields, and there is no fixed test set with known answers.",
+    "F14": "The 41 unresolved short names are judged negligible by their share of organisations (4.6 per cent), but they cover 310 of 1,400 delegates, about 22 per cent, the unit the headline counts.",
+    "F15": "The decision list starts with publication questions and leaves out the design choices the method depends on (the sampling design, an order of trust among sources)."
+  },
+  "must_catch": ["F1", "F3", "F4", "F5", "F7", "F9", "F11"],
+  "pass_if": {"flaws_raised_at_least": 11}
+}

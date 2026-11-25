@@ -2,7 +2,7 @@
 
 Written before the proposal is approved, at Ramsey's request (decisions.md, 2026-11-24,
 "Draft work before the proposal is approved"). Nothing here is approved; the outputs go to
-data/derived/draft-codebook/ and do not enter the proposal, the report or numbers.md.
+data/processed/draft-codebook/ and do not enter the proposal, the report or numbers.md.
 
 * hard_case_cue: what an organisation's name suggests about the hard cases of codebook
   section 4, from the name alone, before any look-up. A cue picks cases to look at; it is
@@ -29,7 +29,7 @@ import pandas as pd
 from analysis import feasibility
 
 STUDY = Path(__file__).resolve().parents[2]
-DERIVED = STUDY / "data" / "derived"
+DERIVED = STUDY / "data" / "processed"
 OUT = DERIVED / "draft-codebook"
 
 SEED = 20261125  # a new seed, not the feasibility test's
@@ -185,7 +185,7 @@ if __name__ == "__main__":
 # --- The codebook's own test (codebook skill, step 2) --------------------------------------
 # 20 organisations chosen to be awkward, used to find rules that give no clear answer. They
 # are drawn from outside the feasibility test, the test-set candidates and the pilot draw, so
-# none of those is touched. Results go to data/derived/draft-codebook/ and are not findings.
+# none of those is touched. Results go to data/processed/draft-codebook/ and are not findings.
 
 EXTRA_CUES = {  # the hard cases added in proposal v7 (codebook B15 to B17); names only
     "media_company": re.compile(

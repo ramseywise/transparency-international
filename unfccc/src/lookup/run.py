@@ -2,16 +2,16 @@
 
     evidence   for each organisation: open registers, a web search for pages, code opens
                the pages, the model picks the evidence, code checks every quote
-               -> <study>/data/derived/evidence/<org_id>.json
+               -> <study>/data/processed/evidence/<org_id>.json
     classify   for each evidence record: code settles failed and abstained records; the
                model applies the codebook to the rest; code sets confidence and status
-               and checks the result -> <study>/data/derived/classified.jsonl
+               and checks the result -> <study>/data/processed/classified.jsonl
     check      Haiku reads each labelled result and flags any it doubts; it changes
-               nothing -> <study>/data/derived/classified_checks.jsonl
+               nothing -> <study>/data/processed/classified_checks.jsonl
 
 Each step skips what is already done under the same codebook version and model, so a
 stopped run is started again with the same command. Every run is logged in
-<study>/data/derived/lookup_runs.jsonl with what it cost.
+<study>/data/processed/lookup_runs.jsonl with what it cost.
 """
 
 from __future__ import annotations
@@ -70,7 +70,7 @@ class Study:
 
     @property
     def derived(self) -> Path:
-        d = self.root / "data" / "derived"
+        d = self.root / "data" / "processed"
         return d / "draft-codebook" if self.draft else d
 
     @property
@@ -87,11 +87,11 @@ class Study:
 
     @property
     def runs(self) -> Path:
-        return self.root / "data" / "derived" / "lookup_runs.jsonl"
+        return self.root / "data" / "processed" / "lookup_runs.jsonl"
 
     @property
     def cache(self) -> Path:
-        return self.root / "data" / "derived" / "lookup_cache"
+        return self.root / "data" / "processed" / "lookup_cache"
 
     @property
     def codebook_path(self) -> Path:
@@ -100,7 +100,7 @@ class Study:
     def organisations(self) -> list[dict]:
         import pandas as pd
 
-        tables = sorted((self.root / "data" / "derived").glob("organisations*.parquet"))
+        tables = sorted((self.root / "data" / "processed").glob("organisations*.parquet"))
         if not tables:
             raise SystemExit("No organisation table yet: run /clean-data first.")
         df = pd.read_parquet(tables[0])

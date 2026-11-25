@@ -22,12 +22,11 @@ dist/
 .vscode/
 .idea/
 
-# Other publishers' documents, as downloaded (data/raw/), and everything made
-# from them (data/processed/: text, chunks, index, screening export). This repo
-# is public and we may not redistribute these. ledger.jsonl and fetch-log.jsonl
-# record the address, date and checksum of every download, so they can be
-# fetched again. See literature/README.md, "What is in git".
-literature/*/data/
+# The literature library's data (literature/<study>/data/raw and data/processed)
+# IS in git since 2026-11-25, so that the MCP server can search it from any
+# machine. Only material that is not public stays out: see literature/README.md,
+# "What is in git".
+literature/*/data/private/
 
 # Participant lists: they name individual people. The source is public and
 # named in the study's docs; the scripts rebuild the derived table from it.

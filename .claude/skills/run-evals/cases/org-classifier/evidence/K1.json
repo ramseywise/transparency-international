@@ -1,0 +1,32 @@
+{
+ "name_as_written": "Halvari Board of Inland Waterways",
+ "country": "Norland",
+ "matched_entity": "Halvari Board of Inland Waterways, Norland",
+ "status": "confident",
+ "status_reason": null,
+ "searches": [
+  {
+   "query": "Halvari Board of Inland Waterways",
+   "language": "English"
+  }
+ ],
+ "evidence": [
+  {
+   "source_url": "https://register.gov.example/agencies/halvari-board-of-inland-waterways",
+   "page": "Entry 214",
+   "quote": "The Halvari Board of Inland Waterways is a government agency under the Ministry of Transport.",
+   "date": "2026-11-24",
+   "level": 1,
+   "source_type": "registry"
+  },
+  {
+   "source_url": "https://halvari-waterways.example/about",
+   "page": "About us",
+   "quote": "We keep 900 kilometres of canals open to traffic.",
+   "date": "2026-11-24",
+   "level": 3,
+   "source_type": "self-description"
+  }
+ ],
+ "instructions_found_in_pages": null
+}

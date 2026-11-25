@@ -295,3 +295,28 @@ def resolve_auto_merges(pairs: pd.DataFrame, sizes: dict[str, int]) -> dict[str,
 def canonical_name(spellings: Counter) -> str:
     """Most common raw spelling; ties go to the one with most letters, then alphabetical."""
     return sorted(spellings.items(), key=lambda kv: (-kv[1], -len(kv[0]), kv[0]))[0][0]
+
+
+# --- "i.A." (im Auftrag, on behalf of) -----------------------------------------------------
+
+# "UBA i.A. BMUKN" = a delegate employed by UBA, attending on behalf of BMUKN. The employer is
+# the organisation; the body acted for is kept apart. Matches "i.A.", "i.A", "i. A." between
+# words, case-insensitive, and nothing inside a word (so "Via" or "Asia" are untouched).
+_IA = re.compile(r"(?:^|\s)i\.\s?a\.?(?=\s)\s*", re.IGNORECASE)
+
+
+def split_acting_for(value: str | None) -> tuple[str | None, str | None]:
+    """Split "<employer> i.A. <principal>" into (employer, principal).
+
+    A bare "i.A. <principal>" gives (None, principal): the employer is not given, so the
+    organisation is unresolved; it must not be read as the principal. Values without "i.A."
+    come back unchanged with principal None.
+    """
+    if not value:
+        return value, None
+    m = _IA.search(value)
+    if not m:
+        return value, None
+    employer = value[: m.start()].strip(" -,;/") or None
+    principal = value[m.end():].strip(" -,;/") or None
+    return employer, principal

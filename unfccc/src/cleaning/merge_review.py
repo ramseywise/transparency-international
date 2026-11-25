@@ -1,7 +1,7 @@
 """Build the review sheet for the proposed organisation name merges.
 
-Reads   unfccc/data/derived/proposed_merges_eu.csv   (left unchanged)
-Writes  unfccc/data/derived/merge_review_eu.csv      (one row per proposed pair, for the expert)
+Reads   unfccc/data/processed/proposed_merges_eu.csv   (left unchanged)
+Writes  unfccc/data/processed/merge_review_eu.csv      (one row per proposed pair, for the expert)
         unfccc/outputs/merge_review_summary.csv      (counts for any text)
 
 Nothing is merged here. The sheet adds a proposed verdict to each pair and leaves
@@ -21,8 +21,8 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
-SOURCE = ROOT / "unfccc/data/derived/proposed_merges_eu.csv"
-SHEET = ROOT / "unfccc/data/derived/merge_review_eu.csv"
+SOURCE = ROOT / "unfccc/data/processed/proposed_merges_eu.csv"
+SHEET = ROOT / "unfccc/data/processed/merge_review_eu.csv"
 SUMMARY = ROOT / "unfccc/outputs/merge_review_summary.csv"
 CHECKED_ON = "2026-11-24"
 

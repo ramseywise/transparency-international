@@ -25,7 +25,7 @@ if ("data", "raw") in zip(parts, parts[1:]):
     print(
         f"Blocked: {path} is a raw file and must not be changed. "
         "Write what is made from it to the data folder beside data/raw/ instead "
-        "(a study's data/derived/, a library's data/processed/).",
+        "(a study's data/processed/, a library's data/processed/).",
         file=sys.stderr,
     )
     sys.exit(2)

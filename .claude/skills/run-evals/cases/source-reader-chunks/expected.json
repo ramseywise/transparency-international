@@ -1,0 +1,21 @@
+{
+  "agent": "source-reader",
+  "what": "A six-page invented briefing given as a chunk file of four pages (1-3, 5) and the full text. The key term 'industry-linked delegate' is defined only in the annex on page 6, which is not in the chunk file, so the reader must search the full text for it. No year, no authors, no claim of peer review.",
+  "source_id": "eastmere-who-speaks-for-shipping",
+  "key_term": "industry-linked delegate",
+  "annex_page": 6,
+  "checks": {
+    "quotes_exact": "every quote is in the full text, word for word",
+    "quote_pages_right": "every quote is on the page the record gives",
+    "definition_from_full_text": "the definition of 'industry-linked delegate' is recorded with a quote from page 6, found by searching the full text",
+    "finding_number": "the finding of 412 industry-linked delegates is recorded",
+    "proxy_found": "the marine fuel licence in the company register is recorded as a proxy",
+    "pages_read_copies_note": "pages_read contains the chunk file's coverage note",
+    "pages_read_adds_search": "pages_read names page 6 as searched for",
+    "no_whole_reading_claimed": "pages_read does not say the whole source was read",
+    "year_left_empty": "citation.year is null",
+    "not_marked_peer_reviewed": "citation.peer_reviewed is not 'yes'"
+  },
+  "must_pass": ["quotes_exact", "definition_from_full_text", "pages_read_copies_note", "no_whole_reading_claimed"],
+  "pass_if": {"checks_passed_at_least": 9}
+}

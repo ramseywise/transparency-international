@@ -7,8 +7,8 @@ names below are relative to a library's folder, so the layout is defined once:
 
     ledger.jsonl, fetch-log.jsonl   the catalogue and the record of every download
     records/                        reading records (quotes, pages, claims)
-    reports/                        written reports: search log, open copies, checks,
-                                    and catalogue.md (sources by topic; rebuilt on export)
+    data/private/reports/           working reports, not in git: search log, open copies,
+                                    checks, and catalogue.md (sources by topic; rebuilt on export)
     data/raw/pdfs/<topic>/, data/raw/pages/<topic>/
                                     downloaded files, exactly as served; never changed in
                                     content. A new download lands at the top of pdfs/ or
@@ -30,7 +30,7 @@ NOT_LIBRARIES = {"src", "tests"}
 LEDGER = Path("ledger.jsonl")
 FETCH_LOG = Path("fetch-log.jsonl")
 RECORDS = Path("records")
-REPORTS = Path("reports")
+REPORTS = Path("data") / "private" / "reports"
 OPEN_ACCESS = REPORTS / "open-access.md"
 CATALOGUE = REPORTS / "catalogue.md"
 

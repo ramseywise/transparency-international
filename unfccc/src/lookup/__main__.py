@@ -19,7 +19,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--batch", action="store_true", help="classify/check as a batch, half price")
     ap.add_argument("--dry-run", action="store_true", help="count and estimate, call nothing")
     ap.add_argument("--draft", action="store_true",
-                    help="allow a codebook below 1.0; results go to data/derived/draft-codebook/")
+                    help="allow a codebook below 1.0; results go to data/processed/draft-codebook/")
     ap.add_argument("--workers", type=int, default=4)
     a = ap.parse_args(argv)
 

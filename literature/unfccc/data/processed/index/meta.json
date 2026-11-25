@@ -1,7 +1,7 @@
 {
  "built": "2026-11-25",
- "sources": 157,
- "passages": 17889,
+ "sources": 158,
+ "passages": 17924,
  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
  "text_files_not_screened_in": 0,
  "screened_in_without_passages": []

@@ -1,0 +1,15 @@
+{
+ "name_as_written": "Kestrel Row Partners",
+ "country": "Norland",
+ "matched_entity": "",
+ "status": "failed",
+ "status_reason": "the search tool returned an error on every query; no page was opened",
+ "searches": [
+  {
+   "query": "Kestrel Row Partners",
+   "language": "English"
+  }
+ ],
+ "evidence": [],
+ "instructions_found_in_pages": null
+}

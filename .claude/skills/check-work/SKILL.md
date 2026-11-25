@@ -30,7 +30,7 @@ The reviewers must be independent. Give them the output and where its sources ar
    - **Minor**
    For each: where it is, what is wrong, and the proposed fix.
 5. State what was not checked.
-6. **Save the record.** Write the verified list to the study's working records as `<study>/docs/working/reviews/<output name>-review-<date>.md` (for example `<study>/docs/working/reviews/proposal-v1-review-2026-11-24.md`; for a report, the same folder): the date, the file checked, which reviewers ran with which model and on which files, the findings as reported to the researcher, the findings dropped and why, and what was not checked. This file is the record that the check ran; without it, the check did not happen.
+6. **Save the record.** Write the verified list to the study's working records as `<study>/docs/archived/reviews/<output name>-review-<date>.md` (for example `<study>/docs/archived/reviews/proposal-v1-review-2026-11-24.md`; for a report, the same folder): the date, the file checked, which reviewers ran with which model and on which files, the findings as reported to the researcher, the findings dropped and why, and what was not checked. This file is the record that the check ran; without it, the check did not happen.
 7. Fix nothing until the researcher has seen the list, unless they asked for fixes in the same request.
 8. If the findings raise questions that need a choice (which fix to make, whether a point matters), give them to the `decision-triage` agent before the researcher sees them, with the study folder. Fix the technical ones yourself and say so in one line; ask the researcher only the research ones, as `.claude/docs/research-workflows.md` section 3 sets out.
 

@@ -13,8 +13,8 @@ Give --library NAME before the command when there is more than one library.
   uv run python -m rag search "question" [-k 8] [--source ID]
   uv run python -m rag related "query" [...] [--since 2015] [-n 25]   search OpenAlex; hits become candidates
   uv run python -m rag citations                 fill worldwide citation counts for sources with a DOI
-  uv run python -m rag openaccess [ID ...]       find legal open copies and code/data links; write reports/open-access.md
-  uv run python -m rag export                    write data/processed/screening.json, reports/catalogue.md
+  uv run python -m rag openaccess [ID ...]       find legal open copies and code/data links; write data/private/reports/open-access.md
+  uv run python -m rag export                    write data/processed/screening.json, data/private/reports/catalogue.md
   uv run python -m rag check-quotes [ID ...]     every quote in a reading record is in its source
   uv run python -m rag chunks ID [...] [--terms "a" "b"] [--budget N]
                                                  passages for the reader; writes data/processed/reader-picks/

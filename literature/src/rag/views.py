@@ -15,8 +15,8 @@ A new download lands at the top of ``pdfs/`` or ``pages/``. ``sort`` moves each 
 folder and rewrites the path stored for it in the ledger, the download log and the extracted
 text. A file is moved, never copied or changed, and never over another file. Whether a source
 has been read is not in the path, since reading it would mean moving it: that is in
-``reports/catalogue.md``, which also lists the sources with no file yet and is committed, so
-it can be read on GitHub and through the MCP server where the raw files are not available.
+``data/private/reports/catalogue.md``, which also lists the sources with no file yet. It is a
+working file, not in git.
 """
 
 from __future__ import annotations
@@ -175,19 +175,45 @@ def build(root: Path | str = "literature") -> dict:
             state = "to-read" if on_disk else "no-file"
         for topic in _topics(row.get("question")):
             listed.setdefault(topic, {}).setdefault(state, []).append(row)
-    _catalogue(root, listed)
-    return res | {"catalogue": {t: {k: len(v) for k, v in s.items()} for t, s in sorted(listed.items())}}
+    kinds = source_kinds(listed)
+    _catalogue(root, listed, kinds)
+    return res | {"catalogue": {t: {k: len(v) for k, v in s.items()} for t, s in sorted(listed.items())},
+                  "source_kind": kinds}
 
 
 STATES = [("read", "Read"), ("to-read", "To read"), ("no-file", "No file yet")]
+
+# The kind of each read source, as recorded in the ledger's ``source_type``, kept apart from
+# coverage (requirement L10): how much has been read says nothing about what kind it is.
+# "scholarly" is not "peer reviewed": a preprint or a working paper is scholarly too. Peer review
+# is counted from the ledger's own ``peer_reviewed`` field, and where that is empty it is
+# "not recorded", never inferred from the source type.
+SOURCE_KINDS = [("scholarly", "Scholarly"), ("ti", "TI publication"), ("report", "Other report (NGO, think tank)"),
+                ("official", "Official"), ("data", "Data"), ("news", "News"), ("other", "Other"),
+                (None, "Not recorded")]
+PEER = [(True, "yes"), (False, "no"), (None, "not recorded")]
+
+
+def source_kinds(listed: dict) -> dict:
+    """Per topic, the read sources counted by kind and, separately, by whether peer review is recorded."""
+    known = {k for k, _ in SOURCE_KINDS}
+    out = {}
+    for topic, states in listed.items():
+        rows = states.get("read", [])
+        kind = Counter(r.get("source_type") if r.get("source_type") in known else None for r in rows)
+        peer = Counter(r.get("peer_reviewed") if isinstance(r.get("peer_reviewed"), bool) else None for r in rows)
+        out[topic] = {"read": len(rows),
+                      "kind": {label: kind.get(k, 0) for k, label in SOURCE_KINDS},
+                      "peer_reviewed": {label: peer.get(k, 0) for k, label in PEER}}
+    return dict(sorted(out.items()))
 
 
 def _cell(text) -> str:
     return str(text or "").replace("|", "/").replace("\n", " ").strip()
 
 
-def _catalogue(root: Path, listed: dict) -> Path:
-    """Write ``reports/catalogue.md``: every screened-in source by topic and reading state."""
+def _catalogue(root: Path, listed: dict, kinds: dict | None = None) -> Path:
+    """Write ``data/private/reports/catalogue.md``: every screened-in source by topic and reading state."""
     topics = sorted(listed, key=lambda t: (t == UNSORTED, t))
     L = ["# Library catalogue", "",
          "Every source screened in, by topic and by how far it has got. Rebuilt from `ledger.jsonl` "
@@ -201,6 +227,18 @@ def _catalogue(root: Path, listed: dict) -> Path:
          "| Topic | Read | To read | No file yet |", "|---|---|---|---|"]
     for t in topics:
         L.append(f"| {t} | " + " | ".join(str(len(listed[t].get(k, []))) for k, _ in STATES) + " |")
+    kinds = kinds if kinds is not None else source_kinds(listed)
+    L += ["", "## Kind of source read", "",
+          "The read sources of each topic by kind, as recorded in the ledger (`source_type`), and by whether "
+          "peer review is recorded (`peer_reviewed`). This is a separate question from how much has been read: "
+          "the table above. \"Scholarly\" includes preprints and working papers; it does not mean peer reviewed.", "",
+          "| Topic | Read | " + " | ".join(label for _, label in SOURCE_KINDS)
+          + " | Peer reviewed: " + " / ".join(label for _, label in PEER) + " |",
+          "|---|---|" + "---|" * len(SOURCE_KINDS) + "---|"]
+    for t in topics:
+        k = kinds[t]
+        L.append(f"| {t} | {k['read']} | " + " | ".join(str(k["kind"][label]) for _, label in SOURCE_KINDS)
+                 + " | " + " / ".join(str(k["peer_reviewed"][label]) for _, label in PEER) + " |")
     for t in topics:
         L += ["", f"## {t}"]
         for key, label in STATES:

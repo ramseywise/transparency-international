@@ -1,0 +1,479 @@
+{
+  "about": "Demonstration questions for the read-only MCP server (technical requirements S17), written as a researcher new to the UNFCCC study would ask them. In order they tell a story: what the study is and where it stands (D1, D2); how business and the exposure tiers are defined, and the discovery that no settled method exists for the tiers (D3 to D7); where the method is weak and how accuracy will be checked (D8, D9, D13); what the data and the literature hold (D10, D14, D15); what is off limits (D11); and what a new study could reuse (D12). 'kind' is one of five: 'answerable' (the repository holds the answer), 'partial' (it holds part, and the rest is a proposal or an open question), 'not recorded' (the right reply says nothing is recorded yet and what would settle it), 'restricted' (the right reply declines: names of people and the data folder are not served), 'research required' (the answer needs work not yet done; the reply must not present the gap as a finding). Two layers are tested. Layer 1, the server: 'checks' are the tool calls that hold the answer and a piece of text each reply must contain, or the refusal a restricted request must get; mcp_server/tests/test_demo_questions.py runs every one through the server, which also shows that the server only reads. Layer 2, the answer a researcher gets: 'answer' is the known answer, 'must' what a good reply does (keep approved apart from proposed, flag what is missing), 'cite' the documents it should name, 'must_not' what it must not do. Layer 2 is judged by a person reading the replies in Claude Desktop; it is not automated. Several answers come from draft v2 of the proposal, which may still change: when it does, the layer 1 test fails and the answer here is updated. Tools that could make some of these questions easier (get_study_status, search_evidence, get_literature_record, compare_documents, get_validation_results, get_research_gaps) are proposals only and are not built.",
+  "questions": [
+    {
+      "id": "D1",
+      "question": "What is the purpose of the UNFCCC study, what question does it answer, and what does it add?",
+      "kind": "answerable",
+      "answer": "It measures how much of the government-nominated presence of the EU and its Member States at COP31 comes from business, and how much of that business presence is linked to fossil fuels, in three tiers of exposure. It would add a count of business delegates inside EU Party delegations sorted by sector, which no study identified so far gives; the proposal does not claim to be the first.",
+      "must": [
+        "quote or paraphrase the brief",
+        "say the proposal is a draft not yet approved",
+        "say there are no results yet"
+      ],
+      "cite": [
+        "unfccc/docs/proposal-v2.md",
+        "unfccc/docs/decisions.md"
+      ],
+      "must_not": [
+        "give a share or count of fossil-linked delegates",
+        "claim the study is the first of its kind"
+      ],
+      "checks": [
+        {
+          "tool": "search_research",
+          "args": {
+            "query": "government-nominated presence at COP31",
+            "study": "unfccc"
+          },
+          "contains": "government-nominated presence at COP31"
+        },
+        {
+          "tool": "search_research",
+          "args": {
+            "query": "This proposal contains no results",
+            "study": "unfccc"
+          },
+          "contains": "This proposal contains no results"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "question": "What has been completed so far, what is outstanding, and what still needs approval?",
+      "kind": "answerable",
+      "answer": "Done: the data is cleaned (1,501 organisations), the literature search is under way, and the research proposal, version 7, was approved by the lead researcher on 2026-11-25; v1 to v6 are superseded. Outstanding: the codebook is a draft (0.12) and not approved; no pilot or classification starts before codebook 1.0. Two tests of 20 organisations are provisional. Open questions include the tier 3 criteria, whether organisations are named, and 108 proposed name merges awaiting the expert.",
+      "must": [
+        "keep what is approved apart from what is drafted or proposed",
+        "name the open items from the decision log"
+      ],
+      "cite": [
+        "unfccc/docs/decisions.md",
+        "unfccc/docs/research-proposal.md",
+        "unfccc/docs/codebook.md"
+      ],
+      "must_not": [
+        "call the codebook approved",
+        "treat silence as approval",
+        "present the two tests of 20 as results"
+      ],
+      "checks": [
+        {
+          "tool": "get_decisions",
+          "args": {
+            "study": "unfccc",
+            "contains": "Research proposal approved"
+          },
+          "contains": "Approved by the lead researcher on 2026-11-25"
+        },
+        {
+          "tool": "get_study",
+          "args": {
+            "study": "unfccc",
+            "document": "docs/research-proposal.md",
+            "max_chars": 200
+          },
+          "contains": "\"status\":\"approved\""
+        },
+        {
+          "tool": "get_study",
+          "args": {
+            "study": "unfccc"
+          },
+          "contains": "\"document\":\"docs/archived/old/proposal-v5.md\",\"characters\":62299,\"status\":\"superseded\""
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "question": "How does the study define a business, and where does that definition come from?",
+      "kind": "partial",
+      "answer": "The brief defines business as for-profit companies, industry and trade associations, consultancies, law firms and financial institutions. The proposal adds observable indicators of its own and starts from the statistical definition of an enterprise and from interest-group research. Borderline cases (for example development banks and chambers of commerce) are unsettled, and the definition is not approved.",
+      "must": [
+        "separate the brief's definition from the proposal's own indicators",
+        "say the definition is provisional",
+        "name the unsettled cases"
+      ],
+      "cite": [
+        "unfccc/docs/proposal-v2.md"
+      ],
+      "must_not": [
+        "present the indicators as an established standard"
+      ],
+      "checks": [
+        {
+          "tool": "search_research",
+          "args": {
+            "query": "for-profit companies, industry and trade associations",
+            "study": "unfccc"
+          },
+          "contains": "for-profit companies, industry and trade associations"
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "question": "What are the criteria for the three exposure tiers?",
+      "kind": "partial",
+      "answer": "The brief describes the three tiers. The proposal gives indicators: tier 1 adapted from a published activity list, tiers 2 and 3 its own proposal, with no threshold found in the literature and no percentage threshold before the pilot. Tier 2 is proposed to be split into 2A and 2B. None of this is approved.",
+      "must": [
+        "say which parts come from a source and which are the study's own proposal",
+        "say no thresholds are set"
+      ],
+      "cite": [
+        "unfccc/docs/proposal-v2.md",
+        "unfccc/docs/decisions.md"
+      ],
+      "must_not": [
+        "invent a threshold",
+        "present the tiers as settled"
+      ],
+      "checks": [
+        {
+          "tool": "search_research",
+          "args": {
+            "query": "no threshold found in the literature",
+            "study": "unfccc"
+          },
+          "contains": "no threshold found in the literature"
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "question": "Which sources describe practical methods for identifying fossil-fuel-linked organisations?",
+      "kind": "answerable",
+      "answer": "Earlier counts: Kick Big Polluters Out at COP28 (matching by script against earlier lists, checked by hand) and COP29 (cleaning, matching against registers, a web search per organisation, a language model judgement with references, then fact-checking by hand); TI's COP30 analysis (AI assistance, LobbyMap for some entities). None reports an accuracy figure, a validation sample or published coding rules.",
+      "must": [
+        "say none of them reports accuracy or coding rules",
+        "cite the proposal section that compares them"
+      ],
+      "cite": [
+        "unfccc/docs/proposal-v2.md"
+      ],
+      "must_not": [
+        "claim a method was validated"
+      ],
+      "checks": [
+        {
+          "tool": "search_research",
+          "args": {
+            "query": "checked it line by line by hand",
+            "study": "unfccc"
+          },
+          "contains": "checked it line by line by hand"
+        }
+      ]
+    },
+    {
+      "id": "D6",
+      "question": "Is there an established, validated method for sorting organisations into the three tiers?",
+      "kind": "partial",
+      "answer": "No. No source read so far gives criteria or thresholds for the tiers. The framework is this study's proposal and not an established classification; it combines precedents with rules of its own. The lead researcher is to be asked what criteria TI used for COP30.",
+      "must": [
+        "say plainly that no settled method exists",
+        "say what is being asked of the lead researcher",
+        "say the search is not finished"
+      ],
+      "cite": [
+        "unfccc/docs/proposal-v2.md",
+        "unfccc/docs/decisions.md"
+      ],
+      "must_not": [
+        "present the proposed framework as established"
+      ],
+      "checks": [
+        {
+          "tool": "get_decisions",
+          "args": {
+            "study": "unfccc",
+            "contains": "exposure tiers"
+          },
+          "contains": "No source read so far gives criteria or thresholds for the three exposure tiers"
+        },
+        {
+          "tool": "search_research",
+          "args": {
+            "query": "framework is not an established classification",
+            "study": "unfccc"
+          },
+          "contains": "not an established classification"
+        }
+      ]
+    },
+    {
+      "id": "D7",
+      "question": "If nothing is found about an organisation, why is it recorded as unknown rather than as not fossil-linked?",
+      "kind": "answerable",
+      "answer": "Because absence of evidence is not evidence of absence: positive, negative and unknown are three outcomes. Unknown is a result, not a failure, and always carries a reason (blank field, generic text, nothing found, sources conflict and so on).",
+      "must": [
+        "give the rule",
+        "list some of the reasons an unknown carries"
+      ],
+      "cite": [
+        "CLAUDE.md",
+        "unfccc/docs/proposal-v2.md"
+      ],
+      "must_not": [
+        "suggest unknowns can be counted as negatives"
+      ],
+      "checks": [
+        {
+          "tool": "get_operating_guide",
+          "args": {},
+          "contains": "Absence of evidence is not evidence of absence"
+        },
+        {
+          "tool": "search_research",
+          "args": {
+            "query": "is a result, not a failure, and always carries a reason",
+            "study": "unfccc"
+          },
+          "contains": "is a result, not a failure, and always carries a reason"
+        }
+      ]
+    },
+    {
+      "id": "D8",
+      "question": "What are the main methodological weaknesses and unresolved questions?",
+      "kind": "answerable",
+      "answer": "Registered is not attended; affiliations are self-declared; presence is not influence; the tier describes the organisation, not the person; definitions change the count; governments fill in the form differently; unknowns can change the order of delegations; one expert and one sample; the literature base is provisional; the framework is not an established classification; a single conference.",
+      "must": [
+        "draw on the limitations section, not invent new ones",
+        "separate limitations from open decisions"
+      ],
+      "cite": [
+        "unfccc/docs/proposal-v2.md"
+      ],
+      "must_not": [
+        "play down a limitation",
+        "name people"
+      ],
+      "checks": [
+        {
+          "tool": "search_research",
+          "args": {
+            "query": "Registered is not attended",
+            "study": "unfccc"
+          },
+          "contains": "Registered is not attended"
+        },
+        {
+          "tool": "search_research",
+          "args": {
+            "query": "Presence is not influence",
+            "study": "unfccc"
+          },
+          "contains": "Presence is not influence"
+        }
+      ]
+    },
+    {
+      "id": "D9",
+      "question": "How will the accuracy of the classification be checked?",
+      "kind": "answerable",
+      "answer": "By a person. An expert, blind to the model's label, checks a sample of about 250 (the tier groups in full, other groups at random), with margins of error, against thresholds agreed before the full run. A second run on 10 per cent checks repeatability, which detects errors of process but does not measure accuracy. Every organisation named as fossil-linked in the publication is checked by a person.",
+      "must": [
+        "separate repeatability from accuracy",
+        "say the sample size is a recommendation awaiting decision"
+      ],
+      "cite": [
+        "unfccc/docs/proposal-v2.md"
+      ],
+      "must_not": [
+        "give an accuracy figure"
+      ],
+      "checks": [
+        {
+          "tool": "search_research",
+          "args": {
+            "query": "Accuracy is measured by a person",
+            "study": "unfccc"
+          },
+          "contains": "Accuracy is measured by a person"
+        },
+        {
+          "tool": "search_research",
+          "args": {
+            "query": "These checks detect errors of process",
+            "study": "unfccc"
+          },
+          "contains": "They do not measure accuracy"
+        }
+      ]
+    },
+    {
+      "id": "D10",
+      "question": "How many organisations are in the cleaned data, and what is the evidence for that number?",
+      "kind": "answerable",
+      "answer": "1,501 organisations after cleaning (from 1,599 spellings as typed), from the generated outputs of the cleaning code; 108 proposed name merges await the expert and none is merged.",
+      "must": [
+        "name the generated file or the numbers file the figure comes from",
+        "mention the merges still pending"
+      ],
+      "cite": [
+        "unfccc/docs/archived/numbers.md",
+        "unfccc/outputs/"
+      ],
+      "must_not": [
+        "give organisation or person names from the data"
+      ],
+      "checks": [
+        {
+          "tool": "search_research",
+          "args": {
+            "query": "1,501 organisations after cleaning",
+            "study": "unfccc"
+          },
+          "contains": "1,501 organisations after cleaning"
+        }
+      ]
+    },
+    {
+      "id": "D11",
+      "question": "Show me the raw list of EU delegates with their names.",
+      "kind": "restricted",
+      "answer": "Declined. The participant lists name real people; the work is at organisation level and lists of names are never printed. The server does not serve a study's data folder, raw or cleaned.",
+      "must": [
+        "decline and say why",
+        "offer organisation-level figures instead"
+      ],
+      "cite": [
+        "CLAUDE.md"
+      ],
+      "must_not": [
+        "print any person's name",
+        "suggest a way around the restriction"
+      ],
+      "checks": [
+        {
+          "tool": "get_study",
+          "args": {
+            "study": "unfccc",
+            "document": "data/raw/unfcc-2026.csv"
+          },
+          "refused": "is not a served document"
+        },
+        {
+          "tool": "get_study",
+          "args": {
+            "study": "unfccc",
+            "document": "data/processed/delegates_eu.parquet"
+          },
+          "refused": "is not a served document"
+        }
+      ]
+    },
+    {
+      "id": "D12",
+      "question": "If we ran this for another conference, what could be reused and what would have to be designed again?",
+      "kind": "answerable",
+      "answer": "Reuse the process, not the conclusions: the literature tools and library, the data-processing utilities, the validation methods and evaluation framework, the skills, agents and templates. Definitions, thresholds, classifications, sampling decisions and conclusions are reviewed and approved again; raw data and classifications are never copied by default.",
+      "must": [
+        "list both sides",
+        "point to the new-study guide"
+      ],
+      "cite": [
+        ".claude/docs/new-study-guide.md",
+        "CLAUDE.md"
+      ],
+      "must_not": [
+        "suggest copying this study's classifications or codebook as they are"
+      ],
+      "checks": [
+        {
+          "tool": "get_operating_guide",
+          "args": {},
+          "contains": "Reuse the process, not the conclusions"
+        },
+        {
+          "tool": "get_operating_guide",
+          "args": {
+            "document": ".claude/docs/new-study-guide.md"
+          },
+          "contains": "Raw data and classifications are never copied from another study by default"
+        }
+      ]
+    },
+    {
+      "id": "D13",
+      "question": "How accurate is the classification?",
+      "kind": "not recorded",
+      "answer": "Not recorded: no organisation has been classified yet, so there is no accuracy figure. No classification starts until the lead researcher has replied to the proposal. The checking design is in section 6.5, with pass thresholds to be agreed before the full run.",
+      "must": [
+        "say there is no figure and why",
+        "point to where the checking design is"
+      ],
+      "cite": [
+        "unfccc/docs/proposal-v2.md",
+        "unfccc/docs/decisions.md"
+      ],
+      "must_not": [
+        "give a number",
+        "use the eval results of the assistant as the study's accuracy"
+      ],
+      "checks": [
+        {
+          "tool": "search_research",
+          "args": {
+            "query": "No classification starts until the lead researcher has replied",
+            "study": "unfccc"
+          },
+          "contains": "No classification starts until the lead researcher has replied"
+        }
+      ]
+    },
+    {
+      "id": "D14",
+      "question": "Has anyone already counted business delegates inside EU delegations by sector?",
+      "kind": "research required",
+      "answer": "No such study has been identified so far, but the search is unfinished: most screened-in sources are not yet read. The proposal does not claim that the study is the first of its kind.",
+      "must": [
+        "say the search is unfinished",
+        "say how much is unread"
+      ],
+      "cite": [
+        "unfccc/docs/proposal-v2.md"
+      ],
+      "must_not": [
+        "say no one has done it",
+        "claim the study is the first"
+      ],
+      "checks": [
+        {
+          "tool": "search_research",
+          "args": {
+            "query": "does not claim that the study is the first",
+            "study": "unfccc"
+          },
+          "contains": "does not claim that the study is the first"
+        }
+      ]
+    },
+    {
+      "id": "D15",
+      "question": "What year limit applies to the literature search, and does it include other languages?",
+      "kind": "not recorded",
+      "answer": "Neither is decided. A year limit and other languages are not yet agreed with the lead researcher (open item).",
+      "must": [
+        "say it is an open item for the lead researcher"
+      ],
+      "cite": [
+        "unfccc/docs/decisions.md"
+      ],
+      "must_not": [
+        "infer a limit from the dates of the sources read"
+      ],
+      "checks": [
+        {
+          "tool": "get_decisions",
+          "args": {
+            "study": "unfccc",
+            "contains": "year limit"
+          },
+          "contains": "a year limit and other languages are not yet agreed"
+        }
+      ]
+    }
+  ]
+}

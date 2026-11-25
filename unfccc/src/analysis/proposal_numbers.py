@@ -3,7 +3,7 @@
 The proposal may only print numbers that come from a file in ``outputs/``. This
 module writes that file, ``outputs/proposal_v2_numbers.csv``. Nothing here uses
 a language model and nothing is typed in by hand: each figure is counted from
-the cleaned tables in ``data/derived/`` or worked out with the sampling and
+the cleaned tables in ``data/processed/`` or worked out with the sampling and
 statistics code that the validation will use later.
 
 Five groups of figures:
@@ -90,7 +90,7 @@ OBSERVED_ACCURACY = 0.90  # the threshold proposed for the main categories
 _VERY_LARGE = 10**9  # stands for "group much larger than the sample"
 
 _ROOT = Path(__file__).resolve().parents[2]
-DERIVED = _ROOT / "data" / "derived"
+DERIVED = _ROOT / "data" / "processed"
 OUTPUT = _ROOT / "outputs" / "proposal_v2_numbers.csv"
 
 

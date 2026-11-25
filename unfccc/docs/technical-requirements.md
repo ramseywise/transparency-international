@@ -1,10 +1,8 @@
 # Technical requirements and implementation plan
 
-Status: draft v4, 2026-11-24. Changes from v3: references are sorted into tiers and all 134 are screened (4.1, L4d); search is checked against test questions (L8); the proposal follows the report register and the final document is an online article (P7); the shared chart style is built (6). Proposed since v4, awaiting approval: a graph of the data with its schema, static images and an interactive view (4.8, step 9a); deferred 2026-11-24 until Ramsey decides on it, and not built.
+Status: v5, 2026-11-25. The v5 changes, approved by Ramsey on 2026-11-24 except E10, are now merged into sections 1 to 9 (step 1d); section 10 is a short change note. The research design itself is set by the approved research proposal v7 (`unfccc/docs/research-proposal.md`); where this document and the proposal differ on a definition or method, the proposal holds and the difference is a fault here. Still proposed and not built: the graph of the data (4.8, step 9a), deferred until Ramsey decides.
 
-**The changes for v5 are listed in section 10. Ramsey approved them on 2026-11-24, except E10. Sections 1 to 9 have not yet been rewritten to match; where they differ, section 10 holds.**
-
-**Section 11, added 2026-11-24, covers the workspace itself, not the research design: what was changed that day at Ramsey's request after an outside review of `CLAUDE.md` (the rules file, a study template, and read-only access from Claude Desktop and other clients), and what that review suggests for this study that is still a proposal.**
+Section 11 covers the workspace itself, not the research design: changes made at Ramsey's request after an outside review of `CLAUDE.md`, and proposals that are not yet approved.
 
 - Product requirement: `unfccc/docs/Research brief.docx`
 - Data: UNFCCC COP31 list of registered on-site participants, public, downloaded from unfccc.int/documents/663817
@@ -19,7 +17,7 @@ Two questions about the **Parties** and **Party overflow** sheets.
 | Q1b | The same for all countries, ranked by number and by share, with priority on full Party badges. | delegate | all Parties, "if feasible" |
 | Q2 | How many delegates have a home organisation linked to the fossil fuel economy, in three tiers? | delegate | EU and its 27 member states |
 
-Working definitions from the brief. The literature review turns these into testable rules (section 4.2).
+Working definitions from the brief. The approved proposal v7 (section 4) turns these into testable attributes: a flag for each tier (1, with coal marked; 2A; 2B-O; 2B-S; 3), each met, not met or unknown, with the headline order 1, 2A, 2B-O, 3. The codebook turns them into numbered rules (section 4.2).
 
 - **Business:** for-profit companies, industry and trade associations, consultancies, law firms, financial institutions. State-owned enterprises possibly counted separately. NGOs, universities, think tanks and media excluded.
 - **Fossil tier 1:** oil, gas and petrochemical companies, and fossil fuel infrastructure operators.
@@ -30,10 +28,10 @@ Size of the job:
 
 | Scope | Delegates | Distinct home organisations (as typed) |
 |---|---|---|
-| EU and 27 member states | 3,821 (1,381 Party, 2,440 overflow) | 1,599 as typed; 1,501 after cleaning, of which 840 have one delegate (`unfccc/data/derived/cleaning_stats.json`; corrected 2026-11-24 from the first profile's 1,559 and 913) |
+| EU and 27 member states | 3,821 (1,381 Party, 2,440 overflow) | 1,599 as typed; 1,501 after cleaning, of which 840 have one delegate (`unfccc/data/processed/cleaning_stats.json`; corrected 2026-11-24 from the first profile's 1,559 and 913) |
 | All Parties | 34,809 | 12,450 |
 
-About 1,300 of the EU rows contain an obvious government word, which leaves roughly 1,250 organisations to classify. No row in scope carries an organisation type, and there is no labelled list from an earlier conference. Every label is inferred or looked up.
+Two figures, kept apart. **Counted:** 1,501 organisations after cleaning, government bodies included; 1,421 if all 108 proposed name merges were accepted. **Planning estimate:** about 1,300 of the EU rows contain an obvious government word, which leaves roughly 1,250 organisations to classify; this is an estimate, not a count. No row in scope carries an organisation type, and there is no labelled list from an earlier conference. Every label is inferred or looked up.
 
 ## 2. Research standard
 
@@ -41,7 +39,7 @@ The output will not be peer reviewed, so the method carries as many of the check
 
 | ID | Standard | What it means here |
 |---|---|---|
-| R1 | **Decide before you look.** | The codebook, the validation sample design and the accuracy thresholds are written, dated and approved before the classifier runs on the full data. Later changes are logged with a reason. |
+| R1 | **Decide before you look.** | The definitions, the evidence ranking, the codebook, the accuracy thresholds and the sample design are written, dated and approved before the classifier runs on the full data. The pilot standard is approved before the pilot (proposal question 4); the full validation design is approved at the validation stage, before any result is published. Later changes are logged with a reason. |
 | R2 | **Definitions come from the literature.** | Each category has a definition and observable indicators (proxies) with a cited source, or is marked as our own decision with the reasoning. |
 | R3 | **A documented literature search.** | Search terms, dates, sources searched, and how many items were found, screened in and screened out, with reasons. Enough for someone else to repeat it. |
 | R4 | **Every claim is traceable.** | Each classification has a source URL and quote. Each number in the report comes from a generated table. Each citation has a page. |
@@ -49,6 +47,8 @@ The output will not be peer reviewed, so the method carries as many of the check
 | R6 | **Sensitivity.** | Results are shown under stricter and looser definitions (tier 1 only; tiers 1 to 2; tiers 1 to 3; with and without inferred affiliations). |
 | R7 | **Reproducible.** | Code, codebook, prompts, model version, dates and the classified organisation table with evidence are kept so the result can be regenerated and audited. |
 | R8 | **Limitations are written down.** | Registered is not attended. Affiliations are self-declared. One expert validates, so there is no second-rater agreement figure unless a second person labels a subset. |
+| R9 | **Decision register.** | Every design decision has one numbered entry: the recommendation, who decides, at which stage, and its state (open, decided, moved, superseded), with where it is recorded. Kept in `unfccc/docs/decision-register.md` and checked against the proposal's section 8 and `decisions.md`. |
+| R10 | **Uncertainty register.** | One list of what is not known and how each item is handled: unresolved names, unread sources, unmeasured accuracy, untested checks. Kept in `unfccc/docs/decision-register.md`, part 2. Each report states which items remain. |
 
 ## 3. The sequence
 
@@ -73,34 +73,35 @@ Nothing is classified before exchange 1 is closed. The proposal is where the def
 
 ### 4.1 Literature: building our own reference index
 
-The brief gives three starting sources: one TI report (PDF) and two articles on transparency.org. All three are downloaded, extracted and searchable (221 passages). Between them they cite 134 further pages and documents (links, and endnote references in the report). All 134 have been screened from their title and the sentence they were cited in: 51 are in, 83 are out, each with a reason (`literature/search-log.md`). None is downloaded until the screened-in list is approved. No wider search has been run yet. The index is reusable for later topics.
+The brief gives three starting sources: one TI report (PDF) and two articles on transparency.org. Their 134 cited references were screened first; a wider search has since been run, and the library's own reports hold the current counts (`literature/unfccc/reports/search-log.md`, `literature/unfccc/reports/catalogue.md`; this document does not repeat them, so they cannot go stale here). Extending the search further (a year limit, more languages) is a scope decision for the lead researcher. The index is reusable for later topics.
 
 | ID | Requirement |
 |---|---|
 | L1 | A ledger (`literature/ledger.jsonl`), one line per source: identifier (DOI or URL), title, authors, year, type (paper, NGO report, blog, dataset documentation), peer reviewed or not, status (candidate, screened in, screened out, read) and the reason. |
 | L2 | A search log (`literature/search-log.md`): what was searched, where, when, and the counts at each stage (R3). |
 | L3 | Sources are found three ways: the seeds, their reference lists and citing papers (through OpenAlex, which is free), and web search for NGO reports and blogs, which OpenAlex mostly lacks. |
-| L4 | Screened-in sources are downloaded and never edited: PDFs to `literature/pdfs/`, web pages as received to `literature/pages/`. Every download is logged with its URL, date and result. Text is extracted to `literature/text/` and can be rebuilt from the raw files at any time. |
+| L4 | Screened-in sources are downloaded and never edited: PDFs to `literature/unfccc/data/raw/pdfs/`, web pages as received to `literature/unfccc/data/raw/pages/`. Every download is logged with its URL, date and result. Text is extracted to `literature/unfccc/data/processed/text/` and can be rebuilt from the raw files at any time. |
 | L4a | **Web pages.** Only the article itself is kept: menus, footers, tag lists and "related" cards are dropped. Paragraphs are numbered so a quote can be located. Charts embedded from another service are not captured and are noted as missing. |
 | L4b | **References inside a source.** Every link in the body of a page or PDF is recorded in the ledger as a candidate, with the sentence it appeared in, where it was found, and its kind (same site, document download, other site). |
 | L4c | **The crawler does not wander.** It downloads only the pages it is given. Following links one step within the same site is an explicit option. Links to other sites are downloaded only after screening (L1). It respects each site's robots.txt, waits between requests, identifies itself generically, and never sends personal or project details. No pages behind a login. |
 | L4d | **Tiers.** Candidates are sorted before screening: 1 primary (cited by two or more of our sources, or three or more times); 2 core (scholarly, official, data and method pages); 3 supporting (reports by TI and other organisations); 4 news; 5 low signal. A tier orders the work and is reported; it does not decide relevance. Every candidate is screened against the questions whatever its tier, and the decision, reason and question are recorded. |
 | L5 | **One reading record per source** (`literature/records/<id>.json`), following the extraction template used in learn-ai-engineering: citation, research question, data, method, definitions of key terms, proxies used to identify a category, findings, limitations. Each item has a quote and page. A field that the source does not state is left empty, never filled from memory. This is the only model step on the literature and runs once per source. |
 | L6 | Text is split into passages by section and paragraph. Each passage keeps its source id and its location: page for a PDF, section and paragraph number for a web page. |
-| L7 | Passages are embedded on this computer with a small open multilingual model and stored as files in `literature/index/`. Search combines keyword and similarity ranking and returns passages with source and location. No hosted service and no cost per search. |
+| L7 | Passages are embedded on this computer with a small open multilingual model and stored as files in `literature/unfccc/data/processed/index/`. Search combines keyword and similarity ranking and returns passages with source and location. No hosted service and no cost per search. |
 | L8 | About 20 test questions with known answers check that search finds the right passage, and an automated test fails if the result gets worse. Measured 2026-11-24 on 22 questions: the right passage came first for 17 and in the first five for 20. The two misses: a question asked in German about an English text, and a question asking for a definition where neighbouring passages on the same page ranked higher. |
 | L9 | No compiled wiki and no summaries written into the index. Synthesis happens in the literature review, where a person reads it. |
+| L10 | **Coverage and quality apart.** The screening export shows, for each question, how many screened-in sources have been read and how many have not, and separately what kind of source each read one is (peer reviewed, NGO report, official, other). `rag export` writes this as a table of its own. |
 
 ### 4.2 Literature review and codebook
 
 | ID | Requirement |
 |---|---|
 | K1 | The review answers a fixed list of questions (below), each with a table of how every source handles it, where sources agree and differ, and a recommendation. |
-| K2 | The codebook is written from the review: for each category a definition, the proxies that identify it, which evidence sources count and in what order of trust, worked examples, and rules for hard cases. |
-| K3 | The codebook defines the **confidence levels** by evidence, not by feeling (see C3), and the **reason codes for "unknown"** (see C4). |
-| K4 | The codebook has a version number. The expert approves it before classification (R1). |
+| K2 | The codebook is written from the approved proposal: for each category a definition, the proxies that identify it, the evidence ranking per claim (levels A to E), worked examples, and rules for hard cases. **Every rule has a number**, so that a classification names the rule it applied. |
+| K3 | The codebook defines the **confidence levels** by evidence, not by feeling (see C3), and the **reasons for "unknown"** (see C4). |
+| K4 | The codebook has a version number. The lead researcher approves it before classification (R1); a version below 1.0 binds nothing. |
 
-Questions the review must answer, taken from what the brief leaves open:
+Questions the review answered, taken from what the brief leaves open. The review informs the choices; the lead researcher made them, through the approved proposal and its decision list (R9):
 
 1. Which sector scheme do comparable studies use, and which fits this data?
 2. What counts as evidence for tier 2 ("ongoing fossil fuel activities or dependencies") and tier 3 ("documented financing exposure")? Is there a threshold?
@@ -120,9 +121,10 @@ Questions the review must answer, taken from what the brief leaves open:
 | D3 | Every dataset gets a profile notebook from one template: structure, completeness, duplicates, top values, what can be inferred and what needs a lookup, findings in plain language. One shared chart style. |
 | D4 | Cleaning is code with a log: each rule is named and counted. Row counts before and after must reconcile. |
 | D5 | **Inferred values never overwrite.** They go in a separate column with the method, the source and a confidence. |
-| D6 | A person on both sheets for the same country is counted once, on the Party badge. |
+| D6 | A person on both sheets for the same country is counted once, on the Party badge. The duplicate check is run and its result recorded (run 2026-11-24: one person listed twice on the same badge type, none on both, so all 3,821 rows are counted as registrations). |
 | D7 | The EU scope is a fixed list of 28 nominators. All 28 are present in the file. |
 | D8 | One organisation table: a stable id, a canonical name and every raw spelling that maps to it. Matching uses exact match after clean-up, then text similarity within the same country. Acronyms and translations ("BMUKN", "MEAE", "Botschaft") are resolved with the country as context and the source recorded. |
+| D9 | **Identity is a step of its own, before classification**, under the nine written identity rules (proposal 6.1, decision 37). Similar names and acronyms that the rules do not settle are reviewed by a person, largest first; any left unresolved stay unknown, and the delegates affected are reported per delegation. The organisation table is a named output, and every count is generated from it. |
 
 ### 4.4 Classification
 
@@ -131,45 +133,52 @@ There is no capacity to check every label by hand. The model does the lookup, an
 | ID | Requirement |
 |---|---|
 | C1 | Classification is per organisation, joined back to delegates. |
-| C2 | Each organisation gets one record with: **category** (and business type, sector, fossil tier where they apply); **reasoning** in two or three sentences naming the codebook rule used; **source URL** with the quote that supports the label and the retrieval date; **confidence**. Also: which real-world entity the name was matched to, codebook version, model and date. |
-| C3 | **Confidence is defined by the evidence.** High: an official or authoritative source states what the organisation does and the name match is certain. Medium: one indirect source, or some doubt about the match. Low: inferred from the name or a weak source. The exact wording is set in the codebook. |
-| C4 | **"Unknown" always has a reason**, so we can see where information is missing: (a) field blank; (b) generic text such as "Private sector"; (c) not an organisation, such as a place name; (d) acronym or name that could be several entities; (e) nothing found on the web; (f) sources conflict; (g) found, but the codebook does not cover the case. Counts per reason and per delegation are reported. |
-| C5 | Cheapest step first: rules for obvious government bodies; matching against published lists the review approves (K1 question 7); then a model with web search, using the organisation's own site, registries and third-party sources. |
-| C6 | **Filling in a missing affiliation.** When the organisation is blank or generic (reasons a to c), the person's name, title and country may be searched on public pages, including professional profiles that appear in search results, to find the employer. Only the employer and the source URL are recorded. The result goes in a separate inferred column (D5). No logged-in scraping of LinkedIn, which its terms forbid. |
+| C2 | Each organisation gets one record with the ten fields of proposal 4.7, each stored apart: kind, legal form, commercial activity, represents commercial interests, sector, state ownership, kind of link, tier flags, the class of any unknown, and confidence. Business status follows from the first four by the codebook's table. Each label is **chosen from the codebook's list or the case is deferred**; free-text labels are not accepted. Each claim has structured evidence: source, level (A to E), independence, quotation, language, retrieval date, stored copy with a hash, and the number of the rule applied. Also: which real-world entity the name was matched to, codebook version, model and date. |
+| C3 | **Confidence follows from the evidence by a written rule.** It is recorded for each of three claims (identity, activity, rule met), and the label's confidence is the lowest of the three (decision 36). Code sets it from the evidence level; the model does not choose it. |
+| C4 | **"Unknown" always has a reason**, from the proposal's eight in three classes (4.6): identity unresolved (blank; generic text; not an organisation; could be several bodies); evidence insufficient (nothing found; sources conflict; the rules do not cover the case); technical (the lookup failed, run again before any count and reported apart). "Not met" needs a level A or B source with a full description of activities, confirmed by an independent B or C source where the organisation has reason to understate. Counts per reason and per delegation are reported. The draft codebook lists twelve reasons in four classes; which list holds is for the lead researcher to confirm with the codebook. |
+| C4a | **Every record carries one status**: confident, uncertain, abstained (looked, could not decide), confirmed negative (looked, found evidence of no link) or failed (the lookup did not run). "Nothing found" and "did not look" are never the same value. How the five statuses map to the three outcomes (positive, negative, unknown) is fixed in the codebook (S7). |
+| C5 | Six steps per organisation (proposal 6.2): search, store, quote, check the quotes (code), classify from the stored evidence only, with no web access, and check the labels (a smaller model flags; it never changes a label). Finding evidence and classifying are separate, logged steps: `evidence-finder` and `org-classifier`, both Sonnet, each with an eval case; the earlier one-step `org-researcher` is retired. The search starts from a fixed list of sources (decision 44) and logs every source tried, reached or refused. |
+| C6 | **Filling in a missing affiliation.** Only if the lead researcher approves it after TI's data-protection review (decisions 41 and 11). When the organisation is blank or generic, the person's employer may be searched on public pages. A match needs two agreeing details. Only the employer and the source URL are recorded, in a separate inferred column (D5). No logged-in pages. |
 | C7 | The model never answers from memory. No source, no label. |
-| C8 | A pilot of 50 organisations measures cost, time and the share of unknowns before the full run. |
+| C8 | A pilot of 50 organisations drawn at random, labelled by a sector expert without seeing the model's labels, measures the pilot standard (proposal question 4), cost, time, the share of unknowns and the expert's time per organisation. Pilot organisations are kept out of the accuracy estimates. |
 | C9 | Results are stored per organisation, so re-running costs nothing unless the codebook changes. |
+| C10 | **Run record.** Date, client, model and version, codebook version, wording of the instructions and settings; nothing changes during a run. Built for eval runs (`.claude/skills/run-evals/scripts/score.py --record`); still to do for classification runs, with the pilot. |
+| C11 | **Fixed test set.** 50 organisations, drawn at random apart from the pilot and labelled before tuning, run again after any change to the rules, the wording or the model. Instructions are tuned on it, never on the pilot. |
+| C12 | **Language.** Search in the language of the nominating country and in English is required; coverage is reported by country and by language. |
+| C13 | **Attributes.** "Represents commercial interests" is a yes/no attribute; a public body may hold a tier, reported on its own line; tier 2 is in parts (2A, 2B-O, 2B-S); every flag met is recorded, and so is the highest. |
+| C14 | **Independent evidence.** Two sources count as two only if one does not repeat the other. A press release and a news item copied from it count once. |
 
 ### 4.5 Evaluation
 
 | ID | Requirement |
 |---|---|
 | V1 | **Automatic checks on every record:** the URL opens; the quote appears on the page; the page is about the matched entity. Failures are re-run or set to unknown. |
-| V2 | **Consistency:** a random 10% is classified a second time independently. The agreement rate is reported. Disagreements go to the expert sample. |
+| V2 | **Repeatability**, reported apart from accuracy: a random 10% is classified a second time, half with a new search and half from the stored evidence. Cases where the runs disagree are reviewed by a person and kept out of the accuracy estimates. |
 | V3 | **Known answers:** organisations that appear on an approved published list must come out in the matching tier. Misses are investigated. |
-| V4 | **Expert sample, after the run.** A random sample of about 250 EU organisations, drawn with a recorded seed, stratified by predicted category and confidence level, with business and fossil predictions and low-confidence records over-represented. It includes predicted negatives, which is the only way to estimate what was missed. |
-| V5 | The expert sees the organisation, country and evidence, but not the model's label or reasoning, and records their own label. Disagreements are then reviewed with the model's reasoning visible. |
-| V6 | Reported from the sample: accuracy per confidence level; precision and recall for business and for each fossil tier, with confidence intervals; a table of what was confused with what. |
-| V7 | **Using the result.** Thresholds are agreed beforehand (R1). If a confidence level falls below its threshold, those records are either reported as unknown or sent for review. Headline counts are published with the measured error range. |
-| V8 | Every organisation **named** in the report as fossil-linked is checked by a person, whatever its confidence. |
+| V4 | **Validation sample, after the run.** Its design is approved at the validation stage, before any result is published (proposal 6.5). Requirements it must meet: drawn with a recorded seed; groups defined by the model's result; tier groups reviewed in full; group sizes fixed by a written rule once group counts are known; predicted negatives included, which is the only way to estimate what was missed. |
+| V5 | The expert labels every case, tier cases included, from the stored evidence before seeing the model's label; a set of cases researched unaided is done first and reported apart. Disagreements are then reviewed with the model's reasoning visible. |
+| V6 | Estimates are weighted by each case's chance of selection, per organisation and per delegate, with intervals; limits on tier-by-tier estimates are stated; a table of what was confused with what. Classification error, coverage and sampling are reported as three separate uncertainties. |
+| V7 | **Using the result.** Thresholds are agreed beforehand (R1); the rule for what happens below them is the one in the approved proposal. The threshold for cases found applies to business and to "any tier"; per-tier figures are indicative. |
+| V8 | Every organisation **named** in the report as fossil-linked is checked by a person, whatever its confidence. The sign-off is tied to a fingerprint of the exact record signed; if the record changes, the sign-off lapses. |
 
 ### 4.6 Analysis and report
 
 | ID | Requirement |
 |---|---|
 | A1 | One command regenerates every table and chart. No number is typed by hand. |
-| A2 | Each table gives count and share, Party and overflow separately, with unknowns as a row. |
-| A3 | Sensitivity versions per R6. |
-| W1 | The report is drafted in order: methods from the codebook and logs, results from the tables, discussion last. |
+| A2 | Each table gives count and share, Party and overflow separately, with unknowns as a row. Shares are out of all registrations (decision 14). Ranges from unknowns are labelled apart from margins of error from sampling, and never called a confidence interval. |
+| A3 | Sensitivity versions per R6. The list of versions run side by side is fixed before results are seen; it includes 2B-S beside 2B-O and a check with one delegation left out. |
+| W1 | The report is drafted in order: methods from the codebook and logs, results from the tables, discussion last. In `/check-work` the overall verdict follows from a fixed rule on the findings, not from a reviewer's summary; `methods-reviewer` marks each finding twice: how well it is evidenced, and how much it matters. |
 | W2 | A check fails the draft if a number has no source table or a citation has no reading record and page. |
 | W3 | Revision is done by independent reviewers that have not seen the author's reasoning: method, numbers, citations, plain language, fairness to named organisations. |
-| W4 | Standing caveats are always included (R8), with the classification date, model and codebook version. |
+| W4 | Standing caveats are always included (R8), with the classification date, model and codebook version, and the items of the uncertainty register (R10) that remain. |
+| W5 | **Design critic.** Before a plan, proposal or codebook goes for approval, a reviewer who has not seen the reasoning is asked only how the design fails: what it returns when it finds nothing, and what happens when a step is confidently wrong. Until a separate agent exists (S31), `methods-reviewer` is asked these two questions as well. |
 
 ### 4.7 Research proposal, exchange points and house style
 
 | ID | Requirement |
 |---|---|
-| P1 | **A research proposal** is written after the literature review and before the codebook. It contains: background and research questions (from the brief, in the lead researcher's wording); what the literature says; proposed definitions with their sources and alternatives; the data; the method; how a language model is used, with risks and controls; limitations; a numbered list of decisions requested; timeline. It contains no results and names no organisation as fossil-linked. |
+| P1 | **A research proposal** is written after the literature review and before the codebook (a provisional draft may start before the review is finished). It contains: background and research questions (from the brief, in the lead researcher's wording); what the literature says; proposed definitions with their sources and alternatives; the data; the method; how a language model is used, with risks and controls; limitations; a numbered list of decisions requested; timeline. It contains no results and names no organisation as fossil-linked. |
 | P2 | The proposal is written for a researcher, not a builder: no requirement numbers, file names or model names in the main text. These requirements go in an annex. It promises only what these requirements deliver. |
 | P3 | **Exchange 1.** The proposal goes to the lead researcher, who approves, comments or rewrites. No classification starts before her reply is taken in. |
 | P4 | **Exchange 2.** The same for the report. It is final only when she has approved a version on which the number and citation checks pass and each named organisation is signed off (V8). |
@@ -214,6 +223,14 @@ Several things the plan already records are relationships: which source cites wh
 | **Under-counting** | Missed fossil delegates make the finding too small | Recall estimated from negatives (V4, V6) |
 | **Personal data** | Looking up named delegates | Organisation first; person lookup only under C6; public pages only. TI should confirm this fits its own data protection practice. |
 | **Invented or misread literature** | A citation that does not exist, or a finding the paper does not make | L5 quotes and pages; W2 |
+| **"Did not look" read as "found nothing"** | A failed lookup is counted as a non-fossil organisation | Status on every record (C4a) |
+| **One source counted twice** | Two pages that repeat the same press release are taken as confirmation | C14 |
+| **A sign-off outlives the record** | An organisation is approved for naming, then its record changes | V8 |
+| **The model invents a category** | A label that is not in the codebook | Choice from the list or deferral (C2) |
+| **A test that cannot fail** | An agent that was not run shows as passed, or a case is adjusted until it passes | E1, E4 |
+| **A lucky run** | A reviewer finds a flaw once and the test is taken as passed | E3 |
+| **A design nobody attacked** | Reviews check the text against sources but not how the design behaves when a step fails | W5 |
+| **A rule that relies on being remembered** | A written instruction is skipped in a long session | E9 |
 
 What cannot be removed: with one expert and a sample, accuracy is an estimate with a range, and rare categories (tier 3 in a small delegation) will have wide ranges. The report has to say so.
 
@@ -255,7 +272,7 @@ The researcher never has to choose a model. The choice follows what the work nee
 | Passage search in the literature index | code | a small multilingual embedding model run on this computer (`sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`; checked against the test questions, L8: good for English, weak across languages) | free, private, repeatable |
 | Cleaning, name matching, sampling, statistics | code | none | must give the same answer every time |
 
-Rules: one model for the whole classification run and its second-run check, so results are comparable. A model is changed only by changing the agent's file, with the reason logged, and the affected stage is re-run. Whether Sonnet is accurate enough for classification is not assumed: the pilot (step 6) and the validation (step 8) measure it, and if it falls short the whole run moves to a stronger model.
+Rules: one model for the whole classification run and its repeat run (V2), so results are comparable. A model is changed only by changing the agent's file, with the reason logged, and the affected stage is re-run. Whether Sonnet is accurate enough for classification is not assumed: the pilot (step 6) and the validation (step 8) measure it, and if it falls short the whole run moves to a stronger model.
 
 ### What runs in parallel
 
@@ -271,20 +288,40 @@ Each approval point still waits for a person.
 
 Python code sits beside what it produces. In `literature/src/rag/`, shared by all studies: downloading and extracting pages and PDFs, the ledger, the tiering of references, the literature index and search. In `unfccc/src/`, for this study only: cleaning helpers, organisation matching, sampling and accuracy statistics, and one shared chart style (`charts.py`). In `mcp_server/src/research_mcp/`: read-only access for other clients (section 11, S6). All have automated tests, including tests of downloading that run without the internet. Known gaps: text extracted from PDFs has defects (split words in widely spaced text, lost hyphens at line ends, two-column order), so quotes are checked against the PDF page; charts are static images.
 
+### Testing the assistant itself
+
+`/run-evals` gives each agent a small case with planted errors and scores what it catches (`.claude/skills/run-evals/`; what is and is not covered is in `reference/spec.md`). It is run after any change to an agent, a skill, a model or `CLAUDE.md`.
+
+| ID | Requirement | State |
+|---|---|---|
+| E1 | **Not run is neither failed nor passed.** An agent with no answer is recorded as "not run"; a run in which nothing ran does not pass. | Done 2026-11-24, tested both ways |
+| E2 | **Proposal test case**: 15 planted flaws, pass at 11 found, seven that must be found. | Done 2026-11-24 (`cases/methods-reviewer-proposal/`) |
+| E3 | **Repeat runs.** Each case runs three times; "found every time" is kept apart from "found at least once". | Done 2026-11-24; first used on run 2026-11-24d |
+| E4 | **The tests are out of the agents' reach.** Cases and scorer are fingerprinted; a guard blocks any agent from editing them; a changed case is a new case. | Done 2026-11-24. Not covered: shell commands (E10), and an agent reading the planted answers, which rests on written instruction |
+| E5 | **Kinds of test** kept apart: must never fail again; hard cases that measure the limit; past real documents with known problems. | Done 2026-11-24 (`reference/spec.md`) |
+| E6 | **Headline first:** the number of confident wrong answers, then misses weighted by how much they matter. | Done 2026-11-24 |
+| E7 | **Small end-to-end test study**: about 20 invented organisations through every stage, one planted error per stage. | Deferred to the pilot (step 6): the stages it tests are not fixed until the codebook is approved |
+| E8 | **Historical test**: proposal draft v1 and the problems an outside review found in it; the reviewer is never shown that review. | Done 2026-11-24 (`cases/methods-reviewer-v1/`); passed in 2 of 3 runs on 2026-11-24d, all five required problems found every time |
+| E9 | **Rules a machine can decide are enforced by a machine**, each check tested for blocking and for allowing: edits to raw files, numbers not in a generated file, sources cited but not read. | Done 2026-11-24 for these three. Not covered: shell commands (E10); provisional numbers in formal outputs (S10) |
+| E10 | **Housekeeping**: the raw-file guard also covers shell commands. | Proposed; waits for Ramsey's go-ahead, since it changes the workspace's settings |
+
 ## 7. Implementation plan
 
 | Step | What gets built or done | Done when |
 |---|---|---|
-| 1. Setup | Workspace instructions, skills, agents, raw-data guard | Done in draft; skills are untested until first use |
-| 2. Literature index | Download, extraction, passage splitting, local embeddings, search, test questions (L4 to L8) | Built and tested: the three seed sources are searchable; 22 test questions (L8) |
-| 3. Sources | Screen the 134 cited references and search wider, download, read (L1 to L5) | Screening done: 51 in, 83 out. Open: approval of the screened-in list, download, wider search, reading records |
-| 4. Data (parallel with 2 and 3) | Cleaning rules, scoped delegate table, organisation table for the EU (D4 to D8) | Built: delegate counts per delegation match the raw file. Open: 108 proposed name merges need a person's review |
-| 5a. Review and house style | Literature review on the eight questions; style guide | Citation check passes on both |
-| 5b. Research proposal | Proposal v1, sent to the lead researcher (P1 to P6) | She approves, or her rewrite is taken in and the decisions logged |
-| 5c. Codebook | Codebook v1 from the approved proposal | Expert approves the codebook |
-| 6. Pilot | 50 organisations through the full lookup with automatic checks | Cost, time and unknown rate reported; go or no-go |
+| 1. Setup | Workspace instructions, skills, agents, raw-data guard | Done; each skill is tested on first use |
+| 1a–1c. Tests of the assistant | E1 to E6, E8, E9 (section 6) | Done 2026-11-24, run 2026-11-24d. E10 waits for Ramsey |
+| 1d. Registers | R9, R10; sections 1 to 9 of this document merged with the v5 changes | Done 2026-11-25: `unfccc/docs/decision-register.md`, checked against proposal section 8 and `decisions.md` |
+| 2. Literature index | Download, extraction, passage splitting, local embeddings, search, test questions (L4 to L8) | Built and tested; 22 test questions (L8) |
+| 3. Sources | Screen the cited references and search wider, download, read (L1 to L5) | Done for the proposal; counts in the library's own reports. A further search is a scope decision for the lead researcher |
+| 3a. Literature tables | L10 | Done 2026-11-25: `rag export` writes the kind of each read source (peer reviewed, NGO report, official, other) as a table of its own, apart from coverage by question (`views.py`, tested; `literature/unfccc/reports/catalogue.md` regenerated) |
+| 4. Data (parallel with 2 and 3) | Cleaning rules, scoped delegate table, organisation table for the EU (D4 to D9) | Built: delegate counts per delegation match the raw file. Open: 108 proposed name merges and 122 acronyms for a person's review (D9) |
+| 5a. Review and house style | Literature review on the eight questions; style guide | Done |
+| 5b. Research proposal | Proposal, with the design critic (W5), sent to the lead researcher (P1 to P6) | Done: v7 approved, with two questions outstanding (tier 3, naming); `decisions.md` row "Research proposal approved" |
+| 5c. Codebook | Codebook v1 from the approved proposal, numbered rules (K2), C13 | The lead researcher approves the codebook |
+| 6. Pilot | 50 organisations through the six steps (C2 to C5, C8, C10 to C12, C14); end-to-end test study (E7) | Pilot standard, cost, time, unknown rate and expert time reported; go or no-go |
 | 7. EU run | All EU organisations; V1 to V3 | Every organisation has a record or an unknown with a reason |
-| 8. Validation | Sample drawn, sent to the expert, scored | Accuracy report; thresholds applied |
+| 8. Validation | Validation design approved (V4 to V8), sample drawn, sent to the expert, scored | Accuracy report; thresholds applied |
 | 9. Results | Tables and charts for Q1a and Q2 with sensitivity versions | Regenerated by one command |
 | 9a. Graph (proposed) | Schema, graph files, static images, interactive page (G1 to G7) | Sources and organisations can be built now from the ledger and organisation table; classification links after step 7 |
 | 10. All countries | Q1b, business and sector only, with its own validation sample | Decided on the pilot's cost and accuracy |
@@ -294,7 +331,7 @@ Python code sits beside what it produces. In `literature/src/rag/`, shared by al
 
 - No labelled data exists from earlier conferences. Validation is after the run, on a sample (V4).
 - The expert labelling and sign-off is arranged by Ramsey.
-- Sector scheme, tier 2 and 3 evidence, subsidiaries, trade associations and the EU delegation are settled by the literature review (4.2).
+- Sector scheme, tier 2 and 3 evidence, subsidiaries, trade associations and the EU delegation are decisions for the lead researcher, informed by the literature review, not settled by it (4.2). Their state is in the decision register (R9).
 - The literature gets reading records as search metadata only. No wiki.
 - The crawler downloads only what it is given; linked references are screened before download.
 - The lead researcher sees two full documents, the proposal and the report, and may rewrite either. Her version becomes the base.
@@ -312,93 +349,9 @@ Dated entries are kept in `unfccc/docs/decisions.md`.
 - Proposed v5: a second type of study run through the same setup, to show which parts are general.
 - Proposed v5: one review by a model from a different family, as a manual one-off, to see whether it finds what the present reviewers miss.
 
-## 10. Changes for v5 (approved by Ramsey 2026-11-24, except E10)
+## 10. Change note for v5
 
-Three sources: the independent check of proposal draft v2 (`unfccc/docs/working/reviews/proposal-v2-review-2026-11-24.md`), two outside reviews of the proposal, and a review of this setup by a second working session. Ramsey approved every item on 2026-11-24 except E10, which stays a proposal. The items are requirements from that date; sections 1 to 8 are read together with this section until they are merged into one text. Changes to an agent or a skill are logged in `decisions.md` and followed by `/run-evals`; agent models stay as they are.
-
-One item is already done because it was a fault in existing code, not a design choice: E1.
-
-### 10.1 Changes to existing requirements
-
-| Requirement | Proposed change | From |
-|---|---|---|
-| Size table (section 1) | State both figures: 1,501 organisations after cleaning, government bodies included, and the planning estimate of roughly 1,250 to classify. | check of v2, finding 16 |
-| R1 | The evidence ranking and the sample design are approved before the run, with the definitions. | proposal v2 |
-| L2, L3, 4.1 | The search extensions are a scope decision for the lead researcher. 4.1 records the wider search already run. | proposal v2; finding 2 |
-| K2 | The codebook holds the evidence ranking per claim and the rules for hard cases. Every rule has a number, so that a classification can name the rule it applied. | proposal v2; setup review |
-| D6 | The duplicate check is run and its result recorded; the rule applies if any appear. | proposal v2 |
-| D8 | An identity step before classification for similar and acronym-like names; unresolved cases stay unknown; delegates affected are reported. | proposal v2 |
-| C2 | Structured evidence fields per claim: source, level in the ranking, quotation, date, rule number, stored copy where permitted. The label is chosen from the codebook's list or the case is deferred; free-text labels are not accepted. | proposal v2; setup review |
-| C2 to C4 | Every record carries one status from a fixed list: confident, uncertain, abstained (looked, could not decide), confirmed negative (looked, found evidence of no link), or failed (the lookup did not run). "Nothing found" and "did not look" are never the same value. | setup review |
-| C3 | Confidence follows from the level of evidence, by a written rule. | proposal v2 |
-| C5 | Finding evidence and classifying are separate steps, each logged. The `org-researcher` agent, which did both in one step, is split accordingly. **Done 2026-11-24**: `evidence-finder` (finds and stores the evidence, gives no label) and `org-classifier` (applies the codebook to the stored evidence, no web access), both Sonnet, each with an eval case; `org-researcher` retired and its case kept frozen (`evals/README.md`). | proposal v2; setup review |
-| C6 | A match of a name to an organisation needs two agreeing details. | finding 17 |
-| C8 | The pilot also measures the expert's time per organisation. | proposal v2 |
-| C9, A1 | The organisation table is a named output; every count is generated from it. | proposal v2 |
-| V2 | Reported as repeatability, apart from accuracy. Run two ways on a subset: with a new search and with the stored evidence. Cases where runs disagree are reviewed apart and kept out of the estimates. | proposal v2; findings 5, 18 |
-| V4 | Groups defined by the model's result; tier groups reviewed in full; sizes fixed by a written rule once group sizes are known; no fixed minimum of 30 in 15 groups. | proposal v2 |
-| V5 | The expert labels every case before seeing the model's label, tier cases included, seeing the stored evidence; 30 cases researched unaided, done first, reported apart. | proposal v2; findings 4, 19 |
-| V6 | Weighted by chance of selection; per organisation and per delegate; limits on tier-by-tier estimates stated; pilot organisations outside the estimates. | proposal v2; finding 21 |
-| V7 | The rule for what happens below the threshold is the one in proposal section 6.5. The threshold for cases found applies to business and to "any tier"; per-tier figures are indicative. | findings 3, 7 |
-| V8 | The sign-off on a named organisation is tied to a fingerprint of the exact record signed. If the record changes afterwards, the sign-off no longer holds. | setup review |
-| A2 | Ranges from unknowns are labelled apart from margins of error from sampling. | proposal v2 |
-| A3 | The list of versions run side by side is fixed before results are seen; it includes a check with one delegation left out. | proposal v2; finding 23 |
-| P1, section 8 | A provisional proposal may be written before the literature review is finished. Sector scheme, tier evidence, subsidiaries, trade associations and the EU delegation are decisions for the lead researcher, informed by the review, not settled by it. | finding 2 |
-| W1 (`/check-work`) | The overall verdict follows from a fixed rule on the findings, not from the reviewer's summary. `methods-reviewer` gives each finding two separate marks: how well it is evidenced, and how much it matters. | setup review |
-
-### 10.2 New requirements
-
-| ID | Requirement | From |
-|---|---|---|
-| R9 | **Decision register.** Every design decision has one numbered entry: the options, the recommendation, who decides, by when, and its state (open, decided, superseded). The proposal's decision list and `decisions.md` are generated from it or checked against it. | setup review |
-| R10 | **Uncertainty register.** One list of what is not known and how each item is handled: unknown organisations, unresolved names, unread sources, unmeasured accuracy. Each report states which items remain. | setup review |
-| L10 | **Coverage and quality apart.** The literature tables show, for each question, how much of the screened-in literature has been read, and separately what kind of source each is (peer-reviewed, preprint, NGO report, official). To be agreed with the session that maintains the library. | setup review |
-| C10 | **Run record.** Date, model, rule version, wording of the instructions, settings; no change during a run. **Done 2026-11-24 for eval runs** in `evals/score.py --record`: each run folder gets `run-record.json` (date, client, model of each agent, fingerprints of the agent files, `CLAUDE.md`, `/run-evals`, cases and scorer), and a run whose instructions changed while it ran does not pass; tested both ways in `evals/tests/test_score.py`. **Still to do for classification runs**, with the pilot (step 6). | proposal v2 |
-| C11 | **Fixed test set.** 50 organisations, apart from the expert sample, run again after any change to rules, wording or model. | proposal v2 |
-| C12 | **Language.** Search in the language of the nominating country is required; coverage is reported by country. | proposal v2 |
-| C13 | **Attributes.** "Represents commercial interests" as a yes/no attribute (if decision 25 is approved); a tier for any organisation (if decision 15 (b) is approved); tier 2 in two parts (if decision 20 is approved); where two tiers are met, the highest is recorded. | proposal v2; finding 10 |
-| C14 | **Independent evidence.** Two sources count as two only if one does not repeat the other. A press release and a news item copied from it count once. | setup review |
-| W5 | **Design critic.** Before a plan, proposal or codebook goes for approval, a reviewer who has not seen the reasoning is asked only how the design fails: what it returns when it finds nothing, and what happens when a step is confidently wrong. | setup review |
-| E1 | **Not run is not failed, and is not passed.** An agent with no answer in a test run is recorded as "not run". A run in which nothing was run does not pass. **Done 2026-11-24** in `evals/score.py`, with tests in both directions. | setup review |
-| E2 | **Proposal test case.** The case with 15 planted flaws in a research proposal becomes part of the scorer: pass at 11 found, with seven that must be found. **Done 2026-11-24**: the case is in `evals/cases/methods-reviewer-proposal/` and scored by `evals/score.py`, with tests that a full answer passes and that a missed required flaw or a quote not in the review fails. | setup review |
-| E3 | **Repeat runs.** Each case is run three times. Results are given as "found in k of n runs" with the range, and "found every time" is kept apart from "found at least once". **Done 2026-11-24** in `evals/score.py` (scoring a folder of runs writes `repeats.json`: passed in k of n runs, the range found, and each item as found every time, in some runs, or never), with tests, and `/run-evals` runs the set three times. First used on run 2026-11-24d: every case passed in 3 of 3 runs except the historical case (passed in 2 of 3; 11 to 13 of 18). | setup review |
-| E4 | **The tests are out of the agents' reach.** The cases and the scorer cannot be changed by an agent under test; cases are frozen and fingerprinted, and a changed case is a new case. **Done 2026-11-24**: `evals/fingerprints.json` holds a fingerprint of every case file and the scorer, and `evals/tests/test_fingerprint.py` fails when one has changed, been added or been removed; the guard `.claude/hooks/protect_evals.py` blocks any agent from editing the cases, the planted answers, the scorer and the fingerprints, with tests in `evals/tests/test_setup.py` that it blocks an agent and allows the main session (`evals/README.md` part 6). Not covered: shell commands (E10), and an agent reading the planted answers, which rests on written instruction. | setup review |
-| E5 | **Kinds of test.** Kept apart in `evals/README.md`: cases that must never fail again; hard cases that measure the limit; and past real documents with known problems. **Done 2026-11-24**: the table "Three kinds of case" in `evals/README.md`. | setup review |
-| E6 | **What is reported first.** The headline result is the number of answers that were confident and wrong. Misses are weighted by how much they matter. **Done 2026-11-24** in `evals/score.py`: the headline (confident wrong answers, then misses with a required item counted three times) is printed before any per-agent score and saved in `summary.json`, with tests. | setup review |
-| E7 | **Small end-to-end test study.** About 20 invented organisations taken through every stage, with one planted error per stage, to show that each stage's check catches its error. **Deferred 2026-11-24**: the stages it would test from the codebook on (classify, validate, report) are not yet fixed, and a test study built now would have to be rebuilt once the codebook is approved and the pilot has run. To be built with step 6. | setup review |
-| E8 | **Historical test.** Proposal draft v1 and the problems the outside review found in it become a test case. The reviewer under test is never shown the outside review. **Done 2026-11-24**: `evals/cases/methods-reviewer-v1/`, a frozen copy of v1 and 18 problems from the outside review (5 required, pass at 12), scored by `evals/score.py` with tests; `/run-evals` tells the reviewer not to open the reviews folder or the study folder. | setup review |
-| E9 | **Rules a machine can decide are enforced by a machine.** Where a rule can be checked without judgement (a number not in a generated file, an edit to a raw file, a missing source), it moves from the written instructions into an automatic check, tested both for blocking what it should and for allowing what it should. **Done 2026-11-24 for the three examples**, each with a test that it blocks and a test that it allows: an edit to a raw file (the guard on raw files, tested in `evals/tests/test_setup.py`); a number not in a generated file (literature counts in `evals/tests/test_numbers.py`, data figures in `evals/tests/test_output_numbers.py`, S10); a source cited but not read (`evals/tests/test_library.py`). Not covered: shell commands (E10), and a number labelled provisional entering a formal output (S10). | setup review |
-| E10 | **Housekeeping.** The workspace is put under version control with a list of files to leave out. The guard on raw files also covers shell commands; it now covers file edits only. Needs Ramsey's explicit go-ahead, since it changes the workspace's settings. | setup review |
-
-### 10.3 Lines for the risk table (section 5)
-
-| Risk | What it looks like here | Control |
-|---|---|---|
-| **"Did not look" read as "found nothing"** | A failed lookup is counted as a non-fossil organisation | Status on every record (C2 to C4 as amended) |
-| **One source counted twice** | Two pages that repeat the same press release are taken as confirmation | C14 |
-| **A sign-off outlives the record** | An organisation is approved for naming, then its record changes | V8 as amended |
-| **The model invents a category** | A label that is not in the codebook | Choice from the list or deferral (C2 as amended) |
-| **A test that cannot fail** | An agent that was not run shows as passed, or a case is adjusted until it passes | E1, E4 |
-| **A lucky run** | A reviewer finds a flaw once and the test is taken as passed | E3 |
-| **A design nobody attacked** | Reviews check the text against sources but not how the design behaves when a step fails | W5 |
-| **A rule that relies on being remembered** | A written instruction is skipped in a long session | E9 |
-
-### 10.4 Steps for the implementation plan (section 7)
-
-| Step | What gets built or done | Done when |
-|---|---|---|
-| 1a. Scorer | E1 | Done 2026-11-24; 365 tests pass |
-| 1b. Tests of the reviewers | E2, E3, E5, E6, E8 | `/run-evals` reports three runs per case, with the proposal case and the historical case included. **Done 2026-11-24**, run `evals/results/2026-11-24d/`: no confident wrong answer in any run; the hard proposal case 15 of 15 in every run; the historical case passed in 2 of 3 runs (13, 12 and 11 of 18, all five required problems found every time; H5, H10, H12 and H15 never found) |
-| 1c. Protection | E4, E9, E10 | Each automatic check has a test that it blocks and a test that it allows; Ramsey has approved the settings change. **Partly done 2026-11-24**: E4 and E9 built with blocking and allowing tests; E10 waits for Ramsey's go-ahead |
-| 1d. Registers | R9, R10 | Proposal section 9 and `decisions.md` agree with the register |
-| 3a. Literature tables | L10 | Agreed with the library session; columns in the screening export |
-| 5b. Research proposal | W5 before sending; second check of the revised v2 | Design critic's points answered in the changes file |
-| 5c. Codebook | K2 as amended (numbered rules), C13 | After the lead researcher's reply |
-| 6. Pilot | C2 to C5 as amended, C10 to C12, C14; `org-researcher` split (done 2026-11-24: `evidence-finder` and `org-classifier`) | After the codebook is approved; `/run-evals` after the agent change |
-| 6a. End-to-end test | E7 | Each stage's check catches its planted error. **Deferred 2026-11-24** to step 6, with E7 (reason there) |
-| 8. Validation | V2, V4 to V8 as amended | After the lead researcher approves the sample design |
-
-Order proposed: 1b first (it measures the reviewers the proposal depends on), then W5 and the second check of v2, then send the proposal. Steps 5c and later wait for the lead researcher. The second outside review's advice was to stop adding structure and show performance; 1b and 6a are the items that do that.
+Sources of the v5 changes: the independent check of proposal draft v2 (`unfccc/docs/archived/reviews/proposal-v2-review-2026-11-24.md`), two outside reviews of the proposal, and a review of this setup by a second working session. Ramsey approved them on 2026-11-24, except E10. They were merged into sections 1 to 9 on 2026-11-25 (step 1d): new requirements R9, R10, L10, D9, C4a, C10 to C14, W5 and E1 to E10; amended requirements in the size table, R1, 4.1, K2 to K4, D6, C2 to C8, V2, V4 to V8, A2, A3, W1, W4, P1 and section 8; eight new risks in section 5. The v4 text with the separate change tables is kept in git history.
 
 ## 11. The workspace: portability and rules (added 2026-11-24)
 
@@ -427,7 +380,7 @@ This section is about the workspace, not the research design. Two kinds of item 
 | S7 | **Three outcomes and the five statuses.** Section 10 (C2 to C4) gives every record one of five statuses. The rules file names three outcomes. Proposed mapping, to be fixed in the codebook: "confirmed negative" is negative; "abstained" and "failed" are unknown, each with its reason; "confident" and "uncertain" describe a positive or a negative finding and its strength. The record also lists what was searched, so that "unknown" can be told from "not looked for". | Lead researcher, with the codebook |
 | S8 | **Two trials of portability**, before anything more is built: (a) a new Claude Desktop session, with only the MCP server, answers questions about this study and its sources, and its answers are compared with the files; (b) a separate Claude Code session creates a small new study from the template, and the result is checked for anything carried over from this study. | Ramsey |
 | S9 | **Tools that write** over MCP: create a study from the template; run a check. Not built. Each would need explicit authorisation on every use and a test that it cannot touch raw files or another study. | Ramsey |
-| S10 | **Provisional numbers checked by a machine** (an addition to E9): a check that a number in a proposal or report is found in a generated file, and that a number labelled provisional is not in a formal output. **Partly done 2026-11-24** in `evals/tests/test_output_numbers.py`: every data figure in a study's `proposal/numbers.md` table of measures is checked both ways against the generated file it names (a number not in the file fails, and so does a measure named but not written), with tests on an invented table that it blocks and allows; for this study it covers 4 tables and 31 rows. Not done: the provisional half, since there is no register of exploratory numbers to check against yet; and the check that the numbers file agrees with the proposal text. | Ramsey |
+| S10 | **Provisional numbers checked by a machine** (an addition to E9): a check that a number in a proposal or report is found in a generated file, and that a number labelled provisional is not in a formal output. **Partly done 2026-11-24** in `literature/tests/test_output_numbers.py`: every data figure in a study's `docs/archived/numbers.md` table of measures is checked both ways against the generated file it names (a number not in the file fails, and so does a measure named but not written), with tests on an invented table that it blocks and allows; for this study it covers 4 tables and 31 rows. **Provisional half done 2026-11-25**: register `docs/archived/provisional-numbers.md` (9 figures, every `*_PROVISIONAL.csv` in `outputs/` named) and `literature/tests/test_provisional_numbers.py`: a registered figure, or a provisional file, in the proposal, the codebook or a report draft fails unless the document says PROVISIONAL at the top; each figure is checked against its file; tests on an invented study that it blocks and allows. A reworded figure is not caught. Not done: the check that the numbers file agrees with the proposal text (U11). | Ramsey |
 | S11 | **Approvals tied to a fingerprint of the document** (an extension of V8 from organisation records to documents, and part of R9): the decision log records a fingerprint of the exact file approved, so a later change shows. | Ramsey |
 | S12 | **A `studies/` folder** holding `unfccc/` and later studies. Not done: it would change every path in this study's documents and code for no gain in method. Reconsider when a second study exists. | Ramsey |
 | S13 | **Access for people who do not have this computer** (a shared repository or a hosted server). Depends on E10 (version control) and on deciding which files may leave this computer: downloaded sources, and data that names people. | Ramsey, with TI |
@@ -438,7 +391,7 @@ Asked by Ramsey on 2026-11-24: what the MCP server should give access to, whethe
 
 **What exists today.**
 
-- *Literature.* A search index of the sources read so far: 184 sources, 17,399 passages (`literature/index/meta.json`, built 2026-11-24 at 20:24; figures updated 2026-11-25). Each passage is stored with a vector, a list of numbers that stands for its meaning, so a search finds passages by meaning as well as by exact words. It covers only sources that have been read into the library, not those screened in and not yet read.
+- *Literature.* A search index of the sources read so far: 184 sources, 17,399 passages (`literature/unfccc/data/processed/index/meta.json`, built 2026-11-24 at 20:24; figures updated 2026-11-25). Each passage is stored with a vector, a list of numbers that stands for its meaning, so a search finds passages by meaning as well as by exact words. It covers only sources that have been read into the library, not those screened in and not yet read.
 - *Study documents.* No vectors. The server searches the study's documents by matching words. With a few dozen documents this is enough; S19 says when to reconsider.
 - *Not served, by design:* any `data/` folder, files named `delegates*`, code, notebooks, the downloaded PDFs and pages themselves.
 
@@ -451,14 +404,14 @@ Asked by Ramsey on 2026-11-24: what the MCP server should give access to, whethe
 | S16 | **Every document is served with its status.** Draft, sent, approved or superseded, taken from the decision log, on `get_study` and on each search result. **Done 2026-11-24**: read only from the table "Document status" in `docs/decisions.md`; a document not in it is served as "not recorded, treat as a draft"; an unknown status word is not taken as a status. With tests. | Proposal draft v2 is not approved and carries literature counts that are out of date. A client that quotes it without that label misleads. | Ramsey |
 | S17 | **A fixed set of demonstration questions with known answers**, about ten, asked through the server from a new Claude Desktop session and compared with the files. This is trial (a) of S8, made repeatable. Includes two questions whose right answer is "not in the repository" and one that asks for the delegate list, which must be refused. **Built 2026-11-24, reworked the same day** after Ramsey's feedback that the first set read as repository tests rather than researcher questions: fifteen questions in `mcp_server/demo-questions.json` (D1 to D15), in the order a new researcher would ask them, of five kinds (answerable, partial, not recorded, restricted, research required). Two layers: layer 1, the server, where `mcp_server/tests/test_demo_questions.py` runs each question's tool calls and checks the known text or the refusal; layer 2, the answer, where each question states what a good reply does, which documents it cites and what it must not do, for a person to judge in Claude Desktop. Further tools that would make some questions easier (study status, evidence search, literature record, document comparison, validation results, research gaps) are written down as proposals only, not built. **Still to do:** ask them from a new Claude Desktop session on Ramsey's computer and compare (trial (a) of S8). | Shows performance, not structure. Repeated before each release. | Ramsey |
 | S18 | **A release checklist before another person gets access:** tests and evals pass; S14 to S17 done; no file that names people is reachable (the existing refusal tests, plus a scan of `outputs/` and `report/` for name lists); the published copies of sources are not handed on unless their licence allows it, only the records with quotations and the web addresses; the person receives the set-up note and is told the access is read-only and what is a draft. | Access for a second person is a publication-sensitive step, even when read-only. | Ramsey, with TI for what may leave this computer |
-| S19 | **How the colleague gets access**, in order of effort: (1) Ramsey shares the screen or runs the questions for them, nothing leaves the computer; (2) a copy of the folder without `data/`, `literature/pdfs/` and `literature/pages/`, with the index, used on their computer with their own Claude app; (3) a hosted server with a login. Option 2 is the proposed first release. Option 3 needs a login, a log of who asked what, and a host, and is S13. | The server runs on the computer that holds the folder; there is no remote access today. | Ramsey |
+| S19 | **How the colleague gets access**, in order of effort: (1) Ramsey shares the screen or runs the questions for them, nothing leaves the computer; (2) a copy of the folder without `data/`, `literature/unfccc/data/raw/pdfs/` and `literature/unfccc/data/raw/pages/`, with the index, used on their computer with their own Claude app; (3) a hosted server with a login. Option 2 is the proposed first release. Option 3 needs a login, a log of who asked what, and a host, and is S13. | The server runs on the computer that holds the folder; there is no remote access today. | Ramsey |
 | S20 | **Vectors for study documents: not now.** Reconsider when a study has a report and outputs large enough that word search misses passages, or when a second study exists. If built, it reuses the literature index code and gets the same freshness rule as S15. | Avoids building before the need is shown. | Ramsey |
 | S21 | **A record of what was asked** (date, tool, question, number of results; no answer text), kept locally, switched on for the demonstration. | Shows what researchers actually ask and where search fails. Needs agreement because it records use. | Ramsey |
 | S22 | **Further read-only tools, only where the Desktop trial shows a need.** Proposed with the demonstration questions: study status, evidence search, literature record, document comparison, validation results, research gaps. Before any is built, the trial (S17) must show a question the seven existing tools answer badly; the tool is then built for that question, with a test that the question now gets its known answer. Validation results waits until `/validate` has run, as there is nothing to return before. Study status and research gaps would only repeat the decision log unless the log keeps them in a fixed table, as S16 does for document status. *Proposed, not approved.* | A tool nobody needs is one more thing a client can misuse. The trial shows which gaps are real. | Ramsey |
 | S23 | **A scan for name lists in what the server serves**, the part of S18 not yet built: a test that no served file in `outputs/` or `report/` holds a column or list of people's names (for example a column headed name, first name, surname or delegate, or many rows matching the participant list). Can be built before the review comes back. *Proposed, not approved.* | Today only the `data/` folder and files named `delegates*` are refused. A table written to `outputs/` by mistake would be served. | Ramsey |
 | S24 | **The decision log's file references stay true.** A test that every file path written in `docs/decisions.md` either exists or is marked as moved or not expected. On 2026-11-24 eight references pointed to files that had moved (one log row now records where they are). *Proposed, not approved.* | The log is what a client reads first through the server; a dead reference sends it looking for a file that is not there. | Ramsey |
-| S25 | **Generated files only in `outputs/`.** A test that `<study>/data/` holds only `raw/` and `derived/`. On 2026-11-24 two generated tables were found in `unfccc/data/outputs/`, which the server does not serve and rule 6 does not point to (removed the same day, see the decision log). The test is *proposed, not approved.* | A number's file must be where the checks and the server look for it. | Ramsey |
-| S26 | **Code style checks become part of the tests**, once the cleaning and literature code is no longer being changed by other sessions. On 2026-11-24 `uv run ruff check` reports 460 findings, almost all long lines in `unfccc/src/` and `literature/`; `evals/` and `mcp_server/` are clean. Then they are fixed in one pass and kept at zero. *Proposed, not approved.* | Fixing them now would collide with work in progress; leaving them unmeasured lets the number grow. | Claude, reported to Ramsey |
+| S25 | **Generated files only in `outputs/`.** A test that `<study>/data/` holds only `raw/` and `processed/`. On 2026-11-24 two generated tables were found in `unfccc/data/outputs/`, which the server does not serve and rule 6 does not point to (removed the same day, see the decision log). The test is *proposed, not approved.* | A number's file must be where the checks and the server look for it. | Ramsey |
+| S26 | **Code style checks become part of the tests**, once the cleaning and literature code is no longer being changed by other sessions. On 2026-11-24 `uv run ruff check` reports 460 findings, almost all long lines in `unfccc/src/` and `literature/`; `.claude/skills/run-evals/` and `mcp_server/` are clean. Then they are fixed in one pass and kept at zero. *Proposed, not approved.* | Fixing them now would collide with work in progress; leaving them unmeasured lets the number grow. | Claude, reported to Ramsey |
 | S27 | **The answers to the demonstration questions are graded, not only the server's replies** (layer 2 of S17), after the first Desktop trial: a second model reads each reply against the question's stated must, cite and must-not fields and quotes the reply for each verdict, as the methods review is graded in `/run-evals`. A person still reviews the grades. *Proposed, not approved.* | Makes the trial repeatable before each release (S18) without a person reading fifteen answers each time. | Ramsey |
 
 ### 11.4 Routing and review loops for the researcher (added 2026-11-24)
@@ -468,7 +421,7 @@ Asked by Ramsey on 2026-11-24: when the researcher works through the MCP server,
 | ID | What | Where | Status |
 |---|---|---|---|
 | S28 | **A workflow guide.** For each kind of request: the workflow in Claude Code, the checks before it counts as done, what only the researcher decides, and what can be done in Claude Desktop. The seven checks named in plain words (source check, design critic, independent check, numbers check, decision sorting, approval record, eval run). An output whose check did not run is called unchecked. The guide is served by the MCP server, and the server's opening instructions tell the client to read it. | `.claude/docs/research-workflows.md`, `CLAUDE.md`, `mcp_server/src/research_mcp/` (instructions, guide list), with tests that the guide names only workflows and agents that exist and covers every workflow | Built 2026-11-24. Still to do: `/run-evals` (`CLAUDE.md` changed) |
-| S29 | **Questions are sorted before they reach the researcher.** Three groups: decided by the assistant (how to build, run or check), the researcher's (definitions, thresholds, scope, sample, evidence, wording, naming, approval), and Ramsey's (setup, access, anything leaving this computer). A technical question that hides a research choice is split. Research questions go to the researcher at most three at a time, each with options, a recommendation and its reason, what changes, and what waits. In Claude Code a separate agent does the sorting from the questions and the study's documents only, not the reasoning that produced them; in Claude Desktop the assistant does it in a separate pass and says so. | `.claude/agents/decision-triage.md` (Claude Opus 5.5), `research-workflows.md` section 3, `CLAUDE.md` ("Who you are working with") | Built 2026-11-24. Still to do: an eval case with planted mis-sorted questions (for example a year limit worded as a technical question, a model choice worded as a research question), scored like the other agents |
+| S29 | **Questions are sorted before they reach the researcher.** Three groups: decided by the assistant (how to build, run or check), the researcher's (definitions, thresholds, scope, sample, evidence, wording, naming, approval), and Ramsey's (setup, access, anything leaving this computer). A technical question that hides a research choice is split. Research questions go to the researcher at most three at a time, each with options, a recommendation and its reason, what changes, and what waits. In Claude Code a separate agent does the sorting from the questions and the study's documents only, not the reasoning that produced them; in Claude Desktop the assistant does it in a separate pass and says so. | `.claude/agents/decision-triage.md` (Claude Opus 5.5), `research-workflows.md` section 3, `CLAUDE.md` ("Who you are working with") | Built 2026-11-24. Eval case added 2026-11-25 (`.claude/skills/run-evals/cases/decision-triage/`: eleven questions, one already decided, one technical question hiding a research choice, more research questions than may be asked at once), scored by `score_triage`; result in `.claude/skills/run-evals/results.md` |
 | S30 | **Guided starting points in Claude Desktop** (MCP prompts): ready-made requests such as "where does the study stand", "what does the literature say about …", "prepare my questions", each of which reads the workflow guide first. *Proposed, not approved.* | `mcp_server/` | Ramsey |
 | S31 | **The design critic as its own agent** (W5). Until it exists, `methods-reviewer` is asked the two critic questions in addition to its own. *Proposed, not approved.* | `.claude/agents/` | Ramsey |
 
@@ -477,8 +430,8 @@ Asked by Ramsey on 2026-11-24: when the researcher works through the MCP server,
 | ID | What | Where | Status |
 |---|---|---|---|
 | S32 | **The organisation look-up is a script.** The two steps of `evidence-finder` and `org-classifier`, same models and prompts, run from code. Code decides what needs no judgement: which addresses may be opened, whether a quote is on its page, whether a label and rule exist, confidence by level of evidence, what an empty or failed look-up becomes. Runs resume; classification can go as a batch at half price; every step prints its cost before it starts. | `unfccc/src/lookup/` | Built, 35 tests; not yet run on real organisations |
-| S33 | **Haiku reads every result** and flags a quote that does not support the match or the label. It never changes a record; flags go to a person. | `lookup check` | Built; no eval case yet |
+| S33 | **Haiku reads every result** and flags a quote that does not support the match or the label. It never changes a record; flags go to a person. | `lookup check` | Built; no eval case, and none planned: this check sits on the script route, which is not used (no API key, decided 2026-11-25). On the helper route quote support is checked by `citation-checker` (`/classify` step 5), which has its own eval case |
 | S34 | **The codebook carries a block for the script** ("Labels for the script"). The script refuses a version below 1.0 unless `--draft`, whose results are kept apart. | `/codebook`, `lookup/codebook.py` | Built |
-| S35 | **A source-reader starts from the passages that matter** (`rag chunks`), about a third of a long source, and searches the full text for anything missing. Measured on sources already read: about 40% of the words keep 68–69% of the quotes a full reading chose. | `literature/src/rag/chunks.py`, `source-reader` | Built; eval needed |
-| S36 | **Which evals a change needs** is computed from what changed since the last passing run, at no cost. | `evals/what_to_run.py` | Built |
-| S37 | **Length budgets.** The proposal: about 5,000 words of main text, never over 6,500, with a budget per section; a report 1,500–3,000. A new version is an edit, not a rewrite. Checked with `evals/doc_length.py` before handing over. Proposal v3 is 23,333 words of main text. | `/research-proposal`, `/draft-report`, `CLAUDE.md` | Built; proposal v3 not yet cut |
+| S35 | **A source-reader starts from the passages that matter** (`rag chunks`), about a third of a long source, and searches the full text for anything missing. Measured on sources already read: about 40% of the words keep 68–69% of the quotes a full reading chose. | `literature/src/rag/chunks.py`, `source-reader` | Built. Eval case added 2026-11-25 (`.claude/skills/run-evals/cases/source-reader-chunks/`: the key term defined only on a page the chunk file leaves out), scored by `score_source_chunks`; result in `.claude/skills/run-evals/results.md` |
+| S36 | **Which evals a change needs** is computed from what changed since the last passing run, at no cost. | `.claude/skills/run-evals/scripts/what_to_run.py` | Built |
+| S37 | **Length budgets.** The proposal: about 5,000 words of main text, never over 6,500, with a budget per section; a report 1,500–3,000. A new version is an edit, not a rewrite. Checked with `.claude/scripts/doc_length.py` before handing over. Proposal v7, as approved, is 6,488 words of main text, within budget. | `/research-proposal`, `/draft-report`, `CLAUDE.md` | Built; met by v7 |

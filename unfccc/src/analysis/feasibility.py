@@ -1,7 +1,7 @@
 """Feasibility test of the look-up and classification method (a demonstration).
 
 Not the pilot, not a codebook. See the decision log row of 2026-11-24 "Feasibility
-test" and `unfccc/docs/working/old/feasibility-scheme-draft.md`. Results are provisional.
+test" and `unfccc/docs/archived/old/feasibility-scheme-draft.md`. Results are provisional.
 
 What this module does, with no model and no web access:
 
@@ -26,7 +26,7 @@ import numpy as np
 import pandas as pd
 
 STUDY = Path(__file__).resolve().parents[2]
-DERIVED = STUDY / "data" / "derived"
+DERIVED = STUDY / "data" / "processed"
 FEAS = DERIVED / "feasibility"
 SCHEME = STUDY / "docs" / "old" / "feasibility-scheme-draft.md"
 SCHEME_VERSION = "feasibility-draft-0.1"

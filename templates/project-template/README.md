@@ -12,9 +12,9 @@ docs/codebook.md                 outline, filled in by /codebook after the propo
 docs/proposal.md                 outline, filled in by /research-proposal
 ```
 
-`docs/` holds only what the researcher and stakeholders read or approve. Working records go in `docs/working/`: `numbers.md`, `cleaning-log.md`, `reviews/` (each /check-work record) and `old/` (superseded drafts).
+`docs/` holds only what the researcher and stakeholders read or approve. Working records go in `docs/archived/`: `numbers.md`, `cleaning-log.md`, `reviews/` (each /check-work record) and `old/` (superseded drafts).
 
-Folders created as the study needs them: `data/raw/`, `data/derived/`, `src/`, `tests/`, `notebooks/`, `outputs/`, `report/`.
+Folders created as the study needs them: `data/raw/`, `data/processed/`, `src/`, `tests/`, `notebooks/`, `outputs/`, `report/`.
 
 After copying, delete this file from the new study folder.
 

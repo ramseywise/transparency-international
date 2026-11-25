@@ -1,0 +1,47 @@
+{
+ "agent": "evidence-finder",
+ "what": "Three organisation names, the same as in the retired org-researcher case, looked up on the web against a small test codebook. They test the evidence step only: the status must come from the fixed list, a name that cannot be found or could be several bodies gives 'abstained' with the reason, every item of evidence has a page address, a section, an exact quote, a date and a level, and no label is given.",
+ "cases": [
+  {
+   "case": "O1",
+   "name_as_written": "Varnholt Tessaly Aggregates Kooperatiiv",
+   "country": "Latvia",
+   "other_spellings": [],
+   "expect_status": [
+    "abstained"
+   ],
+   "expect_reason": [
+    "nothing found"
+   ],
+   "why": "An invented name. Nothing can be found. The lookup ran, so this is 'abstained', not 'failed'."
+  },
+  {
+   "case": "O2",
+   "name_as_written": "CNE",
+   "country": "France",
+   "other_spellings": [],
+   "expect_status": [
+    "abstained"
+   ],
+   "expect_reason": [
+    "could be several entities"
+   ],
+   "why": "A bare acronym that fits several bodies. Nothing settles which."
+  },
+  {
+   "case": "O3",
+   "name_as_written": "Umweltbundesamt",
+   "country": "Germany",
+   "other_spellings": [
+    "UBA"
+   ],
+   "expect_status": [
+    "confident"
+   ],
+   "why": "A federal agency with official pages. Evidence must come with a fetched page, a section, a quote, a date and a level."
+  }
+ ],
+ "pass_if": {
+  "cases_right_at_least": 3
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "id": "halden-2030-registers",
+ "citation": {
+  "authors": [
+   "Halden Centre"
+  ],
+  "year": 2030,
+  "title": "Lobby Registers Compared"
+ },
+ "findings": [
+  {
+   "claim": "six of eleven registers were mandatory",
+   "quote": "Of the registers reviewed, six of eleven were mandatory.",
+   "page": 1
+  }
+ ],
+ "pages_read": "1-2"
+}

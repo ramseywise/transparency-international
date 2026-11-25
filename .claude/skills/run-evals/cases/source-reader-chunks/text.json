@@ -1,0 +1,63 @@
+{
+ "id": "eastmere-who-speaks-for-shipping",
+ "kind": "pdf",
+ "url": null,
+ "file": null,
+ "title": "Who speaks for shipping?",
+ "authors": [],
+ "published": null,
+ "modified": null,
+ "page_count": 6,
+ "pages": [
+  {
+   "page": 1,
+   "blocks": [
+    "Who speaks for shipping?",
+    "Industry presence in the delegations to the harbour conference",
+    "Eastmere Policy Lab, briefing paper",
+    "This briefing counts the delegates registered at the harbour conference whose organisations are tied to the shipping-fuel industry. It covers the conference's public register of participants."
+   ]
+  },
+  {
+   "page": 2,
+   "blocks": [
+    "Data and method",
+    "We used the conference's register of participants, 1,930 delegates in 61 delegations. Each delegate's organisation was looked up in the national company register to see whether it holds a licence to sell marine fuel.",
+    "Where the register gave no entry, the organisation's own website was used, and the case was marked as lower confidence."
+   ]
+  },
+  {
+   "page": 3,
+   "blocks": [
+    "Findings",
+    "We count 412 of 1,930 delegates as industry-linked, or 21 per cent.",
+    "Industry-linked delegates were concentrated in nine delegations, which together account for 300 of the 412."
+   ]
+  },
+  {
+   "page": 4,
+   "blocks": [
+    "Background",
+    "Port policy has been negotiated in this forum since its first session. Earlier briefings by other groups covered only the host country's delegation.",
+    "Shipping fuel accounts for a growing share of port emissions."
+   ]
+  },
+  {
+   "page": 5,
+   "blocks": [
+    "Limitations",
+    "Registration is not attendance: a registered delegate may never have come to the conference.",
+    "One person coded every organisation, so no measure of agreement between coders is available.",
+    "Governments should publish the employer of every delegate."
+   ]
+  },
+  {
+   "page": 6,
+   "blocks": [
+    "Annex: definitions",
+    "An industry-linked delegate is a delegate whose registered organisation holds a marine fuel sales licence, or is an association at least half of whose members hold one.",
+    "Delegates from government ministries are never counted as industry-linked, whatever their portfolio."
+   ]
+  }
+ ]
+}

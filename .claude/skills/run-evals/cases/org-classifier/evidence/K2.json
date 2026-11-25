@@ -1,0 +1,19 @@
+{
+ "name_as_written": "Brannock Petroleum Trading Ltd",
+ "country": "Norland",
+ "matched_entity": "",
+ "status": "abstained",
+ "status_reason": "nothing found",
+ "searches": [
+  {
+   "query": "Brannock Petroleum Trading Ltd",
+   "language": "English"
+  },
+  {
+   "query": "Brannock Petroleum Trading Norland company register",
+   "language": "English"
+  }
+ ],
+ "evidence": [],
+ "instructions_found_in_pages": null
+}
